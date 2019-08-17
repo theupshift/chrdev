@@ -1,5 +1,6 @@
 #carbonads-container {
   float: right;
+  padding: 0.7em;
 }
 #carbonads * {
   border-bottom: none !important;
