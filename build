@@ -4,4 +4,4 @@ printf "\n💯  build\n"
 
 npx @11ty/eleventy
 
-cp -r assets _site/assets
+# cp -r assets _site/assets
