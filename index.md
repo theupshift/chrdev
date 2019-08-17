@@ -2,6 +2,7 @@
 layout: layout.njk
 ---
 
+**read more** [about me](/about)
 
 **read** some [posts](/posts) that i wrote over the years
 

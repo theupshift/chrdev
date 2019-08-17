@@ -5,7 +5,7 @@ title: 'about'
 ---
 
 <p>
-  <h1>coding for passion</h1>
+  <h1>coding as a passion</h1>
 </p>
 
 <p>
