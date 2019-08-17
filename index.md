@@ -2,7 +2,7 @@
 layout: layout.njk
 ---
 
-<img src="/assets/images/cf3.jpg" style="width: 12em; height: 12em;">
+<img src="/assets/images/cf3.jpg" alt="christian at agile venture bolzano 2019" style="width: 12em; height: 12em;">
 
 **read more** [about me](/about)
 
