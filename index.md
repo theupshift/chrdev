@@ -2,6 +2,8 @@
 layout: layout.njk
 ---
 
+<img src="/assets/images/cf3.jpg" style="width: 12em; height: 12em;">
+
 **read more** [about me](/about)
 
 **read** some [posts](/posts) that i wrote over the years
