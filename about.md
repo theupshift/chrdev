@@ -10,7 +10,7 @@ mainly javascript at [wonderflow](https://www.wonderflow.co)
 
 i am a [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development) & [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development)
 
-into data visualization and statistics, machine learning is something i am getting my hand dirty from time to time.
+into data visualization and statistics, machine learning is something i am getting my hands dirty from time to time.
 
 generally all kinds of technology that brings value to me, read IoT, bots, apps, cli utilities, automation of all kinds.
 
