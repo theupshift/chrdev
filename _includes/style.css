@@ -8,7 +8,7 @@ img { max-width: 100%; }
 #avatar { width: 12em; height: 12em; }
 
 /* typography */
-html, body { font-size: 20px; }
+html, body { font-size: 20px; font-weight: 400; line-height: 1.45; }
 @media all and (max-width: 700px) { html, body { font-size: 18px; } }
 html, body { font-family: Menlo, 'Courier New', Courier, Inconsolata, monospace; }
 ::-moz-selection { background: #fe1; }
@@ -19,3 +19,12 @@ a:hover, a:active, a:focus { background: #fe1; }
 pre { overflow: scroll; background: #fffabd; }
 ul { padding-left: 0.1em; }
 h1, h2, h3 { margin-top: 0; }
+/* https://type-scale.com/ */
+p { margin-bottom: 1.25em; }
+h1, h2, h3, h4, h5 { margin: 2.75rem 0 1rem; font-weight: 400; line-height: 1.15; }
+h1 { margin-top: 0; font-size: 2.488em; }
+h2 { font-size: 2.074em; }
+h3 { font-size: 1.728em; }
+h4 { font-size: 1.44em; }
+h5 { font-size: 1.2em; }
+small, .text_small { font-size: 0.833em; }
