@@ -43,9 +43,11 @@ title: Christian Fei's Blog
   </head>
   <body>
     <header>
+      {% if page.url != '/' and page.url != '/about' %}
       <div id="carbonads-container">
         <script async defer type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7DCK7I&placement=christianfeicom" id="_carbonads_js"></script>
       </div>
+      {% endif %}
       <p>
         <a href="/">
           <strong>christian fei's blog</strong>
