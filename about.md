@@ -1,6 +1,5 @@
 ---
 layout: layout.njk
-free_layout: true
 title: About
 ---
 
