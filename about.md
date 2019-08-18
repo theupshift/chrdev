@@ -13,7 +13,7 @@ into data visualization and statistics, machine learning is something i am getti
 
 generally all kinds of technology that brings value to me, read IoT, bots, apps, cli utilities, automation of all kinds.
 
----
+<br>
 
 right now i am probably **writing code** for [pomodoro.cc](https://pomodoro.cc), [simple-jekyll-search](https://github.com/christian-fei/simple-jekyll-search) and other  projects, most of the code can be found on my [github profile](https://github.com/christian-fei)
 
