@@ -4,7 +4,12 @@
   "description": "for https://christianfei.com",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "npx @11ty/eleventy --serve",
+    "build": "./build",
+    "purge": "./purge",
+    "deploy": "./deploy",
+    "up": "npm run build && npm run deploy && npm run purge"
   },
   "repository": {
     "type": "git",
