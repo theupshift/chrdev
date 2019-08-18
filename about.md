@@ -1,7 +1,7 @@
 ---
 layout: layout.njk
 free_layout: true
-title: 'about'
+title: About
 ---
 
 # coding as a pa$$ion
