@@ -23,8 +23,17 @@ title: Christian Fei's Blog
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@christian_fei">
     <meta name="twitter:creator" content="@christian_fei">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/carbonads.css">
+    {% set style %}
+      {% include "style.css" %}
+    {% endset %}
+    {% set carbonads %}
+      {% include "carbonads.css" %}
+    {% endset %}
+
+    <style>
+      {{ style | cssmin | safe }}
+      {{ carbonads | cssmin | safe }}
+    </style>
   </head>
   <body>
     <header>
