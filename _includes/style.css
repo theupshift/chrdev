@@ -18,3 +18,4 @@ a:visited { color: inherit; }
 a:hover, a:active, a:focus { background: #fe1; }
 pre { overflow: scroll; background: #fffabd; }
 ul { padding-left: 0.1em; }
+h1, h2, h3 { margin-top: 0; }
