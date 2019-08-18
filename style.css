@@ -1,12 +1,12 @@
 /* layout */
 /* html, body { min-height: 100%; min-height: 100vh; } */
 body { padding: 0.5em 1em; }
-body > header { max-width: 45em; margin: 0 auto; }
+body > header { max-width: 45em; margin: 0 auto; overflow: hidden; }
 body > main { max-width: 45em; margin: 0 auto; }
 body > footer { max-width: 45em; margin: 0 auto; }
 img { max-width: 100%; }
-
-
+#avatar { width: 12em; height: 12em; }
+@media all and (max-width: 700px) { #avatar { display: none; } }
 
 /* typography */
 html, body { font-size: 20px; }
@@ -14,9 +14,6 @@ html, body { font-size: 20px; }
 html, body { font-family: Menlo, 'Courier New', Courier, Inconsolata, monospace; }
 ::-moz-selection { background: #fe1; }
 ::selection { background: #fe1; }
-
-/* a { background: #ddd; } */
-/* a { background: #fe1; color: inherit; } */
 a { color: inherit; }
 a:visited { color: inherit; }
 a:hover, a:active, a:focus { background: #fe1; }
