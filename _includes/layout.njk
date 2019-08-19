@@ -41,6 +41,10 @@ title: Christian Fei's Blog
     </style>
 
     <script>
+      {% include "share-paragraph.js" %}
+    </script>
+
+    <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.preload.js', {scope: '/'})
       .then((reg) => {
