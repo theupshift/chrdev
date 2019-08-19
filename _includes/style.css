@@ -34,16 +34,19 @@ small, .text_small { font-size: 0.833em; }
 }
 .share-paragraph-hover .share-paragraph {
   /* display: none; */
+  font-size: 1.2em;
   transition: all .3s ease;
   position: absolute;
-  font-size: 0.8em;
   text-decoration: underline;
   right: 0em;
   bottom: -0.5em;
-  opacity: 0.3;
+  opacity: 0;
 }
 .share-paragraph-hover:hover .share-paragraph {
   display: inline-block;
   right: 0.5em;
+  opacity: 0.5;
+}
+.share-paragraph-hover:hover .share-paragraph:hover {
   opacity: 1;
 }
