@@ -1,4 +1,5 @@
 window.onload = function () {
+  if (window.outerWidth < 768) return console.info('guard share-paragraph')
   const paragraphs = document.querySelectorAll('main p')
   console.log('paragraphs', paragraphs)
   paragraphs.forEach(p => {
