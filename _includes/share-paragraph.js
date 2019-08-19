@@ -6,6 +6,7 @@ window.onload = function () {
     const url = encodeURIComponent(window.location.href)
     const text = encodeURIComponent(`"${p.innerText}"`)
     el.setAttribute('href', `https://twitter.com/intent/tweet?original_referer=${url}&ref_src=twsrc%5Etfw&text=${text}&tw_p=tweetbutton&url=${url}`)
+    el.setAttribute('target', '_blank')
     el.classList.add('share-paragraph')
     el.innerText = `Share “`
     p.appendChild(el)
