@@ -46,18 +46,15 @@ title: Christian Fei's Blog
 
     <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations()
-      .then(function(registrations) {
-        for(let registration of registrations) {
-          registration.unregister()
-          console.log('unregister', registration)
-        }
+      navigator.serviceWorker.register('/sw.preload.js', {scope: '/'})
+      .then((reg) => {
+        console.log('Registration succeeded. Scope is ' + reg.scope);
       })
-      .catch(function(err) {
-        console.log('Service Worker registration failed: ', err);
+      .catch((error) => {
+        console.error('Registration failed with ' + error);
       });
     }
-    </script>
+</script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57238829-1"></script>
