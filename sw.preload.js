@@ -1,42 +1,51 @@
 /* eslint-env serviceworker */
 
-var CACHE = 'network-or-cache'
+var cacheName = 'christianfei.com'
+var cacheFiles = [
+  '/',
+  '/about/',
+  '/posts/'
+]
 
-self.addEventListener('install', function (evt) {
-  console.log('The service worker is being installed.')
-  evt.waitUntil(precache())
+self.addEventListener('install', function (event) {
+  event.waitUntil(
+    caches.open(cacheName)
+      .then(function (cache) {
+        console.log('Opened cache')
+        return cache.addAll(cacheFiles)
+      })
+  )
 })
 
-self.addEventListener('fetch', function (evt) {
-  console.log('The service worker is serving the asset.')
-
-  evt.respondWith(fromNetwork(evt.request, 400).catch(function () {
-    return fromCache(evt.request)
-  }))
+self.addEventListener('fetch', function (event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function (response) {
+        // Grab the asset from SW cache.
+        if (response) {
+          return response
+        }
+        return fetch(event.request)
+      }).catch(function () {
+        // Can't access the network return an offline page from the cache
+        return caches.match('/')
+      })
+  )
 })
 
-function precache () {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.addAll([
-      '/',
-      '/about/',
-      '/posts/'
-    ])
-  })
-}
-function fromNetwork (request, timeout) {
-  return new Promise(function (resolve, reject) {
-    var timeoutId = setTimeout(reject, timeout)
-    fetch(request).then(function (response) {
-      clearTimeout(timeoutId)
-      resolve(response)
-    }, reject)
-  })
-}
-function fromCache (request) {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.match(request).then(function (matching) {
-      return matching || new Error('no-match')
+// Empty out any caches that don’t match the ones listed.
+self.addEventListener('activate', function (event) {
+  var cacheWhitelist = [cacheName]
+
+  event.waitUntil(
+    caches.keys().then(function (cacheNames) {
+      return Promise.all(
+        cacheNames.map(function (cacheName) {
+          if (cacheWhitelist.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName)
+          }
+        })
+      )
     })
-  })
-}
+  )
+})
