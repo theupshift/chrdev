@@ -44,6 +44,21 @@ title: Christian Fei's Blog
       {% include "share-paragraph.js" %}
     </script>
 
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations()
+      .then(function(registrations) {
+        for(let registration of registrations) {
+          registration.unregister()
+          console.log('unregister', registration)
+        }
+      })
+      .catch(function(err) {
+        console.log('Service Worker registration failed: ', err);
+      });
+    }
+    </script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57238829-1"></script>
     <script>
