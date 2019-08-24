@@ -24,6 +24,10 @@ reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
 ## polyglot
 
+italian, german & english speaking.
+
+---
+
 *probably* wrote at least some **javascript** every day over the past five years
 
 depending on the weather outside, i refresh my little but solid **elixir** skills
