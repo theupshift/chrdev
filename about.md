@@ -7,7 +7,7 @@ title: About
 
 mainly javascript at [wonderflow](https://www.wonderflow.co)
 
-i am a [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development) & [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development)
+i am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
 
 into data visualization and statistics, machine learning is something i am getting my hands dirty from time to time.
 

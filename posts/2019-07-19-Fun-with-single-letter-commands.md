@@ -48,7 +48,7 @@ obviously runs the tests
 
 runs `npm test`
 
-# w.fish
+# w.fish
 
 less used now, runs `npm run watch`
 
@@ -64,7 +64,7 @@ open a visual studio code window for the current directory
 
 runs `code .`
 
-# d.fish
+# d.fish
 
 is for deploying fast
 
