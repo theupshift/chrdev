@@ -5,7 +5,7 @@ window.onload = function () {
   paragraphs.forEach(p => {
     const el = document.createElement('a')
     const url = encodeURIComponent(window.location.href)
-    const text = encodeURIComponent(`"${p.innerText}"`)
+    const text = encodeURIComponent(`"${p.innerText}" by @christian_fei`)
     el.setAttribute('href', `https://twitter.com/intent/tweet?original_referer=${url}&ref_src=twsrc%5Etfw&text=${text}&tw_p=tweetbutton&url=${url}`)
     el.setAttribute('target', '_blank')
     el.classList.add('share-paragraph')
