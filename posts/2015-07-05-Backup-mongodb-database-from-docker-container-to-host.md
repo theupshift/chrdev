@@ -1,5 +1,5 @@
 ---
-title: "How to backup a mongodb database from a docker container to host"
+title: "Backup mongodb from a docker container to host"
 date: 2015-07-05
 layout: post.njk
 tags: post

@@ -1,5 +1,5 @@
 ---
-title: 'Using Cryptosheet.cc: Aggregate account balance by exchange and currency pair'
+title: Using Cryptosheet.cc, aggregations
 date: 2018-06-26
 layout: post.njk
 tags: post

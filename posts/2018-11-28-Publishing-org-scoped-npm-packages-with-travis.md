@@ -2,6 +2,7 @@
 title: Publishing org scoped npm packages with travis
 layout: post.njk
 tags: post
+date: 2018-11-28
 ---
 
 If you stumbled upon this article, you are probably seeing the following error message on travis in the deployment stage:

@@ -1,5 +1,6 @@
+
 ---
-title: "Solution to PhoneGap issue: 'device ready has not fired after 5 seconds'"
+title: "PhoneGap issue, 'device ready' not fired after 5 seconds"
 date: 2014-08-20
 layout: post.njk
 tags: post

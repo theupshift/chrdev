@@ -1,5 +1,5 @@
 ---
-title: 'clean android device storage, move files to sd-card, remove junk files'
+title: 'clean android device storage'
 date: 2018-07-11
 layout: post.njk
 tags: post

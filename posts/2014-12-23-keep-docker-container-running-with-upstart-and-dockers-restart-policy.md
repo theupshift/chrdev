@@ -1,5 +1,5 @@
 ---
-title: "Keep Docker container running with upstart and Docker's restart policy"
+title: "Keep Docker container running"
 date: 2014-12-23
 layout: post.njk
 tags: post

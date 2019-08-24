@@ -1,5 +1,5 @@
 ---
-title: 'Notes about Blockchain for Smart Communities @trentosmart #TSCW18'
+title: 'Notes about Blockchain for Smart Communities'
 date: 2018-04-12
 layout: post.njk
 tags: post

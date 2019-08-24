@@ -1,5 +1,5 @@
 ---
-title: 'Cryptosheet.cc 🚀  The Launch'
+title: 'Cryptosheet.cc 🚀, The Launch'
 date: 2018-06-20
 layout: post.njk
 tags: post

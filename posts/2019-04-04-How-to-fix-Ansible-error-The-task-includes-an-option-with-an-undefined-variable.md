@@ -1,5 +1,5 @@
 ---
-title: How to fix Ansible error "The task includes an option with an undefined variable"
+title: How to fix Ansible error about "undefined variable"
 layout: post.njk
 tags: post
 date: 2019-04-04

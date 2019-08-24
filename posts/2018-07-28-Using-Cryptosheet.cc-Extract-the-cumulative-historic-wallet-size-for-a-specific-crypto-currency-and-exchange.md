@@ -1,5 +1,5 @@
 ---
-title: 'Using Cryptosheet.cc: Extract the cumulative historic wallet size for a specific crypto currency and exchange'
+title: 'Using Cryptosheet.cc, Extract cumulative wallet size'
 date: 2018-07-28
 layout: post.njk
 tags: post

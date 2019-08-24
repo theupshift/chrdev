@@ -1,5 +1,5 @@
 ---
-title: Using a daily activity log to keep track of your studies and bookmarks
+title: Using a daily activity log
 date: 2015-11-23
 layout: post.njk
 tags: post
