@@ -72,9 +72,11 @@ runs `npm run deploy`
 
 # c.fish
 
-open visual studio code for the passed file or directory
+easy git clone
 
-runs `code $argv`
+runs `git clone $argv`
+
+usage `c git@github.com:christian-fei/christian-fei.github.io`
 
 # i.fish
 
