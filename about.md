@@ -34,7 +34,7 @@ depending on the weather outside, i refresh my little but solid **elixir** skill
 
 when i feel really bad, i console myself with some **haskell** (completed the course [FP101 at UNI Delft](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0))
 
-had a chance to dabble with **python** in the context of python notebooks when i was doing my first steps with understand what ML is
+had a chance to dabble with **python** in the context of python notebooks when i was doing my first steps understanding what ML is
 
 when i was doing **ruby** i felt on top of the world
 
