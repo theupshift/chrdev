@@ -44,18 +44,6 @@ title: Christian Fei's Blog
       {% include "share-paragraph.js" %}
     </script>
 
-    <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.preload.js', {scope: '/'})
-      .then((reg) => {
-        console.log('Registration succeeded. Scope is ' + reg.scope);
-      })
-      .catch((error) => {
-        console.error('Registration failed with ' + error);
-      });
-    }
-</script>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57238829-1"></script>
     <script>
