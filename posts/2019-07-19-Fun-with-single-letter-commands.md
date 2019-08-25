@@ -21,6 +21,7 @@ $ find . -name '?.fish'
 ./c.fish
 ./d.fish
 ./e.fish
+./ex.fish
 ./i.fish
 ```
 
@@ -63,6 +64,12 @@ runs `npm run build`
 open a visual studio code window for the current directory
 
 runs `code .`
+
+# ex.fish
+
+same as above, additionally exits terminal
+
+runs `code . && exit 0`
 
 # d.fish
 
