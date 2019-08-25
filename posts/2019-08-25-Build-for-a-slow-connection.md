@@ -11,11 +11,9 @@ tags: post
 
 trying to work on your pc in 2019 is the worst if you are experiencing a slow internet connection.
 
-it's as if you can hear the bytes dripping in your pc. tic. toc.
-
 you check the network tab and hope that these was the last few bytes downloaded. but no. it was just the beginning.
 
-i'm not gonna even start ranting about web apps with bloated js, that makes you wonder who were the geniuses that built that site, and how much they got paid. "front end engineers" ftw. but they are using react, angular and rx.js, don't worry.
+i'm not gonna even start ranting about web apps with bloated js, that make you wonder who were the geniuses that built that site, and how much they got paid. but they are using react, angular and rx.js, don't worry.
 
 # sorry for the waiting
 
