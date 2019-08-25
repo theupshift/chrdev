@@ -6,6 +6,7 @@ tags: post
 ---
 
 # speed matters
+
 ![kbps.png](/assets/images/posts/build-for-a-slow-connection/kbps.png)
 
 trying to work on your pc in 2019 is the worst if you are experiencing a slow internet connection.
