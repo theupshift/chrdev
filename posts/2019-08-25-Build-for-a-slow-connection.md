@@ -53,3 +53,5 @@ does your site load below 100ms? can you interact with it within 200ms?
 ---
 
 let me know what you think
+
+![pagespeed.png](/assets/images/posts/build-for-a-slow-connection/pagespeed.png)
