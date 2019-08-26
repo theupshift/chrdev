@@ -22,5 +22,6 @@ touch $post_full_path
 printf "\n---" >> $post_full_path
 printf "\ntitle: $args" >> $post_full_path
 printf "\ndate: $date" >> $post_full_path
+printf "\nlayout: post.njk\ntags: post" >> $post_full_path
 printf "\n---\n" >> $post_full_path
 open $post_full_path
