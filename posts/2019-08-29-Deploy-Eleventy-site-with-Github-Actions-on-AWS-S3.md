@@ -50,6 +50,13 @@ additionally set two **Secrets** in the repository settings on GitHub
 
 Now you should be all set, and your eleventy blog gets deployed to AWS with GitHub Actions on every push.
 
+
+## update
+
+this blog post was deployed with this exact workflow, so meta
+
+![gh-actions-deploy-blog-post.png](/assets/images/posts/eleventy-github-actions-aws/gh-actions-deploy-blog-post.png)
+
 ---
 
 A few highlights of the workflow:
@@ -57,4 +64,3 @@ A few highlights of the workflow:
 ![gh-actions-build-deploy.png](/assets/images/posts/eleventy-github-actions-aws/gh-actions-build-deploy.png)
 
 ![gh-actions-cloudflare-purge-cache.png](/assets/images/posts/eleventy-github-actions-aws/gh-actions-cloudflare-purge-cache.png)
-
