@@ -9,7 +9,7 @@ jobs:
       - name: install
         run: |
           npm install
-      - name: build and deploy
+      - name: up
         env:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_SECRET_ACCESS_SECRET: ${{ secrets.AWS_SECRET_ACCESS_SECRET }}
