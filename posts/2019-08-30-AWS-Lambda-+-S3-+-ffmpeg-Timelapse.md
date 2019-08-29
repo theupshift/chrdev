@@ -7,6 +7,10 @@ tags: post
 
 Yes you read that right. Figured out a way to make a timelapse thanks to AWS Lambda and a bucket with images on S3.
 
+## Requirements
+
+- configured aws cli (install with `pip` or `brew`)
+
 
 ## Deploy the ffmpeg layer
 
@@ -19,6 +23,14 @@ So to do this, deploy the Layer via the serverless repo: [Click here](https://se
 ## Create an S3 bucket
 
 Name it, for example, "garden-snapshots" **in the same region as the ffmpeg-lambda-layer**
+
+## Get project
+
+Download the project from here: [github.com/christian-fei/timelapse-lambda](https://github.com/christian-fei/timelapse-lambda)
+
+```
+git clone git@github.com:christian-fei/timelapse-lambda.git
+```
 
 ## Create IAM Role
 
