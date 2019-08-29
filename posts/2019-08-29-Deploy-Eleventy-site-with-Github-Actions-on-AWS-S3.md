@@ -14,14 +14,7 @@ Additionally you can put in a small script that purges [cloudflare's](https://ww
 
 ## Setting up the Github Actions workflow
 
-create a file in `.github/workflows`:
-
-```
-mkdir .github/workflows
-touch .github/workflows/main.yml
-```
-
-The contents of `.github/workflows/main.yml` should be:
+create a file in your repository under `.github/workflows/main.yml`, with the following contents:
 
 ```
 name: name this build as you like
