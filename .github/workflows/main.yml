@@ -11,7 +11,7 @@ jobs:
           npm install
       - name: up
         env:
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_SECRET: ${{ secrets.AWS_SECRET_ACCESS_SECRET }}
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           CF_ZONE: ${{ secrets.CF_ZONE }}
