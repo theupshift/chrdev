@@ -7,7 +7,7 @@ tags: post
 
 ![gh-actions-working.png](/assets/images/posts/eleventy-github-actions-aws/gh-actions-working.png)
 
-I [finally managed](https://twitter.com/christian_fei/status/1167164272096550912) to get the deployment of an [eleventy](https://www.11ty.io) site (namely this one) and sync with AWS S3, where this blog is hosted.
+I [finally managed](https://twitter.com/christian_fei/status/1167164272096550912) to get the deployment of an [eleventy - 11ty](https://www.11ty.io) site (namely this one) and sync with AWS S3, where this blog is hosted.
 
 Additionally you can put in a small script that purges [cloudflare's](https://www.cloudflare.com) cache too.
 
