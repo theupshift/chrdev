@@ -1,6 +1,5 @@
 name: christianfei build
 on: [push]
-
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04
@@ -12,7 +11,7 @@ jobs:
       - name: up
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_SECRET: ${{ secrets.AWS_SECRET_ACCESS_SECRET }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           CF_ZONE: ${{ secrets.CF_ZONE }}
           CF_EMAIL: ${{ secrets.CF_EMAIL }}
