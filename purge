@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source secrets
+source secrets || true
 printf "\n💥  purge cache for https://$CF_DOMAIN\n"
 printf "\n"
 # echo "CF_API_KEY: $CF_API_KEY"
