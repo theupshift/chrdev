@@ -17,7 +17,7 @@ set the following secrets in the settings of your repository where you want to r
 
 you'll get this token from the `BotFather`, just issue the `/newbot` command.
 
-### TELEGRAM_CHANNEL
+### TELEGRAM_CHANNEL
 
 this is the receivers `chat_id`, you can find out yours with [@userinfobot](https://web.telegram.org/#/im?p=@userinfobot).
 
