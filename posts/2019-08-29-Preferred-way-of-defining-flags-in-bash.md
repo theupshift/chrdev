@@ -5,7 +5,7 @@ layout: post.njk
 tags: post
 ---
 
-This is the easiest way I [found](https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/) of defining flags to set variables in a bash scripts.
+This is the easiest way I [found](https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/) of defining flags to set variables in a bash script.
 
 let's call this file `flags.sh`:
 
@@ -27,9 +27,9 @@ do
 done
 ```
 
-This way I can `source` this file and have the variables `$NAME` and `$ID` available, like this:
+This way I can `source` the file `flags.sh` and have the variables `$NAME` and `$ID` available, like this:
 
-`main.sh`
+in `main.sh`
 
 ```sh
 #!/bin/bash
@@ -40,7 +40,9 @@ echo "NAME: $NAME"
 echo "ID: $ID"
 ```
 
-Awesome, right!? The same for functions (you get the point) (`functions.sh`):
+Awesome, right!? The same for functions (you get the point)
+
+in `functions.sh`
 
 ```sh
 function print_name {
