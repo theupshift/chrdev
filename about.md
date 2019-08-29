@@ -3,7 +3,7 @@ layout: layout.njk
 title: About
 ---
 
-# coding as a pa$$ion
+# coding as a passion
 
 mainly javascript at [wonderflow](https://www.wonderflow.co)
 
