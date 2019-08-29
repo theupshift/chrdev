@@ -45,6 +45,8 @@ Awesome, right!? The same for functions (you get the point)
 in `functions.sh`
 
 ```sh
+#!/bin/bash
+
 function print_name {
   echo "NAME: $1"
 }
