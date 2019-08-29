@@ -1,4 +1,4 @@
-name: Eleventy Build
+name: christianfei build
 on: [push]
 
 jobs:
@@ -10,5 +10,8 @@ jobs:
         run: |
           npm install
       - name: build and deploy
+        secrets:
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
         run: |
           npm run up
