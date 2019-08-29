@@ -6,7 +6,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
-      - name: Hello World
+      - name: install
         run: |
-          HELLO="WORLD"
-          echo "$HELLO"
+          npm install
+      - name: build and deploy
+        run: |
+          npm run up
