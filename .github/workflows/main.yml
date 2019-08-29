@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
-    - name: Hello World
-      run: |
-        HELLO="WORLD"
-        echo "$HELLO"
+      - name: Hello World
+        run: |
+          HELLO="WORLD"
+          echo "$HELLO"
