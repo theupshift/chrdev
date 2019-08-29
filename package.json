@@ -8,7 +8,7 @@
     "start": "npx @11ty/eleventy --serve",
     "build": "./build",
     "purge": "./purge || true",
-    "deploy": "./deploy",
+    "deploy": "./deploy.with-assets",
     "up": "npm run build && npm run deploy && npm run purge"
   },
   "repository": {
