@@ -37,7 +37,14 @@ jobs:
             ./_site/ [s3://bucket_name] # change it
 ```
 
-additionally set two **Secrets** in the repository settings on GitHub
+### secrets
+
+additionally set two **Secrets** in the repository settings on GitHub:
+
+```
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+```
 
 ![gh-actions-github-secrets.png](/assets/images/posts/eleventy-github-actions-aws/gh-actions-github-secrets.png)
 
