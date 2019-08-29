@@ -12,7 +12,5 @@ window.onload = function () {
     el.innerText = `Share “`
     p.appendChild(el)
     p.classList.add('share-paragraph-hover')
-    p.style = `
-    `
   })
 }
