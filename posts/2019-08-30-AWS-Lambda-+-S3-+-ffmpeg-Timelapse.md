@@ -18,7 +18,9 @@ With aws lambda you can leverage an existing layer made of pre-built packages.
 
 You can extend the [ffmpeg-lambda-layer](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:145266761615:applications~ffmpeg-lambda-layer) to write the Lambda with ffmpeg built in.
 
-So to do this, deploy the Layer via the serverless repo: [Click here](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:145266761615:applications~ffmpeg-lambda-layer) and deploy it on AWS Lambda
+So to do this, deploy the Layer via the serverless repo: [Click here](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:145266761615:applications~ffmpeg-lambda-layer) and deploy it on AWS Lambda and copy the ARN
+
+![ffmpeg-layer.png](/assets/images/posts/ffmpeg-layer.png)
 
 ## Create an S3 bucket
 
