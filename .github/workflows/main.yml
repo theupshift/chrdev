@@ -10,9 +10,8 @@ jobs:
           npm install
       - name: uat
         run: |
-          npm i -g wait-on
           npm start &
-          wait-onhttp://localhost:8080
+          ./node_modules/.bin/wait-on http://localhost:8080
           npx cypress run
       - name: build
         run: |
