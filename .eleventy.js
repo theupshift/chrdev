@@ -1,7 +1,7 @@
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const cp = require('child_process')
-const lastcommit = cp.execSync(`git log -1 --stat`).toString()
+const lastcommit = cp.execSync(`git log -1 --no-color --stat && git diff --no-color HEAD^`).toString()
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
