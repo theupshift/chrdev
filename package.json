@@ -24,6 +24,7 @@
   "homepage": "https://github.com/christian-fei/christian-fei.github.io#readme",
   "dependencies": {
     "clean-css": "^4.2.1",
+    "eleventy-plugin-reading-time": "0.0.1",
     "html-minifier": "^4.0.0"
   },
   "devDependencies": {}
