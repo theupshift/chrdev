@@ -2,3 +2,5 @@ _site
 node_modules
 .vscode/
 secrets
+cypress/screenshots/
+cypress/videos/
