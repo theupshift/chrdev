@@ -1,5 +1,7 @@
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
+const cp = require('child_process')
+const lastcommit = cp.execSync(`git log -1 --stat`).toString()
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
@@ -27,5 +29,8 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addFilter("json", function(obj) {
     return JSON.stringify(obj || {})
+  });
+  eleventyConfig.addFilter("commit", function(obj, cb) {
+    return lastcommit
   });
 };
