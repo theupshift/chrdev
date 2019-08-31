@@ -11,7 +11,7 @@ With the help of **[cryptosheet.cc](https://cryptosheet.cc) I am now able to get
 
 All on a single Google Spreadsheet, here is the proof:
 
-![cryptosheet accounts breakdown](/assets/images/posts/cryptosheet-accounts-breakdown.png)
+![cryptosheet accounts breakdown](/assets/images/posts/cryptosheet/cryptosheet-accounts-breakdown.png)
 
 <div class="container">
   <section class="section hero card">
@@ -45,7 +45,7 @@ On the **ACCOUNTS** worksheet, you can get easy access to the current account ba
 
 Did you know that in spreadsheet formulas you can reference other worksheets? That's exactly what you're gonna need.
 
-![cryptosheet accounts example](/assets/images/posts/cryptosheet-accounts-example.png)
+![cryptosheet accounts example](/assets/images/posts/cryptosheet/cryptosheet-accounts-example.png)
 
 Now follow these steps:
 
@@ -73,7 +73,7 @@ eur-eur	=SUMIF(ACCOUNTS!$B$2:$B, "*" & $A13 & "*", ACCOUNTS!$G$2:$G)	=SUM(B9:B13
 
 Here is GIF as a quick how-to:
 
-![cryptosheet-paste-spreadsheet-values](/assets/images/posts/cryptosheet-paste-spreadsheet-values.gif)
+![cryptosheet/cryptosheet-paste-spreadsheet-values](/assets/images/posts/cryptosheet/cryptosheet-paste-spreadsheet-values.gif)
 
 ---
 

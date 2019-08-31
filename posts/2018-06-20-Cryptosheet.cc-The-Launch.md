@@ -15,7 +15,7 @@ Cryptosheet now satisfies my need to have all the information of my cryptocurren
 
 Here is an example:
 
-![cryptosheet](/assets/images/posts/cryptosheet.jpg)
+![cryptosheet](/assets/images/posts/cryptosheet/cryptosheet.jpg)
 
 ## Spreadsheets are dead. Long live spreadsheets!
 
