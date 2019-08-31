@@ -25,4 +25,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("excerpt", function(content) {
     return (content || '').substring(0, 200)
   });
+  eleventyConfig.addFilter("json", function(obj) {
+    return JSON.stringify(obj || {})
+  });
 };
