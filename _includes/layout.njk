@@ -87,14 +87,14 @@ title: Christian Fei's Blog
 
         </p>
 
-      <p>
-        <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/tree/master/{{ page.inputPath }}">Edit this page on GitHub</a>
-      </p>
+        {% if page.url != '/' and page.url != '/about' %}
+        <p>
+          <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/tree/master/{{ page.inputPath }}">Edit this page on GitHub</a>
+        </p>
+        {% endif %}
     </header>
     <main>{{ content | safe }}</main>
     <footer>
-      <br>
-
       {% if page.url != '/' and page.url != '/about' %}
       <p>
         <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/tree/master/{{ page.inputPath }}">Edit this page on GitHub</a>
