@@ -24,7 +24,9 @@ context('Navigation', () => {
       cy.get('body > header').contains('twitter')
       cy.get('body > header').contains('linkedin')
     })
-    it.skip('edit page', () => {
+    it('edit page', () => {
+      cy.visit('http://localhost:8080/posts')
+
       cy.get('body > header').contains('Edit this page on GitHub')
     })
   })
