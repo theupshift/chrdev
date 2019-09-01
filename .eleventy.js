@@ -2,12 +2,10 @@ const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const cp = require('child_process')
 const lastcommit = cp.execSync(`git log -1 --no-color --stat && git diff --no-color HEAD^`).toString()
-const readingTime = require('eleventy-plugin-reading-time');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("robots.txt");
-  eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addCollection("posts", (collection) => {
     return collection.getFilteredByTag('post').reverse();
   });
