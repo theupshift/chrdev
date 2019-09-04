@@ -1,11 +1,10 @@
 name: christianfei build
 on: [push]
-branch: master
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@master
         with:
           ref: refs/heads/master
       - name: install
