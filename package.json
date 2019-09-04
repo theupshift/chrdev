@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/christian-fei/christian-fei.github.io#readme",
   "dependencies": {
+    "@11ty/eleventy": "^0.9.0",
     "clean-css": "^4.2.1",
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "shimmer": "^1.2.1"
   },
   "devDependencies": {}
 }
