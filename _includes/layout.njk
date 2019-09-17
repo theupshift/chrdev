@@ -116,5 +116,16 @@ title: Christian Fei's Blog
     <script>
       {% include "share-paragraph.js" %}
     </script>
+
+    {% set mainJS %}
+      {% include "main.js" %}
+    {% endset %}
+
+    {% if page.url == '/posts/' %}
+    <script type="text/javascript">
+      {{ mainJS | safe }}
+    </script>
+    {% endif %}
+
   </body>
 </html>
