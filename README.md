@@ -5,7 +5,7 @@ for https://christianfei.com
 # go live
 
 ```
-./build ; ./deploy ; ./purge
+git push
 ```
 
 
@@ -13,7 +13,6 @@ for https://christianfei.com
 
 ```
 npx serve dist/
-npx watch ./build --ignoreDotFiles --ignoreDirectoryPattern="/dist/"
 ```
 
 ## write
@@ -22,18 +21,12 @@ npx watch ./build --ignoreDotFiles --ignoreDirectoryPattern="/dist/"
 ./write this is a test
 ```
 
-# sync getpocket.com items
-
-```
-npx @christian_fei/pocket-sync [pocket_consumer_key] <pocket_access_token>
-```
-
 ## build
 
 with
 
 ```
-./build
+npm run build
 ```
 
 ## deploy
@@ -41,14 +34,14 @@ with
 with
 
 ```
-./deploy
+npm run deploy
 ```
 
 ## purge
 
 fill out `secrets` by copying `secrets.example`.
 
-then
+for purging the cache on cloudflare:
 
 ```
 ./purge
