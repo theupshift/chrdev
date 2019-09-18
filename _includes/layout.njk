@@ -54,46 +54,21 @@ title: Christian Fei's Blog
         <script async defer type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7DCK7I&placement=christianfeicom" id="_carbonads_js"></script>
       </div>
       {% endif %}
-      <p>
-        <a href="/">
-          <strong>christian fei's blog</strong>
-        </a>
-      </p>
-      <p>
-        agile developer
-      </p>
-      <p>
-        clean code connoisseur && testing aficionado
-      </p>
-      <p>
-          <b>read more</b> <a href="/about">about me</a>
-        </p>
-        <p>
-          <b>read</b> some <a href="/posts">posts</a> that i wrote
-        </p>
-        <p>
-          <b>building</b> <a href="https://pomodoro.cc">pomodoro.cc</a>
-        </p>
+      <p><a href="/"><strong>christian fei's blog</strong></a></p>
+      <p>agile developer</p>
+      <p>clean code connoisseur && testing aficionado</p>
+      <p><b>read more</b> <a href="/about#main">about me</a></p>
+      <p><b>read</b> some <a href="/posts#main">posts</a> that i wrote</p>
+      <p><b>building</b> <a href="https://pomodoro.cc">pomodoro.cc</a></p>
+      <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a></p>
+      <p><b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a></p>
+      <p><b>distilling customer feedback</b> at <a href="https://www.wonderflow.co">wonderflow</a></p>
 
-        <p>
-          <b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a>
-        </p>
-        <p>
-          <b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a>
-        </p>
-
-        <p>
-          <b>distilling customer feedback</b> at <a href="https://www.wonderflow.co">wonderflow</a>
-
-        </p>
-
-        {% if page.url != '/' and page.url != '/about' %}
-        <p>
-          <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/tree/master/{{ page.inputPath }}">Edit this page on GitHub</a>
-        </p>
-        {% endif %}
+      {% if page.url != '/' and page.url != '/about' %}
+      <p><a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/tree/master/{{ page.inputPath }}">Edit this page on GitHub</a></p>
+      {% endif %}
     </header>
-    <main>{{ content | safe }}</main>
+    <main id="main">{{ content | safe }}</main>
     <footer>
       {% if page.url != '/' and page.url != '/about' %}
       <p>
