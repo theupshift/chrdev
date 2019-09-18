@@ -16,7 +16,5 @@ context('Content', () => {
     cy.get('body > header').contains('about me').click()
 
     cy.location('pathname').should('include', 'about')
-
-    cy.get('body').contains('coding as a passion')
   })
 })
