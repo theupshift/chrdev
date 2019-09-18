@@ -2,8 +2,6 @@
 layout: layout.njk
 ---
 
-<h1>posts</h1>
-
 <ul class="searchable">
 {% for post in collections.posts %}
   <li class="post-item">
