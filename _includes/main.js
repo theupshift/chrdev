@@ -13,6 +13,15 @@ function main () {
   if ($headings) {
     $headings.forEach(anchorify)
   }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (!/main/.test(window.location.hash)) {
+      const main = document.getElementById('main')
+      if (!main) return
+      const top = +main.getBoundingClientRect().top
+      window.scrollTo(0, top - 10)
+    }
+  })
 }
 
 function initSearchable ($searchable) {

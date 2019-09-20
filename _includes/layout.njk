@@ -89,14 +89,9 @@ title: Christian Fei's Blog
     <script>
       {% include "share-paragraph.js" %}
     </script>
-
-    {% set mainJS %}
-      {% include "main.js" %}
-    {% endset %}
-
-    {% if page.url == '/posts/' %}
+    {% if page.url != '/' %}
     <script type="text/javascript">
-      {{ mainJS | safe }}
+      {% include "main.js" %}
     </script>
     {% endif %}
 
