@@ -17,7 +17,6 @@ context('Navigation', () => {
   })
   context('links', () => {
     it('work', () => {
-      cy.get('body > header').contains('pomodoro.cc')
       cy.get('body > header').contains('wonderflow')
     })
     it('social', () => {
