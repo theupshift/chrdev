@@ -5,7 +5,11 @@ title: Now
 
 # what i am doing now
 
-*last updated 2019-09-20*
+*last updated 2019-10-06*
+
+- visiting sharm el Sharm El-Sheikh
+
+*2019-09-20*
 
 - working on statistics for [pomodoro.cc pro](https://pomodoro.cc/pro)
 
