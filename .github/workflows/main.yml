@@ -16,7 +16,7 @@ jobs:
       - name: uat
         run: |
           npx serve _site -l 8080 &
-          npx cypress run
+          npx cypress run --record false
           npx fkill :8080
       - name: deploy
         env:
