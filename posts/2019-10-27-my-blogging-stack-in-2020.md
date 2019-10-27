@@ -29,7 +29,7 @@ so the most natural thing was to run `npx @11ty/eleventy --serve`. and this is h
 
 # eleventy
 
-i have a custom [eleventy configuration](https://github.com/christian-fei/christian-fei.github.io/blob/master/.eleventy.js) with a few additional custom features and build steps:
+i have a custom [eleventy configuration](https://github.com/christian-fei/christian-fei.github.io/blob/master/.eleventy.js) with a few additional features and build steps:
 
 - copy assets
 - robots.txt
