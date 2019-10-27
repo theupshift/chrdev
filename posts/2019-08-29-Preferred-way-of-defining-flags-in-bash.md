@@ -3,7 +3,7 @@ title: Preferred way of defining flags in bash
 date: 2019-08-29
 layout: post.njk
 tags:
-  - post
+	- post
 ---
 
 This is the easiest way I [found](https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/) of defining flags to set variables in a bash script.

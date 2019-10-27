@@ -4,6 +4,9 @@ date: 2015-10-15
 layout: post.njk
 tags:
   - post
+  - angularjs
+  - js
+  - testing
 ---
 
 > Angular`s digest loop is like a baby: you need to take care of it and feed it well, or it will puke all over your nice shirt.

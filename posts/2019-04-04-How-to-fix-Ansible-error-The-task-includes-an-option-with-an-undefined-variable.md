@@ -3,6 +3,7 @@ title: How to fix Ansible error about "undefined variable"
 layout: post.njk
 tags:
   - post
+  - tut
 date: 2019-04-04
 ---
 

@@ -4,6 +4,7 @@ date: 2015-05-09
 layout: post.njk
 tags:
   - post
+  - general
 ---
 
 In my opinion a README should be a requirement for every project, be it open source, personal, or at work.

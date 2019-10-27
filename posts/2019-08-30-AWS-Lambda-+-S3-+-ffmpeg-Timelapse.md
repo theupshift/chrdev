@@ -4,6 +4,9 @@ date: 2019-08-30
 layout: post.njk
 tags:
   - post
+  - aws
+  - js
+  - tut
 ---
 
 Yes you read that right. Figured out a way to make a timelapse thanks to AWS Lambda and a bucket with images on S3.

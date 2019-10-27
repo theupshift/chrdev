@@ -4,6 +4,7 @@ date: 2019-08-25
 layout: post.njk
 tags:
   - post
+  - general
 ---
 
 # speed matters

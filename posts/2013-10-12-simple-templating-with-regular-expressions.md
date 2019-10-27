@@ -2,7 +2,7 @@
 desc: "Create a simple templating system with regular expressions, format, jQuery plugin, JavaScript, template, JSON"
 layout: post.njk
 tags:
-  - post
+	- post
 title: "Simple templating with regular expressions"
 date: 2013-10-12 18:08:55
 ---

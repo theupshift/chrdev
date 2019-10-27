@@ -3,6 +3,8 @@ title: "A closer look at Angular's dependency injection"
 layout: post.njk
 tags:
   - post
+  - angularjs
+  - js
 date: 2014-05-26
 ---
 

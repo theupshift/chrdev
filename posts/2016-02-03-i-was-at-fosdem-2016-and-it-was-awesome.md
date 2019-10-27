@@ -4,6 +4,7 @@ date: 2016-02-03
 layout: post.njk
 tags:
   - post
+  - general
 has_images: true
 ---
 

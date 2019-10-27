@@ -2,7 +2,7 @@
 title: Notes about Crash course in Machine Learning
 layout: post.njk
 tags:
-  - post
+	- post
 date: 2018-12-09
 ---
 

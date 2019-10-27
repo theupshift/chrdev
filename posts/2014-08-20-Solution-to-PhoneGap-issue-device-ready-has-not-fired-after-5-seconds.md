@@ -5,6 +5,8 @@ date: 2014-08-20
 layout: post.njk
 tags:
   - post
+  - tut
+  - js
 ---
 
 When you develop a hybrid application with PhoneGap, Cordova, Ionic, CordovaChromeApps and any other framework that is built on top on PhoneGap, I can almost assure you that you'll get this error. And it's super annoying.

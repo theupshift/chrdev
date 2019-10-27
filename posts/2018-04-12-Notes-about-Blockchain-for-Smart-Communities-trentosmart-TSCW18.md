@@ -4,6 +4,8 @@ date: 2018-04-12
 layout: post.njk
 tags:
   - post
+  - blockchain
+  - crypto
 ---
 
 ![trento smart city week](/assets/images/posts/tscw.jpg)

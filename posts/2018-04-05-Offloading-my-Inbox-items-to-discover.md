@@ -4,6 +4,7 @@ date: 2018-04-05
 layout: post.njk
 tags:
   - post
+  - general
 ---
 
 Lately I felt overwhelmed by my *Obsessive Compulsive Reminder Disorder ™*. In other words, my [Inbox](https://inbox.google.com/) was full of interesting links that I saved as a reminder, but easily got out of hand:

@@ -4,6 +4,7 @@ date: 2014-08-03
 layout: post.njk
 tags:
   - post
+  - tut
 ---
 
 

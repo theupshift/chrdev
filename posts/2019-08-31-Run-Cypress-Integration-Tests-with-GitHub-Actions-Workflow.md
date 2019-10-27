@@ -4,6 +4,8 @@ date: 2019-08-31
 layout: post.njk
 tags:
   - post
+  - js
+  - tut
 ---
 
 On this very site this deployment strategy is used with GitHub actions:

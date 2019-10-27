@@ -4,6 +4,7 @@ date: 2017-03-24
 layout: post.njk
 tags:
   - post
+  - general
 ---
 
 Related: Read [how I build my site](/posts/how-i-build-my-site/).

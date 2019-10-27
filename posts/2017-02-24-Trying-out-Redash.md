@@ -4,6 +4,7 @@ date: 2017-02-24
 layout: post.njk
 tags:
   - post
+  - tut
 has_images: true
 ---
 

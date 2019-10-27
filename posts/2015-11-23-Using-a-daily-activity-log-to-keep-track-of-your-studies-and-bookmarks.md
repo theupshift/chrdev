@@ -4,6 +4,7 @@ date: 2015-11-23
 layout: post.njk
 tags:
   - post
+  - general
 ---
 
 Today I started using [joebew42`s](https://twitter.com/joebew42) [daily activity log concept](https://github.com/joebew42/daily-activity-log-concept).

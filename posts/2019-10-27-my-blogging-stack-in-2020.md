@@ -5,6 +5,7 @@ date: 2019-10-27
 tags:
   - post
   - js
+  - general
 ---
 
 ## tldr;

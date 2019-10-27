@@ -4,6 +4,8 @@ date: 2017-03-22
 layout: post.njk
 tags:
   - post
+  - js
+  - testing
 ---
 
 Today at work, during the **"Pomodoro study time"** (a pomodoro of free study time during work),

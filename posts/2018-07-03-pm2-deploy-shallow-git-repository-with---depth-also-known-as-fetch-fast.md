@@ -4,6 +4,8 @@ date: 2018-07-03
 layout: post.njk
 tags:
   - post
+  - js
+  - tut
 ---
 
 I found it. It found me...

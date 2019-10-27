@@ -4,6 +4,8 @@ date: 2018-04-12
 layout: post.njk
 tags:
   - post
+  - js
+  - tut
 ---
 
 Rate limiting API calls to an HTTP service doesn't have to cumbersome and too complicated.

@@ -4,6 +4,7 @@ date: 2016-01-07
 layout: post.njk
 tags:
   - post
+  - general
 ---
 
 ![fork git](/assets/images/posts/fork_count.png)

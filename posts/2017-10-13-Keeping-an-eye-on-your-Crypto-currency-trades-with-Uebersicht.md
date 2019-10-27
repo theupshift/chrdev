@@ -4,6 +4,7 @@ date: 2017-10-13
 layout: post.njk
 tags:
   - post
+  - tut
 ---
 
 you can find all my uebersicht widgets on github in my [dotfiles](/posts/My-dotfiles/):

@@ -4,6 +4,8 @@ date: 2015-10-19
 layout: post.njk
 tags:
   - post
+  - elixir
+  - angularjs
 ---
 
 **Warning: sarcasm ahead**

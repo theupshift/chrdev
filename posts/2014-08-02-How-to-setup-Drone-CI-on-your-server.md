@@ -4,6 +4,7 @@ date: 2014-08-02
 layout: post.njk
 tags:
   - post
+  - tut
 ---
 
 There are countless continous integration continuous integration tools: Travis, Jenkins, Shippable, Circle, CodeShip, Wercker, etc.

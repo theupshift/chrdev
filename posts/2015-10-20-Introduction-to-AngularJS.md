@@ -4,6 +4,9 @@ date: 2015-10-20
 layout: post.njk
 tags:
   - post
+  - angularjs
+  - js
+  - tut
 ---
 
 Angular is a JavaScript framework for creating modern web applications,

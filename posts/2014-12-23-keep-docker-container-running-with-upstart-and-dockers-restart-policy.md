@@ -4,6 +4,8 @@ date: 2014-12-23
 layout: post.njk
 tags:
   - post
+  - tut
+  - docker
 ---
 
 Upstart is a tool which manages the start/stop/restart of processes on given events from the OS (like boot, shutdown, etc.).

@@ -4,6 +4,7 @@ date: 2016-05-28
 layout: post.njk
 tags:
   - post
+  - tut
 ---
 
 install discourse.

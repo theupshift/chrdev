@@ -4,6 +4,9 @@ date: 2015-01-17
 layout: post.njk
 tags:
   - post
+  - testing
+  - angularjs
+  - js
 ---
 
 [tldr;](#tldr)

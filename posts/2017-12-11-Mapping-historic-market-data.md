@@ -4,6 +4,10 @@ date: 2017-12-11
 layout: post.njk
 tags:
   - post
+  - crypto
+  - blockchain
+  - js
+  - tut
 bg_image: /assets/images/posts/market-data.png
 ---
 

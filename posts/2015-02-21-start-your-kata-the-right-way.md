@@ -4,6 +4,8 @@ date: 2015-02-21
 layout: post.njk
 tags:
   - post
+  - general
+  - tut
 ---
 
 If you're trying to finish a coding kata in a [pomodoro](https://pomodoro.cc/), you'll most likely have a hard time.

@@ -4,6 +4,7 @@ date: 2017-10-21
 layout: post.njk
 tags:
   - post
+  - general
 bg_image: https://pomodoro.cc/pomodoro.cc.png
 ---
 

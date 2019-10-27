@@ -4,6 +4,7 @@ date: 2017-04-15
 layout: post.njk
 tags:
   - post
+  - tut
 ---
 
 Jekyll will look into the [`_data` directory](https://jekyllrb.com/docs/datafiles/).

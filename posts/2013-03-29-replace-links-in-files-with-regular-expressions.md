@@ -3,6 +3,7 @@ desc: "Replace links and special characters in files Regular Expressions and sed
 layout: post.njk
 tags:
   - post
+  - tut
 title: "Replace links in files with Regular Expressions"
 date: 2013-03-29 17:07:07
 ---

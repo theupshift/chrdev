@@ -4,6 +4,8 @@ date: 2019-08-29
 layout: post.njk
 tags:
   - post
+  - js
+  - tut
 ---
 
 Let's get straight to the point.

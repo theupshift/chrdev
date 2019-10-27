@@ -3,6 +3,7 @@ title: Fun with single letter commands
 layout: post.njk
 tags:
   - post
+  - tut
 date: 2019-07-19
 ---
 

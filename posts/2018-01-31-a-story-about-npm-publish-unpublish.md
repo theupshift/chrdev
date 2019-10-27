@@ -4,6 +4,8 @@ date: 2018-01-31
 layout: post.njk
 tags:
   - post
+  - js
+  - general
 bg_image: /assets/images/posts/npm.svg
 ---
 

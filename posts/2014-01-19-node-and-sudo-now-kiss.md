@@ -2,6 +2,7 @@
 layout: post.njk
 tags:
   - post
+  - general
 title: "node and sudo: now kiss"
 date: 2014-01-19 23:02:14
 ---
