@@ -1,7 +1,6 @@
 window.onload = function () {
   if (window.outerWidth < 768) return console.info('guard share-paragraph')
-  const paragraphs = document.querySelectorAll('main p')
-  console.log('paragraphs', paragraphs)
+  const paragraphs = document.querySelectorAll('main p:not(.no-share)')
   paragraphs.forEach(p => {
     const el = document.createElement('a')
     const url = encodeURIComponent(window.location.href)
