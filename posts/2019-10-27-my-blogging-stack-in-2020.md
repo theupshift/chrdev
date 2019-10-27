@@ -62,7 +62,7 @@ finally, [cloudflare's](https://www.cloudflare.com) http api comes in handy to p
 
 an absolutely refreshing idea is to have a [pretty stable](https://github.com/christian-fei/christian-fei.github.io/actions) ci/cd pipeline running quite easily.
 
-i have written in another post how i [deploy my site with github actions](https://christianfei.com/posts/2019-08-29-Deploy-Eleventy-site-with-Github-Actions-on-AWS-S3/#main)
+i have written in another post how i [deploy my site with github actions](https://christianfei.com/posts/2019-08-29-Deploy-Eleventy-site-with-Github-Actions-on-AWS-S3/)
 
 what i delegate to github actions are the following commands:
 
