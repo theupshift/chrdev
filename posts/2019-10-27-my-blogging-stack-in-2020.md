@@ -1,5 +1,5 @@
 ---
-title: my blogging stack in 2019
+title: my blogging stack in 2020
 layout: post.njk
 tags: post
 date: 2019-10-27
