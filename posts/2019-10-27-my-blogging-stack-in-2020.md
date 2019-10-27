@@ -7,11 +7,11 @@ date: 2019-10-27
 
 ## tldr;
 
-- pandoc 👉 11ty (eleventy)
+- pandoc 👉 11ty (static site generator)
 - cypress (uat)
-- github actions
-- aws s3
-- cloudflare dns + ssl
+- github actions (cd)
+- aws s3 (hosting)
+- cloudflare (dns + cdn + ssl)
 
 # 11ty
 
