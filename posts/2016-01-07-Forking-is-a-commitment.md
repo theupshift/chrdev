@@ -2,7 +2,8 @@
 title: 'Forking is a commitment'
 date: 2016-01-07
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 ![fork git](/assets/images/posts/fork_count.png)

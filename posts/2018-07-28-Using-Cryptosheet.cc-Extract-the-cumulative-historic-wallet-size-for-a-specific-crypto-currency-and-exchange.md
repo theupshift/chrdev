@@ -2,7 +2,8 @@
 title: 'Using Cryptosheet.cc, Extract cumulative wallet size'
 date: 2018-07-28
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 This is what I mean with **cumulative historic wallet size**:

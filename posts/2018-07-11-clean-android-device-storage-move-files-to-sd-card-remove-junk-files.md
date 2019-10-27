@@ -2,7 +2,8 @@
 title: 'clean android device storage'
 date: 2018-07-11
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Here the methods I follow to clean my Android device in 2018.

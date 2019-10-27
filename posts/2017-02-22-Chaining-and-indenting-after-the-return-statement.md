@@ -2,7 +2,8 @@
 title: 'Chaining and indenting after the return statement'
 date: 2017-02-22
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 <pre class="f4">

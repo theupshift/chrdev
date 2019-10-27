@@ -1,7 +1,8 @@
 ---
 title: Publishing org scoped npm packages with travis
 layout: post.njk
-tags: post
+tags:
+  - post
 date: 2018-11-28
 ---
 

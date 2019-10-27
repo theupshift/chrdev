@@ -2,7 +2,8 @@
 title: 'setup nginx as a reverse proxy with basic auth for an upstream'
 date: 2018-02-07
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 > don't forget to setup ssl (of course).

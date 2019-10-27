@@ -2,7 +2,8 @@
 title: Using Cryptosheet.cc, aggregations
 date: 2018-06-26
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 I don't know about you, but **I always struggled with keeping track of my cryptocurrency assets** that I have on different exchanges.

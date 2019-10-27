@@ -2,7 +2,8 @@
 title: Run Cypress Integration Tests with GitHub Actions Workflow
 date: 2019-08-31
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 On this very site this deployment strategy is used with GitHub actions:

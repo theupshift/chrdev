@@ -2,7 +2,8 @@
 title: "DRY dependency injection in Angular with gulp-ng-annotate"
 date: 2014-06-30
 layout: post.njk
-tags: post
+tags:
+  - post
 desc: "DRY dependency injection in Angular with gulp-ng-annotate"
 ---
 

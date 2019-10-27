@@ -2,7 +2,8 @@
 title: "Write your Protractor tests in Cucumber"
 date: 2015-01-17
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 [tldr;](#tldr)

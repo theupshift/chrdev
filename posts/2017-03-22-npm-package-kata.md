@@ -2,7 +2,8 @@
 title: 'npm package kata'
 date: 2017-03-22
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Today at work, during the **"Pomodoro study time"** (a pomodoro of free study time during work),

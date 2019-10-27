@@ -2,7 +2,8 @@
 title: "Debugging acceptance tests with Angular and  Cucumber"
 date: 2015-01-09
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 I found myself quite helpless when debugging acceptance tests of any kind. One trick I found useful if you can't understand where the problem could be and want to 'see' what the web driver is seeing, is to add the following step definition to your web driver configuration:

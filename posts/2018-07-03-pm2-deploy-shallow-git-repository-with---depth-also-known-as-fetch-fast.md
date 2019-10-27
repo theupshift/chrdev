@@ -2,7 +2,8 @@
 title: 'pm2 deploy fast'
 date: 2018-07-03
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 I found it. It found me...

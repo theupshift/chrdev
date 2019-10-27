@@ -2,7 +2,8 @@
 title: 'I was at fosdem 2016 and it was awesome!'
 date: 2016-02-03
 layout: post.njk
-tags: post
+tags:
+  - post
 has_images: true
 ---
 

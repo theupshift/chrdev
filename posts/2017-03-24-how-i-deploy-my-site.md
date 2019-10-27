@@ -2,7 +2,8 @@
 title: 'how i deploy my site'
 date: 2017-03-24
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Related: Read [how I build my site](/posts/how-i-build-my-site/).

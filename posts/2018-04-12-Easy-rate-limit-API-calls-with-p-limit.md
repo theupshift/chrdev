@@ -2,7 +2,8 @@
 title: 'Easy rate limit with Promise.all and p-limit'
 date: 2018-04-12
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Rate limiting API calls to an HTTP service doesn't have to cumbersome and too complicated.

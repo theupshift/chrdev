@@ -1,7 +1,8 @@
 ---
 title: How to fix Ansible error about "undefined variable"
 layout: post.njk
-tags: post
+tags:
+  - post
 date: 2019-04-04
 ---
 

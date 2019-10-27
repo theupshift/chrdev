@@ -2,7 +2,8 @@
 title: 'My dotfiles'
 date: 2017-03-30
 layout: post.njk
-tags: post
+tags:
+  - post
 bg_image: /assets/images/posts/fork_count.png
 ---
 

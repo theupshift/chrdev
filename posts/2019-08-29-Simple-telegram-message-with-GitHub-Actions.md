@@ -2,7 +2,8 @@
 title: Simple telegram message with GitHub Actions
 date: 2019-08-29
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Let's get straight to the point.

@@ -2,7 +2,8 @@
 title: Build for a slow connection
 date: 2019-08-25
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 # speed matters

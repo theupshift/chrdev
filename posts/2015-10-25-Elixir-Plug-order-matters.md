@@ -2,7 +2,8 @@
 title: 'Elixir Plug order matters!'
 date: 2015-10-25
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 I ran into this gotcha today as I was [playing](https://github.com/christian-fei/hello_plug) with [Plug](http://hexdocs.pm/plug/extra-readme.html) of Elixir.

@@ -1,6 +1,7 @@
 ---
 layout: post.njk
-tags: post
+tags:
+  - post
 title: "Simplest Apache configuration for hosting multiple sites"
 date: 2014-01-18 17:47:32
 ---

@@ -2,7 +2,8 @@
 title: 'Fix Python 2.7 issue on OSX: bad interpreter'
 date: 2018-04-18
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Today I encountered an issue with Ansible and my python installation.

@@ -1,7 +1,8 @@
 ---
 desc: "Keep SSH connection to server VPS alive. Solution SSH hanging up, freezing, problem remote SSH"
 layout: post.njk
-tags: post
+tags:
+  - post
 title: "Keep SSH connection alive"
 date: 2013-09-17 18:49:15
 ---

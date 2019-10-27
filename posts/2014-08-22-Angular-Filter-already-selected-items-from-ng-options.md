@@ -2,7 +2,8 @@
 title: "Angular: Filter already selected items from ng-options"
 date: 2014-08-22
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Let's say you have an array of things.

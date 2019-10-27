@@ -2,7 +2,8 @@
 title: Deploy Eleventy site with Github Actions on AWS S3
 date: 2019-08-29
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 ![gh-actions-working.png](/assets/images/posts/eleventy-github-actions-aws/gh-actions-working.png)

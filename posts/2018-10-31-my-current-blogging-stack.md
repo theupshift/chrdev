@@ -1,7 +1,8 @@
 ---
 title: my current blogging stack
 layout: post.njk
-tags: post
+tags:
+  - post
 image: /assets/images/posts/blogging.jpg
 date: 2018-10-31
 ---

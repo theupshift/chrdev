@@ -2,7 +2,8 @@
 title: 'Cryptosheet.cc, The Launch'
 date: 2018-06-20
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Today, after months of work, I'm proud to announce the official launch of [cryptosheet.cc](https://cryptosheet.cc)!

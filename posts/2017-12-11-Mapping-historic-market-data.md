@@ -2,7 +2,8 @@
 title: 'Mapping historic market data'
 date: 2017-12-11
 layout: post.njk
-tags: post
+tags:
+  - post
 bg_image: /assets/images/posts/market-data.png
 ---
 

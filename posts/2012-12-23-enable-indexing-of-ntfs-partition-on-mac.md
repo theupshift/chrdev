@@ -3,7 +3,8 @@ title: How to index a NTFS partition on Mac
 desc: "Understand how to enable indexing of a NTFS partition on Mac OS X mountain lion, snow leopard"
 date: 2012-12-23 12:00:37
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Recently I found myself in a strange situation, where I was searching for a certain document located on my NTFS Data partition, but Spotlight wasn't able to find it.

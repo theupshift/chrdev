@@ -1,6 +1,7 @@
 ---
 layout: post.njk
-tags: post
+tags:
+  - post
 title: "Updating dynamic fields and nested arrays in MongoDB"
 date: 2014-03-04 20:49:22
 ---

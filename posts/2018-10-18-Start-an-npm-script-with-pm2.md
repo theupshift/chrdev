@@ -2,7 +2,8 @@
 title: 'Start an npm script with pm2'
 date: 2018-10-18
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Today I needed to run a long running `npm` script with pm2, but it wasn't immediate how to run it.

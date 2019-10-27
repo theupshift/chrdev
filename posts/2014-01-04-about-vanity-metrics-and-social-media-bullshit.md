@@ -1,7 +1,8 @@
 ---
 desc: "About vanity metrics and social media bullshit"
 layout: post.njk
-tags: post
+tags:
+  - post
 title: "About vanity metrics and social media bullshit"
 date: 2014-01-04 13:31:14
 ---

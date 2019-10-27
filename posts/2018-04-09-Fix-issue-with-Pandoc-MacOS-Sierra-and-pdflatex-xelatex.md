@@ -2,7 +2,8 @@
 title: 'Fix issue with Pandoc, MacOS Sierra and pdflatex / xelatex'
 date: 2018-04-09
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 After some time, I picked up a project where LaTeX was involved, to find out it didn't work anymore.

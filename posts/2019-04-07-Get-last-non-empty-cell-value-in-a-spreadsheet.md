@@ -1,7 +1,8 @@
 ---
 title: Get last non-empty cell value in a spreadsheet
 layout: post.njk
-tags: post
+tags:
+  - post
 date: 2019-04-07
 ---
 

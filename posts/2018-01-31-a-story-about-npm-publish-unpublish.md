@@ -2,7 +2,8 @@
 title: 'A story about npm publish / unpublish'
 date: 2018-01-31
 layout: post.njk
-tags: post
+tags:
+  - post
 bg_image: /assets/images/posts/npm.svg
 ---
 

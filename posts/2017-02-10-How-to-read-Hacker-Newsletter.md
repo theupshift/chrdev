@@ -2,7 +2,8 @@
 title: How to read Hacker Newsletter
 date: '2017-02-10'
 layout: post.njk
-tags: post
+tags:
+  - post
 ---
 
 Today, at the issue date of #338 of Hacker Newsletter, I tried:

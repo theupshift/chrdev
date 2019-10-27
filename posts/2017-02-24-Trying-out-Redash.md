@@ -2,7 +2,8 @@
 title: 'Trying out Redash'
 date: 2017-02-24
 layout: post.njk
-tags: post
+tags:
+  - post
 has_images: true
 ---
 
