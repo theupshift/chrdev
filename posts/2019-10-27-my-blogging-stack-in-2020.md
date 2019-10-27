@@ -8,6 +8,7 @@ date: 2019-10-27
 ## tldr;
 
 - pandoc 👉 11ty (eleventy)
+- cypress (uat)
 - github actions
 - aws s3
 - cloudflare dns + ssl
@@ -37,6 +38,17 @@ i have a custom [eleventy configuration](https://github.com/christian-fei/christ
 - minify html
 - minify css
 - add build commit to html footer
+
+# uat
+
+cypress is now my choice when it comes to user acceptance tests.
+
+in the [`cypress/integration`](https://github.com/christian-fei/christian-fei.github.io/tree/master/cypress/integration) you can find the following tests:
+
+- content.spec.js
+- navigation.spec.js
+
+in runs on the ci with `npx cypress run`, alongside a running http server listening on port `http://localhost:8080`.
 
 # deployment
 
