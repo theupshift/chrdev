@@ -10,13 +10,14 @@ jobs:
       - name: install
         run: |
           npm install
-      - name: uat
-        run: |
-          npm start &
-          npx cypress run
       - name: build
         run: |
           npm run build
+      - name: uat
+        run: |
+          npx serve _site -l 8080 &
+          npx cypress run
+          npx fkill :8080
       - name: deploy
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
