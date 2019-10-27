@@ -1,5 +1,0 @@
-#!/bin/bash
-
-printf "\n💯  build\n"
-
-npx @11ty/eleventy
