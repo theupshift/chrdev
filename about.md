@@ -35,7 +35,7 @@ and other  projects, most of the code can be found on my [github profile](https:
 
 ## projects
 
-coding all all kinds of tech fields that bring value to me, read IoT, Crypto, bots, apps, cli utilities, automation of all kinds.
+coding all kinds of tech fields that bring value to me, read IoT, Crypto, bots, apps, cli utilities, automation of all kinds.
 
 regarding crypto, i launched [cryptosheet.cc](https://cryptosheet.cc/) in the summer of 2018 to satisfy my need to have all my balances and transactions on various crypto exchanges and wallet providers, in one single place: namely a spreadsheet.
 
