@@ -4,6 +4,8 @@ layout: layout.njk
 
 <h1 class="no-anchorify">posts</h1>
 
+Browse by tag [#general](/tags/general), [#js](/tags/js), [#tut](/tags/tut), [#angularjs](/tags/angularjs), [#crypto](/tags/crypto)
+
 <ul class="searchable">
 {% for post in collections.posts %}
   <li class="post-item">
