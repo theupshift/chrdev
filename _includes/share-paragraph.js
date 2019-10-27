@@ -7,6 +7,7 @@ window.onload = function () {
     const text = encodeURIComponent(`"${p.innerText}" by @christian_fei`)
     el.setAttribute('href', `https://twitter.com/intent/tweet?original_referer=${url}&ref_src=twsrc%5Etfw&text=${text}&tw_p=tweetbutton&url=${url}`)
     el.setAttribute('target', '_blank')
+    el.setAttribute('aria-hidden', 'true')
     el.classList.add('share-paragraph')
     el.innerText = `Share “`
     p.appendChild(el)
