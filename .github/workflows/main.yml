@@ -10,9 +10,9 @@ jobs:
       - name: install
         run: |
           npm install
-      - name: build
-        run: |
-          npm run build
+      # - name: build
+      #   run: |
+      #     npm run build
       - name: uat
         run: |
           npx serve _site -l 8080 &
