@@ -79,6 +79,12 @@ input.searchable-input:focus {
   width: 20em;
 }
 
+.main-link {
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom: 0.2em solid #fe1;
+}
+
 /* extreme */
 /*
 strong, b {
