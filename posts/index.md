@@ -6,7 +6,7 @@ layout: layout.njk
 
 Browse by tag [#general](/tags/general), [#js](/tags/js), [#tut](/tags/tut), [#angularjs](/tags/angularjs), [#crypto](/tags/crypto)
 
-<ul class="searchable">
+<ol reversed class="searchable">
 {% for post in collections.posts %}
   <li class="post-item">
     <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
@@ -15,4 +15,4 @@ Browse by tag [#general](/tags/general), [#js](/tags/js), [#tut](/tags/tut), [#a
     </a>
   </li>
 {% endfor %}
-</ul>
+</ol>
