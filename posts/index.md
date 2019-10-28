@@ -2,7 +2,7 @@
 layout: layout.njk
 ---
 
-<h1 class="no-anchorify">posts</h1>
+<h1 class="title no-anchorify">posts</h1>
 
 Browse by tag [#general](/tags/general), [#js](/tags/js), [#tut](/tags/tut), [#angularjs](/tags/angularjs), [#crypto](/tags/crypto)
 
