@@ -3,7 +3,7 @@ layout: layout.njk
 title: Now
 ---
 
-# what i am doing now
+<h1 class="title">what i am doing now</h1>
 
 *last updated 2019-10-15*
 
