@@ -42,6 +42,8 @@ i have a custom [eleventy configuration](https://github.com/christian-fei/christ
 - minify css
 - add build commit to html footer
 
+a post that explains how to [deploy an 11ty static site with github actions on aws s3](/posts/2019-08-29-Deploy-Eleventy-site-with-Github-Actions-on-AWS-S3/)
+
 # uat
 
 cypress is now my choice when it comes to user acceptance tests.
