@@ -22,6 +22,7 @@ mainly javascript at [wonderflow](https://www.wonderflow.co)
 right now i am probably **writing code** for
 - [pomodoro.cc](https://pomodoro.cc) - simple time tracking 🍅
 - [simple-jekyll-search](https://github.com/christian-fei/simple-jekyll-search) - search for your jekyll blog
+- [mega-scraper](https://github.com/christian-fei/mega-scraper) - scrape a website's content with puppeteer
 - [this very blog](https://github.com/christian-fei/christian-fei.github.io)
 - [jenkins-stream-build](https://github.com/christian-fei/jenkins-stream-build) - stream jenkins build logs in realtime
 - [simple-telegram-message](https://github.com/christian-fei/simple-telegram-message) - send a telegram message in one line
