@@ -34,7 +34,7 @@ small, .text_small { font-size: 0.833em; }
 
 .title {
   margin-top: 1em;
-  border-bottom: 0.2em solid #fe1;
+  /* border-bottom: 0.2em solid #fe1; */
 }
 
 .share-paragraph-hover {

@@ -3,7 +3,7 @@ layout: layout.njk
 title: Now
 ---
 
-<h1 class="title">what i am doing now</h1>
+<h1 class="title no-anchorify">what i am doing now</h1>
 
 *last updated 2019-10-15*
 
