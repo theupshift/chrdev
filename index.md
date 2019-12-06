@@ -1,3 +1,28 @@
 ---
 layout: layout.njk
 ---
+
+<h1 class="title no-anchorify">posts</h1>
+
+Browse by tag <a href="/tags/general">#general</a>, <a href="/tags/js">#js</a>, <a href="/tags/tut">#tut</a>, <a href="/tags/angularjs">#angularjs</a>, <a href="/tags/crypto">#crypto</a>
+
+Below you can read the last 10 <a href="/posts">posts</a>:
+
+<ul reversed class="searchable">
+{% for post in collections.last10posts %}
+  <li class="post-item">
+    <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
+    <a href="{{ post.url }}" class="post-link">
+      {{ post.data.title | capitalize }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>about me</h2>
+
+i am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
+
+into data visualization and statistics, machine learning is something i am getting my hands dirty from time to time.
+
+read more <a href="/about">about me</a>

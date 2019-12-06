@@ -3,7 +3,7 @@
 body { padding: 0.5em 1em; }
 body > header { max-width: 50em; margin: 0 auto; overflow: hidden; }
 body > main { max-width: 50em; margin: 0 auto; }
-body > footer { max-width: 50em; margin: 3em auto 0em; }
+body > footer { max-width: 50em; margin: 10em auto 0em; }
 img { max-width: 100%; }
 #avatar { width: 4em; height: 4em; border-radius: 50%; }
 .post-item { position: relative; }
