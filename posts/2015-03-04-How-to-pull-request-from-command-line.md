@@ -4,7 +4,7 @@ date: 2015-03-04
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 ---
 
 I hope this will help you to push your productivity level to the edge and to find the ultimate flow to contribute to open source projects with ease :)

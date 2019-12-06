@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - js
-  - tut
+  - tutorial
 ---
 
 You can use it like a middleware as it is supposed to be used in combination with `router.any` to log any reqeust of the web server.

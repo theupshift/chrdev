@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - js
-  - tut
+  - tutorial
 ---
 
 ![gh-actions-working.png](/assets/images/posts/eleventy-github-actions-aws/gh-actions-working.png)

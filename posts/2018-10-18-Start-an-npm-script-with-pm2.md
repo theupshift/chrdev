@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - js
-  - tut
+  - tutorial
 ---
 
 Today I needed to run a long running `npm` script with pm2, but it wasn't immediate how to run it.

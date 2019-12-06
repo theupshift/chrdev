@@ -7,7 +7,7 @@ tags:
   - crypto
   - blockchain
   - js
-  - tut
+  - tutorial
 bg_image: /assets/images/posts/market-data.png
 ---
 

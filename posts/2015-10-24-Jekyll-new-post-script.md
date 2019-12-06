@@ -4,7 +4,7 @@ date: 2015-10-24
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 ---
 
 I want to share this handy snippet to create a jekyll post.

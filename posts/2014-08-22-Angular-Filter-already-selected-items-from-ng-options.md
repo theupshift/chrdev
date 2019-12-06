@@ -4,7 +4,7 @@ date: 2014-08-22
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
   - angularjs
   - js
 ---

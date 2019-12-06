@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - js
-  - tut
+  - tutorial
 ---
 
 Rate limiting API calls to an HTTP service doesn't have to cumbersome and too complicated.

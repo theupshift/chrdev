@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - js
-  - tut
+  - tutorial
   - featured
 ---
 

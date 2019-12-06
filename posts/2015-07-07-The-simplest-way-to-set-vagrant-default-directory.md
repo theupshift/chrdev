@@ -4,7 +4,7 @@ date: 2015-07-07
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 ---
 
 Here the oneliner, add it to the end of your Vagrantfile

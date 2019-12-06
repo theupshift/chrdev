@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - general
-  - tut
+  - tutorial
 ---
 
 If you're trying to finish a coding kata in a [pomodoro](https://pomodoro.cc/), you'll most likely have a hard time.

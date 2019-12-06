@@ -4,7 +4,7 @@ date: 2014-07-05
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 ---
 
 Resizing an image to the desired size and proportion sounds like a simple process, but I found it quite challenging using Preview since I don't own a legitimate copy of Photoshop.

@@ -4,7 +4,7 @@ date: 2018-04-18
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 ---
 
 Today I encountered an issue with Ansible and my python installation.

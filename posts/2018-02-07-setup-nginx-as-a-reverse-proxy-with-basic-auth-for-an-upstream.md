@@ -4,7 +4,7 @@ date: 2018-02-07
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 ---
 
 > don't forget to setup ssl (of course).

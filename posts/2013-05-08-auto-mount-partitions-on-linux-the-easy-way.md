@@ -3,7 +3,7 @@ desc: "Auto mount partition on Linux, super simple and easy way."
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 title: "Auto mount partition on Linux the easy way"
 date: 2013-05-08 17:46:00
 ---

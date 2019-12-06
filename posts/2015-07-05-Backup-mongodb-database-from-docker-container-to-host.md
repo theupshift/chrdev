@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - mongodb
-  - tut
+  - tutorial
 ---
 
 One of the [recommended backup strategies](http://docs.mongodb.org/manual/tutorial/backup-and-restore-tools/) of a mongodb database is through its tool called `mongodump`.

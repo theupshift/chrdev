@@ -4,7 +4,7 @@ date: 2019-08-26
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 ---
 
 You can use your [`hosts` file](https://en.wikipedia.org/wiki/Hosts_(file)) to redirect all traffic in a local black hole (namely 0.0.0.0)

@@ -4,7 +4,7 @@ date: 2014-12-23
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
   - docker
 ---
 

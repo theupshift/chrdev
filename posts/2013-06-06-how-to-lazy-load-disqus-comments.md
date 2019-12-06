@@ -3,7 +3,7 @@ desc: "Understand how to lazy load/defer Disqus comments! With code and explanat
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
   - js
 title: "How to lazy load Disqus comments"
 date: 2013-06-06 18:36:07

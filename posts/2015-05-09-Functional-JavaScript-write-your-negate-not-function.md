@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - js
-  - tut
+  - tutorial
 ---
 
 Let's say you want to filter odd numbers from a list of numbers, like `[1,2,3,4,5,6]` should become `[1,3,5]`.

@@ -3,7 +3,7 @@ title: Upgrade MongoDB 3 to 4 on Ubuntu
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
   - mongodb
 date: 2019-07-16
 ---

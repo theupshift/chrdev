@@ -6,7 +6,7 @@ tags:
   - post
   - angularjs
   - js
-  - tut
+  - tutorial
 ---
 
 Angular is a JavaScript framework for creating modern web applications,

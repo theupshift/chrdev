@@ -4,7 +4,7 @@ date: 2018-10-06
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 ---
 
 To make Anaconda executables like `conda` or `anaconda-navigator` available in your shell, you'll need to edit your `~/.config/fish/fish.config` and add the directory where the commands are located.

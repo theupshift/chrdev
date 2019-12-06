@@ -4,7 +4,7 @@ date: 2018-04-09
 layout: post.njk
 tags:
   - post
-  - tut
+  - tutorial
 ---
 
 After some time, I picked up a project where LaTeX was involved, to find out it didn't work anymore.
