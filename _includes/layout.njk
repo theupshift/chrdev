@@ -64,7 +64,9 @@ title: Christian Fei's Blog
       </p>
       <p><strong>agile developer, clean code connoisseur && testing aficionado</strong></p>
 
-      <p><b>read</b>{% if page.url != '/about/' %}&nbsp;<b>more</b> <a href="/about">about me</a> {% if page.url != '/now/' %}or{% endif %}{% endif %} {% if page.url != '/now/' %}<b>what i am doing</b> <a href="/now">now</a>{% endif %}</p>
+      {% if page.url != '/about/' %}
+      <p><b>read</b>&nbsp;<b>more</b> <a href="/about">about me</a></p>
+      {% endif %}
       {% if page.url != '/posts/' %}
       <p><b>scroll</b> through <a href="/posts">posts</a> that i wrote</p>
       {% endif %}
