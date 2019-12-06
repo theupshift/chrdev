@@ -6,6 +6,7 @@ tags:
   - post
   - js
   - general
+  - featured
 ---
 
 ## tldr;

@@ -5,6 +5,7 @@ layout: post.njk
 tags:
   - post
   - general
+  - featured
 bg_image: /assets/images/posts/fork_count.png
 ---
 

@@ -5,6 +5,7 @@ layout: post.njk
 tags:
   - post
   - general
+  - featured
 ---
 
 # speed matters

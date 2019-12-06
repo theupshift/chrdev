@@ -6,6 +6,7 @@ tags:
   - post
   - js
   - tut
+  - featured
 ---
 
 On this very site this deployment strategy is used with GitHub actions:
