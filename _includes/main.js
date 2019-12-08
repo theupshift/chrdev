@@ -20,7 +20,9 @@ function main () {
 
   const articleHeadings = document.querySelectorAll('article h1, article h2')
   const middle = parseInt(articleHeadings.length / 2, 10)
-  articleHeadings[middle].parentNode.insertBefore(document.querySelector('.newsletter').cloneNode(true), articleHeadings[middle])
+  if (articleHeadings[middle]) {
+    articleHeadings[middle].parentNode.insertBefore(document.querySelector('.newsletter').cloneNode(true), articleHeadings[middle])
+  }
 }
 
 function initSearchable ($searchable) {
