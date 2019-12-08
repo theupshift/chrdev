@@ -92,3 +92,12 @@ strong, b {
   background: #ffee1142;
 }
 */
+
+body {
+  background-image: url(https://www.pngkit.com/png/full/281-2812077_yellow-paint-splash-png-yellow-paint-splatter-no.png);
+  background-image: url(/assets/images/splash.png);
+  background-position: top;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
