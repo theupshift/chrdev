@@ -7,7 +7,7 @@ body > footer { max-width: 40em; margin: 10em auto 0em; }
 img { max-width: 100%; }
 #avatar { width: 4em; height: 4em; border-radius: 50%; }
 .post-item { position: relative; }
-.post-date { position: absolute; right: 0; }
+.post-date { position: absolute; right: 0; font-family: monospace; }
 @media all and (max-width: 60em) { .post-date { display: none; } }
 
 /* typography */
