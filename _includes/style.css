@@ -1,9 +1,9 @@
 /* layout */
 /* html, body { min-height: 100%; min-height: 100vh; } */
 body { padding: 0.5em 1em; }
-body > header { max-width: 50em; margin: 0 auto; overflow: hidden; }
-body > main { max-width: 50em; margin: 0 auto; }
-body > footer { max-width: 50em; margin: 10em auto 0em; }
+body > header { max-width: 40em; margin: 0 auto; overflow: hidden; }
+body > main { max-width: 40em; margin: 0 auto; }
+body > footer { max-width: 40em; margin: 10em auto 0em; }
 img { max-width: 100%; }
 #avatar { width: 4em; height: 4em; border-radius: 50%; }
 .post-item { position: relative; }
@@ -11,9 +11,10 @@ img { max-width: 100%; }
 @media all and (max-width: 60em) { .post-date { display: none; } }
 
 /* typography */
-html, body { font-size: 18px; font-weight: 400; line-height: 1.45; }
-@media all and (max-width: 50em) { html, body { font-size: 16px; } }
+html, body { font-size: 22px; font-weight: 400; line-height: 1.45; }
+@media all and (max-width: 40em) { html, body { font-size: 20px; } }
 html, body { font-family: Menlo, 'Courier New', Courier, Inconsolata, monospace; }
+html, body { font-family: 'Roboto', sans-serif; }
 ::-moz-selection { background: #fe1; }
 ::selection { background: #fe1; }
 a { color: inherit; }
@@ -24,7 +25,7 @@ ul { padding-left: 0.1em; }
 /* h1, h2, h3 { margin-top: 0; } */
 /* https://type-scale.com/ */
 p { margin-bottom: 1.25em; }
-h1, h2, h3, h4, h5 { margin: 2.75rem 0 1rem; font-weight: 400; line-height: 1.15; }
+h1, h2, h3, h4, h5 { margin: 2.75rem 0 1rem; font-weight: 700; line-height: 1.15; }
 h1 { margin-top: 0; font-size: 2.488em; }
 h2 { font-size: 2.074em; }
 h3 { font-size: 1.728em; }
