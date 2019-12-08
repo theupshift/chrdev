@@ -11,7 +11,7 @@ function main () {
   }
 
   if ($headings) {
-    $headings.forEach(anchorify)
+    // $headings.forEach(anchorify)
   }
 }
 
