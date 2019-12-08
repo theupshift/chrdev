@@ -13,6 +13,8 @@ function main () {
   if ($headings) {
     // $headings.forEach(anchorify)
   }
+
+  document.getElementById('main').scrollIntoView()
 }
 
 function initSearchable ($searchable) {

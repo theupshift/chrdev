@@ -73,14 +73,25 @@ title: Christian Fei's Blog
       <p><b>scroll</b> through <a href="/posts">posts</a> that i wrote</p>
       {% endif %}
       <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
-
-
-      {% include "mailchimp.signup.html" %}
-
-
     </header>
 
+    {% include "newsletter.html" %}
+
     <main id="main">{{ content | safe }}</main>
+
+    {% include "newsletter.html" %}
+
+
+    <div>
+      <h1 class="title" style="text-transform: uppercase">read more posts</h1>
+      {% for post in collections.featured %}
+        {% if post.url !== page.url %}
+        <h4>
+          <a href="{{post.url}}">{{post.data.title}}</a>
+        </h4>
+        {% endif %}
+      {% endfor %}
+    </div>
 
     <footer>
       <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>

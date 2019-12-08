@@ -1,9 +1,7 @@
 /* layout */
 /* html, body { min-height: 100%; min-height: 100vh; } */
 body { padding: 0.5em 1em; }
-body > header { max-width: 40em; margin: 0 auto; overflow: hidden; }
-body > main { max-width: 40em; margin: 0 auto; }
-body > footer { max-width: 40em; margin: 10em auto 0em; }
+body > * { max-width: 40em; margin: 0 auto; }
 img { max-width: 100%; }
 #avatar { width: 4em; height: 4em; border-radius: 50%; }
 .post-item { position: relative; }
@@ -116,4 +114,8 @@ strong, b {
 #mce-EMAIL:active, #mce-EMAIL:focus {
   background: rgba(0,0,0,0.05);
   outline: none;
+}
+
+.no-margin {
+  margin: 0;
 }
