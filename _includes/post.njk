@@ -26,7 +26,7 @@ layout: layout.njk
 </article>
 
 <nav>
-  <h1>read more posts</h1>
+  <h1 class="title" style="text-transform: uppercase">read more posts</h1>
   {% for post in collections.featured %}
     {% if post.url !== page.url %}
     <h4>

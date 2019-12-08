@@ -13,7 +13,7 @@ context('Content', () => {
     cy.get('body').get('.post-link')
   })
   it('about', () => {
-    cy.get('body > header').contains('about me').click()
+    cy.get('body > header').contains('about').click()
 
     cy.location('pathname').should('include', 'about')
   })
