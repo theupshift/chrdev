@@ -4,17 +4,23 @@ main()
 
 function main () {
   const $searchables = document.querySelectorAll('.searchable')
-  const $headings = document.querySelectorAll('h1:not(.no-anchorify), h2:not(.no-anchorify), h3:not(.no-anchorify)')
 
   if ($searchables) {
     $searchables.forEach(initSearchable)
   }
 
-  if ($headings) {
-    // $headings.forEach(anchorify)
+  const $headingsToAnchor = document.querySelectorAll('h1:not(.no-anchorify), h2:not(.no-anchorify), h3:not(.no-anchorify)')
+  if ($headingsToAnchor) {
+    // $headingsToAnchor.forEach(anchorify)
   }
 
-  document.getElementById('main').scrollIntoView()
+  window.addEventListener('DOMContentLoaded', (event) => {
+    // setTimeout(() => document.getElementById('main').scrollIntoView({ behavior: 'smooth' }), 100)
+  })
+
+  const articleHeadings = document.querySelectorAll('article h1, article h2')
+  const middle = parseInt(articleHeadings.length / 2, 10)
+  articleHeadings[middle].parentNode.insertBefore(document.querySelector('.newsletter').cloneNode(true), articleHeadings[middle])
 }
 
 function initSearchable ($searchable) {

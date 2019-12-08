@@ -40,7 +40,7 @@ title: Christian Fei's Blog
     <style>
       {{ style | cssmin | safe }}
     </style>
-    {% if page.url != '/' and page.url != '/about' %}
+    {% if page.url != '/' and page.url != '/about/' %}
     <style>
       {{ carbonads | cssmin | safe }}
     </style>
@@ -51,7 +51,7 @@ title: Christian Fei's Blog
   </head>
   <body>
     <header>
-      {% if page.url != '/' and page.url != '/about' %}
+      {% if page.url != '/' and page.url != '/about/' %}
       <div id="carbonads-container">
         <script async defer type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7DCK7I&placement=christianfeicom" id="_carbonads_js"></script>
       </div>
@@ -75,7 +75,9 @@ title: Christian Fei's Blog
       <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
     </header>
 
-    {% include "newsletter.html" %}
+    {% if page.url == '/' or page.url == '/about/' %}
+      {% include "newsletter.html" %}
+    {% endif %}
 
     <main id="main">{{ content | safe }}</main>
 
@@ -97,7 +99,7 @@ title: Christian Fei's Blog
       <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
       <p><b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a></p>
 
-      {% if page.url != '/' and page.url != '/about' %}
+      {% if page.url != '/' and page.url != '/about/' %}
       <p>
         <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/tree/master/{{ page.inputPath }}">Edit this page on GitHub</a>
       </p>
