@@ -96,6 +96,7 @@ article .newsletter {
   padding: 0.1em 0.5em 1.1em;
   background: #fe1;
   background: rgba(255, 238, 17, 0.05);
+  margin-bottom: 2em;
 }
 #mce-EMAIL {
   font-size: 27px;
