@@ -75,10 +75,6 @@ title: Christian Fei's Blog
       <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
     </header>
 
-    {% if page.url == '/' or page.url == '/about/' %}
-      {% include "newsletter.html" %}
-    {% endif %}
-
     <main id="main">{{ content | safe }}</main>
 
     {% include "newsletter.html" %}

@@ -129,15 +129,16 @@ strong, b {
   font-size: 1rem;
 }
 #mc-embedded-subscribe {
-  font-size: 1.3rem;
+  font-size: 1rem;
   display: inline-block;
   outline: none;
   border: none;
   background: black;
   color: white;
-  /* border: 3px solid black; */
-  padding: 0.2rem 0.5rem;
+  padding: 0.4rem .5rem;
+  vertical-align: bottom;
 }
+
 
 .no-margin {
   margin: 0;
