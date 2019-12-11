@@ -149,3 +149,9 @@ strong, b {
 .no-margin-top {
   margin-top: 0;
 }
+
+blockquote {
+  background: #ffee1130;
+  font-size: 1.1em;
+  font-style: italic;
+}
