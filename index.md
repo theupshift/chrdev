@@ -13,7 +13,20 @@ read more <a href="/about">about</a> me
   Browse by tag <a href="/tags/featured">#featured</a>, <a href="/tags/general">#general</a>, <a href="/tags/js">#js</a>, <a href="/tags/tutorial">#tutorial</a>, <a href="/tags/angularjs">#angularjs</a>, <a href="/tags/crypto">#crypto</a>
 </p>
 
-Below you can read the last 10 <a href="/posts">posts</a>:
+Featured posts
+
+<ul reversed class="searchable">
+{% for post in collections.featured %}
+  <li class="post-item">
+    <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
+    <a href="{{ post.url }}" class="post-link">
+      {{ post.data.title | capitalize }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+and the last 10 <a href="/posts">posts</a>
 
 <ul reversed class="searchable">
 {% for post in collections.last10posts %}
@@ -26,15 +39,4 @@ Below you can read the last 10 <a href="/posts">posts</a>:
 {% endfor %}
 </ul>
 
-and <a href="/tags/featured">featured posts</a>:
-
-<ul reversed class="searchable">
-{% for post in collections.featured %}
-  <li class="post-item">
-    <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
-    <a href="{{ post.url }}" class="post-link">
-      {{ post.data.title | capitalize }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+or <a href="/posts/">all {{ collections.posts.length }} of them</a>
