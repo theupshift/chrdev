@@ -49,14 +49,16 @@ mega-scraper itself needs lots of improvements and new creative ways to avoid (e
 
 mega-scraper is available on [github.com/christian-fei/mega-scraper](https://github.com/christian-fei/mega-scraper/) and can  be monitored using [github.com/christian-fei/bull-dashboard/](https://github.com/christian-fei/bull-dashboard/).
 
-![assets/images/posts/mega-scraper/mega-scraper-github.png](/assets/images/posts/mega-scraper/mega-scraper-github.png)
+[![assets/images/posts/mega-scraper/mega-scraper-github.png](/assets/images/posts/mega-scraper/mega-scraper-github.png)](https://github.com/christian-fei/mega-scraper/)
 
 both are available as npm packages 📦
 
-- [mega-scraper](https://www.npmjs.com/package/mega-scraper/)
-- [bull-dashboard](https://www.npmjs.com/package/bull-dashboard/)
+[mega-scraper](https://www.npmjs.com/package/mega-scraper/)
 
-![assets/images/posts/mega-scraper/mega-scraper-npm.png](/assets/images/posts/mega-scraper/mega-scraper-npm.png)
-![assets/images/posts/mega-scraper/bull-dashboard-npm.png](/assets/images/posts/mega-scraper/bull-dashboard-npm.png)
+[![NPM](https://nodei.co/npm/mega-scraper.png)](https://npmjs.org/package/mega-scraper)
+
+[bull-dashboard](https://www.npmjs.com/package/bull-dashboard/)
+
+[![NPM](https://nodei.co/npm/bull-dashboard.png)](https://npmjs.org/package/bull-dashboard)
 
 let me know if you find ways to improve web scraping by opening a pull-request on GitHub at [github.com/christian-fei/mega-scraper](https://github.com/christian-fei/mega-scraper/) and also, let me know on [Twitter @christian_fei](https://twitter.com/christian_fei) what you think!
