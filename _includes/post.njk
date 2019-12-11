@@ -7,15 +7,12 @@ layout: layout.njk
   <p class="no-share">
     written on {{ page.date.toISOString().substring(0, 10) }}
     by <a href="https://twitter.com/christian_fei">Christian Fei</a>
-  </p>
-
-  <p class="no-share">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Tags: &nbsp;
     {%- for tag in tags -%}
-    <a href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
+      <a href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
     {%- endfor -%}
   </p>
-
-
   <p class="no-share">
     <a href="https://twitter.com/share?url=https://christianfei.com{{page.url}}&ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a> this<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </p>
