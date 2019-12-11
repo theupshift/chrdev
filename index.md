@@ -25,3 +25,16 @@ Below you can read the last 10 <a href="/posts">posts</a>:
   </li>
 {% endfor %}
 </ul>
+
+and <a href="/tags/featured">featured posts</a>:
+
+<ul reversed class="searchable">
+{% for post in collections.featured %}
+  <li class="post-item">
+    <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
+    <a href="{{ post.url }}" class="post-link">
+      {{ post.data.title | capitalize }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
