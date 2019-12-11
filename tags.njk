@@ -13,7 +13,7 @@ Browse by tag <a href="/tags/general">#general</a>, <a href="/tags/js">#js</a>, 
 
 <ol reversed>
 {% set taglist = collections[ tag ] %}
-{% for post in taglist | reverse %}
+{% for post in taglist %}
   <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 {% endfor %}
 </ol>
