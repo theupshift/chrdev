@@ -4,7 +4,9 @@ layout: layout.njk
 
 <h1 class="title no-anchorify">posts</h1>
 
-Browse by tag <a href="/tags/general">#general</a>, <a href="/tags/js">#js</a>, <a href="/tags/tutorial">#tutorial</a>, <a href="/tags/angularjs">#angularjs</a>, <a href="/tags/crypto">#crypto</a>
+<p>
+  Browse by tag <a href="/tags/featured">#featured</a>, <a href="/tags/general">#general</a>, <a href="/tags/js">#js</a>, <a href="/tags/tutorial">#tutorial</a>, <a href="/tags/angularjs">#angularjs</a>, <a href="/tags/crypto">#crypto</a>
+</p>
 
 <ol reversed class="searchable">
 {% for post in collections.posts %}
