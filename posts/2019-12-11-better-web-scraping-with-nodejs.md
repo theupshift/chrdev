@@ -41,7 +41,15 @@ the possibilities are wider if you try to surf a website as similar as possible 
 
 why not, even login to a given page with a real customer account to almost undetectably scrape its content.
 
-**it's all about experimenting**.
+## fast scraping
+
+**blocking trackers** by default.
+
+**avoiding loading images, stylesheets, if possible javascript** speed up the scraping A LOT!
+
+being able to **proxy each request** can also help in case of speed, since you're using multiple services to handle your requests.
+
+## it's all about experimenting
 
 mega-scraper itself needs lots of improvements and new creative ways to avoid (even solve) captchas, improve networking, generic pagination, automation data extraction and much more.
 
