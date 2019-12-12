@@ -31,15 +31,15 @@ I built it because I felt the need for a better way to do scraping.
 
 how to make scraping more reliable and less detectable by anti-scraping shields?
 
-I think the way to go is to simulate a real user using a real browser.
+I think the way to go is to **simulate a real user using a real browser**.
 
 > it also comes in handy when debugging and inspect updated CSS selectors or understand how to avoid unexpected modals or solve captcha pages.
 
 you could even simulate a legit user session by having a pool of legit cookies.
 
-the possibilities are wider if you try to surf a website as similar as possible to a real user browsing a product page, with eased step timeouts, random scrolling of a page, etc.
+the possibilities are wider if you try to surf a website **as similar as possible to a real user** browsing a product page, with eased step timeouts, random scrolling of a page, etc.
 
-why not, even login to a given page with a real customer account to almost undetectably scrape its content.
+why not, even **login** to a given page with a real customer account to almost **undetectably scrape** its content.
 
 ## fast scraping
 
@@ -51,15 +51,15 @@ being able to **proxy each request** can also help in case of speed, since you'r
 
 ## it's all about experimenting
 
-mega-scraper itself needs lots of improvements and new creative ways to avoid (even solve) captchas, improve networking, generic pagination, automation data extraction and much more.
+**mega-scraper** itself needs lots of improvements and new creative ways to avoid (even solve) captchas, improve networking, generic pagination, automation data extraction and much more.
 
 ## open-source and npm package
 
-mega-scraper is available on [github.com/christian-fei/mega-scraper](https://github.com/christian-fei/mega-scraper/) and can  be monitored using [github.com/christian-fei/bull-dashboard/](https://github.com/christian-fei/bull-dashboard/).
+**mega-scraper** is available on [github.com/christian-fei/mega-scraper](https://github.com/christian-fei/mega-scraper/) and can  be monitored using [github.com/christian-fei/bull-dashboard/](https://github.com/christian-fei/bull-dashboard/).
 
 [![assets/images/posts/mega-scraper/mega-scraper-github.png](/assets/images/posts/mega-scraper/mega-scraper-github.png)](https://github.com/christian-fei/mega-scraper/)
 
-both are available as npm packages 📦
+both are available as **npm packages** 📦
 
 [mega-scraper](https://www.npmjs.com/package/mega-scraper/)
 
@@ -69,4 +69,4 @@ both are available as npm packages 📦
 
 [![NPM](https://nodei.co/npm/bull-dashboard.png)](https://npmjs.org/package/bull-dashboard)
 
-let me know if you find ways to improve web scraping by opening a pull-request on GitHub at [github.com/christian-fei/mega-scraper](https://github.com/christian-fei/mega-scraper/) and also, let me know on [Twitter @christian_fei](https://twitter.com/christian_fei) what you think!
+let me know if you find ways to **improve web scraping by opening a pull-request** on GitHub at [github.com/christian-fei/mega-scraper](https://github.com/christian-fei/mega-scraper/) and also, **let me know** on [Twitter @christian_fei](https://twitter.com/christian_fei) what you think!
