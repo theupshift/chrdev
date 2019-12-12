@@ -4,6 +4,7 @@ date: 2019-12-12
 layout: post.njk
 tags:
   - post
+  - general
 ---
 
 it's funny, i noticed it recently (read a few months ago). it all started here @ [933b1b8eef7482a6b5a960b0329e3f124cf22f29](https://github.com/christian-fei/christian-fei.github.io/blob/933b1b8eef7482a6b5a960b0329e3f124cf22f29/_includes/style.css) in [style.css](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/style.css)
