@@ -91,23 +91,24 @@ title: Christian Fei's Blog
       {% endfor %}
     </div>
 
-    <footer id="footer">
-      <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
-      <p><b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a></p>
+    <footer id="footer" class="free">
+      <div class="contain">
+        <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
+        <p><b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a></p>
 
-      {% if page.url != '/' and page.url != '/about/' %}
-      <p>
-        <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.inputPath }}">Edit this page on GitHub</a>
-      </p>
-      {% endif %}
+        {% if page.url != '/' and page.url != '/about/' %}
+        <p>
+          <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.inputPath }}">Edit this page on GitHub</a>
+        </p>
+        {% endif %}
 
-      <p>&copy; Christian Fei 2012 - 2019</p>
+        <p>&copy; Christian Fei 2012 - 2019</p>
 
-      <p>
-        <pre style="font-size: 0.7em; background: transparent;">{{ '' | changes }}</pre>
-        <small><a href="https://github.com/christian-fei/christian-fei.github.io/commit/{{'' | commit}}">diff</a></small>
-      </p>
-
+        <p>
+          <pre style="font-size: 0.7em; background: transparent;">{{ '' | changes }}</pre>
+          <small><a href="https://github.com/christian-fei/christian-fei.github.io/commit/{{'' | commit}}">diff</a></small>
+        </p>
+      </div>
     </footer>
 
     <script>
