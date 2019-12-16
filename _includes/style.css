@@ -10,7 +10,6 @@ img { max-width: 100%; }
 @media all and (max-width: 60em) { .post-date { display: none; } }
 
 /* design */
-#footer { background: #f9f9f9; padding-top: 1em; padding-bottom: 1em; background: linear-gradient(0deg, #ffee1194, white); }
 #footer { background: #f9f9f9; padding-top: 1em; padding-bottom: 1em; background: linear-gradient(0deg, #f3f3f3, white); }
 
 
