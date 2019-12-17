@@ -8,21 +8,6 @@ function main () {
   if ($searchables) {
     $searchables.forEach(initSearchable)
   }
-
-  const $headingsToAnchor = document.querySelectorAll('h1:not(.no-anchorify), h2:not(.no-anchorify), h3:not(.no-anchorify)')
-  if ($headingsToAnchor) {
-    // $headingsToAnchor.forEach(anchorify)
-  }
-
-  window.addEventListener('DOMContentLoaded', (event) => {
-    // setTimeout(() => document.getElementById('main').scrollIntoView({ behavior: 'smooth' }), 100)
-  })
-
-  const articleHeadings = document.querySelectorAll('article h1, article h2')
-  const middle = parseInt(articleHeadings.length / 2, 10)
-  if (articleHeadings[middle]) {
-    articleHeadings[middle].parentNode.insertBefore(document.querySelector('.newsletter').cloneNode(true), articleHeadings[middle])
-  }
 }
 
 function initSearchable ($searchable) {
@@ -62,11 +47,4 @@ function initSearchable ($searchable) {
       }
     })
   }
-}
-
-function anchorify (element) {
-  const id = (element.innerText || '').toLowerCase().replace(/ /gi, '-')
-  element.setAttribute('id', id)
-  const text = element.innerText
-  element.innerHTML = `<a href="#${id}">${text}</a>`
 }
