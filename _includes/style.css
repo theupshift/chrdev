@@ -28,7 +28,7 @@ pre, code { overflow: scroll; background: #fffabd; }
 ul { padding-left: 1em; }
 /* h1, h2, h3 { margin-top: 0; } */
 /* https://type-scale.com/ */
-p { margin-bottom: 1.25em; }
+p { margin: 0 0.5em 1.25em; }
 h1, h2, h3, h4, h5 { margin: 2.75rem 0 1rem; font-weight: 700; line-height: 1.15; }
 h1 { margin-top: 0; font-size: 2.488em; }
 h1 { margin-top: 0; font-size: 2.7em; }
