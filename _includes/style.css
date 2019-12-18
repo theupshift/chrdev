@@ -1,9 +1,10 @@
 /* layout */
+* { box-sizing: border-box; }
 html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
 body { padding: 0.5em; }
 body > *:not(.free) { max-width: 40em; margin: 0 auto; }
 .contain { max-width: 40em; margin: 0 auto; }
-img { max-width: 99%; }
+img { max-width: 100%; }
 #avatar { width: 4em; height: 4em; border-radius: 50%; }
 .post-item { position: relative; }
 .post-date { position: absolute; right: 0; font-family: monospace; }
@@ -25,10 +26,10 @@ a { color: inherit; }
 a:visited { color: inherit; }
 a:hover, a:active, a:focus { background: #fe1; }
 pre, code { overflow: scroll; background: #fffabd; }
-ul { padding-left: 1em; }
+ul { padding-left: 1.0em; }
 /* h1, h2, h3 { margin-top: 0; } */
 /* https://type-scale.com/ */
-p { margin: 0 0.5em 1.25em; }
+/* p { margin: 0 0 1.25em; } */
 h1, h2, h3, h4, h5 { margin: 2.75rem 0 1rem; font-weight: 700; line-height: 1.15; }
 h1 { margin-top: 0; font-size: 2.488em; }
 h1 { margin-top: 0; font-size: 2.7em; }
