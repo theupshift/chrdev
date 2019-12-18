@@ -10,7 +10,7 @@ read more <a href="/about">about</a> me
 <h1 class="title no-anchorify">posts</h1>
 
 <p>
-  Browse by tag <a href="/tags/featured">#featured</a>, <a href="/tags/general">#general</a>, <a href="/tags/js">#js</a>, <a href="/tags/tutorial">#tutorial</a>, <a href="/tags/angularjs">#angularjs</a>, <a href="/tags/crypto">#crypto</a>
+  Browse by tag <a class="tag" href="/tags/featured">#featured</a>, <a class="tag" href="/tags/general">#general</a>, <a class="tag" href="/tags/js">#js</a>, <a class="tag" href="/tags/tutorial">#tutorial</a>, <a class="tag" href="/tags/angularjs">#angularjs</a>, <a class="tag" href="/tags/crypto">#crypto</a>
 </p>
 
 Featured posts

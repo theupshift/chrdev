@@ -43,6 +43,11 @@ small, .text_small { font-size: 0.833em; }
   /* border-bottom: 0.2em solid #fe1; */
 }
 
+.tag {
+  background-color: #ececec;
+  border-radius: 22px;
+  padding: 0.2em 0.4em;
+}
 .share-paragraph-hover {
   position: relative;
 }
