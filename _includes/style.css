@@ -44,6 +44,9 @@ small, .text_small { font-size: 0.833em; }
   /* border-bottom: 0.2em solid #fe1; */
 }
 
+.tags {
+  overflow: scroll;
+}
 .tag {
   background-color: #ececec;
   border-radius: 22px;
