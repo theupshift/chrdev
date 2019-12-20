@@ -45,7 +45,7 @@ small, .text_small { font-size: 0.833em; }
 }
 
 .tags {
-  overflow: scroll;
+  overflow-x: scroll;
 }
 .tag {
   background-color: #ececec;
