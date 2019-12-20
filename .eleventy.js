@@ -29,6 +29,7 @@ module.exports = function(eleventyConfig) {
   })
   eleventyConfig.addFilter("cssmin", (code) => new CleanCSS({}).minify(code).styles)
   eleventyConfig.addFilter("excerpt", (content) => (content || '').substring(0, 200))
+  eleventyConfig.addFilter("encode", (content) => encodeURIComponent(content || ''))
   eleventyConfig.addFilter("json", (obj) => JSON.stringify(obj || {}))
   eleventyConfig.addFilter("changes", (obj, cb) => changes)
   eleventyConfig.addFilter("commit", (obj, cb) => commit)
