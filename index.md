@@ -16,7 +16,7 @@ learn more <a href="/about">about</a> me
 Featured posts
 
 <ul reversed class="searchable">
-{% for post in collections.featured %}
+{% for post in collections.featured10 %}
   <li class="post-item">
     <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
     <a href="{{ post.url }}" class="post-link">

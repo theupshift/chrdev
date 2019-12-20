@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("robots.txt")
   eleventyConfig.addCollection("posts", (collection) => reversed('post', collection))
   eleventyConfig.addCollection("last10posts", (collection) => reversed('post', collection).slice(0, 10))
-  eleventyConfig.addCollection("featured10", (collection) => reversed('featured', collection))
+  eleventyConfig.addCollection("featured10", (collection) => reversed('featured', collection).slice(0, 10))
   eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
     if (!outputPath.endsWith(".html")) return content
     return htmlmin.minify(content, {
