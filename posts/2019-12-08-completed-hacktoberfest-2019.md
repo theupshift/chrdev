@@ -5,6 +5,7 @@ layout: post.njk
 tags:
   - post
   - general
+  - featured
 ---
 
 <!-- ![/assets/images/posts/completed-hacktoberfest-2019/confirmation-email.png](/assets/images/posts/completed-hacktoberfest-2019/confirmation-email.png) -->

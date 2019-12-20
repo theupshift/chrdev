@@ -5,6 +5,7 @@ tags:
   - post
   - js
   - tutorial
+  - featured
 date: 2018-11-28
 ---
 

@@ -6,6 +6,7 @@ tags:
   - post
   - js
   - tutorial
+  - featured
 ---
 
 ![gh-actions-working.png](/assets/images/posts/eleventy-github-actions-aws/gh-actions-working.png)

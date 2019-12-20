@@ -5,6 +5,8 @@ layout: post.njk
 tags:
   - post
   - general
+  - featured
+  - js
 bg_image: https://pomodoro.cc/pomodoro.cc.png
 ---
 

@@ -6,6 +6,8 @@ tags:
   - post
   - js
   - testing
+  - featured
+  - js
 ---
 
 Today at work, during the **"Pomodoro study time"** (a pomodoro of free study time during work),

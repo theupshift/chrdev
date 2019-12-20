@@ -5,6 +5,7 @@ layout: post.njk
 tags:
   - post
   - general
+  - featured
 has_images: true
 ---
 

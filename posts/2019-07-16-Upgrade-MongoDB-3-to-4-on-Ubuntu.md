@@ -5,6 +5,7 @@ tags:
   - post
   - tutorial
   - mongodb
+  - featured
 date: 2019-07-16
 ---
 
