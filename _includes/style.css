@@ -26,7 +26,7 @@ a { color: inherit; }
 a:visited { color: inherit; }
 a:hover, a:active, a:focus { background: #fe1; }
 pre, code { overflow: scroll; background: #fffabd; }
-ul { padding-left: 0em; }
+ul { padding-left: 1em; }
 /* h1, h2, h3 { margin-top: 0; } */
 /* https://type-scale.com/ */
 /* p { margin: 0 0 1.25em; } */
