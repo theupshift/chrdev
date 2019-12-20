@@ -17,4 +17,30 @@ context('Content', () => {
 
     cy.location('pathname').should('include', 'about')
   })
+
+  describe('single post', () => {
+    beforeEach(() => {
+      cy.get('.post-link').eq(0).click()
+    })
+
+    it('navigates to /posts/{post-slug}', () => {
+      cy.location('pathname').should('include', 'posts')
+    })
+    it('visible title', () => {
+      cy.get('article > .title')
+    })
+    it('visible article info', () => {
+      cy.get('article > .info')
+    })
+    it('visible article tags', () => {
+      cy.get('article > .tags')
+      cy.get('[href="/tags/post"]')
+    })
+    it('visible ad', () => {
+      cy.get('#carbonads-container')
+    })
+    it('visible twitter share button', () => {
+      cy.get('#twitter-widget-0')
+    })
+  })
 })

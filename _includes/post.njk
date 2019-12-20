@@ -4,11 +4,11 @@ layout: layout.njk
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="title no-anchorify">{{ title }}</h1>
-  <p class="no-share">
+  <p class="no-share info">
     written on {{ page.date.toISOString().substring(0, 10) }}
     by <a href="https://twitter.com/christian_fei">Christian Fei</a>
   </p>
-  <p class="no-share">
+  <p class="no-share tags">
     {%- for tag in tags -%}
       <a class="tag" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
     {%- endfor -%}
