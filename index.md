@@ -2,11 +2,6 @@
 layout: layout.njk
 ---
 
-<h2>about</h2>
-
-i am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
-
-learn more <a href="/about">about</a> me
 <h1 class="title no-anchorify">posts</h1>
 
 <p class="no-share">
