@@ -77,6 +77,20 @@ title: Christian Fei's Blog
 
     <main id="main">{{ content | safe }}</main>
 
+
+    {% if page.url.includes('/posts/') %}
+    <div class="contain">
+      <h1>Leave a comment</h1>
+      <script src="https://utteranc.es/client.js"
+              repo="christian-fei/christian-fei.github.io"
+              issue-term="url"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+    {% endif %}
+
     <div>
       <h1 class="title" style="text-transform: uppercase">this could interest you</h1>
       {% for post in collections.featured10 %}
