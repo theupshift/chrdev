@@ -33,4 +33,5 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("json", (obj) => JSON.stringify(obj || {}))
   eleventyConfig.addFilter("changes", (obj, cb) => changes)
   eleventyConfig.addFilter("commit", (obj, cb) => commit)
+  eleventyConfig.addFilter("year", (obj, cb) => new Date().getFullYear())
 }
