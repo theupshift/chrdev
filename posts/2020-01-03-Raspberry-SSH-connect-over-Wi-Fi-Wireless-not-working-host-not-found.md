@@ -4,6 +4,7 @@ date: 2020-01-03
 layout: post.njk
 tags:
   - post
+  - raspberry
 ---
 
 Having trouble SSH'ing to your Raspberry Pi over Wi-Fi?
