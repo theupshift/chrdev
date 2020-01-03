@@ -38,6 +38,12 @@ pi@raspberrypi:~ $ systemctl status ssh
 ...
 ```
 
+##### Check out these products
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=B07TD42S27&asins=B07TD42S27&linkId=d9e2a3f0cb2133612b5732e004b04183&show_border=true&link_opens_in_new_window=true"></iframe>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=B07V5JTMV9&asins=B07V5JTMV9&linkId=fd49eb81419d2d1f855402ec8d123d25&show_border=true&link_opens_in_new_window=true"></iframe>
+
 ## Is Raspberry Pi connected to the Internet?
 
 Connect to Raspberry Pi over GUI and run `ifconfig` to see your network configuration:
