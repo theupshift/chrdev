@@ -5,13 +5,6 @@ context('Content', () => {
     cy.visit('http://localhost:8080')
   })
 
-  it('posts', () => {
-    cy.get('body > header').contains('posts').click()
-
-    cy.location('pathname').should('include', 'posts')
-
-    cy.get('body').get('.post-link')
-  })
   it('about', () => {
     cy.get('body > header').contains('about').click()
 
