@@ -1,0 +1,20 @@
+<footer id="footer" class="free">
+  <div class="contain">
+    <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
+    <p><b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a></p>
+
+    {% if page.url != '/' and page.url != '/about/' %}
+    <p>
+      <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.inputPath }}">Edit this page on GitHub</a> - <small>{{page.url}}</small>
+    </p>
+    {% endif %}
+
+
+    <p>&copy; Christian Fei 2012 - {{ '' | year }}</p>
+
+    <p>
+      <pre style="font-size: 0.7em; background: transparent;">{{ '' | changes }}</pre>
+      <small><a target="_blank" href="https://github.com/christian-fei/christian-fei.github.io/commit/{{'' | commit}}">diff</a></small>
+    </p>
+  </div>
+</footer>

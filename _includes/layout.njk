@@ -60,45 +60,14 @@ title: Christian Fei's Blog
       {% include "comments.html" %}
     {% endif %}
 
-    <div>
-      <h1 class="title" style="text-transform: uppercase">this could interest you</h1>
-      {% for post in collections.featured10 %}
-        {% if post.url !== page.url %}
-        <h4>
-          <a href="{{post.url}}">{{post.data.title}}</a>
-        </h4>
-        {% endif %}
-      {% endfor %}
-    </div>
+    {% include "interest.html" %}
 
-    <footer id="footer" class="free">
-      <div class="contain">
-        <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
-        <p><b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a></p>
+    {% include "footer.html" %}
 
-        {% if page.url != '/' and page.url != '/about/' %}
-        <p>
-          <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.inputPath }}">Edit this page on GitHub</a> - <small>{{page.url}}</small>
-        </p>
-        {% endif %}
+    <script>{% include "share-paragraph.js" %}</script>
 
-
-        <p>&copy; Christian Fei 2012 - {{ '' | year }}</p>
-
-        <p>
-          <pre style="font-size: 0.7em; background: transparent;">{{ '' | changes }}</pre>
-          <small><a target="_blank" href="https://github.com/christian-fei/christian-fei.github.io/commit/{{'' | commit}}">diff</a></small>
-        </p>
-      </div>
-    </footer>
-
-    <script>
-      {% include "share-paragraph.js" %}
-    </script>
     {% if page.url != '/' %}
-    <script type="text/javascript">
-      {% include "main.js" %}
-    </script>
+    <script type="text/javascript">{% include "main.js" %}</script>
     {% endif %}
 
     <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"eb2171be8b0477fcc18bf2686","lid":"b1423db254","uniqueMethods":true}) })</script>
