@@ -10,11 +10,6 @@ context('Navigation', () => {
 
     cy.location('pathname').should('include', 'about')
   })
-  it('posts', () => {
-    cy.get('body > header').contains('posts').click()
-
-    cy.location('pathname').should('include', 'posts')
-  })
   context('links', () => {
     it('social', () => {
       cy.get('body > footer').contains('twitter')
