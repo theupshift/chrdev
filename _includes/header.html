@@ -1,0 +1,25 @@
+<header>
+  {% if page.url != '/' and page.url != '/about/' %}
+    {% include 'carbonads.html' %}
+  {% endif %}
+
+  <p>
+    <a href="/" class="main-link">
+      {% include 'me-base64.html' %}
+      <strong>christian fei's blog</strong>
+    </a>
+  </p>
+
+  {% if page.url != '/about/' %}
+    <p>
+      <strong>agile developer, clean code connoisseur && testing aficionado</strong>
+    </p>
+    <p>
+      <b>read</b>&nbsp;<b>more</b> <a href="/about">about</a> me
+    </p>
+  {% endif %}
+
+  <p>
+    <b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a>
+  </p>
+</header>

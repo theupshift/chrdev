@@ -50,46 +50,23 @@ title: Christian Fei's Blog
     <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-57238829-1');</script>
   </head>
   <body>
-    <header>
-      {% if page.url != '/' and page.url != '/about/' %}
-        {% include 'carbonads.html' %}
-      {% endif %}
+    {% include "header.html" %}
 
-      <p>
-        <a href="/" class="main-link">
-          {% include 'me-base64.html' %}
-          <strong>christian fei's blog</strong>
-        </a>
-      </p>
+    <main id="main">
+      {{ content | safe }}
+    </main>
 
-      {% if page.url != '/about/' %}
-        <p>
-          <strong>agile developer, clean code connoisseur && testing aficionado</strong>
-        </p>
-        <p>
-          <b>read</b>&nbsp;<b>more</b> <a href="/about">about</a> me
-        </p>
-      {% endif %}
-
-      <p>
-        <b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a>
-      </p>
-    </header>
-
-    <main id="main">{{ content | safe }}</main>
-
-
-    {% if page.url.includes('/posts/') %}
-    <div class="contain">
-      <h1>Leave a comment</h1>
-      <script src="https://utteranc.es/client.js"
-              repo="christian-fei/christian-fei.github.io"
-              issue-term="url"
-              theme="github-light"
-              crossorigin="anonymous"
-              async>
-      </script>
-    </div>
+    {% if page.url !== '/posts/' and page.url.includes('/posts/') %}
+      <div class="contain">
+        <h1>Leave a comment</h1>
+        <script src="https://utteranc.es/client.js"
+                repo="christian-fei/christian-fei.github.io"
+                issue-term="url"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+        </script>
+      </div>
     {% endif %}
 
     <div>
@@ -110,9 +87,10 @@ title: Christian Fei's Blog
 
         {% if page.url != '/' and page.url != '/about/' %}
         <p>
-          <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.inputPath }}">Edit this page on GitHub</a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.inputPath }}">Edit this page on GitHub</a> - <small>{{page.url}}</small>
         </p>
         {% endif %}
+
 
         <p>&copy; Christian Fei 2012 - {{ '' | year }}</p>
 
