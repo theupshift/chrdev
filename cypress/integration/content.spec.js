@@ -20,13 +20,13 @@ context('Content', () => {
       cy.location('pathname').should('include', 'posts')
     })
     it('visible title', () => {
-      cy.get('article > .title')
+      cy.get('article .title')
     })
     it('visible article info', () => {
-      cy.get('article > .info')
+      cy.get('article .info')
     })
     it('visible article tags', () => {
-      cy.get('article > .tags')
+      cy.get('article .tags')
       cy.get('[href="/tags/post"]')
     })
     it('visible ad', () => {

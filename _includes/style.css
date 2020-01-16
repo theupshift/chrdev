@@ -183,3 +183,13 @@ blockquote {
 .float-right {
   float: right;
 }
+
+header .nav-link {
+  padding: 1em 2em;
+}
+header .nav-link:hover, header .nav-link:focus {
+  padding: 1em 2em;
+  outline: none;
+  background: transparent;
+  border-bottom: 0.2em solid #fe1;
+}
