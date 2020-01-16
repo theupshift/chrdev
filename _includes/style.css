@@ -179,3 +179,7 @@ blockquote {
   width: 100% !important;
   max-width: 100% !important;
 }
+
+.float-right {
+  float: right;
+}
