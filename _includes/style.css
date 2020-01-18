@@ -143,6 +143,7 @@ blockquote {
 }
 
 header .nav-link {
+  text-decoration: none;
   padding: 1em 2em;
 }
 header .nav-link:hover, header .nav-link:focus, header .nav-link.active {
