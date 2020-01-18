@@ -145,7 +145,7 @@ blockquote {
 header .nav-link {
   padding: 1em 2em;
 }
-header .nav-link:hover, header .nav-link:focus {
+header .nav-link:hover, header .nav-link:focus, header .nav-link.active {
   padding: 1em 2em;
   outline: none;
   background: transparent;

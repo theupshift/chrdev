@@ -1,8 +1,8 @@
 <header>
   <div class="float-right">
     <p>
-      <b><a class="nav-link" href="/posts">posts</a>
-      <b><a class="nav-link" href="/about">about</a>
+      <b><a class="nav-link {% if page.url.includes('/posts/') %} active {% endif %}" href="/posts">posts</a>
+      <b><a class="nav-link {% if page.url.includes('/about/') %} active {% endif %}" href="/about">about</a>
     </p>
   </div>
 
