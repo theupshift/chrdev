@@ -39,13 +39,9 @@ title: Christian Fei's Blog
       {% include "carbonads.css" %}
     {% endset %}
 
-    <style>
-      {{ style | cssmin | safe }}
-    </style>
+    <style>{{ style | cssmin | safe }}</style>
     {% if page.url != '/' and page.url != '/about/' %}
-    <style>
-      {{ carbonads | cssmin | safe }}
-    </style>
+      <style>{{ carbonads | cssmin | safe }}</style>
     {% endif %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57238829-1"></script>
@@ -66,10 +62,8 @@ title: Christian Fei's Blog
 
     {% include "footer.html" %}
 
-    <script>{% include "share-paragraph.js" %}</script>
-
     {% if page.url != '/' %}
-    <script type="text/javascript">{% include "main.js" %}</script>
+      <script type="text/javascript">{% include "main.js" %}</script>
     {% endif %}
   </body>
 </html>

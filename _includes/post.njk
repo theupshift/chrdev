@@ -6,7 +6,7 @@ layout: layout.njk
   <h1 class="title no-anchorify">{{ title }}</h1>
   <div>
     {% if page.url != '/' and page.url != '/about/' %}
-        <div class="float-right">
+        <div style="float: right">
           {% include 'carbonads.html' %}
         </div>
     {% endif %}

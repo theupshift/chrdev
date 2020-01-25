@@ -1,18 +1,21 @@
 <header>
-  <div class="float-right">
-    <p>
+  <div class="flex">
+    <div class="nav-link flex-item">
+      <a href="/" class="">
+        {% include 'me-base64.html' %}
+        <strong>christian fei's blog</strong>
+      </a>
+    </div>
+    <div class="flex-item flex-05">
       <b><a class="nav-link {% if page.url.includes('/posts') %} active {% endif %}" href="/posts">posts</a>
+
+    </div>
+    <div class="flex-item flex-05">
       <b><a class="nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about">about</a>
-    </p>
+    </div>
   </div>
 
-  <p>
-    <a href="/" class="main-link">
-      {% include 'me-base64.html' %}
-      <strong>christian fei's blog</strong>
-    </a>
-  </p>
-
+  <!--
   <p>
     <strong>agile developer<br>clean code connoisseur<br>testing aficionado</strong>
   </p>
@@ -20,4 +23,5 @@
   <p>
     <b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a>
   </p>
+  -->
 </header>
