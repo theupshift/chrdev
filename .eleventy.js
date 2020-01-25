@@ -1,13 +1,12 @@
 const CleanCSS = require("clean-css")
 const htmlmin = require("html-minifier")
-let [commit, date, ...commitDescription] = require('child_process').execSync(`git log -1 --no-color`)
+const [commitLong, date, ...commitDescription] = require('child_process').execSync(`git log -1 --no-color`)
   .toString()
   .split('\n')
   .filter(Boolean)
   .map(l => l.trim())
   .filter(l => !l.startsWith('Author:'))
-commit = commit.replace(/^commit /, '').substring(0, 7)
-// const commit = require('child_process').execSync(`git rev-parse HEAD`).toString().trim()
+const commit = commitLong.replace(/^commit /, '').substring(0, 7)
 
 function reversed (tag, collection) {
   return collection.getFilteredByTag(tag).filter(p => p.data && Array.isArray(p.data.tags) && !p.data.tags.includes('draft')).reverse()
