@@ -1,13 +1,13 @@
 const CleanCSS = require("clean-css")
 const htmlmin = require("html-minifier")
-const changes = require('child_process').execSync(`git log -1 --no-color`).toString().trim()
+let [commit, date, ...commitDescription] = require('child_process').execSync(`git log -1 --no-color`)
+  .toString()
   .split('\n')
-  // .filter(l => !l.startsWith('Author'))
-  // .filter(l => !l.trim().startsWith('commit'))
-  // .map(l => l.replace(/\s{2,}/, ''))
+  .filter(Boolean)
   .map(l => l.trim())
-  .join('\n')
-const commit = require('child_process').execSync(`git rev-parse HEAD`).toString().trim()
+  .filter(l => !l.startsWith('Author:'))
+commit = commit.replace(/^commit /, '').substring(0, 7)
+// const commit = require('child_process').execSync(`git rev-parse HEAD`).toString().trim()
 
 function reversed (tag, collection) {
   return collection.getFilteredByTag(tag).filter(p => p.data && Array.isArray(p.data.tags) && !p.data.tags.includes('draft')).reverse()
@@ -31,7 +31,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("excerpt", (content) => (content || '').substring(0, 200))
   eleventyConfig.addFilter("encode", (content) => encodeURIComponent(content || ''))
   eleventyConfig.addFilter("json", (obj) => JSON.stringify(obj || {}))
-  eleventyConfig.addFilter("changes", (obj, cb) => changes)
   eleventyConfig.addFilter("commit", (obj, cb) => commit)
+  eleventyConfig.addFilter("githubCommitDiffUrl", (obj, cb) => `https://github.com/christian-fei/christian-fei.github.io/commit/${commit}`)
   eleventyConfig.addFilter("year", (obj, cb) => new Date().getFullYear())
 }
