@@ -6,7 +6,7 @@ body > *:not(.free) { max-width: 40em; margin: 0 auto; }
 .contain { max-width: 40em; margin: 0 auto; }
 img { max-width: 100%; }
 #avatar { width: 1.5em; height: 1.5em; border-radius: 50%; margin-bottom: -0.5em; margin-right: 0.5em; }
-.post-item { position: relative; }
+.post-item { position: relative; padding: 0.4em 0; }
 .post-date { position: absolute; right: 0; }
 @media all and (max-width: 60em) { .post-date { display: none; } }
 
@@ -57,9 +57,10 @@ input.searchable-input {
   border-bottom: 1px solid #210;
   position: relative;
   transition: all .3s ease;
-  background: #f1f0f0aa;
+  /* background: #f1f0f0aa; */
+  width: 100%;
 }
-input.searchable-input:focus { background: #f1f0f0aa; width: 100%; }
+input.searchable-input:focus { background: #f1f0f0aa; }
 
 
 a { font-weight: bold }
