@@ -27,6 +27,14 @@ module.exports = function(eleventyConfig) {
     })
   })
   eleventyConfig.addFilter("cssmin", (code) => new CleanCSS({}).minify(code).styles)
+  eleventyConfig.addFilter("words", (content) => (content || '').split(' ').length)
+  eleventyConfig.addFilter("readingTime", (content) => {
+    const words = (content || '').split(' ').length
+    const averageWPM = 250
+    const readingTimeInMinutes  = words / averageWPM * 2
+    const minutes = parseInt(readingTimeInMinutes, 10)
+    return minutes > 1 ? `${minutes} minutes` : `1 minute`
+  })
   eleventyConfig.addFilter("excerpt", (content) => (content || '').substring(0, 200))
   eleventyConfig.addFilter("encode", (content) => encodeURIComponent(content || ''))
   eleventyConfig.addFilter("json", (obj) => JSON.stringify(obj || {}))

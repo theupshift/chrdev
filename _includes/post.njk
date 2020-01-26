@@ -4,16 +4,19 @@ layout: layout.njk
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="title no-anchorify">{{ title }}</h1>
-  <div>
+  <div class="pad-v">
     {% if page.url != '/' and page.url != '/about/' %}
         <div style="float: right">
           {% include 'carbonads.html' %}
         </div>
     {% endif %}
 
-    <p class="no-share info">
-      written on {{ page.date.toISOString().substring(0, 10) }} by <a target="_blank" href="https://twitter.com/christian_fei">Christian Fei</a>
+    <p class="info1">
+      by <a target="_blank" href="https://twitter.com/christian_fei">Christian Fei</a>
+      @ <b>{{ page.date.toISOString().substring(0, 10) }}</b>
     </p>
+
+    <p class="main-content">{{ content | words }} words, {{ content | readingTime }} reading time</p>
 
     <p class="no-share tags">
       {%- for tag in tags -%}
@@ -25,7 +28,6 @@ layout: layout.njk
   </div>
 
   <div class="main-content">{{ content | safe }}</div>
-
 
   {% include 'tweet-this.html' %}
 </article>

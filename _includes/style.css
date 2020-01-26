@@ -71,3 +71,8 @@ blockquote { background: #f1f0f0aa; font-size: 1.1em; font-style: italic; }
 .flex { display: flex; flex-direction: row; }
 .flex-item { flex: 1; }
 .flex-05 { flex: 0.5; }
+
+.pad-v {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
