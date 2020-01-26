@@ -10,25 +10,22 @@ layout: layout.njk
           {% include 'carbonads.html' %}
         </div>
     {% endif %}
+
     <p class="no-share info">
-      written on {{ page.date.toISOString().substring(0, 10) }}
+      written on {{ page.date.toISOString().substring(0, 10) }} by <a target="_blank" href="https://twitter.com/christian_fei">Christian Fei</a>
     </p>
-    <p class="no-share info">
-      by <a target="_blank" href="https://twitter.com/christian_fei">Christian Fei</a>
-    </p>
+
     <p class="no-share tags">
       {%- for tag in tags -%}
-        <a class="tag" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
+        <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
       {%- endfor -%}
     </p>
-    <p class="no-share">
-      <a target="_blank" href="https://twitter.com/share?url=https://christianfei.com{{page.url}}&text={{page.fileSlug | encode}} by @christian_fei&ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a> this<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </p>
 
+    {% include 'tweet-this.html' %}
   </div>
 
-  {{ content | safe }}
-  <p>
-    <a target="_blank" href="https://twitter.com/share?url=https://christianfei.com{{page.url}}&text={{page.fileSlug | encode}} by @christian_fei&ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a> this<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </p>
+  <div class="main-content">{{ content | safe }}</div>
+
+
+  {% include 'tweet-this.html' %}
 </article>

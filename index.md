@@ -1,5 +1,6 @@
 ---
 layout: layout.njk
+title: Home
 ---
 
 <h1 class="title no-anchorify">posts</h1>

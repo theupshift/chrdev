@@ -43,7 +43,7 @@ small, .text_small { font-size: 0.833em; }
 .title { margin-top: 1em }
 
 .tags { overflow-x: scroll }
-.tag { background-color: #ececec;  padding: 0.2em 0.5em; }
+.tag { background-color: #ececec;  padding: 0.2em 0.5em; opacity: 0.7; }
 
 input.searchable-input {
   display: block;

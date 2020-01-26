@@ -5,8 +5,9 @@ title: Christian Fei's Blog
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{title}}</title>
+    <title>Christian Fei's Blog - {{title}}</title>
     <meta name="author" content="Christian Fei">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
 
     {% if page.url == '/' %}
       <meta name="description" content="A blog about agile, programming, clean code, testing, javascript">
@@ -21,7 +22,6 @@ title: Christian Fei's Blog
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
-    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
 
     <meta name="theme-color" content="#FFFFFF">
     <meta name="msapplication-navbutton-color" content="#FFFFFF">
@@ -30,22 +30,22 @@ title: Christian Fei's Blog
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@christian_fei">
     <meta name="twitter:creator" content="@christian_fei">
-    {# <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> #}
+
+
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     {% set style %}
       {% include "style.css" %}
     {% endset %}
-    {% set carbonads %}
-      {% include "carbonads.css" %}
-    {% endset %}
-
     <style>{{ style | cssmin | safe }}</style>
+
     {% if page.url != '/' and page.url != '/about/' %}
+      {% set carbonads %}
+        {% include "carbonads.css" %}
+      {% endset %}
       <style>{{ carbonads | cssmin | safe }}</style>
     {% endif %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57238829-1"></script>
-    <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-57238829-1');</script>
+
+    {% include "google-analytics.html" %}
   </head>
   <body>
     {% include "header.html" %}
