@@ -3,7 +3,7 @@ layout: layout.njk
 ---
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="title no-anchorify">{{ title }}</h1>
+  <h1 class="title no-anchorify"><span>{{ title }}</span></h1>
   <div class="pad-v">
     {% if page.url != '/' and page.url != '/about/' %}
         <div style="float: right">

@@ -21,8 +21,8 @@ html, body { font-size: 22px; font-weight: 400; line-height: 1.45; }
 html, body { font-family: Menlo, 'Courier New', Courier, Inconsolata, monospace; }
 html, body { font-family: 'Raleway', sans-serif; }
 #footer { margin-top: 4em; }
-::-moz-selection { background: #fe1; }
-::selection { background: #fe1; }
+::-moz-selection { background: #fe1; background: #ffee1187; }
+::selection { background: #fe1; background: #ffee1187; }
 a { color: inherit; }
 a:visited { color: inherit; }
 a:hover, a:active, a:focus { background: #fe1; }
@@ -79,4 +79,13 @@ blockquote { background: #f1f0f0aa; font-size: 1.1em; font-style: italic; }
 .pad-v {
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+main article .title {
+  /* text-align: end; */
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+main article .title span {
+  background: #fe1;
 }
