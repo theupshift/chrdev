@@ -1,13 +1,11 @@
 /* layout */
 * { box-sizing: border-box; }
 html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
-/* body { padding: 0.5em; } */
-body > * { margin-left: -0.5em; margin-right: -0.5em; }
 body > *:not(.free) { max-width: 40em; margin: 0 auto; padding: 0.5em; }
 .contain { max-width: 40em; margin: 0 auto; }
 img { max-width: 100%; }
 #avatar { width: 1.5em; height: 1.5em; border-radius: 50%; margin-bottom: -0.3+5em; margin-right: 0.5em; }
-.post-item { position: relative; padding: 0.4em 0; }
+.post-item { position: relative; padding: 0.7em 0; }
 .post-date { position: absolute; right: 0; }
 @media all and (max-width: 60em) { .post-date { display: none; } }
 
@@ -29,9 +27,7 @@ a:visited { color: inherit; }
 a:hover, a:active, a:focus { background: #fe1; }
 pre, code { overflow: scroll; background: #efeed966; }
 ul { padding-left: 1em; }
-/* h1, h2, h3 { margin-top: 0; } */
 /* https://type-scale.com/ */
-/* p { margin: 0 0 1.25em; } */
 h1, h2, h3, h4, h5 { margin: 2.75rem 0 1rem; font-weight: 700; line-height: 1.15; }
 h1 { margin-top: 0; font-size: 2.488em; }
 h1 { margin-top: 0; font-size: 2.7em; }
@@ -41,12 +37,13 @@ h4 { font-size: 1.44em; }
 h5 { font-size: 1.2em; }
 small, .text_small { font-size: 0.833em; }
 
+.nav-link { padding: 0.25em 0.5em; text-decoration: none; display: inline-block; }
+
 .title { margin-top: 1em }
 
 .tags { overflow-x: scroll }
 .tag { background-color: #ececec;  padding: 0.2em 0.5em; opacity: 0.7; }
 
-.nav-link { padding: 0.25em 0.5em; text-decoration: none; display: inline-block; }
 
 input.searchable-input {
   display: block;
@@ -90,8 +87,35 @@ main article .title {
 .bg { background: #fe1 }
 .light { opacity: 0.5; }
 .tac {text-align: center;}
+.tdn {text-decoration: none;}
+.ovs {overflow-x: scroll; }
 
 .alert {
   background: #fe1;
   padding: 1em 1em;
+}
+
+.featured-post {
+  min-width: 400px;
+  height: 200px;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.featured-post .post-title {
+  text-decoration: none !important;
+  background-color: white;
+  padding: 0.4em;
+  margin-top: 1em;
+}
+.featured-post .post-date {
+  position: absolute;
+  background-color: white;
+  bottom: 0.5em;
+  right: 0.5em;
+}
+
+.featured-post:hover {
+  transform: scale(1.1);
 }

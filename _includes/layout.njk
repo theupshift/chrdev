@@ -50,9 +50,7 @@ title: Christian Fei's Blog
   <body>
     {% include "header.html" %}
 
-    <main id="main">
-      {{ content | safe }}
-    </main>
+    {{ content | safe }}
 
     {% if page.url !== '/posts/' and page.url.includes('/posts/') %}
       {% include "comments.html" %}

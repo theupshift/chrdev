@@ -3,23 +3,29 @@ layout: layout.njk
 title: Home
 ---
 
-<!-- <h1 class="title no-anchorify">posts</h1> -->
+👋 Hello, and <b>welcome to my blog</b>
 
-<p>
-  <a class="tag" href="/tags/featured">#featured</a> <a class="tag" href="/tags/general">#general</a> <a class="tag" href="/tags/js">#js</a> <a class="tag" href="/tags/tutorial">#tutorial</a> <a class="tag" href="/tags/angularjs">#angularjs</a> <a class="tag" href="/tags/crypto">#crypto</a>
-</p>
+<b>My name is Christian</b>, as you might have guessed
 
-Featured posts
+Ah, and I'm a <b>passionate web developer</b> from <b>Italy</b> 🇮🇹
 
-<ul class="searchable">
+This is the space on the web where I share my findings, ideas and technical articles around programming
+
+You can read a bit more <a href="/about">about me here</a>
+
+<br>
+
+<h1 class="title tac">Featured blog posts</h1>
+
+<div class="flex free ovs">
 {% for post in collections.featured %}
-  <li class="post-item">
-    <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
-    <a href="{{ post.url }}" class="post-link">
-      {{ post.data.title | capitalize }}
+  <div class="flex-item post-item featured-post" style="min-width: 333px; background-image: url({{post.data.image}})">
+    <a href="{{ post.url }}" class="tdn">
+      <b class="post-title">{{ post.data.title | capitalize }}</b>
+      <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
     </a>
-  </li>
+  </div>
 {% endfor %}
-</ul>
+</div>
 
-or <a href="/posts/">all {{ collections.posts.length }} of them</a>
+See <a href="/posts/">all {{ collections.posts.length }} blog posts</a> I wrote since 2012.
