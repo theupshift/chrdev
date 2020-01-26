@@ -11,7 +11,7 @@ img { max-width: 100%; }
 @media all and (max-width: 60em) { .post-date { display: none; } }
 
 /* design */
-#footer { background: #f9f9f9; padding-top: 1em; padding-bottom: 1em; background: linear-gradient(0deg, #f3f3f3, white); }
+#footer { background: #f9f9f9; padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em; background: linear-gradient(0deg, #f3f3f3, white); }
 
 img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
 
