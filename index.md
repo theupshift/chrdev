@@ -3,15 +3,13 @@ layout: layout.njk
 title: Home
 ---
 
-👋 Hello, and <b>welcome to my blog</b>
+Hello, and <b>welcome to my blog</b>
 
-<b>My name is Christian</b>, as you might have guessed
+<b>My name is Christian</b> and I'm a <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/" target="_blank">passionate web developer</a> from <b>Italy</b>
 
-Ah, and I'm a <b>passionate web developer</b> from <b>Italy</b> 🇮🇹
+This is the <b>space on the web</b> where I <b>share</b> stuff in written form
 
-This is the space on the web where I share my findings, ideas and technical articles around programming
-
-You can read a bit more <a href="/about">about me here</a>
+You can <a href="https://twitter.com/christian_fei" target="_blank">follow me on twitter</a> and read a bit more <a href="/about">about me here</a>
 
 <br>
 
