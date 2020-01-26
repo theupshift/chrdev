@@ -11,11 +11,14 @@ context('Content', () => {
     cy.location('pathname').should('include', 'about')
   })
 
+  it('visible featured posts', () => {
+    cy.get('body').contains('Featured blog posts')
+  })
+
   describe('single post', () => {
     beforeEach(() => {
-      cy.get('.post-link').eq(0).click()
+      cy.get('.post-item a').eq(0).click()
     })
-
     it('navigates to /posts/{post-slug}', () => {
       cy.location('pathname').should('include', 'posts')
     })
