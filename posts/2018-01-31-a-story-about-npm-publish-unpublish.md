@@ -7,7 +7,7 @@ tags:
   - js
   - general
   - featured
-bg_image: /assets/images/posts/npm.svg
+image: /assets/images/posts/npm.svg
 ---
 
 ![npm](/assets/images/posts/npm.svg)

@@ -7,6 +7,7 @@ tags:
   - tutorial
   - featured
 date: 2018-11-28
+image: https://images.unsplash.com/photo-1512908593802-fc940f380825?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
 ---
 
 If you stumbled upon this article, you are probably seeing the following error message on travis in the deployment stage:

@@ -105,9 +105,10 @@ main article .title {
   transition: all 0.3s ease;
 }
 .featured-post .post-title {
+  font-size: 1.1em;
   text-decoration: none !important;
   background-color: white;
-  padding: 0.4em;
+  padding: 0.2em;
   margin-top: 1em;
 }
 .featured-post .post-date {
@@ -118,5 +119,7 @@ main article .title {
 }
 
 .featured-post:hover {
+  background-size: cover;
   transform: scale(1.1);
+  z-index: 9000;
 }
