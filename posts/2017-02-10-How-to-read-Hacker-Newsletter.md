@@ -1,6 +1,6 @@
 ---
 title: How to read Hacker Newsletter
-date: '2017-02-10'
+date: 2017-02-10
 layout: post.njk
 tags:
   - post

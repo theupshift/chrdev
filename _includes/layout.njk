@@ -1,7 +1,6 @@
 ---
 title: Christian Fei's Blog
 ---
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -56,7 +55,9 @@ title: Christian Fei's Blog
       {% include "comments.html" %}
     {% endif %}
 
-    {% include "interest.html" %}
+    {% if page.url !== '/' %}
+      {% include "featured.html" %}
+    {% endif %}
 
     {% include "footer.html" %}
 

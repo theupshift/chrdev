@@ -37,7 +37,20 @@ module.exports = function(eleventyConfig) {
   })
   eleventyConfig.addFilter("excerpt", (content) => (content || '').substring(0, 200))
   eleventyConfig.addFilter("encode", (content) => encodeURIComponent(content || ''))
-  eleventyConfig.addFilter("json", (obj) => JSON.stringify(obj || {}))
+  eleventyConfig.addFilter("json", (obj) => {
+    try {
+      return JSON.stringify(obj || {})
+    } catch (err) {
+      return ''
+    }
+  })
+  eleventyConfig.addFilter("printdate", (date) => {
+    try {
+      return new Date(date).toISOString().substring(0, 10)
+    } catch (err) {
+      return JSON.stringify(date)
+    }
+  })
   eleventyConfig.addFilter("commit", (obj, cb) => commit)
   eleventyConfig.addFilter("githubCommitDiffUrl", (obj, cb) => `https://github.com/christian-fei/christian-fei.github.io/commit/${commit}`)
   eleventyConfig.addFilter("year", (obj, cb) => new Date().getFullYear())
