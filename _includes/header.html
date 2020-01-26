@@ -1,27 +1,25 @@
 <header>
   <div class="flex">
-    <div class="nav-link flex-item">
-      <a href="/" class="">
+    <div class="flex-item">
+      <a href="/" class="nav-link">
+        <span class="light" style="vertical-align: super;">/</span>
         {% include 'me-base64.html' %}
-        <strong>christian fei's blog</strong>
       </a>
     </div>
-    <div class="nav-link flex-item flex-05">
-      <b><a class="nav-link {% if page.url.includes('/posts') %} active {% endif %}" href="/posts">posts</a>
-
+    <div class="flex-item flex-05">
+      <b><a class="nav-link {% if page.url.includes('/posts') %} active {% endif %}" href="/posts"><span class="light">/</span>posts</a>
     </div>
-    <div class="nav-link flex-item flex-05">
-      <b><a class="nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about">about</a>
+    <div class="flex-item flex-05">
+      <b><a class="nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about"><span class="light">/</span>about</a>
     </div>
   </div>
-
   <!--
-  <p>
-    <strong>agile developer<br>clean code connoisseur<br>testing aficionado</strong>
-  </p>
-
   <p>
     <b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a>
   </p>
   -->
 </header>
+
+<div class="tac alert free">
+  <strong>agile developer, clean code connoisseur, testing aficionado</strong>
+</div>
