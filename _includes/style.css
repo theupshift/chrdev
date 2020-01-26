@@ -45,6 +45,10 @@ small, .text_small { font-size: 0.833em; }
 .tags { overflow-x: scroll }
 .tag { background-color: #ececec;  padding: 0.2em 0.5em; opacity: 0.7; }
 
+.nav-link { padding: 0.5em; }
+.nav-link:first-child { padding-left: 0em; }
+.nav-link:last-child { padding-right: 0em; }
+
 input.searchable-input {
   display: block;
   font-size: 0.9rem;
