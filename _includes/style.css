@@ -81,11 +81,14 @@ blockquote { background: #f1f0f0aa; font-size: 1.1em; font-style: italic; }
   padding-bottom: 2em;
 }
 
+html body > main {
+  margin-top: 3em !important;
+}
 main article .title {
   /* text-align: end; */
   padding-top: 0.2em;
   padding-bottom: 0.2em;
 }
-main article .title span {
-  background: #fe1;
-}
+
+.title span { background: #fe1 }
+.bg { background: #fe1 }

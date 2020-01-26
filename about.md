@@ -3,7 +3,7 @@ layout: layout.njk
 title: About
 ---
 
-<h1 class="title no-anchorify">about</h1>
+<!-- <h1 class="title no-anchorify"><span>about</span></h1> -->
 
 i am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
 
