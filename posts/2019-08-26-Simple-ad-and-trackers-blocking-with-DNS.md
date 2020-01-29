@@ -6,7 +6,7 @@ tags:
   - post
   - tutorial
   - featured
-image: https://images.unsplash.com/photo-1488422731527-bc8c160e380c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+image: https://images.unsplash.com/photo-1488422731527-bc8c160e380c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 ---
 
 You can use your [`hosts` file](https://en.wikipedia.org/wiki/Hosts_(file)) to redirect all traffic in a local black hole (namely 0.0.0.0)

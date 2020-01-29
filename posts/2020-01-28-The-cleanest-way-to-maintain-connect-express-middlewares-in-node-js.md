@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - featured
-image: https://images.unsplash.com/photo-1561736778-92e52a7769ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+image: https://images.unsplash.com/photo-1561736778-92e52a7769ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 ---
 
 I want to share how I maintain my [connect](https://www.npmjs.com/package/connect) / [express](https://www.npmjs.com/package/express) middlewares for simple HTTP APIs in Node.js
