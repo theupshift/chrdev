@@ -40,12 +40,13 @@ main article .title { padding-top: 0.2em; padding-bottom: 0.2em; }
 .alert { background: #fe1; padding: 1em 1em; }
 
 .featured-post {
-  min-width: 400px;
-  height: 200px;
+  min-width: 600px;
+  height: 230px;
   background-size: cover;
   text-align: center;
   position: relative;
   transition: all 0.3s ease;
+  padding: 0.5em;
 }
 .featured-post .post-title {
   font-size: 1.1em;
