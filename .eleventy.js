@@ -36,6 +36,7 @@ module.exports = function(eleventyConfig) {
     return minutes > 1 ? `${minutes} minutes` : `1 minute`
   })
   eleventyConfig.addFilter("excerpt", (content) => (content || '').substring(0, 200))
+  eleventyConfig.addFilter("twitterTitle", (title) => `"${encodeURIComponent(title || '')}", by @christian_fei`)
   eleventyConfig.addFilter("encode", (content) => encodeURIComponent(content || ''))
   eleventyConfig.addFilter("json", (obj) => {
     try {
