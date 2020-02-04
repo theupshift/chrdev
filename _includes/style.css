@@ -1,5 +1,5 @@
 /* layout */
-* { box-sizing: border-box; }
+*, *::after, *::before { box-sizing: border-box; }
 html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
 body > *:not(.free) { max-width: 40em; margin: 0 auto; padding: 0.5em; }
 body > h1, h2, h3, h4 { text-align: center; }
@@ -13,7 +13,7 @@ img { max-width: 100%; }
 /* design */
 #footer { background: #f9f9f9; padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em; background: linear-gradient(0deg, #f3f3f3, white); }
 
-img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
+article img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
 
 /* typography */
 html, body { font-size: 22px; font-weight: 400; line-height: 1.45; }
@@ -24,7 +24,7 @@ html, body { font-family: 'Raleway', sans-serif; }
 ::selection { background: #fe1; }
 a { color: inherit; }
 a:visited { color: inherit; }
-a:hover, a:active, a:focus { background: #fe1; }
+a:hover, a:active, a:focus { background: #fe1; outline: none; }
 pre { overflow-x: scroll; }
 pre, code { background: #ffee11; background: #ffee1199; }
 pre code { background: none; }
@@ -43,9 +43,20 @@ h4 { font-size: 1.44em; }
 h5 { font-size: 1.2em; }
 small, .text_small { font-size: 0.833em; }
 
-.nav-link { padding: 0.25em 0.5em; text-decoration: none; display: inline-block; }
+.nav-link {
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom .3s ease-out;
+ }
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+  background: none;
+  outline: none;
+  border-bottom: 3px solid #fe1;
+}
 
-.title { margin-top: 1em }
+/* .title { margin-top: 1em } */
 
 .tags { overflow-x: scroll }
 .tag { background-color: #ececec;  padding: 0.2em 0.5em; opacity: 0.7; }
@@ -76,6 +87,9 @@ blockquote { background: #f1f0f0aa; font-size: 1.1em; font-style: italic; }
 
 .flex { display: flex; flex-direction: row; }
 .flex-item { flex: 1; }
+.flex-01 { flex: 0.1; }
+.flex-02 { flex: 0.2; }
+.flex-03 { flex: 0.3; }
 .flex-05 { flex: 0.5; }
 
 .pad-v {
@@ -93,6 +107,7 @@ main article .title {
 .bg { background: #fe1 }
 .light { opacity: 0.5; }
 .tac {text-align: center;}
+.tar {text-align: right;}
 .tdn {text-decoration: none;}
 .ovs {overflow-x: scroll; }
 
@@ -128,4 +143,10 @@ main article .title {
   background-size: cover;
   transform: scale(1.1) rotateZ(-2deg);
   z-index: 9000;
+}
+
+.icon {
+  display: inline-block;
+  width: 1.275rem;
+  height: 1.275rem;
 }
