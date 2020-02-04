@@ -82,7 +82,6 @@ input.searchable-input:focus { background: #f1f0f0aa; }
 
 a { font-weight: bold }
 blockquote { background: #f1f0f0aa; font-size: 1.1em; font-style: italic; }
-.utterances { width: 100% !important; max-width: 100% !important; }
 
 
 .flex { display: flex; flex-direction: row; }

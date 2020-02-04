@@ -51,10 +51,6 @@ title: Christian Fei's Blog
 
     {{ content | safe }}
 
-    {% if page.url !== '/posts/' and page.url.includes('/posts/') %}
-      {% include "comments.html" %}
-    {% endif %}
-
     {% if page.url !== '/' %}
       {% include "featured.html" %}
     {% endif %}
