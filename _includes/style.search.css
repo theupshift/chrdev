@@ -1,0 +1,17 @@
+/* SEARCH */
+input.searchable-input {
+  display: block;
+  font-size: 0.9rem;
+  padding: 0.75em;
+  width: 14em;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #210;
+  position: relative;
+  transition: all .3s ease;
+  /* background: #f1f0f0aa; */
+  width: 100%;
+}
+input.searchable-input:focus { background: #f1f0f0aa; }

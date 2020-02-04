@@ -1,0 +1,38 @@
+
+article img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
+
+/* typography */
+html, body { font-size: 22px; font-weight: 400; line-height: 1.45; }
+@media all and (max-width: 40em) { html, body { font-size: 20px; } }
+html, body { font-family: Menlo, 'Courier New', Courier, Inconsolata, monospace; }
+html, body { font-family: 'Raleway', sans-serif; }
+#footer { margin-top: 4em; }
+::selection { background: #fe1; }
+a { color: inherit; }
+a:visited { color: inherit; }
+a:hover, a:active, a:focus { background: #fe1; outline: none; }
+pre { overflow-x: scroll; }
+pre, code { background: #ffee11; background: #ffee1199; }
+pre code { background: none; }
+pre ::selection { color: white; background: #000; }
+ul { padding-left: 1em; }
+
+/* https://type-scale.com/ */
+h1, h2, h3, h4, h5 { margin: 2.75rem 0 1rem; font-weight: 700; line-height: 1.15; }
+h1 { margin-top: 0; font-size: 2.488em; }
+h1 { margin-top: 0; font-size: 2.7em; }
+h2 { font-size: 2.074em; }
+h3 { font-size: 1.728em; }
+h4 { font-size: 1.44em; }
+h5 { font-size: 1.2em; }
+small, .text_small { font-size: 0.833em; }
+
+a { font-weight: bold }
+blockquote { background: #f1f0f0aa; font-size: 1.1em; font-style: italic; }
+
+.bg { background: #fe1 }
+.light { opacity: 0.5; }
+.tac {text-align: center;}
+.tar {text-align: right;}
+.tdn {text-decoration: none;}
+.ovs {overflow-x: scroll; }

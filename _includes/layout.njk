@@ -33,7 +33,9 @@ title: Christian Fei's Blog
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     {% set style %}
-      {% include "style.css" %}
+      {% include "style.typography.css" %}
+      {% include "style.layout.css" %}
+      {% include "style.search.css" %}
     {% endset %}
     <style>{{ style | cssmin | safe }}</style>
 
