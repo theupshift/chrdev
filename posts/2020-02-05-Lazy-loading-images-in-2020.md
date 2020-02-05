@@ -104,8 +104,8 @@ Just call `lazyLoad()` (even without arguments, if you use the convention `[lazy
 
 [grab a copy of `lazyload.js`](https://github.com/christian-fei/christian-fei.github.io/blob/master/lazyLoad.js) **now**!
 
-I like this approach, since I was triggered when I saw this [`gatsy` configuration](https://twitter.com/kentcdodds/status/1225095035936362497) for a blog search, which struck with me, **deeply**.
+I like this approach, since I was triggered when I saw this [`gatsy` configuration](https://twitter.com/kentcdodds/status/1225095035936362497) for a blog search, which struck with me.
 
-I also wanted at the same time improve my lighthouse score for `christianfei.com`, and here it is:
+At the same time I wanted to improve my [pagespeed-insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fchristianfei.com%2F&tab=desktop) score for `christianfei.com`, and here it is:
 
 ![pagespeed-insights-christianfei.com](/assets/images/posts/pagespeed-insights.png)
