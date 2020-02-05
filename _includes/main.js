@@ -9,7 +9,7 @@ function main () {
     $searchables.forEach(initSearchable)
   }
 
-  lazyBackgroundImages([...document.querySelectorAll('[lazy-background]')])
+  lazyBackgroundImages([...document.querySelectorAll('[lazy]')])
 }
 
 function initSearchable ($searchable) {
@@ -51,7 +51,7 @@ function initSearchable ($searchable) {
   }
 }
 
-function lazyBackgroundImages ($lazy = [...document.querySelectorAll('[lazy-background]')]) {
+function lazyBackgroundImages ($lazy = [...document.querySelectorAll('[lazy]')]) {
   window.addEventListener('DOMContentLoaded', () => {
     $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && fn(el)))
   })
@@ -64,8 +64,12 @@ function lazyBackgroundImages ($lazy = [...document.querySelectorAll('[lazy-back
   }
 
   function fn (el) {
-    const bg = el.getAttribute('lazy-background')
-    el.style.backgroundImage = `url(${bg})`
+    const imageUrl = el.getAttribute('lazy')
+    if (el instanceof window.HTMLImageElement) {
+      el.setAttribute('src', imageUrl)
+    } else {
+      el.style.backgroundImage = `url(${imageUrl})`
+    }
     return true
   }
 
