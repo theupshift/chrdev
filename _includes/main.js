@@ -9,20 +9,7 @@ function main () {
     $searchables.forEach(initSearchable)
   }
 
-  const $lazyBackgrounds = [...document.querySelectorAll('[lazy-background]')]
-
-  let lastCheck = Date.now()
-
-  $lazyBackgrounds.forEach(applyLazyBackgroundImage)
-  window.onscroll = function (e) {
-    if ($lazyBackgrounds.length === 0 || lastCheck > Date.now() - 5) return
-    console.log('lazy bg')
-    lastCheck = Date.now()
-
-    if ($lazyBackgrounds) {
-      $lazyBackgrounds.forEach(applyLazyBackgroundImage)
-    }
-  }
+  lazyBackgroundImages([...document.querySelectorAll('[lazy-background]')])
 }
 
 function initSearchable ($searchable) {
@@ -64,19 +51,32 @@ function initSearchable ($searchable) {
   }
 }
 
-function applyLazyBackgroundImage (el, index, array) {
-  if (isScrolledIntoView(el)) {
-    const bg = el.getAttribute('lazy-background')
-    console.log('applying bg', bg)
-    el.style.backgroundImage = `url(${bg})`
-    Array.isArray(array) && array.splice(index, 1)
-  }
-}
+function lazyBackgroundImages ($lazy = [...document.querySelectorAll('[lazy-background]')]) {
+  window.addEventListener('DOMContentLoaded', () => {
+    $lazy = $lazy.filter(el => !applyLazyBackgroundImage(el))
+  })
 
-function isScrolledIntoView (el) {
-  var rect = el.getBoundingClientRect()
-  var elemTop = rect.top
-  var elemBottom = rect.bottom
-  var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight)
-  return isVisible
+  let lastCheck = Date.now()
+  window.onscroll = function (e) {
+    if ($lazy.length === 0 || lastCheck > Date.now() - 50) return
+    lastCheck = Date.now()
+
+    if ($lazy) {
+      $lazy = $lazy.filter(el => !applyLazyBackgroundImage(el))
+    }
+  }
+
+  function applyLazyBackgroundImage (el, index, array) {
+    if (isScrolledIntoView(el)) {
+      const bg = el.getAttribute('lazy-background')
+      el.style.backgroundImage = `url(${bg})`
+      return true
+    }
+
+    function isScrolledIntoView (el) {
+      var rect = el.getBoundingClientRect()
+      var isVisible = (rect.top >= 0) && (rect.bottom <= window.innerHeight)
+      return isVisible
+    }
+  }
 }
