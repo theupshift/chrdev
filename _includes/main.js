@@ -3,10 +3,25 @@ window.initSearchable = initSearchable
 main()
 
 function main () {
-  const $searchables = document.querySelectorAll('.searchable')
+  const $searchables = [...document.querySelectorAll('.searchable')]
 
   if ($searchables) {
     $searchables.forEach(initSearchable)
+  }
+
+  const $lazyBackgrounds = [...document.querySelectorAll('[lazy-background]')]
+
+  let lastCheck = Date.now()
+
+  $lazyBackgrounds.forEach(applyLazyBackgroundImage)
+  window.onscroll = function (e) {
+    if ($lazyBackgrounds.length === 0 || lastCheck > Date.now() - 5) return
+    console.log('lazy bg')
+    lastCheck = Date.now()
+
+    if ($lazyBackgrounds) {
+      $lazyBackgrounds.forEach(applyLazyBackgroundImage)
+    }
   }
 }
 
@@ -47,4 +62,21 @@ function initSearchable ($searchable) {
       }
     })
   }
+}
+
+function applyLazyBackgroundImage (el, index, array) {
+  if (isScrolledIntoView(el)) {
+    const bg = el.getAttribute('lazy-background')
+    console.log('applying bg', bg)
+    el.style.backgroundImage = `url(${bg})`
+    Array.isArray(array) && array.splice(index, 1)
+  }
+}
+
+function isScrolledIntoView (el) {
+  var rect = el.getBoundingClientRect()
+  var elemTop = rect.top
+  var elemBottom = rect.bottom
+  var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight)
+  return isVisible
 }

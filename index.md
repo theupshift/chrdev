@@ -17,12 +17,9 @@ You can <a href="https://twitter.com/christian_fei" target="_blank">follow me on
 
 <div class="flex free ovs">
 {% for post in collections.featured %}
-  <a
-    href="{{ post.url }}"
-    class="tdn flex-item post-item featured-post"
-    style="display: block; min-width: 333px; background-image: url({{post.data.image}})">
-      <b class="post-title">{{ post.data.title | capitalize }}</b>
-      <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
+  <a href="{{ post.url }}" class="tdn flex-item post-item featured-post" lazy-background="{{post.data.image}}">
+    <b class="post-title">{{ post.data.title | capitalize }}</b>
+    <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
   </a>
 {% endfor %}
 </div>
