@@ -9,7 +9,7 @@ function main () {
     $searchables.forEach(initSearchable)
   }
 
-  lazyBackgroundImages([...document.querySelectorAll('[lazy]')])
+  lazyLoad([...document.querySelectorAll('[lazy]')])
 }
 
 function initSearchable ($searchable) {
@@ -51,19 +51,19 @@ function initSearchable ($searchable) {
   }
 }
 
-function lazyBackgroundImages ($lazy = [...document.querySelectorAll('[lazy]')]) {
+function lazyLoad ($lazy = [...document.querySelectorAll('[lazy]')]) {
   window.addEventListener('DOMContentLoaded', () => {
-    $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && fn(el)))
+    $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
   })
 
   let lastCheck = Date.now()
   window.onscroll = function (e) {
     if ($lazy.length === 0 || lastCheck > Date.now() - 50) return
     lastCheck = Date.now()
-    $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && fn(el)))
+    $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
   }
 
-  function fn (el) {
+  function applyLazy (el) {
     const imageUrl = el.getAttribute('lazy')
     if (el instanceof window.HTMLImageElement) {
       el.setAttribute('src', imageUrl)
