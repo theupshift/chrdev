@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - general
-image: https://images.unsplash.com/photo-1551236015-dc372b14db22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+image: https://images.unsplash.com/photo-1551236015-dc372b14db22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 
 <!-- ![/assets/images/posts/completed-hacktoberfest-2019/confirmation-email.png](/assets/images/posts/completed-hacktoberfest-2019/confirmation-email.png) -->

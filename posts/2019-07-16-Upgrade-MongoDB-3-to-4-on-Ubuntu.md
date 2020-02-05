@@ -7,7 +7,7 @@ tags:
   - mongodb
   - featured
 date: 2019-07-16
-image: https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+image: https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 
 Do you need to upgrade from MongoDB version 3.4 / 3.6 to version 4.0 ?
