@@ -104,7 +104,14 @@ Just call `lazyLoad()` (even without arguments, if you use the convention `[lazy
 
 [grab a copy of `lazyload.js`](https://github.com/christian-fei/christian-fei.github.io/blob/master/lazyLoad.js) **now**!
 
-I like this approach, since I was triggered when I saw this [`gatsy` configuration](https://twitter.com/kentcdodds/status/1225095035936362497) for a blog search, which struck with me.
+I like this approach, since I was triggered when I saw this [`gatsy` configuration](https://twitter.com/kentcdodds/status/1225095035936362497) for a blog search, which struck with me. In the sense that for a "simple" blog search (be it 1000 blog posts even), you can handle them easily I bet with plain HTML and JS, CSS if you want to make it look fancy.
+
+The **next blog post** I have in pipeline is exactly this: **a simple blog search**, as you can find on [/posts/](https://christianfei.com/posts/) **with just HTML and JavaScript**.
+
+## FEEDBACK [@christian_fei](https://twitter.com/christian_fei)
+
+
+## pagespeed insights says thaanks 💯
 
 At the same time I wanted to improve my [pagespeed-insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fchristianfei.com%2F&tab=desktop) score for `christianfei.com`, and here it is:
 
