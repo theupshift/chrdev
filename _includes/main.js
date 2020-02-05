@@ -71,7 +71,7 @@ function lazyBackgroundImages ($lazy = [...document.querySelectorAll('[lazy-back
 
   function isScrolledIntoView (el) {
     var rect = el.getBoundingClientRect()
-    var isVisible = (rect.top >= 0) && (rect.bottom <= window.innerHeight)
+    var isVisible = (rect.top >= 0) && (rect.bottom <= (window.innerHeight + rect.height))
     return isVisible
   }
 }
