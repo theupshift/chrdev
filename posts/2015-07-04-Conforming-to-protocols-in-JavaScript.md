@@ -4,7 +4,7 @@ date: 2015-07-04
 layout: post.njk
 tags:
   - post
-  - js
+  - javascript
 ---
 
 Did you ever find yourself in need to check if a specific interface/protocol is satisfied by a function in JavaScript?

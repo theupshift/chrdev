@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - angularjs
-  - js
+  - javascript
 desc: "DRY dependency injection in Angular with gulp-ng-annotate"
 ---
 

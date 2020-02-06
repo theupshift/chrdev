@@ -6,7 +6,7 @@ tags:
   - post
   - tutorial
   - angularjs
-  - js
+  - javascript
 ---
 
 Let's say you have an array of things.

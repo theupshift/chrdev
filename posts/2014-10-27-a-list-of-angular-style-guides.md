@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - angularjs
-  - js
+  - javascript
 ---
 
 I'm reading everyday something about Angular and lately I've been into styleguides in particular to make more opinionated decisions when crafting [pomodoro.cc](https://pomodoro.cc/) and to learn and improve my Angular skills.

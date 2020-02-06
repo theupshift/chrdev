@@ -6,7 +6,7 @@ tags:
   - post
   - general
   - featured
-  - js
+  - javascript
 bg_image: https://pomodoro.cc/pomodoro.cc.png
 ---
 

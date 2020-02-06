@@ -6,7 +6,7 @@ tags:
   - post
   - crypto
   - blockchain
-  - js
+  - javascript
   - tutorial
 bg_image: /assets/images/posts/market-data.png
 ---

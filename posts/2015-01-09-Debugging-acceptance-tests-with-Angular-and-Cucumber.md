@@ -6,7 +6,7 @@ tags:
   - post
   - testing
   - angularjs
-  - js
+  - javascript
   - tutorial
 ---
 

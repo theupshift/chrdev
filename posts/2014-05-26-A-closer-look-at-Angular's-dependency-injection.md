@@ -4,7 +4,7 @@ layout: post.njk
 tags:
   - post
   - angularjs
-  - js
+  - javascript
 date: 2014-05-26
 ---
 

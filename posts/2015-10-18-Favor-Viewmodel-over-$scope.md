@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - angularjs
-  - js
+  - javascript
 ---
 
 As you may be accustomed by now, in the JavaScript scene there is *almost never* a single way to program. I think it`s very difficult to find an idiomatic styleguide for the language/framework.

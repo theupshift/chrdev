@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - angularjs
-  - js
+  - javascript
   - testing
 ---
 

@@ -4,6 +4,7 @@ date: 2020-02-05
 layout: post.njk
 tags:
   - post
+  - javascript
   - featured
 image: https://images.unsplash.com/photo-1564248686-f288437eb060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---

@@ -4,7 +4,7 @@ date: 2017-02-22
 layout: post.njk
 tags:
   - post
-  - js
+  - javascript
 ---
 
 <pre class="f4">

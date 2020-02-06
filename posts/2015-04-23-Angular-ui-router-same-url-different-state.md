@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - angularjs
-  - js
+  - javascript
 ---
 
 Recently on [pomodoro.cc](https://pomodoro.cc) I found myself in need of the following routes:

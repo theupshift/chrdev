@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - featured
-  - js
+  - javascript
 image: https://images.unsplash.com/photo-1508935620299-047e0e35fbe3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 

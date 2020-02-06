@@ -3,7 +3,7 @@ title: Publishing org scoped npm packages with travis
 layout: post.njk
 tags:
   - post
-  - js
+  - javascript
   - tutorial
   - featured
 date: 2018-11-28

@@ -4,7 +4,7 @@ date: 2019-12-11
 layout: post.njk
 tags:
   - post
-  - js
+  - javascript
   - featured
   - javascript
   - general

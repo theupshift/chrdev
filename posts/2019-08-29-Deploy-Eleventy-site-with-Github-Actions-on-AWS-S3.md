@@ -4,7 +4,7 @@ date: 2019-08-29
 layout: post.njk
 tags:
   - post
-  - js
+  - javascript
   - tutorial
   - featured
 image: https://images.unsplash.com/photo-1517976487492-5750f3195933?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40

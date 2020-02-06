@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - aws
-  - js
+  - javascript
   - tutorial
 ---
 

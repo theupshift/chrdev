@@ -5,7 +5,7 @@ layout: post.njk
 tags:
   - post
   - docker
-  - js
+  - javascript
   - tutorial
 ---
 

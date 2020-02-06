@@ -4,7 +4,7 @@ date: 2015-08-12
 layout: post.njk
 tags:
   - post
-  - js
+  - javascript
   - tutorial
 ---
 
