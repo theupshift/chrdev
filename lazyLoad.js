@@ -5,14 +5,22 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 window.lazyLoad = lazyLoad
-function lazyLoad ($lazy = [...document.querySelectorAll('[lazy]')]) {
+function lazyLoad (selector = '[lazy]') {
+  console.log('lazyLoad', selector)
+
+  let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
+  console.log('$lazy.length', $lazy.length)
+
   window.addEventListener('DOMContentLoaded', () => {
-    $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
+    console.log('DOMContentLoaded', $lazy.length)
   })
 
-  let lastCheck = Date.now()
+  $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
+  console.log(' - $lazy.length', $lazy.length)
+
+  let lastCheck
   window.onscroll = function (e) {
-    if ($lazy.length === 0 || lastCheck > Date.now() - 50) return
+    if (lastCheck && ($lazy.length === 0 || lastCheck > Date.now() - 50)) return
     lastCheck = Date.now()
     $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
   }
