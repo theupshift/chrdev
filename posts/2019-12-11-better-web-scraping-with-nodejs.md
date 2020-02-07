@@ -29,6 +29,11 @@ the scraping queue is based on **Redis** and can be monitored using [bull-dashbo
 
 I built it because I felt the need for a better way to do scraping.
 
+[mega-scraper](https://www.npmjs.com/package/mega-scraper/)
+
+[![NPM](https://nodei.co/npm/mega-scraper.png)](https://npmjs.org/package/mega-scraper)
+
+
 ## reliable scraping
 
 how to make scraping more reliable and less detectable by anti-scraping shields?
