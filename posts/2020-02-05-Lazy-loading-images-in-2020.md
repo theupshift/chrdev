@@ -17,14 +17,22 @@ here's the source code:
 
 ```
 window.lazyLoad = lazyLoad
-function lazyLoad ($lazy = [...document.querySelectorAll('[lazy]')]) {
+function lazyLoad (selector = '[lazy]') {
+  console.log('lazyLoad', selector)
+
+  let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
+  console.log('$lazy.length', $lazy.length)
+
   window.addEventListener('DOMContentLoaded', () => {
-    $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
+    console.log('DOMContentLoaded', $lazy.length)
   })
 
-  let lastCheck = Date.now()
+  $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
+  console.log(' - $lazy.length', $lazy.length)
+
+  let lastCheck
   window.onscroll = function (e) {
-    if ($lazy.length === 0 || lastCheck > Date.now() - 50) return
+    if (lastCheck && ($lazy.length === 0 || lastCheck > Date.now() - 50)) return
     lastCheck = Date.now()
     $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
   }
