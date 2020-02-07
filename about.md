@@ -4,6 +4,7 @@ title: About
 ---
 
 <!-- <h1 class="title no-anchorify"><span>about</span></h1> -->
+<div>
 
 i am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
 
@@ -57,3 +58,5 @@ had a chance to dabble with **python** in the context of python notebooks when i
 when i was doing **ruby** i felt on top of the world
 
 as a classic, **java**, but i prefer to stay away from it
+
+</div>
