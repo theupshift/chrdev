@@ -59,9 +59,10 @@ function lazyLoad (selector = '[lazy]') {
 
   window.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded', $lazy.length)
-    $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
-    console.log(' - $lazy.length', $lazy.length)
   })
+
+  $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
+  console.log(' - $lazy.length', $lazy.length)
 
   let lastCheck
   window.onscroll = function (e) {
