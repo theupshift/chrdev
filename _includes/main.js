@@ -56,9 +56,9 @@ function lazyLoad ($lazy = [...document.querySelectorAll('[lazy]')]) {
     $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
   })
 
-  let lastCheck = Date.now()
+  let lastCheck
   window.onscroll = function (e) {
-    if ($lazy.length === 0 || lastCheck > Date.now() - 50) return
+    if (lastCheck && ($lazy.length === 0 || lastCheck > Date.now() - 50)) return
     lastCheck = Date.now()
     $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
   }
