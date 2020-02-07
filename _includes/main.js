@@ -52,11 +52,15 @@ function initSearchable ($searchable) {
 }
 
 function lazyLoad (selector = '[lazy]') {
+  console.log('lazyLoad', selector)
+
   let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
+  console.log('$lazy.length', $lazy.length)
+
   window.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded', $lazy.length)
     $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
-    console.log(' - filtered', $lazy.length)
+    console.log(' - $lazy.length', $lazy.length)
   })
 
   let lastCheck
