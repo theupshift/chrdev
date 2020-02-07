@@ -9,7 +9,7 @@ function main () {
     $searchables.forEach(initSearchable)
   }
 
-  lazyLoad([...document.querySelectorAll('[lazy]')])
+  lazyLoad('[lazy]')
 }
 
 function initSearchable ($searchable) {
@@ -51,9 +51,12 @@ function initSearchable ($searchable) {
   }
 }
 
-function lazyLoad ($lazy = [...document.querySelectorAll('[lazy]')]) {
+function lazyLoad (selector = '[lazy]') {
+  let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
   window.addEventListener('DOMContentLoaded', () => {
+    console.log('DOMContentLoaded', $lazy.length)
     $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
+    console.log(' - filtered', $lazy.length)
   })
 
   let lastCheck

@@ -40,7 +40,7 @@ coding all kinds of tech fields that bring value to me, read IoT, Crypto, bots, 
 regarding crypto, i launched [cryptosheet.cc](https://cryptosheet.cc/) in the summer of 2018 to satisfy my need to have all my balances and transactions on various crypto exchanges and wallet providers, in one single place: namely a spreadsheet.
 
 in the field of IoT i made a watering system with a raspberry pi, camera, temperature and moisture sensors. the communication is handled via telegram. with the help of a bot i can water, request a snapshot or video of the garden and a timelapse of the past days.
-
+ƒ
 other than [cryptosheet.cc](https://cryptosheet.cc/) i made [pomodoro.cc](https://pomodoro.cc/) in 2014. a clean timer that leverages the concepts of the Pomodoro Technique to help you to keep your focus. i encourage you to visit [pomodoro.cc](https://pomodoro.cc/).
 
 
