@@ -3,13 +3,11 @@ window.initSearchable = initSearchable
 main()
 
 function main () {
-  const $searchables = [...document.querySelectorAll('.searchable')]
+  [...document.querySelectorAll('.searchable')].forEach(initSearchable)
 
-  if ($searchables) {
-    $searchables.forEach(initSearchable)
-  }
+  try { makeExternalLinksTargetBlank() } catch (err) { console.error(err.message) }
 
-  lazyLoad('[lazy]')
+  try { lazyLoad('[lazy]') } catch (err) { console.error(err.message) }
 }
 
 function initSearchable ($searchable) {
@@ -86,4 +84,10 @@ function lazyLoad (selector = '[lazy]') {
     var isVisible = (rect.top >= 0) && (rect.bottom <= (window.innerHeight + rect.height))
     return isVisible
   }
+}
+
+function makeExternalLinksTargetBlank () {
+  const externalLinks = [...document.querySelectorAll(`body :not([href~='${window.location.hostname}']):not([href^='/'])`)]
+  console.log('external links', externalLinks.length, externalLinks.map(el => el.getAttribute('href')).filter(Boolean))
+  externalLinks.forEach(el => el.setAttribute('target', '_blank'))
 }
