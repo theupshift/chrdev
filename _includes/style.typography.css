@@ -19,8 +19,7 @@ ul { padding-left: 1em; }
 
 /* https://type-scale.com/ */
 h1, h2, h3, h4, h5 { margin: 2.75rem 0 1rem; font-weight: 700; line-height: 1.15; }
-h1 { margin-top: 0; font-size: 2.488em; }
-h1 { margin-top: 0; font-size: 2.7em; }
+h1 { font-size: 2.7em; }
 h2 { font-size: 2.074em; }
 h3 { font-size: 1.728em; }
 h4 { font-size: 1.44em; }
@@ -33,6 +32,7 @@ blockquote { background: #f1f0f0aa; font-size: 1.1em; font-style: italic; }
 .bg { background: #fe1 }
 .light { opacity: 0.5; }
 .tac {text-align: center;}
+.tacb { display: block; margin: 0 auto; }
 .tar {text-align: right;}
 .tdn {text-decoration: none;}
 .ovs {overflow-x: scroll; }
