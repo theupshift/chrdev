@@ -10,13 +10,13 @@ tags:
 image: https://images.unsplash.com/photo-1528911104572-560677f3996b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 
-After the [Simple-Jekyll-Search experience](https://github.com/christian-fei/Simple-Jekyll-Search/) I found a perhaps simpler way to do blog search without all thee fuzz.
+After the [Simple-Jekyll-Search experience](https://github.com/christian-fei/Simple-Jekyll-Search/) I found a perhaps simpler way to do blog search without all the fuzz.
 
 ~ 50 lines of generic JavaScript will suffice.
 
 What you need to set up in your HTML code is the following:
 
-- an `<ul>` or `<ol>` preferrably, but it should work with any element, with the **CSS class** `searchable` applied
+- an `<ul>` or `<ol>` preferably, but it should work with any element, with the **CSS class** `searchable` applied
 - `<li>` items that represent searchable blog posts (in fact the whole `innerText` is used to look for search matches)
 
 You can see it in action on [/posts/](/posts/).
