@@ -15,7 +15,7 @@ You can <a href="https://twitter.com/christian_fei" target="_blank">follow me on
 
 <h1 class="title tac">Featured blog posts</h1>
 
-<div class="flex free ovs">
+<div class="flex free ovh-s">
 {% for post in collections.featured %}
   <a href="{{ post.url }}" class="tdn flex-item post-item featured-post" lazy="{{post.data.image}}">
     <b class="post-title">{{ post.data.title | capitalize }}</b>

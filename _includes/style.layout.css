@@ -68,7 +68,7 @@ main article .title { padding-top: 0.2em; padding-bottom: 0.2em; }
 .featured-post:hover {
   background-color: white;;
   background-size: cover;
-  transform: scale(1.1);
+  transform: scale(1.05);
   z-index: 9000;
 }
 
@@ -81,3 +81,9 @@ main article .title { padding-top: 0.2em; padding-bottom: 0.2em; }
 .flex-02 { flex: 0.2; }
 .flex-03 { flex: 0.3; }
 .flex-05 { flex: 0.5; }
+
+
+.tac { text-align: center; }
+.tacb { display: block; margin: 0 auto; }
+.ovs { overflow-x: scroll; }
+.ovh-s { overflow-x: scroll; overflow-y: hidden; }
