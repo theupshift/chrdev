@@ -4,7 +4,6 @@ date: 2020-02-08
 layout: post.njk
 tags:
   - draft
-  - post
   - featured
   - javascript
   - mongodb
