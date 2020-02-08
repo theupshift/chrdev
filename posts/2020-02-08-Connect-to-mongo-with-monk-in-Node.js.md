@@ -66,7 +66,7 @@ In [pomodoro.cc](https://pomodoro.cc) I use this feature to stream documents fro
 Here you can find the [full code snippet](https://github.com/christian-fei/pomodoro.cc/blob/master/api/scripts/update-users-twitter-avatar.js):
 
 ```js
-await User.find({
+await users.find({
   twitterAvatarNotFound: { $exists: false },
   $or: [{
     twitterAvatarUpdatedAt: { $lt: new Date(Date.now() - 1000 * 60 * 60 * 24 * 7) }
