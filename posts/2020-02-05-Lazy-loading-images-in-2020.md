@@ -9,9 +9,9 @@ tags:
 image: https://images.unsplash.com/photo-1564248686-f288437eb060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 
-The alternative title could be: **Lazy loading images in 900B**.
+The alternative title could be **Lazy loading images in 900B**.
 
-# tldr;
+# TLDR;
 
 here's the source code:
 
@@ -74,11 +74,11 @@ This enables you to do the following in HTML:
 ## `DOMContentLoaded` and `onscroll`
 
 ### DOMContentLoaded
-When the DOM finishes to load, we do a first run of lazy loading applied to all elements present on the page, found by the CSS Selector `[lazy]`.
+When the DOM finishes loading, we do a first run of lazy loading applied to all elements present on the page, found by the CSS Selector `[lazy]`.
 
 This loads images that are in view right away, as if nothing happened.
 
-The other images, lower in the page etc., are only loaded when the user actually scrolls to them.
+The other images, lower in the page etc, are only loaded when the user scrolls to them.
 
 ### onscroll
 
@@ -86,7 +86,7 @@ The procedure above is repeated every time the user scrolls the browser window, 
 
 ## applyLazy
 
-The passed in element is modified to set the `src` attribute to `img` elements, and the `background-image` CSS Style attribute to any other element.
+The element passed in is modified to set the `src` attribute to `img` elements, and the `background-image` CSS Style attribute to any other element.
 
 ## isScrolledIntoView
 
@@ -109,13 +109,13 @@ what this means is:
 
 Nothing more, nothing less.
 
-Just call `lazyLoad()` (even without arguments, if you use the convention `[lazy]`), and all your images will be lazy loaded easily.
+Just call `lazyLoad()` (even without arguments, if you use the convention `[lazy]`), and all your images will be lazy-loaded easily.
 
 [grab a copy of `lazyload.js`](https://github.com/christian-fei/christian-fei.github.io/blob/master/lazyLoad.js) **now**!
 
-I like this approach, since I was triggered when I saw this [`gatsy` configuration](https://twitter.com/kentcdodds/status/1225095035936362497) for a blog search, which struck with me. In the sense that for a "simple" blog search (be it 1000 blog posts even), you can handle them easily I bet with plain HTML and JS, CSS if you want to make it look fancy.
+I like this approach since I was triggered when I saw this [`gatsy` configuration](https://twitter.com/kentcdodds/status/1225095035936362497) for a blog search, which struck with me. In the sense that for a "simple" blog search (be it 1000 blog posts even), you can handle them easily I bet with plain HTML and JS, CSS if you want to make it look fancy.
 
-The **next blog post** I have in pipeline is exactly this: **a simple blog search**, as you can find on [/posts/](https://christianfei.com/posts/) **with just HTML and JavaScript**.
+The **next blog post** I want to tackle is exactly this: **a simple blog search**, as you can find on [/posts/](https://christianfei.com/posts/) **with just HTML and JavaScript**.
 
 ## pagespeed insights says thaanks 💯
 
