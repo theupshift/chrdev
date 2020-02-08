@@ -1,16 +1,18 @@
-window.initSearchable = initSearchable
+window.makeSearchable = makeSearchable
+window.lazyLoad = lazyLoad
+window.makeExternalLinksTargetBlank = makeExternalLinksTargetBlank
 
 main()
 
 function main () {
-  [...document.querySelectorAll('.searchable')].forEach(initSearchable)
+  [...document.querySelectorAll('.searchable')].forEach(makeSearchable)
 
   try { makeExternalLinksTargetBlank() } catch (err) { console.error(err.message) }
 
   try { lazyLoad('[lazy]') } catch (err) { console.error(err.message) }
 }
 
-function initSearchable ($searchable) {
+function makeSearchable ($searchable) {
   const $search = document.createElement('input')
   $search.setAttribute('class', 'searchable-input')
   $search.setAttribute('type', 'test')
@@ -54,10 +56,6 @@ function lazyLoad (selector = '[lazy]') {
 
   let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
   console.log('$lazy.length', $lazy.length)
-
-  window.addEventListener('DOMContentLoaded', () => {
-    console.log('DOMContentLoaded', $lazy.length)
-  })
 
   $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
   console.log(' - $lazy.length', $lazy.length)
