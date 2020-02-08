@@ -14,7 +14,6 @@ function reversed (tag, collection) {
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets")
-  eleventyConfig.addPassthroughCopy("sw.js")
   eleventyConfig.addPassthroughCopy("robots.txt")
   eleventyConfig.addCollection("posts", (collection) => reversed('post', collection))
   eleventyConfig.addCollection("last10posts", (collection) => reversed('post', collection).slice(0, 10))

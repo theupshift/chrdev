@@ -81,18 +81,5 @@ title: Christian Fei's Blog
 
     <script type="text/javascript">{% include "main.js" %}</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/prism.min.js"></script>
-
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('/sw.js').then(function(registration) {
-            console.log('Service Worker registration successful with scope: ', registration.scope);
-          }).catch(function(err) {
-            console.log('Service Worker registration failed: ', err);
-          });
-        });
-      }
-    </script>
-
   </body>
 </html>
