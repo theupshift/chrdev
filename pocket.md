@@ -11,6 +11,10 @@ title: Pocket reading list
   <i>last updated</i>&nbsp;<date>{{ pocket.lastSynced }}</date>
 </p>
 
+<p>
+  use <code>ctrl + f</code> for searching through items
+</p>
+
 <ol reversed class="searchable1">
 {% for post in pocket.items %}
   <li class="post-item">
