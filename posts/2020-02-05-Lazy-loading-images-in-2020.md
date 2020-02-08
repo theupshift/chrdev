@@ -117,6 +117,8 @@ I like this approach since I was triggered when I saw this [`gatsy` configuratio
 
 The **next blog post** I want to tackle is exactly this: **a simple blog search**, as you can find on [/posts/](https://christianfei.com/posts/) **with just HTML and JavaScript**.
 
+**update 2020/02/08** [Here is the blog post](/posts/2020-02-08-Simplest-Vanilla-JavaScript-static-site-blog-search-for-Jekyll,-Hugo,-11.ty-eleventy/)
+
 ## pagespeed insights says thaanks 💯
 
 At the same time I wanted to improve my [pagespeed-insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fchristianfei.com%2F&tab=desktop) score for `christianfei.com`, and here it is:
