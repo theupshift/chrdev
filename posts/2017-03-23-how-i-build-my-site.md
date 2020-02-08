@@ -13,13 +13,13 @@ Related: Read [how I deploy my site](/posts/how-i-deploy-my-site/).
 
 # tl;dr
 
-```
+```bash
 npm run build
 ```
 
 or
 
-```
+```bash
 npm run build:js && npm run build:css && npm run build:site
 ```
 
@@ -59,7 +59,7 @@ A [webpack](https://webpack.github.io/) build parses and concatenas the JavaScri
 
 My [`assets/js`](https://github.com/christian-fei/christian-fei.github.io/tree/master/assets/js) folder has the following structure:
 
-```
+```bash
 ~/D/p/christian-fei.github.io (master ⚡) tree assets/js/
 assets/js/
 ├── analytics.js
@@ -104,7 +104,7 @@ Gulp can also watch my files during development: `npm run build:css:watch`.
 
 My [`assets/css`](https://github.com/christian-fei/christian-fei.github.io/tree/master/assets/css) folder has the following structure:
 
-```
+```bash
 ~/D/p/christian-fei.github.io (master ⚡) tree assets/css
 assets/css
 ├── fancy.styl

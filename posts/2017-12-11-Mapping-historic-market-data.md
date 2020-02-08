@@ -21,7 +21,7 @@ Each data point contains information like the timestamp, open/close price, high/
 
 Here is a recent sample of a few data points for the currency pair `LTC-EUR` on the market [`gdax`](https://www.gdax.com/):
 
-```
+```js
 const marketData = [
   [
     1513025761,     // time
@@ -46,7 +46,7 @@ const marketData = [
 
 To get a more pleasant array of objects to work with, you can map the array structure to an Object with named property like this:
 
-```
+```js
 marketData.map(h => ({
   time: h[0],
   low: h[1],
@@ -59,7 +59,7 @@ marketData.map(h => ({
 
 And the result would be the following:
 
-```
+```json
 [
   {
     "time": 1513025761,
@@ -86,7 +86,7 @@ It can also be interesting to have the data grouped by key.
 
 You can achieve this, reducing each key to an array of the corresponding values:
 
-```
+```js
 Object.keys(marketData[0]) // ['time','low','high','open','close','volume']
 .reduce((acc, key => ({
   ...acc,
@@ -94,7 +94,7 @@ Object.keys(marketData[0]) // ['time','low','high','open','close','volume']
 }), {})
 ```
 
-```
+```json
 
 {
   "time": [1513024062, 1513025761],

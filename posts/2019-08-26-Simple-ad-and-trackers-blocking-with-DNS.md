@@ -11,13 +11,13 @@ image: https://images.unsplash.com/photo-1488422731527-bc8c160e380c?ixlib=rb-1.2
 
 You can use your [`hosts` file](https://en.wikipedia.org/wiki/Hosts_(file)) to redirect all traffic in a local black hole (namely 0.0.0.0)
 
-```
+```bash
 sudo vi /etc/hosts
 ```
 
 Add the following lines (plus hosts you find out by yourself) to `/etc/hosts` and save it:
 
-```
+```yml
 0.0.0.0 google-analytics.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 googletagmanager.com

@@ -11,7 +11,7 @@ Let's say your values are in the range `B2:B`.
 
 To get the last value of all non-empty cells in that range, use the following formula:
 
-```
+```bash
 =INDEX(B2:B,COUNTA(B2:B))
 ```
 

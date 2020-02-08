@@ -11,7 +11,7 @@ Today I encountered an issue with Ansible and my python installation.
 
 The error was the following:
 
-```
+```bash
 /usr/local/bin/ansible-playbook: /usr/local/opt/python/bin/python2.7: bad interpreter: No such file or directory
 ```
 
@@ -19,14 +19,14 @@ I tried reinstall `python@2`, linking the python installation again with `brew l
 
 And the most hilarious thing is that I had python2.7 install:
 
-```
+```bash
 $ which python
 /usr/local/bin/python
 ```
 
 The only workaround I found to work for me, was to create a symbolic link to satisfy the path Ansible was expecting:
 
-```
+```bash
 ln -s /usr/local/bin/python /usr/local/opt/python/bin/python2.7
 ```
 

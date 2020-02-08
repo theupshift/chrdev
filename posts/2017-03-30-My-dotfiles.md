@@ -16,7 +16,7 @@ You can find them [on Github (obviously)](https://github.com/christian-fei/dotfi
 
 # Structure
 
-```
+```bash
 ~/dotfiles (master) tree .
 .
 ├── README.md

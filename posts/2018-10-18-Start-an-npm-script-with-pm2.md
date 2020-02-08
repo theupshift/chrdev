@@ -12,7 +12,7 @@ Today I needed to run a long running `npm` script with pm2, but it wasn't immedi
 
 `pm2 start --help` shows how the start command works:
 
-```
+```bash
 pm2 start --help
 
   Usage: start [options] <file|json|stdin|app_name|pm_id...>
@@ -26,12 +26,12 @@ The most common use case is to run `npm start`.
 
 To run `npm start` with pm2 I needed to run it the following way:
 
-```
+```bash
 NODE_ENV=production pm2 start --no-autorestart --name LONG_RUNNING_TASK npm -- start
 ```
 
 Similarly, to run any `npm` script, you can run it the following way:
 
-```
+```bash
 NODE_ENV=production pm2 start --no-autorestart --name LONG_RUNNING_TASK npm -- run some-script
 ```

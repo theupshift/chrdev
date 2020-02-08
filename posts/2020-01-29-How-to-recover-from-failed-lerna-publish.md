@@ -19,7 +19,7 @@ I have found two examples (kindly provided by the internal [Jenkins](https://jen
 
 A `500` error during the publish for reasons related to NPM's package registry [registry.npmjs.org](http://registry.npmjs.org/):
 
-```
+```bash
 12:35:08 lerna info git Pushing tags...
 
 ...
@@ -32,7 +32,7 @@ A `500` error during the publish for reasons related to NPM's package registry [
 
 `lerna` trying to **push over a previously published version** on npm:
 
-```
+```bash
 17:22:23 lerna info git Pushing tags...
 
 17:23:07 npm ERR! code E403
@@ -58,7 +58,7 @@ The problem *I think* is related to the fact that the `git` history is pushed **
 
 One way to solve this issue is to run an ad-hoc command that manually publishes the missing versions on `npm` and silently failing for the one's already correctly published:
 
-```
+```bash
 lerna exec -- "npm publish || exit 0"
 ```
 

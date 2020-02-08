@@ -36,7 +36,7 @@ Create a new Query (*/queries/new*):
 
 Let's aggregate events by action and type of a Redash instance:
 
-```
+```bash
 SELECT count(*) as times
     , action
     , object_type

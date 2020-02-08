@@ -21,7 +21,7 @@ image: https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?ixlib=rb-1.2
 
 **I love the super simple api**
 
-```
+```js
 const db = require('monk')('localhost/db')
 const users = db.get('users')
 ```
@@ -32,7 +32,7 @@ Below you can see a real-world snippet of the db connection for [pomodoro.cc](ht
 
 The file `lib/db.js`
 
-```
+```js
 const monk = require('monk')
 const logger = require('pino')()
 
@@ -47,7 +47,7 @@ You could use it then to create your models and repositories around it:
 
 For example [`lib/models/users.js`](https://github.com/christian-fei/pomodoro.cc/blob/master/api/models/User.js):
 
-```
+```js
 const db = require('../db')
 const users = db.get('users')
 
@@ -65,7 +65,7 @@ In [pomodoro.cc](https://pomodoro.cc) I use this feature to stream documents fro
 
 Here you can find the [full code snippet](https://github.com/christian-fei/pomodoro.cc/blob/master/api/scripts/update-users-twitter-avatar.js):
 
-```
+```js
 await User.find({
   twitterAvatarNotFound: { $exists: false },
   $or: [{
@@ -92,7 +92,7 @@ About aggregations from [the official docs](https://docs.mongodb.com/manual/aggr
 
 An  example from [pomodoro.cc source code](https://github.com/christian-fei/pomodoro.cc/blob/822fb036bdd965583639f042bedd2e04b788dd45/api/routes/analytics-factory.js#L48)
 
-```
+```js
   return pomodoros.aggregate(
     [
       {
@@ -148,7 +148,7 @@ from the [official docs](https://docs.mongodb.com/manual/reference/method/db.col
 
 It as simple as providing the `upsert: true` option to the `update` function:
 
-```
+```js
 const result = await books.update(
    { item: "ZZZ135" },   // Query parameter
    {                     // Replacement document
@@ -162,7 +162,7 @@ const result = await books.update(
 
 The result will look something like this:
 
-```
+```js
 {
   "nMatched" : 0,
   "nUpserted" : 1,

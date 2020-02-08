@@ -18,7 +18,7 @@ This way I have a timeline, some kind of personal bookmarks, shared publicly on 
 
 To add a discovery, I simply run a small script to prepend it to my [discover.yml](https://github.com/christian-fei/christian-fei.github.io/blob/master/_data/discover.yml):
 
-```
+```bash
 ./new-discover "TITLE" "URL" "DESCRIPTION"
 ```
 

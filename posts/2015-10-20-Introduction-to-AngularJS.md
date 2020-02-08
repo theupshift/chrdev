@@ -36,7 +36,7 @@ its collaborators/dependencies are loaded.
 
 For example here I`m defining tiny namespaced modules that I can require in others:
 
-```
+```js
 angular.module('app.modules.auth',[])
 angular.module('app.modules',['app.modules.auth'])
 angular.module('app.controllers',[])
@@ -60,7 +60,7 @@ configuration and run phase.
 
 Imagine you have the following markup that represent your single page application written in Angular:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
   <head>
@@ -78,7 +78,7 @@ so the whole page is the scope of our Angular application.
 
 The corresponding JavaScript to define the application:
 
-```
+```js
 angular.module('app',[])
 angular.module('app').config(function(){ /*config phase*/ })
 angular.module('app').run(function(){ /*run phase*/ })
@@ -110,7 +110,7 @@ You can define what "type" of Application service you want to define, there is o
 It is used for application wide configuration of a later injectable service.
 You can register a provider like this:
 
-```
+```js
 module.provider('Logger', function(){
   var enabled = true
   this.enable = function(_enabled){enabled = !!_enabled}
@@ -126,7 +126,7 @@ module.provider('Logger', function(){
 
 Creates an injectable service which returns the value it has been instructed to:
 
-```
+```js
 module.factory('MyFactory', function(){
   return new Factory()
 })
@@ -136,7 +136,7 @@ module.factory('MyFactory', function(){
 
 You will be provided by an instance of the function:
 
-```
+```js
 module.service('MyService', function(){
 })
 ```
@@ -146,7 +146,7 @@ module.service('MyService', function(){
 Returns the value. The difference between the two is that a constant can only be injected
 during the configuration phase and in providers. The value can be injected expect in those cases.
 
-```
+```js
 module.value('MyValue', 42)
 module.constant('MyValue', 42)
 ```
@@ -159,7 +159,7 @@ behaviour of existing tags.
 
 An example I like to make is the `<profile>` component.
 
-```
+```js
 module.directive('profile', function(){
   return {
     restrict: 'EA',
@@ -177,7 +177,7 @@ showing the currently logged in user.
 As we said a directive can also be used to introduce custom behaviour on an element.
 Let`s take a look at some directives Angular ships with, for example `ng-click`:
 
-```
+```html
 <span ng-click="click()">click me</span>
 ```
 
@@ -192,7 +192,7 @@ custom behaviour, input validation, etc..
 Filters are used to format and apply transformations to user input.
 Some example are currency, json formatting, etc.
 
-```
+```js
 module.filter('camelCase', function(){
   return function( input ){
     if( !input ) return input
@@ -207,7 +207,7 @@ module.filter('camelCase', function(){
 Interceptors operate at the http request/response level. You could use them for
 Authorization handling, logging, error handling, etc.
 
-```
+```js
 module.factory('AuthHeaderInterceptor', function(token){
   return {
     request: function(config){

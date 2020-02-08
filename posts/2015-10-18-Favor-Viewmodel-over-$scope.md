@@ -18,7 +18,7 @@ One of them was the preference to use the [controller as](https://docs.angularjs
 
 For example, if you do not need to watch for changes on a model or viewmodel object, the $scope object is totally useless and litters the whole controller.
 
-```
+```js
 function RootCtrl($scope){
   $scope.foo = 'bar'
   $scope.$watch('foo', function(){})
@@ -34,7 +34,7 @@ function FooCtrl($scope){
 
 You can save yourself headaches by not needing to inject the $scope for testing purposes in each test, but simply makes the assertions on the instance of the controller (that is represented by the Viewmodel):
 
-```
+```js
 // implementation
 function FooCtrl(){
    this.foo = 'bar'
@@ -60,7 +60,7 @@ There is a dedicated video [about "the dot"](https://www.youtube.com/watch?v=DTx
 
 The "problem" is that when you create a new scope (with a controller, isolate scope in directive, etc.) you create a new prototypal "scope" for the variables defined inside. If you use primitives on each scope and the variables have the same name, you break the inheritance chain, and you get undesired results:
 
-```
+```html
 <div ng-controller="FooCtrl">
   <input ng-model="foo"/>
   <div ng-controller="BarCtrl">

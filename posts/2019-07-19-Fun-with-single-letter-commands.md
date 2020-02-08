@@ -9,7 +9,7 @@ date: 2019-07-19
 
 here all single letter commands from my dotfiles
 
-```
+```bash
 $ cd ~/dotfiles/dots/.config/fish/functions/
 
 $ find . -name '?.fish'

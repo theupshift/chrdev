@@ -21,7 +21,7 @@ Additionally you can put in a small script that purges [cloudflare's](https://ww
 
 create a file in your repository under [`.github/workflows/main.yml`](https://github.com/christian-fei/christian-fei.github.io/blob/master/.github/workflows/main.yml), with the following contents:
 
-```
+```yml
 name: name this build as you like
 on: [push]
 jobs:
@@ -46,7 +46,7 @@ jobs:
 
 additionally set two **Secrets** in the repository settings on GitHub:
 
-```
+```yml
 AWS_ACCESS_KEY_ID
 AWS_SECRET_ACCESS_KEY
 ```

@@ -17,6 +17,6 @@ For Python 3.x and up: `/anaconda3/bin/`
 
 Just add a line the following line to your `~/.config/fish/fish.config`:
 
-```
+```bash
 set -gx PATH $PATH /anaconda2/bin/
 ```

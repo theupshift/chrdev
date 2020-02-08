@@ -26,7 +26,7 @@ a simple renaming of a method got me this merged.
 
 e.g.
 
-```
+```js
 -    startransform: function(node) {
 +    star_transform: function(node) {
 ```
@@ -37,7 +37,7 @@ added tests for bottom view binary tree
 
 e.g.
 
-```
+```js
 +    const BinaryTree = require("../index");
 +    const bottomView = require('.');
 +

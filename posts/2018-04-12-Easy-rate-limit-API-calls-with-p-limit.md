@@ -18,7 +18,7 @@ A simple way to achieve this (and that I use all the time) is to combine `Promis
 
 In the code below I want to make concurrent calls to an api (which can be an HTTP API, library call, pretty much anything that returns a `Promise`), at most 5 at a time.
 
-```
+```js
 const pLimit = require('p-limit')
 const limit = pLimit(5)
 

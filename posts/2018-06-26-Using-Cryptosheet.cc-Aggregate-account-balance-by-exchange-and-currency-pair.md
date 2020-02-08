@@ -54,7 +54,7 @@ Now follow these steps:
 
 - `copy` the following text
 
-```
+```bash
 "By exchange"
 coinbase	=SUMIF(ACCOUNTS!$A$2:$A, "*" & $A2 & "*", ACCOUNTS!$G$2:$G)
 gdax	=SUMIF(ACCOUNTS!$A$2:$A, "*" & $A3 & "*", ACCOUNTS!$G$2:$G)

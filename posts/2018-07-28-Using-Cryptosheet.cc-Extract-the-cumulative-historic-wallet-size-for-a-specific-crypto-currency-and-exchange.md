@@ -44,7 +44,7 @@ In cell `A1` of the new sheet, enter the desired filter: `ltc-eur-coinbase`.
 
 In cell `A2` of the sheet, enter the following formula to copy the header columns:
 
-```
+```bash
 =FILTER(TRANSACTIONS!A:M, TRANSACTIONS!A:A = "exchange")
 ```
 

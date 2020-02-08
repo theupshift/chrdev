@@ -30,7 +30,7 @@ So I ran a few `npm unpublish` by decrementing the version in the `package.json`
 
 After a `npm login` command with my personal account credentials, I double checked that I was logged in with my personal account.
 
-```
+```bash
 ~/D/p/wait-for-user-input (master) npm whoami
 christian_fei
 ```
@@ -39,7 +39,7 @@ christian_fei
 
 I was almost ready to publish to npm, but I was blocked by this error:
 
-```
+```bash
 ~/D/p/wait-for-user-input (master) npm publish
 npm ERR! publish Failed PUT 403
 npm ERR! code E403

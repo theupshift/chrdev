@@ -9,7 +9,7 @@ date: 2019-04-04
 
 Got the following error when running my playbook, with a newly installed external role:
 
-```
+```bash
 fatal: [52.28.21.116]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible_distribution' is undefined\n\nThe error appears to have been in '.../tasks/main.yml': line 1, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- debug:\n  ^ here\n"}
 ```
 
@@ -23,7 +23,7 @@ It never happened to me that a variable wasn't available, and ansible_distributi
 
 So I quickly debugged the variables with the following command, that essentially runs the `setup` module (with the `-m` option) and spits out a whole bunch of *collected* variables (read **gathered**).
 
-```
+```bash
 ansible -u root -i hosts.production -m setup www.xxx.yyy.zzz
 ```
 
@@ -37,6 +37,6 @@ By default, Ansible gathers all the facts about the host. For more info check ou
 
 To fix it, simply remove the line from the playbook or set it to True (which is the default value):
 
-```
+```yml
   gather_facts: False
 ```

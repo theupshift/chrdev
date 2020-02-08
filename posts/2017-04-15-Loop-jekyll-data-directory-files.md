@@ -23,7 +23,7 @@ In this example, rendering a list of authors listed in a YML file is as easy as:
 
 The related Data file is located in `_data/authors.yml` with the following contents:
 
-```
+```yml
 -
   name: Christian
   username: christian

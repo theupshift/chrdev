@@ -55,7 +55,7 @@ module.exports = [
 
 In the following code snippet you can see an example usage of the middlewares, in a bare-bone connect / express application in Node.js
 
-```
+```js
 const app = require('express')()
 const middlewares = require('./middlewares')
 app.use(...middlewares)
@@ -66,7 +66,7 @@ console.log('listening on http://localhost:3000')
 
 and run
 
-```
+```bash
 node index.js
 ```
 
@@ -76,7 +76,7 @@ Once the server is listening on port `3000`, you can run the following and see t
 
 You will get an output similar to this one:
 
-```
+```bash
 > curl -vv -X POST -H 'Content-Type: application/json' http://localhost:3000/hello --data '{"name": "chris"}'
 
 ...
@@ -101,7 +101,7 @@ That's for example where the CORS middleware comes in, that is currently configu
 
 As you can see in middlewares.js:
 
-```
+```js
 ...
   cors({
     origin: true,

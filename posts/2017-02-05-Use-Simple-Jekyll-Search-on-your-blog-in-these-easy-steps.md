@@ -16,7 +16,7 @@ tags:
 
 Create a file `search.json` with this content:
 
-```
+```yml
 {% raw  %}
 ---
 layout: nil
@@ -39,7 +39,7 @@ layout: nil
 
 In your template add the following markup to define a placeholder for the search widget:
 
-```
+```html
 <input type="text" id="search-input" placeholder="search posts..">
 <br/>
 <div id="results-container"></div>
@@ -49,13 +49,13 @@ In your template add the following markup to define a placeholder for the search
 
 Add the following script tag to your base/default `_layout`:
 
-```
+```html
 <script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
 ```
 
 And in a separate script tag:
 
-```
+```html
 <script>
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),

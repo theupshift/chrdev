@@ -30,7 +30,7 @@ this is the receivers `chat_id`, you can find out yours with [@userinfobot](http
 
 this is what is looks like. we're going to use a small npm package `simple-telegram-message`
 
-```
+```yml
 name: telegram message example
 on: [push]
 jobs:

@@ -12,7 +12,7 @@ image: https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?ixlib=rb-1.2
 
 On this very site this deployment strategy is used with GitHub actions:
 
-```
+```yml
       - name: uat
         run: |
           npm start &

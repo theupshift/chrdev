@@ -15,7 +15,7 @@ I couldn't run the script with the `pandoc` command, a few errors came up.
 
 One was about a deprecated options, namely `--latex-engine`, which is now `--pdf-engine`:
 
-```
+```bash
 --latex-engine has been removed.  Use --pdf-engine instead.
 ```
 
@@ -27,7 +27,7 @@ Unfortunately, also the typesetting was not correct, I had to use another pdf en
 
 The error was:
 
-```
+```bash
 ! Fatal fontspec error: "cannot-use-pdftex"
 !
 ! The fontspec package requires either XeTeX or LuaTeX.
@@ -42,7 +42,7 @@ The error was:
 
 With the following packages I was able to compile my PDFs:
 
-```
+```bash
 brew cask install BasicTeX
 brew install pandoc
 sudo tlmgr update --self

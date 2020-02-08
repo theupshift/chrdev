@@ -37,7 +37,7 @@ now, whenever i come up with a decent blog post i start with a concise title to 
 
 i can execute this on my terminal and it will pop up my editor for the new blog post under the [`posts/`](https://github.com/christian-fei/christian-fei.github.io/tree/master/posts) folder:
 
-```
+```bash
 ~/D/p/christian-fei.github.io (master) ./write hello world
 
 📝  write
@@ -58,7 +58,7 @@ it puts the built site under the `dist/` folder. additionally this is the folder
 
 here is an example output:
 
-```
+```bash
 ~/D/p/christian-fei.github.io (master ⚡) ./build
 
 💯  build
@@ -79,7 +79,7 @@ here is an example output:
 
 it puts the files under the `dist/` folder to my s3 bucket, hooked up with my dns + ssl provider [cloudflare.com](https://cloudflare.com).
 
-```
+```bash
 ~/D/p/christian-fei.github.io (master ⚡) ./deploy
 
 🚀  deploy
@@ -101,7 +101,7 @@ upload: dist/posts/2013-04-21-berlin-april-2013/index.html to s3://christianfei.
 
 this is used to purge the cache for the domain [`christianfei.com`](https://christianfei.com) through the Cloudflare rest api:
 
-```
+```bash
 ~/D/p/christian-fei.github.io (master ⚡) ./purge
 
 💥  purge cache for https://christianfei.com

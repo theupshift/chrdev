@@ -15,7 +15,7 @@ The alternative title could be: **Lazy loading images in 900B**.
 
 here's the source code:
 
-```
+```js
 window.lazyLoad = lazyLoad
 function lazyLoad (selector = '[lazy]') {
   console.log('lazyLoad', selector)
@@ -65,7 +65,7 @@ You can apply it to any element and it will apply the `src` attribute to `img` e
 
 This enables you to do the following in HTML:
 
-```
+```html
 <img src="placeholder.png" lazy="https://example.com/image.png">
 
 <div lazy="https://example.com/image.png">lorem ipsum</div>
@@ -96,7 +96,7 @@ If so, it returns true.
 
 ## about that `.filter` part..
 
-```
+```js
     $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
 ```
 

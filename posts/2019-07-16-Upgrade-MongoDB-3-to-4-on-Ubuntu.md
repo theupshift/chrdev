@@ -20,13 +20,13 @@ If you are upgrading from version 3.4, you'll need to upgrade first to 3.6 and t
 
 To do so, enter the mongo shell and verify the current compatibility setting:
 
-```
+```js
 db.adminCommand( { getParameter: 1, featureCompatibilityVersion: 1 } )
 ```
 
 Afterwards, set the feature compatibility version to 3.4 like so:
 
-```
+```js
 db.adminCommand( { setFeatureCompatibilityVersion: "3.4" } )
 ```
 
@@ -34,14 +34,14 @@ db.adminCommand( { setFeatureCompatibilityVersion: "3.4" } )
 
 First, remove any source file related to 3.4 (the file should be `mongodb-org-3.4.list`):
 
-```
+```bash
 ls -lha /etc/apt/sources.list.d/
 # you should see mongodb-org-3.4.list, remove it
 ```
 
 Get the latest keys and update the repository:
 
-```
+```bash
 sudo apt-key adv –keyserver hkp://keyserver.ubuntu.com:80 –recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
 echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
 
@@ -57,7 +57,7 @@ Once you're on 3.6, you can safely upgrade to 4.0, by setting the feature compat
 
 Enter the mongo shell and execute:
 
-```
+```bash
 db.adminCommand( { setFeatureCompatibilityVersion: "3.6" } )
 ```
 
@@ -65,14 +65,14 @@ db.adminCommand( { setFeatureCompatibilityVersion: "3.6" } )
 
 First, remove any source file related to 3.6 (the file should be `mongodb-org-3.6.list`):
 
-```
+```bash
 ls -lha /etc/apt/sources.list.d/
 # you should see mongodb-org-3.6.list, remove it
 ```
 
 Get the latest keys and update the repository:
 
-```
+```bash
 sudo apt-key adv -keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
 echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
 

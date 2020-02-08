@@ -17,13 +17,13 @@ Here some troubleshooting steps that may solve your issue:
 
 Connect to Raspberry Pi over GUI and run in a terminal:
 
-```
+```bash
 systemctl status ssh
 ```
 
 and you should see something like this:
 
-```
+```bash
 pi@raspberrypi:~ $ systemctl status ssh
 ● ssh.service - OpenBSD Secure Shell server
    Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
@@ -53,13 +53,13 @@ pi@raspberrypi:~ $ systemctl status ssh
 
 Connect to Raspberry Pi over GUI and run `ifconfig` to see your network configuration:
 
-```
+```bash
 ifconfig
 ```
 
 Under `wlan0` you should see something like:
 
-```
+```bash
 wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.110  netmask 255.255.255.0  broadcast 192.168.1.255
 ...

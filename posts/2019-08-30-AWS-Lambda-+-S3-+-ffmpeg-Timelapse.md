@@ -34,7 +34,7 @@ Name it, for example, "garden-snapshots" **in the same region as the ffmpeg-lamb
 
 Download the project from here: [github.com/christian-fei/timelapse-lambda](https://github.com/christian-fei/timelapse-lambda)
 
-```
+```bash
 git clone git@github.com:christian-fei/timelapse-lambda.git
 ```
 
@@ -54,7 +54,7 @@ run `./create-aws-lambda` by specifying the needed parameters, below you can fin
 
 **in the same region as above!**
 
-```
+```bash
 ./create-aws-lambda \
   --region us-east-1 \
   --lambda Timelapse \
@@ -66,7 +66,7 @@ run `./create-aws-lambda` by specifying the needed parameters, below you can fin
 
 specify the region and the lambda name as above and run:
 
-```
+```bash
 ./deploy-aws-lambda \
   --region us-east-1 \
   --lambda Timelapse
@@ -76,7 +76,7 @@ specify the region and the lambda name as above and run:
 
 Download the project from here: [github.com/christian-fei/timelapse-lambda](https://github.com/christian-fei/timelapse-lambda)
 
-```
+```bash
 git clone git@github.com:christian-fei/timelapse-lambda.git
 ```
 
