@@ -47,7 +47,7 @@ require('dotenv').config({ path: pathToEnvFile })
 it is then used simply by `require`'ing it with `require('./env')`:
 
 ```js
-require('../env')
+require('./env')
 console.log('process.env.MONGO_URL', process.env.MONGO_URL)
 ```
 
