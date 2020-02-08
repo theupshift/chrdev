@@ -10,6 +10,18 @@ context('Navigation', () => {
 
     cy.location('pathname').should('include', 'about')
   })
+  it('posts', () => {
+    cy.get('body > header').contains('posts').click()
+
+    cy.location('pathname').should('include', 'posts')
+  })
+  it('pocket', () => {
+    cy.get('body > header').contains('pocket').click()
+
+    cy.location('pathname').should('include', 'pocket')
+
+    cy.get('body').contains('My Pocket reading list')
+  })
   context('links', () => {
     it('social', () => {
       cy.get('body > footer').contains('twitter')
