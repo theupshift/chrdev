@@ -25,9 +25,6 @@ context('Content', () => {
     it('navigates to /posts/{post-slug}', () => {
       cy.location('pathname').should('include', 'posts')
     })
-    it('visible title', () => {
-      cy.get('article .title')
-    })
     it('visible article tags', () => {
       cy.get('article .tags')
       cy.get('[href="/tags/post"]')
