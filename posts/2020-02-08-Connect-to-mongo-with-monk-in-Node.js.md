@@ -82,7 +82,7 @@ await users.find({
 
 ## Aggregations
 
-Again, as a real-world production use-case, I take pomodoro.cc's [daily analytics aggregation] for [Pro users](https://pomodoro.cc/pro).
+Again, as a real-world production use-case, I take pomodoro.cc's [daily analytics aggregation](https://pomodoro.cc/pro) for [Pro users](https://pomodoro.cc/pro).
 
 In this example I want to showcase how a daily aggregate of documents can be done with MongoDB, monk and Node.js.
 
@@ -176,5 +176,3 @@ this gives us more information on what the update operation actually did.
 ---
 
 ## Let me know how you are using monk in production!
-
-## FEEDBACK [@christian_fei](https://twitter.com/christian_fei)

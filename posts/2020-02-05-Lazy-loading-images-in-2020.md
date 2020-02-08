@@ -117,9 +117,6 @@ I like this approach, since I was triggered when I saw this [`gatsy` configurati
 
 The **next blog post** I have in pipeline is exactly this: **a simple blog search**, as you can find on [/posts/](https://christianfei.com/posts/) **with just HTML and JavaScript**.
 
-## FEEDBACK [@christian_fei](https://twitter.com/christian_fei)
-
-
 ## pagespeed insights says thaanks 💯
 
 At the same time I wanted to improve my [pagespeed-insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fchristianfei.com%2F&tab=desktop) score for `christianfei.com`, and here it is:
