@@ -19,6 +19,7 @@ function makeSearchable ($searchable) {
   $search.setAttribute('placeholder', 'Search posts...')
   $search.onkeyup = handleSearchKeyUp
   $searchable.parentNode.insertBefore($search, $searchable)
+  $search.focus()
 
   function handleSearchKeyUp (e) {
     const searchTerm = e.target.value
