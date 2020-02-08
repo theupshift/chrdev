@@ -11,7 +11,7 @@ title: Pocket reading list
   <i>last updated</i>&nbsp;<date>{{ pocket.lastSynced }}</date>
 </p>
 
-<ol reversed class="searchable1">
+<ol reversed class="searchable">
 {% for post in pocket.items %}
   <li class="post-item">
     <span class="post-date">{{ post.date | date: '%Y-%m-%d' }}</span>

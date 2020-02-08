@@ -21,14 +21,15 @@ function makeSearchable ($searchable) {
   $searchable.parentNode.insertBefore($search, $searchable)
   $search.focus()
 
+  let $noMatch = document.getElementById('no-match')
+
   function handleSearchKeyUp (e) {
     const searchTerm = e.target.value
     const searchRegExp = new RegExp(searchTerm.replace(' ', '.*'), 'i')
-    const $searchableItems = $searchable.querySelectorAll('li') || []
-    const postTitles = Array.prototype.map.call($searchableItems, $el => $el.innerText)
+    const $searchableItems = [...($searchable.querySelectorAll('li') || [])]
+    $searchableItems.length = 200
+    const postTitles = $searchableItems.map($el => $el.innerText)
     const noMatch = postTitles.filter(t => searchRegExp.test(t)).length === 0
-
-    let $noMatch = document.getElementById('no-match')
 
     if (noMatch) {
       if (!$noMatch) {
