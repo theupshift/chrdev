@@ -7,7 +7,11 @@ title: Christian Fei's Blog
   <head>
     <title>Christian Fei's Blog - {{title}}</title>
     <meta name="author" content="Christian Fei">
-    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
+    <meta name="keywords" content="Christian Fei,developer,programming,javascript,full-stack" />
+    <link rel="shortcut icon" type="image/png" href="/assets/images/cf3.jpg"/>
+    <link rel="apple-touch-icon" href="/assets/images/cf3.jpg">
+    <meta name="apple-mobile-web-app-title" content="christian fei">
+
 
     {% if page.url == '/' %}
       <meta name="description" content="A blog about agile, programming, clean code, testing, javascript">
@@ -22,6 +26,10 @@ title: Christian Fei's Blog
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
+    <link rel="canonical" href="https://christianfei.com/">
+
+    <link rel="preconnect" href="https://cdn.carbonads.com">
+    <link rel="preconnect" href="https://srv.carbonads.net">
 
     <meta name="theme-color" content="#FFFFFF">
     <meta name="msapplication-navbutton-color" content="#FFFFFF">
@@ -29,7 +37,18 @@ title: Christian Fei's Blog
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@christian_fei">
+    <meta name="twitter:domain" content="christianfei.com">
     <meta name="twitter:creator" content="@christian_fei">
+    <meta name="twitter:title" content="{{ title or 'A blog about agile, programming, clean code, testing, javascript' }}">
+    <meta name="twitter:image" content="{{ 'https://christianfei.com/assets/images/cf3.jpg'}}">
+    <meta name="twitter:description" content="Articles on JavaScript, Clean Code, testing and pretty much programming in general.">
+
+      <meta property="og:title" content="{{ title or 'A blog about agile, programming, clean code, testing, javascript' }}" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="https://christianfei.com/" />
+      <meta property="og:description" content="{{ content | excerpt }}" />
+      <meta property="og:site_name" content="christianfei.com" />
+
 
     {% set style %}
       {% include "style.typography.css" %}
@@ -47,6 +66,7 @@ title: Christian Fei's Blog
     {% endif %}
 
     {% include "google-analytics.html" %}
+    <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
   </head>
   <body>
     {% include "header.html" %}
@@ -61,5 +81,18 @@ title: Christian Fei's Blog
 
     <script type="text/javascript">{% include "main.js" %}</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/prism.min.js"></script>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            console.log('Service Worker registration successful with scope: ', registration.scope);
+          }).catch(function(err) {
+            console.log('Service Worker registration failed: ', err);
+          });
+        });
+      }
+    </script>
+
   </body>
 </html>
