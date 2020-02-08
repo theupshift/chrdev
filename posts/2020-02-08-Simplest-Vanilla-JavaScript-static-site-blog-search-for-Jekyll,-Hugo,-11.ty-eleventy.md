@@ -21,7 +21,7 @@ What you need to set up in your HTML code is the following:
 
 You can see it in action on [/posts/](/posts/).
 
-Here is how I [set up the HTML](https://github.com/christian-fei/christian-fei.github.io/blob/master/posts/index.md) (a simple list of posts `<li>`):
+Here is how I [set up the HTML](https://raw.githubusercontent.com/christian-fei/christian-fei.github.io/master/posts/index.md) (a simple list of posts `<li>`):
 
 ```html
 <ol reversed class="searchable">
