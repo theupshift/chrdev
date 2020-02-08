@@ -9,6 +9,7 @@ img { max-width: 100%; }
 #avatar { width: 1.5em; height: 1.5em; border-radius: 50%; margin-bottom: -0.3+5em; margin-right: 0.5em; }
 .post-item { position: relative; padding: 0.7em 0; }
 .post-date { position: absolute; right: 0; }
+.post-link { width: 85%; display: block; }
 @media all and (max-width: 60em) { .post-date { display: none; } }
 
 
