@@ -33,6 +33,8 @@ right now i am probably **writing code** for
 
 and other  projects, most of the code can be found on my [github profile](https://github.com/christian-fei)
 
+and I read a lot, here all [my full pocket reading history](/pocket/)
+
 ## projects
 
 coding all kinds of tech fields that bring value to me, read IoT, Crypto, bots, apps, cli utilities, automation of all kinds.
