@@ -25,10 +25,6 @@ context('Content', () => {
     it('navigates to /posts/{post-slug}', () => {
       cy.location('pathname').should('include', 'posts')
     })
-    it('visible article tags', () => {
-      cy.get('article .tags')
-      cy.get('[href="/tags/post"]')
-    })
     it('visible ad', () => {
       cy.get('#carbonads-container')
     })
