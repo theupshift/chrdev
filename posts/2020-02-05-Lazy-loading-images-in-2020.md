@@ -123,4 +123,4 @@ The **next blog post** I want to tackle is exactly this: **a simple blog search*
 
 At the same time I wanted to improve my [pagespeed-insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fchristianfei.com%2F&tab=desktop) score for `christianfei.com`, and here it is:
 
-![pagespeed-insights-christianfei.com](/assets/images/posts/pagespeed-insights.png)
+<img lazy="/assets/images/posts/pagespeed-insights.png" alt="pagespeed-insights christianfei.com">
