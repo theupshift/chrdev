@@ -18,7 +18,7 @@ title: Pocket reading list
 <ol reversed class="searchable1">
 {% for post in pocket.items %}
   <li class="post-item">
-    <span class="post-date">{{ post.date | date: '%Y-%m-%d' }}</span>
+    <time datetime="{{ post.data.date | date: '%Y-%m-%d' }}" class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</time>
     <a href="{{ post.url }}" class="post-link">
       {{ post.title | capitalize }}
     </a>

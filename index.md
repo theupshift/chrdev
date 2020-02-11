@@ -19,7 +19,7 @@ You can <a href="https://twitter.com/christian_fei" target="_blank">follow me on
 {% for post in collections.featured %}
   <a href="{{ post.url }}" class="tdn flex-item post-item featured-post" lazy="{{post.data.image}}">
     <b class="post-title">{{ post.data.title | capitalize }}</b>
-    <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
+    <time datetime="{{ post.data.date | date: '%Y-%m-%d' }}" class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</time>
   </a>
 {% endfor %}
 </div>

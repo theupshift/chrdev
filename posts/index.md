@@ -12,7 +12,7 @@ title: Posts
 <ol reversed class="searchable">
 {% for post in collections.posts %}
   <li class="post-item">
-    <span class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</span>
+    <time datetime="{{ post.data.date | date: '%Y-%m-%d' }}" class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</time>
     <a href="{{ post.url }}" class="post-link">
       {{ post.data.title | capitalize }}
     </a>
