@@ -2,7 +2,7 @@
 *, *::after, *::before { box-sizing: border-box; }
 html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
 
-body > *:not(.free) { max-width: 40em; margin: 0 auto; padding: 0.5em; }
+body > * { max-width: 40em; margin: 0 auto; padding: 0.5em; }
 
 .contain { max-width: 40em; margin: 0 auto; }
 img { max-width: 100%; }
@@ -32,7 +32,7 @@ img { max-width: 100%; }
 
 main article .title { padding-top: 0.2em; padding-bottom: 0.2em; }
 
-#footer { background: #f9f9f9; padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em; background: linear-gradient(0deg, #f3f3f3, white); }
+#footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 
 .pad-v { padding-top: 2em; padding-bottom: 2em; }
 
