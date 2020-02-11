@@ -1,4 +1,24 @@
 pocket_items:
+  - title: "All The Apps That I Pay For"
+    url: https://daily.patwalls.co/apps-services-that-i-pay-for
+    date: 2020-02-11
+    id: 2880918106
+  - title: "Conversation"
+    url: https://threader.app/conversation/1226843387061571584
+    date: 2020-02-11
+    id: 2881857938
+  - title: "Eleventy Collections - Pulling in the products via API"
+    url: https://cloudsh.com/eleventy/eleventy_collections_pulling_in_the_products_via_api.html
+    date: 2020-02-09
+    id: 2615374035
+  - title: "Retiring the free plan"
+    url: https://cloudsh.com/cloudsh/retiring_the_free_plan.html
+    date: 2020-02-09
+    id: 2879013427
+  - title: "Quick thoughts on FOSDEM"
+    url: https://andregarzia.com/2020/02/quick-thoughts-on-fosdem.html
+    date: 2020-02-08
+    id: 2872985403
   - title: "Is running ads on a programming blog worth it?"
     url: https://danluu.com/blog-ads/#update-2
     date: 2020-02-07
