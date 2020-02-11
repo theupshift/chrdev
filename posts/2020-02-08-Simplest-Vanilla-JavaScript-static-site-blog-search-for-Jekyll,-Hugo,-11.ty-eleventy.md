@@ -26,7 +26,7 @@ Here is how I [set up the HTML](https://raw.githubusercontent.com/christian-fei/
 ```html
 <ol reversed class="searchable">
   <li class="post-item">
-    <span class="post-date">2020-02-08</span>
+    <time datetime="2020-02-08" class="post-date">2020-02-08</time>
     <a href="/posts/2020-02-08-Simplest-Vanilla-JavaScript-static-site-blog-search-for-Jekyll,-Hugo,-11.ty-eleventy/" class="post-link">
       Simplest Vanilla JavaScript static site blog search for Jekyll, Hugo, 11.ty
     </a>
