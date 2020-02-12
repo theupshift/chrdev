@@ -29,7 +29,7 @@ In this example the middlewares in use are:
 this is why the handling of CORS requests must happen **before** parsing cookies or the request body for instance.
 
 
-```
+```js
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 const cors = require('cors')
