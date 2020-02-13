@@ -3,6 +3,7 @@ title: So Long, and Thanks for All the Veggies
 date: 2020-02-13
 layout: post.njk
 tags:
+  - draft
   - post
   - featured
   - general
