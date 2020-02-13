@@ -29,6 +29,7 @@ img { max-width: 100%; }
 
 .tags { overflow-x: scroll }
 .tag { padding: 0.2em 0.5em; opacity: 0.7; }
+.tag:first-of-type { padding-left: 0em; }
 
 main article .title { padding-top: 0.2em; padding-bottom: 0.2em; }
 
