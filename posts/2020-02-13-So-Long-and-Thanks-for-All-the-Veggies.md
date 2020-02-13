@@ -62,6 +62,8 @@ Stats at the time of writing:
 ### Growth in January
 <img lazy="/assets/images/posts/fish/growth-january.png" />
 
+This might be the most plausible reason for the timing of Cirillo's request. SEO and Twitter search apparently gave more weight to pomodoro.cc instead of to his own marketing stuff..
+
 ### Users online at time of writing
 <img lazy="/assets/images/posts/fish/now.png" />
 
