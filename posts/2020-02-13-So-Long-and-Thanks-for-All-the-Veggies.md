@@ -40,8 +40,6 @@ at the same time I’m sorry that the service ended this way.
 
 🍅
 
-<img lazy="/assets/images/posts/pomodoro.cc.png">
-
 Let [me](https://twitter.com/christian_fei) and [him](https://twitter.com/cirillof) know what you think about this whole thing.
 
 So Long, and Thanks for All the Veggies,
@@ -56,7 +54,7 @@ Below you can see some stats and numbers about the service: stats since 2014 and
 
 Stats at the time of writing:
 
-- ~** 6k** monthly users and ~ **12k** monthly page views
+- ~ **6k** monthly users and ~ **12k** monthly page views
 - ~ **28k** users and ~ **69k** page views in 2019
 - ~ **88k** users since September 2014
 - ~ **50** minutes average session duration
@@ -107,3 +105,6 @@ MongoDB Enterprise Cluster0-shard-0:PRIMARY> db.events.count()
 **4693** todos tracked, of which **1540** completed.
 
 **63651** events stored in the audit log.
+
+
+<img lazy="/assets/images/posts/pomodoro.cc.png">
