@@ -47,6 +47,11 @@ So Long, and Thanks for All the Veggies,
 
 Christian
 
+<p>
+  <a target="_blank" href="https://twitter.com/share?url=https://christianfei.com{{page.url}}&text={{page.title}}&ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Share on Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> &nbsp; to let peeople know!
+</p>
+
+
 # Moving on
 
 Below you can see some stats and numbers about the service: stats since 2014 and data since end 2018.
