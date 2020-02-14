@@ -74,6 +74,9 @@ This might be the most plausible reason for the timing of Cirillo's request. SEO
 ### Users online at time of writing
 <img lazy="/assets/images/posts/fish/now.png" />
 
+### Users February 2020
+<img lazy="/assets/images/posts/fish/jan-2020.png" />
+
 ### Users January 2020
 <img lazy="/assets/images/posts/fish/jan-2020.png" />
 
