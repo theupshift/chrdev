@@ -85,6 +85,7 @@ main article .title { padding-top: 0.2em; padding-bottom: 0.2em; }
 
 
 .tac { text-align: center; }
+.block-tac { margin: 0 auto; display: block; }
 .tacb { display: block; margin: 0 auto; }
 .ovs { overflow-x: scroll; }
 .ovh-s { overflow-x: scroll; overflow-y: hidden; }
