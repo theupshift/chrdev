@@ -59,10 +59,10 @@ Stats at the time of writing:
 - ~ **28k** users and ~ **69k** page views in 2019
 - ~ **88k** users  and ~ **320k** page views since September 2014
 - ~ **50** minutes average session duration
-- exceptional growth in January 2020 (see below for hypothesis)
+- exceptional growth in February 2020 (see below for hypothesis)
 
-### Growth in January
-<img lazy="/assets/images/posts/fish/growth-january.png" />
+### Growth in February
+<img lazy="/assets/images/posts/fish/growth-february.png" />
 
 This might be the most plausible reason for the timing of Cirillo's request. SEO and Twitter search apparently gave more weight to pomodoro.cc instead of to his own marketing stuff..
 
