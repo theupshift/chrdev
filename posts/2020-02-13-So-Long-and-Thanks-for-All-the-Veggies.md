@@ -57,7 +57,7 @@ Stats at the time of writing:
 
 - ~ **6k** monthly users and ~ **12k** monthly page views
 - ~ **28k** users and ~ **69k** page views in 2019
-- ~ **88k** users since September 2014
+- ~ **88k** users  and ~ **320k** page views since September 2014
 - ~ **50** minutes average session duration
 - exceptional growth in January 2020 (see below for hypothesis)
 
