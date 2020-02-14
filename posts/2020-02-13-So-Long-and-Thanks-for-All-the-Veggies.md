@@ -12,11 +12,11 @@ js: /assets/js/p.js
 
 # 🍅
 
-As much as it hurts, this action had to be taken due to apparent trademark issues with the word <strong class="p">pomodoro</strong>. <strong class="p">pomodoro</strong>.cc has to close.
+As much as it hurts, this action had to be taken due to apparent trademark issues with the word <strong class="p">pomodoro</strong>.
 
-**While writing this blog post..**
+<strong><strong class="p">pomodoro</strong>.cc has to close.</strong>
 
-> I hope nobody registered the **word** "veggie"!
+---
 
 The creator of the P technique messaged me on 2020-02-10 on LinkedIn, essentially threatening me with legal action, to shut down <strong class="p">pomodoro</strong>.cc.
 
@@ -109,5 +109,7 @@ MongoDB Enterprise Cluster0-shard-0:PRIMARY> db.events.count()
 
 **63651** events stored in the audit log.
 
+
+<img lazy="/assets/images/posts/fish/how-can-pomodoro-be-a-trademark.jpg">
 
 <img lazy="/assets/images/posts/pomodoro.cc.png">
