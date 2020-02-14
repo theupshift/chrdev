@@ -118,6 +118,4 @@ MongoDB Enterprise Cluster0-shard-0:PRIMARY> db.events.count()
 **63651** events stored in the audit log.
 
 
-<img class="tac block-tac" lazy="/assets/images/posts/fish/how-can-pomodoro-be-a-trademark.jpg">
-
 <img lazy="/assets/images/posts/pomodoro.cc.png">
