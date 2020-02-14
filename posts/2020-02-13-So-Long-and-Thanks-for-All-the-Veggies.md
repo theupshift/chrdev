@@ -34,7 +34,7 @@ Another point he made was
 
 Whatever *that* means...
 
-**I don't have the time to follow this absurd legal case. for me it's too unproductive.**
+**I don't have the time to follow this absurd legal case. It's too unproductive.**
 
 This is the best moment to thank my users for the support,
 at the same time I’m sorry that the service ended this way.
