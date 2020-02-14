@@ -75,7 +75,7 @@ This might be the most plausible reason for the timing of Cirillo's request. SEO
 <img lazy="/assets/images/posts/fish/now.png" />
 
 ### Users February 2020
-<img lazy="/assets/images/posts/fish/jan-2020.png" />
+<img lazy="/assets/images/posts/fish/feb-2020.png" />
 
 ### Users January 2020
 <img lazy="/assets/images/posts/fish/jan-2020.png" />
