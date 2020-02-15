@@ -37,7 +37,7 @@ With a Twitter developer app, you can make requests on behalf of a Twitter accou
 This method doesn't involve any user authentication and is typically used for read-only access to public information on the Twitter API.
 
 
-# Hey developer.twitter.com
+# Get the necessary keys
 
 1. Go to [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps), login and click on **Apps** in the upper right menu:
 
