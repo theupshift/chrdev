@@ -145,7 +145,7 @@ In this case the API `/1.1/users/show.json` supports both **OAuth 1.0a** and **O
 
 Some APIs (depending on their scope) will need one or the other, it should be [well documented](https://developer.twitter.com/en/docs).
 
-## Wrapping it up
+## Wrapping it up
 
 On the [github repository](https://github.com/christian-fei/twitter-oauth-by-example-in-nodejs.git) you can find the full source code!
 
