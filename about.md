@@ -42,7 +42,7 @@ regarding crypto, i launched [cryptosheet.cc](https://cryptosheet.cc/) in the su
 
 in the field of IoT i made a watering system with a raspberry pi, camera, temperature and moisture sensors. the communication is handled via telegram. with the help of a bot i can water, request a snapshot or video of the garden and a timelapse of the past days.
 ƒ
-other than [cryptosheet.cc](https://cryptosheet.cc/) i made pomodoro.cc in 2014. it was a clean timer  Technique to help you to keep your focus. I had to shut it down because of a [greedy trademark issue](/posts/2020-02-13-So-Long-and-Thanks-for-All-the-Veggies.md).
+other than [cryptosheet.cc](https://cryptosheet.cc/) i made pomodoro.cc in 2014. it was a clean timer  Technique to help you to keep your focus. I had to shut it down because of a [greedy trademark issue](/posts/2020-02-13-So-Long-and-Thanks-for-All-the-Veggies/).
 
 
 
