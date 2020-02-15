@@ -42,20 +42,15 @@ This method doesn't involve any user authentication and is typically used for re
 
 When working with OAuth 1.0a you need to get a **request token** and **access token** to authenticate to the Twitter API.
 
-This is where the **npm package** [oauth](https://www.npmjs.com/package/oauth) come in handy.
+This is where the **npm package** [oauth](https://www.npmjs.com/package/oauth) comes in handy.
 
-With the following **credentials set as environment variables** when can the below Node.js script:
+You need the following **credentials set as environment variables** when running the below Node.js script:
 
 - TWITTER_CONSUMER_KEY
 - TWITTER_CONSUMER_SECRET
 - TWITTER_ACCESS_KEY
 - TWITTER_ACCESS_TOKEN_SECRET
 
-Run `oauth1.js` with node:
-
-```bash
-TWITTER_ACCESS_KEY=[YOUR_TWITTER_ACCESS_KEY] TWITTER_ACCESS_TOKEN_SECRET=[YOUR_TWITTER_ACCESS_TOKEN_SECRET] TWITTER_CONSUMER_KEY=[YOUR_TWITTER_CONSUMER_KEY] TWITTER_CONSUMER_SECRET=[YOUR_TWITTER_CONSUMER_SECRET] node oauth1.js
-```
 
 `oauth1.js` should look like this
 
@@ -87,6 +82,13 @@ async function getTwitterUserProfileWithOAuth1 (username = 'twitterdev') {
 
   return JSON.parse(body)
 }
+```
+
+
+Run `oauth1.js` with node:
+
+```bash
+TWITTER_ACCESS_KEY=[YOUR_TWITTER_ACCESS_KEY] TWITTER_ACCESS_TOKEN_SECRET=[YOUR_TWITTER_ACCESS_TOKEN_SECRET] TWITTER_CONSUMER_KEY=[YOUR_TWITTER_CONSUMER_KEY] TWITTER_CONSUMER_SECRET=[YOUR_TWITTER_CONSUMER_SECRET] node oauth1.js
 ```
 
 PS: the `#!/usr/bin/env node` part is useful if you want to make your Node.js script an **executable** (`chmod +x oauth1.js`)
