@@ -79,7 +79,7 @@ You need the following **credentials set as environment variables** when running
 
 Install the dependency `oauth` with npm (`npm install oauth`).
 
-The file `oauth1.js` should look like this and the profile info of the user with the handle **@twitterdev**
+The file `oauth1.js` should look like this and it **gets the profile info of the user with the handle @twitterdev**
 
 ```js
 #!/usr/bin/env node
@@ -129,7 +129,7 @@ With OAuth 2.0 the authentication is even simpler, but more limited on its actio
 
 You'll need both the `TWITTER_CONSUMER_KEY` and `TWITTER_CONSUMER_SECRET` to get a **Bearer token** to call the Twitter API.
 
-Here is an example, the file `oauth2.js` should look like this (it also get the profile information of the user **@twitterdev**)
+Here is an example, the file `oauth2.js` should look like this (**it also gets the profile information of the user @twitterdev**)
 
 ```js
 #!/usr/bin/env node
