@@ -37,6 +37,31 @@ With a Twitter developer app, you can make requests on behalf of a Twitter accou
 This method doesn't involve any user authentication and is typically used for read-only access to public information on the Twitter API.
 
 
+# Hey developer.twitter.com
+
+1. Go to [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps), login and click on **Apps** in the upper right menu:
+
+![twitter apps menu](/assets/images/posts/twitter-oauth/0-apps.png)
+
+2. Now you need to create an app to authenticate to the Twitter API:
+
+![create an app](/assets/images/posts/twitter-oauth/1-create-an-app.png)
+
+3. generate consumer key and secret
+
+In you applications tab you will alredy see you **Consumer API Key** and **Consumer API Secret Key**.
+
+Click on **Generate** to get also the **Access Token** and **Access Token Secret**:
+
+![generate-consumer-ks](/assets/images/posts/twitter-oauth/2-generate-consumer-ks.png)
+
+Here is the app overview screen:
+
+![apps-overview](/assets/images/posts/twitter-oauth/2-apps-overview.png)
+
+**Now you have everything you need!**
+
+
 
 # Node.js example with OAuth 1.0a
 
