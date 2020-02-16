@@ -48,7 +48,7 @@ So Long, and Thanks for All the Veggies,
 Christian
 
 <p>
-  <a target="_blank" href="https://twitter.com/share?url=https://christianfei.com{{page.url}}&text={{page.title}}&ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Share on Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> &nbsp; to let people know!
+  <a target="_blank" href="https://twitter.com/share?url=https://christianfei.com{{page.url}}&text={{page.title}}&ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Share on Twitter</a> &nbsp; to let people know!
 </p>
 
 
