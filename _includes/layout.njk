@@ -71,7 +71,9 @@ title: Christian Fei's Blog
   <body>
     {% include "header.html" %}
 
-    {{ content | safe }}
+    <main>
+      {{ content | safe }}
+    </main>
 
     {% if page.url !== '/' %}
       {% include "featured.html" %}
