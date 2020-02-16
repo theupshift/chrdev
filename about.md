@@ -5,7 +5,6 @@ title: About
 
 <!-- <h1 class="title no-anchorify"><span>about</span></h1> -->
 <div>
-
 I am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
 
 Italian, german & english speaking.
@@ -14,7 +13,7 @@ Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
 Email me at crifei93 [@] gmail [.] com
 
-# writing code as a passion
+# Writing code as a passion
 
 Mainly javascript at [wonderflow](https://www.wonderflow.co).
 
@@ -26,7 +25,7 @@ I try to stay up to date with what people are coming up with, everyday there's s
 
 Thus I read a lot, here you can find [my full pocket reading history](/pocket/).
 
-## projects
+## OSS Projects
 
 Coding all kinds of tech fields that bring value to me, read IoT, Crypto, Bots, Apps, CLI utilities, Automation of all kinds.
 
@@ -70,7 +69,7 @@ I made pomodoro.cc in 2014. it **was** a clean timer  Technique to help you to k
 I had to shut it down because of a [trademark issue](/posts/2020-02-13-So-Long-and-Thanks-for-All-the-Veggies/).
 
 
-## polyglot
+## Polyglot programmer
 
 *probably* wrote at least some **javascript** every day over the past five years
 
