@@ -16,13 +16,15 @@ Email me at crifei93 [@] gmail [.] com
 
 # writing code as a passion
 
-Mainly javascript at [wonderflow](https://www.wonderflow.co)
+Mainly javascript at [wonderflow](https://www.wonderflow.co).
 
-Most of my OSS can be found on my [github profile](https://github.com/christian-fei)
+TDD, Refactoring, Clean Code and SOLID Principles are my special weapons to tame codebases.
+
+Most of my OSS can be found on my [github profile](https://github.com/christian-fei).
 
 I try to stay up to date with what people are coming up with, everyday there's something new to learn and to try out.
 
-Thus I read a lot, here you can find [my full pocket reading history](/pocket/)
+Thus I read a lot, here you can find [my full pocket reading history](/pocket/).
 
 ## projects
 
