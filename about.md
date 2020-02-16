@@ -18,6 +18,20 @@ Email me at crifei93 [@] gmail [.] com
 
 Mainly javascript at [wonderflow](https://www.wonderflow.co)
 
+Most of my OSS can be found on my [github profile](https://github.com/christian-fei)
+
+I try to stay up to date with what people are coming up with, everyday there's something new to learn and to try out.
+
+Thus I read a lot, here you can find [my full pocket reading history](/pocket/)
+
+## projects
+
+Coding all kinds of tech fields that bring value to me, read IoT, Crypto, Bots, Apps, CLI utilities, Automation of all kinds.
+
+My most recent project is [mega-scraper](https://github.com/christian-fei/mega-scraper): it aims to be a simple website scraping tool with proxy support, request blocking and various optimizations.
+
+In the field of IoT I made a watering system with a raspberry pi, camera, temperature and moisture sensors. the communication is handled via telegram. with the help of a bot I can water, request a snapshot or video of the garden and a timelapse of the past days.
+
 Right now I am probably **writing code** for
 - [mega-scraper](https://github.com/christian-fei/mega-scraper) - scrape a website's content with puppeteer
 - [this very blog](https://github.com/christian-fei/christian-fei.github.io)
@@ -30,17 +44,9 @@ Right now I am probably **writing code** for
 - [justchart](https://github.com/christian-fei/justchart) - display any json as a chart
 - [open-weather-map-cli](https://github.com/christian-fei/open-weather-map-cli) - CLI for weather
 
-And other  projects, most of the code can be found on my [github profile](https://github.com/christian-fei)
+---
 
-And I read a lot, here all [my full pocket reading history](/pocket/)
-
-## projects
-
-Coding all kinds of tech fields that bring value to me, read IoT, Crypto, Bots, Apps, CLI utilities, Automation of all kinds.
-
-Regarding crypto, I launched [cryptosheet.cc](https://cryptosheet.cc/) in the summer of 2018 to satisfy my need to have all my balances and transactions on various crypto exchanges and wallet providers, in one single place: namely a spreadsheet.
-
-In the field of IoT I made a watering system with a raspberry pi, camera, temperature and moisture sensors. the communication is handled via telegram. with the help of a bot I can water, request a snapshot or video of the garden and a timelapse of the past days.
+Regarding crypto, I launched [cryptosheet.cc](https://cryptosheet.cc/) in the summer of 2018 to satisfy my need to have all my balances and transactions on different crypto exchanges and wallet providers, in one single place: namely a spreadsheet.
 
 [cryptosheet.cc](https://cryptosheet.cc/) was a web application that wrote all your transactions and account details on a google spreadsheet. Supported exchanges were Coinbase, Coinbase Pro (formerly GDAX), Binance, Gatehub Wallet, IOTA Token, Ripple Wallet.
 
@@ -54,6 +60,8 @@ It looked like this
     <img style="max-width: 12em;" lazy="/assets/images/cryptosheet3.cc.png">
   </div>
 </div>
+
+---
 
 I made pomodoro.cc in 2014. it **was** a clean timer  Technique to help you to keep your focus.
 
