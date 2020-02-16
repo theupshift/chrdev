@@ -52,17 +52,6 @@ Regarding crypto, I launched [cryptosheet.cc](https://cryptosheet.cc/) in the su
 
 [cryptosheet.cc](https://cryptosheet.cc/) was a web application that wrote all your transactions and account details on a google spreadsheet. Supported exchanges were Coinbase, Coinbase Pro (formerly GDAX), Binance, Gatehub Wallet, IOTA Token, Ripple Wallet.
 
-It looked like this
-
-<div class="flex">
-  <div class="flex-item tac">
-    <img lazy="/assets/images/cryptosheet2.cc.png">
-  </div>
-  <div class="flex-item tac">
-    <img style="max-width: 12em;" lazy="/assets/images/cryptosheet3.cc.png">
-  </div>
-</div>
-
 ---
 
 I made pomodoro.cc in 2014. it **was** a clean timer  Technique to help you to keep your focus.
