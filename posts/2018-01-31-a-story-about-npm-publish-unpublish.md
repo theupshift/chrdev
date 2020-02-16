@@ -5,6 +5,7 @@ layout: post.njk
 tags:
   - post
   - javascript
+  - nodejs
   - general
   - featured
 image: /assets/images/posts/npm.svg
