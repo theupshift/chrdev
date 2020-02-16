@@ -1,4 +1,56 @@
 pocket_items:
+  - title: "Moving Towards Domain Driven Design in Go"
+    url: https://www.calhoun.io/moving-towards-domain-driven-design-in-go/
+    date: 2020-02-16
+    id: 2885333072
+  - title: "The Benefits of Sharing Your Salary"
+    url: https://www.nytimes.com/2018/11/18/smarter-living/the-benefits-of-sharing-your-salary.html
+    date: 2020-02-15
+    id: 2885226179
+  - title: "Google Cuts Jobs at Cloud-Computing Group"
+    url: https://www.wsj.com/articles/google-cuts-jobs-at-cloud-computing-group-11581719153
+    date: 2020-02-15
+    id: 2885666711
+  - title: "Get a basic chat application working with WebRTC"
+    url: https://blog.logrocket.com/get-a-basic-chat-application-working-with-webrtc/
+    date: 2020-02-15
+    id: 2885716207
+  - title: "Building the DOM faster: speculative parsing, async, defer and preload"
+    url: https://hacks.mozilla.org/2017/09/building-the-dom-faster-speculative-parsing-async-defer-and-preload
+    date: 2020-02-14
+    id: 1890984829
+  - title: "I Add 3-25 Seconds of Latency to Every Page I Visit"
+    url: https://howonlee.github.io/2020/02/12/I-20Add-2020-20Seconds-20of-20Latency-20to-20Every-20Website-20I-20Visit.html
+    date: 2020-02-14
+    id: 2883892517
+  - title: "I asked my users to explain my product to me"
+    url: https://fabriziorinaldi.com/blog/asked-my-users-to-explain-my-product
+    date: 2020-02-14
+    id: 2884509950
+  - title: "I asked my users to explain my product to me"
+    url: https://fabriziorinaldi.com/blog/asked-my-users-to-explain-my-product
+    date: 2020-02-14
+    id: 2884711311
+  - title: "The deal Jeff Bezos got on Basecamp"
+    url: https://m.signalvnoise.com/the-deal-jeff-bezos-got-on-basecamp/
+    date: 2020-02-13
+    id: 2463607063
+  - title: "Implementing DTOs, Mappers & the Repository Pattern using the Sequelize ORM [with Examples] - DDD w/ TypeScript"
+    url: https://khalilstemmler.com/articles/typescript-domain-driven-design/repository-dto-mapper/
+    date: 2020-02-13
+    id: 2633069392
+  - title: "Why are we so bad at software engineering?"
+    url: https://www.bitlog.com/2020/02/12/why-are-we-so-bad-at-software-engineering/
+    date: 2020-02-13
+    id: 2883438622
+  - title: "Jeff Bezos bought the most expensive property in LA with an eighth of a percent of his net worth"
+    url: https://www.theverge.com/2020/2/12/21135400/jeff-bezos-warner-estate-expensive-property-david-geffen-amazon
+    date: 2020-02-13
+    id: 2883439364
+  - title: "Software Testing Guide"
+    url: https://martinfowler.com/testing/
+    date: 2020-02-13
+    id: 2883617161
   - title: "All The Apps That I Pay For"
     url: https://daily.patwalls.co/apps-services-that-i-pay-for
     date: 2020-02-11
