@@ -5,6 +5,7 @@ layout: post.njk
 tags:
   - post
   - javascript
+  - nodejs
   - featured
   - tutorial
 image: https://images.unsplash.com/photo-1521931961826-fe48677230a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
