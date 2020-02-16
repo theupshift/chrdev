@@ -5,6 +5,7 @@ layout: post.njk
 tags:
   - post
   - javascript
+  - nodejs
   - testing
   - featured
   - javascript
