@@ -5,6 +5,7 @@ title: About
 
 <!-- <h1 class="title no-anchorify"><span>about</span></h1> -->
 <div>
+
 I am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
 
 Italian, german & english speaking.
