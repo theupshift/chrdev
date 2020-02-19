@@ -40,8 +40,8 @@ This is how [`lib/env.js`](https://github.com/christian-fei/pomodoro.cc/blob/mas
 
 ```js
 const path = require('path')
-const endFileName = `.env${process.env.NODE_ENV && `.${process.env.NODE_ENV}`}`
-const pathToEnvFile = path.resolve(__dirname, endFileName)
+const envFileName = `.env${process.env.NODE_ENV && `.${process.env.NODE_ENV}`}`
+const pathToEnvFile = path.resolve(__dirname, envFileName)
 require('dotenv').config({ path: pathToEnvFile })
 ```
 
