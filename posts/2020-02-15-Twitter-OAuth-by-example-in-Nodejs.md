@@ -7,7 +7,6 @@ tags:
   - post
   - javascript
   - nodejs
-  - oauth
   - tutorial
 image: https://images.unsplash.com/photo-1551817958-d9d86fb29431?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
