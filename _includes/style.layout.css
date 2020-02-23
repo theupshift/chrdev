@@ -92,3 +92,9 @@ main article .title { padding-top: 0.2em; padding-bottom: 0.2em; }
 .tacb { display: block; margin: 0 auto; }
 .ovs { overflow-x: scroll; }
 .ovh-s { overflow-x: scroll; overflow-y: hidden; }
+
+ul, ol {
+  padding-left: 0;
+  margin-left: 0;
+  padding-left: 2.7em;
+}
