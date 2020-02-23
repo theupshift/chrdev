@@ -57,7 +57,7 @@ why not, even **login** to a given page with a real customer account to almost *
 
 being able to **proxy each request** can also help in case of speed, since you're using multiple services to handle your requests.
 
-## it's all about experimenting
+## it's all about experiments
 
 **mega-scraper** itself needs lots of improvements and new creative ways to avoid (even solve) captchas, improve networking, generic pagination, automation data extraction and much more.
 
