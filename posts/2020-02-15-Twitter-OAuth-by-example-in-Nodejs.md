@@ -114,7 +114,11 @@ async function getTwitterUserProfileWithOAuth1 (username = 'twitterdev') {
 Run `oauth1.js` with node:
 
 ```bash
-TWITTER_ACCESS_KEY=[YOUR_TWITTER_ACCESS_KEY] TWITTER_ACCESS_TOKEN_SECRET=[YOUR_TWITTER_ACCESS_TOKEN_SECRET] TWITTER_CONSUMER_KEY=[YOUR_TWITTER_CONSUMER_KEY] TWITTER_CONSUMER_SECRET=[YOUR_TWITTER_CONSUMER_SECRET] node oauth1.js
+TWITTER_ACCESS_KEY=[YOUR_TWITTER_ACCESS_KEY] \
+TWITTER_ACCESS_TOKEN_SECRET=[YOUR_TWITTER_ACCESS_TOKEN_SECRET] \
+TWITTER_CONSUMER_KEY=[YOUR_TWITTER_CONSUMER_KEY] \
+TWITTER_CONSUMER_SECRET=[YOUR_TWITTER_CONSUMER_SECRET] \
+  node oauth1.js
 ```
 
 PS: the `#!/usr/bin/env node` part is useful if you want to make your Node.js script an **executable** (`chmod +x oauth1.js`)
@@ -196,7 +200,10 @@ Enjoy, and let me know what you think [@christian_fei](https://twitter.com/chris
 Getting an **access token** that can be used to authenticate via `Bearer` authentication can be easily achieved with `curl`:
 
 ```bash
-curl -u '<YOUR_TWITTER_CONSUMER_KEY>:<YOUR_TWITTER_CONSUMER_SECRET>' --data 'grant_type=client_credentials' 'https://api.twitter.com/oauth2/token'
+curl \
+  -u '<YOUR_TWITTER_CONSUMER_KEY>:<YOUR_TWITTER_CONSUMER_SECRET>' \
+  --data 'grant_type=client_credentials' \
+  'https://api.twitter.com/oauth2/token'
 ```
 
 and the response will look something like this:
@@ -214,5 +221,25 @@ curl --header 'Authorization: Bearer AAAAAAAAA...' 'https://api.twitter.com/1.1/
 returning more information about the twitter user profile `christian_fei`:
 
 ```json
-{"id":128166532,"id_str":"128166532","name":"\/christian\/\ud83c\udf55","screen_name":"christian_fei","location":"The Internet","profile_location":null,"description":"agile person, clean code connoisseur and testing aficionado \ud83d\udc68\u200d\ud83d\udcbb dev @wonderflow","url":"https:\/\/t.co\/qUleUCEuNH","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/qUleUCEuNH","expanded_url":"https:\/\/christianfei.com\/","display_url":"christianfei.com","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":567,"friends_count":133,"listed_count":111,"created_at":"Wed Mar 31 08:55:25 +0000 2010","favourites_count":4078,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":12795 ...
+{
+  "id":128166532,
+  "id_str":"128166532",
+  "name":"\/christian\/\ud83c\udf55",
+  "screen_name":"christian_fei",
+  "location":"The Internet"
+  ,"profile_location":null,
+  "description":"agile person, clean code connoisseur and testing aficionado \ud83d\udc68\u200d\ud83d\udcbb dev @wonderflow",
+  "url":"https:\/\/t.co\/qUleUCEuNH",
+  "entities":{"url":{"urls":[{"url":"https:\/\/t.co\/qUleUCEuNH",
+  "expanded_url":"https:\/\/christianfei.com\/",
+  "display_url":"christianfei.com",
+  "indices":[0,23]}]},
+  "description":{"urls":[]}},
+  "protected":false,
+  "followers_count":567
+  ,"friends_count":133,
+  "listed_count":111,
+  "created_at":"Wed Mar 31 08:55:25 +0000 2010",
+  "statuses_count":12795,
+  ...
 ```
