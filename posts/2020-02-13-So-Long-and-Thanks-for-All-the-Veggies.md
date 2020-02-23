@@ -20,7 +20,7 @@ As much as it hurts, this action had to be taken due to apparent trademark issue
 
 The creator of the P technique messaged me on 2020-02-10 on LinkedIn, essentially threatening me with legal action, to shut down <strong class="p">pomodoro</strong>.cc.
 
-**arrogant people like this don't deserve my time**
+**people like this don't deserve my time**
 
 The conversation contained a [link](https://francescocirillo.com/pages/pomodoro-trademark-guidelines) to his trademark guidelines and an example with the brand name "Armani".
 
