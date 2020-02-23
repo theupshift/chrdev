@@ -8,11 +8,6 @@ title: Home
 <b>My name is Christian</b> and I'm a <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/" target="_blank">passionate web developer</a> from <b>Italy</b>
 
 You can <a href="https://twitter.com/christian_fei" target="_blank">follow me on twitter</a> and read a bit more <a href="/about">about me here</a>
-<a class="twitter-follow-button"
-  href="https://twitter.com/christian_fei"
-  data-size="large">
-Follow @TwitterDev</a>
-
 
 Reed some of my <a href="/posts">blog posts</a>
 
