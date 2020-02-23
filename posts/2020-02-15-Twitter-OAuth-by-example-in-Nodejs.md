@@ -40,11 +40,11 @@ This method doesn't involve any user authentication and is typically used for re
 
 1. Go to [developer.twitter.com/en/apps](https://developer.twitter.com/en/apps), login and click on **Apps** in the upper right menu:
 
-<img alt="twitter apps menu" lazy="/assets/images/posts/twitter-oauth/0-apps.png" />
+<img loading="lazy" src="/assets/images/posts/twitter-oauth/0-apps.png" alt="twitter apps menu" />
 
 2. Now you need to create an app to authenticate to the Twitter API:
 
-<img alt="create an app" lazy="/assets/images/posts/twitter-oauth/1-create-an-app.png" />
+<img loading="lazy" src="/assets/images/posts/twitter-oauth/1-create-an-app.png" alt="create an app" />
 
 3. generate consumer key and secret
 
@@ -52,11 +52,11 @@ In you applications tab you will alredy see you **Consumer API Key** and **Consu
 
 Click on **Generate** to get also the **Access Token** and **Access Token Secret**:
 
-<img alt="generate-consumer-ks" lazy="/assets/images/posts/twitter-oauth/2-generate-consumer-ks.png" />
+<img loading="lazy" src="/assets/images/posts/twitter-oauth/2-generate-consumer-ks.png" alt="generate-consumer-ks" />
 
 Here is the app overview screen:
 
-<img alt="apps-overview" lazy="/assets/images/posts/twitter-oauth/2-apps-overview.png" />
+<img loading="lazy" src="/assets/images/posts/twitter-oauth/2-apps-overview.png" alt="apps-overview" />
 
 **Now you have everything you need!**
 

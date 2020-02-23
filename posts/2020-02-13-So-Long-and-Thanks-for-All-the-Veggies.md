@@ -67,24 +67,24 @@ Stats at the time of writing:
 - exceptional growth in February 2020 (see below for hypothesis)
 
 ### Growth in February
-<img lazy="/assets/images/posts/fish/growth-february.png" />
+<img loading="lazy" src="/assets/images/posts/fish/growth-february.png" />
 
 This might be the most plausible reason for the timing of Cirillo's request. SEO and Twitter search apparently gave more weight to pomodoro.cc instead of to his own marketing stuff..
 
 ### Users online at time of writing
-<img lazy="/assets/images/posts/fish/now.png" />
+<img loading="lazy" src="/assets/images/posts/fish/now.png" />
 
 ### Users February 2020
-<img lazy="/assets/images/posts/fish/feb-2020.png" />
+<img loading="lazy" src="/assets/images/posts/fish/feb-2020.png" />
 
 ### Users January 2020
-<img lazy="/assets/images/posts/fish/jan-2020.png" />
+<img loading="lazy" src="/assets/images/posts/fish/jan-2020.png" />
 
 ### Users 2019
-<img lazy="/assets/images/posts/fish/2019.png" />
+<img loading="lazy" src="/assets/images/posts/fish/2019.png" />
 
 ### Users since September 2014
-<img lazy="/assets/images/posts/fish/all.png" />
+<img loading="lazy" src="/assets/images/posts/fish/all.png" />
 
 # Data
 
@@ -118,4 +118,4 @@ MongoDB Enterprise Cluster0-shard-0:PRIMARY> db.events.count()
 **63651** events stored in the audit log.
 
 
-<img lazy="/assets/images/posts/pomodoro.cc.png">
+<img loading="lazy" src="/assets/images/posts/pomodoro.cc.png">
