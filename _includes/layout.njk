@@ -43,11 +43,11 @@ title: Christian Fei's Blog
     <meta name="twitter:image" content="{{ 'https://christianfei.com/assets/images/cf3.jpg'}}">
     <meta name="twitter:description" content="Articles on JavaScript, Clean Code, testing and pretty much programming in general.">
 
-      <meta property="og:title" content="{{ title or 'A blog about agile, programming, clean code, testing, javascript' }}" />
-      <meta property="og:type" content="article" />
-      <meta property="og:url" content="https://christianfei.com/" />
-      <meta property="og:description" content="{{ content | excerpt }}" />
-      <meta property="og:site_name" content="christianfei.com" />
+    <meta property="og:title" content="{{ title or 'A blog about agile, programming, clean code, testing, javascript' }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://christianfei.com/" />
+    <meta property="og:description" content="{{ content | excerpt }}" />
+    <meta property="og:site_name" content="christianfei.com" />
 
 
     {% set style %}
@@ -77,11 +77,14 @@ title: Christian Fei's Blog
 
     {% if page.url !== '/' %}
       {% include "featured.html" %}
-    {% endif %}
+    {% endif %c}
 
     {% include "footer.html" %}
 
     <script type="text/javascript">{% include "main.js" %}</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/prism.min.js"></script>
+
+    {% if page.url !== '/' %}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/prism.min.js"></script>
+    {% endif %}
   </body>
 </html>
