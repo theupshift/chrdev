@@ -168,7 +168,9 @@ async function getTwitterUserProfileWithOAuth2 (username = 'twitterdev') {
 Run `oauth2.js` with node:
 
 ```bash
-TWITTER_CONSUMER_KEY=[YOUR_TWITTER_CONSUMER_KEY] TWITTER_CONSUMER_SECRET=[YOUR_TWITTER_CONSUMER_SECRET] node oauth2.js
+TWITTER_CONSUMER_KEY=[YOUR_TWITTER_CONSUMER_KEY] \
+TWITTER_CONSUMER_SECRET=[YOUR_TWITTER_CONSUMER_SECRET] \
+  node oauth2.js
 ```
 
 In this case the API `/1.1/users/show.json` supports both **OAuth 1.0a** and **OAuth 2.0**.
