@@ -40,3 +40,4 @@ console.log(process.env.npm_config_telegram_chat_id)
 > 123s
 ```
 
+Here is how I personally [manage my environments in Node.js](/posts/2020-02-08-Minimal-environments-with-dotenv-and-Node.js/).
