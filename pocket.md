@@ -12,7 +12,7 @@ title: Pocket reading list
 </p>
 
 <p>
-  use <code>ctrl + f</code> for searching through items
+  use <code>ctrl + f</code> to search through items
 </p>
 
 <ol reversed class="searchable1">
