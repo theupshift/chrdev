@@ -41,3 +41,13 @@ console.log(process.env.npm_config_telegram_chat_id)
 ```
 
 Here is how I personally [manage my environments in Node.js](/posts/2020-02-08-Minimal-environments-with-dotenv-and-Node.js/).
+
+# Example
+
+Below you can find an example using the library `simple-telegram-message`:
+
+```js
+const { sendMessageFor } = require('simple-telegram-message')
+const sendMessage = sendMessageFor(process.env.npm_config_telegram_token, process.env.npm_config_telegram_chat_id)
+sendMessage(`Hi from bot!`)
+```
