@@ -3,6 +3,14 @@
 html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
 
 body > header { max-width: 40em; margin: 0 auto; padding: 0.5em; }
+body > header {
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9000;
+  background: white;
+}
 body > footer { max-width: 40em; margin: 0 auto; padding: 0.5em; }
 body > main { max-width: 40em; margin: 0 auto; padding: 0.5em; }
 
@@ -13,6 +21,7 @@ img { max-width: 100%; }
   max-width: none;
 }
 .post-item { position: relative; padding: 0.7em 0; }
+.post-item:nth-child(2n) { background: ghostwhite; }
 .post-date { position: absolute; right: 0; }
 .post-link { width: 85%; display: block; }
 @media all and (max-width: 60em) { .post-date { display: none; } }
