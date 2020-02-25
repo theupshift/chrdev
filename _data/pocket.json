@@ -1,10 +1,214 @@
 {
-  "lastSynced": "2020-02-16T01:16:21.285Z",
+  "lastSynced": "2020-02-25T19:19:55.207Z",
   "items": [
+    {
+      "id": "2896002497",
+      "title": "GraphQL Batching Attack",
+      "url": "https://lab.wallarm.com/graphql-batching-attack/",
+      "date": "2020-02-25"
+    },
+    {
+      "id": "2896340257",
+      "title": "Firefox continues push to bring DNS over HTTPS by default for US users",
+      "url": "https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users",
+      "date": "2020-02-25"
+    },
+    {
+      "id": "2895041524",
+      "title": "$1,000 MRR: Harder Than I Expected",
+      "url": "https://daily.patwalls.co/1-000",
+      "date": "2020-02-24"
+    },
+    {
+      "id": "2895235677",
+      "title": "Food for Thought: Five Ways to Eat More Healthily at Work and Eliminate Stress",
+      "url": "https://www.welcometothejungle.com/en/articles/en-food-for-thought-five-ways-to-eat-more-healthily-at-work-and-eliminate-str",
+      "date": "2020-02-24"
+    },
+    {
+      "id": "2895443576",
+      "title": "The dark side of gamifying work",
+      "url": "https://www.fastcompany.com/90260703/the-dark-side-of-gamifying-work",
+      "date": "2020-02-24"
+    },
+    {
+      "id": "2755034180",
+      "title": "5 easy steps: How to start a successful and profitable blog",
+      "url": "https://yannickveys.com/5-easy-steps-how-to-start-a-successful-and-profitable-blog/",
+      "date": "2020-02-23"
+    },
+    {
+      "id": "2893785461",
+      "title": "A thread written by @Yannick_Veys",
+      "url": "https://threader.app/thread/1216805725231558658",
+      "date": "2020-02-23"
+    },
+    {
+      "id": "2893992192",
+      "title": "15 proven methods to make money with your blog in 2019",
+      "url": "https://yannickveys.com/proven-methods-to-make-money-with-your-blog/",
+      "date": "2020-02-23"
+    },
+    {
+      "id": "2894029112",
+      "title": "A thread written by @david_perell",
+      "url": "https://threader.app/thread/1231401013736886272",
+      "date": "2020-02-23"
+    },
+    {
+      "id": "2894181704",
+      "title": "A Brief History of Erlang and Elixir",
+      "url": "https://www.welcometothejungle.com/fr/articles/history-erlang-elixir",
+      "date": "2020-02-23"
+    },
+    {
+      "id": "2707598142",
+      "title": "No Silver Bullet (1986) [pdf] : Hacker News",
+      "url": "https://news.ycombinator.com/item?id=20818537",
+      "date": "2020-02-22"
+    },
+    {
+      "id": "2892560002",
+      "title": "Business is like surfing",
+      "url": "https://justinjackson.ca/surfing",
+      "date": "2020-02-22"
+    },
+    {
+      "id": "2892979607",
+      "title": "The Impact of Web Performance",
+      "url": "https://simplified.dev/performance/impact-of-web-performance",
+      "date": "2020-02-22"
+    },
+    {
+      "id": "2893262600",
+      "title": "A thread written by @testobsessed",
+      "url": "https://threader.app/thread/1231264781299879936",
+      "date": "2020-02-22"
+    },
+    {
+      "id": "2893262624",
+      "title": "A thread written by @kakape",
+      "url": "https://threader.app/thread/1231193492002611200",
+      "date": "2020-02-22"
+    },
+    {
+      "id": "2893262791",
+      "title": "The 1 Type of Complaining That Will Make You Feel Better, According to Science",
+      "url": "https://www.inc.com/jessica-stillman/science-this-is-the-only-type-of-complaining-that-s-good-for-you.html",
+      "date": "2020-02-22"
+    },
+    {
+      "id": "2893285117",
+      "title": "How to Deal with Debt Stress",
+      "url": "https://www.youneedabudget.com/how-to-deal-with-debt-stress/",
+      "date": "2020-02-22"
+    },
+    {
+      "id": "2890113755",
+      "title": "Stop Using Encrypted Email",
+      "url": "https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html",
+      "date": "2020-02-21"
+    },
+    {
+      "id": "2891444975",
+      "title": "I Spoke Out Against Sexual Harassment at Uber. The Aftermath Was More Terrifying Than Anything I Faced Before",
+      "url": "https://time.com/5784464/susan-fowler-book-uber-sexual-harassment/",
+      "date": "2020-02-21"
+    },
+    {
+      "id": "2892099370",
+      "title": "The UK Is Cutting Coal Use, Fast — Beautiful News",
+      "url": "https://informationisbeautiful.net/beautifulnews/172-uk-coal-use/",
+      "date": "2020-02-21"
+    },
+    {
+      "id": "2892231954",
+      "title": "The Wall of Technical Debt",
+      "url": "http://verraes.net/2020/01/wall-of-technical-debt/",
+      "date": "2020-02-21"
+    },
+    {
+      "id": "1808606390",
+      "title": "Ten things we know to be true",
+      "url": "https://www.google.com/about/philosophy.html",
+      "date": "2020-02-20"
+    },
+    {
+      "id": "2890630247",
+      "title": "‘There’s no future in cross-site tracking’: Confessions of a publisher on the death of third-party cookies",
+      "url": "https://digiday.com/marketing/theres-no-future-cross-site-tracking-confessions-publisher-death-third-party-cookies/",
+      "date": "2020-02-20"
+    },
+    {
+      "id": "2890993405",
+      "title": "Summary of changes – Privacy & Terms – Google",
+      "url": "https://policies.google.com/terms/changes",
+      "date": "2020-02-20"
+    },
+    {
+      "id": "2891236537",
+      "title": "A group of ex-NSA and Amazon engineers are building a ‘GitHub for data’",
+      "url": "https://techcrunch.com/2020/02/20/gretel-nsa-amazon-github-data/",
+      "date": "2020-02-20"
+    },
+    {
+      "id": "2891333700",
+      "title": "Exploring the New GitHub CLI",
+      "url": "https://scotch.io/tutorials/exploring-the-new-github-cli",
+      "date": "2020-02-20"
+    },
+    {
+      "id": "749794788",
+      "title": "You're Missing the Point of Promises",
+      "url": "https://blog.domenic.me/youre-missing-the-point-of-promises/",
+      "date": "2020-02-19"
+    },
+    {
+      "id": "2888089751",
+      "title": "Momentum > Urgency",
+      "url": "http://testobsessed.com/2020/02/momentum-urgency/",
+      "date": "2020-02-19"
+    },
+    {
+      "id": "2890320310",
+      "title": "Watching you watch: the tracking system of over-the-top TV streaming devices",
+      "url": "https://blog.acolyer.org/2020/02/10/watching-you-watch/",
+      "date": "2020-02-19"
+    },
+    {
+      "id": "2887383588",
+      "title": "Twitter OAuth by example in Node.js",
+      "url": "https://christianfei.com/posts/2020-02-15-Twitter-OAuth-by-example-in-Nodejs/",
+      "date": "2020-02-17"
+    },
+    {
+      "id": "2887608833",
+      "title": "A thread written by @ItayPerry",
+      "url": "https://threader.app/thread/1229055997685194752",
+      "date": "2020-02-17"
+    },
+    {
+      "id": "2887936588",
+      "title": "Jeff Bezos announced a $10 billion fund to fight climate change",
+      "url": "https://techcrunch.com/2020/02/17/jeff-bezos-announced-a-10-billion-fund-to-fight-climate-change/",
+      "date": "2020-02-17"
+    },
     {
       "id": "2885333072",
       "title": "Moving Towards Domain Driven Design in Go",
       "url": "https://www.calhoun.io/moving-towards-domain-driven-design-in-go/",
+      "date": "2020-02-16"
+    },
+    {
+      "id": "2853966077",
+      "title": "Compiling Dark to SQL",
+      "url": "https://medium.com/darklang/compiling-dark-to-sql-bb8918d1acdd",
+      "date": "2020-02-16"
+    },
+    {
+      "id": "2880830523",
+      "title": "What happened to Slack today",
+      "url": "https://techcrunch.com/2020/02/10/what-happened-to-slack-today/",
       "date": "2020-02-16"
     },
     {
