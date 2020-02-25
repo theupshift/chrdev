@@ -34,9 +34,14 @@ img { max-width: 100%; }
 .tag:first-of-type { padding-left: 0em; }
 
 main article .title { padding-top: 0.2em; padding-bottom: 0.2em; }
-
+main article header {
+  background: #f6f4f0;
+  border-radius: 5px;
+  padding: 1em;
+}
 #footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 
+.pad { padding: 1em; }
 .pad-v { padding-top: 2em; padding-bottom: 2em; }
 
 

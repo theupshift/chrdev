@@ -4,7 +4,7 @@ layout: layout.njk
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="title no-anchorify"><span>{{ title }}</span></h1>
-  <div class="pad-v">
+  <header class="pad">
     {% if page.url != '/' and page.url != '/about/' %}
         <div style="float: right">
           {% include 'carbonads.html' %}
@@ -27,7 +27,7 @@ layout: layout.njk
     <p>
       {% include 'tweet-this.html' %}
     </p>
-  </div>
+  </header>
 
   <div class="main-content">{{ content | safe }}</div>
 
