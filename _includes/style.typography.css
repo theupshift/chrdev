@@ -2,8 +2,8 @@
 article img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
 
 /* typography */
-html, body { font-size: 20px; font-weight: 400; line-height: 1.45; }
-@media all and (max-width: 40em) { html, body { font-size: 20px; } }
+html, body { font-size: 18px; font-weight: 400; line-height: 1.45; }
+@media all and (max-width: 40em) { html, body { font-size: 16px; } }
 html, body { font-family: Menlo, 'Courier New', Courier, Inconsolata, monospace; }
 html, body { font-family: Arial, Helvetica, sans-serif; }
 html, body {

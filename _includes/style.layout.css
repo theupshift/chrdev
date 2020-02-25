@@ -8,7 +8,10 @@ body > main { max-width: 40em; margin: 0 auto; padding: 0.5em; }
 
 .contain { max-width: 40em; margin: 0 auto; }
 img { max-width: 100%; }
-#avatar { width: 1.5em; height: 1.5em; border-radius: 50%; margin-bottom: -0.3+5em; margin-right: 0.5em; }
+#avatar {
+  width: 1.5em; height: 1.5em; border-radius: 50%; margin-bottom: -0.3+5em; margin-right: 0.5em;
+  max-width: none;
+}
 .post-item { position: relative; padding: 0.7em 0; }
 .post-date { position: absolute; right: 0; }
 .post-link { width: 85%; display: block; }
@@ -81,7 +84,7 @@ main article header {
   z-index: 9000;
 }
 
-.icon { display: inline-block; width: 1.275rem; height: 1.275rem; }
+.icon { display: inline-block; width: 1.275rem; height: 1.275rem; max-width: none; }
 
 
 .flex { display: flex; flex-direction: row; }
