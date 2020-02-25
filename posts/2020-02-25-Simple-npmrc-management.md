@@ -18,6 +18,8 @@ telegram_token=abc
 telegram_chat_id=123
 ```
 
+> **git ignore this file, especially in public repos**
+
 I find it useful to have an **npm script** called `node`, which runs node, but by loading the `.npmrc` file:
 
 In your package.json
