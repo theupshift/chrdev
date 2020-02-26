@@ -7,10 +7,8 @@ title: Recommended books
 
 <div reversed class="flex flex-wrap">
 {% for book in books %}
-  <div class="flex-item pad-half book">
-    <a href="{{ book.url }}" class="post-link">
-      {{ book.title }}
-    </a>
-  </div>
+  <a href="{{ book.url }}" class="post-link flex-item pad-half book">
+    {{ book.title }}
+  </a>
 {% endfor %}
 </div>
