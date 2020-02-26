@@ -3,7 +3,7 @@ layout: layout.njk
 title: Recommended books
 ---
 
-<h3>Recommended books</h3>
+<h3 class="no-mt">Recommended books</h3>
 
 <div reversed class="flex flex-wrap">
 {% for book in books %}

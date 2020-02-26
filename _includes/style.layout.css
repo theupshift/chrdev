@@ -104,6 +104,7 @@ main article header {
 .flex-03 { flex: 0.3; }
 .flex-05 { flex: 0.5; }
 
+.no-mt { margin-top: 0; }
 
 .tac { text-align: center; }
 .block-tac { margin: 0 auto; display: block; }
