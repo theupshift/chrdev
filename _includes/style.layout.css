@@ -54,6 +54,7 @@ main article header {
 #footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 
 .pad { padding: 1em; }
+.pad-half { padding: 0.5em; }
 .pad-v { padding-top: 2em; padding-bottom: 2em; }
 
 
@@ -97,6 +98,7 @@ main article header {
 
 
 .flex { display: flex; flex-direction: row; }
+.flex-wrap { flex-wrap: wrap; }
 .flex-item { flex: 1; }
 .flex-01 { flex: 0.1; }
 .flex-02 { flex: 0.2; }
@@ -114,4 +116,7 @@ ul, ol {
   padding-left: 0;
   margin-left: 0;
   padding-left: 3.6em;
+}
+.amazon-book-preview {
+  max-width: 120px;
 }

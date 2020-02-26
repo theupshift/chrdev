@@ -3,21 +3,20 @@ layout: layout.njk
 title: Recommended books
 ---
 
-<p>
-  <strong>Recommended books</strong>
-</p>
+<h3>Recommended books</h3>
 
-<ol reversed class="searchable1">
+<div reversed class="flex flex-wrap">
 {% for book in books %}
-  <li class="post-item">
-    <!-- <time datetime="{{ book.data.date | date: '%Y-%m-%d' }}" class="post-date">{{ book.data.date | date: '%Y-%m-%d' }}</time> -->
+  <div class="flex-item pad-half">
+    <!--
     <a href="{{ book.url }}" class="post-link">
       {{ book.title | capitalize }}
     </a>
     <br>
+    -->
     {% if book.preview %}
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="{{book.preview}}" ></iframe>
+<iframe class="amazon-book-preview" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="{{book.preview}}" ></iframe>
     {% endif %}
-  </li>
+  </div>
 {% endfor %}
-</ol>
+</div>
