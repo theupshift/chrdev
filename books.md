@@ -7,16 +7,10 @@ title: Recommended books
 
 <div reversed class="flex flex-wrap">
 {% for book in books %}
-  <div class="flex-item pad-half">
-    <!--
+  <div class="flex-item pad-half book">
     <a href="{{ book.url }}" class="post-link">
-      {{ book.title | capitalize }}
+      {{ book.title }}
     </a>
-    <br>
-    -->
-    {% if book.preview %}
-<iframe class="amazon-book-preview" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="{{book.preview}}" ></iframe>
-    {% endif %}
   </div>
 {% endfor %}
 </div>
