@@ -15,19 +15,19 @@
     "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=0134757599&asins=0134757599&linkId=af7afb16fd19a1cd675489644d935c2f&show_border=true&link_opens_in_new_window=true"
   },
   {
+    "title": "The Mythical Man-Month",
+    "url": "https://amzn.to/3ck08oy",
+    "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=0201835959&asins=0201835959&linkId=c6c371afca7adbe9f1f73c1e76bff365&show_border=true&link_opens_in_new_window=true"
+  },
+  {
     "title": "Let My People Go Surfing",
     "url": "https://amzn.to/2HWtpHR",
     "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=0143109677&asins=0143109677&linkId=1ee85b6fb4e706793c3cabf3545fb32b&show_border=true&link_opens_in_new_window=true"
   },
   {
-    "title": "Remote: Office Not Required",
-    "url": "https://amzn.to/37YVFEf",
-    "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=0804137501&asins=0804137501&linkId=8008a1830e171c70dbad1d122236b803&show_border=true&link_opens_in_new_window=true"
-  },
-  {
-    "title": "The Mythical Man-Month",
-    "url": "https://amzn.to/3ck08oy",
-    "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=0201835959&asins=0201835959&linkId=c6c371afca7adbe9f1f73c1e76bff365&show_border=true&link_opens_in_new_window=true"
+    "title": "Agile Technical Practices Distilled",
+    "url": "https://amzn.to/2TkNZXJ",
+    "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=B07TWBZX82&asins=B07TWBZX82&linkId=fe0cffe837e0c5b8a3f3c65cc16e862e&show_border=true&link_opens_in_new_window=true"
   },
   {
     "title": "The Healthy Programmer",
@@ -35,12 +35,18 @@
     "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=B00ZLVXTOC&asins=B00ZLVXTOC&linkId=bf26933fd8dcfaf9b04ed68ab33991e6&show_border=true&link_opens_in_new_window=true"
   },
   {
+    "title": "Domain-Driven Design",
+    "url": "https://amzn.to/3a8Osmx",
+    "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=0321125215&asins=0321125215&linkId=bd0b25974560702b70963b51f45c9a26&show_border=true&link_opens_in_new_window=true"
+  },
+  {
     "title": "The Art of Agile Development",
     "url": "https://amzn.to/38YXen6",
     "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=0596527675&asins=0596527675&linkId=71830d63b39875026196a406148be6a0&show_border=true&link_opens_in_new_window=true"
-  }, {
-    "title": "Agile Technical Practices Distilled",
-    "url": "https://amzn.to/2TkNZXJ",
-    "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=B07TWBZX82&asins=B07TWBZX82&linkId=fe0cffe837e0c5b8a3f3c65cc16e862e&show_border=true&link_opens_in_new_window=true"
+  },
+  {
+    "title": "Remote: Office Not Required",
+    "url": "https://amzn.to/37YVFEf",
+    "preview": "https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=christianfei-20&marketplace=amazon&region=US&placement=0804137501&asins=0804137501&linkId=8008a1830e171c70dbad1d122236b803&show_border=true&link_opens_in_new_window=true"
   }
 ]
