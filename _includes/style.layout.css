@@ -63,9 +63,9 @@ main article header {
 .alert { background: #fe1; padding: 1em 1em; }
 
 .featured-post {
-  min-width: 350px;
-  height: 220px;
-  background-size: cover;
+  min-width: 320px;
+  height: 180px;
+  background-size: cover !important;
   text-align: center;
   position: relative;
   transition: all 0.3s ease;
@@ -88,9 +88,8 @@ main article header {
 
 .featured-post:hover {
   background-color: white;;
-  background-size: cover;
-  background-position: top;
   /* transform: scale(1.05); */
+  background-position: top;
   z-index: 9000;
 }
 
