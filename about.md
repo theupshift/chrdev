@@ -22,7 +22,7 @@ TDD, Refactoring, Clean Code and SOLID Principles are my special weapons to tame
 
 Most of my OSS can be found on my [github profile](https://github.com/christian-fei).
 
-I try to stay up to date with what people are coming up with, everyday there's something new to learn and to try out.
+I try to stay up to date with what people are coming up with, every day there's something new to learn and to try out.
 
 Thus I read a lot, here you can find [my full pocket reading history](/pocket/).
 
