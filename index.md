@@ -9,7 +9,8 @@ title: Home
 
 You can <a href="https://twitter.com/christian_fei" target="_blank">follow me on twitter</a> and read a bit more <a href="/about">about me here</a>
 
-Reed some of my <a href="/posts">blog posts</a>
+Reed some of my <a href="/posts">blog posts</a> and recommended <a href="/books">books</a>
+
 
 <br>
 
