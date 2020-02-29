@@ -134,3 +134,7 @@ ul, ol {
 .book:nth-child(7) { background: lavender; }
 .book:nth-child(8) { background: mintcream; }
 .book:nth-child(9) { background: snow; }
+
+@media all and (max-width: 40em) {
+  .no-mobile { display: none; }
+}
