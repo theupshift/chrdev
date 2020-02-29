@@ -1,7 +1,4 @@
 #carbonads-container {
-  float: right;
-  padding: 0.7em;
-  /* border:1px solid #efefef; width: 180px; height: 210px; */
 }
 #carbonads * {
   border-bottom: none !important;
@@ -28,8 +25,6 @@
   color: black;
   font-size: var(--font-size) !important;
   line-height: 1.3 !important;
-  margin-top: -10px;
-  height: 210px;
 }
 
 #carbonads a {
