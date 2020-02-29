@@ -139,3 +139,8 @@ ul, ol {
 @media all and (max-width: 40em) {
   .no-mobile { display: none; }
 }
+
+.cf {
+  text-align: center;
+  padding: 1em;
+}

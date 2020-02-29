@@ -11,8 +11,11 @@ You can <a href="https://twitter.com/christian_fei" target="_blank">follow me on
 
 Reed some of my <a href="/posts">blog posts</a> and recommended <a href="/books">books</a>
 
-
-<br>
+<div class="cf">
+  <a href="/about">
+    <img style="border-radius: 50%;" src="/assets/images/cf3.jpg">
+  </a>
+</div>
 
 <h1 class="title tac">Featured blog posts</h1>
 
