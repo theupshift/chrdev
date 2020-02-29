@@ -22,7 +22,7 @@ Clean Code, TDD, Refactoring and SOLID Principles are my special weapons to tame
 
 Most of my OSS can be found on my [github profile](https://github.com/christian-fei).
 
-I try to stay up to date with what people are coming up with, thus I read a lot, here you can find [my full pocket reading history](/pocket/).
+I try to stay up to date with what people are coming up with, thus I read a lot, here you can find [my full pocket reading history](/pocket/) and [recommended books](/books/)
 
 ## OSS Projects
 
@@ -30,8 +30,7 @@ Coding all kinds of tech fields that bring value to me, read IoT, Crypto, Bots, 
 
 My most recent project is [mega-scraper](https://github.com/christian-fei/mega-scraper): it aims to be a simple website scraping tool with proxy support, request blocking and various optimizations.
 
-In the field of IoT I made a [watering system](https://github.com/christian-fei/garden) with a **raspberry pi, camera, temperature and moisture sensors**. the communication is handled via **telegram**. with the help of a bo
-t I can water, request a snapshot or video of the garden and a timelapse of the past days. most importantly this enables me to water my plants remotely and seeing their current state through an image sent on a private telegram channel.
+In the field of IoT I made a [watering system](https://github.com/christian-fei/garden) with a **raspberry pi, camera, temperature and moisture sensors**. the communication is handled via **telegram**. with the help of a bot I can water, request a snapshot or video of the garden and a timelapse of the past days. most importantly this enables me to water my plants remotely and seeing their current state through an image sent on a private telegram channel.
 
 Right now I am probably **writing code** for
 - [mega-scraper](https://github.com/christian-fei/mega-scraper) - scrape a website's content with puppeteer
@@ -53,23 +52,23 @@ Regarding crypto, I launched [cryptosheet.cc](https://cryptosheet.cc/) in the su
 
 ---
 
-I made pomodoro.cc in 2014. it **was** a clean timer  Technique to help you to keep your focus.
+I made pomodoro.cc in 2014. it **was** a clean timer to help you to keep your focus.
 
 I had to shut it down because of a [trademark issue](/posts/2020-02-13-So-Long-and-Thanks-for-All-the-Veggies/).
 
 
 ## Polyglot programmer
 
-*probably* wrote at least some **javascript** every day over the past five years
+*probably* wrote at least some **JavaScript** every day over the past six years
 
-depending on the weather outside, I refresh my little but solid **elixir** skills
+Depending on the weather outside, I refresh my little but solid **Elixir** skills
 
-when I feel really bad, I console myself with some **haskell** (completed the course [FP101 at UNI Delft](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0))
+When I feel really bad, I console myself with some **Haskell** (completed the course [FP101 at UNI Delft](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0))
 
-had a chance to dabble with **python** in the context of python notebooks when I was doing my first steps understanding what ML is
+Had a chance to dabble with **Python** in the context of python notebooks when I was doing my first steps understanding what ML is
 
-when I was doing **ruby** I felt on top of the world
+When I was doing **Ruby** I felt on top of the world
 
-as a classic, **java**, but I prefer to stay away from it
+As a classic, **Java**, but I prefer to stay away from it
 
 </div>
