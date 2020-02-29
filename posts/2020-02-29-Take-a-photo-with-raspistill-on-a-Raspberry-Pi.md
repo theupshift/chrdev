@@ -4,8 +4,10 @@ date: 2020-02-29
 layout: post.njk
 tags:
   - post
+  - featured
   - raspberry
   - tutorial
+image: https://images.unsplash.com/photo-1552283576-3ea3519bf12e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 
 > `raspistill` is the command line tool for capturing still photographs with the camera module.
