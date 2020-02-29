@@ -14,6 +14,12 @@ Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
 Email me at crifei93 [@] gmail [.] com
 
+<div class="tac">
+  <a href="https://twitter.com/christian_fei">
+    <img src="/assets/images/cf3.jpg">
+  </a>
+</div>
+
 # Writing code as a passion
 
 Mainly javascript at [wonderflow](https://www.wonderflow.co).
