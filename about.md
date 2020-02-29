@@ -16,7 +16,7 @@ Email me at crifei93 [@] gmail [.] com
 
 <div class="tac">
   <a href="https://twitter.com/christian_fei">
-    <img src="/assets/images/cf3.jpg">
+    <img style="border-radius: 50%;" src="/assets/images/cf3.jpg">
   </a>
 </div>
 
