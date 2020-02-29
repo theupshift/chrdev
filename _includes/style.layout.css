@@ -139,6 +139,9 @@ ul, ol {
 @media all and (max-width: 40em) {
   .no-mobile { display: none; }
 }
+@media all and (min-width: 40em) {
+  .only-mobile { display: none; }
+}
 
 .cf {
   text-align: center;
