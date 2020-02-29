@@ -8,7 +8,7 @@ title: About
 
 I am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
 
-Italian, german & english speaking.
+Italian, german & english speaking
 
 Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
