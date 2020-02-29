@@ -30,6 +30,9 @@ Most of my OSS can be found on my [github profile](https://github.com/christian-
 
 I try to stay up to date with what people are coming up with, thus I read a lot, here you can find [my full pocket reading history](/pocket/) and [recommended books](/books/)
 
+> Simplicity is the ultimate sophistication ~ Leonardo Da Vinci
+
+
 ## OSS Projects
 
 Coding all kinds of tech fields that bring value to me, read IoT, Crypto, Bots, Apps, CLI utilities, Automation of all kinds.
