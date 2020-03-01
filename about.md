@@ -14,7 +14,7 @@ Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
 Email me at crifei93 [@] gmail [.] com
 
-<div class="tac">
+<div class="cf">
   <a href="https://twitter.com/christian_fei">
     <img style="border-radius: 50%;" src="/assets/images/cf3.jpg"><br>@christian_fei
   </a>
