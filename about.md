@@ -22,7 +22,9 @@ Email me at crifei93 [@] gmail [.] com
 
 # Writing code as a passion
 
-Mainly javascript at [wonderflow](https://www.wonderflow.co).
+Mainly working with #Node.js, #JavaScript, #Python, #MongoDB, #Redis, #Cloud, #Stats, #DevOps, #Automation, #Scraping as a Full Stack Developer at [wonderflow](https://www.wonderflow.co) (2017 - present).
+
+Previously Agile Developer at XPeppers, Trento (2014 - 2017).
 
 Clean Code, TDD, Refactoring and SOLID Principles are my special weapons to tame codebases.
 
