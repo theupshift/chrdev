@@ -13,7 +13,7 @@ Reed some of my <a href="/posts">blog posts</a> and recommended <a href="/books"
 
 <div class="cf">
   <a href="/about">
-    <img style="border-radius: 50%;" src="/assets/images/cf3.jpg">
+    <img style="border-radius: 50%;" src="/assets/images/cf3.jpg"><br>about me
   </a>
 </div>
 
