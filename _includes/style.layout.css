@@ -73,6 +73,10 @@ main article header {
   padding: 0.5em;
   display: block;
   background-position: center;
+  border-bottom: 10px solid white;
+}
+.featured-post:hover {
+  border-bottom: 10px solid #fe1;
 }
 .featured-post .post-title {
   text-decoration: none !important;
