@@ -155,6 +155,20 @@ There is also no parser for the language, the editor manipulates the AST directl
 
 ![editor](/assets/images/posts/dark/editor2.png)
 
+---
+
+PS: this is the whole language spec:
+
+```haskell
+type expr =
+  | Integer of string
+  | String of string
+  | If of expr * expr * expr
+  | Variable of string
+  | FnCall of string * expr list
+  | Lambda of string list * expr
+```
+
 
 # Links
 
