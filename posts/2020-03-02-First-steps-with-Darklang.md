@@ -85,7 +85,7 @@ In Dark, all datastores are a key-value store - a persistent hashmap/dictionary 
 
 ![dark backend components](/assets/images/posts/dark/datastores.png)
 
-# Railway oriented programming
+# Railway oriented programming
 
 A concept I never heard about before, that comes from the *F#* world apparently.
 
