@@ -34,8 +34,37 @@ We also use Results and Options instead of exceptions and nulls, to avoid all th
 
 Dark uses a concept called [Railway Oriented Programming](https://fsharpforfunandprofit.com/posts/recipe-part2/) to reduce this complexity. ROP is a metaphor where the error values of Results and Options form an alternate execution path through the program, called an Error Rail. When an error happens, the execution in the main body stops and instead passes over to the Error Rail.
 
+Dark
 
-### Quotes about dark
+- is Statically-typed
+
+- is a Functional / imperative programming language
+
+- is Declarative and Expression based
+
+- has Immutable values
+
+- has Results and Options
+
+- and much more
+
+# Working with Dark
+
+For me there are three main points:
+
+- Feature flags
+- Deployless
+- Continuous Delivery
+
+
+*Feature flags*: Working safely in Dark relies on feature flags (temporarily unavailable in the current beta)
+
+*Deployless*: You don’t hit compile or build or even git push your code
+
+*Continuous Delivery*: the practice of frequently making small, low-risk changes. Code that you write is deployed to “production” (typically behind a feature flag) immediately after being written.
+
+
+# Quotes about Darklang
 
 Quotes that could give a better idea about dark.
 
@@ -44,7 +73,6 @@ Quotes that could give a better idea about dark.
 Dark introduces the concept of **Deployless backends** (term coined by Jessie Frazelle)
 
 > “Just as there are servers in serverless, there are deployments in deployless, you just don’t have to think about it”— Paul Biggar
-
 
 
 # Dark Backend Components
