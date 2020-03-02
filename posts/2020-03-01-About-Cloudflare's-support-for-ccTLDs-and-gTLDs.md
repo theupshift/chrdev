@@ -14,7 +14,7 @@ It is like finding a treasure for me because I was looking for an official list 
 
 `.cc` and `.xyz` are currently not supported (except for `.ninja`) as domains on Cloudflare.
 
-The `.cc` ([Cocos Islands](https://en.wikipedia.org/wiki/.cc)) domain is be part of the [ccTLDs](https://en.wikipedia.org/wiki/Country_code_top-level_domain).
+The `.cc` ([Cocos Islands](https://en.wikipedia.org/wiki/.cc)) domain is part of the [ccTLDs](https://en.wikipedia.org/wiki/Country_code_top-level_domain).
 
 Short for **Country code top-level domain**.
 
