@@ -165,13 +165,28 @@ Dark introduces the concept of **Deployless backends** (term coined by Jessie Fr
 PS: this is the whole language spec:
 
 ```haskell
-type expr =
-  | Integer of string
-  | String of string
-  | If of expr * expr * expr
-  | Variable of string
-  | FnCall of string * expr list
-  | Lambda of string list * expr
+type expr  =
+  | Integer * string
+  | Bool * bool
+  | String * string
+  | Float * string * string
+  | Null
+  | Blank
+  | Let * string * t * t
+  | If * t * t * t
+  | BinOp * string * t * t * sendToRail
+  | Lambda of (string) list * t
+  | FieldAccess * t * string
+  | Variable * string
+  | FnCall * string * t list * sendToRail
+  | Partial * string * t
+  | RightPartial * string * t
+  | List * t list
+  | Record * (string * t) list
+  | Pipe * t list
+  | Constructor * string * t list
+  | Match * t * (FluidPattern.t * t) list
+  | FeatureFlag * string * t * t * t
 ```
 
 
