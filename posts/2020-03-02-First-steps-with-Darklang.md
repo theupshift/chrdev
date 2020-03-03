@@ -33,7 +33,7 @@ Dark’s type system allows us to find everywhere that a change needs to propaga
 
 We also use Results and Options instead of exceptions and nulls, to avoid all the problems that come from those language features.
 
-Dark uses a concept called [Railway Oriented Programming](https://fsharpforfunandprofit.com/posts/recipe-part2/) to reduce this complexity. ROP is a metaphor where the error values of Results and Options form an alternate execution path through the program, called an Error Rail. When an error happens, the execution in the main body stops and instead passes over to the Error Rail.
+Dark uses a concept called [Railway Oriented Programming](https://fsharpforfunandprofit.com/posts/recipe-part2/) and [Trace Driven Development](https://darklang.github.io/docs/trace-driven-development), read below for more info on that.
 
 Dark
 
@@ -52,9 +52,10 @@ Dark
 
 ### Railway oriented programming
 
+Railway Oriented Programming is a metaphor where the error values of Results and Options form an alternate execution path through the program, called an Error Rail. When an error happens, the execution in the main body stops and instead passes over to the Error Rail.
+
 A concept I never heard about before, that comes from the *F#* world apparently.
 
-It's a metaphor where the Error values create an alternate execution path through the program, called an Error Rail.
 
 Here you can read more about [Railway oriented programming in Dark](https://medium.com/darklang/real-problems-with-functional-languages-efe668c5264a) and other functional concepts
 
