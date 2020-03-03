@@ -23,7 +23,7 @@ Dark is for building backends and tries to remove accidental complexity from cod
 - Dark is designed for continuous delivery — the practice of frequently making small, low-risk changes. Code that you write is deployed to “production” (typically behind a feature flag) immediately after being written.
 
 
-### Statically-typed Functional Languages
+## Statically-typed Functional Languages
 
 > once it compiles, it usually works first try
 
@@ -50,7 +50,7 @@ Dark
 - and much more
 
 
-# Railway oriented programming
+### Railway oriented programming
 
 A concept I never heard about before, that comes from the *F#* world apparently.
 
@@ -61,7 +61,7 @@ Here you can read more about [Railway oriented programming in Dark](https://medi
 ![Railway oriented programming](/assets/images/posts/dark/railway.png)
 
 
-# Trace Driven Development
+### Trace Driven Development
 
 > Send requests to Dark *before writing code*
 
