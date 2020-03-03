@@ -49,21 +49,6 @@ Dark
 
 - and much more
 
-# Working with Dark
-
-For me there are three main points:
-
-- Feature flags
-- Deployless
-- Continuous Delivery
-
-
-*Feature flags*: Working safely in Dark relies on feature flags (temporarily unavailable in the current beta)
-
-*Deployless*: You don’t hit compile or build or even git push your code
-
-*Continuous Delivery*: the practice of frequently making small, low-risk changes. Code that you write is deployed to “production” (typically behind a feature flag) immediately after being written.
-
 
 # Railway oriented programming
 
@@ -91,6 +76,22 @@ Once you have requests/traces, you can use them while writing code.
 If you put your cursor on a trace you'll the see the result of that execution on the left-hand side.
 
 ![tdd](/assets/images/posts/dark/tdd2.png)
+
+
+# Working with Dark
+
+For me there are three main points:
+
+- Feature flags
+- Deployless
+- Continuous Delivery
+
+
+*Feature flags*: Working safely in Dark relies on feature flags (temporarily unavailable in the current beta)
+
+*Deployless*: You don’t hit compile or build or even git push your code
+
+*Continuous Delivery*: the practice of frequently making small, low-risk changes. Code that you write is deployed to “production” (typically behind a feature flag) immediately after being written.
 
 
 # Dark Backend Components
