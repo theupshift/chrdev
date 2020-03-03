@@ -65,15 +65,32 @@ For me there are three main points:
 *Continuous Delivery*: the practice of frequently making small, low-risk changes. Code that you write is deployed to “production” (typically behind a feature flag) immediately after being written.
 
 
-# Quotes about Darklang
+# Railway oriented programming
 
-Quotes that could give a better idea about dark.
+A concept I never heard about before, that comes from the *F#* world apparently.
 
-> “We keep adding things, but we never take things away. AWS has 200 services and never takes any away”
+It's a metaphor where the Error values create an alternate execution path through the program, called an Error Rail.
 
-Dark introduces the concept of **Deployless backends** (term coined by Jessie Frazelle)
+Here you can read more about [Railway oriented programming in Dark](https://medium.com/darklang/real-problems-with-functional-languages-efe668c5264a) and other functional concepts
 
-> “Just as there are servers in serverless, there are deployments in deployless, you just don’t have to think about it”— Paul Biggar
+![Railway oriented programming](/assets/images/posts/dark/railway.png)
+
+
+# Trace Driven Development
+
+> Send requests to Dark *before writing code*
+
+```
+curl -X POST -H 'Content-Type: application/json' https://yourcanvasid.builtwithdark.com/ --data '{"foo":42}'
+```
+
+Once you have requests/traces, you can use them while writing code.
+
+![tdd](/assets/images/posts/dark/tdd1.png)
+
+If you put your cursor on a trace you'll the see the result of that execution on the left-hand side.
+
+![tdd](/assets/images/posts/dark/tdd2.png)
 
 
 # Dark Backend Components
@@ -114,35 +131,7 @@ In Dark, all datastores are a key-value store - a persistent hashmap/dictionary 
 
 ![dark backend components](/assets/images/posts/dark/datastores.png)
 
-# Railway oriented programming
-
-A concept I never heard about before, that comes from the *F#* world apparently.
-
-It's a metaphor where the Error values create an alternate execution path through the program, called an Error Rail.
-
-Here you can read more about [Railway oriented programming in Dark](https://medium.com/darklang/real-problems-with-functional-languages-efe668c5264a) and other functional concepts
-
-![Railway oriented programming](/assets/images/posts/dark/railway.png)
-
-
-# Trace Driven Development
-
-> Send requests to Dark *before writing code*
-
-```
-curl -X POST -H 'Content-Type: application/json' https://yourcanvasid.builtwithdark.com/ --data '{"foo":42}'
-```
-
-Once you have requests/traces, you can use them while writing code.
-
-![tdd](/assets/images/posts/dark/tdd1.png)
-
-If you put your cursor on a trace you'll the see the result of that execution on the left-hand side.
-
-![tdd](/assets/images/posts/dark/tdd2.png)
-
-
-# Editor
+# The Editor
 
 Code written in Dark is literally written on a `<canvas>` element, also the name "canvas" of the "workspace" concept the Dark team came up with.
 
@@ -155,6 +144,19 @@ That's interesting and quite different from what we're probably used to.
 There is also no parser for the language, the editor manipulates the AST directly and only valid code is instantly deployed.
 
 ![editor](/assets/images/posts/dark/editor2.png)
+
+
+
+# Quotes about Darklang
+
+Quotes that could give a better idea about dark.
+
+> “We keep adding things, but we never take things away. AWS has 200 services and never takes any away”
+
+Dark introduces the concept of **Deployless backends** (term coined by Jessie Frazelle)
+
+> “Just as there are servers in serverless, there are deployments in deployless, you just don’t have to think about it”— Paul Biggar
+
 
 ---
 
