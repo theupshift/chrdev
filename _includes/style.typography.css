@@ -56,3 +56,11 @@ a.twitter-share-button {
   padding: 0.3em 0.7em;
   text-decoration: none;
 }
+.twitter-share-button.big {
+  width: 100%;
+  height: inherit;
+  line-height: 2.5;
+  display: block;
+  font-size: 1.5em;
+  text-align: center;
+}
