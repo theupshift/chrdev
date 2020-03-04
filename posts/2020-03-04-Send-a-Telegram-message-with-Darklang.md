@@ -28,7 +28,6 @@ let query = {
               text : event.text
               parse_mode : "HTML"
             }
-let url = url
 HttpClient::getv4 url query {}
 ```
 
