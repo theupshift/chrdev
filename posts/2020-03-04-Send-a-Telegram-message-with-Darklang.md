@@ -9,20 +9,28 @@ tags:
 
 In this example you can see how to emit a *Worker* event with Darklang.
 
+### Telegram endpoint `/sendMessage`
+
+Using the endpoint [`messages.sendMessage`](https://core.telegram.org/method/messages.sendMessage) you can simply send a message on Telegram by calling this endpoint via GET and the needed parameters in the query string.
+
+## The worker
+
 The worker is named `send_telegram_message` and looks like this:
 
 ```haskell
-let channel = "YOUR_CHANNEL_ID"
-let botToken = "YOUR_BOT_TOKEN"
-let url = "https://api.telegram.org/bot" ++ botToken ++ "/sendMessage"
+let chat_id = "YOUR_CHAT_ID"
+let bot_token = "YOUR_BOT_TOKEN"
+let url = "https://api.telegram.org/bot" ++ bot_token ++ "/sendMessage"
 let query = {
-              chat_id : channel
+              chat_id : chat_id
               text : event.text
               parse_mode : "HTML"
             }
 let url = url
 HttpClient::getv4 url query {}
 ```
+
+## Calling the worker
 
 The worker is then called with and *event body*, which should contain *the text to send via Telegram*:
 
