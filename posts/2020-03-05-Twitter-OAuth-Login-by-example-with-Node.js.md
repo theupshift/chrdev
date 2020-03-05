@@ -47,7 +47,9 @@ Read below for a step by step guide!
 
 ![](/assets/images/posts/twitter-oauth/app-name.png)
 
-4. **Important**: Select **Enable Sign in with Twitter** and add `http://127.0.0.1:3000/twitter/callback` to the list of **Callback URLs**
+4. **Important**: Select **Enable Sign in with Twitter** and add the following url to the list of **Callback URLs**:
+
+`http://127.0.0.1:3000/twitter/callback`
 
 ![](/assets/images/posts/twitter-oauth/app-callback.png)
 
