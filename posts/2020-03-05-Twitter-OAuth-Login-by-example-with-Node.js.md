@@ -267,6 +267,16 @@ async function getOAuthRequestToken () {
 …
 ```
 
+## Running the code
+
+As simple as this, you just need to have your `TWITTER_CONSUMER_API_KEY` and `TWITTER_CONSUMER_API_SECRET_KEY` ready:
+
+```bash
+TWITTER_CONSUMER_API_KEY=YOUR_KEY
+TWITTER_CONSUMER_API_SECRET_KEY=YOUR_SECRET_KEY
+  node index.js
+```
+
 #### [Here you can find the full source code](https://github.com/christian-fei/twitter-oauth-login-in-nodejs)!
 
 ## Wrapping it up
