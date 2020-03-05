@@ -79,6 +79,12 @@ The local HTTP server will listen on the port **3000** and serves the following 
 
 To handle sessions and parse HTTP cookies `express-session`  and  `cookie-parser` are used.
 
+This is how it looks like
+
+![](/assets/images/posts/twitter-oauth/login.png)
+![](/assets/images/posts/twitter-oauth/logged-in.png)
+
+
 ## The code
 [The full source code can be found on GitHub](https://github.com/christian-fei/twitter-oauth-login-in-nodejs).
 
