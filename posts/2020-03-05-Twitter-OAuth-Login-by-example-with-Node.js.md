@@ -92,6 +92,8 @@ This is how it looks like
 ## The code
 [The full source code can be found on GitHub](https://github.com/christian-fei/twitter-oauth-login-in-nodejs).
 
+Learn how to [make authenticated API calls with OAuth 1.0a and 2.0](/posts/2020-02-15-Twitter-OAuth-by-example-in-Nodejs/).
+
 ## Step-by-step
 Let’s import the relevant modules:
 

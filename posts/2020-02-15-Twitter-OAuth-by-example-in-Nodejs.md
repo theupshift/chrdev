@@ -15,6 +15,8 @@ Curious about how to call an HTTP API like Twitter or GitHub by authenticating t
 
 Read more about how to do it with Node.js
 
+Learn how to [create Twitter login with OAuth 1.0a](/posts/2020-03-05-Twitter-OAuth-Login-by-example-with-Node.js/).
+
 
 ## About OAuth
 
