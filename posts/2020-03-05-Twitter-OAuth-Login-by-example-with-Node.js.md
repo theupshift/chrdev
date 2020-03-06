@@ -15,6 +15,8 @@ Lately I found myself dealing with Twitter and Google OAuth (1.0a and 2.0) to au
 
 Since my process of *trying to understand* and make sense of OAuth has been both fun and rough, I wanted to **summarize a full example in a single JavaScript file** and document other findings along the way.
 
+![](/assets/images/posts/twitter-oauth/authorize.png)
+
 ## Documentation, documentation, documentation
 If you want to **read extensively** the documentation and deeply understand the flow, these are some links that helped me out greatly:
 
