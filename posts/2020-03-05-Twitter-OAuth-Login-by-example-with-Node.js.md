@@ -90,17 +90,17 @@ This is how it looks like
 ![](/assets/images/posts/twitter-oauth/login.png)
 ![](/assets/images/posts/twitter-oauth/logged-in.png)
 
+## An example OAuth 1.0a flow
+
+<video controls="" autoplay="" name="media">
+  <source src="/assets/videos/oauth-express.webm" type="video/webm">
+</video>
 
 ## The code
 [The full source code can be found on GitHub](https://github.com/christian-fei/twitter-oauth-login-in-nodejs).
 
 Learn how to [make authenticated API calls with OAuth 1.0a and 2.0](/posts/2020-02-15-Twitter-OAuth-by-example-in-Nodejs/).
 
-## An example OAuth 1.0a flow
-
-<video controls="" autoplay="" name="media">
-  <source src="/assets/videos/oauth-express.webm" type="video/webm">
-</video>
 
 
 ## Step-by-step
