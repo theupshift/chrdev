@@ -96,6 +96,12 @@ This is how it looks like
 
 Learn how to [make authenticated API calls with OAuth 1.0a and 2.0](/posts/2020-02-15-Twitter-OAuth-by-example-in-Nodejs/).
 
+## An example OAuth 1.0a flow
+
+<video controls="" autoplay="" name="media">
+  <source src="/assets/videos/oauth-express.webm" type="video/webm">
+</video>
+
 
 ## Step-by-step
 Let’s import the relevant modules:
