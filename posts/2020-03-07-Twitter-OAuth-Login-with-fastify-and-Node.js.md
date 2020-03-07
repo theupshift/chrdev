@@ -157,6 +157,15 @@ Register the `/` route, for logged in users the username will be shown with the 
   })
 ```
 
+The authentication part could probably be achieved with
+
+```javascript
+  app.addHook('preHandler', (request, reply, next) => {
+    // auth logic
+    next()
+  })
+```
+
 ## User logout
 
 The users needs to be able to logout, so you need to register a `/twitter/logout` route that clears the cookie and redirects to `/`:
