@@ -4,9 +4,11 @@ date: 2020-03-07
 layout: post.njk
 tags:
   - post
+  - tutorial
+  - nodejs
+  - javascript
   - twitter
   - oauth
-  - tutorial
 ---
 
 ## Create a Twitter application
