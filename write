@@ -19,10 +19,12 @@ touch $post_full_path
 date="$(date +%Y-%m-%d)"
 
 touch $post_full_path
-printf "\n---" >> $post_full_path
-printf "\ntitle: $args" >> $post_full_path
-printf "\ndate: $date" >> $post_full_path
-printf "\nlayout: post.njk\ntags:
+echo "---" >> $post_full_path
+echo "title: $args" >> $post_full_path
+echo "date: $date" >> $post_full_path
+echo "layout: post.njk"
+echo "tags:
   - post" >> $post_full_path
-printf "\n---\n" >> $post_full_path
+echo "---" >> $post_full_path
+echo "" >> $post_full_path
 code $post_full_path
