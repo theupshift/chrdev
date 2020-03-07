@@ -234,7 +234,7 @@ This finally sets the user session and a cookie with the `twitter_screen_name` (
   })
 ```
 
-## Start the server
+## Start the server
 
 The server will listen on the port `3000` and print the HTTP address `http://127.0.0.1:3000` for easy access (click on it if you're using iTerm)
 
