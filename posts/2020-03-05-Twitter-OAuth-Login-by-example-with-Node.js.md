@@ -96,7 +96,7 @@ This is how it looks like
 
 Learn how to [make authenticated API calls with OAuth 1.0a and 2.0](/posts/2020-02-15-Twitter-OAuth-by-example-in-Nodejs/).
 
-<!--
+
 ## Step-by-step
 Let’s import the relevant modules:
 
