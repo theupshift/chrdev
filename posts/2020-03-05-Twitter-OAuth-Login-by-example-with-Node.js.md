@@ -96,8 +96,7 @@ This is how it looks like
 
 Learn how to [make authenticated API calls with OAuth 1.0a and 2.0](/posts/2020-02-15-Twitter-OAuth-by-example-in-Nodejs/).
 
-<iframe src="https://slides.com/christianfei/darklang/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+<!--
 ## Step-by-step
 Let’s import the relevant modules:
 
