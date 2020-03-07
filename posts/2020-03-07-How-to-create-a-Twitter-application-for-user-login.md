@@ -1,5 +1,5 @@
 ---
-title: How to create a Twitter application for user login
+title: How to create a Twitter application for user login with OAuth
 date: 2020-03-07
 layout: post.njk
 tags:
