@@ -247,3 +247,6 @@ returning more information about the twitter user profile `christian_fei`:
   "statuses_count":12795,
   ...
 ```
+
+Learn how to [create Twitter login with OAuth 1.0a](/posts/2020-03-05-Twitter-OAuth-Login-by-example-with-Node.js/).
+
