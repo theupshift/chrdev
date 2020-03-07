@@ -65,6 +65,12 @@ async function getOAuthRequestToken () {
 }
 ```
 
+## An example OAuth 1.0a flow
+
+<video controls="" autoplay="" name="media">
+  <source src="/assets/videos/oauth-fastify.webm" type="video/webm">
+</video>
+
 ## fastify HTTP server
 
 First import the following modules, `fastify`, `fastify-session` and `fastify-cookie` (`npm install` them):
@@ -83,6 +89,7 @@ const {
 const path = require('path')
 const fs = require('fs')
 ```
+
 
 ## HTML files
 
