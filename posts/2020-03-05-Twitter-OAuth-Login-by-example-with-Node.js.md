@@ -17,6 +17,8 @@ Lately I found myself dealing with Twitter and Google OAuth (1.0a and 2.0) to au
 
 Since my process of *trying to understand* and make sense of OAuth has been both fun and rough, I wanted to **summarize a full example in a single JavaScript file** and document other findings along the way.
 
+Interested in the [fastify version](/posts/2020-03-07-Twitter-OAuth-Login-with-fastify-and-Node.js/)?
+
 ![](/assets/images/posts/twitter-oauth/authorize.png)
 
 ## Documentation, documentation, documentation
