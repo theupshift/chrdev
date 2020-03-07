@@ -95,7 +95,7 @@ const INDEX = fs.readFileSync(path.resolve(__dirname, 'client', 'index.html'), {
 const TEMPLATE = fs.readFileSync(path.resolve(__dirname, 'client', 'template.html'), { encoding: 'utf8' })
 ```
 
-## Session secret
+## Session secret
 
 Generate a session secret, longer than 32 character, and set it as environment variable or in your `.npmrc`:
 
@@ -103,7 +103,7 @@ Generate a session secret, longer than 32 character, and set it as environment v
 const COOKIE_SECRET = process.env.npm_config_cookie_secret || process.env.COOKIE_SECRET
 ```
 
-## The `main` program
+## The `main` program
 
 This runs the main program:
 
