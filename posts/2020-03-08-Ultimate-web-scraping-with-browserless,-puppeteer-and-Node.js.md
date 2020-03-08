@@ -64,6 +64,7 @@ async function createBrowser () {
 }
 ```
 
+An example video:
 
 <video controls="" autoplay="" name="media">
   <source src="/assets/videos/crawl-with-api.mp4" type="video/mp4">
