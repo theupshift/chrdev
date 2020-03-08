@@ -96,6 +96,7 @@ This is how it looks like
 
 <video controls="" autoplay="" name="media">
   <source src="/assets/videos/oauth-express.webm" type="video/webm">
+  <source src="/assets/videos/oauth-express.mp4" type="video/mp4">
 </video>
 
 ## The code

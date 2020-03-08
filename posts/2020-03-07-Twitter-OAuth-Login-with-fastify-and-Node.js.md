@@ -69,6 +69,7 @@ async function getOAuthRequestToken () {
 
 <video controls="" autoplay="" name="media">
   <source src="/assets/videos/oauth-fastify.webm" type="video/webm">
+  <source src="/assets/videos/oauth-fastify.mp4" type="video/mp4">
 </video>
 
 ## fastify HTTP server
