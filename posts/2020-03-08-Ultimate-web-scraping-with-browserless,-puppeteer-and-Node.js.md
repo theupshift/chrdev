@@ -12,6 +12,8 @@ tags:
 
 I was amazed when I found out about it 🤯!
 
+Find the whole source code on [Github christian-fei/browserless-example](https://github.com/christian-fei/browserless-example)!
+
 ## Running browserless in docker
 
 A one-liner is enough to have a full puppeteer backend, with configured concurrency etc., to leverage using **puppeteer**.
@@ -70,3 +72,6 @@ An example video:
   <source src="/assets/videos/crawl-with-api.mp4" type="video/mp4">
 </video>
 
+Find the whole source code on [Github christian-fei/browserless-example](https://github.com/christian-fei/browserless-example)!
+
+You'll find a web crawler with puppeteer!
