@@ -4,6 +4,7 @@ date: 2020-03-07
 layout: post.njk
 tags:
   - post
+  - featured
   - tutorial
   - nodejs
   - javascript
