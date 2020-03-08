@@ -40,6 +40,21 @@ docker run \
   --rm -it browserless/chrome
 ```
 
+## Source code
+
+Find the whole source code on [Github christian-fei/browserless-example](https://github.com/christian-fei/browserless-example)!
+
+You'll find a web crawler with puppeteer!
+
+```bash
+git clone https://github.com/christian-fei/browserless-example.git
+cd browserless-example
+npm i
+
+npm run start-browserless
+node crawl-with-api.js https://christianfei.com
+```
+
 ## Puppeteer using browserless docker backend
 
 You simply connect to the **Browser WebSocket Endpoint** `ws://localhost:3000` and you're connected to the *browserless* backend!
@@ -72,6 +87,3 @@ An example video:
   <source src="/assets/videos/crawl-with-api.mp4" type="video/mp4">
 </video>
 
-Find the whole source code on [Github christian-fei/browserless-example](https://github.com/christian-fei/browserless-example)!
-
-You'll find a web crawler with puppeteer!
