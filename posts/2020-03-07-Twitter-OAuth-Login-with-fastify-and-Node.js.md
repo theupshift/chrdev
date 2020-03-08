@@ -17,6 +17,8 @@ image: https://images.unsplash.com/photo-1507235071172-438ca6950a8e?ixlib=rb-1.2
 
 At [christian-fei/twitter-oauth-login-in-nodejs](https://github.com/christian-fei/twitter-oauth-login-in-nodejs) on GitHub you can find the **whole source code**.
 
+Learn how to create a [Twitter OAuth Application](/posts/2020-03-07-How-to-create-a-Twitter-application-for-user-login/)
+
 ## OAuth utilities
 
 To authenticate through the Twitter API I found the following set of **OAuth utilities** pretty useful.
