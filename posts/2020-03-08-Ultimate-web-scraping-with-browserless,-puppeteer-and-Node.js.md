@@ -19,7 +19,9 @@ A one-liner is enough to have a full puppeteer backend, with configured concurre
 You can connect to a browserless backend by passing the option `browserWSEndpoint` like this:
 
 ```javascript
+async function createBrowser () {
   return puppeteer.connect({ browserWSEndpoint: 'ws://localhost:3000' })
+}
 ```
 
 To start the backend you can use the following command, using the docker image `browserless/chrome`:
