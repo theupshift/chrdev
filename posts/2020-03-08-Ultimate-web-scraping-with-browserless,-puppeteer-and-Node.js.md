@@ -7,6 +7,7 @@ tags:
   - featured
   - nodejs
   - puppeteer
+  - browserless
   - scraping
 image: https://images.unsplash.com/photo-1472212712724-0f9997e1fe6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
@@ -92,3 +93,9 @@ An example video:
   <source src="/assets/videos/crawl-with-api.mp4" type="video/mp4">
 </video>
 
+
+---
+
+### [Pssst: learn how to crawl any website with puppeteer and browserless](/posts/2020-03-09-Crawling-a-web-site-with-browserless,-puppeteer-and-Node.js/)!
+
+Read more about [puppeteer](/tags/puppeteer) and [browserless](/tags/browserless)
