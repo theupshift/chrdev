@@ -55,6 +55,8 @@ Right now I am probably **writing code** for
 - [justchart](https://github.com/christian-fei/justchart) - display any json as a chart
 - [open-weather-map-cli](https://github.com/christian-fei/open-weather-map-cli) - CLI for weather
 
+You can support me on [GitHub Sponsors](https://github.com/sponsors/christian-fei)!
+
 ---
 
 Regarding crypto, I launched [cryptosheet.cc](https://cryptosheet.cc/) in the summer of 2018 to satisfy my need to have all my balances and transactions on different crypto exchanges and wallet providers, in one single place: namely a spreadsheet.
