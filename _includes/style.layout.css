@@ -65,6 +65,10 @@ main article header {
   border-radius: 5px;
   padding: 1em;
   overflow: hidden;
+
+  border: 0px solid #fe1;
+  background: transparent;
+  border-top-width: 5px;
 }
 #footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 
