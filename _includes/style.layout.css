@@ -18,7 +18,7 @@ body > main { max-width: 50em; margin: 0 auto; padding: 0.5em; }
 img { max-width: 100%; }
 video { max-width: 100%; }
 
-ul, ol { padding-left: 0; margin-left: 1.5em; }
+ul, ol { padding-left: 0; margin-left: 3em; }
 blockquote {
   padding: 0.2em;
   padding-bottom: 0.5em;
