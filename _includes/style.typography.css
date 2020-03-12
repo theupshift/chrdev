@@ -32,7 +32,7 @@ h5 { font-size: 1.2em; }
 small, .text_small { font-size: 0.833em; }
 
 a { font-weight: bold }
-blockquote { padding: 0.5em 0.25em; font-size: 1.1em; font-style: italic; }
+blockquote { padding: 0.5em 0.125em; font-size: 1.1em; font-style: italic; }
 blockquote p { margin: 0; }
 
 .bg { background: #fe1 }

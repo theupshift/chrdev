@@ -19,6 +19,16 @@ img { max-width: 100%; }
 video { max-width: 100%; }
 
 ul, ol { padding-left: 0; margin-left: 1.5em; }
+blockquote {
+  padding: 0.2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-left: 2em;
+  border: 0px solid #fe1;
+  border-left-width: 6px;
+  margin: 0;
+  background: #fdfcf7;
+}
 
 #avatar {
   width: 1.5em; height: 1.5em; border-radius: 50%; margin-bottom: -0.3+5em; margin-right: 0.5em;
