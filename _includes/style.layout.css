@@ -18,6 +18,8 @@ body > main { max-width: 50em; margin: 0 auto; padding: 0.5em; }
 img { max-width: 100%; }
 video { max-width: 100%; }
 
+ul, ol { padding-left: 0; margin-left: 1.5em; }
+
 #avatar {
   width: 1.5em; height: 1.5em; border-radius: 50%; margin-bottom: -0.3+5em; margin-right: 0.5em;
   max-width: none;
@@ -119,19 +121,9 @@ main article header {
 .ovs { overflow-x: scroll; }
 .ovh-s { overflow-x: scroll; overflow-y: hidden; }
 
-ul, ol {
-  padding-left: 0;
-  margin-left: 0;
-  padding-left: 3.6em;
-}
-.amazon-book-preview {
-  max-width: 120px;
-}
-.book {
-  min-width: 200px;
-  height: 200px;
-}
-
+.cf { text-align: center; padding: 1em; }
+.amazon-book-preview { max-width: 120px; }
+.book { min-width: 200px; height: 200px; }
 .book:nth-child(1) { background: azure; }
 .book:nth-child(2) { background: papayawhip; }
 .book:nth-child(3) { background: aliceblue; }
@@ -147,9 +139,4 @@ ul, ol {
 }
 @media all and (min-width: 40em) {
   .only-mobile { display: none; }
-}
-
-.cf {
-  text-align: center;
-  padding: 1em;
 }

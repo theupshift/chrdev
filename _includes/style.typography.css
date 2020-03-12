@@ -21,7 +21,6 @@ pre { overflow-x: scroll; font-size: 0.75em; }
 pre, code { background: #ffee11; background: #ffee1199; }
 pre code { background: none; }
 pre ::selection { color: white; background: #000; }
-ul { padding-left: 1em; }
 
 /* https://type-scale.com/ */
 h1, h2, h3, h4, h5 { margin: 2.75rem 0 1rem; font-weight: 700; line-height: 1.15; }
@@ -33,7 +32,7 @@ h5 { font-size: 1.2em; }
 small, .text_small { font-size: 0.833em; }
 
 a { font-weight: bold }
-blockquote { padding: 0.5em 0.75em; font-size: 1.1em; font-style: italic; }
+blockquote { padding: 0.5em 0.25em; font-size: 1.1em; font-style: italic; }
 blockquote p { margin: 0; }
 
 .bg { background: #fe1 }
