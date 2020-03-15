@@ -78,7 +78,7 @@ Additionally you can also take screenshots, get the whole HTML of a page, and mo
 
 ```bash
 curl -X POST \
-  https://chrome.browserless.io/scrape \
+  http://localhost:3000/scrape \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
   -d '{
