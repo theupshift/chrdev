@@ -1,5 +1,7 @@
 const CleanCSS = require("clean-css")
 const htmlmin = require("html-minifier")
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
 const [commitLong, date, ...commitDescription] = require('child_process').execSync(`git log -1 --no-color`)
   .toString()
   .split('\n')
@@ -13,6 +15,8 @@ function reversed (tag, collection) {
 }
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(pluginRss)
+
   eleventyConfig.addPassthroughCopy("assets")
   eleventyConfig.addPassthroughCopy("robots.txt")
   eleventyConfig.addCollection("posts", (collection) => reversed('post', collection))
@@ -28,6 +32,7 @@ module.exports = function(eleventyConfig) {
   })
   eleventyConfig.addFilter("cssmin", (code) => new CleanCSS({}).minify(code).styles)
   eleventyConfig.addFilter("words", (content) => (content || '').split(' ').length)
+  eleventyConfig.addFilter("tags", (tags) => tags.filter(t => !['post', 'featured', 'tutorial'].includes(t)))
   eleventyConfig.addFilter("readingTime", (content) => {
     const words = (content || '').split(' ').length
     const averageWPM = 250
