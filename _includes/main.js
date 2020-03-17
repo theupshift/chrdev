@@ -87,7 +87,7 @@ function lazyLoad (selector = '[lazy]') {
 }
 
 function makeExternalLinksTargetBlank () {
-  const externalLinks = [...document.querySelectorAll(`body :not([href~='${window.location.hostname}']):not([href^='/'])`)]
+  const externalLinks = [...document.querySelectorAll(`body a:not([href~='${window.location.hostname}']):not([href^='/'])`)]
   console.log('external links', externalLinks.length, externalLinks.map(el => el.getAttribute('href')).filter(Boolean))
   externalLinks.forEach(el => el.setAttribute('target', '_blank'))
 }
