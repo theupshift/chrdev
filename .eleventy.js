@@ -40,13 +40,14 @@ module.exports = function(eleventyConfig) {
     const minutes = parseInt(readingTimeInMinutes, 10)
     return minutes > 1 ? `${minutes} minutes` : `1 minute`
   })
-  eleventyConfig.addFilter("excerpt", (content) => (content || '').substring(0, 200))
+  eleventyConfig.addFilter("excerpt", (content) => (content || '').substring(0, 200).replace(/<\/?[^>]+(>|$)/g, ""))
   eleventyConfig.addFilter("twitterTitle", (title) => `"${encodeURIComponent(title || '')}", by @christian_fei`)
   eleventyConfig.addFilter("encode", (content) => encodeURIComponent(content || ''))
   eleventyConfig.addFilter("json", (obj) => {
     try {
       return JSON.stringify(obj || {})
     } catch (err) {
+      console.error(err.message, obj)
       return ''
     }
   })

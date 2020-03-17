@@ -37,8 +37,8 @@ blockquote {
 .post-item { position: relative; padding: 0.7em 0; }
 .post-item:nth-child(2n) { background: ghostwhite; }
 /* .post-link { width: 85%; display: block; } */
-/* .post-date { position: absolute; right: 0; }
-@media all and (max-width: 60em) { .post-date { display: none; } } */
+.post-date { position: absolute; right: 0; }
+@media all and (max-width: 60em) { .post-date { display: none; } }
 
 
 
