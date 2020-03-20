@@ -32,6 +32,10 @@ jobs:
         run: |
           npm run purge
       - uses: christian-fei/github-action-send-telegram-message@master
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          TELEGRAM_TEXT: "Deployed to https://christianfei.com"
         with:
           message: 'Deployed to https://christianfei.com'
       # - name: tg
