@@ -31,7 +31,7 @@ jobs:
           CF_DOMAIN: ${{ secrets.CF_DOMAIN }}
         run: |
           npm run purge
-      - uses: actions/github-action-send-telegram-message@master
+      - uses: christian-fei/github-action-send-telegram-message@master
         with:
           message: 'Deployed to https://christianfei.com'
       # - name: tg
