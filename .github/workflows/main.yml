@@ -31,10 +31,13 @@ jobs:
           CF_DOMAIN: ${{ secrets.CF_DOMAIN }}
         run: |
           npm run purge
-      - name: tg
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
-          TELEGRAM_TEXT: "Deployed to https://christianfei.com"
-        run: |
-          npx simple-telegram-message@latest
+      - uses: actions/github-action-send-telegram-message@master
+        with:
+          message: 'Deployed to https://christianfei.com'
+      # - name: tg
+      #   env:
+      #     TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      #     TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+      #     TELEGRAM_TEXT: "Deployed to https://christianfei.com"
+      #   run: |
+      #     npx simple-telegram-message@latest
