@@ -22,7 +22,7 @@ layout: layout.njk
     <p class="main-content">{{ content | words }} words, {{ content | readingTime }} reading time</p>
 
     <p class="no-share tags">
-      {%- for tag in tags -%}
+      {%- for tag in tags | tags -%}
         <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
       {%- endfor -%}
     </p>
