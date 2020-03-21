@@ -155,3 +155,10 @@ main article header {
 @media all and (min-width: 40em) {
   .only-mobile { display: none; }
 }
+
+
+a.bmc-button {
+  position: fixed;
+  right: 1em;
+  top: 5em;
+}
