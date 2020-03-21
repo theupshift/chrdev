@@ -158,7 +158,12 @@ main article header {
 
 
 a.bmc-button {
-  position: fixed;
-  right: 1em;
-  top: 5em;
+  display: none;
+}
+@media all and (min-width: 40em) {
+  a.bmc-button {
+    position: fixed;
+    right: 1em;
+    top: 3em;
+  }
 }
