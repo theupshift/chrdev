@@ -60,16 +60,17 @@ blockquote {
 .tag { padding: 0.2em 0.5em; opacity: 0.7; }
 .tag:first-of-type { padding-left: 0em; }
 
-main article .title { padding-top: 0.2em; padding-bottom: 0.2em; }
-main article header {
-  background: #f6f4f0;
-  border-radius: 5px;
-  padding: 1em;
-  overflow: hidden;
-
+main article .title {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   border: 0px solid #fe1;
-  background: transparent;
-  border-top-width: 5px;
+  border-bottom-width: 5px;
+}
+main article header {
+  padding: 1em;
+  font-size: 0.8em;
+  overflow: hidden;
+  background: #f3f3f3;
 }
 #footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 
