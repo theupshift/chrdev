@@ -2,19 +2,11 @@
 *, *::after, *::before { box-sizing: border-box; }
 html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
 
-body > header { max-width: 50em; margin: 0 auto; padding: 0.5em; }
-body > header {
-  position: sticky;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 9000;
-  background: white;
-}
-body > footer { max-width: 50em; margin: 0 auto; padding: 0.5em; }
-body > main { max-width: 50em; margin: 0 auto; padding: 0.5em; }
+body > header, body > footer, body > main { max-width: 40em; margin: 0 auto; padding: 0.5em; }
+.contain { max-width: 40em; margin: 0 auto; }
 
-.contain { max-width: 50em; margin: 0 auto; }
+body > header { position: sticky; left: 0; right: 0; top: 0; z-index: 9000; background: white; }
+
 img { max-width: 100%; }
 video { max-width: 100%; }
 
@@ -34,7 +26,7 @@ blockquote {
   width: 1.5em; height: 1.5em; border-radius: 50%; margin-bottom: -0.3+5em; margin-right: 0.5em;
   max-width: none;
 }
-.post-item { position: relative; padding: 0.7em 0; }
+.post-item { position: relative; padding: 0.7em 0; padding-right: 7em; }
 .post-item:nth-child(2n) { background: ghostwhite; }
 /* .post-link { width: 85%; display: block; } */
 .post-date { position: absolute; right: 0; }
@@ -159,10 +151,11 @@ main article header {
 
 
 a.bmc-button {
-  display: none;
+  /* display: none !important; */
 }
-@media all and (min-width: 40em) {
+@media all and (min-width: 60em) {
   a.bmc-button {
+    display: block !important;
     position: fixed;
     right: 1em;
     top: 3em;

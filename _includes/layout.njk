@@ -78,6 +78,7 @@ title: Christian Fei's Blog
       {{ content | safe }}
     </main>
 
+    {% include "buy-me-a-coffee.html" %}
 
     {% if page.url !== '/' %}
       <div class="contain">
@@ -85,7 +86,6 @@ title: Christian Fei's Blog
       </div>
     {% endif %}
 
-    {% include "buy-me-a-coffee.html" %}
     {% include "footer.html" %}
 
     <script type="text/javascript">{% include "main.js" %}</script>
