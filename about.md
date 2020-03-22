@@ -22,6 +22,10 @@ Email me at crifei93 [@] gmail [.] com
   </a>
 </div>
 
+Head over to my [GitHub Sponsor page](https://github.com/sponsors/christian-fei)!
+
+See a visualization of my [GitHub contributions](/contributions) over the years!
+
 # Writing code as a passion
 
 Mainly working with #Node.js, #JavaScript, #Python, #MongoDB, #Redis, #Cloud, #Stats, #DevOps, #Automation, #Scraping as a Full Stack Developer at [wonderflow](https://www.wonderflow.co) (2017 - present).
