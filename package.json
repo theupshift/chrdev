@@ -1,31 +1,30 @@
 {
-  "name": "christian-fei.github.io",
+  "name": "christian-fei.github.io-devblog",
   "version": "1.0.0",
-  "description": "for https://christianfei.com",
-  "main": "main.js",
+  "description": "",
+  "main": ".devblog.js",
+  "dependencies": {
+    "devblog": "^2.5.0"
+  },
+  "devDependencies": {
+    "clean-css": "^4.2.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "start": "npx @11ty/eleventy --serve",
-    "build": "echo '💯  build\n'; npx @11ty/eleventy",
-    "purge": "./purge || true",
-    "deploy": "./deploy.with-assets",
-    "up": "npm run build && npm run deploy && npm run purge"
+    "test": "npx cypress run",
+    "build": "devblog",
+    "purge": "./scripts/purge",
+    "deploy": "./scripts/deploy",
+    "start": "npx http-server _site 8080"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christian-fei/christian-fei.github.io.git"
+    "url": "git+https://github.com/christian-fei/christian-fei.github.io-devblog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/christian-fei/christian-fei.github.io/issues"
+    "url": "https://github.com/christian-fei/christian-fei.github.io-devblog/issues"
   },
-  "homepage": "https://github.com/christian-fei/christian-fei.github.io#readme",
-  "dependencies": {
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "clean-css": "^4.2.3",
-    "html-minifier": "^4.0.0"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/christian-fei/christian-fei.github.io-devblog#readme"
 }

@@ -30,7 +30,7 @@ this was important to me, since i didn't want to have to deal with `pandoc`, `ha
 
 i learned from my mistakes and decided to go with something that i was familiar with: `javascript`.
 
-so the most natural thing was to run `npx @11ty/eleventy --serve`. and this is how my site is available and live-reloaded at `http://localhost:8080`.
+so the most natural thing was to run `npx @11ty/eleventy --serve`. and this is how my site is available and live-reloaded at `http://127.0.0.1:8080`.
 
 # eleventy
 
@@ -55,7 +55,7 @@ in the [`cypress/integration`](https://github.com/christian-fei/christian-fei.gi
 - content.spec.js
 - navigation.spec.js
 
-in runs on the ci with `npx cypress run`, alongside a running http server listening on port `http://localhost:8080`.
+in runs on the ci with `npx cypress run`, alongside a running http server listening on port `http://127.0.0.1:8080`.
 
 # deployment
 

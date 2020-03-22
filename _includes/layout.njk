@@ -1,7 +1,3 @@
----
-title: Christian Fei's Blog
----
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -75,7 +71,7 @@ title: Christian Fei's Blog
     {% include "header.html" %}
 
     <main>
-      {{ content | safe }}
+      {% block content %}{% endblock %}
     </main>
 
     {% include "buy-me-a-coffee.html" %}

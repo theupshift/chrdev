@@ -2,7 +2,7 @@
 
 context('Content', () => {
   it('about', () => {
-    cy.visit('http://localhost:8080')
+    cy.visit('http://127.0.0.1:8080')
 
     cy.get('body > header').contains('about').click()
 
@@ -10,14 +10,14 @@ context('Content', () => {
   })
 
   it('visible featured posts', () => {
-    cy.visit('http://localhost:8080')
+    cy.visit('http://127.0.0.1:8080')
 
     cy.get('body').contains('Featured blog posts')
   })
 
   describe('single post', () => {
     before(() => {
-      cy.visit('http://localhost:8080')
+      cy.visit('http://127.0.0.1:8080')
 
       cy.get('.featured-post').eq(0).click()
     })
@@ -29,7 +29,7 @@ context('Content', () => {
       cy.get('#carbonads-container')
     })
     it('visible twitter share button', () => {
-      cy.get('#twitter-widget-0')
+      cy.get('.twitter-share-button')
     })
   })
 })

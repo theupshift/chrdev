@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: page.njk
 title: About
 ---
 
@@ -19,8 +19,6 @@ Email me at crifei93 [@] gmail [.] com
     <img style="border-radius: 50%;" src="/assets/images/cf3.jpg"><br>@christian_fei
   </a>
 </div>
-
-And head over to my [GitHub Sponsors page](https://github.com/sponsors/christian-fei) to support me!
 
 # Writing code as a passion
 

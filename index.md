@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: page.njk
 title: Home
 ---
 
@@ -13,19 +13,6 @@ Reed some of my <a href="/posts">blog posts</a> and recommended <a href="/books"
 
 <div class="cf">
   <a href="/about">
-    <img style="border-radius: 50%;" src="/assets/images/cf3.jpg"><br>about me
+    <img style="border-radius: 50%;" src="/assets/images/cf3.jpg"/><br/>about me
   </a>
 </div>
-
-<h1 class="title tac">Featured blog posts</h1>
-
-<div class="flex ovh-s">
-{% for post in collections.featured %}
-  <a href="{{ post.url }}" class="tdn flex-item post-item featured-post" lazy="{{post.data.image}}">
-    <b class="post-title">{{ post.data.title | capitalize }}</b>
-    <time datetime="{{ post.data.date | date: '%Y-%m-%d' }}" class="post-date">{{ post.data.date | date: '%Y-%m-%d' }}</time>
-  </a>
-{% endfor %}
-</div>
-
-See <a href="/posts/">all {{ collections.posts.length }} blog posts</a> I wrote since 2012.

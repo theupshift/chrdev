@@ -1,7 +1,6 @@
----
-layout: layout.njk
----
+{% extends 'layout.njk' %}
 
+{% block content %}
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="title no-anchorify"><span>{{ title }}</span></h1>
@@ -40,9 +39,11 @@ layout: layout.njk
     </div>
   </header>
 
+  page.url{{page.url}}
+
   {% if page.url != '/' and page.url != '/about/' %}
   <p>
-    <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.inputPath }}">Edit this page on GitHub</a> - <small>{{page.url}}</small>
+    <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Edit this page on GitHub</a> - <small>{{page.url}}</small>
   </p>
   <hr>
   {% endif %}
@@ -58,3 +59,5 @@ layout: layout.njk
     <script src="{{ js }}"></script>
   {% endif %}
 </article>
+
+{% endblock %}

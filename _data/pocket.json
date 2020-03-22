@@ -1,6 +1,402 @@
 {
-  "lastSynced": "2020-02-25T19:19:55.207Z",
+  "lastSynced": "2020-03-22T13:11:45.792Z",
   "items": [
+    {
+      "id": "2923051078",
+      "title": "How much ‘normal’ risk does Covid represent?",
+      "url": "https://medium.com/wintoncentre/how-much-normal-risk-does-covid-represent-4539118e1196",
+      "date": "2020-03-22"
+    },
+    {
+      "id": "2923724360",
+      "title": "CQRS",
+      "url": "https://martinfowler.com/bliki/CQRS.html",
+      "date": "2020-03-22"
+    },
+    {
+      "id": "2820230584",
+      "title": "What’s it like to work remotely at Mozilla?",
+      "url": "https://blog.mozilla.org/careers/remote-mozilla",
+      "date": "2020-03-21"
+    },
+    {
+      "id": "2917904122",
+      "title": "Helping each other at Mozilla",
+      "url": "https://blog.mozilla.org/careers/working-from-home-at-mozilla",
+      "date": "2020-03-21"
+    },
+    {
+      "id": "2922074725",
+      "title": "2020 stock market crash",
+      "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash",
+      "date": "2020-03-21"
+    },
+    {
+      "id": "253523109",
+      "title": "How to Get Startup Ideas",
+      "url": "http://www.paulgraham.com/startupideas.html",
+      "date": "2020-03-18"
+    },
+    {
+      "id": "2918470086",
+      "title": "4.2″ and 7.5″ NFC-powered e-Paper Displays Work without Battery",
+      "url": "https://www.cnx-software.com/2020/03/17/nfc-powered-e-paper-displays-work-without-battery/",
+      "date": "2020-03-18"
+    },
+    {
+      "id": "2918862255",
+      "title": "Next Phase Montage",
+      "url": "https://blog.npmjs.org/post/612764866888007680/next-phase-montage",
+      "date": "2020-03-17"
+    },
+    {
+      "id": "2914832207",
+      "title": "Microsoft announces change to its board of directors",
+      "url": "https://www.prnewswire.com/news-releases/microsoft-announces-change-to-its-board-of-directors-301023293.html",
+      "date": "2020-03-16"
+    },
+    {
+      "id": "2914320577",
+      "title": "How Websites Evolved Back to Static HTML/CSS/JS Files",
+      "url": "https://paramaggarwal.substack.com/p/how-websites-evolved-back-to-static-html-css-js-files-57ce549f81db",
+      "date": "2020-03-15"
+    },
+    {
+      "id": "2914320651",
+      "title": "How (some) good corporate engineering blogs are written",
+      "url": "https://danluu.com/corp-eng-blogs/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav",
+      "date": "2020-03-15"
+    },
+    {
+      "id": "2914322658",
+      "title": "GitLab's Guide to All-Remote",
+      "url": "https://about.gitlab.com/company/culture/all-remote/guide/",
+      "date": "2020-03-15"
+    },
+    {
+      "id": "2915681073",
+      "title": "Do I really need package-lock.json file?",
+      "url": "https://medium.com/hackernoon/do-i-really-need-package-lock-json-file-321ce29e7d2c",
+      "date": "2020-03-14"
+    },
+    {
+      "id": "2915682125",
+      "title": "Organizing architectural katas",
+      "url": "https://nelis.boucke.be/post/architectural-katas/",
+      "date": "2020-03-14"
+    },
+    {
+      "id": "2911296664",
+      "title": "Ready for changes with Hexagonal Architecture",
+      "url": "https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749",
+      "date": "2020-03-13"
+    },
+    {
+      "id": "2912013653",
+      "title": "How (some) good corporate engineering blogs are written",
+      "url": "https://danluu.com/corp-eng-blogs/",
+      "date": "2020-03-12"
+    },
+    {
+      "id": "2912536015",
+      "title": "Square Brackets are the Enemy",
+      "url": "https://hueniverse.com/square-brackets-are-the-enemy-ff5b9fd8a3e8",
+      "date": "2020-03-12"
+    },
+    {
+      "id": "2912703641",
+      "title": "Coronavirus: Why You Must Act Now",
+      "url": "https://medium.com/@tomaspueyo/coronavirus-act-today-or-people-will-die-f4d3d9cd99ca",
+      "date": "2020-03-12"
+    },
+    {
+      "id": "2888835918",
+      "title": "The biggest mistakes I've made with Lunch Money (so far)",
+      "url": "https://lunchbag.ca/lunch-money-mistakes/",
+      "date": "2020-03-10"
+    },
+    {
+      "id": "2905936673",
+      "title": "Caffeine Boosts Problem-Solving Ability but Not Creativity, Study Indicates",
+      "url": "https://news.uark.edu/articles/52447",
+      "date": "2020-03-10"
+    },
+    {
+      "id": "2908799914",
+      "title": "Do whatever you can't stop thinking about",
+      "url": "https://shime.sh/do-whatever-you-can't-stop-thinking-about",
+      "date": "2020-03-10"
+    },
+    {
+      "id": "2910683058",
+      "title": "Express",
+      "url": "https://medium.com/s/silicon-satire/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558",
+      "date": "2020-03-10"
+    },
+    {
+      "id": "2911285722",
+      "title": "A thread written by @yongfook",
+      "url": "https://threader.app/thread/1237273441784356864",
+      "date": "2020-03-10"
+    },
+    {
+      "id": "2911462661",
+      "title": "The Problem with Accuracy",
+      "url": "https://medium.com/@nusco/the-problem-with-accuracy-3670891b908e",
+      "date": "2020-03-10"
+    },
+    {
+      "id": "2911464333",
+      "title": "Uber has resumed testing its self-driving cars in San Francisco",
+      "url": "https://www.theverge.com/2020/3/10/21172213/uber-self-driving-car-resume-testing-san-francisco-crash",
+      "date": "2020-03-10"
+    },
+    {
+      "id": "2909561448",
+      "title": "Caching best practices & max-age gotchas",
+      "url": "https://jakearchibald.com/2016/caching-best-practices",
+      "date": "2020-03-09"
+    },
+    {
+      "id": "2910090244",
+      "title": "A day is not 60*60*24 seconds long",
+      "url": "https://swizec.com/blog/a-day-is-not-606024-seconds-long/swizec/6755",
+      "date": "2020-03-09"
+    },
+    {
+      "id": "2910339560",
+      "title": "Modelling the CoVID-19 outbreak in Italy",
+      "url": "https://www.linkedin.com/pulse/modelling-covid-19-outbreak-italy-ettore-mariotti",
+      "date": "2020-03-09"
+    },
+    {
+      "id": "2908448185",
+      "title": "Not a 'math person'? You may be better at learning to code than you think",
+      "url": "https://phys.org/news/2020-03-math-person-code.html",
+      "date": "2020-03-08"
+    },
+    {
+      "id": "2908618932",
+      "title": "The WHO sent 25 international experts to China and here are their main findings after 9 days",
+      "url": "https://www.reddit.com/r/China_Flu/comments/fbt49e/the_who_sent_25_international_experts_to_china/",
+      "date": "2020-03-08"
+    },
+    {
+      "id": "2908619254",
+      "title": "Metriche Agili per “prevedere” il futuro",
+      "url": "http://www.mokabyte.it/2020/03/metrichefuturo-1/",
+      "date": "2020-03-08"
+    },
+    {
+      "id": "2909161052",
+      "title": "Slicing Functionality: Alternate Paths",
+      "url": "https://xp123.com/articles/slicing-functionality-alternate-paths/",
+      "date": "2020-03-08"
+    },
+    {
+      "id": "2906794321",
+      "title": "This Is What Happens When You Stop Talking About Yourself in Conversations",
+      "url": "https://psiloveyou.xyz/this-is-what-happens-when-you-stop-talking-about-yourself-in-conversations-62b4554f5714",
+      "date": "2020-03-06"
+    },
+    {
+      "id": "2907203402",
+      "title": "Sending Temperature and Humidity Data to the IOTA Tangle",
+      "url": "https://www.hackster.io/peterokwara/sending-temperature-and-humidity-data-to-the-iota-tangle-91671d",
+      "date": "2020-03-06"
+    },
+    {
+      "id": "2907225572",
+      "title": "Don’t Get Clever with Login Forms",
+      "url": "https://bradfrost.com/blog/post/dont-get-clever-with-login-forms/",
+      "date": "2020-03-06"
+    },
+    {
+      "id": "15192939",
+      "title": "Ramen Profitable",
+      "url": "http://www.paulgraham.com/ramenprofitable.html",
+      "date": "2020-03-05"
+    },
+    {
+      "id": "2802874795",
+      "title": "ASU CSE 466",
+      "url": "https://www.pwn.college/",
+      "date": "2020-03-05"
+    },
+    {
+      "id": "2893350566",
+      "title": "How to opt out of human review of your voice assistant recordings",
+      "url": "https://foundation.mozilla.org/en/campaigns/how-opt-out-human-review-your-voice-assistant-recordings/",
+      "date": "2020-03-05"
+    },
+    {
+      "id": "2899368349",
+      "title": "How to Write Usefully",
+      "url": "http://www.paulgraham.com/useful.html",
+      "date": "2020-03-05"
+    },
+    {
+      "id": "2903357485",
+      "title": "Download affected certificate serials for 2019.02.29 CAA Rechecking Incident",
+      "url": "https://letsencrypt.org/caaproblem/",
+      "date": "2020-03-05"
+    },
+    {
+      "id": "2905516209",
+      "title": "Being ‘Indistractable’ Will Be the Skill of the Future",
+      "url": "https://onezero.medium.com/being-indistractable-will-be-the-skill-of-the-future-a07780cf36f4",
+      "date": "2020-03-05"
+    },
+    {
+      "id": "2906017003",
+      "title": "JavaScript Start-up Performance",
+      "url": "https://medium.com/reloading/javascript-start-up-performance-69200f43b201",
+      "date": "2020-03-05"
+    },
+    {
+      "id": "2906312801",
+      "title": "Enjoy The Extra Day Off! More Bosses Give 4-Day Workweek A Try",
+      "url": "https://www.npr.org/2020/02/21/807133509/enjoy-the-extra-day-off-more-bosses-give-4-day-workweek-a-try",
+      "date": "2020-03-05"
+    },
+    {
+      "id": "2871955925",
+      "title": "The cup-of-coffee pricing fallacy",
+      "url": "https://blog.gingerlime.com/2020/the-cup-of-coffee-pricing-fallacy/",
+      "date": "2020-03-04"
+    },
+    {
+      "id": "2903109699",
+      "title": "Simple Systems Have Less Downtime",
+      "url": "https://www.gkogan.co/blog/simple-systems/",
+      "date": "2020-03-04"
+    },
+    {
+      "id": "143125311",
+      "title": "Streetlight effect",
+      "url": "https://en.wikipedia.org/wiki/Streetlight_effect",
+      "date": "2020-03-03"
+    },
+    {
+      "id": "2885820502",
+      "title": "Lessons from the ancient philosophers to help improve our lives today",
+      "url": "https://www.theguardian.com/lifeandstyle/2020/feb/15/lessons-from-the-ancient-philosophers-to-help-improve-our-lives-today",
+      "date": "2020-03-03"
+    },
+    {
+      "id": "2902880871",
+      "title": "- Miguel de Icaza",
+      "url": "https://tirania.org/blog/archive/2020/Mar-02.html",
+      "date": "2020-03-03"
+    },
+    {
+      "id": "2903711126",
+      "title": "How My 10-Year-Old Learned Javascript",
+      "url": "https://medium.com/hackernoon/how-my-10-year-old-learned-javascript-d8782b586db7",
+      "date": "2020-03-03"
+    },
+    {
+      "id": "2903901528",
+      "title": "Hacking an Audi: performing a man-in-the-middle attack on FlexRay",
+      "url": "https://medium.com/@comma_ai/hacking-an-audi-performing-a-man-in-the-middle-attack-on-flexray-2710b1d29f3f",
+      "date": "2020-03-03"
+    },
+    {
+      "id": "2902187855",
+      "title": "Fast and maintainable patterns for fetching from a database",
+      "url": "https://sophiebits.com/2020/01/01/fast-maintainable-db-patterns.html",
+      "date": "2020-03-02"
+    },
+    {
+      "id": "2902632491",
+      "title": "4 tips to begin to work remotely",
+      "url": "https://medium.com/flowingis/4-tips-to-begin-to-work-remotely-61a5e4126e9e",
+      "date": "2020-03-02"
+    },
+    {
+      "id": "2902640209",
+      "title": "Starting with JS generators",
+      "url": "https://medium.com/life-in-belka/starting-with-js-generators-ebb6f69ea6b5",
+      "date": "2020-03-02"
+    },
+    {
+      "id": "2901562361",
+      "title": "No more spy pixels",
+      "url": "https://pjrvs.com/spy",
+      "date": "2020-03-01"
+    },
+    {
+      "id": "513991531",
+      "title": "Churn Rate",
+      "url": "https://www.investopedia.com/terms/c/churnrate.asp",
+      "date": "2020-02-29"
+    },
+    {
+      "id": "75754721",
+      "title": "XyProblem : Greg's Wiki",
+      "url": "https://mywiki.wooledge.org/XyProblem",
+      "date": "2020-02-27"
+    },
+    {
+      "id": "668801270",
+      "title": "The XY Problem",
+      "url": "http://xyproblem.info/",
+      "date": "2020-02-27"
+    },
+    {
+      "id": "2035302863",
+      "title": "XY problem",
+      "url": "https://en.wikipedia.org/wiki/XY_problem",
+      "date": "2020-02-27"
+    },
+    {
+      "id": "2365997985",
+      "title": "Alphanumeric Sender IDs For Improved Authentication and User Verification Security",
+      "url": "https://www.twilio.com/blog/authmsg",
+      "date": "2020-02-27"
+    },
+    {
+      "id": "2895499893",
+      "title": "A Tool for Choosing a Tech Stack",
+      "url": "https://avdi.codes/a-tool-for-choosing-a-tech-stack/",
+      "date": "2020-02-27"
+    },
+    {
+      "id": "2897894079",
+      "title": "Power to the People",
+      "url": "https://blog.jessfraz.com/post/power-to-the-people/",
+      "date": "2020-02-27"
+    },
+    {
+      "id": "2898067657",
+      "title": "Firefox continues push to bring DNS over HTTPS by default for US users",
+      "url": "https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users",
+      "date": "2020-02-27"
+    },
+    {
+      "id": "2898135838",
+      "title": "The principles of taking legacy projects from below zero to superhero 🦸🏼‍♂️ (from a management perspective)",
+      "url": "https://medium.com/@adamgensh/the-principles-of-taking-legacy-projects-from-below-zero-to-superhero-%EF%B8%8F-73f2dda31bc8",
+      "date": "2020-02-27"
+    },
+    {
+      "id": "2898508458",
+      "title": "Call a JavaScript function with an explicit this",
+      "url": "https://delicious-insights.com/en/posts/call-and-apply-in-javascript/",
+      "date": "2020-02-27"
+    },
+    {
+      "id": "2897143356",
+      "title": "Swinging the Vote?",
+      "url": "https://themarkup.org/google-the-giant/2020/02/26/wheres-my-email",
+      "date": "2020-02-26"
+    },
+    {
+      "id": "2897420508",
+      "title": "Wealth Tips for Founders",
+      "url": "https://dcgross.com/financial-advice-for-founders/",
+      "date": "2020-02-26"
+    },
     {
       "id": "2896002497",
       "title": "GraphQL Batching Attack",
@@ -11,6 +407,18 @@
       "id": "2896340257",
       "title": "Firefox continues push to bring DNS over HTTPS by default for US users",
       "url": "https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users",
+      "date": "2020-02-25"
+    },
+    {
+      "id": "2896463067",
+      "title": "Tesla ignored safety board’s Autopilot recommendations, chairman says",
+      "url": "https://www.theverge.com/2020/2/25/21152984/tesla-autopilot-safety-recommendations-ignored-ntsb-crash-hearing",
+      "date": "2020-02-25"
+    },
+    {
+      "id": "2896541252",
+      "title": "Powering productivity in the workplace",
+      "url": "https://slackhq.com/powering-productivity-workplace",
       "date": "2020-02-25"
     },
     {

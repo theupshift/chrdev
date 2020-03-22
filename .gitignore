@@ -1,8 +1,4 @@
 _site
 node_modules
-package-lock.json
-.vscode/
-secrets
 cypress/screenshots/
-cypress/videos/
-package-lock.json
+scripts/secrets

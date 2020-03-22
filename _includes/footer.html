@@ -5,7 +5,7 @@
 
     {% if page.url != '/' and page.url != '/about/' %}
     <p>
-      <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.inputPath }}">Edit this page on GitHub</a> - <small>{{page.url}}</small>
+      <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Edit this page on GitHub</a> - <small>{{page.url}}</small>
     </p>
     {% endif %}
 
