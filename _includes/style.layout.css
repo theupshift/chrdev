@@ -63,6 +63,7 @@ main article header .ads-container {
   float: right;
   margin: 0 auto;
 }
+
 @media all and (min-width: 85em) {
   main article header {
     position: fixed;
@@ -76,6 +77,14 @@ main article header .ads-container {
   }
   .info-container {
     float: none !important;
+  }
+  main article header .tweet-container {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+  }
+  main article header .tweet-container a {
+    padding: 0.75em;
   }
 }
 

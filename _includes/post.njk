@@ -18,17 +18,25 @@ layout: layout.njk
         @ <b>{{ page.date.toISOString().substring(0, 10) }}</b>
       </p>
 
-      <p class="main-content">{{ content | words }} words, {{ content | readingTime }} reading time</p>
+      <p class="main-content">
+        {{ content | words }} words
+        <br>
+        {{ content | readingTime }} reading time
+      </p>
 
-      <p class="no-share tags">
+      <div class="">
+        Similar articles by tag
+        <br>
+        <p class="no-share tags">
         {%- for tag in tags | tags -%}
           <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
         {%- endfor -%}
-      </p>
+        </p>
+      </div>
 
-      <p>
+      <div class="tweet-container">
         {% include 'tweet-this.html' %}
-      </p>
+      </div>
     </div>
   </header>
 
