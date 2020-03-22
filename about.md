@@ -3,6 +3,8 @@ layout: page.njk
 title: About
 ---
 
+{% block content %}
+
 <!-- <h1 class="title no-anchorify"><span>about</span></h1> -->
 <div>
 
@@ -85,3 +87,4 @@ When I was doing **Ruby** I felt on top of the world
 As a classic, **Java**, but I prefer to stay away from it
 
 </div>
+{% endblock %}

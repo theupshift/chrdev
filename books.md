@@ -4,6 +4,7 @@ title: Recommended books
 ---
 
 {% block content %}
+
 <h3 class="no-mt">Recommended books</h3>
 
 <div reversed class="flex flex-wrap">
