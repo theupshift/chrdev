@@ -8,6 +8,7 @@ const [commitLong, date, ...commitDescription] = require('child_process').execSy
 const commit = commitLong.replace(/^commit /, '').substring(0, 7)
 
 module.exports = {
+  ignoredFiles: ['secrets', 'secrets.example', 'scripts/*'],
   collections: {
     books: require('./_data/books.json'),
     pocketItems: require('./_data/pocket.json').items,
