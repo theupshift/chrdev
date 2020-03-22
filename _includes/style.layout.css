@@ -180,3 +180,37 @@ main article header .ads-container {
     top: 3em;
   }
 }
+
+.contributions-grid > div {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0;
+  margin: 1px;
+  padding: 0;
+  color: #333;
+  /* border-radius: 50%; */
+  text-align: center;
+  position: relative;
+  float: right;
+}
+.contributions-grid > div::before {
+  display: none;
+  /* display: block; */
+  content: '';
+  height: 2em;
+  width: 8em;
+  font-size: 0.7em;
+}
+.contributions-grid > div:hover {
+  background-color: #fe1 !important;
+}
+.contributions-grid > div:hover::before {
+  position: absolute;
+  display: block;
+  top: -2em;
+  content: attr(data-date);
+  background-color: #333;
+  color: white;
+  padding: 0.25em 0.5em;
+}

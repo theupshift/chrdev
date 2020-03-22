@@ -1,0 +1,6 @@
+#!/bin/sh
+
+curl https://github-contributions-api.now.sh/v1/christian-fei --silent > _data/raw-contributions.json
+cat _data/raw-contributions.json | jq ".years" > _data/years.json
+cat _data/raw-contributions.json | jq ".contributions" > _data/contributions.json
+

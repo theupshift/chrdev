@@ -11,6 +11,8 @@ module.exports = {
   ignoredFiles: ['secrets', 'secrets.example', 'scripts/*'],
   collections: {
     books: require('./_data/books.json'),
+    contributionsByDay: require('./_data/contributions.json'),
+    contributionsByYear: require('./_data/years.json'),
     pocketItems: require('./_data/pocket.json').items,
   },
 
