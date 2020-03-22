@@ -6,6 +6,7 @@ body > header, body > footer, body > main { max-width: 40em; margin: 0 auto; pad
 .contain { max-width: 40em; margin: 0 auto; }
 
 body > header { position: sticky; left: 0; right: 0; top: 0; z-index: 9000; background: white; }
+#footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 
 img { max-width: 100%; }
 video { max-width: 100%; }
@@ -58,7 +59,25 @@ main article header {
   overflow: hidden;
   background: #f3f3f3;
 }
-#footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
+main article header .ads-container {
+  float: right;
+  margin: 0 auto;
+}
+@media all and (min-width: 83em) {
+  main article header {
+    position: fixed;
+    left: 1em;
+    top: 7em;
+    width: 20em;
+    background: transparent;
+  }
+  .ads-container {
+    float: none !important;
+  }
+  .info-container {
+    float: none !important;
+  }
+}
 
 .pad { padding: 1em; }
 .pad-half { padding: 0.5em; }

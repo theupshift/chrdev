@@ -7,29 +7,29 @@ layout: layout.njk
   <h1 class="title no-anchorify"><span>{{ title }}</span></h1>
   <header class="pad1">
     {% if page.url != '/' and page.url != '/about/' %}
-        <div style="float: right">
-          {% include 'carbonads.html' %}
-        </div>
+      <div class="ads-container">{% include 'carbonads.html' %}</div>
     {% endif %}
 
-    <p>
-      by <a target="_blank" href="https://twitter.com/christian_fei">Christian Fei</a>
-      <span class="only-mobile">
-      &nbsp;<br></span>
-      @ <b>{{ page.date.toISOString().substring(0, 10) }}</b>
-    </p>
+    <div class="info-container">
+      <p>
+        by <a target="_blank" href="https://twitter.com/christian_fei">Christian Fei</a>
+        <span class="only-mobile">
+        &nbsp;<br></span>
+        @ <b>{{ page.date.toISOString().substring(0, 10) }}</b>
+      </p>
 
-    <p class="main-content">{{ content | words }} words, {{ content | readingTime }} reading time</p>
+      <p class="main-content">{{ content | words }} words, {{ content | readingTime }} reading time</p>
 
-    <p class="no-share tags">
-      {%- for tag in tags | tags -%}
-        <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
-      {%- endfor -%}
-    </p>
+      <p class="no-share tags">
+        {%- for tag in tags | tags -%}
+          <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
+        {%- endfor -%}
+      </p>
 
-    <p>
-      {% include 'tweet-this.html' %}
-    </p>
+      <p>
+        {% include 'tweet-this.html' %}
+      </p>
+    </div>
   </header>
 
   {% if page.url != '/' and page.url != '/about/' %}
