@@ -163,9 +163,6 @@ main article header .ads-container {
 }
 
 
-a.bmc-button {
-  /* display: none !important; */
-}
 @media all and (min-width: 60em) {
   a.bmc-button {
     display: block !important;
