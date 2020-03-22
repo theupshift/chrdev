@@ -63,11 +63,11 @@ main article header .ads-container {
   float: right;
   margin: 0 auto;
 }
-@media all and (min-width: 83em) {
+@media all and (min-width: 85em) {
   main article header {
     position: fixed;
-    left: 1em;
-    top: 7em;
+    right: 2em;
+    top: 10em;
     width: 20em;
     background: transparent;
   }
@@ -170,7 +170,7 @@ a.bmc-button {
   a.bmc-button {
     display: block !important;
     position: fixed;
-    right: 1em;
+    right: 3em;
     top: 3em;
   }
 }
