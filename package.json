@@ -4,7 +4,7 @@
   "description": "",
   "main": ".devblog.js",
   "dependencies": {
-    "devblog": "^2.5.3"
+    "devblog": "^2.6.1"
   },
   "devDependencies": {
     "clean-css": "^4.2.3"
