@@ -32,7 +32,10 @@ blockquote {
 .post-item:nth-child(2n) { background: ghostwhite; }
 /* .post-link { width: 85%; display: block; } */
 .post-date { position: absolute; right: 0; }
-@media all and (max-width: 60em) { .post-date { display: none; } }
+@media all and (max-width: 60em) {
+  .post-date { display: none; }
+  .post-item { padding-right: 0; }
+}
 
 
 
