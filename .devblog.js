@@ -1,5 +1,6 @@
 const CleanCSS = require("clean-css")
-const [commitLong, date, ...commitDescription] = require('child_process').execSync(`git log -1 --no-color`)
+const [commitLong, date, ...commitDescription] = require('child_process')
+  .execSync(`git log -1 --no-color`)
   .toString()
   .split('\n')
   .filter(Boolean)
@@ -9,6 +10,7 @@ const commit = commitLong.replace(/^commit /, '').substring(0, 7)
 
 module.exports = {
   ignoredFiles: ['secrets', 'secrets.example', 'scripts/*'],
+
   collections: {
     books: require('./_data/books.json'),
     contributionsByDay: require('./_data/contributions.json'),
@@ -76,9 +78,8 @@ module.exports = {
     name: 'isoday',
     filter: (date) => {
       try {
-        return date.toISOString().substring(0, 10)
+        return new Date(date).toISOString().substring(0, 10)
       } catch (err) {
-        return date
         return JSON.stringify(date || {})
       }
     }
