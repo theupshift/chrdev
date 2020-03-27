@@ -12,7 +12,11 @@ tags:
 image: https://images.unsplash.com/photo-1532802245604-c567f1acd48e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 
-Learn how to [get started with browserless in a few easy steps](/posts/2020-03-08-Ultimate-web-scraping-with-browserless,-puppeteer-and-Node.js/)!
+
+<div class="alert">
+Learn how to <a href="/posts/2020-03-08-Ultimate-web-scraping-with-browserless,-puppeteer-and-Node.js/">get started with browserless in a few easy steps</a>!
+</div>
+
 
 ## Source code to follow along
 

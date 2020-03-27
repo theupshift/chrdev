@@ -6,6 +6,7 @@ body > header, body > footer, body > main { max-width: 60em; margin: 0 auto; pad
 .contain { max-width: 60em; margin: 0 auto; }
 
 body > header { position: sticky; left: 0; right: 0; top: 0; z-index: 9000; background: white; }
+body > main { margin-top: 2em; }
 #footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 
 img { max-width: 100%; }
@@ -54,18 +55,26 @@ blockquote {
 .tag:first-of-type { padding-left: 0em; }
 
 
-body > main.post {
-  display: grid;
-  grid-template-columns: 14em auto;
-  grid-column-gap: 1em;
-  grid-template-areas: "sidebar main";
-  max-width: 60em;
+
+@media all and (min-width: 80em) {
+  body > main.post {
+    display: grid;
+    grid-template-columns: 12em auto;
+    grid-column-gap: 1em;
+    grid-template-areas: "sidebar main";
+    max-width: 60em;
+  }
+  body > main.post article {
+    grid-area: main;
+  }
+  body > main.post aside {
+    grid-area: sidebar;
+  }
 }
-body > main.post article {
-  grid-area: main;
-}
+
 body > main.post aside {
-  grid-area: sidebar;
+  font-size: 0.8rem;
+  padding: 0.6em;
 }
 
 

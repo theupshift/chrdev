@@ -1,6 +1,6 @@
 
 /* typography */
-html, body { font-size: 20px; font-weight: 400; line-height: 1.45; }
+html, body { font-size: 22px; font-weight: 400; line-height: 1.45; }
 @media all and (max-width: 40em) { html, body { font-size: 16px; } }
 html, body { font-family: Menlo, 'Courier New', Courier, Inconsolata, monospace; }
 html, body { font-family: Arial, Helvetica, sans-serif; }

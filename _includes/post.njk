@@ -2,14 +2,51 @@
 
 {% block content %}
 
+<aside>
+  {% include 'carbonads.html' %}
+
+  <div class="no-mobile">
+    <br/>
+
+    {% include 'tweet-this.html' %}
+
+    {% include "buy-me-a-coffee.html" %}
+
+    {% if tags.length > 0 %}
+      <div class="no-mobile">
+        <br>
+        Browse tags
+        <br>
+        <ol class="unstyled-list">
+        {%- for tag in tags | tags -%}
+          <li>
+            <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
+          </li>
+        {%- endfor -%}
+        </ol>
+      </div>
+    {% endif %}
+  </div>
+</aside>
+
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="title no-anchorify"><span>{{ title }}</span></h1>
-  {% if page.url != '/' and page.url != '/about/' %}
-  <p>
-    <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Edit this page on GitHub</a> - <small>{{page.url}}</small>
-  </p>
+
   <hr>
-  {% endif %}
+
+  <p class="no-mobile">
+    <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Found a typo? Edit this page on GitHub</a>
+  </p>
+
+  <p>
+    <b>{{ page.data.date | isoday }}</b>
+  </p>
+
+  <p>
+    {{ content | words }} words - {{ content | readingTime }} 🕜
+  </p>
+
+  <hr>
 
   <div class="main-content">{{ content | safe }}</div>
 
@@ -22,43 +59,5 @@
     <script src="{{ js }}"></script>
   {% endif %}
 </article>
-<aside>
-  {% if page.url != '/' and page.url != '/about/' %}
-    <div class="ads-container">{% include 'carbonads.html' %}</div>
-  {% endif %}
-
-  <div class="info-container">
-    <p>
-      <b>{{ page.data.date | isoday }}</b>
-    </p>
-
-    <p class="main-content">
-      {{ content | words }} words
-      <br>
-      {{ content | readingTime }} reading time
-    </p>
-
-    <div class="">
-      Related articles by tag
-      <br>
-      <p class="no-share tags">
-      <ol class="unstyled-list">
-      {%- for tag in tags | tags -%}
-        <li>
-          <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
-        </li>
-      {%- endfor -%}
-      </ol>
-      </p>
-    </div>
-
-    <div class="tweet-container">
-      {% include 'tweet-this.html' %}
-    </div>
-
-    {% include "buy-me-a-coffee.html" %}
-  </div>
-</aside>
-
 
 {% endblock %}
