@@ -28,7 +28,7 @@ If you wish to set tracking information for this branch you can do so with:
 
 run `git fetch --all` to update the references to remote branches.
 
-then `git branch --all` to see all local and remote branches.
+then `git branch --all` to see all local and [remote branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches).
 
 e.g.:
 
