@@ -65,8 +65,14 @@ a.twitter-share-button {
 
 
 article img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
-main article .title { margin: 0; }
-main article .title span { background-color: #fe1; line-height: 1.3; font-size: 1.2em; }
+main article .title {
+  margin: 0;
+  font-size: 2.4em;
+}
+main article .title span {
+  background-color: #fe1;
+  line-height: 1.5;
+}
 
 @media all and (max-width: 40em) {
   main article .title span { font-size: 1.1em; }

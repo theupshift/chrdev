@@ -2,8 +2,8 @@
 *, *::after, *::before { box-sizing: border-box; }
 html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
 
-body > header, body > footer, body > main { max-width: 60em; margin: 0 auto; padding: 0.5em; }
-.contain { max-width: 60em; margin: 0 auto; }
+body > header, body > footer, body > main { max-width: 50em; margin: 0 auto; padding: 0.5em; }
+.contain { max-width: 50em; margin: 0 auto; }
 
 body > header { position: sticky; left: 0; right: 0; top: 0; z-index: 9000; background: white; }
 body > main { margin-top: 2em; }
@@ -32,7 +32,7 @@ blockquote {
 .post-item:nth-child(2n) { background: ghostwhite; }
 /* .post-link { width: 85%; display: block; } */
 .post-date { position: absolute; right: 0; }
-@media all and (max-width: 60em) {
+@media all and (max-width: 50em) {
   .post-date { display: none; }
   .post-item { padding-right: 0; }
 }
@@ -59,16 +59,23 @@ blockquote {
 
 
 body > main.post article {
-  max-width: 45em;
+  max-width: 40em;
+}
+body > main.post article header {
+  font-size:  0.8rem;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-@media all and (min-width: 80em) {
+@media all and (min-width: 70em) {
   body > main.post {
     display: grid;
-    grid-template-columns: 12em auto;
-    grid-column-gap: 1em;
+    grid-template-columns: 9em auto;
+    grid-column-gap: 0.5em;
     grid-template-areas: "sidebar main";
-    max-width: 60em;
+    max-width: 50em;
   }
   body > main.post article {
     grid-area: main;
@@ -158,10 +165,10 @@ body > main.post aside {
 .book:nth-child(8) { background: mintcream; }
 .book:nth-child(9) { background: snow; }
 
-@media all and (max-width: 60em) {
+@media all and (max-width: 50em) {
   .no-mobile { display: none; }
 }
-@media all and (min-width: 60em) {
+@media all and (min-width: 50em) {
   .only-mobile { display: none; }
 }
 

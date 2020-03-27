@@ -5,48 +5,42 @@
 <aside>
   {% include 'carbonads.html' %}
 
-  <div class="no-mobile">
+  <div class="no-mobile tac">
     <br/>
 
     {% include 'tweet-this.html' %}
 
-    {% include "buy-me-a-coffee.html" %}
+    <br/>
+    <br/>
 
-    {% if tags.length > 0 %}
-      <div class="no-mobile">
-        <br>
-        Browse tags
-        <br>
-        <ol class="unstyled-list">
-        {%- for tag in tags | tags -%}
-          <li>
-            <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
-          </li>
-        {%- endfor -%}
-        </ol>
-      </div>
-    {% endif %}
+    {% include "buy-me-a-coffee.html" %}
   </div>
 </aside>
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="title no-anchorify"><span>{{ title }}</span></h1>
 
-  <hr>
+  <header>
+    <p class="no-mobile">
+      <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Found a typo? Edit this page on GitHub</a>
+    </p>
 
-  <p class="no-mobile">
-    <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Found a typo? Edit this page on GitHub</a>
-  </p>
+    <p>
+      <b>{{ page.data.date | isoday }}</b>
+    </p>
 
-  <p>
-    <b>{{ page.data.date | isoday }}</b>
-  </p>
+    <p>
+      {{ content | words }} words - {{ content | readingTime }} 🕜
+    </p>
 
-  <p>
-    {{ content | words }} words - {{ content | readingTime }} 🕜
-  </p>
-
-  <hr>
+    {% if (page.data.tags | prepareTags).length > 0 %}
+      <p class="no-mobile">
+        Browse tags: {%- for tag in page.data.tags | prepareTags -%}
+          <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
+        {%- endfor -%}
+      </p>
+    {% endif %}
+  </header>
 
   <div class="main-content">{{ content | safe }}</div>
 
