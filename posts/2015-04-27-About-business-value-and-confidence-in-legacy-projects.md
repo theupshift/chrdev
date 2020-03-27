@@ -5,7 +5,6 @@ layout: post.njk
 tags:
   - post
   - general
-  - featured
 ---
 
 Recently I got the *opportunity* to work in a legacy, and wanted to share what I learned about gaining confidence and still deliver business value.

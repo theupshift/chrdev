@@ -7,7 +7,7 @@ tags:
   - general
   - featured
   - javascript
-bg_image: https://pomodoro.cc/pomodoro.cc.png
+image: /assets/images/posts/pomodoro.cc.png
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey <a href="https://t.co/zZprrZ7UDA">https://t.co/zZprrZ7UDA</a> users, we are glad to announce a more usable and sustainable version of pomodoro.cc!</p>&mdash; Pomodoro.cc (@pomodoro_cc) <a href="https://twitter.com/pomodoro_cc/status/921782740764282880?ref_src=twsrc%5Etfw">October 21, 2017</a></blockquote>

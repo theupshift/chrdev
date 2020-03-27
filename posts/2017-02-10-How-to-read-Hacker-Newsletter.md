@@ -5,7 +5,6 @@ layout: post.njk
 tags:
   - post
   - general
-  - featured
 ---
 
 Today, at the issue date of #338 of Hacker Newsletter, I tried:

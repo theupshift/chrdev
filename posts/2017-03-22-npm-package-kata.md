@@ -7,7 +7,6 @@ tags:
   - javascript
   - nodejs
   - testing
-  - featured
   - javascript
 ---
 

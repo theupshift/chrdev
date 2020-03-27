@@ -98,25 +98,28 @@ main article header .ads-container {
 .alert { background: #fe1; padding: 1em 1em; }
 
 .featured-post {
-  min-width: 320px;
-  height: 180px;
+  min-width: 400px;
+  height: 250px;
   background-size: cover !important;
   text-align: center;
   position: relative;
   transition: all 0.3s ease;
   padding: 0.5em;
+  /* margin-left: 1em;
+  margin-right: 1em; */
   display: block;
   background-position: center;
   border-bottom: 10px solid white;
 }
 .featured-post:hover {
   border-bottom: 10px solid #fe1;
+  transform: scale(1.02);
 }
 .featured-post .post-title {
   text-decoration: none !important;
   background-color: white;
-  padding: 0.2em;
-  margin-top: 1em;
+  padding: 0.3em;
+  margin-top: 2em;
 }
 .featured-post .post-date {
   position: absolute;

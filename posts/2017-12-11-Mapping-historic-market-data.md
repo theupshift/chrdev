@@ -8,7 +8,7 @@ tags:
   - blockchain
   - javascript
   - tutorial
-bg_image: /assets/images/posts/market-data.png
+image: /assets/images/posts/market-data.png
 ---
 
 

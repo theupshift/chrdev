@@ -6,7 +6,7 @@ tags:
   - post
   - general
   - featured
-bg_image: /assets/images/posts/fork_count.png
+image: /assets/images/posts/fork_count.png
 ---
 
 I want to talk a little bit about my `dotfiles`.

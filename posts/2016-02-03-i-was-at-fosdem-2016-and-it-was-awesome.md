@@ -5,8 +5,6 @@ layout: post.njk
 tags:
   - post
   - general
-  - featured
-has_images: true
 ---
 
 I had a blast at this year's [FOSDEM](https://fosdem.org/2016/).
