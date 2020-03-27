@@ -62,7 +62,7 @@ body > main.post article {
   max-width: 40em;
 }
 body > main.post article header {
-  font-size:  0.8rem;
+  font-size:  0.6rem;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
   margin-top: 1em;

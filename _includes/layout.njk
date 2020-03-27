@@ -50,21 +50,21 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     {% set style %}
-      {% include "style.typography.css" %}
-      {% include "style.layout.css" %}
-      {% include "style.search.css" %}
+      {% include "css/style.typography.css" %}
+      {% include "css/style.layout.css" %}
+      {% include "css/style.search.css" %}
     {% endset %}
     <style>{{ style | cssmin | safe }}</style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/themes/prism.min.css">
 
     {% if page.url != '/' and page.url != '/about/' %}
       {% set carbonads %}
-        {% include "carbonads.css" %}
+        {% include "css/carbonads.css" %}
       {% endset %}
       <style>{{ carbonads | cssmin | safe }}</style>
     {% endif %}
 
-    {% include "google-analytics.html" %}
+    {% include "snippets/google-analytics.html" %}
     <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
   </head>
   <body>
