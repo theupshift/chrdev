@@ -4,41 +4,6 @@
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="title no-anchorify"><span>{{ title }}</span></h1>
-  <header class="pad1">
-    {% if page.url != '/' and page.url != '/about/' %}
-      <div class="ads-container">{% include 'carbonads.html' %}</div>
-    {% endif %}
-
-    <div class="info-container">
-      <p>
-        by <a target="_blank" href="https://twitter.com/christian_fei">Christian Fei</a>
-        <span class="only-mobile">
-        &nbsp;<br></span>
-        @ <b>{{ page.data.date | isoday }}</b>
-      </p>
-
-      <p class="main-content">
-        {{ content | words }} words
-        <br>
-        {{ content | readingTime }} reading time
-      </p>
-
-      <div class="">
-        Related articles by tag
-        <br>
-        <p class="no-share tags">
-        {%- for tag in tags | tags -%}
-          <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
-        {%- endfor -%}
-        </p>
-      </div>
-
-      <div class="tweet-container">
-        {% include 'tweet-this.html' %}
-      </div>
-    </div>
-  </header>
-
   {% if page.url != '/' and page.url != '/about/' %}
   <p>
     <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Edit this page on GitHub</a> - <small>{{page.url}}</small>
@@ -57,5 +22,43 @@
     <script src="{{ js }}"></script>
   {% endif %}
 </article>
+<aside>
+  {% if page.url != '/' and page.url != '/about/' %}
+    <div class="ads-container">{% include 'carbonads.html' %}</div>
+  {% endif %}
+
+  <div class="info-container">
+    <p>
+      <b>{{ page.data.date | isoday }}</b>
+    </p>
+
+    <p class="main-content">
+      {{ content | words }} words
+      <br>
+      {{ content | readingTime }} reading time
+    </p>
+
+    <div class="">
+      Related articles by tag
+      <br>
+      <p class="no-share tags">
+      <ol class="unstyled-list">
+      {%- for tag in tags | tags -%}
+        <li>
+          <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
+        </li>
+      {%- endfor -%}
+      </ol>
+      </p>
+    </div>
+
+    <div class="tweet-container">
+      {% include 'tweet-this.html' %}
+    </div>
+
+    {% include "buy-me-a-coffee.html" %}
+  </div>
+</aside>
+
 
 {% endblock %}

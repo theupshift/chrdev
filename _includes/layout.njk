@@ -70,11 +70,16 @@
   <body>
     {% include "header.html" %}
 
+    {# <pre>{{page | json}}</pre> #}
+
+    {% if page.data.tags and page.data.tags.includes('post') %}
+    <main class="post">
+    {% else %}
     <main>
+    {% endif %}
+
       {% block content %}{% endblock %}
     </main>
-
-    {% include "buy-me-a-coffee.html" %}
 
     {% include "featured.html" %}
 

@@ -2,8 +2,8 @@
 *, *::after, *::before { box-sizing: border-box; }
 html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
 
-body > header, body > footer, body > main { max-width: 40em; margin: 0 auto; padding: 0.5em; }
-.contain { max-width: 40em; margin: 0 auto; }
+body > header, body > footer, body > main { max-width: 60em; margin: 0 auto; padding: 0.5em; }
+.contain { max-width: 60em; margin: 0 auto; }
 
 body > header { position: sticky; left: 0; right: 0; top: 0; z-index: 9000; background: white; }
 #footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
@@ -53,47 +53,26 @@ blockquote {
 .tag { padding: 0.2em 0.5em; opacity: 0.7; }
 .tag:first-of-type { padding-left: 0em; }
 
-main article header {
-  padding: 1em;
-  font-size: 0.8em;
-  overflow: hidden;
-  background: #f3f3f3;
+
+body > main.post {
+  display: grid;
+  grid-template-columns: 14em auto;
+  grid-column-gap: 1em;
+  grid-template-areas: "sidebar main";
+  max-width: 60em;
 }
-main article header .ads-container {
-  float: right;
-  margin: 0 auto;
+body > main.post article {
+  grid-area: main;
+}
+body > main.post aside {
+  grid-area: sidebar;
 }
 
-@media all and (min-width: 85em) {
-  main article header {
-    position: fixed;
-    right: 2em;
-    top: 10em;
-    width: 20em;
-    background: transparent;
-  }
-  .ads-container {
-    float: none !important;
-  }
-  .info-container {
-    float: none !important;
-  }
-  main article header .tweet-container {
-    font-size: 1.5em;
-    text-align: center;
-    margin: 0 auto;
-  }
-  main article header .tweet-container a {
-    padding: 0.75em;
-  }
-}
+
 
 .pad { padding: 1em; }
 .pad-half { padding: 0.5em; }
 .pad-v { padding-top: 2em; padding-bottom: 2em; }
-
-
-
 
 .alert { background: #fe1; padding: 1em 1em; }
 
@@ -105,8 +84,6 @@ main article header .ads-container {
   position: relative;
   transition: all 0.3s ease;
   padding: 0.5em;
-  /* margin-left: 1em;
-  margin-right: 1em; */
   display: block;
   background-position: center;
   border-bottom: 10px solid white;
@@ -130,7 +107,6 @@ main article header .ads-container {
 
 .featured-post:hover {
   background-color: white;;
-  /* transform: scale(1.05); */
   background-position: top;
   z-index: 9000;
 }
@@ -167,21 +143,11 @@ main article header .ads-container {
 .book:nth-child(8) { background: mintcream; }
 .book:nth-child(9) { background: snow; }
 
-@media all and (max-width: 40em) {
+@media all and (max-width: 60em) {
   .no-mobile { display: none; }
 }
-@media all and (min-width: 40em) {
-  .only-mobile { display: none; }
-}
-
-
 @media all and (min-width: 60em) {
-  a.bmc-button {
-    display: block !important;
-    position: fixed;
-    right: 3em;
-    top: 3em;
-  }
+  .only-mobile { display: none; }
 }
 
 .contributions-grid > div {

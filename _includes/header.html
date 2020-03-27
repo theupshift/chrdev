@@ -1,19 +1,15 @@
 <header id="header">
   <div class="flex">
-    <a href="/" class="flex-item flex-02 nav-link" style="margin-left: -0.5em;">
-      <!-- <span class="light" style="vertical-align: super;">/</span> -->
+    <a href="/" class="flex-item flex-02 nav-link" style="margin-left: -0.5em; min-width: 15.5em;">
       {% include 'me-base64.html' %}
     </a>
     <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/posts') %} active {% endif %}" href="/posts">
-      <!-- <span class="light">/</span> -->
       posts
     </a>
     <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/books') %} active {% endif %}" href="/books">
-      <!-- <span class="light">/</span> -->
       <span class="no-mobile">📖</span> books
     </a>
     <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about">
-      <!-- <span class="light">/</span> -->
       about
     </a>
     <a class="flex-item flex-02 nav-link tac" target="_blank" href="https://twitter.com/christian_fei">
@@ -24,11 +20,3 @@
     </a>
   </div>
 </header>
-
-<br>
-
-<!--
-<div class="tac alert">
-    <strong>agile developer, clean code connoisseur, testing aficionado</strong>
-  </div>
--->
