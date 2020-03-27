@@ -71,7 +71,7 @@ module.exports = {
       try {
         return new Date(date).toISOString().substring(0, 10)
       } catch (err) {
-        return JSON.stringify(date || {})
+        return date
       }
     }
   }, {
@@ -80,8 +80,8 @@ module.exports = {
       try {
         return new Date(date).toISOString().substring(0, 10)
       } catch (err) {
-        return JSON.stringify(date || {})
-      }
+        return date
+b      }
     }
 	}],
 }
