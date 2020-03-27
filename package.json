@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": ".devblog.js",
-  "dependencies": {
-    "devblog": "^2.6.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "clean-css": "^4.2.3"
+    "devblog": "^2.6.2",
+    "clean-css": "^4.2.3",
+    "http-server": "^0.12.1"
   },
   "scripts": {
     "test": "npx cypress run",
     "build": "devblog",
     "purge": "./scripts/purge",
     "deploy": "./scripts/deploy",
-    "start": "npx http-server _site 8080"
+    "start": "http-server _site 8080"
   },
   "repository": {
     "type": "git",
