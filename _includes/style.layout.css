@@ -55,6 +55,9 @@ blockquote {
 .tag:first-of-type { padding-left: 0em; }
 
 
+body > main.post article {
+  max-width: 45em;
+}
 
 @media all and (min-width: 80em) {
   body > main.post {
