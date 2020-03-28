@@ -4,6 +4,7 @@ title: Posts
 ---
 
 {% block content %}
+
 <ol reversed class="searchable">
 {% for post in collections.post | reverse %}
   <li class="post-item">

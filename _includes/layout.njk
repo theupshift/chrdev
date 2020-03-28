@@ -72,6 +72,10 @@
 
     {# <pre>{{page | json}}</pre> #}
 
+    {% if page.url === '/posts/' %}
+      {% include "snippets/featured.html" %}
+    {% endif %}
+
     {% if page.data.tags and page.data.tags.includes('post') %}
     <main class="post">
     {% else %}
