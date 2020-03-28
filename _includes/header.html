@@ -7,16 +7,16 @@
       posts
     </a>
     <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/books') %} active {% endif %}" href="/books">
-      <span class="no-mobile">📖</span> books
+      books<span class="no-mobile">&nbsp;📖</span>
     </a>
     <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about">
       about
     </a>
+    <a class="flex-item flex-02 nav-link tac" href="/contributions/">
+      {% include 'img/github.html' %}
+    </a>
     <a class="flex-item flex-02 nav-link tac" target="_blank" href="https://twitter.com/christian_fei">
       {% include 'img/twitter.html' %}
-    </a>
-    <a class="flex-item flex-02 nav-link tac" target="_blank" href="https://github.com/christian-fei">
-      {% include 'img/github.html' %}
     </a>
   </div>
 </header>

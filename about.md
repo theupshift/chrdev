@@ -12,15 +12,15 @@ Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
 Email me at crifei93 [@] gmail [.] com
 
+You can **support me** through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
+
+See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
+
 <div class="cf">
   <a href="https://twitter.com/christian_fei">
     <img style="border-radius: 50%;" src="/assets/images/cf3.jpg"><br>@christian_fei
   </a>
 </div>
-
-You can **support me** through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
-
-See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
 
 # Writing code as a passion
 
