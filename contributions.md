@@ -38,9 +38,4 @@ Check out my [GitHub Profile 🤖](https://github.com/christian-fei)
   {% endfor %}
 </div>
 
-<script type="text/javascript">
-const first = document.querySelector('[data-count]:not([data-count^="0"])')
-first && first.scrollIntoView({ behaviour: 'smooth', block: 'start', inline: 'nearest' })
-</script>
-
 {% endblock %}
