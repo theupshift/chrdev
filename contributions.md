@@ -14,11 +14,11 @@ window.contributionsByYear = {{collections.contributionsByYear | reverse | json 
 
 <h3 class="no-mt">Open Source Contributions<br/><small><i>on <a href="https://github.com/christian-fei">GitHub</a></i></small></h3>
 
-You can support me through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
+You can **support me** through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
 
 
 <div class="flex flex-wrap">
-  <div class="flex-item flex-05" style="width: 400px; height: 400px">
+  <div class="flex-item flex-05" style="width: 400px; height: 300px">
     <canvas id="yearsChart"></canvas>
   </div>
 
@@ -34,7 +34,7 @@ Check out my [GitHub Profile 🤖](https://github.com/christian-fei)
 
 <div  class="contributions-grid">
   {% for contribution in collections.contributionsByDay %}
-    <div style="background-color: {{ contribution.color }}" data-date="{{ contribution.date }}">{{ contribution.count }}</div>
+    <div style="background-color: {{ contribution.color }}" data-count="{{ contribution.count }}" data-date="{{ contribution.date }}">{{ contribution.count }}</div>
   {% endfor %}
 </div>
 

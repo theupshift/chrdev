@@ -19,7 +19,7 @@ Reed some of my <a href="/posts">blog posts 📝</a> and <a href="/books">recomm
   </a>
 </div>
 
-You can support me through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
+You can **support me** through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
 
 See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
 

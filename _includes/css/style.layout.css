@@ -174,6 +174,9 @@ body > main.post aside {
 
 .contributions-grid {
   overflow: hidden;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  user-select: none;
 }
 .contributions-grid > div {
   display: inline-block;
@@ -188,6 +191,11 @@ body > main.post aside {
   position: relative;
   float: right;
 }
+.contributions-grid > div[data-count="0"] {
+  /* width: 0.1em; */
+  color: transparent;
+}
+
 .contributions-grid > div::before {
   display: none;
   /* display: block; */
@@ -202,7 +210,8 @@ body > main.post aside {
 .contributions-grid > div:hover::before {
   position: absolute;
   display: block;
-  top: -2em;
+  bottom: -2em;
+  z-index: 9000;
   content: attr(data-date);
   background-color: #333;
   color: white;
