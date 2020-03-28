@@ -39,7 +39,7 @@ function makeSearchable ($searchable) {
         $searchable.prepend($noMatch)
       }
     } else {
-      if ($noMatch) $searchable.removeChild($noMatch)
+      $noMatch && $noMatch.parentElement && $noMatch.parentElement.removeChild($noMatch)
     }
 
     $searchableItems.forEach(function ($postLi) {
