@@ -12,7 +12,8 @@ js:
 window.contributionsByYear = {{collections.contributionsByYear | reverse | json | safe}}
 </script>
 
-<h3 class="no-mt">Contributions on GitHub</h3>
+<h3 class="no-mt">Open Source Contributions<br/><small><i>on <a href="https://github.com/christian-fei">GitHub</a></i></small></h3>
+
 
 <div class="flex flex-wrap">
   <div class="flex-item flex-05" style="width: 400px; height: 400px">
