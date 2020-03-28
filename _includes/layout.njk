@@ -8,7 +8,6 @@
     <link rel="apple-touch-icon" href="/assets/images/cf3.jpg">
     <meta name="apple-mobile-web-app-title" content="christian fei">
 
-
     {% if page.url == '/' %}
       <meta name="description" content="A blog about agile, programming, clean code, testing, javascript">
     {% else %}
@@ -52,6 +51,9 @@
     {% set style %}
       {% include "css/style.typography.css" %}
       {% include "css/style.layout.css" %}
+      {% include "css/style.articles.css" %}
+      {% include "css/style.featured.css" %}
+      {% include "css/style.books.css" %}
       {% include "css/style.search.css" %}
     {% endset %}
     <style>{{ style | cssmin | safe }}</style>
