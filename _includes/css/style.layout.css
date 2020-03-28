@@ -173,7 +173,6 @@ body > main.post aside {
 }
 
 .contributions-grid {
-  overflow: hidden;
   margin-bottom: 2em;
   padding-bottom: 2em;
   user-select: none;
