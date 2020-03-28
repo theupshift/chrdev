@@ -13,7 +13,11 @@ module.exports = {
 
   collections: {
     books: require('./_data/books.json'),
-    contributionsByDay: require('./_data/contributions.json'),
+    contributionsByDay: require('./_data/contributions.json').reduce((acc,curr) => {
+      if (!acc.firstNotEmptySeen && curr.count > 0) acc.firstNotEmptySeen = true
+      if (acc.firstNotEmptySeen) acc.contributions.push(curr)
+      return acc
+    }, { contributions: [], firstNotEmptySeen: false }).contributions,
     contributionsByYear: require('./_data/years.json'),
     pocketItems: require('./_data/pocket.json').items,
   },

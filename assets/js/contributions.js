@@ -21,12 +21,3 @@
 
   console.log(yearsChart)
 })(window.contributionsByYear)
-
-document.addEventListener('DOMContentLoaded', function () {
-  console.log('DOMContentLoaded')
-  try {
-    const first = document.querySelector('[data-count]:not([data-count^="0"])')
-    first && first.scrollIntoView()
-    document.body.scrollIntoView()
-  } catch (err) { console.error(err) }
-})
