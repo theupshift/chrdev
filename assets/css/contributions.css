@@ -1,0 +1,48 @@
+.contributions-grid {
+  padding: 2.5em;
+  margin: 0 auto;
+  user-select: none;
+  max-height: 400px;
+  max-width: 80%;
+  overflow-y: scroll;
+}
+.contributions-grid > div {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0;
+  margin: 1px;
+  padding: 0;
+  color: #333;
+  /* border-radius: 50%; */
+  text-align: center;
+  position: relative;
+  float: right;
+}
+.contributions-grid > div[data-count="0"] {
+  /* width: 0.1em; */
+  color: transparent;
+}
+
+.contributions-grid > div::before {
+  display: none;
+  /* display: block; */
+  content: '';
+  height: 2em;
+  width: 8em;
+  font-size: 0.7em;
+}
+.contributions-grid > div:hover {
+  background-color: #fe1 !important;
+}
+.contributions-grid > div:hover::before {
+  position: absolute;
+  display: block;
+  bottom: -2em;
+  left: -90%;
+  z-index: 9000;
+  content: attr(data-date);
+  background-color: #333;
+  color: white;
+  padding: 0.25em 0.5em;
+}
