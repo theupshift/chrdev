@@ -40,7 +40,7 @@ Check out my [GitHub Profile 🤖](https://github.com/christian-fei)
 
 <script type="text/javascript">
 const first = document.querySelector('[data-count]:not([data-count^="0"])')
-first && first.scrollIntoView()
+first && first.scrollIntoView({ behaviour: 'smooth', block: 'start', inline: 'nearest' })
 </script>
 
 {% endblock %}
