@@ -18,9 +18,9 @@ Email me at crifei93 [@] gmail [.] com
   </a>
 </div>
 
-Head over to my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei) if you want to support me
+You can support me through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
 
-See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years!
+See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
 
 # Writing code as a passion
 
@@ -57,7 +57,7 @@ Right now I am probably **writing code** for
 - [justchart](https://github.com/christian-fei/justchart) - display any json as a chart
 - [open-weather-map-cli](https://github.com/christian-fei/open-weather-map-cli) - CLI for weather
 
-You can support me on [GitHub Sponsors](https://github.com/sponsors/christian-fei)!
+You can support me on [GitHub Sponsors](https://github.com/sponsors/christian-fei)
 
 ---
 

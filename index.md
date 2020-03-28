@@ -19,8 +19,8 @@ Reed some of my <a href="/posts">blog posts 📝</a> and <a href="/books">recomm
   </a>
 </div>
 
-Head over to my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei) if you want to support me
+You can support me through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
 
-See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years!
+See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
 
 {% endblock %}
