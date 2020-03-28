@@ -7,7 +7,7 @@ title: Posts
 
 Below you can skim through articles I wrote over the years.
 
-You'll find all kinds things from crypto, node.js, testing, tutorials, thoughts and more.
+node.js, crypto, testing, tutorials, thoughts and more.
 
 <ol reversed class="searchable">
 {% for post in collections.post | reverse %}
