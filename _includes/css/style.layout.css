@@ -172,6 +172,9 @@ body > main.post aside {
   .only-mobile { display: none; }
 }
 
+.contributions-grid {
+  overflow: hidden;
+}
 .contributions-grid > div {
   display: inline-block;
   width: 1.5em;

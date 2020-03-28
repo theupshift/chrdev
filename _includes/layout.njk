@@ -90,6 +90,11 @@
     {% include "footer.html" %}
 
     <script type="text/javascript">{% include "main.js" %}</script>
+    {% if page.data.js %}
+      {% for script in page.data.js %}
+        <script src="{{ script }}"></script>
+      {% endfor %}
+    {% endif %}
 
     {% if page.url !== '/' %}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/prism.min.js"></script>

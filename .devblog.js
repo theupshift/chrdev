@@ -55,6 +55,11 @@ module.exports = {
     name: 'encode',
     filter: (content) => encodeURIComponent(content || '')
   }, {
+    name: 'decode',
+    filter: (str) => {
+      return decodeURIComponent(str)
+    }
+  }, {
     name: 'json',
     filter: (obj) => {
       try {
