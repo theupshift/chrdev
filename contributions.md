@@ -32,10 +32,15 @@ You can **support me** through my [GitHub Sponsor page ✌️](https://github.co
 Check out my [GitHub Profile 🤖](https://github.com/christian-fei)
 
 
-<div  class="contributions-grid">
+<div class="contributions-grid">
   {% for contribution in collections.contributionsByDay %}
     <div style="background-color: {{ contribution.color }}" data-count="{{ contribution.count }}" data-date="{{ contribution.date }}">{{ contribution.count }}</div>
   {% endfor %}
 </div>
+
+<script type="text/javascript">
+const first = document.querySelector('[data-count]:not([data-count^="0"])')
+first && first.scrollIntoView()
+</script>
 
 {% endblock %}

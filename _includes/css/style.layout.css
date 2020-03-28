@@ -177,6 +177,8 @@ body > main.post aside {
   margin-bottom: 2em;
   padding-bottom: 2em;
   user-select: none;
+  max-height: 400px;
+  overflow-y: scroll;
 }
 .contributions-grid > div {
   display: inline-block;
