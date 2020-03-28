@@ -1,8 +1,8 @@
 ;(function (data) {
   try {
     const first = document.querySelector('[data-count]:not([data-count^="0"])')
-    first && first.scrollIntoView({ block: 'start', inline: 'nearest' })
-    document.body.scrollIntoView({ block: 'start', inline: 'nearest' })
+    first && first.scrollIntoView()
+    document.body.scrollIntoView()
   } catch (err) { console.error(err) }
 
   if (!Array.isArray(data)) {
