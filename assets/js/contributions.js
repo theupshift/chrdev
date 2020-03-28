@@ -1,7 +1,9 @@
 ;(function (data) {
-  const first = document.querySelector('[data-count]:not([data-count^="0"])')
-  first && first.scrollIntoView({ block: 'start', inline: 'nearest' })
-  document.body.scrollIntoView({ block: 'start', inline: 'nearest' })
+  try {
+    const first = document.querySelector('[data-count]:not([data-count^="0"])')
+    first && first.scrollIntoView({ block: 'start', inline: 'nearest' })
+    document.body.scrollIntoView({ block: 'start', inline: 'nearest' })
+  } catch (err) { console.error(err) }
 
   if (!Array.isArray(data)) {
     return console.info('invalid data to draw contributions', data)
