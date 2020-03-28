@@ -3,12 +3,12 @@
 {% block content %}
 
 <aside>
-  {% include 'carbonads.html' %}
+  {% include 'snippets/carbonads.html' %}
 
   <div class="no-mobile tac">
     <br/>
 
-    {% include 'tweet-this.html' %}
+    {% include 'snippets/tweet-this.html' %}
 
     <br/>
     <br/>
@@ -32,14 +32,6 @@
     <p>
       {{ content | words }} words - {{ content | readingTime }} 🕜
     </p>
-
-    {% if (page.data.tags | prepareTags).length > 0 %}
-      <p class="no-mobile">
-        Browse tags: {%- for tag in page.data.tags | prepareTags -%}
-          <a class="tag subtle" href="/tags/{{ tag }}"><span>#{{ tag }}</span></a>&nbsp;
-        {%- endfor -%}
-      </p>
-    {% endif %}
   </header>
 
   <div class="main-content">{{ content | safe }}</div>
@@ -47,7 +39,7 @@
 
   <h2>FEEDBACK <a href="https://twitter.com/christian_fei">@christian_fei</a></h2>
 
-  {% include 'tweet-this-big.html' %}
+  {% include 'snippets/tweet-this-big.html' %}
 
   {% if js %}
     <script src="{{ js }}"></script>
