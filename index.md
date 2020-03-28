@@ -11,11 +11,16 @@ title: Home
 You can <a href="https://twitter.com/christian_fei" target="_blank">
 {% include 'img/twitter.html' %} follow me on twitter</a> and read a bit more <a href="/about">about me</a>
 
-Reed some of my <a href="/posts">blog posts</a> and <a href="/books">recommended books</a>
+Reed some of my <a href="/posts">blog posts 📝</a> and <a href="/books">recommended books 📖</a>
 
 <div class="cf">
   <a href="/about">
     <img style="border-radius: 50%;" src="/assets/images/cf3.jpg"/><br/>about me
   </a>
 </div>
+
+Head over to my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei) if you want to support me
+
+See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years!
+
 {% endblock %}

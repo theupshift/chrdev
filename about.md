@@ -4,10 +4,6 @@ title: About
 ---
 
 {% block content %}
-
-<!-- <h1 class="title no-anchorify"><span>about</span></h1> -->
-<div>
-
 I am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
 
 Italian, german & english speaking
@@ -22,9 +18,9 @@ Email me at crifei93 [@] gmail [.] com
   </a>
 </div>
 
-Head over to my [GitHub Sponsor page](https://github.com/sponsors/christian-fei)!
+Head over to my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei) if you want to support me
 
-See a visualization of my [GitHub contributions](/contributions) over the years!
+See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years!
 
 # Writing code as a passion
 
@@ -89,6 +85,4 @@ Had a chance to dabble with **Python** in the context of python notebooks when I
 When I was doing **Ruby** I felt on top of the world
 
 As a classic, **Java**, but I prefer to stay away from it
-
-</div>
 {% endblock %}
