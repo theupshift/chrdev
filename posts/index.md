@@ -5,9 +5,12 @@ title: Posts
 
 {% block content %}
 
-Below you can skim through articles I wrote over the years.
-
+<p class="alert">
+Below you can skim through <b>articles</b> I wrote over the years.
+<br/>
+<br/>
 node.js, crypto, testing, tutorials, thoughts and more.
+</p>
 
 <div class="posts flex flex-wrap searchable">
 {% for post in collections.post | reverse %}
