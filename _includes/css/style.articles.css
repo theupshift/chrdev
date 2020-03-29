@@ -1,8 +1,10 @@
 .posts {
   flex-wrap: wrap;
   flex-direction: row;
+  scroll-snap-type: x mandatory;
 }
 .post-item {
+  scroll-snap-align: center;
   position: relative;
   padding: 0.7em 0;
   overflow: hidden;
