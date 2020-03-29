@@ -39,7 +39,7 @@ I try to stay up to date with what people are coming up with, thus I read a lot,
 
 ## OSS Projects
 
-Coding all kinds of tech fields that bring value to me, read IoT, Crypto, Bots, Apps, CLI utilities, Automation of all kinds.
+Coding in all kinds of tech fields that bring value to me, read IoT, Crypto, Bots, Apps, CLI utilities, Automation of all kinds.
 
 My most recent project is [mega-scraper](https://github.com/christian-fei/mega-scraper): it aims to be a simple website scraping tool with proxy support, request blocking and various optimizations.
 
