@@ -21,33 +21,35 @@ function makeSearchable ($searchable) {
   $searchable.parentNode.insertBefore($search, $searchable)
   $search.focus()
 
-  let $noMatch = document.getElementById('no-match')
+  const $noMatch = document.getElementById('no-match')
 
   function handleSearchKeyUp (e) {
     const searchTerm = e.target.value
     const searchRegExp = new RegExp(searchTerm.replace(' ', '.*'), 'i')
-    const $searchableItems = [...($searchable.querySelectorAll('li') || [])]
-    $searchableItems.length = 200
+    const $searchableItems = [...($searchable.querySelectorAll('a,li,div') || [])]
+    if ($searchableItems.length > 200) $searchableItems.length = 200
     const postTitles = $searchableItems.map($el => $el.innerText)
     const noMatch = postTitles.filter(t => searchRegExp.test(t)).length === 0
 
-    if (noMatch) {
-      if (!$noMatch) {
-        $noMatch = document.createElement('div')
-        $noMatch.setAttribute('id', 'no-match')
-        $noMatch.innerText = 'No matches'
-        $searchable.prepend($noMatch)
-      }
-    } else {
-      $noMatch && $noMatch.parentElement && $noMatch.parentElement.removeChild($noMatch)
-    }
+    console.log({ postTitles })
+
+    // if (noMatch) {
+    //   if (!$noMatch) {
+    //     $noMatch = document.createElement('div')
+    //     $noMatch.setAttribute('id', 'no-match')
+    //     // $noMatch.innerText = 'No matches'
+    //     $searchable.prepend($noMatch)
+    //   }
+    // } else {
+    //   $noMatch && $noMatch.parentElement && $noMatch.parentElement.removeChild($noMatch)
+    // }
 
     $searchableItems.forEach(function ($postLi) {
       const show = noMatch || !searchTerm || searchRegExp.test($postLi.innerText)
       if (!show) {
         $postLi.style.display = 'none'
       } else {
-        $postLi.style.display = 'list-item'
+        $postLi.style.display = 'block'
       }
     })
   }

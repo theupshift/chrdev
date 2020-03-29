@@ -1,7 +1,34 @@
-/* list of articles */
-.post-item { position: relative; padding: 0.7em 0; padding-right: 7em; min-height: 4em; }
-.post-item:nth-child(2n) { background: ghostwhite; }
-.post-date { position: absolute; right: 0; }
+.posts {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.post-item {
+  position: relative;
+  padding: 0.7em 0;
+  overflow: hidden;
+  background-size: cover;
+  background-color: #fff;
+  text-decoration: none;
+  box-shadow: 0 12px 49px 20px rgba(34,56,101,.1);
+  border-radius: .5em;
+  transition: all .3s ease;
+}
+.post-item:hover {
+  background-size: cover;
+  background-color: inherit;
+  transform: scale(1.02) rotateZ(-2deg);
+}
+.post-item {
+  height: 12em;
+  min-width: 20em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.post-item .excerpt {
+  overflow: scroll;
+  max-height: 7em;
+  font-size: 0.8em;
+}
 @media all and (max-width: 50em) {
   .post-date { display: none; }
   .post-item { padding-right: 0; }
@@ -10,7 +37,6 @@
 
 
 
-/* single article */
 body > main.post article { max-width: 40em; }
 body > main.post article header {
   font-size:  0.6rem;

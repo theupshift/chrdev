@@ -51,7 +51,11 @@ module.exports = {
     }
   }, {
     name: 'excerpt',
-    filter: (content) => (content || '').substring(0, 500).replace(/<\/?[^>]+(>|$)/g, "")
+    filter: (content) => (content || '')
+      .split('.')
+      .filter((_, i) => i < 2)
+      .join(' ')
+      .replace(/<\/?[^>]+(>|$)/g, "")
   }, {
     name: 'twitterTitle',
     filter: (title) => `"${encodeURIComponent(title || '')}", by @christian_fei`
