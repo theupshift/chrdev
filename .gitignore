@@ -4,3 +4,4 @@ cypress/screenshots/
 scripts/secrets
 scripts/secrets
 secrets
+.python-version
