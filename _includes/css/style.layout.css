@@ -77,3 +77,7 @@ blockquote {
   .only-mobile { display: none; }
 }
 
+
+.avatar-image {
+  max-width: 300px;
+}
