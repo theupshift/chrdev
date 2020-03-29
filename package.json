@@ -14,6 +14,7 @@
     "build": "devblog",
     "purge": "./scripts/purge",
     "deploy": "./scripts/deploy",
+    "deploy-with-assets": "./scripts/deploy.with-assets",
     "start": "http-server _site 8080"
   },
   "repository": {
