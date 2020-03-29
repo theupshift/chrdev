@@ -15,7 +15,7 @@ node.js, crypto, testing, tutorials, thoughts and more.
     <time datetime="{{ post.data.date | isoday }}" class="post-date bg-white">{{ post.data.date | isoday }}</time>
     <span class="post-link bg-white">{{ post.data.title | capitalize }}</span>
     <p class="excerpt">
-      <small class="bg-white">{{ post.md | safe | striptags | excerpt }}</small>
+      <small class="bg-white">{{ post.md | safe | striptags | excerpt }}...</small>
     </p>
   </a>
 {% endfor %}
