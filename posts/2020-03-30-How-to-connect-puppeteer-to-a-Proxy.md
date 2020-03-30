@@ -13,7 +13,7 @@ image: https://images.unsplash.com/photo-1526666361175-e3595627c376?ixlib=rb-1.2
 
 In a [previous post](/posts/2020-03-30-How-to-solve-Puppeteer-Chrome-Error-ERR_INVALID_ARGUMENT/) I tried to explain how to troubleshoot an issue when connecting to a Proxy with Puppeteer investigating **API documentations** , **Chromium flags** and all that funny jazz..
 
-This is the succint version of how to use a Proxy with Puppeteer.
+**This is the succint version of how to use a Proxy with Puppeteer.**
 
 ## using `get-free-https-proxy`
 
