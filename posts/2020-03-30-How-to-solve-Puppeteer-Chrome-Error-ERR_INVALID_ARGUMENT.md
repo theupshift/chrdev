@@ -112,7 +112,7 @@ await page.authenticate({ username, password })
 Here you go:
 
 - a browser instance connected to a proxy
-- a browser page that authenticated to the proxy
+- a browser page (that authenticated to the proxy with username and password if needed)
   - using [`get-free-https-proxy`](https://www.npmjs.com/package/get-free-https-proxy)
 - show the current IP to verify the proxy is effectively used
   - using [ipinfo.io](https://ipinfo.io)
