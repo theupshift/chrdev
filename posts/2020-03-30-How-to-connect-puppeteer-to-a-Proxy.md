@@ -7,6 +7,7 @@ tags:
   - tutorial
   - puppeteer
   - javascript
+  - featured
 image: https://images.unsplash.com/photo-1526666361175-e3595627c376?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 
@@ -52,6 +53,50 @@ const getFreeProxies = require('get-free-https-proxy')
   process.exit(0)
 })()
 ```
+
+## using `mega-scraper`
+
+[mega-scraper](https://github.com/christian-fei/mega-scraper) is a OSS tool built to save some time while scraping any webpage. can be used as a **cli and a node.js module**, **based on puppeteer of course**.
+
+install via `npm i mega-scraper`.
+
+Use in the following way to simply create a browser instance with configured proxy.
+
+By default, a free random proxy is used, scraped from `sslproxies.org` (using [`get-free-https-proxy`](https://www.npmjs.com/package/get-free-https-proxy)).
+
+You can supply your own Proxy address by passing it as an option in the format **host:port**:
+
+```js
+const {browser: {createBrowser}} = require('mega-scraper')
+
+;(async () => {
+  const browser = await createBrowser({
+    proxy: true, // or `YOUR_PROXY_IP:YOUR_PROXY_PASSWORD`,
+    // more options!!
+    // incognito: true,
+    // headless: true,
+    // cookie: '',
+    // stylesheets: false,
+    // images: false,
+    // slowMo: true,
+    // userAgent: ''
+    ...
+  })
+  const page = await browser.newPage()
+
+  await page.goto('https://ipinfo.io/json')
+  const content = await page.content()
+  const serialized = content.substring(content.indexOf('{'), content.indexOf('}') + 1)
+
+  console.log(JSON.parse(serialized))
+
+  await page.waitFor(5000)
+  await page.close()
+  await browser.close()
+
+  process.exit(0)
+```
+
 
 ## Authenticating to a Proxy with Puppeteer
 
