@@ -4,6 +4,9 @@ date: 2020-03-30
 layout: post.njk
 tags:
   - post
+  - tutorial
+  - puppeteer
+  - javascript
 ---
 
 I was encountering this error when trying to set up a puppeteer instance with a proxy.
