@@ -56,7 +56,7 @@ const getFreeProxies = require('get-free-https-proxy')
 
 ## using `mega-scraper`
 
-[mega-scraper](https://github.com/christian-fei/mega-scraper) is a OSS tool built to save some time while scraping any webpage. can be used as a **cli and a node.js module**, **based on puppeteer of course**.
+[mega-scraper](https://github.com/christian-fei/mega-scraper) is a OSS node.js library built to save some time while scraping any webpage. can be used as a **cli and a node.js module with a clean API**, **based on puppeteer of course**.
 
 install via `npm i mega-scraper`.
 
