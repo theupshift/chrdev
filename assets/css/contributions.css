@@ -19,10 +19,7 @@
   position: relative;
   float: right;
 }
-.contributions-grid > div[data-count="0"] {
-  /* width: 0.1em; */
-  color: transparent;
-}
+.contributions-grid > div[data-count="0"] { color: transparent; }
 
 .contributions-grid > div::before {
   display: none;

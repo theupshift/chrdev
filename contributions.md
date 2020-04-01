@@ -37,6 +37,10 @@ Check out my [GitHub Profile 🤖](https://github.com/christian-fei)
 <div class="contributions-grid">
   {% for contribution in collections.contributionsByDay %}
     <div style="background-color: {{ contribution.color }}" data-count="{{ contribution.count }}" data-date="{{ contribution.date }}">{{ contribution.count }}</div>
+    {% if contribution.date.match('-01$') %}
+      <br>
+      <h2>{{ contribution.date.substring(0, 7)}}</h2>
+    {% endif %}
   {% endfor %}
 </div>
 
