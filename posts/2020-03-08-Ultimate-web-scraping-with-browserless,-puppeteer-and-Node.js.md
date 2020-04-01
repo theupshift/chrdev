@@ -96,6 +96,13 @@ An example video:
 
 ---
 
-### [Pssst: learn how to crawl any website with puppeteer and browserless](/posts/2020-03-09-Crawling-a-web-site-with-browserless,-puppeteer-and-Node.js/)!
 
-Read more about [puppeteer](/tags/puppeteer) and [browserless](/tags/browserless)
+<div class="alert">
+  <a href="/posts/2020-03-09-Crawling-a-web-site-with-browserless,-puppeteer-and-Node.js/">
+  Pssst: learn how to crawl any website with puppeteer and browserless
+  </a>
+  <br>
+  <br>
+  Read more about <a href="/tags/puppeteer">puppeteer</a> and <a href="/tags/browserless">browserless</a>
+</div>
+
