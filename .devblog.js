@@ -94,7 +94,7 @@ module.exports = {
         return new Date(date).toISOString().substring(0, 10)
       } catch (err) {
         return date
-b      }
+      }
     }
 	}],
 }
