@@ -1,6 +1,126 @@
 {
-  "lastSynced": "2020-03-22T13:11:45.792Z",
+  "lastSynced": "2020-04-01T23:36:49.548Z",
   "items": [
+    {
+      "id": "2930997171",
+      "title": "Signaling as a Service",
+      "url": "https://julian.digital/2020/03/28/signaling-as-a-service/",
+      "date": "2020-04-01"
+    },
+    {
+      "id": "2934528381",
+      "title": "A thread written by @c1truz_",
+      "url": "https://threader.app/thread/1244737672930824193",
+      "date": "2020-03-31"
+    },
+    {
+      "id": "2932543115",
+      "title": "A thread written by @jackbutcher",
+      "url": "https://threader.app/thread/1244408869176201223",
+      "date": "2020-03-30"
+    },
+    {
+      "id": "2933070296",
+      "title": "Introducing Dark Mode (beta) for Stack Overflow",
+      "url": "https://stackoverflow.blog/2020/03/30/introducing-dark-mode-for-stack-overflow/",
+      "date": "2020-03-30"
+    },
+    {
+      "id": "2930741174",
+      "title": "Amy Edmondson on the power of psychological safety in distributed work",
+      "url": "https://blog.dropbox.com/topics/work-culture/amy-edmondson-on-the-power-of-psychological-safety-in-distribute",
+      "date": "2020-03-29"
+    },
+    {
+      "id": "2931060600",
+      "title": "Developers don't need ping-pong tables",
+      "url": "https://sizovs.net/2020/03/26/developers-dont-need-ping-pong-tables/",
+      "date": "2020-03-29"
+    },
+    {
+      "id": "2931957648",
+      "title": "Can Amazon handle the coronavirus pressure?",
+      "url": "https://www.protocol.com/amazon-delivery-coronavirus-high-demand",
+      "date": "2020-03-29"
+    },
+    {
+      "id": "2932059702",
+      "title": "The coronavirus crisis is exposing how the economy was not strong as it seemed",
+      "url": "https://www.washingtonpost.com/business/2020/03/28/recession-economy-coronavirus/",
+      "date": "2020-03-29"
+    },
+    {
+      "id": "2932066058",
+      "title": "Five compliments to overcome one criticism: discover the negativity bias",
+      "url": "https://recruiters.welcometothejungle.com/en/articles/negativity-bias/",
+      "date": "2020-03-29"
+    },
+    {
+      "id": "1897337500",
+      "title": "Silk Road: Theory & Practice",
+      "url": "https://www.gwern.net/Silk-Road",
+      "date": "2020-03-28"
+    },
+    {
+      "id": "2925521085",
+      "title": "The Time Is Now: The Supreme Court Must Allow Live Cameras",
+      "url": "https://www.eff.org/deeplinks/2020/03/time-now-supreme-court-must-allow-live-cameras-0",
+      "date": "2020-03-28"
+    },
+    {
+      "id": "2929805404",
+      "title": "Zoom needs to clean up its privacy act",
+      "url": "https://blogs.harvard.edu/doc/2020/03/27/zoom/",
+      "date": "2020-03-28"
+    },
+    {
+      "id": "2893785488",
+      "title": "A thread written by @Yannick_Veys",
+      "url": "https://threader.app/thread/1216805725231558658",
+      "date": "2020-03-27"
+    },
+    {
+      "id": "2928614422",
+      "title": "Apple just killed Offline Web Apps while purporting to protect your privacy: why that’s A Bad Thing and why you should care",
+      "url": "https://ar.al/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-thats-a-bad-thing-and-why-you-should-care/",
+      "date": "2020-03-26"
+    },
+    {
+      "id": "2928953834",
+      "title": "When Is Anonymous Not ReallyAnonymous?",
+      "url": "https://themarkup.org/ask-the-markup/2020/03/24/when-is-anonymous-not-really-anonymous",
+      "date": "2020-03-26"
+    },
+    {
+      "id": "2920308672",
+      "title": "Volunteers produce 3D-printed valves for life-saving coronavirus treatments",
+      "url": "https://www.theverge.com/2020/3/17/21184308/coronavirus-italy-medical-3d-print-valves-treatments",
+      "date": "2020-03-25"
+    },
+    {
+      "id": "2921487117",
+      "title": "What You Should Know About Online Tools During the COVID-19 Crisis",
+      "url": "https://www.eff.org/deeplinks/2020/03/what-you-should-know-about-online-tools-during-covid-19-crisis",
+      "date": "2020-03-25"
+    },
+    {
+      "id": "2922334419",
+      "title": "Using Zoom? Here are the privacy issues you need to be aware of",
+      "url": "https://protonmail.com/blog/zoom-privacy-issues/",
+      "date": "2020-03-25"
+    },
+    {
+      "id": "2926015753",
+      "title": "I Got My File From Clearview AI, and It Freaked Me Out",
+      "url": "https://onezero.medium.com/i-got-my-file-from-clearview-ai-and-it-freaked-me-out-33ca28b5d6d4",
+      "date": "2020-03-25"
+    },
+    {
+      "id": "2927385068",
+      "title": "Apple just killed Offline Web Apps while purporting to protect your privacy: why that’s A Bad Thing and why you should care",
+      "url": "https://ar.al/2020/03/25/apple-just-killed-offline-web-apps-while-purporting-to-protect-your-privacy-why-thats-a-bad-thing-and-why-you-should-care/",
+      "date": "2020-03-25"
+    },
     {
       "id": "2923051078",
       "title": "How much ‘normal’ risk does Covid represent?",
@@ -11,6 +131,12 @@
       "id": "2923724360",
       "title": "CQRS",
       "url": "https://martinfowler.com/bliki/CQRS.html",
+      "date": "2020-03-22"
+    },
+    {
+      "id": "2924277542",
+      "title": "Why unit testing is not enough when it comes to microservices",
+      "url": "https://medium.com/swlh/why-unit-testing-is-not-enough-when-it-comes-to-microservices-c3b0dde14174",
       "date": "2020-03-22"
     },
     {
