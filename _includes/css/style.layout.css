@@ -66,7 +66,7 @@ blockquote {
 .ovh-s { overflow-x: scroll; overflow-y: hidden; }
 
 
-.alert { background: #fe1; padding: 1em 1em; }
+.alert { background: #fe1; background: #ffee8888; padding: 1em 1em; }
 .icon { display: inline-block; width: 1.275rem; height: 1.275rem; max-width: none; }
 .cf { text-align: center; padding: 1em; }
 
