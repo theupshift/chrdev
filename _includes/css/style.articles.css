@@ -38,6 +38,25 @@
 
 
 
+main article img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
+main article .title {
+  margin: 0;
+  background-color: #fe1;
+  padding: 0.6em;
+}
+main article .title span {
+  background-color: #fff;
+  line-height: 1.6;
+  transform: rotate(-1.2deg);
+  display: block;
+}
+
+@media all and (max-width: 40em) {
+  main article .title span { font-size: 1.1em; }
+}
+
+
+
 
 body > main.post article { max-width: 40em; }
 body > main.post article header {
