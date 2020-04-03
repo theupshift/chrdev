@@ -3,11 +3,10 @@
 printf "\n🚀  deploy\n"
 printf "\n"
 aws s3 cp \
+  --delete \
   --recursive \
   --acl public-read \
   --region eu-central-1 \
-  --exclude "assets/images/*.jpg" \
-  --exclude "assets/images/*.png" \
-  --exclude "assets/images/posts/*.jpg" \
-  --exclude "assets/images/posts/*.png" \
+  --exclude "assets/**.jpg" \
+  --exclude "assets/**.png" \
   ./_site/ s3://christianfei.com
