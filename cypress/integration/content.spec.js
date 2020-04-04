@@ -26,7 +26,7 @@ context('Content', () => {
       cy.location('pathname').should('include', 'posts')
     })
     it('visible ad', () => {
-      cy.get('#carbonads-container')
+      cy.get('#carbonads')
     })
     it('visible twitter share button', () => {
       cy.get('.twitter-share-button')
