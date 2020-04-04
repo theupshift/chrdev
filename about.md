@@ -4,6 +4,12 @@ title: About
 ---
 
 {% block content %}
+<div class="cf">
+  <a href="https://twitter.com/christian_fei">
+    <img class="avatar-image" style="border-radius: 50%;" src="/assets/images/cf4.png"><br>@christian_fei
+  </a>
+</div>
+
 I am an [agile enthusiast](https://en.wikipedia.org/wiki/agile_software_development), [clean code connoisseur](https://blog.cleancoder.com) & [testing aficionado](https://en.wikipedia.org/wiki/test-driven_development)
 
 Italian, german & english speaking
@@ -12,11 +18,7 @@ Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
 Email me at crifei93 [@] gmail [.] com
 
-<div class="cf">
-  <a href="https://twitter.com/christian_fei">
-    <img class="avatar-image" style="border-radius: 50%;" src="/assets/images/cf4.png"><br>@christian_fei
-  </a>
-</div>
+---
 
 You can **support me** through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
 
