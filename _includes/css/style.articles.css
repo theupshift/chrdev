@@ -86,3 +86,10 @@ body > main aside { font-size: 0.8rem; padding: 0.6em; }
 article.preview {
   margin-top: 5em;
 }
+
+article.preview .title {
+  min-height: 6em;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
