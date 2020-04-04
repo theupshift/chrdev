@@ -14,17 +14,14 @@ title: Posts
   </p>
 </div>
 
-<div class="posts flex flex-wrap searchable">
-{% for post in collections.post | reverse %}
-  <a href="{{ post.url }}" class="post-item flex-item" {% if post.data.image %}lazy="{{post.data.image}}"{% endif %}>
-    <time datetime="{{ post.data.date | isoday }}" class="post-date bg-white">{{ post.data.date | isoday }}</time>
-    <span class="post-link bg-white">{{ post.data.title | capitalize }}</span>
-    <!--
-    <p class="excerpt">
-      <small class="bg-white">{{ post.md | safe | striptags | excerpt }}...</small>
-    </p>
-    -->
-  </a>
+<b><a href="/archive/">Visit the archive</a> to see all {{collections.post.length}} posts</b>
+
+<div class="posts flex flex-wrap">
+{% for post in collections.featured | reverse | limit10 %}
+  <article class="preview">
+    <h1 class="title"><span><a href="{{ post.url }}">{{ post.data.title }}</a></span></h1>
+    <div>{{post.htmlContent | safe}}</div>
+  </article>
 {% endfor %}
 </div>
 {% endblock %}

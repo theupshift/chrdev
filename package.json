@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "clean-css": "^4.2.3",
-    "devblog": "^2.11.3",
+    "devblog": "^2.11.5",
     "http-server": "^0.12.1"
   },
   "scripts": {

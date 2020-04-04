@@ -68,6 +68,11 @@ module.exports = {
       return decodeURIComponent(str)
     }
   }, {
+    name: 'limit10',
+    filter: (arr) => {
+      return arr.slice(0, 10)
+    }
+  }, {
     name: 'json',
     filter: (obj) => {
       try {

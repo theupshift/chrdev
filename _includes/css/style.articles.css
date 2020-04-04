@@ -80,3 +80,7 @@ body > main.post aside { font-size: 0.8rem; padding: 0.6em; }
   body > main.post article { grid-area: main; }
   body > main.post aside { grid-area: sidebar; }
 }
+
+article.preview {
+  margin-top: 5em;
+}
