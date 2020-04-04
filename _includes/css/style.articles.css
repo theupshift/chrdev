@@ -43,6 +43,7 @@ main article .title {
   margin: 0;
   background-color: #fe1;
   padding: 0.6em;
+  max-width: 60em;
 }
 main article .title span {
   background-color: #fff;
@@ -58,15 +59,16 @@ main article .title span {
 
 
 
-body > main.post article { max-width: 40em; }
-body > main.post article header {
+body > main article { max-width: 40em; }
+body > main article.preview { max-width: 50em; }
+body > main article header {
   font-size:  0.8rem;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-body > main.post aside { font-size: 0.8rem; padding: 0.6em; }
+body > main aside { font-size: 0.8rem; padding: 0.6em; }
 
 
 @media all and (min-width: 70em) {
