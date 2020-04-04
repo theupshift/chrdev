@@ -7,6 +7,7 @@ tags:
   - tutorial
   - puppeteer
   - scraping
+image: /assets/images/posts/puppeteer.png
 ---
 
 After quite a bit of research, I found the full list of [Chromium Command Line Switches](https://peter.sh/experiments/chromium-command-line-switches/).
