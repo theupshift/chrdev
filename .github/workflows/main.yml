@@ -15,7 +15,7 @@ jobs:
           npm run build
       - name: uat
         run: |
-           npx start &
+           npm start &
            npx cypress run --record false
       - name: deploy
         env:
