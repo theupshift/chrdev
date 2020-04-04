@@ -7,6 +7,7 @@ tags:
   - tutorial
   - puppeteer
   - scraping
+  - featured
 image: /assets/images/posts/puppeteer.png
 ---
 
