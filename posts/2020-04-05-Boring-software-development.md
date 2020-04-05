@@ -9,11 +9,11 @@ tags:
 image: /assets/images/posts/bored.png
 ---
 
-I want software development to be boring.
+I want software development to be **boring**.
 
-Excessive tools, libraries, new frameworks to try: this all is gorgeous and fascinating, but what about maintaining the current software and tools, think if they can be simplified (or even removed) and made boring.
+Excessive tools, libraries, new frameworks to try: this all is gorgeous and fascinating, but what about *maintaining the current software* and tools, think if they can be *simplified (or even removed)* and made **boring**.
 
-You should feel comfortable and encouraged to add a new feature or to refactor current code (since there are important and exhaustive automatic tests and CI in place).
+You should feel *comfortable and encouraged* to add a new feature or to refactor current code (since there are important and exhaustive **automatic tests and CI** in place).
 
 [![boring-pipeline.jpg](/assets/images/posts/boring-pipeline.jpg)](https://imgflip.com/i/3vhc0a)
 
