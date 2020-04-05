@@ -88,9 +88,18 @@ article.preview {
   width: 100%;
 }
 
-article.preview .title {
-  min-height: 6em;
+body > main article .title {
+  transition: all .3s ease-in-out;
+  min-height: 7em;
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+}
+body > main article .title:hover {
+  background-size: cover;
+}
+@media all and (max-width: 70em) {
+  body > main article .title {
+    background-size: cover;
+  }
 }
