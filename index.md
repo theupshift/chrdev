@@ -13,6 +13,9 @@ You can <a href="https://twitter.com/christian_fei" target="_blank">
 
 Reed some of my <a href="/posts">blog posts 📝</a> and <a href="/books">recommended books 📖</a>
 
+{% include 'subscribe-to-newsletter.html' %}
+
+
 <div class="cf">
   <a href="/about">
     <img class="avatar-image" style="border-radius: 50%;" src="/assets/images/cf4.png"/><br/>about me
