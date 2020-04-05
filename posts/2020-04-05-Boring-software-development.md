@@ -17,7 +17,7 @@ You should feel comfortable and encouraged to add a new feature or to refactor c
 
 [![boring-pipeline.jpg](/assets/images/posts/boring-pipeline.jpg)](https://imgflip.com/i/3vhc0a)
 
-So simple to deliver new software and remove all the stress that you could do it even on Fridays and the weekend, from the beach, on your phone.
+**So simple to deliver new software and remove all the stress that you could do it even on Fridays and the weekend, from the beach, on your phone.**
 
 Trying our best to *deliver quality software without all the usual hassle* (regressions, failures, etc.),
 to have *more quality time* to think about **the product**.
