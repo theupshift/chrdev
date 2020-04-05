@@ -1,25 +1,34 @@
 <header id="header">
   <div class="flex">
     <a href="/" class="flex-item flex-02 nav-link">
+      <br>
       {% include 'img/me-base64.html' %}
     </a>
     <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/posts') %} active {% endif %}" href="/posts">
+      <br>
       posts
     </a>
+    <!--
     <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/books') %} active {% endif %}" href="/books">
-      books<span class="no-mobile">&nbsp;📖</span>
+      <br>
+      books
     </a>
+    -->
     <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about">
+      <br>
       about
     </a>
     <a class="flex-item flex-02 nav-link tac" href="/contributions/">
+      <br>
       {% include 'img/github.html' %}
     </a>
     <a class="flex-item flex-02 nav-link tac" target="_blank" href="https://twitter.com/christian_fei">
+      <br>
       {% include 'img/twitter.html' %}
     </a>
     <a class="flex-item flex-02 nav-link tac" target="_blank" href="https://buttondown.email/christianfei">
-      {% include 'img/email.html' %}<small>Subscribe!</small>
+      <small>Subscribe!</small>
+      {% include 'img/email.html' %}
     </a>
   </div>
 </header>
