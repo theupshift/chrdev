@@ -15,10 +15,10 @@
   transform: scale(1.02);
 }
 .featured-post .post-title {
-  text-decoration: none !important;
-  background-color: white;
-  padding: 0.3em;
-  margin-top: 2em;
+  text-decoration: none!important;
+  background-color: rgba(255,255,255,.9);
+  padding: .3em;
+  margin-top: 9.7em;
 }
 .featured-post .post-date {
   position: absolute;
