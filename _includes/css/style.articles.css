@@ -95,3 +95,10 @@ body > main article .title {
   background-size: cover;
   background-position: center;
 }
+
+
+.sidebar-cta {
+  padding: 1em;
+  display: inline-block;
+  background: #fe1;
+}
