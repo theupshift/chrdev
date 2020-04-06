@@ -2,7 +2,8 @@ window.makeSearchable = makeSearchable
 window.lazyLoad = lazyLoad
 window.makeExternalLinksTargetBlank = makeExternalLinksTargetBlank
 
-main()
+window.addEventListener('DOMContentLoaded', main)
+
 function main () {
   [...document.querySelectorAll('.searchable')].forEach(makeSearchable)
 
@@ -40,8 +41,13 @@ function makeSearchable ($searchable) {
 }
 
 function lazyLoad (selector = '[lazy]') {
+  console.log('lazyLoad', selector)
+
   let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
+  console.log('$lazy.length', $lazy.length)
+
   $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
+  console.log(' - $lazy.length', $lazy.length)
 
   let lastCheck
   window.onscroll = function (e) {
@@ -69,5 +75,6 @@ function lazyLoad (selector = '[lazy]') {
 
 function makeExternalLinksTargetBlank () {
   const externalLinks = [...document.querySelectorAll(`body a:not([href~='${window.location.hostname}']):not([href^='/'])`)]
+  console.log('external links', externalLinks.length, externalLinks.map(el => el.getAttribute('href')).filter(Boolean))
   externalLinks.forEach(el => el.setAttribute('target', '_blank'))
 }
