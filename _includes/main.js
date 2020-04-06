@@ -21,8 +21,6 @@ function makeSearchable ($searchable) {
   $searchable.parentNode.insertBefore($search, $searchable)
   $search.focus()
 
-  const $noMatch = document.getElementById('no-match')
-
   function handleSearchKeyUp (e) {
     const searchTerm = e.target.value
     const searchRegExp = new RegExp(searchTerm.replace(' ', '.*'), 'i')
@@ -30,19 +28,6 @@ function makeSearchable ($searchable) {
     if ($searchableItems.length > 200) $searchableItems.length = 200
     const postTitles = $searchableItems.map($el => $el.innerText)
     const noMatch = postTitles.filter(t => searchRegExp.test(t)).length === 0
-
-    console.log({ postTitles })
-
-    // if (noMatch) {
-    //   if (!$noMatch) {
-    //     $noMatch = document.createElement('div')
-    //     $noMatch.setAttribute('id', 'no-match')
-    //     // $noMatch.innerText = 'No matches'
-    //     $searchable.prepend($noMatch)
-    //   }
-    // } else {
-    //   $noMatch && $noMatch.parentElement && $noMatch.parentElement.removeChild($noMatch)
-    // }
 
     $searchableItems.forEach(function ($postLi) {
       const show = noMatch || !searchTerm || searchRegExp.test($postLi.innerText)
@@ -56,13 +41,8 @@ function makeSearchable ($searchable) {
 }
 
 function lazyLoad (selector = '[lazy]') {
-  console.log('lazyLoad', selector)
-
   let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
-  console.log('$lazy.length', $lazy.length)
-
   $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
-  console.log(' - $lazy.length', $lazy.length)
 
   let lastCheck
   window.onscroll = function (e) {
@@ -90,6 +70,5 @@ function lazyLoad (selector = '[lazy]') {
 
 function makeExternalLinksTargetBlank () {
   const externalLinks = [...document.querySelectorAll(`body a:not([href~='${window.location.hostname}']):not([href^='/'])`)]
-  console.log('external links', externalLinks.length, externalLinks.map(el => el.getAttribute('href')).filter(Boolean))
   externalLinks.forEach(el => el.setAttribute('target', '_blank'))
 }
