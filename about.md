@@ -38,6 +38,7 @@ I try to stay up to date with what people are coming up with, thus I read a lot,
 
 > Simplicity is the ultimate sophistication ~ Leonardo Da Vinci
 
+{% include 'subscribe-to-newsletter.html' %}
 
 ## OSS Projects
 
@@ -61,7 +62,7 @@ Right now I am probably **writing code** for
 
 You can **support me** on [GitHub Sponsors](https://github.com/sponsors/christian-fei)
 
-{% include 'subscribe-to-newsletter.html' %}
+---
 
 Regarding crypto, I launched [cryptosheet.cc](https://cryptosheet.cc/) in the summer of 2018 to satisfy my need to have all my balances and transactions on different crypto exchanges and wallet providers, in one single place: namely a spreadsheet.
 
