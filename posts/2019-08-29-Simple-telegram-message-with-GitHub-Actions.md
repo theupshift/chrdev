@@ -44,8 +44,8 @@ jobs:
           npm install
       - name: send-telegram-message
         env:
-          TELEGRAM_TOKEN: {% raw %}${{ secrets.TELEGRAM_TOKEN }}{% endraw %}
-          TELEGRAM_CHANNEL: {% raw %}${{ secrets.TELEGRAM_CHANNEL }}{% endraw %}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           TELEGRAM_TEXT: "Deployed to https://christianfei.com"
         run: |
           npx simple-telegram-message@latest
