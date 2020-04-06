@@ -2,7 +2,7 @@ window.makeSearchable = makeSearchable
 window.lazyLoad = lazyLoad
 window.makeExternalLinksTargetBlank = makeExternalLinksTargetBlank
 
-main()
+window.addEventListener('DOMContentLoaded', main)
 
 function main () {
   [...document.querySelectorAll('.searchable')].forEach(makeSearchable)
