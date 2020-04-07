@@ -27,6 +27,6 @@ This is how it looks like
 
 ## Let me know yours
 
-Seriously, what's **your favourite**Visual Studio Code theme?
+Seriously, what's **your favourite** Visual Studio Code theme?
 
 Let me know on [Twitter @christian_fei](https://twitter.com/christian_fei)!
