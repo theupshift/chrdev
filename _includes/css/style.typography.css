@@ -1,11 +1,9 @@
 
 /* typography */
-html, body { font-size: 16px; font-weight: 400; line-height: 1.45; }
-@media all and (max-width: 50em) { html, body { font-size: 15px; } }
-html, body { font-family: Menlo, 'Courier New', Courier, Inconsolata, monospace; }
-html, body { font-family: Arial, Helvetica, sans-serif; }
+html, body { font-size: 18px; font-weight: 300; line-height: 1.45; }
+@media all and (max-width: 45em) { html, body { font-size: 16px; } }
 html, body {
-  font-family: 'Roboto Mono', 'Courier', 'Helvetica', sans-serif;
+  font-family: 'Quicksand', 'Helvetica', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #333;
   font-weight: 400;
@@ -22,6 +20,7 @@ pre code { background: none; }
 pre ::selection { color: white; background: #000; }
 
 /* https://type-scale.com/ */
+h1, h2,h3,h4,h5 { font-weight: 700; }
 h1 {margin-top: 0;font-size: 1.802em;}
 h2 {font-size: 1.602em;}
 h3 {font-size: 1.424em;}

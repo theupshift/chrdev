@@ -30,13 +30,14 @@ Mainly working with #Node.js, #JavaScript, #Python, #MongoDB, #Redis, #Cloud, #S
 
 Previously Agile Developer at XPeppers, Trento (2014 - 2017).
 
+> Simplicity is the ultimate sophistication ~ Leonardo Da Vinci
+
 Clean Code, TDD, Refactoring and SOLID Principles are my special weapons to tame codebases.
 
 Most of my OSS can be found on my [github profile](https://github.com/christian-fei).
 
 I try to stay up to date with what people are coming up with, thus I read a lot, here you can find [my full pocket reading history](/pocket/) and [recommended books](/books/)
 
-> Simplicity is the ultimate sophistication ~ Leonardo Da Vinci
 
 {% include 'subscribe-to-newsletter.html' %}
 

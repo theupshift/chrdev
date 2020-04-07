@@ -5,7 +5,7 @@ title: Posts
 
 {% block content %}
 
-<div class="alert">
+<div class="alert" style="max-width: 45em">
   <p>
     Below you can skim through <b>articles</b> I wrote over the years.
   </p>

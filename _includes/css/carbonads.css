@@ -72,7 +72,7 @@
   line-height: 0 !important;
 }
 
-@media all and (max-width: 60em) {
+@media all and (max-width: 45em) {
   #carbonads {
     margin: 0 auto;
   }
