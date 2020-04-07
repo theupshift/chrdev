@@ -4,6 +4,7 @@ date: 2020-04-07
 layout: post.njk
 tags:
   - post
+  - general
 ---
 
 Below my favourite Visual Studio Code theme I've come to like over time.
