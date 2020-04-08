@@ -1,7 +1,7 @@
 
 /* typography */
-html, body { font-size: 18px; font-weight: 300; line-height: 1.45; }
-@media all and (max-width: 45em) { html, body { font-size: 16px; } }
+html, body { font-size: 20px; font-weight: 300; line-height: 1.45; }
+@media all and (max-width: 45em) { html, body { font-size: 18px; } }
 html, body {
   font-family: 'Quicksand', 'Helvetica', sans-serif;
   -webkit-font-smoothing: antialiased;
