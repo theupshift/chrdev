@@ -82,6 +82,7 @@ body > main aside { font-size: 0.8rem; padding: 0.6em; }
   }
   body > main.post article { grid-area: main; }
   body > main.post aside { grid-area: sidebar; }
+  body > main.post aside > div { grid-area: sidebar; position: sticky; top: 8em; }
 }
 
 article.preview {
