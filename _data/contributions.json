@@ -1603,27 +1603,27 @@
   },
   {
     "date": "2020-04-08",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 10,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-04-07",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 19,
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-04-06",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 27,
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-04-05",
-    "count": 9,
-    "color": "#c6e48b",
-    "intensity": 1
+    "count": 25,
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-04-04",
