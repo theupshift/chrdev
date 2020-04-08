@@ -17,7 +17,7 @@ title: Home
   <br/>
   <a href="https://twitter.com/christian_fei" target="_blank">{% include 'img/twitter.html' %} @christian_fei</a>
 
-  Featured <a href="/posts">blog posts</a>, <a href="/books">recommended books</a> and <a href="/books">the archive</a>
+  Featured <a href="/posts">blog posts</a>, <a href="/books">recommended books</a> and <a href="/archive">the archive</a>
 
 </div>
 
