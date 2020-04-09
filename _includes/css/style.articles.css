@@ -41,14 +41,12 @@
 main article img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
 main article .title {
   margin: 0;
-  background-color: #fe1;
-  padding: 0.6em;
   max-width: 45em;
 }
 main article .title span {
   background-color: #fff;
   line-height: 1.6;
-  transform: rotate(-1.2deg);
+  /* transform: rotate(-1.2deg); */
   display: block;
 }
 
@@ -90,9 +88,12 @@ article.preview {
   width: 100%;
 }
 
+body > main article .title.has-image {
+  min-height: 9em;
+  padding: 0.6em;
+}
 body > main article .title {
   transition: all .3s ease-in-out;
-  min-height: 9em;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
