@@ -24,7 +24,7 @@ title: Home
 <div class="flex-item">
   <div class="cf">
     <a href="/about">
-      <img class="avatar-image" style="border-radius: 50%;" src="/assets/images/cf4.png"/>
+      <img class="avatar-image" alt="me with sunglasses" style="border-radius: 50%;" src="/assets/images/cf4.png"/>
     </a>
   </div>
 </div>
