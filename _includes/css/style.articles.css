@@ -68,6 +68,9 @@ body > main article header {
 }
 body > main aside { font-size: 0.8rem; padding: 0.6em; }
 
+body > main article img {
+  text-align: center;
+}
 
 @media all and (min-width: 70em) {
   body > main.post {
