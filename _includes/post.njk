@@ -34,18 +34,36 @@
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} lazy="{{page.data.image}}"{% endif %}><span>{{ title }}</span></h1>
 
-  <header>
-    <p class="no-mobile">
-      <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Found a typo? Edit this page on GitHub</a>
-    </p>
+  <header class="flex flex-wrap">
+    <div class="flex-item">
+      <p class="no-mobile">
+        <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Found a typo? Edit this page on GitHub</a>
+      </p>
 
-    <p>
-      Written on &nbsp; <b>{{ page.data.date | isoday }}</b>
-    </p>
+      <p>
+        Written on &nbsp; <b>{{ page.data.date | isoday }}</b>
+      </p>
 
-    <p>
-      {{ content | words }} words - {{ content | readingTime }} 🕜
-    </p>
+      <p>
+        {{ content | words }} words - {{ content | readingTime }} 🕜
+      </p>
+
+      <p class="only-mobile">
+        {% include 'snippets/tweet-this.html' %}
+      </p>
+    </div>
+    <div class="flex-item only-mobile">
+      <p>
+        Get the latest on clean code, node.js, testing and more
+        <br/>
+        <br/>
+        <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
+          Subscribe to my newsletter
+          <br/>
+          {% include 'img/email.html' %}
+        </a>
+      </p>
+    </div>
   </header>
 
   <div class="main-content">{{ content | safe }}</div>
