@@ -55,9 +55,9 @@
       {% include "css/style.featured.css" %}
       {% include "css/style.books.css" %}
       {% include "css/style.search.css" %}
+      {% include "css/prism.min.css" %}
     {% endset %}
     <style>{{ style | cssmin | safe }}</style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/themes/prism.min.css">
 
     {% if page.url != '/' and page.url != '/about/' %}
       {% set carbonads %}
