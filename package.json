@@ -7,7 +7,8 @@
   "devDependencies": {
     "clean-css": "^4.2.3",
     "devblog": "^2.11.5",
-    "http-server": "^0.12.1"
+    "http-server": "^0.12.1",
+    "puppeteer": "^3.0.0"
   },
   "scripts": {
     "test": "npx cypress run",
