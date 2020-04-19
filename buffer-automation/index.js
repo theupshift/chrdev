@@ -20,7 +20,7 @@ const login = require('./login')
   const toShare = filenames.reduce((acc, filename, i) => {
     const attr = attributes[i]
     if (attr && Array.isArray(attr.tags) && attr.tags.includes('featured')) {
-      return acc.concat([`"${attr.title}", by @christian_fei https://christianfei.com/posts/${filename.replace(/\.md$/, '/')} `])
+      return acc.concat([`"${attr.title}", by @christian_fei https://cri.dev/posts/${filename.replace(/\.md$/, '/')} `])
     }
     return acc
   }, []).reverse()
