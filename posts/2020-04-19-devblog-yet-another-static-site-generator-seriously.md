@@ -40,6 +40,13 @@ Good question.
 
 What I need for my personal blog are the following points.
 
+- an api
+- speed
+- cache
+- flexibility
+- tests
+- developer experience
+
 ### Easy programmatic API to include data
 
 Currently [`/pocket`](/pocket), [`/contributions`](/contributions) and [`/books`](/books) needed custom data to be rendered.
@@ -99,6 +106,33 @@ I built a small [**Buffer automation tool**](https://github.com/christian-fei/ch
 It programmatically logs in to buffer, takes the last 10 featured blog posts (using `site.json`) and adds them to the publishing queue, with [Puppeteer](/posts/2020-03-08-Ultimate-web-scraping-with-browserless,-puppeteer-and-Node.js/). Fully automated.
 
 
+### Flexibility
+
+[`devblog`](https://github.com/christian-fei/devblog) uses [nunjucks by Mozilla](https://mozilla.github.io/nunjucks/) under the hood, as I found it the most lightweight and powerful templating language for JavaScript.
+
+You can define **layouts, templates, interpolate variables, loop through them and so much more**:
+
+```njk
+{% raw %}
+{% extends "base.html" %}
+
+{% block header %}
+<h1>{{ title }}</h1>
+{% endblock %}
+
+{% block content %}
+<ul>
+  {% for name, item in items %}
+  <li>{{ name }}: {{ item }}</li>
+  {% endfor %}
+</ul>
+{% endblock %
+{% endraw %}
+```
+
+
+
+
 ### Tests? Of course!
 
 How would you build software anyways, other than with tests, refactoring and clean code in mind?
@@ -109,6 +143,18 @@ Having tests doesn't mean it's *defectless and perfect*, it just means you **cov
 
 So, surely it might break, but *adding new features, maintaining the software and fixing defects* will be **much, much easier**. Trust me on this.
 
+### Developer experience
+
+The DX is an important part when using software, at least for me.
+
+I don't want to spend my time downloading huge tools, to later wait again and struggle with the tool.
+
+A tool should be easy, intuitive, lightweight and flexible to use.
+
+If it doesn't comply with my needs, I'm gonna switch (or build my own).
+
+`devblog` tries to be as lightweight as possible, it provides a simple API to interact with it and I think it's pretty flexible and can be tailored to your needs.
+
 ## Open Source and GPL licensed
 
 You can find the source here, if you're interested in how it works internally: [github.com/christian-fei/devblog](https://github.com/christian-fei/devblog)
@@ -116,3 +162,5 @@ You can find the source here, if you're interested in how it works internally: [
 Let me know if you can make use of it, found it useful or a total waste of yours and my time :)
 
 I had fun nevertheless 👨‍💻
+
+Check it out, fork it and [let me know @christian_fei](https://twitter.com/christian_fei) what you think of [devblog](https://github.com/christian-fei/devblog)!
