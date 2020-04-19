@@ -9,7 +9,7 @@ title: Home
   <div class="no-mobile" style="margin-top: 3em; width: 25em"></div>
   <h1><b>Welcome to my blog!</b> 👋</h1>
 
-  <b>My name is Christian</b>
+  <b>My name is Christian, cri for short</b>
   <br/>
   A <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/" target="_blank">passionate web developer</a> from <b>Italy</b>
 
