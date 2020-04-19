@@ -5,3 +5,4 @@ scripts/secrets
 scripts/secrets
 secrets
 .python-version
+site.json
