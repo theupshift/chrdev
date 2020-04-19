@@ -46,7 +46,7 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
-          TELEGRAM_TEXT: "Deployed to https://christianfei.com"
+          TELEGRAM_TEXT: "Deployed to https://cri.dev"
         run: |
           npx simple-telegram-message@latest
 ```

@@ -37,4 +37,4 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
         with:
-          message: 'Deployed to https://christianfei.com'
+          message: 'Deployed to https://cri.dev'
