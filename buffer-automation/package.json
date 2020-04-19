@@ -1,0 +1,17 @@
+{
+  "name": "buffer-automation",
+  "version": "1.0.0",
+  "description": "``` [HEADLESS=false] BUFFER_EMAIL='xxx' BUFFER_PASSWORD='xxx' node buffer-automation/index.js ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "front-matter": "^3.1.0",
+    "pino": "^6.2.0",
+    "puppeteer": "^3.0.0"
+  }
+}

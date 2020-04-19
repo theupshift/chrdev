@@ -17,15 +17,15 @@ const login = require('./login')
   const files = filenames.map(f => `${process.cwd()}/posts/${f}`)
   console.log('files', files.length, files[0])
   const attributes = await Promise.all(files.map(f => fsp.readFile(f, { encoding: 'utf8' }).then(f => parseFrontMatter(f).attributes)))
-  let toShare = filenames.reduce((acc, filename, i) => {
+  const toShare = filenames.reduce((acc, filename, i) => {
     const attr = attributes[i]
     if (attr && Array.isArray(attr.tags) && attr.tags.includes('featured')) {
       return acc.concat([`"${attr.title}", by @christian_fei https://christianfei.com/posts/${filename.replace(/\.md$/, '/')} `])
     }
     return acc
   }, []).reverse()
-  // toShare.length = 10
-  toShare = toShare.slice(10, 20)
+  toShare.length = 10
+  // toShare = toShare.slice(10, 20)
   console.log('toShare', toShare.length)
 
   await login(page)
