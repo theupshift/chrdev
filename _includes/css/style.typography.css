@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+/* @import url('/fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap'); */
 
 html, body { font-size: 20px; font-weight: 300; line-height: 1.45; }
 @media all and (max-width: 45em) { html, body { font-size: 18px; } }

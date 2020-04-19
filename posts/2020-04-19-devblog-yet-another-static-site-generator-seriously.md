@@ -144,6 +144,8 @@ Having tests doesn't mean it's *defectless and perfect*, it just means you **cov
 
 So, surely it might break, but *adding new features, maintaining the software and fixing defects* will be **much, much easier**. Trust me on this.
 
+![devblog-tests.png](/assets/images/posts/devblog-tests.png)
+
 ### Developer experience
 
 The DX is an important part when using software, at least for me.
