@@ -1,4 +1,156 @@
 pocket_items:
+  - title: "How to Create an Email Newsletter People Actually Read"
+    url: https://blog.hubspot.com/marketing/guide-creating-email-newsletters-ht
+    date: 2020-04-19
+    id: 463535569
+  - title: "Tips On Crafting A Popular Newsletter, From Top Newsletter Authors"
+    url: https://www.fastcompany.com/3033338/tips-on-crafting-a-popular-newsletter-from-top-newsletter-authors
+    date: 2020-04-19
+    id: 1692317728
+  - title: "13 Steps to Launch an Email Newsletter People Actually Read"
+    url: https://www.creativelive.com/blog/launch-email-newsletter/
+    date: 2020-04-19
+    id: 2341587592
+  - title: "Everything I've learned in 10 years of Blogging"
+    url: https://ferrucc.io/posts/starting-a-blog/
+    date: 2020-04-19
+    id: 2426164564
+  - title: "Priority Determines Product"
+    url: https://thoughtbot.com/blog/priority-determines-product
+    date: 2020-04-19
+    id: 2934565473
+  - title: "IT’S TIME TO BUILD"
+    url: https://a16z.com/2020/04/18/its-time-to-build/
+    date: 2020-04-19
+    id: 2954719135
+  - title: "A geek with a hat"
+    url: https://swizec.com/blog/async-await-catch-error-handling-that-wont-drive-you-crazy/swizec/8931
+    date: 2020-04-18
+    id: 2954350632
+  - title: "How to play planning poker… Badass Mode!"
+    url: https://philippe.bourgau.net/how-to-play-planning-poker-badass-mode/
+    date: 2020-04-18
+    id: 2954425255
+  - title: "Technology Radar"
+    url: https://www.thoughtworks.com/radar/techniques/ci-theatre
+    date: 2020-04-17
+    id: 1760343242
+  - title: "Refactoring: Is There More To It than Just Changing Stuff?"
+    url: http://qualitycoding.org/refactoring-demo/
+    date: 2020-04-17
+    id: 1782044939
+  - title: "Contact tracing con il Bluetooth Low Energy dei telefonini, come funziona?"
+    url: https://attivissimo.blogspot.com/2020/04/contact-tracing-con-il-bluetooth-low.html
+    date: 2020-04-17
+    id: 2952959179
+  - title: "Unlucky Friday the 17th"
+    url: https://www.thoughtco.com/unlucky-friday-the-17th-3972380
+    date: 2020-04-16
+    id: 1796912853
+  - title: "Wasm By Example"
+    url: https://wasmbyexample.dev/
+    date: 2020-04-16
+    id: 2638186073
+  - title: "Il Dpcm non ha forza di legge"
+    url: https://www.italiaoggi.it/news/il-dpcm-non-ha-forza-di-legge-2432440
+    date: 2020-04-16
+    id: 2920047138
+  - title: "How much ‘normal’ risk does Covid represent?"
+    url: https://medium.com/wintoncentre/how-much-normal-risk-does-covid-represent-4539118e1196
+    date: 2020-04-16
+    id: 2936205269
+  - title: "‌‌"
+    url: https://hackernoon.com/should-you-be-using-nosql-q11i3y58
+    date: 2020-04-16
+    id: 2951858453
+  - title: "Home - Quora"
+    url: https://www.quora.com/
+    date: 2020-04-15
+    id: 43138614
+  - title: "Why does time value of money (TVM) assume that a dollar today is worth more than a dollar tomorrow?"
+    url: http://www.investopedia.com/ask/answers/032715/why-does-time-value-money-tvm-assume-dollar-today-worth-more-dollar-tomorrow.asp
+    date: 2020-04-15
+    id: 880828076
+  - title: "The 8 essential questioning techniques you need to know"
+    url: https://www.typetalk.com/blog/the-8-essential-questioning-techniques-you-need-to-know/
+    date: 2020-04-15
+    id: 2479649280
+  - title: "I rischi della task-force sulle fake news: il confine con la censura è sottile"
+    url: https://www.secoloditalia.it/2020/04/i-rischi-della-task-force-sulle-fake-news-il-confine-con-la-censura-e-sottile/
+    date: 2020-04-15
+    id: 2950767263
+  - title: "The TypeScript Tax"
+    url: https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b
+    date: 2020-04-13
+    id: 2493621167
+  - title: "Is COVID-19 Forcing Your Digital Transformation? 12 Steps To Move Faster"
+    url: https://www.forbes.com/sites/blakemorgan/2020/04/05/is-covid-19-forcing-your-digital-transformation-12-steps-to-move-faster/
+    date: 2020-04-12
+    id: 2940010970
+  - title: "Apple and Google are launching a joint COVID-19 tracing tool for iOS and Android"
+    url: https://techcrunch.com/2020/04/10/apple-and-google-are-launching-a-joint-covid-19-tracing-tool/
+    date: 2020-04-12
+    id: 2947658180
+  - title: "Why you should stop using Google Analytics on your website"
+    url: https://plausible.io/blog/remove-google-analytics
+    date: 2020-04-10
+    id: 2943073619
+  - title: "Apple and Google are building a coronavirus tracking system into iOS and Android"
+    url: https://www.theverge.com/2020/4/10/21216484/google-apple-coronavirus-contract-tracing-bluetooth-location-tracking-data-app
+    date: 2020-04-10
+    id: 2945556719
+  - title: "One assertion per test?"
+    url: https://medium.com/@pierodibello/one-assertion-per-test-732cc2a7d3d
+    date: 2020-04-09
+    id: 2944063249
+  - title: "Deploys at Slack"
+    url: https://slack.engineering/deploys-at-slack-cd0d28c61701
+    date: 2020-04-08
+    id: 2931872856
+  - title: "The vocal minority celebrating Boris Johnson’s coronavirus diagnosis"
+    url: https://www.spectator.co.uk/article/the-vocal-minority-celebrating-boris-johnson-s-coronavirus-diagnosis
+    date: 2020-04-08
+    id: 2936490552
+  - title: "How SEO Ruined the Internet"
+    url: https://www.superhighway98.com/seo
+    date: 2020-04-08
+    id: 2940158237
+  - title: "What determines the Bitcoin price?"
+    url: https://www.bitpanda.com/academy/en/lessons/what-determines-the-bitcoin-price
+    date: 2020-04-08
+    id: 2943400917
+  - title: "Twitter Direct Message Caching and Firefox – Mozilla Hacks : the Web developer blog"
+    url: https://hacks.mozilla.org/2020/04/twitter-direct-message-caching-and-firefox
+    date: 2020-04-06
+    id: 2940912120
+  - title: "r/italy - Sito INPS: niente "hacker", solo una scusa per proteggere gli appalti da 360 milioni di euro. La verità? Hanno usato la CDN Microsoft Azure Edge senza sapere come si usa"
+    url: https://www.reddit.com/r/italy/comments/fuyvwd/sito_inps_niente_hacker_solo_una_scusa_per/
+    date: 2020-04-05
+    id: 2938866444
+  - title: "How we recovered over $300K of Bitcoin"
+    url: https://reperiendi.wordpress.com/2020/04/03/how-i-recovered-over-300k-of-bitcoin/
+    date: 2020-04-04
+    id: 2937907389
+  - title: "Bill Gates is funding new factories for 7 potential coronavirus vaccines, even though it will waste billions of dollars"
+    url: https://www.businessinsider.com.au/bill-gates-factories-7-different-vaccines-to-fight-coronavirus-2020-4
+    date: 2020-04-04
+    id: 2938303349
+  - title: "Regarding Zoom"
+    url: https://daringfireball.net/2020/03/regarding_zoom
+    date: 2020-04-04
+    id: 2938723077
+  - title: "BBC Radio 4: Nassim on why the Coronavirus Pandemic is not a Black Swan"
+    url: https://nassimtaleb.org/2020/03/coronavirus-black-swan/
+    date: 2020-04-04
+    id: 2938815365
+  - title: "iOS and iPadOS 13: The MacStories Review"
+    url: https://www.macstories.net/stories/ios-and-ipados-13-the-macstories-review/
+    date: 2020-04-03
+    id: 2730761348
+  - title: "How to recession proof your career"
+    url: https://swizec.com/blog/how-to-recession-proof-your-career/swizec/9226
+    date: 2020-04-02
+    id: 2777872030
   - title: "Signaling as a Service"
     url: https://julian.digital/2020/03/28/signaling-as-a-service/
     date: 2020-04-01
