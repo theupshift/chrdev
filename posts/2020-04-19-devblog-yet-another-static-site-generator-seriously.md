@@ -37,6 +37,8 @@ Good question.
 - to acquire new knowledge
 - to have fun  👨‍💻
 
+![devblog-npm-package.png](/assets/images/posts/devblog-npm-package.png)
+
 ## Tailored to my needs
 
 What I need for my personal blog are the following points.
