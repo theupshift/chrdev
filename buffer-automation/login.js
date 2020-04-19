@@ -1,4 +1,5 @@
 module.exports = async function (page) {
+  console.log('👨‍💻  login')
   console.log('navigating to login.buffer.com')
   await page.goto('https://login.buffer.com/login')
 
