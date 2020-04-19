@@ -20,13 +20,13 @@ You can **support me** through my [GitHub Sponsor page ✌️](https://github.co
 
 
 <div class="flex flex-wrap">
-  <div class="flex-item" style="width: 400px; height: 300px">
+  <div class="flex-item" style="width: 400px; height: 400px">
     <canvas id="yearsChart"></canvas>
   </div>
 
   <dl class="flex-item" style="height: 250px; min-width: 20em; overflow-y: scroll; text-align: left; padding-left: 2em;">
     {% for contribution in collections.contributionsByYear %}
-      <dt><b>{{ contribution.year }}</b></dt> <dd>{{ contribution.total }} public commits</dd>
+      <dt><b>{{ contribution.year }}</b> - {{ contribution.total }} public commits</dt>
     {% endfor %}
   </dl>
 </div>
