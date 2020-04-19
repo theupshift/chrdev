@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": ".devblog.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "clean-css": "^4.2.3",
-    "devblog": "^2.11.5",
+    "devblog": "^2.12.0",
     "http-server": "^0.12.1"
   },
   "scripts": {
