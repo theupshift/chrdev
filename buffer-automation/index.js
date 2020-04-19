@@ -1,7 +1,5 @@
 const puppeteer = require('puppeteer')
-const parseFrontMatter = require('front-matter')
 const fs = require('fs')
-const fsp = require('fs').promises
 const path = require('path')
 const addToQueue = require('./add-to-queue')
 const login = require('./login')
@@ -13,20 +11,21 @@ const login = require('./login')
   const page = await browser.newPage()
   await page.setViewport({ width: 1280, height: 800 })
 
-  const filenames = fs.readdirSync(path.resolve(process.cwd(), 'posts')).filter(f => f.endsWith('.md'))
-  const files = filenames.map(f => `${process.cwd()}/posts/${f}`)
-  console.log('files', files.length, files[0])
-  const attributes = await Promise.all(files.map(f => fsp.readFile(f, { encoding: 'utf8' }).then(f => parseFrontMatter(f).attributes)))
-  const toShare = filenames.reduce((acc, filename, i) => {
-    const attr = attributes[i]
+  const siteContent = fs.readFileSync(path.resolve(process.cwd(), 'site.json'))
+  const site = JSON.parse(siteContent)
+
+  const files = site.files
+
+  const toShare = files.reduce((acc, file, i) => {
+    const attr = file.attributes
     if (attr && Array.isArray(attr.tags) && attr.tags.includes('featured')) {
-      return acc.concat([`"${attr.title}", by @christian_fei https://cri.dev/posts/${filename.replace(/\.md$/, '/')} `])
+      return acc.concat([`"${attr.title}", by @christian_fei https://cri.dev${file.url} `])
     }
     return acc
   }, []).reverse()
   toShare.length = 10
   // toShare = toShare.slice(10, 20)
-  console.log('toShare', toShare.length)
+  console.log('toShare', toShare.length, toShare)
 
   await login(page)
 
