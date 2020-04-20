@@ -20,7 +20,9 @@ Although there are widely used SSG like 11ty (which this blog was previously bas
 
 Even simpler in the sense of **"it does just what I need and nothing more"**.
 
-Install via `npm i -g devblog` or create a blog with a one-liner `npx devblog init my-new-blog` and serve with `npx http-server _site 8080`. It's that easy.
+Install via `npm i -g devblog` or create a blog with a one-liner `npx devblog init my-new-blog`, `cd my-new-blog` and serve with `npx http-server _site 8080`. It's that easy.
+
+Rebuild the blog by running `npx devblog` (or `npm i -g devblog` and then just run `devblog` in the main directory)
 
 Continue reading my story of building [`devblog`](https://github.com/christian-fei/devblog).
 
