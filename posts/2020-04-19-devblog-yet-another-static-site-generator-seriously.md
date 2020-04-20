@@ -42,6 +42,27 @@ Good question.
 
 ![devblog-npm-package.png](/assets/images/posts/devblog-npm-package.png)
 
+## Learned
+
+Learned or improved knowledge about:
+
+- TDD and Refactoring
+- CI & CD with github actions build + test + npm publishing
+- running scripts with `npx`
+- making a simple `cli`
+- YML front-matter
+- file globbing in Node.js with `glob`
+- HTML and CSS minification with `html-minifier` and `clean-css`
+- nunjucks template engine
+- markdown parsing with `remarkable`
+- fast logging with `pino`
+- testing with `ava`
+- recursively cleaning directories with `rimraf`
+- read and merge a custom user config and use in application (see custom template, functions and filters to use in `nunjucks`)
+- and I think lots of small things along the way
+
+That's just to show how much you can learn if you try to build it yourself.
+
 ## Tailored to my needs
 
 What I need for my personal blog are the following points.
