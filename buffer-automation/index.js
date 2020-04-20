@@ -19,7 +19,8 @@ const login = require('./login')
   const toShare = files.reduce((acc, file, i) => {
     const attr = file.attributes
     if (attr && Array.isArray(attr.tags) && attr.tags.includes('featured')) {
-      return acc.concat([`"${attr.title}", by @christian_fei https://cri.dev${file.url} `])
+      const tagsString = attr.tags.filter(t => !['post', 'featured', 'general'].includes(t)).map(t => `#${t}`).join(' ')
+      return acc.concat([`"${attr.title}", by @christian_fei https://cri.dev${file.url} ${tagsString} `])
     }
     return acc
   }, []).reverse()
@@ -31,6 +32,7 @@ const login = require('./login')
 
   for (const shareText of toShare) {
     await addToQueue(page, shareText)
+    await page.waitFor(1000)
   }
 
   await browser.close()

@@ -29,14 +29,21 @@ module.exports = async function (page, shareText) {
   console.log('finished typing message')
 
   if (process.env.LINKEDIN !== 'true') {
-    console.log('waiting for suggested media')
-    await page.waitFor(5000)
-    console.log('trying to select suggested media')
-    const foundSuggestedMedia = await page.evaluate(selector => {
-      const el = document.querySelector(selector)
-      if (el && el.click) el.click()
-      return !!el
-    }, '[class*="SuggestedMediaBox__thumbnailContainer"]:first-child')
+    let tries = 0
+    let foundSuggestedMedia = false
+    const suggestedMediaSelector = '[class*="SuggestedMediaBox__thumbnailContainer"]:first-child'
+    do {
+      console.log('trying to select suggested media')
+      foundSuggestedMedia = await page.evaluate(selector => {
+        const el = document.querySelector(selector)
+        if (el && el.click) el.click()
+        return !!el
+      }, suggestedMediaSelector)
+      if (!foundSuggestedMedia) {
+        await page.waitForSelector(suggestedMediaSelector, { timeout: 500 }).catch(Function.prototype)
+        console.log('waiting for suggested media')
+      }
+    } while (!foundSuggestedMedia && tries++ < 10)
     console.log(foundSuggestedMedia ? 'clicked on suggested media' : 'no suggested media found')
   }
 
