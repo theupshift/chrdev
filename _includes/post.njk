@@ -41,7 +41,7 @@
       </p>
 
       <p>
-        Written on &nbsp; <b>{{ page.data.date | isoday }}</b>
+        Written on &nbsp; <b>{{ page.data.date | isoday }}</b> {% if page.data.updated %} (<i>last updated {{page.data.updated | isoday}}</i>) {% endif %}
       </p>
 
       <p>
