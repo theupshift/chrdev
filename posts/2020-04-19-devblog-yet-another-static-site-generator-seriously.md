@@ -28,6 +28,8 @@ Continue reading my story of building [`devblog`](https://github.com/christian-f
 
 ---
 
+<script id="asciicast-aUEeBmo0ev9TOZHsStiNyojvs" src="https://asciinema.org/a/aUEeBmo0ev9TOZHsStiNyojvs.js" async></script>
+
 ## Why would you waste your time like this?
 
 Good question.
