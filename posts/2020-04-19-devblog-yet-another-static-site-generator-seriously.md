@@ -50,7 +50,7 @@ Learned or improved knowledge about:
 - CI & CD with github actions build + test + npm publishing
 - running scripts with `npx`
 - making a simple `cli`
-- YML front-matter
+- YML ``front-matter`
 - file globbing in Node.js with `glob`
 - HTML and CSS minification with `html-minifier` and `clean-css`
 - nunjucks template engine
