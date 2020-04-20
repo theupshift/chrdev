@@ -1,6 +1,7 @@
 ---
 title: "devblog: yet another static site generator, seriously"
 date: 2020-04-19
+updated: 2020-04-20
 layout: post.njk
 tags:
   - post
