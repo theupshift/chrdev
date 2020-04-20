@@ -4,6 +4,15 @@ module.exports = async function (page, shareText) {
   console.log('navigating to publish.buffer.com')
   await page.goto('https://publish.buffer.com/')
 
+  if (process.env.LINKEDIN === 'true') {
+    console.log('choosing linkedin')
+    await page.waitForSelector('[class*="ProfileListItem__ListItemContainer"] li', { timeout: 15000 })
+    await page.evaluate(() => {
+      const el = [...document.querySelectorAll('[class*="ProfileListItem__ListItemContainer"] li')][1]
+      el && el.click()
+    })
+  }
+
   console.log('waiting for share button')
   await page.waitForSelector('[class*="ContentStyle"] button:not([type="secondary"])')
   console.log('clicking on share button')
@@ -19,17 +28,17 @@ module.exports = async function (page, shareText) {
   await page.type('[contenteditable="true"]', ' ')
   console.log('finished typing message')
 
-  console.log('waiting for suggested media')
-  await page.waitFor(5000)
-
-  console.log('trying to select suggested media')
-  const foundSuggestedMedia = await page.evaluate(selector => {
-    const el = document.querySelector(selector)
-    if (el && el.click) el.click()
-    return !!el
-  }, '[class*="SuggestedMediaBox__thumbnailContainer"]:first-child')
-
-  console.log(foundSuggestedMedia ? 'clicked on suggested media' : 'no suggested media found')
+  if (process.env.LINKEDIN !== 'true') {
+    console.log('waiting for suggested media')
+    await page.waitFor(5000)
+    console.log('trying to select suggested media')
+    const foundSuggestedMedia = await page.evaluate(selector => {
+      const el = document.querySelector(selector)
+      if (el && el.click) el.click()
+      return !!el
+    }, '[class*="SuggestedMediaBox__thumbnailContainer"]:first-child')
+    console.log(foundSuggestedMedia ? 'clicked on suggested media' : 'no suggested media found')
+  }
 
   await page.click('[class*="UpdateSaver"] button[class*="BaseButton"]:not([class*="dropdownMenuItem"])')
   console.log('clicked on "Add to queue" button')
