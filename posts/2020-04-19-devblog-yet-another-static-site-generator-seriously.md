@@ -106,7 +106,7 @@ With Jekyll or 11ty this was a lil bit slower, but still very usable.
 
 The thing that made me ditch Jekyll and 11ty were its **dependencies**.
 
-Jekyll needed Ruby, gems, bundles and god knows what else. There is also the possibility to build your site via Docket, but come on.
+Jekyll needed Ruby, gems, bundles and god knows what else. There is also the possibility to build your site via Docker, but come on.
 
 11ty was the closest to my favourite tools for building my site, although it slowed down over time as I added new blog posts and files. The installation on the CI took also a bit longer than expected, with **32 dependencies** (*devblog uses 8 dependencies*). But that would be also feasible if you install globally and cache correctly.. (of course 11ty offer much much more.. maybe too much for me)
 
