@@ -63,6 +63,9 @@ module.exports = {
     name: 'encode',
     filter: (content) => encodeURIComponent(content || '')
   }, {
+    name: 'withDomain',
+    filter: (url) => `https://cri.dev${url}`
+  }, {
     name: 'decode',
     filter: (str) => {
       return decodeURIComponent(str)
@@ -91,6 +94,11 @@ module.exports = {
       } catch (err) {
         return date
       }
+    }
+  }, {
+    name: 'today',
+    filter: () => {
+      return new Date().toISOString().substring(0, 10)
     }
   }, {
     name: 'isoday',
