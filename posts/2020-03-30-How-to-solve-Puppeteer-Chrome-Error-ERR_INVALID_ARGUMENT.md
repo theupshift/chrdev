@@ -7,7 +7,7 @@ tags:
   - tutorial
   - puppeteer
   - javascript
-  - 100DaysofCode
+  - 100DaysOfCode
   - scraping
 ---
 

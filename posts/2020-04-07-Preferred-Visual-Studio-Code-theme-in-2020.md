@@ -7,7 +7,7 @@ tags:
   - general
   - visualstudiocode
   - programming
-  - 100DaysofCode
+  - 100DaysOfCode
 ---
 
 Below my favourite Visual Studio Code theme I've come to like over time.

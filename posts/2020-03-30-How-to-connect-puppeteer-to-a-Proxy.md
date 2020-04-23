@@ -9,7 +9,7 @@ tags:
   - javascript
   - featured
   - scraping
-  - 100DaysofCode
+  - 100DaysOfCode
 image: https://images.unsplash.com/photo-1526666361175-e3595627c376?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 

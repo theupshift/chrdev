@@ -9,11 +9,11 @@ tags:
   - devblog
   - blogging
   - programming
+  - 100DaysOfCode
   - javascript
   - nodejs
   - tdd
   - refactoring
-  - 100DaysofCode
 image: https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 

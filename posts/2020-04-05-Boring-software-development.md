@@ -9,7 +9,7 @@ tags:
   - programming
   - tdd
   - refactoring
-  - 100DaysofCode
+  - 100DaysOfCode
 image: /assets/images/posts/bored.png
 ---
 
