@@ -6,6 +6,10 @@ tags:
   - post
   - featured
   - general
+  - programming
+  - tdd
+  - refactoring
+  - 100DaysofCode
 image: /assets/images/posts/bored.png
 ---
 

@@ -9,6 +9,8 @@ tags:
   - puppeteer
   - browserless
   - scraping
+  - programming
+  - 100DaysofCode
 image: https://images.unsplash.com/photo-1472212712724-0f9997e1fe6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 

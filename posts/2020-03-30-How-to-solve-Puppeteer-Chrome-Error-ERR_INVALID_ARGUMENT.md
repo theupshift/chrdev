@@ -7,6 +7,8 @@ tags:
   - tutorial
   - puppeteer
   - javascript
+  - 100DaysofCode
+  - scraping
 ---
 
 I was encountering this error when trying to set up a puppeteer instance with a proxy.

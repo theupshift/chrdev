@@ -5,6 +5,8 @@ layout: post.njk
 tags:
   - post
   - tutorial
+  - programming
+  - git
 ---
 
 If you add a `remote` to an existing repository or you create a new branch,

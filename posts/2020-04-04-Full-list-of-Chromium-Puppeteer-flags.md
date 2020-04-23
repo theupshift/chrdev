@@ -8,6 +8,7 @@ tags:
   - puppeteer
   - scraping
   - featured
+  - 100DaysofCode
 image: /assets/images/posts/puppeteer.png
 ---
 

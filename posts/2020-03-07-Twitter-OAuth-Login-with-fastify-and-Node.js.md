@@ -10,6 +10,9 @@ tags:
   - javascript
   - twitter
   - oauth
+  - fastify
+  - programming
+  - 100DaysofCode
 image: https://images.unsplash.com/photo-1507235071172-438ca6950a8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 
