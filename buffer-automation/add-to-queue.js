@@ -28,7 +28,7 @@ module.exports = async function (page, shareText) {
   await page.type('[contenteditable="true"]', ' ')
   console.log('finished typing message')
 
-  if (process.env.LINKEDIN !== 'true') {
+  if (false && process.env.LINKEDIN !== 'true') {
     let tries = 0
     let foundSuggestedMedia = false
     const suggestedMediaSelector = '[class*="SuggestedMediaBox__thumbnailContainer"]:first-child'
