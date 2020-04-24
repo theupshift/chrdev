@@ -27,4 +27,4 @@ echo "tags:
   - post" >> $post_full_path
 echo "---" >> $post_full_path
 echo "" >> $post_full_path
-code $post_full_path
+vim $post_full_path
