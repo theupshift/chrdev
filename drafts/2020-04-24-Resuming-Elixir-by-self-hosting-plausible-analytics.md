@@ -38,3 +38,14 @@ Watched ["Elixir: A Mini-Documentary 2018"](https://doc.honeypot.io/elixir-docum
 
 [![elixir mini documentary](/assets/images/posts/elixir/elixir-mini-documentary.png)](https://doc.honeypot.io/elixir-documentary-2018/)
 
+# 2020/04/25
+
+Started following these accounts on Twitter:
+- [@elixirlang](https://twitter.com/elixirlang)
+- [@elixirdigest](https://twitter.com/elixirdigest)
+- [@ErlangSolutions](https://twitter.com/ErlangSolutions)
+- [@chris_mccord](https://twitter.com/chris_mccord)
+- [@elixirstatus](https://twitter.com/elixirstatus)
+- [@gregyoung](https://twitter.com/gregyoung)
+- [@ElixirTip](https://twitter.com/ElixirTip)
+- [@elixirforum](https://twitter.com/elixirforum)
