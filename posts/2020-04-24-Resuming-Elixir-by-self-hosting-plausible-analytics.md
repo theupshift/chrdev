@@ -60,3 +60,51 @@ Then this happened
 
 [![greg young tweet](/assets/images/posts/elixir/greg-young-tweet.png)](https://twitter.com/gregyoung/status/1253843890114899969)
 
+# Getting started with the `plausible` elixir code
+
+```bash
+git clone git@github.com:christian-fei/plausible.git
+cd plausible
+```
+
+Download deps
+
+```bash
+mix deps.get
+```
+
+Run the tests
+
+```bash
+mix test
+```
+
+This yields the error about the missing postgresql connection
+
+```bash
+09:11:52.095 [error] GenServer #PID<0.6248.0> terminating
+** (DBConnection.ConnectionError) tcp connect (localhost:5432): connection refused - :econnrefused
+    (db_connection) lib/db_connection/connection.ex:87: DBConnection.Connection.connect/2
+    (connection) lib/connection.ex:622: Connection.enter_connect/5
+    (stdlib) proc_lib.erl:249: :proc_lib.init_p_do_apply/3
+Last message: nil
+** (Mix) The database for Plausible.Repo couldn't be created: killed
+```
+
+So,let's boot up a postgresql instance with `docker`:
+
+```bash
+docker run -d -p 5432:5432 -v postgres-data:/var/lib/postgresql/data --name postgres1 postgres
+```
+
+Now all the tests run fine, as expected:
+
+```bash
+~/D/p/plausible (master) mix test
+.........................................................................................................................................................................................................................
+
+Finished in 5.6 seconds
+217 tests, 0 failures
+
+Randomized with seed 396356
+```
