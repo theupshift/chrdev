@@ -62,6 +62,21 @@ Then this happened
 
 [![greg young tweet](/assets/images/posts/elixir/greg-young-tweet.png)](https://twitter.com/gregyoung/status/1253843890114899969)
 
+# Self hosting and license
+
+Seems all sorted out right away.
+
+The repository on Github states:
+
+> Can Plausible be self-hosted?
+> At the moment we don't provide support for easily self-hosting the code. Currently, the purpose of keeping the code open-source is to be transparent with the community about how we collect and process data.
+
+And about the license:
+
+> Plausible is open-source under the most permissive MIT license. There are no restrictions on redistributing, modifying or using this software for any reason.
+
+Let's go then!
+
 # Getting started with the `plausible` elixir code
 
 ```bash
@@ -219,6 +234,94 @@ Commented this line, and my local site is finally set up!
 
 ![plausible-127.0.0.1-tracking.png](/assets/images/posts/elixir/plausible-127.0.0.1-tracking.png)
 
+### removing concept of "trial" from the code
 
+In `lib/plausible_web/templates/layout/app.html.eex` you can find the part that shows the remaining trial days.
+
+It's an `eex` file (like `.erb` in Ruby), which stands for Embedded Elixir. Used as templates in Elixir for short. [More info here.](https://elixirschool.com/en/lessons/specifics/eex/).
+
+```elixir
+<%= if @conn.assigns[:current_user].subscription == nil do %>
+  <li class="mr-6 hidden sm:block">
+    <%= link(trial_notificaton(@conn.assigns[:current_user]), to: "/settings") %>
+  </li>
+<% else %>
+  <li class="mr-6 hidden sm:block">
+    <%= link("Give feedback", to: "/feedback") %>
+  </li>
+<% end %>
+```
+
+So, a user has a subscription. I want this subscription to be valid and "active" forever.
+
+### Faking the `trial_expiry_date`
+
+Looking through the code, `Plausible.Repo`, `Plausible.Auth.User` and `Plausible.Billing.Subscription` seem interesting files to dig deeper into.
+
+Load your user, in an Elixir Interactive Shell `iex`.
+
+Run `iex -S mix`:
+
+```elixir
+user = Plausible.Repo.one(Plausible.Auth.User)
+# we got the user (there is only one locally..)
+```
+
+Importing `Ecto.Changeset` allows you to `change` given properties on an `Ecto` model:
+
+```elixir
+import Ecto.Changeset
+```
+
+Let's give our lucky user **100 years** of free trial:
+
+This returns an `Ecto` changeset, that we'll later use to update the user model:
+
+```elixir
+changeset = Plausible.Repo.one(Plausible.Auth.User) |> change(trial_expiry_date: Timex.today() |> Timex.shift(years: 100))
+
+#Ecto.Changeset<
+  action: nil,
+  changes: %{trial_expiry_date: ~D[2120-04-25]},
+  errors: [],
+  data: #Plausible.Auth.User<>,
+  valid?: true
+>
+```
+
+Great. Now update the user through `Plausible.Repo.update!`:
+
+```elixir
+Plausible.Repo.update!(changeset)
+```
+
+And the result is the following:
+
+```elixir
+UPDATE "users" SET "trial_expiry_date" = $1, "updated_at" = $2 WHERE "id" = $3 [~D[2120-04-25], ~N[2020-04-25 14:51:39], 1]
+%Plausible.Auth.User{
+  __meta__: #Ecto.Schema.Metadata<:loaded, "users">,
+  email: "crifei93@gmail.com",
+  google_auth: #Ecto.Association.NotLoaded<association :google_auth is not loaded>,
+  id: 1,
+  inserted_at: ~N[2020-04-25 09:48:16],
+  last_seen: ~N[2020-04-25 14:10:00],
+  name: "Christian Fei",
+  password: nil,
+  password_hash: "$2b$12$U1QBbtTh/4JAsCYuHdrCfeg.uMQGZwEbMWlmNWXPryKgdOgJBKosS",
+  site_memberships: #Ecto.Association.NotLoaded<association :site_memberships is not loaded>,
+  sites: #Ecto.Association.NotLoaded<association :sites is not loaded>,
+  subscription: #Ecto.Association.NotLoaded<association :subscription is not loaded>,
+  trial_expiry_date: ~D[2120-04-25],
+  updated_at: ~N[2020-04-25 14:51:39]
+}
+```
+
+|  |  |
+|--|--:|
+| From 30 days of trial | we managed to "extend" it til the year **2120** |
+| ![trial-before.png](/assets/images/posts/elixir/trial-before.png) | ![trial-after.png](/assets/images/posts/elixir/trial-after.png) |
+
+Nice.
 
 # to be continued
