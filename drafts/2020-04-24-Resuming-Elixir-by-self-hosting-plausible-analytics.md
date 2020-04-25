@@ -12,11 +12,17 @@ tags:
 image: /assets/images/posts/elixir/elixir.png
 ---
 
-As soon as Elixir was released a few years ago, I got into it and started learning and building software on top of it.
+As soon as Elixir was released a few years ago, I got into it and started learning and building things with of it. Still at the very beginning
 
 Thanks to the help of some [dear](https://twitter.com/pdincau) [colleagues](https://twitter.com/joebew42) I had the opportunity to get valuable feedback and learn even more concepts about GenServers, the BEAM virtual machine, ETS and Erlang+Elixir in general.
 
-I post-poned this too much now, it's time to get back to the distributed world of programming, so, without further ado, below my Journey to get my hands dirty with Elixir, the BEAM and [plausible analytics](http://plausible.io/)!
+I also went to my first Erlang+Elixir conf, and had the chance & honour to meet Joe Armstrong, ![#rememberingjoe](https://twitter.com/christian_fei/status/1119726548498767873?s=21).
+
+On 2020/04/22, during quarantine, I decided to get back to Elixir (who knows: maybe even dabble with Erlang directly).
+
+I post-poned this too much now, it's time to get back to the distributed programming world.
+
+Without further ado, below my journey (in form of a daily journal) about learning more about Elixir (again), the BEAM, [plausible analytics](http://plausible.io/) and things discovered along the way!
 
 ---
 
@@ -49,3 +55,8 @@ Started following these accounts on Twitter:
 - [@gregyoung](https://twitter.com/gregyoung)
 - [@ElixirTip](https://twitter.com/ElixirTip)
 - [@elixirforum](https://twitter.com/elixirforum)
+
+Then this happened
+
+[![greg young tweet](/assets/images/posts/elixir/greg-young-tweet.png)](https://twitter.com/gregyoung/status/1253843890114899969)
+
