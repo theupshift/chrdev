@@ -12,7 +12,7 @@ tags:
 image: /assets/images/posts/elixir/elixir.png
 ---
 
-As soon as Elixir was released a few years ago, I got into it and started learning and building things with of it. Still at the very beginning
+As soon as Elixir was released a few years ago, I got into it and started learning and building things with it.
 
 Thanks to the help of some [dear](https://twitter.com/pdincau) [colleagues](https://twitter.com/joebew42) I had the opportunity to get valuable feedback and learn even more concepts about GenServers, the BEAM virtual machine, ETS and Erlang+Elixir in general.
 
