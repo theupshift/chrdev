@@ -18,7 +18,7 @@ As soon as Elixir was released a few years ago, I got into it and started learni
 
 Thanks to the help of some [dear](https://twitter.com/pdincau) [colleagues](https://twitter.com/joebew42) I had the opportunity to get valuable feedback and learn even more concepts about GenServers, the BEAM virtual machine, ETS and Erlang+Elixir in general.
 
-I also went to my first Erlang+Elixir conf, and had the chance & honour to meet Joe Armstrong, ![#rememberingjoe](https://twitter.com/christian_fei/status/1119726548498767873?s=21).
+I also went to my first Erlang+Elixir conf, and had the chance & honour to meet Joe Armstrong, [#rememberingjoe](https://twitter.com/christian_fei/status/1119726548498767873?s=21).
 
 On 2020/04/22, during quarantine, I decided to get back to Elixir (who knows: maybe even dabble with Erlang directly).
 
