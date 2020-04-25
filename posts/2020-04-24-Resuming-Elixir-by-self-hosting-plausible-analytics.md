@@ -7,6 +7,7 @@ tags:
   - post
   - featured
   - elixir
+  - elixirlang
   - myelixirstatus
   - plausibleanalytics
   - journey
