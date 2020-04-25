@@ -213,7 +213,7 @@ Uuuuuuuh! It's working!
 Included the following script on my blog to set up local tracking:
 
 ```html
-<script async defer data-domain="127.0.0.1" src="https://plausible.io/js/plausible.js"></script>
+<script async defer data-domain="127.0.0.1" src="http://localhost:8000/js/plausible.js"></script>
 ```
 
 Clicked the activation link printed in the console, instead of the email (since the email wasn't sent).
