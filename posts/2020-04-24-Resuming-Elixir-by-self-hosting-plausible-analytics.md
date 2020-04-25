@@ -1,6 +1,7 @@
 ---
 title: Resuming Elixir by self hosting plausible analytics
 date: 2020-04-24
+updated: 2020-04-25
 layout: post.njk
 tags:
   - post
