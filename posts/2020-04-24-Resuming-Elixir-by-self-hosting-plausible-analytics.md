@@ -207,7 +207,7 @@ Clicked the activation link printed in the console, instead of the email (since 
 
 While I set up the local tracking for `127.0.0.1:8080`, I noticed that the website wasn't registering.
 
-It kept showing "Waiting for first pageview on 127.0.0.1:8080"
+It kept showing "Waiting for first pageview on 127.0.0.1"
 
 So, looking through the source, I noticed that in the files `p.js` and `plausible.js`, there was a guard to ignore local tracking:
 
