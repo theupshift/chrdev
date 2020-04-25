@@ -111,9 +111,113 @@ Finished in 5.6 seconds
 Randomized with seed 396356
 ```
 
+# Running locally with `mix phx.server`
 
+```bash
+mix phx.server
+```
 
+Got the error
 
+```bash
+[error] Postgrex.Protocol (#PID<0.5924.0>) failed to connect: ** (Postgrex.Error) FATAL 3D000 (invalid_catalog_name) database "plausible_dev" does not exist
+```
+
+Solved with `mix ecto.create`:
+
+```bash
+~/D/p/plausible (master) mix ecto
+Ecto v3.4.2
+A toolkit for data mapping and language integrated query for Elixir.
+
+Available tasks:
+
+mix ecto.create        # Creates the repository storage
+mix ecto.drop          # Drops the repository storage
+mix ecto.dump          # Dumps the repository database structure
+mix ecto.gen.migration # Generates a new migration for the repo
+mix ecto.gen.repo      # Generates a new repository
+mix ecto.load          # Loads previously dumped database structure
+mix ecto.migrate       # Runs the repository migrations
+mix ecto.migrations    # Displays the repository migration status
+mix ecto.reset         # Alias defined in mix.exs
+mix ecto.rollback      # Rolls back the repository migrations
+mix ecto.setup         # Alias defined in mix.exs
+~/D/p/plausible (master) mix ecto.create
+The database for Plausible.Repo has been created
+```
+
+Run the migrations:
+
+```bash
+~/D/p/plausible (master) mix ecto.migrate
+
+11:16:39.587 [info]  == Running 20181201181549 Plausible.Repo.Migrations.AddPageviews.change/0 forward
+
+11:16:39.589 [info]  create table pageviews
+
+11:16:39.604 [info]  == Migrated 20181201181549 in 0.0s
+
+11:16:39.636 [info]  == Running 20181214201821 Plausible.Repo.Migrations.AddNewVisitorToPageviews.change/0 forward
+
+11:16:39.636 [info]  alter table pageviews
+
+11:16:39.638 [info]  == Migrated 20181214201821 in 0.0s
+
+...
+
+```
+
+Almost there:
+
+```bash
+~/D/p/plausible (master) mix phx.server
+[info] Running PlausibleWeb.Endpoint with cowboy 2.7.0 at 0.0.0.0:8000 (http)
+[error] Could not start node watcher because script "/Users/christian/Documents/projects/plausible/assets/node_modules/webpack/bin/webpack.js" does not exist. Your Phoenix application is still running, however assets won't be compiled. You may fix this by running "cd assets && npm install".
+[info] Access PlausibleWeb.Endpoint at http://localhost:8000
+```
+
+I had to compile the `assets` with `npm install`, after that, everything seems fine:
+
+```bash
+~/D/p/plausible (master) mix phx.server
+[info] Running PlausibleWeb.Endpoint with cowboy 2.7.0 at 0.0.0.0:8000 (http)
+[info] Access PlausibleWeb.Endpoint at http://localhost:8000
+
+webpack is watching the files…
+```
+
+Uuuuuuuh! It's working!
+
+![plausible-localhost.png](/assets/images/posts/elixir/plausible-localhost.png)
+
+### Registering 127.0.0.1:8080
+
+![plausible-registration.png](/assets/images/posts/elixir/plausible-registration.png)
+
+Included the following script on my blog to set up local tracking:
+
+```html
+<script async defer data-domain="127.0.0.1" src="https://plausible.io/js/plausible.js"></script>
+```
+
+Clicked the activation link printed in the console, instead of the email (since the email wasn't sent).
+
+---
+
+While I set up the local tracking for `127.0.0.1:8080`, I noticed that the website wasn't registering.
+
+It kept showing "Waiting for first pageview on 127.0.0.1:8080"
+
+So, looking through the source, I noticed that in the files `p.js` and `plausible.js`, there was a guard to ignore local tracking:
+
+```js
+if (/^localhost$|^127(?:\.[0-9]+){0,2}\.[0-9]+$|^(?:0*\:)*?:?0*1$/.test(window.location.hostname)) return ignore('website is running locally');
+```
+
+Commented this line, and my local site is finally set up!
+
+![plausible-127.0.0.1-tracking.png](/assets/images/posts/elixir/plausible-127.0.0.1-tracking.png)
 
 
 
