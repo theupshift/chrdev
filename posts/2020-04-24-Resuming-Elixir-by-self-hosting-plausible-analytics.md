@@ -7,7 +7,7 @@ tags:
   - featured
   - elixir
   - myelixirstatus
-  - plausible-analytics
+  - plausibleanalytics
   - journey
 image: /assets/images/posts/elixir/elixir.png
 ---
