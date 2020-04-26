@@ -436,4 +436,8 @@ I hope that's enough :)
 
 - Remove the concept of subscription and trial, further investigation needed.
 
+- Set up a Google Client ID and Secret to get search keywords through the google console
+
+- Same for Twitter
+
 Let me know what you think on [twitter @christian_fei](https://twitter.com/christian_fei)
