@@ -380,16 +380,17 @@ volumes:
 services:
   postgres:
     image: postgres:11-alpine
+    restart: always
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
   web:
     build: .
-    command: mix do ecto.create, ecto.migrate
+    restart: always
     environment:
       - MIX_ENV=docker
       - PORT=8000
     ports:
-      - "8000:8000"
+      - "80:8000"
     depends_on:
       - postgres
 ```
@@ -399,4 +400,38 @@ The application runs in the environment `docker`, which is similar to `dev`, exc
 This because the `web` container "knows" only the `postgres` host, that is resolved to the container and lets phoenix connect to postgres in the Docker environment.
 
 
-# to be continued
+## Deployment with docker-compose
+
+Easy peasy. Set up a [Droplet with DigitalOcean, the smallest one for 5$ is well more than fine.](https://m.do.co/c/880e8f681b50).
+
+Followed this guide to a [basic installation of docker and docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04).
+
+Read about how to always restart the docker containers (also at boot) with [`--restart always`](https://docs.docker.com/config/containers/start-containers-automatically/).
+
+Had to change the `BASE_URL` when building the static assets, to point to `plausible.cri.dev`.
+
+Sbam. [plausible.cri.dev](https://plausible.cri.dev/) is running behind Cloudflare with SSL, in a docker containers with docker-compose, in the [smallest DigitalOcean droplet](https://m.do.co/c/880e8f681b50).
+
+PS: don't even try to out smart it and sign up to it, no signup email is sent so you won't be able to access the dashboard.
+
+Additionally, had to add this snippet to this very site:
+
+```html
+<script async defer data-domain="cri.dev" src="https://plausible.cri.dev/js/plausible.js"></script>
+```
+
+
+
+![plausible.cri.dev.png](/assets/images/posts/elixir/plausible.cri.dev.png)
+
+Ah, and then I set my personal user's trial expiration date to 100 years in the future.
+
+I hope that's enough :)
+
+![plausible.cri.dev.trial.png](/assets/images/posts/elixir/plausible.cri.dev.trial.png)
+
+# Next up?
+
+Probably it's best to disable signups, have to dig deeper in the code.
+
+Let me know what you think on [twitter @christian_fei](https://twitter.com/christian_fei)
