@@ -432,6 +432,8 @@ I hope that's enough :)
 
 # Next up?
 
-Probably it's best to disable signups, have to dig deeper in the code.
+- Probably it's best to disable signups, have to dig deeper in the code.
+
+- Remove the concept of subscription and trial, further investigation needed.
 
 Let me know what you think on [twitter @christian_fei](https://twitter.com/christian_fei)
