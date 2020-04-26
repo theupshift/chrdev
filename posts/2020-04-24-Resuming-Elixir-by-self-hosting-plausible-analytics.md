@@ -324,4 +324,79 @@ UPDATE "users" SET "trial_expiry_date" = $1, "updated_at" = $2 WHERE "id" = $3 [
 
 Nice.
 
+
+# 2020/04/26
+
+Trying to run plausible with Docker.
+
+Stumbled upon [bitwalker/alpine-elixir-phoenix](https://github.com/bitwalker/alpine-elixir-phoenix) which seems like a nice (and up to date) docker image for phoenix projects.
+
+### Dockerfile
+
+Added a Dockerfile for plausible and it looks like this:
+
+```dockerfile
+FROM bitwalker/alpine-elixir-phoenix:latest
+
+EXPOSE 8000
+
+ADD . .
+
+RUN mix do deps.get, deps.compile
+
+ADD assets/package.json assets/
+RUN cd assets && \
+    npm install
+
+RUN cd assets/ && \
+    npm run deploy && \
+    cd - && \
+    mix do compile, phx.digest
+
+USER root
+
+ENTRYPOINT ["/opt/app/run.sh"]
+```
+
+Where `run.sh` sets up Ecto and starts phoenix:
+
+```bash
+#!/bin/sh
+
+cd /opt/app
+
+mix ecto.create
+mix ecto.migrate
+mix phx.server
+```
+
+To stitch everything together, this is the `docker-compose.yml` I came up:
+
+```yml
+version: "3"
+volumes:
+  node_modules:
+  build:
+services:
+  postgres:
+    image: postgres:11-alpine
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+  web:
+    build: .
+    command: mix do ecto.create, ecto.migrate
+    environment:
+      - MIX_ENV=docker
+      - PORT=8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+```
+
+The application runs in the environment `docker`, which is similar to `dev`, except for the `Plausible.Repo` `hostname`, that is set to `postgres`.
+
+This because the `web` container "knows" only the `postgres` host, that is resolved to the container and lets phoenix connect to postgres in the Docker environment.
+
+
 # to be continued
