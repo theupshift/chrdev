@@ -12,6 +12,7 @@ tags:
   - plausibleanalytics
   - journey
 image: /assets/images/posts/elixir/elixir.png
+hackernews: https://news.ycombinator.com/item?id=22996337
 ---
 
 As soon as Elixir was released a few years ago, I got into it and started learning and building things with it.
