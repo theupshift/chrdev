@@ -1,9 +1,14 @@
 ---
-title: Road to Elixir: Monitor Crypto assets
+title: "Road to Elixir: Monitor Crypto assets"
 date: 2020-04-28
 layout: post.njk
 tags:
   - post
+  - featured
+  - elixir
+  - elixirlang
+  - myelixirstatus
+  - journey
 updated: 2020-04-28
 ---
 
