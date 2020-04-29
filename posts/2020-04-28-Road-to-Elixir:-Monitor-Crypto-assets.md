@@ -147,6 +147,12 @@ HTTPoison.get! "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/lates
 
 Finally! A `%HTTPoison.Response` struct is returned with the property body.
 
+# Let's test it
 
+Found this little gem about [Elixir Test Mocking with Mox](https://www.thegreatcodeadventure.com/elixir-test-mocking-with-mox/).
+
+The general advice is:
+
+Define a behaviour for the `CoinmarketcapClient` (read more about [Elixir behaviours](https://elixirschool.com/en/lessons/advanced/behaviours/)) so that *only* during tests, a mock behaviour is used for testing purposes.
 
 # to be continued
