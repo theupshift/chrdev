@@ -9,7 +9,8 @@ tags:
   - elixirlang
   - myelixirstatus
   - journey
-updated: 2020-04-28
+updated: 2020-04-29
+image: /assets/images/posts/elixir/elixir.png
 ---
 
 Let's try to monitor crypto assets through the [Coinmarketcap API](https://coinmarketcap.com/), with Elixir!
