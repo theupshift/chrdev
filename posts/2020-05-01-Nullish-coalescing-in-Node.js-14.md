@@ -24,7 +24,7 @@ You *could* be inclined to write something like this:
 const trialActive = user.trialActive || true
 ```
 
-But what happens if the `user` has the property set to `false`? The operator `||` will use the left-hand side of the expression, and set the variable `trialActive` to `true`!
+But what happens if the `user` has the property set to `false`? The operator `||` will use the right-hand side of the expression, and set the variable `trialActive` to `true`!
 
 That's not what we want. Only if the `trialActive` property is unset (e.g. `null` or `undefined`), the value should be assigned to `true`, not otherwise.
 
