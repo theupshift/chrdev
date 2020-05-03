@@ -1,4 +1,388 @@
 pocket_items:
+  - title: "Migrate from Gmail to ProtonMail"
+    url: https://protonmail.com/support/knowledge-base/transitioning-from-gmail-to-protonmail/
+    date: 2020-05-03
+    id: 1270651586
+  - title: "Why should you trust ProtonMail?"
+    url: https://protonmail.com/blog/is-protonmail-trustworthy/
+    date: 2020-05-03
+    id: 2736080309
+  - title: "How To Say No"
+    url: https://starterstory.com/how-to-say-no
+    date: 2020-05-03
+    id: 2940596613
+  - title: "Time is the only real currency we have"
+    url: https://blog.theboringtech.io/2020/04/16/time_is_the_real_currency.html
+    date: 2020-05-03
+    id: 2962130227
+  - title: "I’ve Consed Every Pair"
+    url: https://medium.com/@peternorvig/ive-consed-every-pair-54ef5d9d93b6
+    date: 2020-05-03
+    id: 2968216574
+  - title: "Are we too busy to enjoy life?"
+    url: https://nesslabs.com/too-busy-to-enjoy-life
+    date: 2020-05-03
+    id: 2968764098
+  - title: "One of the less horrible of the many dystopian futures visited by the Time Traveller"
+    url: https://www.nature.com/articles/d41586-020-00855-2
+    date: 2020-05-03
+    id: 2968770087
+  - title: "Five Reasons Why Bitcoin Might Not Rally Right After The Halving"
+    url: https://medium.com/@cryptowhalex/five-reasons-why-bitcoin-might-not-rally-right-after-the-halving-bc8a77fbb67a
+    date: 2020-05-03
+    id: 2970873168
+  - title: "High-Performing Teams Need Psychological Safety. Here’s How to Create It"
+    url: https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it
+    date: 2020-05-03
+    id: 2971147140
+  - title: "The Day You Became A Better Writer"
+    url: https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html
+    date: 2020-05-03
+    id: 2971230420
+  - title: "AIDA (marketing)"
+    url: https://en.wikipedia.org/wiki/AIDA_(marketing)
+    date: 2020-05-02
+    id: 104805361
+  - title: "Shelling Out: The Origins of Money"
+    url: https://nakamotoinstitute.org/shelling-out/
+    date: 2020-05-02
+    id: 628824912
+  - title: "10x Developer"
+    url: https://www.techopedia.com/definition/31673/10x-developer
+    date: 2020-05-02
+    id: 1653491625
+  - title: "The AIDA Model"
+    url: https://www.smartinsights.com/traffic-building-strategy/offer-and-message-development/aida-model/
+    date: 2020-05-02
+    id: 2309278305
+  - title: "My Elixir journey in GO.Exchange"
+    url: https://medium.com/@theesit/my-elixir-journey-in-go-exchange-3d9934e53790
+    date: 2020-05-02
+    id: 2931855258
+  - title: "Elixir Pubsub In Less Than 50 Lines"
+    url: https://dev.to/alexdesousa/elixir-pubsub-in-less-than-50-lines-1hal
+    date: 2020-05-02
+    id: 2936394163
+  - title: "This Is Machine Learning, Part 1: Learning vs. Coding"
+    url: https://medium.com/swlh/this-is-machine-learning-part-1-learning-vs-coding-789343df1e30
+    date: 2020-05-02
+    id: 2967935057
+  - title: "App Immuni, ecco tutte le cose false o confuse dette dal Governo"
+    url: https://www.agendadigitale.eu/sanita/app-immuni-ecco-tutte-le-cose-false-o-confuse-dette-dal-governo/
+    date: 2020-05-02
+    id: 2969829824
+  - title: "How to Motivate Workers in Tough Times"
+    url: https://guides.wsj.com/management/managing-your-people/how-to-motivate-workers-in-tough-times/
+    date: 2020-05-01
+    id: 2968560865
+  - title: "Rules of thumb for a 1x developer"
+    url: https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html
+    date: 2020-05-01
+    id: 2969219187
+  - title: "More Information on Fair Use"
+    url: https://www.copyright.gov/fair-use/more-info.html
+    date: 2020-04-30
+    id: 936063722
+  - title: "A Site Faking Jordan Peterson's Voice Shuts Down After Peterson Decries Deepfakes"
+    url: https://www.vice.com/en_us/article/43kwgb/not-jordan-peterson-voice-generator-shut-down-deepfakes
+    date: 2020-04-30
+    id: 2704344264
+  - title: "I'm building a SaaS for just one person"
+    url: https://news.ycombinator.com/item?id=22748871
+    date: 2020-04-30
+    id: 2935334554
+  - title: "Bad Code and Taxes"
+    url: https://thedailywtf.com/articles/bad-code-and-taxes
+    date: 2020-04-30
+    id: 2958604905
+  - title: "To Microservices and Back Again - Why Segment Went Back to a Monolith"
+    url: https://www.infoq.com/news/2020/04/microservices-back-again/
+    date: 2020-04-30
+    id: 2964331652
+  - title: "With questionable copyright claim, Jay-Z orders deepfake audio parodies off YouTube"
+    url: https://waxy.org/2020/04/jay-z-orders-deepfake-audio-parodies-off-youtube/
+    date: 2020-04-30
+    id: 2965745250
+  - title: "The Great Reset"
+    url: https://www.mercatus.org/bridge/commentary/great-reset-marc-mndreessens-recent-exhortation-to-build-is-exactly-right
+    date: 2020-04-30
+    id: 2966895484
+  - title: "Redis 6.0.0 GA is out!"
+    url: http://antirez.com/news/132
+    date: 2020-04-30
+    id: 2967731471
+  - title: "Now that my entire life is online, how do I protect my personal data?"
+    url: https://blog.mozilla.org/firefox/data-request-ccpa
+    date: 2020-04-30
+    id: 2967825140
+  - title: "Mocks and explicit contracts"
+    url: http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/
+    date: 2020-04-29
+    id: 1071961909
+  - title: "Amazon is holding over 4.2 million dollars during a pandemic, suffocating our business!"
+    url: https://sellercentral.amazon.com/forums/t/amazon-is-holding-over-4-2-million-dollars-during-a-pandemic-suffocating-our-business/611187
+    date: 2020-04-29
+    id: 2950011234
+  - title: "The Anti-Amazon Alliance"
+    url: https://stratechery.com/2020/the-anti-amazon-alliance/
+    date: 2020-04-29
+    id: 2965411656
+  - title: "Absolute and Relative Complexity"
+    url: https://khalilstemmler.com/articles/software-professionalism/absolute-and-relative-complexity/
+    date: 2020-04-29
+    id: 2966644277
+  - title: "Power law"
+    url: https://en.wikipedia.org/wiki/Power_law
+    date: 2020-04-28
+    id: 467283
+  - title: "Elixir School"
+    url: https://elixirschool.com/en/lessons/advanced/behaviours/
+    date: 2020-04-28
+    id: 1833020761
+  - title: "10 Billionaires Gained $51 Billion This Week As Markets Edged Up From The Stock Crash"
+    url: https://www.forbes.com/sites/hayleycuccinello/2020/04/11/billionaire-gainers-ortega-bezos-buffett/
+    date: 2020-04-28
+    id: 2952766609
+  - title: "How to avoid Amazon: the definitive guide to online shopping – without the retail titan"
+    url: https://www.theguardian.com/technology/2020/apr/27/how-to-avoid-amazon-the-definitive-guide-to-online-shopping-without-the-retail-titan
+    date: 2020-04-28
+    id: 2964076356
+  - title: "Using Event Storming and DDD to prototype (micro)services and NFRs - 1"
+    url: https://philippe.bourgau.net/using-event-storming-and-ddd-to-prototype-microservices-and-nfrs-1/
+    date: 2020-04-28
+    id: 2965064867
+  - title: "Quantified Quarantine Report"
+    url: https://julian.digital/2020/04/27/quantified-quarantine-report/
+    date: 2020-04-28
+    id: 2965091251
+  - title: "PARETO PRIORITIZATION (the idea that you should focus on the 20% that brings the 80% of value) is not only about using well your limited tim…"
+    url: https://threadreaderapp.com/thread/1254984976065388551.html
+    date: 2020-04-28
+    id: 2965632293
+  - title: "The three forces of Arrange, Act and Assert"
+    url: http://joebew42.github.io/2020/04/24/arrange-and-act/
+    date: 2020-04-28
+    id: 2965633529
+  - title: "How we improved the communication between developers and designers thanks to retrospectives (and how to do it yourself)"
+    url: https://belkadigital.com/articles/better-comunication-retrospective-design-development
+    date: 2020-04-28
+    id: 2965775894
+  - title: "How to deal with Technical Debt in Scrum"
+    url: https://medium.com/the-liberators/how-to-deal-with-technical-debt-in-scrum-f4ec3481eabb
+    date: 2020-04-27
+    id: 2203470359
+  - title: "Twitter vs Mastodon: Why Are Indian Users Choosing Mastodon Over Twitter?"
+    url: https://fossbytes.com/twitter-vs-mastodon-users-choosing-mastodon-over-twitter/
+    date: 2020-04-27
+    id: 2790081989
+  - title: "A Practical Guide to Memory Leaks in Node.js"
+    url: https://www.arbazsiddiqui.me/a-practical-guide-to-memory-leaks-in-nodejs
+    date: 2020-04-27
+    id: 2930786897
+  - title: "An Ode to Code Golf"
+    url: https://rauchg.com/2020/an-ode-to-code-golf
+    date: 2020-04-27
+    id: 2963603709
+  - title: "Confirmed: Twitter Kills Off SMS Notifications & Posting In Most Countries And Deletes SMS Followers Without Providing Any Warning"
+    url: https://www.dansdeals.com/more/site-announcements/twitter-kills-off-sms-notifications-posting-countries-deletes-sms-followers-without-providing-warning/
+    date: 2020-04-27
+    id: 2964520168
+  - title: "Why You’re So Irritated by Everything"
+    url: https://forge.medium.com/why-youre-so-irritated-by-everything-ae8ead4ad63e
+    date: 2020-04-27
+    id: 2964744635
+  - title: "Why should I use a Reverse Proxy if Node.js is Production-Ready?"
+    url: https://medium.com/intrinsic/why-should-i-use-a-reverse-proxy-if-node-js-is-production-ready-5a079408b2ca
+    date: 2020-04-27
+    id: 2964744822
+  - title: "The Most Damaging Tweet Ever"
+    url: https://medium.com/better-marketing/the-most-damaging-tweet-ever-abcf467b0158
+    date: 2020-04-27
+    id: 2964746331
+  - title: "TDD Changed My Life"
+    url: https://medium.com/javascript-scene/tdd-changed-my-life-5af0ce099f80
+    date: 2020-04-27
+    id: 2964747400
+  - title: "Node.js version 14 available now"
+    url: https://medium.com/@nodejs/node-js-version-14-available-now-8170d384567e
+    date: 2020-04-27
+    id: 2964747447
+  - title: "How to solve 90% of NLP problems: a step-by-step guide"
+    url: https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+    date: 2020-04-27
+    id: 2964747587
+  - title: "Career advice for people with bad luck"
+    url: https://chiefofstuff.substack.com/p/career-advice-for-people-with-bad
+    date: 2020-04-26
+    id: 2959482315
+  - title: "What is the `toJSON()` Function in JavaScript?"
+    url: http://www.thecodebarbarian.com/what-is-the-tojson-function-in-javascript.html
+    date: 2020-04-26
+    id: 2959835670
+  - title: "In four U.S. state prisons, nearly 3,300 inmates test positive for coronavirus -- 96% without symptoms"
+    url: https://www.reuters.com/article/us-health-coronavirus-prisons-testing-in-idUSKCN2270RX
+    date: 2020-04-26
+    id: 2962477050
+  - title: "“The title ‘Front-End Developer’ is obsolete.”"
+    url: https://css-tricks.com/the-title-front-end-developer-is-obsolete/
+    date: 2020-04-26
+    id: 2963144770
+  - title: "Is it fine to use "AND" in a function name?"
+    url: https://understandlegacycode.com/blog/improving-legacy-function-names/
+    date: 2020-04-26
+    id: 2963385799
+  - title: "Come funzionano le app di tracciamento dei contatti, spiegato a fumetti"
+    url: https://attivissimo.blogspot.com/2020/04/come-funzionano-le-app-di-tracciamento.html
+    date: 2020-04-25
+    id: 2961370183
+  - title: "Error Handling"
+    url: https://www.joyent.com/node-js/production/design/errors
+    date: 2020-04-25
+    id: 2961620913
+  - title: "No, you don't suck!"
+    url: https://telmo.im/writings/no-you-dont-suck
+    date: 2020-04-25
+    id: 2961891956
+  - title: "12 Ideas for Programming Projects Too Dangerous Not to Build"
+    url: https://filipesilva.me/blog/12-ideas-for-programming-projects-too-dangerous-not-to-build/
+    date: 2020-04-25
+    id: 2962305935
+  - title: "Why the NSA Called Me After Midnight and Requested My Source Code"
+    url: https://medium.com/datadriveninvestor/why-the-nsa-called-me-after-midnight-and-requested-my-source-code-f7076c59ab3d
+    date: 2020-04-24
+    id: 2364454982
+  - title: "A Taxonomy of Tech Debt"
+    url: https://technology.riotgames.com/news/taxonomy-tech-debt
+    date: 2020-04-24
+    id: 2511891083
+  - title: "Overview of order types and settings (stop, limit, market)"
+    url: https://help.coinbase.com/en/pro/trading-and-funding/orders/overview-of-order-types-and-settings-stop-limit-market.html
+    date: 2020-04-24
+    id: 2909490319
+  - title: "Why Is The Dollar So Strong When The U.S. Government Is Printing Money Like Crazy Right Now?"
+    url: https://medium.com/datadriveninvestor/why-is-the-dollar-so-strong-when-the-u-s-government-is-printing-money-like-crazy-right-now-b2e0d1efa9ac
+    date: 2020-04-24
+    id: 2939738667
+  - title: "10 Data Analytics Terms Every Beginner Should Know"
+    url: https://medium.com/datadriveninvestor/10-data-analytics-terms-every-beginner-should-know-73e590ecb1b9
+    date: 2020-04-24
+    id: 2956924327
+  - title: "Perché dare dati a un’app di tracciamento è più rischioso di quello che già diamo a Internet?"
+    url: https://attivissimo.blogspot.com/2020/04/perche-dare-dati-unapp-di-tracciamento.html
+    date: 2020-04-24
+    id: 2959830714
+  - title: "When in Doubt: Hang Up, Look Up, & Call Back"
+    url: https://krebsonsecurity.com/2020/04/when-in-doubt-hang-up-look-up-call-back/
+    date: 2020-04-24
+    id: 2960170851
+  - title: "Luca Ferrari (Bending Spoons): «Su Immuni nessun guadagno, fiducia e privacy sono fondamentali»"
+    url: https://www.corriere.it/tecnologia/20_aprile_22/luca-ferrari-bending-spoons-su-immuni-nessun-guadagno-fiducia-privacy-sono-fondamentali-3dc9cf52-84cf-11ea-8d8e-1dff96ef3536.shtml
+    date: 2020-04-24
+    id: 2960800590
+  - title: "Don’t just wait around"
+    url: https://swizec.com/blog/dont-just-wait-around/swizec/9390
+    date: 2020-04-24
+    id: 2961322801
+  - title: "What are the fees on Coinbase Pro?"
+    url: https://help.coinbase.com/en/pro/trading-and-funding/trading-rules-and-fees/fees.html
+    date: 2020-04-24
+    id: 2961586420
+  - title: "Conversations with a six-year-old on functional programming"
+    url: https://byorgey.wordpress.com/2018/05/06/conversations-with-a-six-year-old-on-functional-programming/
+    date: 2020-04-23
+    id: 2178079551
+  - title: "La sindrome del "Pompiere""
+    url: https://www.linkedin.com/pulse/la-sindrome-del-pompiere-luisa-ruggiero
+    date: 2020-04-23
+    id: 2959749623
+  - title: "Bitcoin Stock To Flow (S2F) Indicator: Now Live on Cryptowatch"
+    url: https://blog.cryptowat.ch/bitcoin-stock-to-flow-stf-indicator-live-cryptowatch/
+    date: 2020-04-23
+    id: 2959948450
+  - title: "Small Business Rescue Earned Banks $10 Billion In Fees"
+    url: https://text.npr.org/s.php?sId=840678984
+    date: 2020-04-23
+    id: 2960057467
+  - title: "Why Correlation Usually ≠ Causation: Causal Nets Cause Common Confounding"
+    url: https://www.gwern.net/Causality
+    date: 2020-04-22
+    id: 663600115
+  - title: "? Keybase launches encrypted git"
+    url: https://keybase.io/blog/encrypted-git-for-everyone
+    date: 2020-04-22
+    id: 1913465225
+  - title: "Low-Challenge, High-Skill Tasks in Terrible Times"
+    url: https://daverupert.com/2020/04/low-challenge-high-skill-tasks-in-terrible-times/
+    date: 2020-04-22
+    id: 2951302671
+  - title: "Why Is the Oil Price Negative and Can You Buy Some? An Explainer"
+    url: https://www.vice.com/en_us/article/epgejn/why-is-the-oil-price-negative-and-can-you-buy-some-an-explainer
+    date: 2020-04-22
+    id: 2957552017
+  - title: "Things I Wished More Developers Knew About Databases"
+    url: https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78
+    date: 2020-04-22
+    id: 2957845776
+  - title: "My favorite lessons from Pragmatic Programmer"
+    url: https://swizec.com/blog/my-favorite-lessons-from-pragmatic-programmer/swizec/9361
+    date: 2020-04-22
+    id: 2958419217
+  - title: "App immuni, tre nodi da sciogliere perché sia davvero efficace contro il virus"
+    url: https://www.ilsole24ore.com/art/app-immuni-tre-nodi-sciogliere-perche-sia-davvero-efficace-contro-virus-ADpDmkL
+    date: 2020-04-22
+    id: 2958480306
+  - title: "Bloomberg: Bitcoin Is Setting Up For 2017-Like Bull Run"
+    url: https://cointelegraph.com/news/bloomberg-bitcoin-is-setting-up-for-2017-like-bull-run
+    date: 2020-04-22
+    id: 2958859822
+  - title: "Flaw in iPhone, iPads may have allowed hackers to steal data for years"
+    url: https://www.reuters.com/article/us-usa-apple-cyber-idUSKCN2242IK
+    date: 2020-04-22
+    id: 2958986002
+  - title: "Improving notifications for everyone"
+    url: https://github.blog/2020-04-22-improving-notifications-for-everyone/
+    date: 2020-04-22
+    id: 2959043691
+  - title: "Focus refactoring on what matters with Hotspots Analysis"
+    url: https://understandlegacycode.com/blog/focus-refactoring-with-hotspots-analysis/
+    date: 2020-04-21
+    id: 2943002620
+  - title: "These U.S. citizens won’t get coronavirus stimulus checks — because their spouses are immigrants"
+    url: https://www.latimes.com/world-nation/story/2020-04-20/u-s-citizens-coronavirus-stimulus-checks-spouses-immigrants
+    date: 2020-04-21
+    id: 2956679592
+  - title: "Vercel"
+    url: https://rauchg.com/2020/vercel
+    date: 2020-04-21
+    id: 2957391729
+  - title: "The Cost of Javascript Frameworks"
+    url: https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/
+    date: 2020-04-21
+    id: 2957671971
+  - title: "Americans Are Using Their Stimulus Checks To Buy Bitcoin"
+    url: https://www.forbes.com/sites/ktorpey/2020/04/20/americans-are-using-their-stimulus-checks-to-buy-bitcoin/
+    date: 2020-04-21
+    id: 2957849971
+  - title: "From Flight Attendant to Software Developer"
+    url: https://dev.to/sarahkapehe/from-flight-attendant-to-software-developer--1h8g
+    date: 2020-04-20
+    id: 2517493782
+  - title: "Microservices and [Micro]services"
+    url: https://kalele.io/microservices-and-microservices/
+    date: 2020-04-20
+    id: 2945106319
+  - title: "Oil Plunges Below Zero for First Time in Unprecedented Wipeout"
+    url: https://www.bloomberg.com/news/articles/2020-04-19/oil-drops-to-18-year-low-on-global-demand-crunch-storage-woes
+    date: 2020-04-20
+    id: 2955762759
+  - title: "A Brief History of Erlang and Elixir"
+    url: https://www.welcometothejungle.com/en/articles/history-erlang-elixir
+    date: 2020-04-20
+    id: 2956435426
+  - title: "Il mito della privacy e della crittografia end-to-end in Zoom"
+    url: https://serhack.me/articles/zoom-mito-privacy-e2e-crittografia/
+    date: 2020-04-20
+    id: 2956643580
   - title: "How to Create an Email Newsletter People Actually Read"
     url: https://blog.hubspot.com/marketing/guide-creating-email-newsletters-ht
     date: 2020-04-19
@@ -23,6 +407,18 @@ pocket_items:
     url: https://a16z.com/2020/04/18/its-time-to-build/
     date: 2020-04-19
     id: 2954719135
+  - title: "About “Zero Dependencies”"
+    url: https://medium.com/@WebReflection/about-zero-dependencies-ae7e8fb82abd
+    date: 2020-04-19
+    id: 2947309271
+  - title: "Forecasting s-curves is hard"
+    url: https://constancecrozier.com/2020/04/16/forecasting-s-curves-is-hard/
+    date: 2020-04-19
+    id: 2954856732
+  - title: "AirPods as a Platform"
+    url: https://julian.digital/2020/04/19/airpods-as-a-platform/
+    date: 2020-04-19
+    id: 2955497856
   - title: "A geek with a hat"
     url: https://swizec.com/blog/async-await-catch-error-handling-that-wont-drive-you-crazy/swizec/8931
     date: 2020-04-18
