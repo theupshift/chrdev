@@ -95,7 +95,7 @@ I am using it this way on my GitHub Actions workflow:
 - first i build the blog with [devblog](/posts/2020-04-19-devblog-yet-another-static-site-generator-seriously)
 - optimize the assets with `npx ucompress --source ./_site --dest ./_site` (see the [`main.yml` workflow file](https://github.com/christian-fei/christian-fei.github.io/blob/master/.github/workflows/main.yml#L16))
 - run UAT with cypress
-- sync S3 bucke
+- sync S3 bucket
 - optionally clear cloudflare cache
 - send myself a telegram message once done
 
