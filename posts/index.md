@@ -5,6 +5,8 @@ title: Posts
 
 {% block content %}
 
+{% include 'subscribe-to-newsletter.html' %}
+
 <div class="alert" style="max-width: 45em">
   <p>
     Below you can skim through <b>articles</b> I wrote over the years.
