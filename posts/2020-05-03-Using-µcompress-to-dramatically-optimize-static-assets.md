@@ -1,5 +1,5 @@
 ---
-title: Using µcompress to dramatically optimize static assets for your static blog
+title: Using µcompress to dramatically optimize static assets
 date: 2020-05-03
 layout: post.njk
 tags:
