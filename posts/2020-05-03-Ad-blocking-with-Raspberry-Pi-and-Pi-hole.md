@@ -52,6 +52,43 @@ On Mac OS
 
 ![pi-hole-settings-mac.png](/assets/images/posts/pi-hole/pi-hole-settings-mac.png)
 
+## Verify DNS resolution
+
+To verify that the Raspberry Pi is used for DNS resolution, you can use a simple trick.
+
+I used [`dig`](https://linux.die.net/man/1/dig) tointerrogate DNS name servers, like this:
+
+```sh
+dig +trace cri.dev
+```
+
+You'll see a similar output (check for your Raspberry's IP address):
+
+```sh
+~ dig +trace cri.dev
+
+; <<>> DiG 9.10.6 <<>> +trace cri.dev
+;; global options: +cmd
+.			509447	IN	NS	a.root-servers.net.
+.			509447	IN	NS	b.root-servers.net.
+.			509447	IN	NS	c.root-servers.net.
+.			509447	IN	NS	d.root-servers.net.
+.			509447	IN	NS	e.root-servers.net.
+.			509447	IN	NS	f.root-servers.net.
+.			509447	IN	NS	g.root-servers.net.
+.			509447	IN	NS	h.root-servers.net.
+.			509447	IN	NS	i.root-servers.net.
+.			509447	IN	NS	j.root-servers.net.
+.			509447	IN	NS	k.root-servers.net.
+.			509447	IN	NS	l.root-servers.net.
+.			509447	IN	NS	m.root-servers.net.
+.			509447	IN	RRSIG	NS 8 0 518400 20200516050000 20200503040000 48903 . NtC6ObYfTRgLakuNLhMl ...
+;; Received 525 bytes from 192.168.1.127#53(192.168.1.127) in 60 ms
+
+...
+```
+As you can see, the Raspberry Pi's IP address (*192.168.1.127* on port [53](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)) is first interrogated for the DNS resolution.
+
 ## Admin Panel
 
 Pi-hole's **administration panel** can be accessed at `http://{PI_IP_ADDRESS}/admin` and optionally configure it further.
