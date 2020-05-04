@@ -37,6 +37,14 @@ curl -sSL https://install.pi-hole.net | bash
 
 ![pi-hole-password.png](/assets/images/posts/pi-hole/pi-hole-password.png)
 
+<p class="alert">
+  Get the latest on clean code, node.js, testing and more
+  <br/>
+  <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
+    Subscribe to my newsletter!
+  </a>
+</p>
+
 ## Configure the Router or individual devices
 
 If you don't want to fiddle around with your **router configuration**, you can configure each device indidually.
