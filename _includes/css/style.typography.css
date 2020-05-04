@@ -17,7 +17,7 @@ a:visited { color: inherit; }
 a:hover, a:active, a:focus { background: #fe1; outline: none; }
 pre { overflow-x: scroll; font-size: 0.75em; }
 pre, code { background: #ffee11; background: #ffee1199; }
-pre code { background: none; }
+pre code { background: none; word-break: break-all; }
 pre ::selection { color: white; background: #000; }
 
 /* https://type-scale.com/ */
