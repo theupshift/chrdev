@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": ".devblog.js",
-  "dependencies": {},
+  "dependencies": {
+    "ucompress": "0.12.2"
+  },
   "devDependencies": {
     "clean-css": "^4.2.3",
     "devblog": "^2.19.1",
@@ -11,7 +13,8 @@
   },
   "scripts": {
     "test": "npx cypress run",
-    "build": "devblog",
+    "build": "devblog && npm run compress",
+    "compress": "ucompress --source _site --dest _site ",
     "purge": "./scripts/purge",
     "deploy": "./scripts/deploy",
     "deploy-with-assets": "./scripts/deploy.with-assets",

@@ -13,7 +13,7 @@ jobs:
       - name: build
         run: |
           npm run build
-          npx ucompress --source ./_site --dest ./_site
+          # npx ucompress --source ./_site --dest ./_site # integrated in build step
       - name: start server
         run: |
            npm start &
