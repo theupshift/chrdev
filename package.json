@@ -4,6 +4,7 @@
   "description": "",
   "main": ".devblog.js",
   "dependencies": {
+    "css.gg": "^2.0.0",
     "ucompress": "^0.12.5"
   },
   "devDependencies": {
