@@ -9,8 +9,8 @@ title: Subscribe to my bi-weekly newsletter!
     <div class="flex-item1">
       <img src="/assets/images/speech-bubble-unsub.png">
     </div>
-    <div class="flex-item1">
-      <span style="width: 170px; display: inline-block"></span><img src="/assets/images/cf4.png">
+    <div class="flex-item1 tar">
+      <img src="/assets/images/cf4.png">
     </div>
   </div>
 {% endblock %}
