@@ -38,7 +38,7 @@ curl -sSL https://install.pi-hole.net | bash
 ![pi-hole-password.png](/assets/images/posts/pi-hole/pi-hole-password.png)
 
 <p class="alert">
-  Get the latest on clean code, node.js, testing and more
+  Get the latest on clean code, node.js, testing and programming
   <br/>
   <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
     Subscribe to my newsletter!
