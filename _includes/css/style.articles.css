@@ -103,9 +103,9 @@ body > main article .title {
 
 
 .sidebar-cta {
-  padding: 1em;
+  /* padding: 1em; */
   display: inline-block;
-  background: #fe1;
+  /* background: #fe1; */
 }
 
 .featured-container {

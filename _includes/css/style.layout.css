@@ -72,14 +72,11 @@ blockquote {
 
 
 .alert {
-  background: #fe1;
-  background: #ffee1152;
-  /* background: #ffee8888;  */
+  background-color: #d8d8d8;
   padding: 1em 1em;
+  text-align: center;
 }
-.alert * {
-  background: white;
-}
+
 .icon { display: inline-block; width: 1.275rem; height: 1.275rem; max-width: none; vertical-align: middle; }
 .cf { text-align: center; padding: 1em; }
 
@@ -124,6 +121,6 @@ blockquote {
   font-size: 1em;
 }
 .embeddable-buttondown-form [type=submit] {
-  background: #fff67b;
-  color: #0e0a0a;
+  background: #2f2f2f;
+  color: #fff;
 }
