@@ -65,7 +65,7 @@ On Mac OS
 
 To verify that the Raspberry Pi is used for DNS resolution, you can use a simple trick.
 
-I used [`dig`](https://linux.die.net/man/1/dig) tointerrogate DNS name servers, like this:
+I used [`dig`](https://linux.die.net/man/1/dig) to interrogate DNS name servers, like this:
 
 ```sh
 dig +trace cri.dev
