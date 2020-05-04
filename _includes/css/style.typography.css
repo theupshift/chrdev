@@ -67,6 +67,10 @@ a.twitter-share-button {
   text-align: center;
 }
 
+.twitter-share-button img {
+  box-shadow: none;
+}
+
 .unstyled-list {
   list-style-type: none;
   padding: 0;
