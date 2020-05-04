@@ -8,6 +8,7 @@ tags:
   - adblocking
   - featured
 image: /assets/images/posts/pi-hole/pi-hole.png
+hackernews: https://news.ycombinator.com/item?id=23073109
 ---
 
 **Sick of ads on the Web, YouTube and other services?**
