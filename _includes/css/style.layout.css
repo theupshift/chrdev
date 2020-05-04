@@ -73,6 +73,7 @@ blockquote {
 
 .alert {
   background: #fe1;
+  background: #ffee1152;
   /* background: #ffee8888;  */
   padding: 1em 1em;
 }
