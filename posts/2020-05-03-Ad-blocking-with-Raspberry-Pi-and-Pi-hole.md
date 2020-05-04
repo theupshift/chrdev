@@ -98,6 +98,14 @@ You'll see a similar output (check for your Raspberry's IP address):
 ```
 As you can see, the Raspberry Pi's IP address (*192.168.1.127* on port [53](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)) is first interrogated for the DNS resolution.
 
+<p class="alert">
+  Get the latest on clean code, node.js, testing and programming
+  <br/>
+  <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
+    Subscribe to my newsletter!
+  </a>
+</p>
+
 ## Admin Panel
 
 Pi-hole's **administration panel** can be accessed at `http://{PI_IP_ADDRESS}/admin` and optionally configure it further.
