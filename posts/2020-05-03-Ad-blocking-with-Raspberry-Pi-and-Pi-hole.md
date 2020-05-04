@@ -11,7 +11,7 @@ image: /assets/images/posts/pi-hole/pi-hole.png
 hackernews: https://news.ycombinator.com/item?id=23073109
 ---
 
-**Sick of ads on the Web?**
+**Sick of ads on the Web, YouTube and other services?**
 
 Do you have a **Raspberry Pi** (4, 3, or even a Zero like me) laying around collecting dust and you want to make us of it?
 
