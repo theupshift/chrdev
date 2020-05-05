@@ -30,7 +30,7 @@ Mainly working with #Node.js, #JavaScript, #Python, #MongoDB, #Redis, #Cloud, #S
 
 Previously Agile Developer at XPeppers, Trento (2014 - 2017).
 
-> Simplicity is the ultimate sophistication ~ Leonardo Da Vinci
+> Simplicity is the ultimate sophistication ~ I want to think Leonardo Da Vinci said that.
 
 Clean Code, TDD, Refactoring and SOLID Principles are my special weapons to tame codebases.
 
