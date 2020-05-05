@@ -23,7 +23,7 @@ Even worse if you need to write complex, nested `ternary` conditions using the t
 Here is an example, adapted from code in [devblog](https://github.com/christian-fei/devblog), a markdown file with attributes (parsed using front-matter):
 
 ```js
-    if (file && file.attributes && file.attributes.tags && Array.isArray(file.attributes.tags)) {
+    if (file && file.attributes && Array.isArray(file.attributes.tags)) {
       tags.push(...file.attributes.tags)
     }
 ```
