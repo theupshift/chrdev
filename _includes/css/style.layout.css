@@ -2,10 +2,15 @@
 *, *::after, *::before { box-sizing: border-box; }
 html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
 
+body.dark-mode {
+  background: #232323;
+  color: white;
+}
+
 body > header, body > footer, body > main { max-width: 45em; margin: 0 auto; padding: 1em 1.5em; }
 .contain { max-width: 45em; margin: 0 auto; }
 
-body > header { position: sticky; left: 0; right: 0; top: 0; z-index: 9999; background: white; padding-bottom: 0; }
+body > header { position: sticky; left: 0; right: 0; top: 0; z-index: 9999; padding-bottom: 0; }
 body > main { margin-top: 2em; }
 #footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 

@@ -10,6 +10,11 @@ function main () {
   try { makeExternalLinksTargetBlank() } catch (err) { console.error(err.message) }
 
   try { lazyLoad('[lazy]') } catch (err) { console.error(err.message) }
+
+  if ((window.location.search || '').includes('dark')) {
+    document.body.classList.add('dark-mode')
+    addDarkmodeQueryToInternalLinks()
+  }
 }
 
 function makeSearchable ($searchable) {
@@ -41,13 +46,9 @@ function makeSearchable ($searchable) {
 }
 
 function lazyLoad (selector = '[lazy]') {
-  console.log('lazyLoad', selector)
-
   let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
-  console.log('$lazy.length', $lazy.length)
 
   $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
-  console.log(' - $lazy.length', $lazy.length)
 
   let lastCheck
   window.onscroll = function (e) {
@@ -75,6 +76,10 @@ function lazyLoad (selector = '[lazy]') {
 
 function makeExternalLinksTargetBlank () {
   const externalLinks = [...document.querySelectorAll(`body a:not([href~='${window.location.hostname}']):not([href^='/'])`)]
-  console.log('external links', externalLinks.length, externalLinks.map(el => el.getAttribute('href')).filter(Boolean))
   externalLinks.forEach(el => el.setAttribute('target', '_blank'))
+}
+function addDarkmodeQueryToInternalLinks () {
+  const internal = [...document.querySelectorAll(`a[href~='${window.location.hostname}'], a[href^='/']`)]
+  console.log('internal', internal)
+  internal.forEach(el => el.setAttribute('href', el.getAttribute('href') + '?dark'))
 }

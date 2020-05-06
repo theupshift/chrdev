@@ -45,8 +45,8 @@ main article .title {
 }
 main article .title span {
   background-color: #fff;
+  color: #333;
   line-height: 1.6;
-  /* transform: rotate(-1.2deg); */
   display: block;
 }
 
