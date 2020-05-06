@@ -433,7 +433,7 @@ I hope that's enough :)
 
 # Next up?
 
-- Probably it's best to disable signups, have to dig deeper in the code.
+- Probably it's best to disable signups, have to dig deeper in the code (currently no mail is sent, so no new users can sign up)
 
 - Remove the concept of subscription and trial, further investigation needed.
 
@@ -442,3 +442,20 @@ I hope that's enough :)
 - Same for Twitter
 
 Let me know what you think on [twitter @christian_fei](https://twitter.com/christian_fei)
+
+## Update 2020-05-06
+
+A [kind person](https://github.com/eoinobrien/) on GitHub forked the repo [christian-fei/plausible](https://github.com/christian-fei/plausible) and showed me how to do this even better.
+
+Better in the sense:
+
+Instead of signup up a user, and **then** manually modifying its `trial_expiry_date`, he simply changed the code so that by default any new user would have an extended trial!
+
+The diff looks like this for [`lib/plausible/auth/user.ex`](https://github.com/christian-fei/plausible/blob/master/lib/plausible/auth/user.ex#L31):
+
+```elixir
+-    |> change(trial_expiry_date: Timex.today() |> Timex.shift(days: 30))
++    |> change(trial_expiry_date: Timex.today() |> Timex.shift(years: 100))
+```
+
+Anyways, I had the chance to dabble a bit with **Phoenix** and **Ecto**, so not so bad after all.
