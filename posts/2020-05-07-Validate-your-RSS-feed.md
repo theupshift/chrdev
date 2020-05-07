@@ -82,6 +82,7 @@ You could also run it via file with the `[-c FILE_PATH]` option.
 
 This small module calls the **validation endpoint on validator.w3.org** for me. In other words, this could be done with a `cURL` call, but that's for another time.
 
+[Here the code](https://github.com/andre487/feed-validator/blob/master/providers/feed-validator.js#L43) that does the API call to validator.w3.org.
 ---
 
 Here's the full [rss.xml feed](/rss.xml), if you're into that.
