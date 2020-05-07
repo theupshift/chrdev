@@ -93,4 +93,46 @@ Go to [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Att
 
 Finally, in the last line of `addDarkmodeQueryToInternalLinks`, we loop through the links and append to the `href` attribute a `?dark` query string.
 
-That's it.
+You can now put `?dark` at the end of this URL and darkmode will be applied.
+
+## Enabling darkmode with a button
+
+You cannot ask the user to modify the URL manually of course.
+
+So we need a button that does this.
+
+```html
+<button id="toggle-dark-mode">Toggle dark-mode</button>
+```
+
+And the JS counterpart:
+
+```js
+document.querySelector('#toggle-dark-mode').addEventListener('click', function (event) {
+  const darkModeEnabled = (window.location.search || '').includes('dark')
+  if (darkModeEnabled) {
+    window.location.href = window.location.href.substring(0, uri.indexOf('?'))
+  } else {
+    window.location.href = window.location.href + '?dark'
+  }
+})
+```
+
+That's it. Try it out.
+
+<button style="display: block;width: 100%;padding: 1em;font-size: 1.5em;outline: none;background: black;color: white;border: 2px solid white;" id="toggle-dark-mode">Toggle dark-mode</button>
+<script type="text/javascript">
+document.querySelector('#toggle-dark-mode').addEventListener('click', function (event) {
+  const darkModeEnabled = (window.location.search || '').includes('dark')
+  console.log(darkModeEnabled)
+  if (darkModeEnabled) {
+    window.location.href = window.location.href.substring(0, window.location.href.indexOf('?'))
+  } else {
+    window.location.href = window.location.href + '?dark'
+  }
+})
+</script>
+
+## Notes
+
+This is an oversimplified example. It should work well if you don't have params in the URL, else you would need to parse them correctly using [`URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
