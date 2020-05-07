@@ -13,7 +13,7 @@ hackernews: https://news.ycombinator.com/item?id=23073109
 
 **Sick of ads on the Web, YouTube and other services?**
 
-Do you have a **Raspberry Pi** (4, 3, or even a Zero like me) laying around collecting dust and you want to make us of it?
+Do you have a **Raspberry Pi** (4, 3, or even a Zero like me) laying around collecting dust and you want to make use of it?
 
 Use it for **ad-blocking** in your home network and to finally browse the web, watch videos etc. without annoying ads.
 
