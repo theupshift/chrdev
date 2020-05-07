@@ -21,6 +21,10 @@ But if you want to roll your own, for fun or for whatever reason, here is how I 
 
 The technique consists of a single line of CSS and a few lines of JavaScript.
 
+Try it out.
+
+<button style="display: block;width: 100%;padding: 1em;font-size: 1.5em;outline: none;background: black;color: white;border: 2px solid white;" class="toggle-dark-mode">Toggle dark-mode</button>
+
 ## The CSS part
 
 ```css
@@ -122,9 +126,9 @@ document.querySelector('#toggle-dark-mode').addEventListener('click', function (
 
 That's it. Try it out.
 
-<button style="display: block;width: 100%;padding: 1em;font-size: 1.5em;outline: none;background: black;color: white;border: 2px solid white;" id="toggle-dark-mode">Toggle dark-mode</button>
+<button style="display: block;width: 100%;padding: 1em;font-size: 1.5em;outline: none;background: black;color: white;border: 2px solid white;" class="toggle-dark-mode">Toggle dark-mode</button>
 <script type="text/javascript">
-document.querySelector('#toggle-dark-mode').addEventListener('click', function (event) {
+[...document.querySelectorAll('.toggle-dark-mode')].forEach(el => el.addEventListener('click', function (event) {
   const darkModeEnabled = (window.location.search || '').includes('dark')
   console.log(darkModeEnabled)
   if (darkModeEnabled) {
@@ -132,7 +136,7 @@ document.querySelector('#toggle-dark-mode').addEventListener('click', function (
   } else {
     window.location.href = window.location.href + '?dark'
   }
-})
+}))
 </script>
 
 ## Notes
