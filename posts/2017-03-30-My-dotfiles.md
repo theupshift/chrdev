@@ -26,12 +26,12 @@ You can find them [on Github (obviously)](https://github.com/christian-fei/dotfi
 │       ├── cryptocurrency.widget.coffee
 │       ├── ping-history.widget
 │       │   └── index.coffee
-│       ├── u�\210bersicht-logo.png
+│       ├── ubersicht-logo.png
 │       └── widgets
 │           ├── cryptocurrency.widget.coffee
 │           ├── ping-history.widget
 │           │   └── index.coffee
-│           └── u�\210bersicht-logo.png
+│           └── ubersicht-logo.png
 ├── dots
 ├── fonts
 │   ├── Hack-Bold.ttf

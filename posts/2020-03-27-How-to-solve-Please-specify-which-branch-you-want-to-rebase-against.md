@@ -1,5 +1,5 @@
 ---
-title: How to solve 'Please specify which branch you want to rebase against.'
+title: "How to solve: Please specify which branch you want to rebase against"
 date: 2020-03-27
 layout: post.njk
 tags:
