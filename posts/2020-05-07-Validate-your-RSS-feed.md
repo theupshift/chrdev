@@ -18,6 +18,7 @@ ASAP after work I checked the validity through [validator.w3.org/feed/](https://
 
 Apparently a **mismatched tag** `</link>` was causing the parser to go berserk.
 
+![w3-feed-validator.png](/assets/images/posts/w3-feed-validator.png)
 After understanding the issue, I simplified the `rss.md` (which generates the [`rss.xml`](https://github.com/christian-fei/christian-fei.github.io/blob/master/rss.md) through [devblog](/posts/2020-04-19-devblog-yet-another-static-site-generator-seriously/)) and used [scripting.com/rss.xml](http://scripting.com/rss.xml) as an example.
 
 Stripped away all the tags I didn't need, and this is the resulting version of [`rss.md`](https://github.com/christian-fei/christian-fei.github.io/blob/master/rss.md):
