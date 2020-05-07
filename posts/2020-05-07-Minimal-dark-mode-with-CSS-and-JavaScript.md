@@ -36,7 +36,7 @@ What this does is setting a darker background color to the body and a bright col
 So, if you set the CSS class `dark-mode` to the body, you will see your site in "dark-mode".
 Remember, some things might break, based on your CSS rules and specifity of those.
 
-A more aggressive approach could be (but I don't recommend it) could be:
+A more aggressive approach (but I don't recommend it) could be:
 
 ```css
 *, * > * { background: #232323; color: white; }
