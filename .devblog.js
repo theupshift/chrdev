@@ -60,6 +60,9 @@ module.exports = {
     name: 'twitterTitle',
     filter: (title) => `"${encodeURIComponent(title || '')}", by @christian_fei`
   }, {
+    name: 'dehtml',
+    filter: (text) => (text || '').replace(/<\/?[^>]+(>|$)/g, "")
+  }, {
     name: 'twitterText',
     filter: (post) => `${encodeURIComponent(`"${post.data.title}", by @christian_fei ${post.attributes.tags.filter(t=> !['general', 'post', 'featured', 'draft'].includes(t)).map(t => `#${t}`).join(' ')}`)}`
   }, {
