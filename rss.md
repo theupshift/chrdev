@@ -13,6 +13,7 @@ minify: false
     <item>
       <title><![CDATA[{{ post.data.title }}]]></title>
       <link><![CDATA[{{ post.url | withDomain }}]]></link>
+      <guid><![CDATA[{{ post.url | withDomain }}]]></guid>
       <description><![CDATA[{{post.text}}]]></description>
     </item>
     {%- endfor %}
