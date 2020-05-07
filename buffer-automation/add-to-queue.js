@@ -14,9 +14,9 @@ module.exports = async function (page, shareText) {
   }
 
   console.log('waiting for share button')
-  await page.waitForSelector('[class*="ContentStyle"] button:not([type="secondary"])')
+  await page.waitForSelector('[class*="ContentStyle"] button:not([type="secondary"]):not([aria-haspopup="false"])')
   console.log('clicking on share button')
-  await page.click('[class*="ContentStyle"] button:not([type="secondary"])')
+  await page.click('[class*="ContentStyle"] button:not([type="secondary"]):not([aria-haspopup="false"])')
 
   await page.waitForSelector('[contenteditable="true"]')
   console.log('waiting for text input')
