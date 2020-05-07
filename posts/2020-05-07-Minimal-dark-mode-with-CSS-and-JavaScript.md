@@ -47,7 +47,7 @@ Don't do this, it's just food for thought plus the selector looks funny.
 
 The idea is:
 
-If the URL contains `dark` in its [query string](https://developer.mozilla.org/en-US/docs/Web/API/Location/search), enable the dark-mode styles (remember: through the CSS class `dark-mode` on to the `body`).
+If the URL contains `dark` in its [query string](https://developer.mozilla.org/en-US/docs/Web/API/Location/search), enable the dark-mode styles (remember: through the CSS class `dark-mode` on the `body`).
 
 E.g. if the URL contains `?dark` or `?darkmode` (even `?dark-mode`), apply the dark CSS styles:
 
