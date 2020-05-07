@@ -10,7 +10,7 @@ tags:
 image: /assets/images/posts/node.js.png
 ---
 
-A long awaited feature of the language and runtime has been [released](https://medium.com/@nodejs/node-js-version-14-available-now-8170d384567e) and is available in Node.js 14: Optional chaining!
+A long awaited feature of the language and runtime has been [released](https://medium.com/@nodejs/node-js-version-14-available-now-8170d384567e) and is available in Node.js 14 (and modern browsers): Optional chaining!
 
 # Safe property access
 
