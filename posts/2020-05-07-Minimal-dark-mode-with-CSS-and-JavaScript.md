@@ -72,7 +72,7 @@ Thus we need to preserve it.
 
 The idea is also quite simple here:
 
-For all internal links that contains the current host in its `href` attribute, or are relative links (start with `/`), append the query string to it.
+For all internal links that contain the current host in its `href` attribute, or are relative links (start with `/`), append the query string to it.
 
 This is my approach, and the code above looks like this after applying this logic:
 
