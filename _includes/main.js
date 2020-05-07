@@ -80,6 +80,5 @@ function makeExternalLinksTargetBlank () {
 }
 function addDarkmodeQueryToInternalLinks () {
   const internal = [...document.querySelectorAll(`a[href~='${window.location.hostname}'], a[href^='/']`)]
-  console.log('internal', internal)
   internal.forEach(el => el.setAttribute('href', el.getAttribute('href') + '?dark'))
 }
