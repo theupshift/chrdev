@@ -17,6 +17,9 @@ jobs:
       - name: start server
         run: |
            npm start &
+      - name: rss validation
+        run: |
+          npx feed-validator  http://127.0.0.1:8080/rss.xml
       - name: uat
         uses: cypress-io/github-action@v1
       - name: deploy
