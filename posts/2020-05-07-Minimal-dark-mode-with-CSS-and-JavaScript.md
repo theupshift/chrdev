@@ -142,3 +142,13 @@ That's it. Try it out.
 ## Notes
 
 This is an oversimplified example. It should work well if you don't have params in the URL, else you would need to parse them correctly using [`URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
+
+## Native solution
+
+You could achieve a similar result, using the **media query** `prefers-color-scheme:dark`:
+
+```css
+@media (prefers-color-scheme:dark) {
+  ... // your dark styles
+}
+```
