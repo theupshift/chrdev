@@ -13,9 +13,10 @@ title: Home
   <br/>
   A <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/" target="_blank">passionate web developer</a> from <b>Italy</b>
 
-  Read more <a href="/about">about me</a>
-  <br/>
-  <a href="https://twitter.com/christian_fei" target="_blank">{% include 'img/twitter.html' %} @christian_fei</a>
+  <p>I am an agile enthusiast, clean code connoisseur & testing aficionado<p>
+
+  <p>Italian, German & English speaking</p>
+
 
   Featured <a href="/posts">blog posts</a>, <a href="/books">recommended books</a> and <a href="/archive">the archive</a>
 
@@ -26,6 +27,9 @@ title: Home
     <a href="/about">
       <img class="avatar-image" alt="me with sunglasses" style="border-radius: 50%;" lazy="/assets/images/cf4.png"/>
     </a>
+    <p>
+      Read more <a href="/about">about me</a> and <a href="https://twitter.com/christian_fei" target="_blank">follow me {% include 'img/twitter.html' %}</a>
+    </p>
   </div>
 </div>
 </div>
