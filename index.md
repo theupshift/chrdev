@@ -28,7 +28,8 @@ title: Home
       <img class="avatar-image" alt="me with sunglasses" style="border-radius: 50%;" lazy="/assets/images/cf4.png"/>
     </a>
     <p>
-      Read more <a href="/about">about me</a> and <a href="https://twitter.com/christian_fei" target="_blank">follow me {% include 'img/twitter.html' %}</a>
+      Read more <a href="/about">about me</a> and <a href="https://twitter.com/christian_fei" target="_blank">follow me {% include 'img/twitter.html' %}</a></br>
+      <a href="https://cri.dev/subscribe/">Subscribe to my newsletter</a>
     </p>
   </div>
 </div>
