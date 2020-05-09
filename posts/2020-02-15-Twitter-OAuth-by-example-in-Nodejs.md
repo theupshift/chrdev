@@ -232,7 +232,7 @@ returning more information about the twitter user profile `christian_fei`:
   "screen_name":"christian_fei",
   "location":"The Internet"
   ,"profile_location":null,
-  "description":"agile person, clean code connoisseur and testing aficionado \ud83d\udc68\u200d\ud83d\udcbb dev @wonderflow",
+  "description":"agile person, clean code connoisseur and testing aficionado",
   "url":"https:\/\/t.co\/qUleUCEuNH",
   "entities":{"url":{"urls":[{"url":"https:\/\/t.co\/qUleUCEuNH",
   "expanded_url":"https:\/\/christianfei.com\/",
