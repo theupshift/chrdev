@@ -52,10 +52,10 @@ module.exports = {
   }, {
     name: 'excerpt',
     filter: (content) => (content || '')
-      .split('.')
-      .filter((_, i) => i < 2)
-      .join(' ')
       .replace(/<\/?[^>]+(>|$)/g, "")
+      .split('.')
+      .filter((_, i) => i < 5)
+      .join(' ')
   }, {
     name: 'twitterTitle',
     filter: (title) => `"${encodeURIComponent(title || '')}", by @christian_fei`
