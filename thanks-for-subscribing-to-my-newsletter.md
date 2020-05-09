@@ -10,6 +10,7 @@ title: You rock!
       <h1>You rock!</h1>
       <p>You'll shortly receive the latest issue of the newsletter, enjoy!</p>
       <p>Let's stay in touch  <a href="https://twitter.com/christian_fei">on Twitter</a>!</p>
+      <p>You can also <a href="https://buttondown.email/christianfei/archive">look through the archives</a> of the newsletter if you missed on</p>
     </div>
     <div class="flex-item">
       <img src="https://media.giphy.com/media/26gsjCZpPolPr3sBy/giphy.gif">
