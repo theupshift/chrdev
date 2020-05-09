@@ -18,7 +18,7 @@ title: Home
   <p>Italian, German & English speaking</p>
 
 
-  Featured <a href="/posts">blog posts</a>, <a href="/books">recommended books</a> and <a href="/archive">the archive</a>
+  Read some <a href="/posts">featured blog posts</a>, <a href="/books">recommended books</a> and skim through <a href="/archive">the archive</a>
 
 </div>
 
