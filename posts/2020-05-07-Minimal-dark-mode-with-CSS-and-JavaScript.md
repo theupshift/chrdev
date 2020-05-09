@@ -13,7 +13,7 @@ image: https://images.unsplash.com/photo-1511406361295-0a1ff814c0ce?ixlib=rb-1.2
 
 Dark mode is everywhere nowadays. Personally using [darkreader](https://darkreader.org/) as an extension of [Brave browser](https://brave.com/chr311), and I'm loving it.
 
-But if you want to roll your own, for fun or for whatever reason, here is how I did it for [cri.dev](/).
+But if you want to roll your own, for fun or for whatever reason, continue reading to understand how I did it.
 
 ---
 
