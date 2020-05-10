@@ -1,32 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Christian Fei's Blog - {{ title }}</title>
-    <meta name="author" content="Christian Fei">
-    <meta name="keywords" content="Christian Fei,developer,programming,javascript,full-stack" />
-    <link rel="shortcut icon" type="image/png" href="/assets/images/cf4.64x64.png"/>
-    <link rel="apple-touch-icon" href="/assets/images/cf4.64x64.png">
-    <meta name="apple-mobile-web-app-title" content="christian fei">
-
-    {% if page.url == '/' %}
-      <meta name="description" content="A blog about agile, programming, clean code, testing, javascript">
-    {% else %}
-      <meta name="description" content="{{ content | safe | striptags | excerpt }}">
-    {% endif %}
-    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-
-    <link rel="canonical" href="https://cri.dev/">
-
-    <link rel="preconnect" href="https://cdn.carbonads.com">
-    <link rel="preconnect" href="https://srv.carbonads.net">
-
+    <meta name="author" content="Christian Fei">
+    <meta name="keywords" content="Christian Fei,developer,programming,javascript,full-stack" />
+    <meta name="apple-mobile-web-app-title" content="christian fei">
+    <meta name="robots" content="index,follow,max-video-preview:-1,max-snippet:-1,max-image-preview:large,">
     <meta name="theme-color" content="#FFFFFF">
     <meta name="msapplication-navbutton-color" content="#FFFFFF">
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
@@ -44,6 +28,18 @@
     <meta property="og:url" content="https://cri.dev/" />
     <meta property="og:description" content="{{ content | excerpt }}" />
     <meta property="og:site_name" content="cri.dev" />
+
+    {% if page.url == '/' %}
+      <meta name="description" content="A blog about agile, programming, clean code, testing, javascript">
+    {% else %}
+      <meta name="description" content="{{ content | safe | striptags | excerpt }}">
+    {% endif %}
+
+    <title>Christian Fei's Blog - {{ title }}</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/images/cf4.64x64.png"/>
+    <link rel="apple-touch-icon" href="/assets/images/cf4.64x64.png">
+    <link rel="canonical" href="https://cri.dev/">
+    <link rel="alternate" type="application/rss+xml" title="cri.dev" href="/rss.xml">
 
     {% set style %}
       {% include "css/style.reset.css" %}
@@ -69,15 +65,16 @@
       <style>{{ carbonads | cssmin | safe }}</style>
     {% endif %}
 
-    {% include "snippets/google-analytics.html" %}
-    {% include "snippets/plausible-analytics.html" %}
-
     {% if page.data.css %}
-      {% for s in page.data.css %}
-        <link rel="stylesheet" href="{{ s }}">
+      {% for pageCSS in page.data.css %}
+        <link rel="stylesheet" href="{{ pageCSS }}">
       {% endfor %}
     {% endif %}
+
+    {% include "snippets/google-analytics.html" %}
+    {% include "snippets/plausible-analytics.html" %}
   </head>
+
   <body>
     {% include "header.html" %}
 
