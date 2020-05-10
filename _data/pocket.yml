@@ -1,4 +1,116 @@
 pocket_items:
+  - title: "Elixir child specifications became a lot easier"
+    url: https://9elements.com/blog/elixir-child-specifications-became-a-lot-easier/
+    date: 2020-05-10
+    id: 2978617277
+  - title: "Observing Processes in Elixir - The Little Elixir & OTP Guidebook"
+    url: https://www.akitaonrails.com/2015/11/22/observing-processes-in-elixir-the-little-elixir-otp-guidebook
+    date: 2020-05-09
+    id: 1111587709
+  - title: "Andrà tutto iene"
+    url: https://www.ciwati.it/2020/05/08/andra-tutto-iene/
+    date: 2020-05-09
+    id: 2976648096
+  - title: "Zangrillo: su coronavirus non si dice la verità, situazione negli ospedali è un’altra"
+    url: https://heralditalia.it/zangrillo-su-coronavirus-non-si-dice-la-verita-situazione-negli-ospedali-e-unaltra-uid-4/
+    date: 2020-05-09
+    id: 2976789279
+  - title: "Want to Improve Your Efficiency? Stop Over-Optimising"
+    url: https://medium.com/swlh/the-over-optimisation-trap-the-case-for-consistency-of-action-e310f6f7a11
+    date: 2020-05-09
+    id: 2977009541
+  - title: "Why does writing matter in remote work? — Tim Casasola"
+    url: http://www.timcasasola.com/blog/writing
+    date: 2020-05-08
+    id: 2956036643
+  - title: "4 important tips for leading agile teams remotely"
+    url: https://deliverydoubled.com/4-important-tips-for-leading-remotely/
+    date: 2020-05-08
+    id: 2964374302
+  - title: "Correcting a Team Member: Avoid My Damaging Rookie Mistakes"
+    url: https://deliverydoubled.com/correcting-a-team-member-avoid-my-damaging-rookie-mistakes/
+    date: 2020-05-08
+    id: 2973174402
+  - title: "Web scraping with Elixir and Crawly. Browser rendering."
+    url: https://medium.com/@oltarasenko/web-scraping-with-elixir-and-crawly-browser-rendering-afcaacf954e8
+    date: 2020-05-07
+    id: 2974503426
+  - title: "Kraftwerk founder Florian Schneider dies at 73"
+    url: https://www.bbc.com/news/entertainment-arts-52564281
+    date: 2020-05-07
+    id: 2974590009
+  - title: "Cloister :: Distributed Erlang like I am 5"
+    url: http://elixirstatus.com/=NErb
+    date: 2020-05-07
+    id: 2975401195
+  - title: "FAQ ― NextDNS"
+    url: https://nextdns.io/faq
+    date: 2020-05-06
+    id: 2712629733
+  - title: "Cent"
+    url: https://beta.cent.co/
+    date: 2020-05-06
+    id: 2974088770
+  - title: "Can We Have an Honest Conversation About Advertisements?"
+    url: https://www.theminimalists.com/ads/
+    date: 2020-05-05
+    id: 2089435069
+  - title: "6 powerful tips for managing a remote project"
+    url: https://www.nearform.com/blog/6-tips-for-managing-a-remote-project/
+    date: 2020-05-05
+    id: 2927378817
+  - title: "Stealing your SMS messages with iOS 0day"
+    url: https://wojciechregula.blog/post/stealing-your-sms-messages-with-ios-0day/
+    date: 2020-05-05
+    id: 2968271747
+  - title: "Ask HN: No formal software education – is there hope for me?"
+    url: https://news.ycombinator.com/item?id=23061236
+    date: 2020-05-05
+    id: 2971310739
+  - title: "Sharing is caring - Part I: The code"
+    url: http://joebew42.github.io/2020/05/05/sharing-is-caring/
+    date: 2020-05-05
+    id: 2973486091
+  - title: "Thanks for everything Medium! It's been a fun ride but it is time to move on 👋"
+    url: https://medium.com/life-in-belka/thanks-for-everything-medium-its-been-a-fun-ride-but-it-is-time-to-move-on-b306804c3fc5
+    date: 2020-05-05
+    id: 2973486268
+  - title: "Pricing Your Product"
+    url: https://www.sequoiacap.com/article/pricing-your-product/#
+    date: 2020-05-05
+    id: 2973517614
+  - title: "What would you do if you lost your Google account?"
+    url: https://blog.viktomas.com/posts/losing-google-account/
+    date: 2020-05-05
+    id: 2973517752
+  - title: "Bye, Amazon"
+    url: https://www.tbray.org/ongoing/When/202x/2020/04/29/Leaving-Amazon
+    date: 2020-05-05
+    id: 2973517927
+  - title: "Pirate Coelho"
+    url: http://paulocoelhoblog.com/2008/02/03/pirate-coelho/
+    date: 2020-05-04
+    id: 133772152
+  - title: "I due mesi che sconvolsero la Lombardia"
+    url: https://www.ilpost.it/2020/05/04/pandemia-coronavirus-lombardia/
+    date: 2020-05-04
+    id: 2971998989
+  - title: "Apple updates 13-inch MacBook Pro with Magic Keyboard, double the storage, and faster performance"
+    url: https://www.apple.com/newsroom/2020/05/apple-updates-13-inch-macbook-pro-with-magic-keyboard-double-the-storage-and-faster-performance/
+    date: 2020-05-04
+    id: 2972036996
+  - title: "history.txt"
+    url: https://gist.github.com/mGBUfLn9/7cadffcf7c3c23b7376350165a67735f
+    date: 2020-05-04
+    id: 2972432907
+  - title: "I gave away my books and sales increased"
+    url: https://news.ycombinator.com/item?id=23073126
+    date: 2020-05-04
+    id: 2972514934
+  - title: "I gave away my books for free, and sales increased 4x"
+    url: https://www.jeffgeerling.com/blog/2020/i-gave-away-my-books-free-and-sales-increased-4x
+    date: 2020-05-04
+    id: 2972516246
   - title: "Migrate from Gmail to ProtonMail"
     url: https://protonmail.com/support/knowledge-base/transitioning-from-gmail-to-protonmail/
     date: 2020-05-03
