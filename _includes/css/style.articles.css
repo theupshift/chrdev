@@ -18,11 +18,11 @@
 .post-item:hover {
   background-size: cover;
   background-color: inherit;
-  transform: scale(1.02) rotateZ(-2deg);
+  transform: scale(1.03) rotateZ(-1deg);
 }
 .post-item {
   height: 14em;
-  min-width: 20em;
+  min-width: 17em;
   padding: 0.5em;
   margin: 0.5em;
 }
@@ -39,10 +39,6 @@
 
 
 main article img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
-main article .title {
-  margin: 0;
-  max-width: 45em;
-}
 main article .title span {
   background-color: #fff;
   color: #333;
@@ -50,15 +46,8 @@ main article .title span {
   display: block;
 }
 
-@media all and (max-width: 45em) {
-  main article .title span { font-size: 1.1em; }
-}
+body > main article { max-width: 100%; }
 
-
-
-
-body > main article { max-width: 45em; }
-body > main article.preview { max-width: 45em; }
 body > main article header {
   font-size:  0.8rem;
   border-top: 1px solid lightgrey;
@@ -67,28 +56,20 @@ body > main article header {
   margin-bottom: 1em;
 }
 body > main aside { font-size: 0.8rem; padding: 0.6em; }
+body > main article img { text-align: center; }
 
-body > main article img {
-  text-align: center;
-}
-
-@media all and (min-width: 70em) {
+@media all and (min-width: 60em) {
   body > main.post {
     display: grid;
     grid-template-columns: 11em auto;
     grid-column-gap: 0.5em;
     grid-template-areas: "sidebar main";
     max-width: 45em;
-    max-width: 70em;
+    max-width: 60em;
   }
   body > main.post article { grid-area: main; }
   body > main.post aside { grid-area: sidebar; }
   body > main.post aside > div { grid-area: sidebar; position: sticky; top: 8em; }
-}
-
-article.preview {
-  margin-top: 5em;
-  width: 100%;
 }
 
 body > main article .title.has-image {
@@ -99,13 +80,4 @@ body > main article .title {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-
-.sidebar-cta {
-  display: inline-block;
-}
-
-.featured-container {
-  margin-top: 3em;
 }

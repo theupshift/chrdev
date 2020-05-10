@@ -1,0 +1,25 @@
+.embeddable-buttondown-form {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #ebedef;
+  --tint-color: #0069FF;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  text-align: left;
+  color: #393f48;
+  -webkit-box-direction: normal;
+}
+
+.embeddable-buttondown-form #bd-email, .embeddable-buttondown-form [type=submit] {
+  padding: 1em;
+  margin-top: 1em;
+  display: block;
+  width: 100%;
+  font-size: 1em;
+}
+.embeddable-buttondown-form [type=submit] {
+  background: #2f2f2f;
+  color: #fff;
+}

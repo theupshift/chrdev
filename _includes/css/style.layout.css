@@ -1,22 +1,13 @@
-/* layout */
-*, *::after, *::before { box-sizing: border-box; }
-html, body { min-height: 100%; min-height: 100vh; margin: 0; padding: 0; }
-
-body.dark-mode { background: #232323; color: white; }
-
 body > header, body > footer, body > main { max-width: 45em; margin: 0 auto; padding: 1em 1.5em; }
 .contain { max-width: 45em; margin: 0 auto; }
 
-body > header {
-  /* position: sticky;  */
-  left: 0; right: 0; top: 0; z-index: 9999; padding-bottom: 0; }
+body > header { position: sticky; left: 0; right: 0; top: 0; z-index: 9999; padding-bottom: 0; }
+
+body > header { background: #fff; position: sticky; left: 0; right: 0; top: 0; z-index: 9999; padding-bottom: 0; }
 body > main { margin-top: 2em; }
 #footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 
-img { max-width: 100%; }
-video { max-width: 100%; }
 
-ul, ol { padding-left: 0; margin-left: 3em; }
 blockquote {
   padding: 0.2em;
   padding-bottom: 0.5em;
@@ -34,7 +25,6 @@ blockquote {
   margin-right: 0.5em;
   max-width: none;
   vertical-align: bottom;
-
 }
 .nav-link {
   padding: 0.25em 0.5em;
@@ -50,28 +40,6 @@ blockquote {
   border-bottom: 3px solid #fe1;
 }
 
-
-
-
-.pad { padding: 1em; }
-.pad-half { padding: 0.5em; }
-.pad-v { padding-top: 2em; padding-bottom: 2em; }
-
-.flex { display: flex; flex-direction: row; }
-.flex-wrap { flex-wrap: wrap; }
-.flex-item { flex: 1; }
-.flex-01 { flex: 0.1; }
-.flex-02 { flex: 0.2; }
-.flex-03 { flex: 0.3; }
-.flex-05 { flex: 0.5; }
-
-.no-mt { margin-top: 0; }
-
-.tac { text-align: center; }
-.block-tac { margin: 0 auto; display: block; }
-.tacb { display: block; margin: 0 auto; }
-.ovs { overflow-x: scroll; }
-.ovh-s { overflow-x: scroll; overflow-y: hidden; }
 
 
 .alert {
@@ -90,40 +58,4 @@ blockquote {
   .only-mobile { display: none; }
 }
 
-
-.avatar-image {
-  max-width: 300px;
-}
-
-
-
-
-
-
-/* buttondown.email form */
-
-.embeddable-buttondown-form {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding: 10px 20px;
-  border-radius: 5px;
-  background: #ebedef;
-  --tint-color: #0069FF;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
-  text-align: left;
-  color: #393f48;
-  -webkit-box-direction: normal;
-}
-
-.embeddable-buttondown-form #bd-email, .embeddable-buttondown-form [type=submit] {
-  padding: 1em;
-  margin-top: 1em;
-  display: block;
-  width: 100%;
-  font-size: 1em;
-}
-.embeddable-buttondown-form [type=submit] {
-  background: #2f2f2f;
-  color: #fff;
-}
+.avatar-image { max-width: 300px; }

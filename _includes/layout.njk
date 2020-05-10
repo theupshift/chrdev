@@ -46,9 +46,14 @@
     <meta property="og:site_name" content="cri.dev" />
 
     {% set style %}
+      {% include "css/style.reset.css" %}
       {% include "css/style.utils.css" %}
+      {% if page.url != '/posts/2020-05-07-Minimal-dark-mode-with-CSS-and-JavaScript/' %}
+        {% include "css/style.darkmode.css" %}
+      {% endif %}
       {% include "css/style.typography.css" %}
       {% include "css/style.layout.css" %}
+      {% include "css/style.newsletter.css" %}
       {% include "css/style.articles.css" %}
       {% include "css/style.featured.css" %}
       {% include "css/style.books.css" %}
