@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Christian Fei's Blog - {{title}}</title>
+    <title>Christian Fei's Blog - {{ title }}</title>
     <meta name="author" content="Christian Fei">
     <meta name="keywords" content="Christian Fei,developer,programming,javascript,full-stack" />
     <link rel="shortcut icon" type="image/png" href="/assets/images/cf4.64x64.png"/>
@@ -46,6 +46,7 @@
     <meta property="og:site_name" content="cri.dev" />
 
     {% set style %}
+      {% include "css/style.utils.css" %}
       {% include "css/style.typography.css" %}
       {% include "css/style.layout.css" %}
       {% include "css/style.articles.css" %}

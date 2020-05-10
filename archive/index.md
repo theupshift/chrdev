@@ -16,7 +16,7 @@ title: Posts
 
 <div class="posts flex flex-wrap searchable">
 {% for post in collections.post | reverse %}
-  <a href="{{ post.url }}" class="post-item flex-item" {% if post.data.image %}lazy="{{post.data.image}}"{% endif %}>
+  <a href="{{ post.url }}" class="post-item flex-item" {% if post.data.image %}lazy="{{ post.data.image }}"{% endif %}>
     <time datetime="{{ post.data.date | isoday }}" class="post-date bg-white">{{ post.data.date | isoday }}</time>
     <span class="post-link bg-white">{{ post.data.title | capitalize }}</span>
     <!--

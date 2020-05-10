@@ -32,7 +32,7 @@
 </aside>
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} lazy="{{page.data.image}}"{% endif %}><span>{{ title }}</span></h1>
+  <h1 class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} lazy="{{ page.data.image }}"{% endif %}><span>{{ title }}</span></h1>
 
   <header class="flex flex-wrap">
     <div class="flex-item">
@@ -41,11 +41,11 @@
       </p>
 
       <p>
-        Written on &nbsp; <b>{{ page.data.date | isoday }}</b> {% if page.data.updated %}<br>(<i>last updated {{page.data.updated | isoday}}</i>) {% endif %}
+        Written on &nbsp; <b>{{ page.data.date | isoday }}</b> {% if page.data.updated %}<br>(<i>last updated {{ page.data.updated | isoday }}</i>) {% endif %}
       </p>
 
       {% if page.data.hackernews %}
-        <a href="{{page.data.hackernews}}">on HackerNews</a>
+        <a href="{{ page.data.hackernews }}">on HackerNews</a>
       {% endif %}
 
       <p>
@@ -60,7 +60,7 @@
       <p>
         Get the latest on clean code, node.js, testing and more
         <br/>
-        <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
+        <a class="dib" target="_blank" href="https://buttondown.email/christianfei">
           Subscribe to my newsletter!
         </a>
       </p>

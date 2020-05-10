@@ -11,7 +11,7 @@ js:
 {% block content %}
 
 <script type="text/javascript">
-window.contributionsByYear = {{collections.contributionsByYear | reverse | json | safe}}
+window.contributionsByYear = {{ collections.contributionsByYear | reverse | json | safe }}
 </script>
 
 <h1 class="no-mt">Open Source Contributions<br/><small><i>on <a href="https://github.com/christian-fei">GitHub</a></i></small></h1>
