@@ -58,14 +58,14 @@ body > main article header {
 body > main aside { font-size: 0.8rem; padding: 0.6em; }
 body > main article img { text-align: center; }
 
-@media all and (min-width: 60em) {
+@media all and (min-width: 70em) {
   body > main.post {
     display: grid;
     grid-template-columns: 11em auto;
     grid-column-gap: 0.5em;
     grid-template-areas: "sidebar main";
     max-width: 45em;
-    max-width: 60em;
+    max-width: 70em;
   }
   body > main.post article { grid-area: main; }
   body > main.post aside { grid-area: sidebar; }
