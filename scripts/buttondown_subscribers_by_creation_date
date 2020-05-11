@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e 
+
+#couldn't get the official API authorization to work, f it
+curl -H "Cookie: sessionid=$SESSION_ID" "https://buttondown.email/api/emails/subscribers/?page=1&ordering=-creation_date&filter=" --silent | jq ".results | map_values(.creation_date)" > _data/subscribers.json

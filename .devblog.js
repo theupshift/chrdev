@@ -13,6 +13,7 @@ module.exports = {
 
   collections: {
     books: require('./_data/books.json'),
+    subscribers: require('./_data/subscribers.json'),
     contributionsByDay: require('./_data/contributions.json').reduce((acc,curr) => {
       if (!acc.firstNotEmptySeen && curr.count > 0) acc.firstNotEmptySeen = true
       if (acc.firstNotEmptySeen) acc.contributions.push(curr)
