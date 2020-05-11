@@ -86,7 +86,7 @@ function makeSearchable ($searchable) {
 }
 ```
 
-## response to extreme gatsy configuration
+## response to extreme gatsby configuration
 
 this is a [`gatsy` configuration](https://twitter.com/kentcdodds/status/1225095035936362497) for a blog search I recently found on twitter, from which I was blown away because it seemed soo much for the task to be done.
 
