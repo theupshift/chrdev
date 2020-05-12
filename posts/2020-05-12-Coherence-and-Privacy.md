@@ -6,15 +6,19 @@ tags:
   - draft
 ---
 
-> Coherence **costs** and Privacy **matters**.
+> privacy **matters**, and coherence **costs**
 
 Do a self-examination, and think about what matters to you.
 
 **Stop being the product** and **start using an ethical and privacy-aware product** instead.
 
-No conspiracies here. Just real world cases.
+No conspiracy theories here. Just my thoughts.
 
-A small premise: nobody is perfect, I may contradict myself even without noticing. I **try** to be *as coherent as possible*.
+**If you don't agree, that's fine. Don't be a hater and continue your path.**
+
+A small premise: nobody is perfect. I may contradict myself even without noticing. I **try** to be *as coherent as possible*.
+
+For feedback, addionational alternatives, or simply a discussion: please let me know [@christian_fei](https://twitter.com/christian_fei) or contact me via crifei [at] protonmail.com
 
 # Email
 
