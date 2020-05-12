@@ -77,6 +77,12 @@ Atlassian Suite & Jira, no thanks, if possible.
 
 Use [discourse](https://www.discourse.org/)
 
+# Video
+
+If possible, avoid YouTube.
+
+Use decentralized alternatives like [d.tube](https://d.tube/) and [lbry.tv](https://lbry.tv/).
+
 # Video conferencing
 
 No Google Meet, no Classroom, screw Zoom.
