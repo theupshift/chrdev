@@ -1,5 +1,5 @@
 ---
-layout: rss.njk
+layout: empty.njk
 dest: rss.xml
 minify: false
 ---

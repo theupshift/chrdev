@@ -94,10 +94,10 @@ module.exports = {
       }
     }
   }, {
-    name: 'printdate',
+    name: 'isodate',
     filter: (date) => {
       try {
-        return new Date(date).toISOString().substring(0, 10)
+        return new Date(date).toISOString()
       } catch (err) {
         return date
       }

@@ -6,7 +6,7 @@
   {% for post in collections.featured | reverse %}
     <a href="{{ post.url }}" class="tdn flex-item featured-post" lazy="{{ post.data.image }}">
       <b class="post-title">{{ post.data.title | capitalize }}</b>
-      <span class="post-date">{{ post.data.date | printdate }}</span>
+      <span class="post-date">{{ post.data.date | isoday }}</span>
     </a>
   {% endfor %}
 </div>
