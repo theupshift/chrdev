@@ -1399,25 +1399,25 @@
   },
   {
     "date": "2020-05-12",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 4,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-05-11",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 3,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-05-10",
-    "count": 1,
+    "count": 10,
     "color": "#c6e48b",
     "intensity": 1
   },
   {
     "date": "2020-05-09",
-    "count": 21,
+    "count": 22,
     "color": "#7bc96f",
     "intensity": 2
   },
