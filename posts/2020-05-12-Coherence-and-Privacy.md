@@ -64,6 +64,12 @@ No Whatsapp. [Try signal](https://www.signal.org/).
 
 Telegram could also be fine.
 
+# Video conferencing
+
+No Google Meet, no Classroom, screw Zoom.
+
+Use jitsi, self-hosted if you feel so inclined.
+
 # News
 
 Ditch national newspapers that you're aware to write biased stories and try to indoctrinate you.
@@ -79,5 +85,5 @@ Use a Nokia 3310.
 
 Kidding.
 
-This is probably the most difficult part. Wouldn't know how to find a good compromise, validate by yourself.
+This is probably the most difficult part. Wouldn't know how to find a good compromise, evaluate by yourself.
 
