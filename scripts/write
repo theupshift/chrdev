@@ -25,7 +25,7 @@ echo "title: $args" >> $post_full_path
 echo "date: $date" >> $post_full_path
 echo "layout: post.njk" >> $post_full_path
 echo "tags:
-  - post" >> $post_full_path
+  - draft" >> $post_full_path
 echo "---" >> $post_full_path
 echo "" >> $post_full_path
 vim $post_full_path
