@@ -97,15 +97,16 @@
 
     {% include "footer.html" %}
 
-    <script type="text/javascript">{% include "main.js" %}</script>
+    <script type="text/javascript">
+      {% include "js/main.js" %}
+      {% if page.url !== '/' and page.url !== '/about/' %}
+        {% include "js/prism.min.js" %}
+      {% endif %}
+    </script>
     {% if page.data.js %}
       {% for script in page.data.js %}
         <script src="{{ script }}"></script>
       {% endfor %}
-    {% endif %}
-
-    {% if page.url !== '/' %}
-      <script src="/assets/js/prism.min.js"></script>
     {% endif %}
   </body>
 </html>
