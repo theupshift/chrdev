@@ -30,7 +30,7 @@ script:
   - echo "deploying to npm"
 deploy:
   provider: npm
-  email: crifei93@gmail.com
+  email: [ENTER_YOUR_EMAIL_HERE]
   api_key: $NPM_TOKEN
   on:
     tags: true

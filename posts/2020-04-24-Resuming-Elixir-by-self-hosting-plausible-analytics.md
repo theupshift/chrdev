@@ -302,7 +302,7 @@ And the result is the following:
 UPDATE "users" SET "trial_expiry_date" = $1, "updated_at" = $2 WHERE "id" = $3 [~D[2120-04-25], ~N[2020-04-25 14:51:39], 1]
 %Plausible.Auth.User{
   __meta__: #Ecto.Schema.Metadata<:loaded, "users">,
-  email: "crifei93@gmail.com",
+  email: "[REDACTED]",
   google_auth: #Ecto.Association.NotLoaded<association :google_auth is not loaded>,
   id: 1,
   inserted_at: ~N[2020-04-25 09:48:16],
