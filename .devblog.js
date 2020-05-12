@@ -55,7 +55,7 @@ module.exports = {
     filter: (content) => (content || '')
       .replace(/<\/?[^>]+(>|$)/g, "")
       .split('.')
-      .filter((_, i) => i < 5)
+      .filter((_, i) => i < 2)
       .join(' ')
   }, {
     name: 'twitterTitle',
