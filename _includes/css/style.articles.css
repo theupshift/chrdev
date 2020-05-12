@@ -46,7 +46,8 @@ main article .title span {
   display: block;
 }
 
-body > main article { max-width: 100%; }
+body > main article { max-width: 50em; }
+.posts article { max-width: 100%; }
 
 body > main article header {
   font-size:  0.8rem;
