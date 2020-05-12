@@ -1,8 +1,24 @@
 pocket_items:
+  - title: "The Prosperous Software Consultant"
+    url: https://medium.com/@dabit3/the-prosperous-software-consultant-5dc8d705c5dd
+    date: 2020-05-11
+    id: 2978990463
+  - title: "Second-guessing the modern web"
+    url: https://macwright.org/2020/05/10/spa-fatigue.html
+    date: 2020-05-11
+    id: 2979287698
   - title: "Elixir child specifications became a lot easier"
     url: https://9elements.com/blog/elixir-child-specifications-became-a-lot-easier/
     date: 2020-05-10
     id: 2978617277
+  - title: "„Die Angst vor dem Fremden“"
+    url: https://www.tageszeitung.it/2020/05/10/der-boom-der-verschwoerungstheorien/
+    date: 2020-05-10
+    id: 2978787589
+  - title: "Quebec’s 735kv power lines can survive the apocalypse, but can they run TCP?!"
+    url: https://pirate.github.io/quebec-power-grid-talk/
+    date: 2020-05-10
+    id: 2978985822
   - title: "Observing Processes in Elixir - The Little Elixir & OTP Guidebook"
     url: https://www.akitaonrails.com/2015/11/22/observing-processes-in-elixir-the-little-elixir-otp-guidebook
     date: 2020-05-09
