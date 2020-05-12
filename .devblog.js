@@ -71,7 +71,7 @@ module.exports = {
     filter: (content) => encodeURIComponent(content || '')
   }, {
     name: 'withDomain',
-    filter: (url) => `https://cri.dev${url}`
+    filter: (url) => (url && url.startsWith('/')) ? `https://cri.dev${url}` : url
   }, {
     name: 'decode',
     filter: (str) => {

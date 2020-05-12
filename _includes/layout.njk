@@ -20,7 +20,7 @@
     <meta name="twitter:domain" content="cri.dev">
     <meta name="twitter:creator" content="@christian_fei">
     <meta name="twitter:title" content="{{ title or 'A blog about agile, programming, clean code, testing, javascript' }}">
-    <meta name="twitter:image" content="{{ image or 'https://cri.dev/assets/images/cf4.png'}}">
+    <meta name="twitter:image" content="{{ (image | withDomain) or 'https://cri.dev/assets/images/cf4.png'}}">
     <meta name="twitter:description" content="Articles on Elixir, Node.js, JavaScript, Clean Code, testing and pretty much programming in general.">
 
     <meta property="og:title" content="{{ title or 'A blog about agile, programming, clean code, testing, javascript' }}" />
@@ -36,8 +36,8 @@
     {% endif %}
 
     <title>Christian Fei's Blog - {{ title }}</title>
-    <link rel="shortcut icon" type="image/png" href="/assets/images/cf4.64x64.png"/>
-    <link rel="apple-touch-icon" href="/assets/images/cf4.64x64.png">
+    <link rel="shortcut icon" type="image/png" href="https://cri.dev/assets/images/cf4.64x64.png"/>
+    <link rel="apple-touch-icon" href="https://cri.dev/assets/images/cf4.64x64.png">
     <link rel="canonical" href="https://cri.dev/">
     <link rel="alternate" type="application/rss+xml" title="cri.dev" href="/rss.xml">
 
