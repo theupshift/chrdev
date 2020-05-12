@@ -31,7 +31,7 @@ You can **support me** through my [GitHub Sponsor page ✌️](https://github.co
   </dl>
 </div>
 
-Check out my [GitHub Profile 🤖](https://github.com/christian-fei)
+Check out my <a href="https://github.com/christian-fei" class="cta">GitHub Profile 🤖</a>
 
 
 <div class="contributions-grid">

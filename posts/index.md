@@ -16,7 +16,7 @@ title: Posts
   </p>
 </div>
 
-<b><a href="/archive/">Visit the archive</a> to see all {{ collections.post.length }} posts</b>
+<b><a href="/archive/" class="cta">Visit the archive</a> to see all {{ collections.post.length }} posts</b>
 
 <div class="posts flex flex-wrap">
 {% for post in collections.featured | reverse | limit10 %}
