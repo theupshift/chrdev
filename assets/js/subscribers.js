@@ -9,7 +9,7 @@
   }
 
   data = data.map(d => new Date(d))
-  const datesWithCount = data.reduce((acc, curr, i) => acc.concat([i]), [])
+  const datesWithCount = data.reduce((acc, curr, i) => acc.concat([i + 1]), [])
   console.log('data', data, datesWithCount)
 
   var chart = new window.Chart(ctx, {
