@@ -69,6 +69,14 @@ No Whatsapp. [Try signal](https://www.signal.org/).
 
 Telegram could also be fine.
 
+# Discussion & KB
+
+Atlassian Suite & Jira, no thanks, if possible.
+
+**What else is out there?** Let me know [@christian_fei](https://twitter.com/christian_fei).
+
+Use [discourse](https://www.discourse.org/)
+
 # Video conferencing
 
 No Google Meet, no Classroom, screw Zoom.
