@@ -29,7 +29,7 @@ title: Home
     </a>
     <p>
       Read more <a href="/about">about me</a> and <a href="https://twitter.com/christian_fei" target="_blank">follow me {% include 'img/twitter.html' %}</a></br>
-      <a href="https://cri.dev/subscribe/">Subscribe to my newsletter</a>
+      <a class="cta" href="https://cri.dev/subscribe/">Subscribe to my newsletter</a>
     </p>
   </div>
 </div>
