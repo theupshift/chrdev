@@ -1,5 +1,5 @@
 ---
-title: My Privacy stack in 2020
+title: Privacy and Coherence
 date: 2020-05-12
 layout: post.njk
 tags:
@@ -41,6 +41,22 @@ I like ProtonMail because it allows you to manage your encryption keys.
 You can export the default ones, import your own encryption keys etc. All communication is secured with end-to-end encryption. No IP-logs are retained.
 
 Did I mention that their code is available on [GitHub](https://github.com/ProtonMail)?
+
+# Phone
+
+Use a Nokia 3310.
+
+Kidding (actually, not so much).
+
+If you feel so inclined you could try a [Librem 5](https://puri.sm/products/librem-5/) or a [PinePhone](https://www.pine64.org/pinephone/).
+
+These phones are even shipping in late May 2020!
+
+Your phone (and habits) is probably the most difficult part to change.
+
+At the same time we are headed in the right direction, since I feel that manufacturers and the community behind are growing.
+
+Your phone might be the greatest pain point of your privacy, since it can be seen as an "extension" of yourself. You probably have it with you most of the time too.
 
 # Website analytics
 
@@ -117,14 +133,12 @@ That's up to you understanding it; not mentioning any.
 
 Use indipendent and unbiased, local and global news sources that you know of. If possible try to support them with a donation.
 
-# Phone
+---
 
-Use a Nokia 3310.
+That's all from my side.
 
-Kidding.
+I try to be aware what I do and share with third-parties as much as possible, although it seems to be getting more difficult every day.
 
-This is probably the most difficult part. Wouldn't know how to find a good compromise, evaluate by yourself.
+Again, I'm not an expert on this, but I try my best.
 
-Your phone might be the greatest pain-point of your privacy, since it can be seen as an "extension" of yourself. You probably have it with you most of the time too.
-
-
+Let me know your opinion and feedback [@christian_fei](https://twitter.com/christian_fei).
