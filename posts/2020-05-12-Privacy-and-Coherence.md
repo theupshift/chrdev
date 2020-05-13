@@ -13,11 +13,10 @@ Do a self-examination, and think about what matters to you.
 
 **To me, privacy is about consciousness, possibility and choice.**
 
-**Start using an ethical and privacy-aware product**.
-
-No conspiracy theories here. Just my thoughts.
+**No conspiracy theories here. Just my thoughts.**
 
 **I'm not an expert. These are just my opinions. If you don't agree, that's fine.**
+
 
 *A small premise: nobody is perfect. I may contradict myself even without noticing.*
 
@@ -27,7 +26,11 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 
 ---
 
-One could say: if you don't own your encryption keys, there is no real privacy.
+> One could say: if you don't own your encryption keys, there is no real privacy.
+
+Below you can find some topics I feel sensitive about on the internet, and for which I found some more privacy-aware and ethical alternatives.
+
+
 
 # Email
 
@@ -57,7 +60,7 @@ If you feel so inclined, you could try a [Librem 5](https://puri.sm/products/lib
 
 *These phones are even shipping in late May 2020!*
 
-(Do you remember the FirefoxOS Phone? I remember as I got one for free when Firefox was beta-testing it, and it felt really weird at that time.)
+Do you remember the FirefoxOS Phone? I remember as I got one for free when Firefox was beta-testing it, and it felt really weird at the time.
 
 With these novel approaches and businesses around privacy oriented phones, I think we are headed in the right direction, since I feel that manufacturers and the community behind are growing year after year.
 
@@ -66,7 +69,7 @@ With these novel approaches and businesses around privacy oriented phones, I thi
 
 Are you using Google Analytics on your websites?
 
-Don't.
+If you can, don't.
 
 Use [plausible analytics](https://plausible.io/): [self-host it](/posts/2020-04-24-Resuming-Elixir-by-self-hosting-plausible-analytics/) or *pay for it*.
 
@@ -95,9 +98,17 @@ Mastodon could be an alternative, not necessarily for your relatives but for per
 
 There are various ones I signed up for like unfiltered news sources and thematic instances of interest.
 
+## Social buttons
+
+Also here, don't use them.
+
+Just link with an anchor tag to your profile, if you have a follow button or these sort of things on your webpage.
+
+Twitter has the [Web Intents](https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent) that can be used without JavaScript and external resources and cruft.
+
 # Messaging
 
-No Whatsapp.
+No Whatsapp. No Facebook Messenger.
 
 [Try signal](https://www.signal.org/).
 
