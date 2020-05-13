@@ -28,25 +28,6 @@ module.exports = async function (page, shareText) {
   await page.type('[contenteditable="true"]', ' ')
   console.log('finished typing message')
 
-  if (false && process.env.LINKEDIN !== 'true') {
-    let tries = 0
-    let foundSuggestedMedia = false
-    const suggestedMediaSelector = '[class*="SuggestedMediaBox__thumbnailContainer"]:first-child'
-    do {
-      console.log('trying to select suggested media')
-      foundSuggestedMedia = await page.evaluate(selector => {
-        const el = document.querySelector(selector)
-        if (el && el.click) el.click()
-        return !!el
-      }, suggestedMediaSelector)
-      if (!foundSuggestedMedia) {
-        await page.waitForSelector(suggestedMediaSelector, { timeout: 500 }).catch(Function.prototype)
-        console.log('waiting for suggested media')
-      }
-    } while (!foundSuggestedMedia && tries++ < 10)
-    console.log(foundSuggestedMedia ? 'clicked on suggested media' : 'no suggested media found')
-  }
-
   await page.click('[class*="UpdateSaver"] button[class*="BaseButton"]:not([class*="dropdownMenuItem"])')
   console.log('clicked on "Add to queue" button')
 }
