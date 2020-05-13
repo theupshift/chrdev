@@ -52,6 +52,8 @@ Use [plausible analytics](https://plausible.io/): [self-host it](/posts/2020-04-
 
 Personally like it because it's a simple, unobtrusive & open-source website analytics tool. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR.
 
+Another interesting analytics service is [fathom analytics](https://usefathom.com/).
+
 # VPN
 
 Don't use a free VPN. A few links to bring the point home:
