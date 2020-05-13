@@ -1,5 +1,5 @@
 ---
-title: MongoDB: update sub documents with positional operators and arrayFilters
+title: "MongoDB: update sub documents with positional operators and arrayFilters"
 date: 2020-05-13
 layout: post.njk
 tags:
