@@ -4,6 +4,7 @@ date: 2020-05-12
 layout: post.njk
 tags:
   - draft
+  # - post
 ---
 
 > privacy **matters**, and coherence **costs**
@@ -16,7 +17,7 @@ Do a self-examination, and think about what matters to you.
 
 No conspiracy theories here. Just my thoughts.
 
-**I'm not an expert. This is just my opinion. If you don't agree, that's fine.**
+**I'm not an expert. These are just my opinions. If you don't agree, that's fine.**
 
 *A small premise: nobody is perfect. I may contradict myself even without noticing.*
 
