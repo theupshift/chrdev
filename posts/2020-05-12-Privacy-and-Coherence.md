@@ -22,7 +22,7 @@ No conspiracy theories here. Just my thoughts.
 
 I **try** to be *as coherent as possible*.
 
-For feedback, addionational alternatives, or simply a discussion: please let me know [@christian_fei](https://twitter.com/christian_fei) or contact me via crifei [at] protonmail.com
+For feedback, addionational alternatives, or simply a discussion: please let me know [@christian_fei](https://twitter.com/christian_fei) or contact me via [hey@cri.dev](mailto:hey@cri.dev)
 
 ---
 
@@ -32,15 +32,15 @@ One could say: if you don't own your encryption keys, there is no real privacy.
 
 Gmail is probably the most widely used email service.
 
-Ditch that.
+Move away from that.
 
 Go with [ProtonMail](https://proton.go2cloud.org/aff_c?offer_id=15&aff_id=1721&source=blog).
 
-I like ProtonMail because it allows you to manage your encryption keys.
+I like ProtonMail because it allows you to manage your encryption keys, has a pretty simple UI, no fuzz and allows to send and receive secure and encrypted emails.
 
 You can export the default ones, import your own encryption keys etc. All communication is secured with end-to-end encryption. No IP-logs are retained.
 
-Did I mention that their code is available on [GitHub](https://github.com/ProtonMail)?
+Their code is available on [GitHub](https://github.com/ProtonMail).
 
 # Phone
 
@@ -48,15 +48,18 @@ Use a Nokia 3310.
 
 Kidding (actually, not so much).
 
-If you feel so inclined you could try a [Librem 5](https://puri.sm/products/librem-5/) or a [PinePhone](https://www.pine64.org/pinephone/).
-
-These phones are even shipping in late May 2020!
-
-Your phone (and habits) is probably the most difficult part to change.
-
-At the same time we are headed in the right direction, since I feel that manufacturers and the community behind are growing.
+Your phone usage and habits are probably the most difficult to change.
 
 Your phone might be the greatest pain point of your privacy, since it can be seen as an "extension" of yourself. You probably have it with you most of the time too.
+
+If you feel so inclined, you could try a [Librem 5](https://puri.sm/products/librem-5/) or a [PinePhone](https://www.pine64.org/pinephone/).
+
+*These phones are even shipping in late May 2020!*
+
+(Do you remember the FirefoxOS Phone? I remember as I got one for free when Firefox was beta-testing it, and it felt really weird at that time.)
+
+With these novel approaches and businesses around privacy oriented phones, I think we are headed in the right direction, since I feel that manufacturers and the community behind are growing year after year.
+
 
 # Website analytics
 
