@@ -11,7 +11,7 @@ title: Home
 
   <b>My name is Christian, cri for short</b>
   <br/>
-  A <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/" target="_blank">passionate web developer</a> from <b>Italy</b>
+  A <a href="https://twitter.com/christian_fei" target="_blank">passionate web developer</a> from <b>Italy</b>
 
   <p>I am an agile enthusiast, clean code connoisseur & testing aficionado<p>
 
