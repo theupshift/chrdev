@@ -89,4 +89,8 @@ Had a chance to dabble with **Python** in the context of python notebooks when I
 When I was doing **Ruby** I felt on top of the world
 
 As a classic, **Java**, but I prefer to stay away from it
+
+{% include 'subscribe-to-newsletter.html' %}
+
 {% endblock %}
+
