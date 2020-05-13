@@ -89,3 +89,11 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 0 })
 { "_id" : ObjectId("5ebb895f2216ccc85789071c"), "name" : "chocolate cookies", "eatenBy" : [ { "name" : "alice", "amount" : 1 }, { "name" : "bob", "amount" : 3 }, { "name" : "alice", "amount" : 3 } ] }
 > db.dispensary.update({ name: 'chocolate cookies', 'eatenBy.name': 'alice' }, { $set: { 'eatenBy.$.amount': 1 } }, {})
 ```
+
+
+https://docs.mongodb.com/manual/reference/method/db.collection.update/#update-array-filters
+https://docs.mongodb.com/manual/reference/operator/update/positional-filtered/
+https://docs.mongodb.com/manual/reference/operator/update/push/
+https://docs.mongodb.com/manual/reference/operator/update/set/
+https://docs.mongodb.com/manual/reference/operator/update/positional/#up._S_
+https://docs.mongodb.com/manual/reference/command/update/#update-command-arrayfilters
