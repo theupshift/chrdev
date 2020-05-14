@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "clean-css": "^4.2.3",
+    "compromise": "^13.2.0",
     "devblog": "^2.19.1",
     "http-server": "^0.12.3"
   },
