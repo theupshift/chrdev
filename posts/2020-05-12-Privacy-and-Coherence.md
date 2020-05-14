@@ -28,7 +28,12 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 
 > One could say: if you don't own your encryption keys, there is no real privacy.
 
+> Stop paying for X with your privacy.
+
 Below you can find some topics I feel sensitive about, and for which I found some more privacy-aware and ethical alternatives.
+
+Stop paying for email with your privacy.
+
 
 
 
