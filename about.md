@@ -10,7 +10,7 @@ title: About
   </a>
 </div>
 
-I am an agile enthusiast, clean code connoisseur & testing aficionado.
+<h5 class="no-anchor">I am an agile enthusiast, clean code connoisseur & testing aficionado</h5>
 
 Italian, german & english speaking.
 
