@@ -30,7 +30,7 @@ mix run --no-halt --eval ":observer.start"
 
 This will run your app (without halting) **and** spawn a process monitor window!
 
-If you're interested, here the repo where I needed the proces monitor:
+If you're interested, here the repo where I needed the process monitor:
 
 [https://github.com/christian-fei/elixir_monitor_crypto](https://github.com/christian-fei/elixir_monitor_crypto)
 
