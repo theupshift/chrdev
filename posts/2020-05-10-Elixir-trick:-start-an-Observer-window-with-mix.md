@@ -38,3 +38,13 @@ If you're interested, here the repo where I needed the process monitor:
 
 ![elixir process monitor](/assets/images/posts/elixir/elixir-process-monitor.png)
 
+## Update
+
+As suggested by [Aleksei on Twitter](https://twitter.com/mudasobwa/status/1260851431189483520) you could do something like to always, automatically start the observer window, and have `IEx` functionality at the same time:
+
+
+```sh
+echo ':observer.start()' >> .iex.exs
+```
+
+Then, you can run your usual `iex -S mix` and enjoy process monitoring!
