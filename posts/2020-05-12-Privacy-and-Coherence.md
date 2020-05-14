@@ -7,15 +7,31 @@ tags:
   # - post
 ---
 
-> privacy **matters**, and coherence **costs**
+> **privacy matters, and coherence costs**
 
-Do a self-examination, and think about what matters to you.
+I tried to do a **self-examination**, and **reflect about what matters** to me when **browsing the web**.
 
-**To me, privacy is about consciousness, possibility and choice.**
+My main **motivation** to be more privacy-aware was to be **more coherent** with my *personal way of thinking* regarding ethical use of my *personal data shared with a third-party*.
 
-Trade-offs are also part of the deal, e.g. I still use Twitter albeit the points below.
+Meaning that **I'm against hidden / unclear ways of exploiting one's personal data** to gain profit by selling it to other companies.
+
+Be it for **targeted advertising**, **online purchases and interests**, even **psychological manipulation** when it comes to public voting etc.
+
+> Stop paying for X with your privacy.
+
+<h3 class="no-anchor">To me, privacy is about consciousness, possibility and choice</h3>
 
 **No conspiracy theories here. Just my thoughts.**
+
+### Trade-offs
+
+Trade-offs are also part of the deal.
+
+E.g. I still use Twitter albeit the points below. Gmail for my historic personal email address from which I'm slowly migrating away.
+
+Use it mainly to connect with a certain group of people (e.g. tech enthusiasts, programmers and such) and to share and discuss technical topics, tools and ideas.
+
+---
 
 Below you can find some topics I feel sensitive about, and for which I found some more privacy-aware and ethical alternatives.
 
@@ -29,11 +45,22 @@ I **try** to be *as coherent as possible*.
 
 For feedback, addionational alternatives, or simply a discussion: please let me know [@christian_fei](https://twitter.com/christian_fei) or contact me via [hey@cri.dev](mailto:hey@cri.dev)
 
+## Table of contents
+
+- [email](#email)
+- [search-engines](#search-engines)
+- [web-browsers](#web-browsers)
+- [phone](#phone)
+- [socials](#socials)
+- [messaging](#messaging)
+- [website-analytics](#website-analytics)
+- [vpn](#vpn)
+- [discussion-kb](#discussion--kb)
+- [video](#video)
+- [video-conferencing](#video-conferencing)
+- [news](#news)
+
 ---
-
-> One could say: if you don't own your encryption keys, there is no real privacy.
-
-> Stop paying for X with your privacy.
 
 # Email
 
@@ -99,30 +126,6 @@ Do you remember the FirefoxOS Phone? I remember as I got one for free when Firef
 With these novel approaches and businesses around privacy oriented phones, I think we are headed in the right direction, since I feel that manufacturers and the community behind are growing year after year.
 
 
-# Website analytics
-
-Are you using Google Analytics on your websites?
-
-If you can, don't.
-
-Use [plausible analytics](https://plausible.io/): [self-host it](/posts/2020-04-24-Resuming-Elixir-by-self-hosting-plausible-analytics/) or *pay for it*.
-
-Personally like it because it's a simple, unobtrusive & open-source website analytics tool. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR.
-
-Another interesting analytics service is [fathom analytics](https://usefathom.com/).
-
-# VPN
-
-Don't use a free VPN. A few links to bring the point home:
-
-- [Don't use VPN services](https://gist.github.com/joepie91/5a9909939e6ce7d09e29)
-- [Police Seize Two Perfect Privacy VPN Servers](https://torrentfreak.com/police-seize-two-perfect-privacy-vpn-servers-160902/)
-
-Definitely use [ProtonVPN](https://proton.go2cloud.org/aff_c?offer_id=10&aff_id=1721&source=blog).
-
-No user logs or data shared with third parties.
-
-Alternatively, [self-host a VPN with Algo](https://github.com/trailofbits/algo).
 
 # Socials
 
@@ -151,6 +154,31 @@ Telegram could also be fine.
 As always, this is a hairy and conflicting matter. Also Whatsapp was "fine" some time ago, in the sense that there wasn't FB behind, there weren't various leaks of information regarding plain-text password etc.
 
 So it's a difficult matter, right now I'm using Signal and Telegram. Let's see what the future holds.
+
+# Website analytics
+
+Are you using Google Analytics on your websites?
+
+If you can, don't.
+
+Use [plausible analytics](https://plausible.io/): [self-host it](/posts/2020-04-24-Resuming-Elixir-by-self-hosting-plausible-analytics/) or *pay for it*.
+
+Personally like it because it's a simple, unobtrusive & open-source website analytics tool. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR.
+
+Another interesting analytics service is [fathom analytics](https://usefathom.com/).
+
+# VPN
+
+Don't use a free VPN. A few links to bring the point home:
+
+- [Don't use VPN services](https://gist.github.com/joepie91/5a9909939e6ce7d09e29)
+- [Police Seize Two Perfect Privacy VPN Servers](https://torrentfreak.com/police-seize-two-perfect-privacy-vpn-servers-160902/)
+
+Definitely use [ProtonVPN](https://proton.go2cloud.org/aff_c?offer_id=10&aff_id=1721&source=blog).
+
+No user logs or data shared with third parties.
+
+Alternatively, [self-host a VPN with Algo](https://github.com/trailofbits/algo).
 
 # Discussion & KB
 
@@ -183,6 +211,8 @@ That's up to you understanding it; not mentioning any.
 Use indipendent and unbiased, local and global news sources that you know of. If possible try to support them with a donation.
 
 ---
+
+# Final words
 
 That's all from my side.
 
