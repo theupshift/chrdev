@@ -53,6 +53,33 @@ Ran a small poll on Twitter and these are [the results](https://twitter.com/chri
 
 ![poll-twitter-gmail.png](/assets/images/posts/poll-twitter-gmail.png)
 
+# Search engines
+
+Try [DuckDuckGo](https://duckduckgo.com/) next time, set it as your default search engine in your [Browser](#Webbrowsers).
+
+I have to admit, google search has pretty accurate results, sometimes it's even scary.
+
+But over time DuckDuckGo has improved a lot, and I'm using it daily with excellent results.
+
+DuckDuckGo has an ethical privacy policy, of not collecting or sharing any of your personal information, no storing of your search history
+
+# Web browsers
+
+Try [Brave](https://brave.com/chr311).
+
+It comes with
+
+- "Privacy shields" to disable known trackers, scripts, cross-site cookies and trackers
+- integrated HTTPS-everywhere
+- built-in adblocker (see `brave://adblock/`)
+- Tor functionality (if you feel so inclined)
+- an integrated wallet (see `brave://wallet/`)
+- Tip, earn and contribute to websites using [Brave Rewards](https://brave.com/chr311) using the Basic Attention Token
+
+Additionally, I use and can recommend [privacybadger.org](https://privacybadger.org/) by the [EFF](https://www.eff.org/) as a browser extension.
+
+To have a decent **DNS level blocking** of such known sites, I use a [Raspberry Pi with pi-hole](/posts/2020-05-03-Ad-blocking-with-Raspberry-Pi-and-Pi-hole/).
+
 # Phone
 
 Use a Nokia 3310.
