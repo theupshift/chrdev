@@ -83,23 +83,19 @@ function makeAnchorTitles () {
     .forEach(function (heading) {
       if (heading.classList.contains('no-anchor')) return
       if (heading.querySelector('a')) return
-      console.log('heading', heading)
-      if (heading.id) {
-        heading.innerHTML =
-          '<a href="#' + heading.id + '">' + heading.innerText + '</a>'
-      } else {
-        const id = (heading.innerText || '').replace(/ /g, '-').replace(/[^a-z0-9]/gi, '')
-        if (!id) return
-        heading.id = id
-        heading.innerHTML =
-            '<a href="#' + id + '">' + heading.innerText + '</a>'
-      }
+
+      const id = heading.id || (heading.innerText || '').toLowerCase().replace(/ /gi, '-').replace(/[^a-z0-9-]/gi, '')
+      heading.id = id
+      heading.innerHTML = '<a href="#' + id + '">' + heading.innerText + '</a>'
     })
 }
 
 function makeExternalLinksTargetBlank () {
   const externalLinks = [...document.querySelectorAll(`body a:not([href~='${window.location.hostname}']):not([href^='/'])`)]
-  externalLinks.forEach(el => el.setAttribute('target', '_blank'))
+  externalLinks.forEach(el => {
+    if (el.getAttribute('href').startsWith('#')) return
+    el.setAttribute('target', '_blank')
+  })
 }
 function addDarkmodeQueryToInternalLinks () {
   const internal = [...document.querySelectorAll(`a[href~='${window.location.hostname}'], a[href^='/']`)]
