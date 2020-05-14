@@ -1,6 +1,24 @@
 {
-  "lastSynced": "2020-05-12T05:38:36.393Z",
+  "lastSynced": "2020-05-14T05:55:50.698Z",
   "items": [
+    {
+      "id": "1760117290",
+      "title": "Everything You Need to Know About Buying Bitcoin",
+      "url": "https://protonmail.com/blog/how-to-buy-bitcoin/",
+      "date": "2020-05-12"
+    },
+    {
+      "id": "2980956851",
+      "title": "Deploy on Ubuntu with mix release and Github Actions (without Docker)",
+      "url": "https://medium.com/elixir-bytes/deploy-on-ubuntu-with-mix-release-and-github-actions-c0fc31a7ef02",
+      "date": "2020-05-12"
+    },
+    {
+      "id": "2981481087",
+      "title": "The Silent Meeting Manifesto v1: Making meeting suck a little less",
+      "url": "https://medium.com/swlh/the-silent-meeting-manifesto-v1-189e9e3487eb",
+      "date": "2020-05-12"
+    },
     {
       "id": "2978990463",
       "title": "The Prosperous Software Consultant",
