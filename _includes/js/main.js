@@ -7,9 +7,11 @@ main()
 function main () {
   [...document.querySelectorAll('.searchable')].forEach(makeSearchable)
 
-  try { makeExternalLinksTargetBlank() } catch (err) { console.error(err.message) }
+  try { makeExternalLinksTargetBlank() } catch (err) { console.error(err.message, err) }
 
-  try { lazyLoad('[lazy]') } catch (err) { console.error(err.message) }
+  try { lazyLoad('[lazy]') } catch (err) { console.error(err.message, err) }
+
+  try { makeAnchorTitles() } catch (err) { console.error(err.message, err) }
 
   if ((window.location.search || '').includes('dark')) {
     document.body.classList.add('dark-mode')
@@ -72,6 +74,27 @@ function lazyLoad (selector = '[lazy]') {
     var isVisible = (rect.top >= 0) && (rect.bottom <= (window.innerHeight + rect.height))
     return isVisible
   }
+}
+
+function makeAnchorTitles () {
+  console.log('makeAnchorTitles')
+  document
+    .querySelectorAll('h1:not(.title),h2,h3,h4,h5,h6')
+    .forEach(function (heading) {
+      if (heading.classList.contains('no-anchor')) return
+      if (heading.querySelector('a')) return
+      console.log('heading', heading)
+      if (heading.id) {
+        heading.innerHTML =
+          '<a href="#' + heading.id + '">' + heading.innerText + '</a>'
+      } else {
+        const id = (heading.innerText || '').replace(/ /g, '-').replace(/[^a-z0-9]/gi, '')
+        if (!id) return
+        heading.id = id
+        heading.innerHTML =
+            '<a href="#' + id + '">' + heading.innerText + '</a>'
+      }
+    })
 }
 
 function makeExternalLinksTargetBlank () {

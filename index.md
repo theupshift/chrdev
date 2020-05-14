@@ -7,7 +7,7 @@ title: Home
 <div class="flex flex-wrap">
 <div class="flex-item" style="max-width: 21em;">
   <div class="no-mobile" style="margin-top: 3em; width: 25em"></div>
-  <h1><b>Welcome to my blog!</b> 👋</h1>
+  <h1 class="no-anchor"><b>Welcome to my blog!</b> 👋</h1>
 
   <b>My name is Christian, cri for short</b>
   <br/>
