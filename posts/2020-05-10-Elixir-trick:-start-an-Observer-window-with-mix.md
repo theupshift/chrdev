@@ -26,11 +26,17 @@ I don't like manual things that much.
 
 You can achieve the same, if you need to run your app with `mix run --no-halt` in the following way:
 
-```elixir
+```sh
 mix run --no-halt --eval ":observer.start"
 ```
 
 This will run your app (without halting) **and** spawn a process monitor window!
+
+Alternatively, you can achieve the same using `IEx`:
+
+```sh
+iex --eval ":observer.start" -S mix
+```
 
 If you're interested, here the repo where I needed the process monitor:
 
