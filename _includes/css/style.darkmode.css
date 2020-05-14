@@ -2,9 +2,11 @@
 body.dark-mode { background: #232323 !important; color: white !important; }
 body.dark-mode > header { background: #232323 !important; color: white !important; }
 body.dark-mode .cta { background-color: #656565 !important; }
+body.dark-mode .alert { background-color: #353535 !important; }
 
 @media (prefers-color-scheme:dark) {
   body { background: #232323 !important; color: white !important; }
   body > header { background: #232323 !important; color: white !important; }
   .cta { background-color: #656565 !important; }
+  .alert { background-color: #353535 !important; }
 }

@@ -142,6 +142,7 @@ That's it. Try it out.
 body.dark-mode { background: #232323 !important; color: white !important; }
 body.dark-mode > header { background: #232323 !important; color: white !important; }
 body.dark-mode .cta { background-color: #656565 !important; }
+body.dark-mode .alert { background-color: #353535 !important; }
 </style>
 
 ## Notes
