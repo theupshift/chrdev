@@ -49,7 +49,7 @@ You can export the default ones, import your own encryption keys etc. All commun
 
 Their code is available on [GitHub](https://github.com/ProtonMail).
 
-Btw, ran a small poll on Twitter and these are the results:
+Ran a small poll on Twitter and these are [the results](https://twitter.com/christian_fei/status/1260108707616165888):
 
 ![poll-twitter-gmail.png](/assets/images/posts/poll-twitter-gmail.png)
 
