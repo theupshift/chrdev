@@ -19,11 +19,12 @@
       datasets: [{
         label: 'subscribers',
         data: datesWithCount,
-        borderWidth: 4,
-        backgroundColor: '#fe1'
+        borderWidth: 4
       }]
     },
     options: {
+      height: 200,
+      maintainAspectRatio: false,
       scales: {
         xAxes: [{
           type: 'time',

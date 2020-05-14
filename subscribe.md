@@ -23,7 +23,7 @@ window.subscribers = {{ collections.subscribers | reverse | json | safe }}
 
 <h1>Join {{collections.subscribers.length}} subscribers!</h1>
 
-<div style="height: 400px">
-  <canvas id="chart"></canvas>
+<div class="chart-container" style="height: 200px">
+  <canvas id="chart" style="height: 200px"></canvas>
 </div>
 {% endblock %}
