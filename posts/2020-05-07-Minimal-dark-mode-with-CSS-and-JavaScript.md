@@ -138,6 +138,11 @@ That's it. Try it out.
   }
 }))
 </script>
+<style>
+body.dark-mode { background: #232323 !important; color: white !important; }
+body.dark-mode > header { background: #232323 !important; color: white !important; }
+body.dark-mode .cta { background-color: #656565 !important; }
+</style>
 
 ## Notes
 

@@ -5,6 +5,8 @@ title: Posts
 
 {% block content %}
 
+<b><a href="/archive/" class="cta">Visit the archive</a> to see all {{ collections.post.length }} posts</b>
+
 {% include 'subscribe-to-newsletter.html' %}
 
 <div class="alert" style="max-width: 45em">
@@ -15,8 +17,6 @@ title: Posts
     node.js, crypto, testing, tutorials, thoughts and more.
   </p>
 </div>
-
-<b><a href="/archive/" class="cta">Visit the archive</a> to see all {{ collections.post.length }} posts</b>
 
 <div class="posts flex flex-wrap">
 {% for post in collections.featured | reverse | limit10 %}

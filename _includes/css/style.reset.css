@@ -5,5 +5,3 @@ ul, ol { padding-left: 0; margin-left: 3em; }
 img { max-width: 100%; }
 video { max-width: 100%; }
 
-body.dark-mode { background: #232323; color: white; }
-body.dark-mode > header { background: #232323; color: white; }
