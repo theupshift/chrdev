@@ -11,8 +11,6 @@ tags:
 image: /assets/images/posts/npm.svg
 ---
 
-![npm](/assets/images/posts/npm.svg)
-
 Today I sat down and wrote a tiny package called [wait-for-user-input](https://github.com/christian-fei/wait-for-user-input). it can be used to wait for `stdin` input in a command line script.
 
 After I published the package on [registry.npmjs.org](http://registry.npmjs.org/), I noticed that I accidentally published it with the npm account from work..
