@@ -31,6 +31,20 @@ E.g. I still use Twitter albeit the points below. Gmail for my historic personal
 
 Use it mainly to connect with a certain group of people (e.g. tech enthusiasts, programmers and such) and to share and discuss technical topics, tools and ideas.
 
+### Tools and mindset
+
+**It's not only about the tools**.
+
+To be more privacy-aware on the internet **I needed change some of my habits**.
+
+Browsing sessions in incognito mode to avoid cookies leekage.
+
+Reduce the number of extensions on the browser.
+
+Logging out of important and sensitive web services.
+
+The list goes on.
+
 ---
 
 Below you can find some topics I feel sensitive about, and for which I found some more privacy-aware and ethical alternatives.
