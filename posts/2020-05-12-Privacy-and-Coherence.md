@@ -38,7 +38,7 @@ Gmail is probably the most widely used email service.
 
 Move away from that.
 
-Go with [ProtonMail](https://proton.go2cloud.org/aff_c?offer_id=15&aff_id=1721&source=blog).
+Go with [ProtonMail](https://proton.go2cloud.org/aff_c?offer_id=15&aff_id=1721&source=blog) or [Fastmail](https://www.fastmail.com/)
 
 I like ProtonMail because it allows you to manage your encryption keys, has a pretty simple UI, no fuzz and allows to send and receive secure and encrypted emails.
 
