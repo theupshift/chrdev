@@ -15,8 +15,11 @@ Do a self-examination, and think about what matters to you.
 
 **No conspiracy theories here. Just my thoughts.**
 
+Below you can find some topics I feel sensitive about, and for which I found some more privacy-aware and ethical alternatives.
+
 **I'm not an expert. These are just my opinions. If you don't agree, that's fine.**
 
+---
 
 *A small premise: nobody is perfect. I may contradict myself even without noticing.*
 
@@ -29,13 +32,6 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 > One could say: if you don't own your encryption keys, there is no real privacy.
 
 > Stop paying for X with your privacy.
-
-Below you can find some topics I feel sensitive about, and for which I found some more privacy-aware and ethical alternatives.
-
-Stop paying for email with your privacy.
-
-
-
 
 # Email
 
