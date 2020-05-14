@@ -13,6 +13,8 @@ Do a self-examination, and think about what matters to you.
 
 **To me, privacy is about consciousness, possibility and choice.**
 
+Trade-offs are also part of the deal, e.g. I still use Twitter albeit the points below.
+
 **No conspiracy theories here. Just my thoughts.**
 
 Below you can find some topics I feel sensitive about, and for which I found some more privacy-aware and ethical alternatives.
