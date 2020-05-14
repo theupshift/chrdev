@@ -4,10 +4,12 @@ date: 2020-05-10
 layout: post.njk
 tags:
   - post
+  - featured
   - elixir
   - elixirlang
   - myelixirstatus
   - journey
+image: /assets/images/posts/elixir/elixir.png
 ---
 
 Yesterday I wanted to monitor the processes that my Elixir application was spawning.
