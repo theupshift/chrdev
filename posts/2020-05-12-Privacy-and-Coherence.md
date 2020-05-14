@@ -65,9 +65,9 @@ DuckDuckGo has an ethical privacy policy, of not collecting or sharing any of yo
 
 # Web browsers
 
-Try [Brave](https://brave.com/chr311).
+Use Firefox or Brave.
 
-It comes with
+I personally use [Brave](https://brave.com/chr311), it comes with
 
 - "Privacy shields" to disable known trackers, scripts, cross-site cookies and trackers
 - integrated HTTPS-everywhere
@@ -76,7 +76,7 @@ It comes with
 - an integrated wallet (see `brave://wallet/`)
 - Tip, earn and contribute to websites using [Brave Rewards](https://brave.com/chr311) using the Basic Attention Token
 
-Additionally, I use and can recommend [privacybadger.org](https://privacybadger.org/) by the [EFF](https://www.eff.org/) as a browser extension.
+Additionally, I use and definitely can recommend [privacybadger.org](https://privacybadger.org/) by the [EFF](https://www.eff.org/) as a browser extension.
 
 To have a decent **DNS level blocking** of such known sites, I use a [Raspberry Pi with pi-hole](/posts/2020-05-03-Ad-blocking-with-Raspberry-Pi-and-Pi-hole/).
 
