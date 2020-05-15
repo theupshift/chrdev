@@ -9,6 +9,7 @@ tags:
   - javascript
   - npm
   - npmregistry
+  - registry
 image: /assets/images/posts/npm.svg
 ---
 
