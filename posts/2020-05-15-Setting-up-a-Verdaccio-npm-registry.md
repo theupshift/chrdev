@@ -10,7 +10,7 @@ tags:
   - npm
   - npmregistry
   - registry
-image: /assets/images/posts/npm.svg
+image: /assets/images/posts/npm.png
 ---
 
 ![https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif](https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif)
