@@ -77,6 +77,14 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 - [News](#news)
 - [Maps](#maps)
 
+<p class="alert">
+  Get the latest on clean code, node.js, testing and programming
+  <br/>
+  <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
+    Subscribe to my newsletter!
+  </a>
+</p>
+
 # Email
 
 Gmail is probably the most widely used email service.
@@ -231,7 +239,14 @@ Use indipendent and unbiased, local and global news sources that you know of. If
 
 Use [openstreetmap.org](openstreetmap.org).
 
----
+<p class="alert">
+  Get the latest on clean code, node.js, testing and programming
+  <br/>
+  <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
+    Subscribe to my newsletter!
+  </a>
+</p>
+
 
 # Final words
 
