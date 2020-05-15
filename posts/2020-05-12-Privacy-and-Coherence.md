@@ -237,3 +237,8 @@ I try to be aware what I do and share with third-parties as much as possible, al
 Again, I'm not an expert on this, but I try my best.
 
 Let me know your opinion and feedback [@christian_fei](https://twitter.com/christian_fei).
+
+### Update
+
+For a more exhaustive list of tools I found the [/r/degoogle subreddit](https://www.reddit.com/r/degoogle/comments/g1yu01/google_alternatives_huge_list_restore_your_privacy/) and [restoreprivacy.com](https://restoreprivacy.com/google-alternatives/).
+There you can find even more tools to help you to get your privacy back.
