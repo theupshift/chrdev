@@ -74,8 +74,6 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 - [Video conferencing](#video-conferencing)
 - [News](#news)
 
----
-
 # Email
 
 Gmail is probably the most widely used email service.
