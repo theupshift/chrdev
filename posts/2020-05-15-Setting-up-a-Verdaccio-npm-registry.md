@@ -30,7 +30,7 @@ edit the main configuration file, located at `~/.config/verdaccio/config.yaml`.
 
 for security reasons, replace all occurrencies of `$all` to `$authenticated`.
 
-in vim you would something run something like this:
+in vim you would run something like this:
 
 ```
 s/\$all/\$authenticated/gc
