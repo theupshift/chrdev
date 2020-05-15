@@ -68,7 +68,7 @@ use `http` if you feel so inclined. local network addresses if you're behind a p
 
 # npm client setup
 
-you could manually add aline to the `.npmrc` file, but I used:
+you could manually add a line to the `.npmrc` file, but I used:
 
 ```sh
 npm adduser --registry https://npm.YOUR_COMPANY.com:4873
