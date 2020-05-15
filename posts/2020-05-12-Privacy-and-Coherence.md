@@ -117,7 +117,9 @@ I personally use [Brave](https://brave.com/chr311), it comes with
 - an integrated wallet (see `brave://wallet/`)
 - Tip, earn and contribute to websites using [Brave Rewards](https://brave.com/chr311) using the Basic Attention Token
 
-Additionally, I use and definitely can recommend [privacybadger.org](https://privacybadger.org/) by the [EFF](https://www.eff.org/) as a browser extension.
+Recently I discovered [privacybadger.org](https://privacybadger.org/) by the [EFF](https://www.eff.org/) as a browser extension.
+
+> Privacy Badger automatically learns to block invisible trackers. ([source](https://privacybadger.org/#How-is-Privacy-Badger-different-from-Disconnect%2c-Adblock-Plus%2c-Ghostery%2c-and-other-blocking-extensions))
 
 To have a decent **DNS level blocking** of such known sites, I use a [Raspberry Pi with pi-hole](/posts/2020-05-03-Ad-blocking-with-Raspberry-Pi-and-Pi-hole/).
 
