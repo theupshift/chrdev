@@ -3,8 +3,10 @@ title: Privacy and Coherence
 date: 2020-05-12
 layout: post.njk
 tags:
-  - draft
-  # - post
+  - post
+  - featured
+  - privacy
+image: https://images.unsplash.com/photo-1580847097346-72d80f164702?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
 ---
 
 > **privacy matters, and coherence costs**
