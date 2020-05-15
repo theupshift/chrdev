@@ -42,7 +42,7 @@ s/\$all/\$authenticated/gc
 
 set up a `~/htpasswd` file with the allowed users. you can create a config using this [secure htpasswd generator](https://hostingcanada.org/htpasswd-generator/) (it's the recommended one).
 
-add the resulting line to the `~/.htpasswd` file.
+add the resulting line to the `~/htpasswd` file.
 
 now instruct `verdaccio` to use that file, using the `auth` directive:
 
