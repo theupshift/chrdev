@@ -61,18 +61,18 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 
 ## Table of contents
 
-- [email](#email)
-- [search-engines](#search-engines)
-- [web-browsers](#web-browsers)
-- [phone](#phone)
-- [socials](#socials)
-- [messaging](#messaging)
-- [website-analytics](#website-analytics)
-- [vpn](#vpn)
-- [discussion-kb](#discussion--kb)
-- [video](#video)
-- [video-conferencing](#video-conferencing)
-- [news](#news)
+- [Email](#email)
+- [Search engines](#search-engines)
+- [Web browsers](#web-browsers)
+- [Phone](#phone)
+- [Socials](#socials)
+- [Messaging](#messaging)
+- [Website analytics](#website-analytics)
+- [VPN](#vpn)
+- [Discussion & KB](#discussion--kb)
+- [Video](#video)
+- [Video conferencing](#video-conferencing)
+- [News](#news)
 
 ---
 
