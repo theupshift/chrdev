@@ -234,8 +234,6 @@ That's all from my side.
 
 I try to be aware what I do and share with third-parties as much as possible, although it seems to be getting more difficult every day.
 
-Again, I'm not an expert on this, but I try my best.
-
 Let me know your opinion and feedback [@christian_fei](https://twitter.com/christian_fei).
 
 ### Update
