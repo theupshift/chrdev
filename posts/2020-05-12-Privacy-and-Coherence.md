@@ -75,6 +75,7 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 - [Video](#video)
 - [Video conferencing](#video-conferencing)
 - [News](#news)
+- [Maps](#maps)
 
 # Email
 
@@ -225,6 +226,10 @@ Ditch newspapers that you're aware of, that write biased stories and don't repor
 That's up to you understanding it; not mentioning any.
 
 Use indipendent and unbiased, local and global news sources that you know of. If possible try to support them with a donation.
+
+# Maps
+
+Use [openstreetmap.org](openstreetmap.org).
 
 ---
 
