@@ -38,7 +38,7 @@ curl -sSL https://install.pi-hole.net | bash
 ![pi-hole-password.png](/assets/images/posts/pi-hole/pi-hole-password.png)
 
 <p class="alert">
-  Get the latest on clean code, node.js, testing and programming
+  Get the latest on Clean Code, Elixir, Node.js, Testing and Programming
   <br/>
   <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
     Subscribe to my newsletter!
@@ -99,7 +99,7 @@ You'll see a similar output (check for your Raspberry's IP address):
 As you can see, the Raspberry Pi's IP address (*192.168.1.127* on port [53](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)) is first interrogated for the DNS resolution.
 
 <p class="alert">
-  Get the latest on clean code, node.js, testing and programming
+  Get the latest on Clean Code, Elixir, Node.js, Testing and Programming
   <br/>
   <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
     Subscribe to my newsletter!

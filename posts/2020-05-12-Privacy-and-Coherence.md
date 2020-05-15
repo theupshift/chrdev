@@ -78,7 +78,7 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 - [Maps](#maps)
 
 <p class="alert">
-  Get the latest on clean code, node.js, testing and programming
+  Get the latest on Clean Code, Elixir, Node.js, Testing and Programming
   <br/>
   <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
     Subscribe to my newsletter!
@@ -240,7 +240,7 @@ Use indipendent and unbiased, local and global news sources that you know of. If
 Use [openstreetmap.org](openstreetmap.org).
 
 <p class="alert">
-  Get the latest on clean code, node.js, testing and programming
+  Get the latest on Clean Code, Elixir, Node.js, Testing and Programming
   <br/>
   <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
     Subscribe to my newsletter!
