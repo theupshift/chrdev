@@ -61,7 +61,7 @@ for the web dashboard to be available on the web, you need to configure the `lis
 
 ```yml
 listen:
-  - https://npm.YOUR_COMPANY.com:4873
+  - npm.YOUR_COMPANY.com:4873
 ```
 
 use `http` if you feel so inclined. local network addresses if you're behind a proxy.
