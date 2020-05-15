@@ -3,7 +3,13 @@ title: "Setting up a Verdaccio npm registry"
 date: 2020-05-15
 layout: post.njk
 tags:
-  - draft
+  - post
+  - featured
+  - nodejs
+  - javascript
+  - npm
+  - npmregistry
+image: /assets/images/posts/npm.svg
 ---
 
 ![https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif](https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif)
@@ -69,3 +75,14 @@ npm adduser --registry https://npm.YOUR_COMPANY.com:4873
 ```
 
 authenticate to it and you should be good to go.
+
+# keep it running
+
+personally used `pm2`, but you have more options like `forever` or `systemd`:
+
+```
+pm2 start --name VERDACCIO verdaccio
+
+pm2 save
+pm2 startup
+```
