@@ -86,3 +86,18 @@ pm2 start --name VERDACCIO verdaccio
 pm2 save
 pm2 startup
 ```
+
+# reverse proxy with haproxy
+
+if haproxy terminates your SSL requests, you can put verdaccio behind that.
+
+snippet from the haproxy.cfg, your backend for npm could look like this:
+
+```yml
+backend npm
+  option forwardfor
+  http-request add-header X-Forwarded-Proto https
+  server npm1 npm.YOUR_COMPANY:4873 check
+```
+
+This is not 100% working, so if you have more info on how to get it working with haproxy, let me know [@christian_fei](https://twitter.com/christian_fei)
