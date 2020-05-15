@@ -37,7 +37,7 @@ Use it mainly to connect with a certain group of people (e.g. tech enthusiasts, 
 
 To be more privacy-aware on the internet **I needed change some of my habits**.
 
-Browsing sessions in incognito mode to avoid cookies leekage.
+Browsing sessions in incognito mode to avoid cookies leakage.
 
 Reduce the number of extensions on the browser.
 
