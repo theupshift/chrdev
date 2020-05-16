@@ -186,7 +186,7 @@ I feel that manufacturers and the community behind are growing year after year.
 
 Use Linux or a Unix-like system.
 
-I think this is very personal and needs research on your part which what you feel comfortable with.
+I think this is very personal and needs research on your part with what you feel comfortable with.
 
 # Socials
 
