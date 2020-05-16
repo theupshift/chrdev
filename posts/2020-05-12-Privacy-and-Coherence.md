@@ -19,9 +19,13 @@ reviewers:
     # link: https://twitter.com/0xNaN
 ---
 
+### Motivation
+
 > **privacy matters, and coherence costs**
 
 I tried to do a **self-examination**, and **reflect about what matters** to me when **browsing the web**.
+
+As a side note: I think being more aware of what happens while you browse the web and what you share with who comes with experience and can be seen as a journey. No tools will help if you don't change your attitude and habits.
 
 My main **motivation** to be more privacy-aware was to be **more coherent** with my way of thinking when it comes to ethical use of my personal data shared with a third-party.
 
