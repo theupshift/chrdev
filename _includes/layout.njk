@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>{{ title }} - News from Chris</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,27 +17,33 @@
     <meta name="msapplication-navbutton-color" content="#FFFFFF">
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
 
+    {% set shareTitle %}
+      {{ title or 'A blog about Programming, Agile, Clean Code, TDD, Refactoring' }}
+    {% endset%}
+    {% set shareDescription %}
+      {{ content | excerpt }}
+    {% endset%}
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@christian_fei">
     <meta name="twitter:domain" content="cri.dev">
     <meta name="twitter:creator" content="@christian_fei">
-    <meta name="twitter:title" content="{{ title or 'A blog about agile, programming, clean code, testing, javascript' }}">
-    <meta name="twitter:image" content="{{ (image | withDomain) or 'https://cri.dev/assets/images/cf4.png'}}">
-    <meta name="twitter:description" content="Articles on Elixir, Node.js, JavaScript, Clean Code, testing and pretty much programming in general.">
+    <meta name="twitter:title" content="{{ shareTitle }}">
+    <meta name="twitter:image" content="{{ (image | withDomain) or 'https://cri.dev/assets/images/cf4.64x64.png'}}">
+    <meta name="twitter:description" content="{{ shareDescription }}">
 
-    <meta property="og:title" content="{{ title or 'A blog about agile, programming, clean code, testing, javascript' }}" />
+    <meta property="og:title" content="{{ shareTitle}}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://cri.dev/" />
-    <meta property="og:description" content="{{ content | excerpt }}" />
+    <meta property="og:description" content="{{ shareDescription }}" />
     <meta property="og:site_name" content="cri.dev" />
 
     {% if page.url == '/' %}
       <meta name="description" content="A blog about agile, programming, clean code, testing, javascript">
     {% else %}
-      <meta name="description" content="{{ content | safe | striptags | excerpt }}">
+      <meta name="description" content="{{ shareDescription }}">
     {% endif %}
 
-    <title>Christian Fei's Blog - {{ title }}</title>
     <link rel="shortcut icon" type="image/png" href="https://cri.dev/assets/images/cf4.64x64.png"/>
     <link rel="apple-touch-icon" href="https://cri.dev/assets/images/cf4.64x64.png">
     <link rel="canonical" href="https://cri.dev/">
