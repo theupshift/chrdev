@@ -35,7 +35,7 @@
 </aside>
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} lazy="{{ page.data.image }}"{% endif %}><span>{{ title }}</span></h1>
+  <h1 class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} style="background-image: url('{{ page.data.image }}')"{% endif %}><span>{{ title }}</span></h1>
 
   <header class="flex flex-wrap">
     <div class="flex-item">
@@ -59,7 +59,16 @@
         {% include 'snippets/tweet-this.html' %}
       </p>
     </div>
-    <div class="flex-item only-mobile1">
+    <div class="flex-item no-mobile">
+      <p style="font-size: 1.1em">
+        Get the latest on Programming, Clean code, TDD, Refactoring and more
+        <br/>
+        <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
+          Subscribe to my newsletter!
+        </a>
+      </p>
+    </div>
+    <div class="only-mobile">
       <p style="font-size: 1.1em">
         Get the latest on Programming, Clean code, TDD, Refactoring and more
         <br/>
