@@ -18,8 +18,9 @@ title: Posts
   </p>
 </div>
 
+
 <div class="posts flex flex-wrap">
-{% for post in collections.featured | reverse | limit10 %}
+{% for post in collections.featured | reverse | limit5 %}
   <article class="mt5">
     <h1 class="title {% if post.data.image %} has-image {% endif %}"  {% if post.data.image %}lazy="{{ post.data.image }}"{% endif %}><span><a href="{{ post.url }}">{{ post.data.title }}</a></span></h1>
     <header>

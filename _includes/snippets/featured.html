@@ -3,7 +3,7 @@
 
 
 <div class="flex ovh-s">
-  {% for post in collections.featured | reverse %}
+  {% for post in collections.featured | reverse | limit20 %}
     <a href="{{ post.url }}" class="tdn flex-item featured-post" lazy="{{ post.data.image }}">
       <b class="post-title">{{ post.data.title | capitalize }}</b>
       <span class="post-date">{{ post.data.date | isoday }}</span>

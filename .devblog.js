@@ -79,8 +79,23 @@ module.exports = {
     }
   }, {
     name: 'limit10',
-    filter: (arr) => {
-      return arr.slice(0, 10)
+    filter: (arr) =>  {
+      return (Array.isArray(arr) ? arr : []).filter((_, i) => i < 10)
+    }
+  }, {
+    name: 'limit5',
+    filter: (arr) =>  {
+      return (Array.isArray(arr) ? arr : []).filter((_, i) => i < 5)
+    }
+  }, {
+    name: 'limit15',
+    filter: (arr) =>  {
+      return (Array.isArray(arr) ? arr : []).filter((_, i) => i < 15)
+    }
+  }, {
+    name: 'limit20',
+    filter: (arr) =>  {
+      return (Array.isArray(arr) ? arr : []).filter((_, i) => i < 20)
     }
   }, {
     name: 'json',
