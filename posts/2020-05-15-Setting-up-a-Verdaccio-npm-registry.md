@@ -31,7 +31,7 @@ for security reasons, replace all occurrencies of `$all` to `$authenticated`.
 
 in vim you would run something like this:
 
-```
+```sh
 s/\$all/\$authenticated/gc
 ```
 
@@ -79,7 +79,7 @@ authenticate to it and you should be good to go.
 
 this will set the npm registry in your `.npmrc` to "https://npm.YOUR_COMPANY.com" and add a line to authenticate to it:
 
-```
+```sh
 //npm.YOUR_COMPANY.com/:_authToken="[AUTH_TOKEN]"
 ```
 
