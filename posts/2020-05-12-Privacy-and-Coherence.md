@@ -14,7 +14,7 @@ reviewers:
   - name: Joe
     link: https://twitter.com/joebew42
   - name: Matteo
-    link: https://twitter.com/matteo_pierro/
+    link: https://twitter.com/matteo_pierro
   - name: NaN
     link: https://twitter.com/0xNaN
 ---
