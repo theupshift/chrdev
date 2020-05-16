@@ -24,12 +24,18 @@
       {{ content | excerpt }}
     {% endset%}
 
-    <meta name="twitter:card" content="summary">
+    {% if image %}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="{{ image | withDomain }}">
+    {% else %}
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="https://cri.dev/assets/images/cf4.64x64.png">
+    {% endif %}
+
     <meta name="twitter:site" content="@christian_fei">
     <meta name="twitter:domain" content="cri.dev">
     <meta name="twitter:creator" content="@christian_fei">
     <meta name="twitter:title" content="{{ shareTitle }}">
-    <meta name="twitter:image" content="{{ (image | withDomain) or 'https://cri.dev/assets/images/cf4.64x64.png'}}">
     <meta name="twitter:description" content="{{ shareDescription }}">
 
     <meta property="og:title" content="{{ shareTitle}}" />
