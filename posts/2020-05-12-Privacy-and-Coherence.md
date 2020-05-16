@@ -31,9 +31,9 @@ Being more aware of what you share while browsing the web comes with experience 
 
 *No tools* will help if you don't change your **approach and habits**.
 
-My main **motivation** to be more privacy-aware was to be **more coherent** with my way of thinking when it comes to ethical use of my personal data shared with a third-party.
+My main **motivation** to be more privacy-aware was to be **more coherent** with my way of thinking when it comes to ethical use of personal data shared with a third-party.
 
-Meaning that I'm against hidden / unclear ways of exploiting one's personal data selling it to other companies, make profit with it, analysing/mining it in obscure ways etc.
+Meaning that I'm against hidden / unclear ways of exploiting one's personal data selling it to other companies, make a profit with it, analyzing/mining it in obscure ways etc.
 
 Be it for **targeted advertising**, **online purchases and interests**, even **psychological manipulation** when it comes to public voting etc.
 
@@ -79,7 +79,7 @@ Below you can find some topics I feel sensitive about, and for which I found som
 
 I **try** to be *as coherent as possible*.
 
-For feedback, addionational alternatives, or simply a discussion: please let me know [@christian_fei](https://twitter.com/christian_fei) or contact me via [hey@cri.dev](mailto:hey@cri.dev)
+For feedback, additional alternatives, or simply a discussion: please let me know [@christian_fei](https://twitter.com/christian_fei) or contact me via [hey@cri.dev](mailto:hey@cri.dev)
 
 ## Table of contents
 
@@ -95,7 +95,6 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 - [Discussion & KB](#discussion--kb)
 - [Video](#video)
 - [Video conferencing](#video-conferencing)
-- [News](#news)
 - [Maps](#maps)
 
 <form
@@ -168,7 +167,8 @@ Kidding (actually, not so much).
 
 Your phone usage and habits are probably the most difficult to change.
 
-Your phone might be the greatest pain point of your privacy, since it can be seen as an "extension" of yourself. You probably have it with you most of the time too.
+It might be the greatest pain point of your privacy since it can be seen as an "extension" of yourself.
+You probably have it with you most of the time too.
 
 If you feel so inclined, you could try a [Librem 5](https://puri.sm/products/librem-5/) or a [PinePhone](https://www.pine64.org/pinephone/).
 
@@ -176,15 +176,17 @@ If you feel so inclined, you could try a [Librem 5](https://puri.sm/products/lib
 
 Do you remember the FirefoxOS Phone? I remember as I got one for free when Firefox was beta-testing it, and it felt really weird at the time.
 
-With these novel approaches and businesses around privacy oriented phones, I think we are headed in the right direction, since I feel that manufacturers and the community behind are growing year after year.
+With these novel approaches and businesses around privacy-oriented phones I think we are headed in the right direction.
+
+I feel that manufacturers and the community behind are growing year after year.
 
 
 
 # Operating system
 
-Use linux or a Unix-like system.
+Use Linux or a Unix-like system.
 
-I think this is very personal and needs research on your part which what you feel confortable with.
+I think this is very personal and needs research on your part which what you feel comfortable with.
 
 # Socials
 
@@ -260,14 +262,6 @@ They are getting more and more traction over time, maybe one day you can complet
 No Google Meet, no Classroom, screw Zoom.
 
 Use [jitsi](https://jitsi.org/), self-hosted if you feel so inclined.
-
-# News
-
-Ditch newspapers that you're aware of, that write biased stories and don't report on certain topics because of profit and interests.
-
-That's up to you understanding it; not mentioning any.
-
-Use indipendent and unbiased, local and global news sources that you know of. If possible try to support them with a donation.
 
 # Maps
 
