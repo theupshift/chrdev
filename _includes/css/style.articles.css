@@ -46,37 +46,37 @@ main article .title span {
   display: block;
 }
 
-body > main article { max-width: 45em; }
+main article { max-width: 45em; }
 .posts article { max-width: 100%; }
 
-body > main article header {
+main article header {
   font-size:  0.8rem;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-body > main aside { font-size: 0.8rem; padding: 0.6em; }
-body > main article img { text-align: center; }
+main aside { font-size: 0.8rem; padding: 0.6em; }
+main article img { text-align: center; }
 
 @media all and (min-width: 80em) {
-  body > main.post {
+  main.post {
     display: grid;
     grid-template-columns: 11em auto;
     grid-column-gap: 0.5em;
     grid-template-areas: "sidebar main";
     max-width: 60em;
   }
-  body > main.post article { grid-area: main; }
-  body > main.post aside { grid-area: sidebar; }
-  body > main.post aside > div { grid-area: sidebar; position: sticky; top: 8em; }
+  main.post article { grid-area: main; }
+  main.post aside { grid-area: sidebar; }
+  main.post aside > div { grid-area: sidebar; position: sticky; top: 8em; }
 }
 
-body > main article .title.has-image {
+main article .title.has-image {
   min-height: 9em;
   padding: 0.6em;
 }
-body > main article .title {
+main article .title {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
