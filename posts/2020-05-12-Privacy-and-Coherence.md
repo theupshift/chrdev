@@ -23,9 +23,9 @@ reviewers:
 
 I tried to do a **self-examination**, and **reflect about what matters** to me when **browsing the web**.
 
-My main **motivation** to be more privacy-aware was to be **more coherent** with my *personal way of thinking* regarding ethical use of my *personal data shared with a third-party*.
+My main **motivation** to be more privacy-aware was to be **more coherent** with my way of thinking when it comes to ethical use of my personal data shared with a third-party.
 
-Meaning that **I'm against hidden / unclear ways of exploiting one's personal data** to gain profit by selling it to other companies.
+Meaning that **I'm against hidden / unclear ways of exploiting one's personal data** to sell it to other companies, make profit, analysing it etc.
 
 Be it for **targeted advertising**, **online purchases and interests**, even **psychological manipulation** when it comes to public voting etc.
 
