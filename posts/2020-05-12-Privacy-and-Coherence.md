@@ -25,23 +25,21 @@ reviewers:
 
 > **privacy matters, and coherence costs**
 
-I tried to do a **self-examination**, and **reflect about what matters** to me when **browsing the web**.
+I tried to do a **self-examination**, **reflecting on what matters** to me about Privacy.
 
-I think being more aware of what happens while you browse the web and what you share with third-parties comes with experience.
+Being more aware of what you share while browsing the web comes with experience and can be seen as a journey.
 
-It can be seen as a journey.
-
-No tools will help if you don't change your attitude and habits.
+*No tools* will help if you don't change your **approach and habits**.
 
 My main **motivation** to be more privacy-aware was to be **more coherent** with my way of thinking when it comes to ethical use of my personal data shared with a third-party.
 
-Meaning that **I'm against hidden / unclear ways of exploiting one's personal data** to sell it to other companies, make profit, analysing it etc.
+Meaning that I'm against hidden / unclear ways of exploiting one's personal data selling it to other companies, make profit with it, analysing/mining it in obscure ways etc.
 
 Be it for **targeted advertising**, **online purchases and interests**, even **psychological manipulation** when it comes to public voting etc.
 
-> Stop paying for X with your privacy.
-
 <h3 class="no-anchor">To me, privacy is about consciousness, possibility and choice</h3>
+
+> Stop paying for X with your privacy.
 
 **No conspiracy theories here. Just my thoughts.**
 
@@ -51,7 +49,9 @@ Trade-offs are also part of the deal.
 
 E.g. I still use Twitter albeit the points below. Gmail for my historic personal email address from which I'm slowly migrating away.
 
-Use it mainly to connect with a certain group of people (e.g. tech enthusiasts, programmers and such) and to share and discuss technical topics, tools and ideas.
+Twitter mainly to connect with a certain group of people (tech enthusiasts, programmers, marketing and such).
+
+Also to share and discuss ideas & thoughts, technical topics etc.
 
 ### Tools and mindset
 
@@ -59,9 +59,9 @@ Use it mainly to connect with a certain group of people (e.g. tech enthusiasts, 
 
 To be more privacy-aware on the internet **I needed change some of my habits**.
 
-Browsing sessions in incognito mode to avoid cookies leakage.
+Some temporary browsing sessions in incognito mode without shared cookies.
 
-Reduce the number of extensions on the browser.
+Reduced the number of extensions on my main browser.
 
 Logging out of important and sensitive web services.
 
