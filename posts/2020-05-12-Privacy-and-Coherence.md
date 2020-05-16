@@ -77,13 +77,20 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 - [News](#news)
 - [Maps](#maps)
 
-<p class="alert">
-  Get the latest on Clean Code, Elixir, Node.js, Testing and Programming
-  <br/>
-  <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
-    Subscribe to my newsletter!
-  </a>
-</p>
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
+  class="embeddable-buttondown-form">
+  <h3 style="margin-top: 0.3em;"><a href="/subscribe/">Subscribe to my newsletter</a></h3>
+  <p>
+    <b>Bi-weekly email</b> to stay up to date with #elixir #nodejs #agile #testing #refactoring #cleancode
+  </p>
+  <input type="email" name="email" id="bd-email" placeholder="your@email.com">
+  <input type="hidden" value="1" name="embed"></input>
+  <button type="submit">Subscribe</Button>
+</form>
 
 # Email
 
@@ -239,13 +246,20 @@ Use indipendent and unbiased, local and global news sources that you know of. If
 
 Use [openstreetmap.org](openstreetmap.org).
 
-<p class="alert">
-  Get the latest on Clean Code, Elixir, Node.js, Testing and Programming
-  <br/>
-  <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
-    Subscribe to my newsletter!
-  </a>
-</p>
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
+  class="embeddable-buttondown-form">
+  <h3 style="margin-top: 0.3em;"><a href="/subscribe/">Subscribe to my newsletter</a></h3>
+  <p>
+    <b>Bi-weekly email</b> to stay up to date with #elixir #nodejs #agile #testing #refactoring #cleancode
+  </p>
+  <input type="email" name="email" id="bd-email" placeholder="your@email.com">
+  <input type="hidden" value="1" name="embed"></input>
+  <button type="submit">Subscribe</Button>
+</form>
 
 
 # Final words
