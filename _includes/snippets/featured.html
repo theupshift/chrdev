@@ -2,7 +2,7 @@
 <h1 class="title tac">Featured blog posts</h1>
 
 
-<div class="flex ovh-s">
+<div class="flex ovh-s lazy-container">
   {% for post in collections.featured | reverse | limit20 %}
     <a href="{{ post.url }}" class="tdn flex-item featured-post" lazy="{{ post.data.image }}">
       <b class="post-title">{{ post.data.title | capitalize }}</b>

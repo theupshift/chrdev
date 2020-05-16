@@ -50,16 +50,27 @@ function makeSearchable ($searchable) {
 function lazyLoad (selector = '[lazy]') {
   let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
 
-  $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
+  $lazy = $lazy.filter(toApplyLazyLoad)
 
   let lastCheck
-  window.onscroll = function (e) {
-    if (lastCheck && ($lazy.length === 0 || lastCheck > Date.now() - 50)) return
+  document.addEventListener('wheel', lazyCheck, { capture: false, passive: true })
+  const lazyContainers = document.querySelectorAll('.lazy-container')
+  if (Array.isArray(lazyContainers) && lazyContainers.length > 0) {
+    lazyContainers.addEventListener('wheel', lazyCheck, { capture: false, passive: true })
+  }
+
+  function lazyCheck () {
+    if (lastCheck && $lazy.length === 0 && lastCheck > Date.now() - 50) { return }
     lastCheck = Date.now()
-    $lazy = $lazy.filter(el => !(isScrolledIntoView(el) && applyLazy(el)))
+    $lazy = $lazy.filter(toApplyLazyLoad)
+  }
+
+  function toApplyLazyLoad (el) {
+    return el && !(isScrolledIntoView(el) && applyLazy(el))
   }
 
   function applyLazy (el) {
+    if (!el) return
     const imageUrl = el.getAttribute('lazy')
     if (el instanceof window.HTMLImageElement) {
       el.setAttribute('src', imageUrl)
@@ -70,14 +81,18 @@ function lazyLoad (selector = '[lazy]') {
   }
 
   function isScrolledIntoView (el) {
+    if (!el) return
     var rect = el.getBoundingClientRect()
-    var isVisible = (rect.top >= 0) && (rect.bottom <= (window.innerHeight + rect.height))
-    return isVisible
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    )
   }
 }
 
 function makeAnchorTitles () {
-  console.log('makeAnchorTitles')
   document
     .querySelectorAll('h1:not(.title),h2,h3,h4,h5,h6')
     .forEach(function (heading) {
