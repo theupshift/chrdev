@@ -97,7 +97,7 @@
   <body>
     {% include "header.html" %}
 
-    {% if page.url === '/posts/' %}
+    {% if page.url === '/posts/' or page.url === '/' %}
       {% include "snippets/featured.html" %}
     {% endif %}
 
@@ -106,9 +106,7 @@
     {% else %}
     <main>
     {% endif %}
-
       {% block content %}{% endblock %}
-
     </main>
 
 
