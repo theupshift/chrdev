@@ -6,7 +6,7 @@
     <b class="post-title">{{ post.data.title | capitalize }}</b>
     <span class="post-date">{{ post.data.date | isoday }}</span>
   </a>
-  {% if loop.index % 5 === 0 %}
+  {% if loop.index === 5 or loop.index === 15 %}
   <a href="/archive/" class="tdn flex-item featured-post">
     <b class="post-title">visit the /archive to see all {{collections.post.length}} posts</b>
   </a>
