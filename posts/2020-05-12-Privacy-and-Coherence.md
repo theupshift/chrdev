@@ -87,6 +87,7 @@ For feedback, addionational alternatives, or simply a discussion: please let me 
 - [Search engines](#search-engines)
 - [Web browsers](#web-browsers)
 - [Phone](#phone)
+- [Operating system](#operating-system)
 - [Socials](#socials)
 - [Messaging](#messaging)
 - [Website analytics](#website-analytics)
@@ -178,6 +179,12 @@ Do you remember the FirefoxOS Phone? I remember as I got one for free when Firef
 With these novel approaches and businesses around privacy oriented phones, I think we are headed in the right direction, since I feel that manufacturers and the community behind are growing year after year.
 
 
+
+# Operating system
+
+Use linux or a Unix-like system.
+
+I think this is very personal and needs research on your part which what you feel confortable with.
 
 # Socials
 
