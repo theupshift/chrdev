@@ -13,7 +13,7 @@ tags:
 image: /assets/images/posts/npm.png
 ---
 
-[![https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif](https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif)](https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif)
+<a href="https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif"><img lazy="https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif" alt=""></a>
 
 In case the `npm` registry goes down, it's wise to have a backup registry.
 
