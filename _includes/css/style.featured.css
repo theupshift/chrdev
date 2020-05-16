@@ -1,11 +1,11 @@
 .featured-post {
-  min-width: 350px;
-  height: 250px;
+  min-width: 300px;
+  height: 200px;
   background-size: cover !important;
   text-align: center;
   position: relative;
   transition: all 0.3s ease;
-  padding: 0.5em;
+  padding: 0.25em;
   display: block;
   background-position: center;
   border-bottom: 10px solid transparent;
