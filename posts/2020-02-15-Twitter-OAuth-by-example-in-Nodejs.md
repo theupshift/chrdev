@@ -8,7 +8,7 @@ tags:
   - javascript
   - nodejs
   - tutorial
-image: https://images.unsplash.com/photo-1551817958-d9d86fb29431?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1551817958-d9d86fb29431?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 Curious about how to call an HTTP API like Twitter or GitHub by authenticating through OAuth (1.0a and 2.0)?

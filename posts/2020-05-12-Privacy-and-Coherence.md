@@ -6,7 +6,7 @@ tags:
   - post
   - featured
   - privacy
-image: https://images.unsplash.com/photo-1580847097346-72d80f164702?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1580847097346-72d80f164702?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 > **privacy matters, and coherence costs**

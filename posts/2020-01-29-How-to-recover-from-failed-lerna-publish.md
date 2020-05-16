@@ -7,7 +7,7 @@ tags:
   - featured
   - javascript
   - nodejs
-image: https://images.unsplash.com/photo-1508935620299-047e0e35fbe3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1508935620299-047e0e35fbe3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 Lately, I was having issues with `lerna` while trying to publish packages from a mono-repo.

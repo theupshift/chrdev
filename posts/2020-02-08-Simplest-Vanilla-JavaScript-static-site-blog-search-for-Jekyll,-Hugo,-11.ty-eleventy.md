@@ -7,7 +7,7 @@ tags:
   - featured
   - tutorial
   - javascript
-image: https://images.unsplash.com/photo-1528911104572-560677f3996b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1528911104572-560677f3996b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 After the [Simple-Jekyll-Search experience](https://github.com/christian-fei/Simple-Jekyll-Search/) I found a perhaps simpler way to do blog search without all the fuzz.

@@ -7,7 +7,7 @@ tags:
   - featured
   - javascript
   - blogging
-image: https://images.unsplash.com/photo-1535350356005-fd52b3b524fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1535350356005-fd52b3b524fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 [`µcompress`](https://github.com/WebReflection/ucompress) is a lovely utility by [WebReflection](https://twitter.com/WebReflection) that compresses common static files.

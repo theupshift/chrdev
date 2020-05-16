@@ -6,7 +6,7 @@ tags:
   - post
   - general
   - featured
-image: https://images.unsplash.com/photo-1485402073834-c95f3eac2fcd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1485402073834-c95f3eac2fcd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 # speed matters

@@ -11,7 +11,7 @@ tags:
   - scraping
   - programming
   - 100DaysOfCode
-image: https://images.unsplash.com/photo-1472212712724-0f9997e1fe6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1472212712724-0f9997e1fe6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 > Browser automation built for enterprises, loved by developers.

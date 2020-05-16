@@ -11,7 +11,7 @@ tags:
   - scraping
   - 100DaysOfCode
   - programming
-image: https://images.unsplash.com/photo-1532802245604-c567f1acd48e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1532802245604-c567f1acd48e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 

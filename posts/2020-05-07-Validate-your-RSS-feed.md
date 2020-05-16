@@ -9,7 +9,7 @@ tags:
   - testing
   - CI
   - blogging
-image: https://images.unsplash.com/photo-1559526324-c1f275fbfa32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1559526324-c1f275fbfa32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 Today a [dear user](https://twitter.com/simevidas/status/1258409638611038213) made me aware that my RSS feed broke. There was a **XML Parsing Error** for [cri.dev/rss.xml](/rss.xml).

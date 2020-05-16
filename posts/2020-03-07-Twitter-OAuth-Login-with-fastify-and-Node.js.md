@@ -13,7 +13,7 @@ tags:
   - fastify
   - programming
   - 100DaysOfCode
-image: https://images.unsplash.com/photo-1507235071172-438ca6950a8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1507235071172-438ca6950a8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 ## GitHub example repo

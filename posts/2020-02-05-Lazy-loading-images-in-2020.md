@@ -6,7 +6,7 @@ tags:
   - post
   - javascript
   - featured
-image: https://images.unsplash.com/photo-1564248686-f288437eb060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1564248686-f288437eb060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 The alternative title could be **Lazy loading images in 900B**.

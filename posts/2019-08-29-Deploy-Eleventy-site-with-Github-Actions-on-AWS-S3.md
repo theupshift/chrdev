@@ -8,7 +8,7 @@ tags:
   - nodejs
   - tutorial
   - featured
-image: https://images.unsplash.com/photo-1517976487492-5750f3195933?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=40
+image: https://images.unsplash.com/photo-1517976487492-5750f3195933?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 ![gh-actions-working.png](/assets/images/posts/eleventy-github-actions-aws/gh-actions-working.png)
