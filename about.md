@@ -16,7 +16,7 @@ Italian, german & english speaking.
 
 Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
-Email me at crifei [@] protonmail.com
+Email me at [hey@cri.dev](mailto:hey@cri.dev)
 
 ---
 
