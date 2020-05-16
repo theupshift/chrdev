@@ -12,7 +12,7 @@ context('Content', () => {
   it('visible featured posts', () => {
     cy.visit('http://127.0.0.1:8080')
 
-    cy.get('body').contains('Featured blog posts')
+    cy.get('.featured-post')
   })
 
   describe('single post', () => {
