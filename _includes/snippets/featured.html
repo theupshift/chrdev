@@ -2,10 +2,15 @@
 <!-- <h1 class="title tac">Featured blog posts</h1> -->
 <div class="flex ovh-s lazy-container">
   {% for post in collections.featured | reverse | limit20 %}
-    <a href="{{ post.url }}" class="tdn flex-item featured-post" lazy="{{ post.data.image }}">
-      <b class="post-title">{{ post.data.title | capitalize }}</b>
-      <span class="post-date">{{ post.data.date | isoday }}</span>
-    </a>
+  <a href="{{ post.url }}" class="tdn flex-item featured-post" lazy="{{ post.data.image }}">
+    <b class="post-title">{{ post.data.title | capitalize }}</b>
+    <span class="post-date">{{ post.data.date | isoday }}</span>
+  </a>
+  {% if loop.index % 5 === 0 %}
+  <a href="/archive/" class="tdn flex-item featured-post">
+    <b class="post-title">visit the /archive to see all {{collections.post.length}} posts</b>
+  </a>
+  {% endif %}
   {% endfor %}
 </div>
 </div>
