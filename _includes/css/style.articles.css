@@ -46,7 +46,7 @@ main article .title span {
   display: block;
 }
 
-body > main article { max-width: 50em; }
+body > main article { max-width: 45em; }
 .posts article { max-width: 100%; }
 
 body > main article header {
