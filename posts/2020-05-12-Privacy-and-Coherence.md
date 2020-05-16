@@ -11,6 +11,8 @@ reviewers:
   - name: Andrea
   - name: Ivo
     link: https://ivoputzer.blog
+  - name: Ivan
+    link: https://twitter.com/IvPashenko
   - name: Joe
     link: https://twitter.com/joebew42
   - name: Matteo
