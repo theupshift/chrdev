@@ -112,7 +112,7 @@ Ran a small poll on Twitter and these are [the results](https://twitter.com/chri
 
 # Search engines
 
-Try [DuckDuckGo](https://duckduckgo.com/) next time, set it as your default search engine in your [Browser](#Webbrowsers).
+Try [DuckDuckGo](https://duckduckgo.com/) next time, set it as your default search engine in your [Browser](#web-browsers).
 
 I have to admit, google search has pretty accurate results, sometimes it's even scary.
 
