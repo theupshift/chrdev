@@ -77,6 +77,12 @@ npm adduser --registry https://npm.YOUR_COMPANY.com:4873
 
 authenticate to it and you should be good to go.
 
+this will set the npm registry in your `.npmrc` to "https://npm.YOUR_COMPANY.com" and add a line to authenticate to it:
+
+```
+//npm.YOUR_COMPANY.com/:_authToken="[AUTH_TOKEN]"
+```
+
 # keep it running
 
 personally used `pm2`, but you have more options like `forever` or `systemd`:
