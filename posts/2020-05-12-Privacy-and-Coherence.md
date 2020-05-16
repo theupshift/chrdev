@@ -7,6 +7,16 @@ tags:
   - featured
   - privacy
 image: https://images.unsplash.com/photo-1580847097346-72d80f164702?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
+reviewers:
+  - name: Andrea
+  - name: Ivo
+    # link: https://ivoputzer.blog
+  - name: Joe
+    link: https://twitter.com/joebew42
+  - name: Matteo
+    # link: https://twitter.com/matteo_pierro/
+  - name: NaN
+    # link: https://twitter.com/0xNaN
 ---
 
 > **privacy matters, and coherence costs**

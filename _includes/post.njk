@@ -34,47 +34,65 @@
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} style="background-image: url('{{ page.data.image }}')"{% endif %}><span>{{ title }}</span></h1>
 
-  <header class="flex flex-wrap">
-    <div class="flex-item">
-      <p class="no-mobile">
-        <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Found a typo? Edit this page on GitHub</a>
-      </p>
+  <header>
+    <div class="flex flex-wrap">
+      <div class="flex-item">
+        <p class="no-mobile">
+          <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Found a typo? Edit this page on GitHub</a>
+        </p>
 
-      <p>
-        Written on &nbsp; <b>{{ page.data.date | isoday }}</b> {% if page.data.updated %}<br>(<i>last updated {{ page.data.updated | isoday }}</i>) {% endif %}
-      </p>
+        <p>
+          Written on &nbsp; <b>{{ page.data.date | isoday }}</b> {% if page.data.updated %}<br>(<i>last updated {{ page.data.updated | isoday }}</i>) {% endif %}
+        </p>
 
-      {% if page.data.hackernews %}
-        <a href="{{ page.data.hackernews }}">on HackerNews</a>
-      {% endif %}
+        {% if page.data.hackernews %}
+          <a href="{{ page.data.hackernews }}">on HackerNews</a>
+        {% endif %}
 
-      <p>
-        {{ content | words }} words - {{ content | readingTime }} 🕜
-      </p>
+        <p>
+          {{ content | words }} words - {{ content | readingTime }} 🕜
+        </p>
 
-      <p class="only-mobile">
-        {% include 'snippets/tweet-this.html' %}
-      </p>
+        <p class="only-mobile">
+          {% include 'snippets/tweet-this.html' %}
+        </p>
+      </div>
+      <div class="flex-item no-mobile">
+        <p style="font-size: 1.1em">
+          Get the latest on Programming, Clean code, TDD, Refactoring and more
+          <br/>
+          <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
+            Subscribe to my newsletter!
+          </a>
+        </p>
+      </div>
+      <div class="only-mobile">
+        <p style="font-size: 1.1em">
+          Get the latest on Programming, Clean code, TDD, Refactoring and more
+          <br/>
+          <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
+            Subscribe to my newsletter!
+          </a>
+        </p>
+      </div>
     </div>
-    <div class="flex-item no-mobile">
-      <p style="font-size: 1.1em">
-        Get the latest on Programming, Clean code, TDD, Refactoring and more
-        <br/>
-        <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
-          Subscribe to my newsletter!
-        </a>
-      </p>
-    </div>
-    <div class="only-mobile">
-      <p style="font-size: 1.1em">
-        Get the latest on Programming, Clean code, TDD, Refactoring and more
-        <br/>
-        <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
-          Subscribe to my newsletter!
-        </a>
-      </p>
-    </div>
+    {% if page.data.reviewers %}
+    <p>
+      Thanks to&nbsp;
+      {% for reviewer in page.data.reviewers %}
+        {% if loop.last %}and{% endif %}</a>
+        {% if reviewer.link %}
+          <a href="{{reviewer.link}}">{{reviewer.name}}</a>
+        {% else %}
+          {{reviewer.name}}
+        {% endif %}
+        {% if not loop.last and loop.index !== page.data.reviewers.length - 1 %},{% endif %}</a>
+      {% endfor %}
+      &nbsp;for reviewing this article
+    </p>
+    {% endif %}
   </header>
+
 
   <div class="main-content">{{ content | safe }}</div>
 
