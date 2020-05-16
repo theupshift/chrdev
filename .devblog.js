@@ -65,7 +65,7 @@ module.exports = {
     filter: (text) => (text || '').replace(/<\/?[^>]+(>|$)/g, "")
   }, {
     name: 'twitterText',
-    filter: (post) => `${encodeURIComponent(`"${post.data.title}", by @christian_fei ${post.attributes.tags.filter(t=> !['general', 'post', 'featured', 'draft'].includes(t)).map(t => `#${t}`).join(' ')}`)}`
+    filter: (post) => `${encodeURIComponent(`"${post.data.title}", by @christian_fei ${post.attributes.tags.filter(t=> !['general', 'post', 'featured', 'draft'].includes(t)).filter((_, i) => i < 3).map(t => `#${t}`).join(' ')}`)}`
   }, {
     name: 'encode',
     filter: (content) => encodeURIComponent(content || '')
