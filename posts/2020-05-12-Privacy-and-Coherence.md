@@ -287,7 +287,7 @@ Use [jitsi](https://jitsi.org/), self-hosted if you feel so inclined.
 
 # Maps
 
-Use [openstreetmap.org](openstreetmap.org).
+Use [openstreetmap.org](https://openstreetmap.org).
 
 <form
   action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
