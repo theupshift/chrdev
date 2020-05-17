@@ -21,7 +21,7 @@ date="$(date +%Y-%m-%d)"
 
 touch $post_full_path
 echo "---" >> $post_full_path
-echo "title: $args" >> $post_full_path
+echo "title: \"$args\"" >> $post_full_path
 echo "date: $date" >> $post_full_path
 echo "layout: post.njk" >> $post_full_path
 echo "tags:
