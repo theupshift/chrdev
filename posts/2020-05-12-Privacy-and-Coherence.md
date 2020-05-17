@@ -22,9 +22,9 @@ thanks:
     link: https://twitter.com/0xNaN
 ---
 
-### Motivation
-
 > **privacy matters, and coherence costs**
+
+### Motivation
 
 I tried to do a **self-examination**, **reflecting on what matters** to me about Privacy.
 
