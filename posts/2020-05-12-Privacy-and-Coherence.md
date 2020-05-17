@@ -73,6 +73,8 @@ Below you can find some topics I feel sensitive about, and for which I found som
 
 **I'm not an expert. These are just my opinions. If you don't agree, that's fine.**
 
+More research on Privacy can be found at [eff.org](https://www.eff.org/).
+
 ---
 
 *A small premise: nobody is perfect. I may contradict myself even without noticing.*
