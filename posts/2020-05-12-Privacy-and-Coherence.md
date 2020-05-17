@@ -99,6 +99,7 @@ For feedback, additional alternatives, or simply a discussion: please let me kno
 - [Video](#video)
 - [Video conferencing](#video-conferencing)
 - [Maps](#maps)
+- [Useful links](#useful-links)
 
 <form
   action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
@@ -302,6 +303,12 @@ Use [openstreetmap.org](openstreetmap.org).
   <input type="hidden" value="1" name="embed"></input>
   <button type="submit">Subscribe</Button>
 </form>
+
+# Useful links
+
+[privacy.com](https://privacy.com/) is "a payments product that keeps your personal information private".
+
+Probably going to look into it in the future.
 
 # Final words
 
