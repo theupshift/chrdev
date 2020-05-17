@@ -28,7 +28,7 @@ a:hover, a:active, a:focus {
 a:hover:after, a:active:after, a:focus:after {
   background-color: transparent !important;
 }
-a:not(.featured-post):not(.nav-link):after {
+a:not(.featured-post):not(.nav-link):not(.no-underline):after {
   transition: all .1s ease-in-out;
   display: inline-block;
   height: 3px;

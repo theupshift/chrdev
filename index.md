@@ -17,6 +17,8 @@ title: Home
 
   <p>Italian, German & English speaking</p>
 
+  <a class="cta" href="/subscribe/">Subscribe to my newsletter</a>
+
 
   Read some <a href="/posts">featured blog posts</a>, <a href="/books">recommended books</a> and skim through <a href="/archive">the archive</a>
 
@@ -24,12 +26,11 @@ title: Home
 
 <div class="flex-item">
   <div class="cf">
-    <a href="/about">
-      <img class="avatar-image" alt="me with sunglasses" style="border-radius: 50%;" lazy="/assets/images/cf4.png"/>
+    <a href="/about" class="no-underline">
+      <img class="avatar-image" alt="me with sunglasses" lazy="/assets/images/cf4.png"/>
     </a>
     <p>
       Read more <a href="/about">about me</a> and <a href="https://twitter.com/christian_fei" target="_blank">follow me {% include 'img/twitter.html' %}</a></br>
-      <a class="cta" href="/subscribe/">Subscribe to my newsletter</a>
     </p>
   </div>
 </div>
