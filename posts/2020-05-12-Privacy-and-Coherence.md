@@ -192,6 +192,13 @@ Use Linux or a Unix-like system.
 
 I think this is very personal and needs research on your part with what you feel comfortable.
 
+Heard some not-so-nice things [about Ubuntu](https://www.reddit.com/r/privacy/comments/3z8fwz/ubuntu_bad_for_privacy/) too.
+
+Personal recommendations:
+
+- [tails.boum.org](https://tails.boum.org/) for one-off sessions from a USB stick
+- bare [debian](https://www.debian.org/)
+
 # Socials
 
 Ditch FB, forever. "Delete" your account once and for all, stay in touch with your loved ones in other ways.
