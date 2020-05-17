@@ -292,7 +292,6 @@ Use [openstreetmap.org](openstreetmap.org).
   <button type="submit">Subscribe</Button>
 </form>
 
-
 # Final words
 
 That's all from my side.
