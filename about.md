@@ -5,7 +5,7 @@ title: About
 
 {% block content %}
 <div class="cf">
-  <a href="https://twitter.com/christian_fei">
+  <a href="https://twitter.com/christian_fei" class="no-underline">
     <img class="avatar-image" alt="me with sunglasses" style="border-radius: 50%;" lazy="/assets/images/cf4.png"><br>@christian_fei
   </a>
 </div>
