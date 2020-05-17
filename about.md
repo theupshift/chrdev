@@ -26,7 +26,7 @@ See a **data visualization** of my [GitHub contributions 📈](/contributions) o
 
 # Writing code as a passion
 
-Mainly working with #Node.js, #JavaScript, #Python, #MongoDB, #Redis, #Cloud, #Stats, #DevOps, #Automation, #Scraping as a Full Stack Developer at [wonderflow](https://www.wonderflow.co) (2017 - present).
+Mainly working with Node.js, JavaScript, Python, MongoDB, Redis, Cloud, Stats, DevOps, Automation, Scraping as a Full Stack Developer at [wonderflow](https://www.wonderflow.co) (2017 - present).
 
 Previously Agile Developer at XPeppers, Trento (2014 - 2017).
 
