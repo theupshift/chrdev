@@ -73,17 +73,17 @@
         </p>
       </div>
     </div>
-    {% if page.data.reviewers %}
+    {% if page.data.thanks %}
     <p>
       Thanks to&nbsp;
-      {% for reviewer in page.data.reviewers %}
+      {% for person in page.data.thanks %}
         {% if loop.last %}and{% endif %}</a>
-        {% if reviewer.link %}
-          <a href="{{reviewer.link}}">{{reviewer.name}}</a>
+        {% if person.link %}
+          <a href="{{person.link}}">{{person.name}}</a>
         {% else %}
-          {{reviewer.name}}
+          {{person.name}}
         {% endif %}
-        {% if not loop.last and loop.index !== page.data.reviewers.length - 1 %},{% endif %}</a>
+        {% if not loop.last and loop.index !== page.data.thanks.length - 1 %},{% endif %}</a>
       {% endfor %}
       &nbsp;for the feedback on this article
     </p>
