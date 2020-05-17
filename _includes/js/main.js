@@ -55,15 +55,15 @@ function lazyLoad (selector = '[lazy]') {
   let lastCheck = Date.now()
   let scrolling = false
   const scrollIntervalHandle = setInterval(() => {
-    if (scrolling && lastCheck > Date.now() - 250) {
+    if (scrolling && lastCheck > Date.now() - 3000) {
       $lazy = $lazy.filter(toApplyLazyLoad)
     } else {
       scrolling = false
-      if ($lazy.length === 0) {
-        clearInterval(scrollIntervalHandle)
-      }
     }
-  }, 250)
+    if ($lazy.length === 0) {
+      clearInterval(scrollIntervalHandle)
+    }
+  }, 100)
   document.addEventListener('scroll', registerScrolling, { capture: false, passive: true })
   document.addEventListener('wheel', registerScrolling, { capture: false, passive: true })
   document.addEventListener('touchmove', registerScrolling, { capture: false, passive: true })
