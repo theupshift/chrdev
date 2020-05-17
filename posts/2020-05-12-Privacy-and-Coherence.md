@@ -293,5 +293,6 @@ Let me know your opinion and feedback [@christian_fei](https://twitter.com/chris
 
 ### Update
 
-For a more exhaustive list of tools I found the [/r/degoogle subreddit](https://www.reddit.com/r/degoogle/comments/g1yu01/google_alternatives_huge_list_restore_your_privacy/) and [restoreprivacy.com](https://restoreprivacy.com/google-alternatives/).
+A more exhaustive list of tools can be found at the [/r/degoogle subreddit](https://www.reddit.com/r/degoogle/comments/g1yu01/google_alternatives_huge_list_restore_your_privacy/), [restoreprivacy.com](https://restoreprivacy.com/google-alternatives/) and [privacytools.io](https://www.privacytools.io/).
+
 There you can find even more tools to help you to get your privacy back.
