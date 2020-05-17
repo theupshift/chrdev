@@ -226,6 +226,11 @@ As always, this is a hairy and conflicting matter.
 
 So it's a difficult matter, right now I'm using Signal and Telegram. Let's see what the future holds.
 
+A recent poll on Twitter, here [the results](https://twitter.com/christian_fei/status/1261585811335716864):
+
+![poll-twitter-messaging.png](/assets/images/posts/poll-twitter-messaging.png)
+
+
 # Website analytics
 
 Are you using Google Analytics on your websites?
