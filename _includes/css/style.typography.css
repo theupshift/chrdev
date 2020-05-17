@@ -12,9 +12,37 @@ html, body {
 }
 #footer { margin-top: 4em; }
 ::selection { background: #fe1; }
-a { color: inherit; }
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  transition: all .1s ease-in-out;
+}
 a:visited { color: inherit; }
-a:hover, a:active, a:focus { background: #fe1; outline: none; }
+a:hover, a:active, a:focus {
+  background: #fe1;
+  outline: none;
+  transform: scaleX(1.01) skew(-3deg);
+}
+a:hover:after, a:active:after, a:focus:after {
+  background-color: transparent !important;
+}
+a:not(.featured-post):not(.nav-link):after {
+  transition: all .1s ease-in-out;
+  display: inline-block;
+  height: 3px;
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-radius: 10rem;
+  /* opacity: .5; */
+  background-color: red;
+  background-color: #fe1;
+  background-color: #9e9e9e;
+}
 pre { overflow-x: scroll; font-size: 0.75em; }
 pre, code { background: #ffee11; background: #ffee1199; }
 pre code { background: none; }
@@ -46,7 +74,6 @@ blockquote p { margin: 0; }
 
 a.twitter-share-button {
   position: relative;
-  height: 20px;
   box-sizing: border-box;
   padding: 1px 8px 1px 6px;
   background-color: #1b95e0;
