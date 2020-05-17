@@ -31,7 +31,7 @@ Being more aware of what you share while browsing the web comes with experience 
 
 *No tools* will help if you don't change your **approach and habits**.
 
-My main **motivation** to be more privacy-aware was to be **more coherent** with my way of thinking when it comes to ethical use of personal data shared with a third-party.
+My main **motivation** to be more privacy-aware was to be **more coherent** with my way of thinking regarding to ethical use of personal data shared with a third-party.
 
 Meaning that I'm against hidden / unclear ways of exploiting one's personal data selling it to other companies, make a profit with it, analyzing/mining it in obscure ways etc.
 
