@@ -133,6 +133,12 @@ Ran a small poll on Twitter and these are [the results](https://twitter.com/chri
 
 ![poll-twitter-gmail.png](/assets/images/posts/poll-twitter-gmail.png)
 
+### Temporary email
+
+Need a temporary, disposable email?
+
+I use [temp-mail.org](https://temp-mail.org/en/) from time to time. For SMS [temp-sms.org](https://temp-sms.org/).
+
 # Search engines
 
 Try [DuckDuckGo](https://duckduckgo.com/) next time, set it as your default search engine in your [Browser](#web-browsers).
