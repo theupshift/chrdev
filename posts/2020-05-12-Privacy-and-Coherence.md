@@ -10,10 +10,10 @@ tags:
 image: https://images.unsplash.com/photo-1580847097346-72d80f164702?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 reviewers:
   - name: Andrea
-  - name: Ivo
-    link: https://ivoputzer.blog
   - name: Ivan
     link: https://twitter.com/IvPashenko
+  - name: Ivo
+    link: https://ivoputzer.blog
   - name: Joe
     link: https://twitter.com/joebew42
   - name: Matteo
