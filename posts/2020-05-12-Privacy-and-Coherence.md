@@ -159,6 +159,8 @@ Recently I discovered [privacybadger.org](https://privacybadger.org/) by the [EF
 
 To have a decent **DNS level blocking** of such known sites, I use a [Raspberry Pi with pi-hole](/posts/2020-05-03-Ad-blocking-with-Raspberry-Pi-and-Pi-hole/).
 
+You can check how well your browser and add-ons protect you against online tracking techniques on [panopticlick.eff.org/](https://panopticlick.eff.org/).
+
 # Phone
 
 Use a Nokia 3310.
