@@ -52,17 +52,35 @@ function lazyLoad (selector = '[lazy]') {
 
   $lazy = $lazy.filter(toApplyLazyLoad)
 
-  let lastCheck
-  document.addEventListener('wheel', lazyCheck, { capture: false, passive: true })
+  let lastCheck = Date.now()
+  let scrolling = false
+  const scrollIntervalHandle = setInterval(() => {
+    if (scrolling && lastCheck > Date.now() - 250) {
+      $lazy = $lazy.filter(toApplyLazyLoad)
+    } else {
+      scrolling = false
+      if ($lazy.length === 0) {
+        clearInterval(scrollIntervalHandle)
+      }
+    }
+  }, 250)
+  document.addEventListener('scroll', registerScrolling, { capture: false, passive: true })
+  document.addEventListener('wheel', registerScrolling, { capture: false, passive: true })
+  document.addEventListener('touchmove', registerScrolling, { capture: false, passive: true })
+  document.addEventListener('touchstart', registerScrolling, { capture: false, passive: true })
+  document.addEventListener('touchend', registerScrolling, { capture: false, passive: true })
   const lazyContainers = document.querySelectorAll('.lazy-container')
   if (Array.isArray(lazyContainers) && lazyContainers.length > 0) {
-    lazyContainers.addEventListener('wheel', lazyCheck, { capture: false, passive: true })
+    lazyContainers.addEventListener('scroll', registerScrolling, { capture: false, passive: true })
+    lazyContainers.addEventListener('wheel', registerScrolling, { capture: false, passive: true })
+    lazyContainers.addEventListener('touchmove', registerScrolling, { capture: false, passive: true })
+    lazyContainers.addEventListener('touchstart', registerScrolling, { capture: false, passive: true })
+    lazyContainers.addEventListener('touchend', registerScrolling, { capture: false, passive: true })
   }
 
-  function lazyCheck () {
-    if (lastCheck && $lazy.length === 0 && lastCheck > Date.now() - 50) { return }
+  function registerScrolling () {
     lastCheck = Date.now()
-    $lazy = $lazy.filter(toApplyLazyLoad)
+    scrolling = true
   }
 
   function toApplyLazyLoad (el) {
