@@ -172,7 +172,7 @@ Kidding (actually, not so much).
 
 Your phone usage and habits are probably the most difficult to change.
 
-It might be the greatest pain point of your privacy since it can be seen as an "extension" of yourself.
+It might be the [greatest pain point](https://ssd.eff.org/en/module/problem-mobile-phones) of your privacy since it can be seen as an "extension" of yourself.
 You probably have it with you most of the time too.
 
 If you feel so inclined, you could try a [Librem 5](https://puri.sm/products/librem-5/) or a [PinePhone](https://www.pine64.org/pinephone/).
