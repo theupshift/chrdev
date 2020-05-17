@@ -185,8 +185,6 @@ With these novel approaches and businesses around privacy-oriented phones I thin
 
 I feel that manufacturers and the community behind are growing year after year.
 
-
-
 # Operating system
 
 Use Linux or a Unix-like system.
