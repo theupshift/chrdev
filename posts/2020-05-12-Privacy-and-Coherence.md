@@ -144,7 +144,7 @@ DuckDuckGo has an ethical privacy policy, of not collecting or sharing any of yo
 
 Use Firefox or Brave.
 
-I personally use [Brave](https://brave.com/chr311), it comes with
+I personally use Firefox and [Brave](https://brave.com/chr311), it comes with
 
 - "Privacy shields" to disable known trackers, scripts, cross-site cookies and trackers
 - integrated HTTPS-everywhere
