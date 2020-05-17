@@ -54,7 +54,7 @@ In the field of IoT I made a [watering system](https://github.com/christian-fei/
 Right now I am probably **writing code** for
 - [mega-scraper](https://github.com/christian-fei/mega-scraper) - scrape a website's content with puppeteer
 - [devblog](https://github.com/christian-fei/devblog) - fast static site generator
-- [this very blog](https://github.com/christian-fei/christian-fei.github.io)
+- [this very blog](https://github.com/christian-fei/christian-fei.github.io) - built with [devblog](/posts/2020-04-19-devblog-yet-another-static-site-generator-seriously/)
 - [simple-jekyll-search](https://github.com/christian-fei/simple-jekyll-search) - search for your jekyll blog
 - [jenkins-stream-build](https://github.com/christian-fei/jenkins-stream-build) - stream jenkins build logs in realtime
 - [simple-telegram-message](https://github.com/christian-fei/simple-telegram-message) - send a telegram message in one line
