@@ -218,13 +218,13 @@ Twitter has the [Web Intents](https://developer.twitter.com/en/docs/twitter-for-
 
 # Messaging
 
-No Whatsapp. No Facebook Messenger.
+Try to avoid [Whatsapp](https://ssd.eff.org/en/module/how-use-whatsapp-ios) and Facebook Messenger if you can.
 
 [Try signal](https://www.signal.org/).
 
 Telegram could also be fine.
 
-As always, this is a hairy and conflicting matter. Also Whatsapp was "fine" some time ago, in the sense that there wasn't FB behind, there weren't various leaks of information regarding plain-text password etc.
+As always, this is a hairy and conflicting matter.
 
 So it's a difficult matter, right now I'm using Signal and Telegram. Let's see what the future holds.
 
