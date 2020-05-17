@@ -73,7 +73,7 @@ main article img { text-align: center; }
 }
 
 main article .title.has-image {
-  min-height: 6em;
+  min-height: 8em;
   padding: 0.6em;
 }
 main article .title {
