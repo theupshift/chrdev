@@ -1,4 +1,4 @@
-body > header, body > footer, body > main { max-width: 45em; margin: 0 auto; padding: 1em 1.5em; }
+body > header, body > footer, body > main { max-width: 45em; margin: 0 auto; padding: 1em 0.75em; }
 .contain { max-width: 45em; margin: 0 auto; }
 
 body > header { background: #fff;

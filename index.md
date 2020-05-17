@@ -5,8 +5,8 @@ title: Home
 
 {% block content %}
 <div class="flex flex-wrap">
-<div class="flex-item" style="min-width: 25em;">
-  <div class="no-mobile" style="margin-top: 3em; width: 25em"></div>
+<div class="flex-item" style="min-width: 23em;">
+  <!-- <div class="no-mobile" style="margin-top: 3em; width: 23em"></div> -->
   <h1 class="no-anchor"><b>Welcome to my blog!</b> 👋</h1>
 
   <b>My name is Christian, cri for short</b>
