@@ -100,6 +100,7 @@ For feedback, additional alternatives, or simply a discussion: please let me kno
 - [Video conferencing](#video-conferencing)
 - [Maps](#maps)
 - [Useful links](#useful-links)
+- [Final words](#final-words)
 
 <form
   action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
@@ -307,8 +308,12 @@ Use [openstreetmap.org](https://openstreetmap.org).
 # Useful links
 
 [privacy.com](https://privacy.com/) is "a payments product that keeps your personal information private".
-
 Probably going to look into it in the future.
+
+[eff.org/](https://www.eff.org/) is an extremely useful resource for learning more about privacy and much more.
+
+
+A more exhaustive list of tools can be found at the [/r/degoogle subreddit](https://www.reddit.com/r/degoogle/comments/g1yu01/google_alternatives_huge_list_restore_your_privacy/), [restoreprivacy.com](https://restoreprivacy.com/google-alternatives/) and [privacytools.io](https://www.privacytools.io/).
 
 # Final words
 
@@ -317,9 +322,3 @@ That's all from my side.
 I try to be aware what I do and share with third-parties as much as possible, although it seems to be getting more difficult every day.
 
 Let me know your opinion and feedback [@christian_fei](https://twitter.com/christian_fei).
-
-### Update
-
-A more exhaustive list of tools can be found at the [/r/degoogle subreddit](https://www.reddit.com/r/degoogle/comments/g1yu01/google_alternatives_huge_list_restore_your_privacy/), [restoreprivacy.com](https://restoreprivacy.com/google-alternatives/) and [privacytools.io](https://www.privacytools.io/).
-
-There you can find even more tools to help you to get your privacy back.
