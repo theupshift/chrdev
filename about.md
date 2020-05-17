@@ -47,10 +47,13 @@ Coding in all kinds of tech fields that bring value to me, read IoT, Crypto, Bot
 
 My most recent project is [mega-scraper](https://github.com/christian-fei/mega-scraper): it aims to be a simple website scraping tool with proxy support, request blocking and various optimizations.
 
+In April 2020 I made a fast static site generator and called it [`devblog`](/posts/2020-04-19-devblog-yet-another-static-site-generator-seriously/)
+
 In the field of IoT I made a [watering system](https://github.com/christian-fei/garden) with a **raspberry pi, camera, temperature and moisture sensors**. the communication is handled via **telegram**. with the help of a bot I can water, request a snapshot or video of the garden and a timelapse of the past days. most importantly this enables me to water my plants remotely and seeing their current state through an image sent on a private telegram channel.
 
 Right now I am probably **writing code** for
 - [mega-scraper](https://github.com/christian-fei/mega-scraper) - scrape a website's content with puppeteer
+- [devblog](https://github.com/christian-fei/devblog) - fast static site generator
 - [this very blog](https://github.com/christian-fei/christian-fei.github.io)
 - [simple-jekyll-search](https://github.com/christian-fei/simple-jekyll-search) - search for your jekyll blog
 - [jenkins-stream-build](https://github.com/christian-fei/jenkins-stream-build) - stream jenkins build logs in realtime
