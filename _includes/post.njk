@@ -29,7 +29,7 @@
 </aside>
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} style="background-image: url('{{ page.data.image }}')"{% endif %}><span>{{ title }}</span></h1>
+  <h1 itemprop="name headline" class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} style="background-image: url('{{ page.data.image }}')"{% endif %}><span>{{ title }}</span></h1>
 
   <header>
     <div class="flex flex-wrap">
@@ -39,7 +39,8 @@
         </p>
 
         <p>
-          Written on &nbsp; <b>{{ page.data.date | isoday }}</b> {% if page.data.updated %}<br>(<i>last updated {{ page.data.updated | isoday }}</i>) {% endif %}
+          Written on &nbsp; <b>
+          <time datetime="{{ page.data.date | isoday }}" itemprop="datePublished">{{ page.data.date | isoday }}</time></b> {% if page.data.updated %}<br>(<i>last updated {{ page.data.updated | isoday }}</i>) {% endif %}
         </p>
 
         {% if page.data.hackernews %}
@@ -91,7 +92,7 @@
   </header>
 
 
-  <div class="main-content">{{ content | safe }}</div>
+  <div class="main-content" itemprop="articleBody">{{ content | safe }}</div>
 
   <h2>FEEDBACK <a href="https://twitter.com/christian_fei">@christian_fei</a></h2>
 
