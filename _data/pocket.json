@@ -1,6 +1,180 @@
 {
-  "lastSynced": "2020-05-14T05:55:50.698Z",
+  "lastSynced": "2020-05-18T05:59:18.527Z",
   "items": [
+    {
+      "id": "5584521",
+      "title": "SSD.EFF.ORG",
+      "url": "https://ssd.eff.org/en",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "747085483",
+      "title": "Choosing the VPN That's Right for You",
+      "url": "https://ssd.eff.org/en/module/choosing-vpn-thats-right-you",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "747223951",
+      "title": "Protecting Yourself on Social Networks",
+      "url": "https://ssd.eff.org/en/module/protecting-yourself-social-networks",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "747224014",
+      "title": "The Problem with Mobile Phones",
+      "url": "https://ssd.eff.org/en/module/problem-mobile-phones",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "2215857125",
+      "title": "You should write an ebook",
+      "url": "https://seths.blog/2007/03/you_should_writ/",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "2222892534",
+      "title": "A manifesto for small teams doing important work",
+      "url": "https://seths.blog/2016/02/a-manifesto-for-small-teams-doing-important-work/",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "2451359391",
+      "title": "Your Security Plan",
+      "url": "https://ssd.eff.org/en/module/your-security-plan",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "2554308128",
+      "title": "Security/DOH-resolver-policy",
+      "url": "https://wiki.mozilla.org/Security/DOH-resolver-policy",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "2965717992",
+      "title": "Understanding and Circumventing Network Censorship",
+      "url": "https://ssd.eff.org/en/module/understanding-and-circumventing-network-censorship",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "2983434892",
+      "title": "Immuni's High-Level Description",
+      "url": "https://github.com/immuni-app/documentation",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "2985078241",
+      "title": "Virding's First Rule of Programming",
+      "url": "http://rvirding.blogspot.com/2008/01/virdings-first-rule-of-programming.html",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "2986622512",
+      "title": "Natural Language Processing With Node.js",
+      "url": "https://medium.com/better-programming/natural-language-processing-with-node-js-afb62729c1a2",
+      "date": "2020-05-17"
+    },
+    {
+      "id": "2526665931",
+      "title": "What the Hell is Going On? — David Perell",
+      "url": "https://www.perell.com/blog/what-the-hell-is-going-on",
+      "date": "2020-05-16"
+    },
+    {
+      "id": "2843486003",
+      "title": "Another Year Under the Sun ☀",
+      "url": "https://blog.stephsmith.io/another-year-under-the-sun/",
+      "date": "2020-05-16"
+    },
+    {
+      "id": "2985628543",
+      "title": "Reducing the stress during software development",
+      "url": "https://agileworld.blogspot.com/2007/12/reducing-stress-during-software.html",
+      "date": "2020-05-16"
+    },
+    {
+      "id": "2985983931",
+      "title": "An AI can simulate an economy millions of times to create fairer tax policy",
+      "url": "https://www.technologyreview.com/2020/05/05/1001142/ai-reinforcement-learning-simulate-economy-fairer-tax-policy-income-inequality-recession-pandemic/",
+      "date": "2020-05-16"
+    },
+    {
+      "id": "2958689577",
+      "title": "Would You Sacrifice Your Privacy to Get Out of Quarantine?",
+      "url": "https://www.theatlantic.com/politics/archive/2020/04/coronavirus-pandemic-privacy-civil-liberties-911/609172/",
+      "date": "2020-05-15"
+    },
+    {
+      "id": "2976770371",
+      "title": "How to Not Need a Private npm Registry",
+      "url": "https://medium.com/better-programming/how-to-not-need-a-private-npm-registry-1327bfbe80c9",
+      "date": "2020-05-15"
+    },
+    {
+      "id": "2982881305",
+      "title": "Digital Privacy During COVID-19",
+      "url": "https://www.eff.org/event/digital-privacy-during-covid-19",
+      "date": "2020-05-15"
+    },
+    {
+      "id": "2983669904",
+      "title": "Don’t rely on contact-tracing apps",
+      "url": "https://www.economist.com/leaders/2020/05/16/dont-rely-on-contact-tracing-apps",
+      "date": "2020-05-15"
+    },
+    {
+      "id": "2983807677",
+      "title": "The most successful developers share more than they take",
+      "url": "https://stackoverflow.blog/2020/05/14/the-most-successful-developers-share-more-than-they-take/",
+      "date": "2020-05-15"
+    },
+    {
+      "id": "2984575276",
+      "title": "Your daily standups should be async. Here's why",
+      "url": "https://www.cadencework.com/blog/async-standups.html",
+      "date": "2020-05-15"
+    },
+    {
+      "id": "46350164",
+      "title": "Work 2.0 - the interruptible programmer",
+      "url": "http://www.stevestreeting.com/2010/09/04/work-2-0/",
+      "date": "2020-05-14"
+    },
+    {
+      "id": "1991059059",
+      "title": "Zero to the power of zero",
+      "url": "https://en.wikipedia.org/wiki/Zero_to_the_power_of_zero",
+      "date": "2020-05-14"
+    },
+    {
+      "id": "2851558546",
+      "title": "The New American Dream — David Perell",
+      "url": "https://www.perell.com/blog/new-american-dream",
+      "date": "2020-05-14"
+    },
+    {
+      "id": "2981751271",
+      "title": "Patio11’s Law",
+      "url": "https://secondbreakfast.co/patio11-s-law",
+      "date": "2020-05-14"
+    },
+    {
+      "id": "2982947334",
+      "title": "Reddit Rolls Out ‘Community Points’ on Ethereum to Incentivize Positive Behavior",
+      "url": "https://www.coindesk.com/reddit-rolls-out-community-points-on-ethereum-to-incentivize-positive-behavior",
+      "date": "2020-05-14"
+    },
+    {
+      "id": "2983397422",
+      "title": "Jeff Bezos could become world's first trillionaire, and many people aren't happy about it",
+      "url": "https://www.usatoday.com/story/tech/2020/05/14/jeff-bezos-worlds-first-trillionaire-sparks-heated-debate/5189161002/",
+      "date": "2020-05-14"
+    },
+    {
+      "id": "2983917347",
+      "title": "Telegram gives up on the Telegram Open Network",
+      "url": "https://davidgerard.co.uk/blockchain/2020/05/14/telegram-gives-up-on-the-telegram-open-network/",
+      "date": "2020-05-14"
+    },
     {
       "id": "1760117290",
       "title": "Everything You Need to Know About Buying Bitcoin",
