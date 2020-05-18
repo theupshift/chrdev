@@ -14,13 +14,23 @@ You're seeing a blank page saying "HTTP_ERROR 431"?
 
 And you're running a Node.js HTTP server, like express or fastify?
 
-This Node.js can help:
+This Node.js CLI flag can help:
 
 ```sh
 --max-http-header-size=16384
 ```
 
-It sets the HTTP Max Header Size to 16KB.
+Running `node --help` states:
+
+```sh
+  ...
+  
+  --max-http-header-size=...                set the maximum size of HTTP headers (default: 8KB)
+
+  ...
+```
+
+It sets the HTTP Max Headers Size to 16KB.
 
 This is due to a "recent" (November 2018) change in Node.js.
 
