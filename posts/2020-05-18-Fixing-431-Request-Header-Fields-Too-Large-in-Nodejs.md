@@ -10,24 +10,24 @@ tags:
 image: /assets/images/posts/node.js.png
 ---
 
-You're seeing a blank page saying "HTTP_ERROR 431"? 
+You're seeing a blank page saying "HTTP_ERROR 431"?
 
 And you're running a Node.js HTTP server, like express or fastify?
-
-This Node.js CLI flag can help:
-
-```sh
---max-http-header-size=16384
-```
 
 Running `node --help` states:
 
 ```sh
   ...
-  
+
   --max-http-header-size=...                set the maximum size of HTTP headers (default: 8KB)
 
   ...
+```
+
+This Node.js CLI flag can help:
+
+```sh
+--max-http-header-size=16384
 ```
 
 It sets the HTTP Max Headers Size to 16KB.
@@ -39,14 +39,14 @@ Namely a fix for a discovered vulnerability ["Denial of Service with large HTTP 
 The Fix says:
 
 ```
-All versions of 6 and later are vulnerable and the severity is HIGH. 
+All versions of 6 and later are vulnerable and the severity is HIGH.
 
-By using a combination of many requests with maximum sized headers (almost 80 KB per connection), and carefully timed completion of the headers, it is possible to cause the HTTP server to abort from heap allocation failure. 
+By using a combination of many requests with maximum sized headers (almost 80 KB per connection), and carefully timed completion of the headers, it is possible to cause the HTTP server to abort from heap allocation failure.
 
 Attack potential is mitigated by the use of a load balancer or other proxy layer.
 ```
 
-The gist is that 
+The gist is that
 
 > The total size of HTTP headers received by Node.js now must not exceed 8192 bytes.
 
