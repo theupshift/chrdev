@@ -36,6 +36,16 @@ This is due to a "recent" (November 2018) change in Node.js.
 
 Namely a fix for a discovered vulnerability ["Denial of Service with large HTTP headers (CVE-2018-12121)"](https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/#denial-of-service-with-large-http-headers-cve-2018-12121).
 
+The Fix says:
+
+```
+All versions of 6 and later are vulnerable and the severity is HIGH. 
+
+By using a combination of many requests with maximum sized headers (almost 80 KB per connection), and carefully timed completion of the headers, it is possible to cause the HTTP server to abort from heap allocation failure. 
+
+Attack potential is mitigated by the use of a load balancer or other proxy layer.
+```
+
 The gist is that 
 
 > The total size of HTTP headers received by Node.js now must not exceed 8192 bytes.
