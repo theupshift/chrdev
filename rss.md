@@ -14,7 +14,7 @@ minify: false
     <title><![CDATA[{{ post.data.title }}]]></title>
     <link><![CDATA[{{ post.url | withDomain }}]]></link>
     <guid><![CDATA[{{ post.url | withDomain }}]]></guid>
-    <description><![CDATA[{{ post.text | excerpt }}]]></description>
+    <description><![CDATA[{{ post.htmlContent }}]]></description>
   </item>
   {%- endfor %}
 </channel>
