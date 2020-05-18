@@ -24,7 +24,7 @@ module.exports = async function (page, shareText) {
   await page.focus('[contenteditable="true"]')
 
   console.log('typing message', '\n\n', `"${shareText}"`)
-  await page.type('[contenteditable="true"]', shareText)
+  await page.type('[contenteditable="true"]', shareText, { delay: 20 })
   await page.type('[contenteditable="true"]', ' ')
   console.log('finished typing message')
 
