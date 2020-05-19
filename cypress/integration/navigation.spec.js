@@ -10,8 +10,8 @@ context('Navigation', () => {
 
     cy.location('pathname').should('include', 'about')
   })
-  it('posts', () => {
-    cy.get('body > header').contains('posts').click()
+  it('archive', () => {
+    cy.get('body > header').contains('archive').click()
 
     cy.location('pathname').should('include', 'archive')
   })
