@@ -1,0 +1,23 @@
+{
+  "lang": "en",
+  "short_name": "cri.dev",
+  "name": "News from Chris",
+  "description": "A blog about Programming, Agile, Clean Code, TDD, Refactoring",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "icons": [{
+    "src": "/assets/images/cf4.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }, {
+    "src": "/assets/images/cf4.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "/assets/images/cf4.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }]
+}
