@@ -12,7 +12,7 @@ Here you can find *some* of my <b>recommended books</b> for a <i>solid culture f
 <b>My name is Christian</b> and I'm a <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/" target="_blank">passionate web developer</a> from <b>Italy</b>
 
 You can <a href="https://twitter.com/christian_fei" target="_blank">
-{% include 'img/twitter.html' %} follow me on twitter</a> and read a bit more <a href="/about">about me</a>.
+<i class="icon icon-twitter"></i>&nbsp; follow me on twitter</a> and read a bit more <a href="/about">about me</a>.
 
 <h1 class="no-mt">Recommended books</h1>
 

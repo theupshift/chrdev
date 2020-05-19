@@ -30,7 +30,7 @@ title: Home
       <img class="avatar-image" alt="me with sunglasses" lazy="/assets/images/cf4.png"/>
     </a>
     <p>
-      Read more <a href="/about">about me</a> and <a href="https://twitter.com/christian_fei" target="_blank">follow me {% include 'img/twitter.html' %}</a></br>
+      Read more <a href="/about">about me</a> and <a href="https://twitter.com/christian_fei" target="_blank">follow me <i class="icon icon-twitter"></i></a></br>
     </p>
   </div>
 </div>

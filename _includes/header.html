@@ -3,28 +3,23 @@
     <a href="/" class="flex-item flex-02 nav-link">
       {% include 'img/me-base64.html' %}
     </a>
-    <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/posts') %} active {% endif %}" href="/posts/">
+    <a class="no-mobile flex-item flex-02 tac nav-link {% if page.url.includes('/posts') %} active {% endif %}" href="/posts/">
       posts
     </a>
-    <!--
-    <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/books') %} active {% endif %}" href="/books">
-      books
-    </a>
-    -->
-    <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about/">
+    <a class="no-mobile flex-item flex-02 tac nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about/">
       about
     </a>
     <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/subscribe') %} active {% endif %}" href="/subscribe/">
       news
     </a>
     <a class="no-mobile flex-item flex-02 nav-link tac" href="/contributions/">
-      {% include 'img/github.html' %}
+      <i class="icon icon-github"></i>
     </a>
-    <a class="no-mobile flex-item flex-02 nav-link tac" target="_blank" href="https://twitter.com/christian_fei">
-      {% include 'img/twitter.html' %}
+    <a class="flex-item flex-02 nav-link tac" target="_blank" href="https://twitter.com/christian_fei">
+      <i class="icon icon-twitter"></i>
     </a>
     <a class="flex-item flex-02 nav-link tac" target="_blank" href="/rss.xml">
-      {% include 'img/rss.html' %}
+      <i class="icon icon-rss"></i>
     </a>
   </div>
 </header>

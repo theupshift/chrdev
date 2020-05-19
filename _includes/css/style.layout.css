@@ -47,7 +47,7 @@ blockquote {
   text-align: center;
 }
 
-.icon { display: inline-block; width: 1.275rem; height: 1.275rem; max-width: none; vertical-align: middle; }
+/* .icon { display: inline-block; width: 1.275rem; height: 1.275rem; max-width: none; vertical-align: middle; } */
 .cf { text-align: center; padding: 1em; }
 
 @media all and (max-width: 45em) {
