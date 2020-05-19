@@ -13,7 +13,7 @@ context('Navigation', () => {
   it('posts', () => {
     cy.get('body > header').contains('posts').click()
 
-    cy.location('pathname').should('include', 'posts')
+    cy.location('pathname').should('include', 'archive')
   })
   it('pocket', () => {
     cy.visit('http://127.0.0.1:8080/pocket')
