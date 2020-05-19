@@ -7,7 +7,7 @@ title: Posts
 
 <div class="alert">
   <p>
-    Below you can skim through <b>articles</b> I wrote over the years.
+    Below you can skim through the <b>{{ collections.post.length }} articles</b> I wrote over the years.
   </p>
   <p>
     node.js, crypto, testing, tutorials, thoughts and more.

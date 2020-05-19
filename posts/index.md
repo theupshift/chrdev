@@ -11,10 +11,13 @@ title: Posts
 
 <div class="alert" style="max-width: 45em">
   <p>
-    Below you can skim through <b>articles</b> I wrote over the years.
+    Below you can skim through <b>featured articles</b> I wrote over the years.
   </p>
   <p>
-    node.js, crypto, testing, tutorials, thoughts and more.
+    To see all {{collections.post.length}} articles, head over to the <a href="/archive">archive</a>
+  </p>
+  <p>
+    Elixir, node.js, crypto, testing, tutorials, thoughts and more.
   </p>
 </div>
 
