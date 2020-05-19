@@ -10,6 +10,9 @@ title: Posts
     Below you can skim through the <b>{{ collections.post.length }} articles</b> I wrote over the years.
   </p>
   <p>
+    To see all {{collections.featured.length}} featured articles, head over to <a href="/posts">/posts</a>
+  </p>
+  <p>
     node.js, crypto, testing, tutorials, thoughts and more.
   </p>
 </div>
