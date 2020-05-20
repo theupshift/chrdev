@@ -228,9 +228,7 @@ Try to avoid [Whatsapp](https://ssd.eff.org/en/module/how-use-whatsapp-ios) and 
 
 [Try signal](https://www.signal.org/).
 
-Telegram could also be fine.
-
-As always, this is a hairy and conflicting matter.
+Telegram could also be fine, if you enable secret chats, those are end-to-end encrypted. A [dear user on Reddit](https://www.reddit.com/r/privacytoolsIO/comments/gmwq6k/privacy_and_coherence/fr7yf47/) made some valid points regarding this.
 
 So it's a difficult matter, right now I'm using Signal and Telegram. Let's see what the future holds.
 
