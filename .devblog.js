@@ -109,6 +109,15 @@ module.exports = {
       }
     }
   }, {
+    name: 'utcdate',
+    filter: (date) => {
+      try {
+        return new Date(date).toUTCString()
+      } catch (err) {
+        return date
+      }
+    }
+  }, {
     name: 'isodate',
     filter: (date) => {
       try {

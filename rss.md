@@ -13,6 +13,7 @@ minify: false
   <item>
     <title><![CDATA[{{ post.data.title }}]]></title>
     <link><![CDATA[{{ post.url | withDomain }}]]></link>
+    <pubDate><![CDATA[{{post.data.date | utcdate}}]]></pubDate>
     <guid><![CDATA[{{ post.url | withDomain }}]]></guid>
     <description><![CDATA[{{ post.htmlContent | safe }}]]></description>
   </item>
