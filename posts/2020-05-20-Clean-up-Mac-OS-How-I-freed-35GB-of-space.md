@@ -58,7 +58,7 @@ It's gonna take a while.
 
 ## inspecting brew
 
-Running `brew cask` list revealed a whole lot of heavy casks installed in the past. nuke them.
+Running `brew cask list` list revealed a whole lot of heavy casks installed in the past. nuke them.
 
 Simply get the name of the cask and run `brew cask uninstall [CASK_NAME]`.
 
