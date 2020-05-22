@@ -31,13 +31,6 @@ So that I can stay up to date with the latest news."
 
 ## Topics, Approaches and Tools
 
-On the technical side, I am going to use the following tools
-
-- [sinon](https://sinonjs.org/) for easy Test Doubles
-- [ava](https://github.com/avajs/ava) for running the tests
-- MongoDB as an example, but of course the persistence can be changed at your liking
-- [no real email API service](https://github.com/christian-fei/email-newsletter-testing-by-example/blob/master/lib/email.js), to keep it simple
-
 Concepts discussed below are
 
 - SOLID principles
@@ -50,6 +43,13 @@ Concepts discussed below are
 - User Acceptance tests
 - Unit tests
 
+
+On the technical side, I am going to use the following tools
+
+- [sinon](https://sinonjs.org/) for easy Test Doubles
+- [ava](https://github.com/avajs/ava) for running the tests
+- MongoDB as an example, but of course the persistence can be changed at your liking
+- [no real email API service](https://github.com/christian-fei/email-newsletter-testing-by-example/blob/master/lib/email.js), to keep it simple
 
 
 
