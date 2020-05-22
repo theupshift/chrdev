@@ -3,12 +3,14 @@ title: "Testing in Node.js by example using the SOLID principles"
 date: 2020-05-20
 layout: post.njk
 tags:
-  - draft
+  - post
+  - featured
   - tdd
   - refactoring
   - cleancode
   - nodejs
   - javascript
+  - testing
 ---
 
 # An example application
@@ -20,18 +22,44 @@ You need to send a recurring email to some users (a newsletter for example), bas
 The business logic / user story could say:
 
 "As a user
+
 I want to receive an email every week
+
 So that I can stay up to date with the latest news."
 
-*This is intentionally a contrived example to reduce the scope*
+*This is intentionally a contrived example to reduce the scope of the exercise*.
+
+## Topics, Approaches and Tools
+
+On the technical side, I am going to use the following tools
+
+- [sinon](https://sinonjs.org/) for easy Test Doubles
+- [ava](https://github.com/avajs/ava) for running the tests
+- MongoDB as an example, but of course the persistence can be changed at your liking
+- [no real email API service](https://github.com/christian-fei/email-newsletter-testing-by-example/blob/master/lib/email.js), to keep it simple
+
+Concepts discussed below are
+
+- SOLID principles
+  - Single Responsibility Principle
+  - Open-Closed Principle
+  - Dependency Inversion Principle
+- Reason for a software component to change
+- Test doubles like Spies and Stubs
+- Collaborators in tests
+- User Acceptance tests
+- Unit tests
+
+
+
 
 # A testable implementation
 
-## Test driven design / development
+## Test-driven design
 
-I think it's important to come up with clear collaborators and responsibilities for your internal modules and functions.
+It's important to come up with clear collaborators and responsibilities for your internal modules and functions.
 
-This comes almost for free if you start your application by test-driving it using TDD. 
+This comes almost for free if you start your application by test-driving it using TDD.
 
 > The design emerges and collaborators are your tests will scream if they need a collaborator
 
@@ -43,13 +71,10 @@ The user didn't yet receive the newsletter via email.
 
 ```javascript
 test('sends a newsletter to users that did not yet receive it', async t => {
-  // Arrange:
-  await Users.insert({ name: 'test', email: 'test@test.com', lastEmailSentAt: null })
+  await UserRepository.insert({ name: 'test', email: 'test@test.com', lastEmailSentAt: null })
 
-  // Act:
   await newsletter.run()
-  
-  // Assert:
+
   // what should I assert here??
   // we need a collaborator for the newsletter...
 })
@@ -59,33 +84,33 @@ As you can see I have difficulties to define what to assert / test.
 
 ## Define the collaborators
 
-To define the collaborators I try to follow the Single Responsibility Priniciple (from the SOLID principles family).
+To define the collaborators I try to follow the Single Responsibility Principle (from the SOLID principles family).
 
-Meaning that a software component (class etc.) should have a single reason to change. 
+Meaning that a software component (class etc.) should have a single reason to change.
 
-You can take it a step further and see it from the business point of view: 
+You can take it a step further and see it from the business point of view:
 
-Who is the "actor" (like a person of business sector) associated to a specific software component or module?
+Who is the "actor" (like a person or business sector) associated to a specific software component or module?
 
 That person *is* the reason for a software component to change.
 
-Practical examples? 
+Practical examples?
 
 - Marketing could want to change the frequency of the newsletter
-- DBA wants to save the users in a different place
 - Marketing wants to change the contents of the newsletter
+- You or DBA's want to save the users in a different place
 
 You could continue on here, but let's stay practical and let the design emerge.
 
-## Inverting dependencies
+## Inverting dependencies with the DIP principle
 
 One could be inclined to put all the logic inside a function and call it a day.
 
-It could work, but for how long? Or better: how do you test effectively test it?
+It could work, but for how long? Or better: how do you effectively test it?
 
 One approach could be to inject those dependencies and collaborators in a controlled manner.
 
-The code should be clearly define on what it depends and use it in production code and in tests.
+We're effectively *inverting* the dependencies by [avoiding depending on details, but abstractions](https://en.wikipedia.org/wiki/Dependency_inversion_principle).
 
 E.g.
 
@@ -95,37 +120,75 @@ Let's try it with a **UserRepository**, and assert that the Users collection has
 
 ```javascript
 test('sends a newsletter to users that did not yet receive it', async t => {
-  // Arrange:
-  await Users.insert({ name: 'test', email: 'test@test.com', lastEmailSentAt: null })
-  
-  sinon.spy(Users, 'find')
+  await db.get('users').insert({ name: 'test', email: 'test@test.com', lastEmailSentAt: null })
+  sinon.spy(userRepository, 'findNotYetReceivedNewsletter')
 
-  // Act:
-  await newsletter.run(Users)
-  
-  // Assert:
-  t.is(Users.find.callCount, 1)
+  await newsletter.run(userRepository)
+
+  t.is(userRepository.findNotYetReceivedNewsletter.callCount, 1)
   // we still need a collaborator for sending the newsletter...
 })
 ```
 
-Using `sinon` because I find it the most practical way to define spies/stub/mocks/fakes in Node.js. 
-You could achieve the same by recording the arguments in a special test implementation.
+Using `.spy` since I want the DB to be queried, and later assert that the function has been called.
 
-## Making the test pass ✅
+For the email, I don't want the real function to be called, hence using `.stub`.
 
-To do so, I would do something like this for the newsletter module, using *ES6 default parameters*:
+I am passing in the collaborators in the tests, and use the real implementations in the application code.
+
+We're making the newsletter code [open for extension, but closed for modification](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 
 ```javascript
-const UserRepository = require('./storage/user-repository')
-
-async function run (userRepository = UserRepository) {
-  const queryUsersNewsletterNotSent = {
-    lastEmailSentAt: null
+async function run (userRepository, emailService) {
+  const users = await userRepository.findNotYetReceivedNewsletter()
+  for (const user of users) {
+    await emailService.sendTo(user)
   }
-  const users = await userRepository.find(queryUsersNewsletterNotSent)
 }
 ```
 
-## Opening and closing the software component
+## Stubbing the email service
 
+```javascript
+test('sends a newsletter to users that did not yet receive it', async t => {
+  await db.get('users').insert({ name: 'test', email: 'test@test.com', lastEmailSentAt: null })
+
+  sinon.spy(userRepository, 'findNotYetReceivedNewsletter')
+  sinon.stub(emailService, 'sendTo')
+
+  await newsletter.run(userRepository, emailService)
+
+  t.is(userRepository.findNotYetReceivedNewsletter.callCount, 1)
+  t.is(emailService.sendTo.callCount, 1)
+  // implement your assertions about arguments, like "recipient", "subject", "content" of the email etc.
+})
+```
+
+The `emailService` could interact with the Mailgun API, Sendgrid, etc. That's up to you.
+
+## File structure
+
+Below an outline of the [file structure of the project](https://github.com/christian-fei/email-newsletter-testing-by-example):
+
+```
+├── index.js
+├── index.test.js
+├── lib
+│   ├── db.js
+│   ├── email-service.js
+│   ├── email-service.test.js
+│   ├── email.js
+│   ├── email.test.js
+│   ├── user-repository.js
+│   └── user-repository.test.js
+├── package-lock.json
+└── package.json
+```
+
+The other software components are Unit tested, for further details check out [the project on GitHub](https://github.com/christian-fei/email-newsletter-testing-by-example/)
+
+Every collaborator has their own tests (except `lib/db.js` since it's a simple wrapper around `monk` that is already well tested).
+
+`email.js` is the wrapper around your API of choice to send emails and has a single exposed function `.send`.
+
+You can find the [full project on GitHub](https://github.com/christian-fei/email-newsletter-testing-by-example).
