@@ -153,7 +153,7 @@ We're effectively *inverting* the dependencies by [avoiding depending on details
 
 E.g.
 
-In the first UAT I thinks it's apparent that we need to provide the newsletter module at least a way to **retrieve the users**.
+In the first UAT I think it's apparent that we need to provide the newsletter module at least a way to **retrieve the users**.
 
 Let's try it with a **UserRepository**, and assert that the Users collection has been queried for users that did not receive a newsletter yet:
 
