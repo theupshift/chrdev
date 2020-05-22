@@ -55,6 +55,8 @@ module.exports = {
     filter: (content) => (content || '')
       .replace(/<\/?[^>]+(>|$)/g, "")
       .split('.')
+      .filter(Boolean)
+      .filter((line) => !line.includes('{%'))
       .filter((_, i) => i < 5)
       .join(' ')
       .replace(/\*.*/gi, '')
