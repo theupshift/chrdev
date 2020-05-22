@@ -57,6 +57,8 @@ module.exports = {
       .split('.')
       .filter((_, i) => i < 5)
       .join(' ')
+      .replace(/\*.*/gi, '')
+      .trim()
   }, {
     name: 'twitterTitle',
     filter: (title) => `"${encodeURIComponent(title || '')}", by @christian_fei`
