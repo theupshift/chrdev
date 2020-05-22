@@ -5,12 +5,12 @@
   "main": ".devblog.js",
   "dependencies": {
     "css.gg": "^2.0.0",
-    "ucompress": "^0.16.2"
+    "ucompress": "^0.16.5"
   },
   "devDependencies": {
     "clean-css": "^4.2.3",
     "compromise": "^13.2.0",
-    "devblog": "^2.19.2",
+    "devblog": "^2.19.3",
     "http-server": "^0.12.3"
   },
   "scripts": {
