@@ -13,7 +13,7 @@ title: Posts
     To see all {{collections.featured.length}} featured articles, head over to <a href="/posts">/posts</a>
   </p>
   <p>
-    node.js, crypto, testing, tutorials, thoughts and more.
+    Elixir, node.js, crypto, testing, tutorials, thoughts and more.
   </p>
 </div>
 
