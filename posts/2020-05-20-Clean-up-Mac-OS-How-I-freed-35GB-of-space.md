@@ -6,10 +6,10 @@ tags:
   - post
   - featured
   - mac
-image: https://images.unsplash.com/photo-1529220502050-f15e570c634e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80
+image: https://images.unsplash.com/photo-1529220502050-f15e570c634e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
-My disk space was running low. I had less than 100MB of free space. I was sick of running low on disk space. 
+My disk space was running low. I had less than 100MB of free space. I was sick of running low on disk space.
 
 Clean My Mac wasn't an option. I don't want to spend 40$ for a cleaning tool, if you're so inclined feel free to do it.
 
@@ -32,7 +32,7 @@ The available disk space went up a few GB.
 Ran a few steps from [maid.sh](https://github.com/jgamblin/MacOS-Maid/blob/master/maid.sh) which helped to free up some more GB:
 
 ```
-... 
+...
 #Taking out the trash.
 printf "Emptying the trash.\n"
 sudo rm -rfv /Volumes/*/.Trashes > /dev/null 2>&1

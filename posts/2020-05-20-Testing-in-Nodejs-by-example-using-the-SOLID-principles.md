@@ -11,6 +11,7 @@ tags:
   - nodejs
   - javascript
   - testing
+image: https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 # An example application
