@@ -61,7 +61,7 @@ It's important to come up with clear collaborators and responsibilities for your
 
 This comes almost for free if you start your application by test-driving it using TDD.
 
-> The design emerges and collaborators are your tests will scream if they need a collaborator
+> The design emerges and your tests will scream if they need a collaborator
 
 ## A failing user acceptance test
 
