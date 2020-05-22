@@ -102,6 +102,44 @@ Practical examples?
 
 You could continue on here, but let's stay practical and let the design emerge.
 
+## Unit-testing the UserRepository
+
+Below you can see a unit-test for the repository.
+
+It asserts that when calling the method `findNotYetReceivedNewsletter`, the correct number of users are returned.
+
+It verifies that the underlying collection is queried correctly.
+
+```javascript
+test('find users that did not yet receive the newsletter', async t => {
+  await UsersCollection.insert({ name: 'test', email: 'test@test.com', lastEmailSentAt: null })
+
+  sinon.spy(UsersCollection, 'find')
+
+  const users = await userRepository.findNotYetReceivedNewsletter()
+  t.true(Array.isArray(users))
+  t.is(users.length, 1)
+
+  t.true(UsersCollection.find.calledOnce)
+  t.true(UsersCollection.find.calledWith({ lastEmailSentAt: null }))
+})
+```
+
+## Unit-testing the EmailService
+
+In this case, the actual sending of the emails is "stubbed" out, so no emails are actually sent.
+
+I verify that the `send` method of the `email` module is actually called.
+
+```javascript
+test('sends newsletter to user', async t => {
+  const user = { name: 'test', email: 'test@test.com', lastEmailSentAt: null }
+  const emailStub = sinon.stub(email, 'send')
+  await emailService.sendTo(user)
+  t.is(emailStub.callCount, 1)
+})
+```
+
 ## Inverting dependencies with the DIP principle
 
 One could be inclined to put all the logic inside a function and call it a day.
