@@ -113,6 +113,7 @@ It verifies that the underlying collection is queried correctly.
 
 ```javascript
 test('find users that did not yet receive the newsletter', async t => {
+  await UsersCollection.insert({ name: 'test', email: 'test@test.com', lastEmailSentAt: new Date() })
   await UsersCollection.insert({ name: 'test', email: 'test@test.com', lastEmailSentAt: null })
 
   sinon.spy(UsersCollection, 'find')
