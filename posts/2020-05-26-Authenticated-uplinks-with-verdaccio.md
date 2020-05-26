@@ -10,7 +10,7 @@ tags:
   - npm
   - npmregistry
   - registry
-image: /assets/images/posts/npm.png
+image: /assets/images/posts/verdaccio.png
 ---
 
 # Context
@@ -39,3 +39,7 @@ uplinks:
 This way, packages and package versions that do not exist on your new verdaccio instance, are being proxied over from npm!
 
 Additionally, this means that you can now use verdaccio as the only registry in your `.npmrc`!
+
+---
+
+<small>logo from https://verdaccio.org/docs/en/logo</small>

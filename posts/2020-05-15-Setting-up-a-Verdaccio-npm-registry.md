@@ -10,7 +10,7 @@ tags:
   - npm
   - npmregistry
   - registry
-image: /assets/images/posts/npm.png
+image: /assets/images/posts/verdaccio.png
 ---
 
 <a href="https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif"><img lazy="https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif" alt=""></a>
@@ -103,8 +103,10 @@ snippet from the haproxy.cfg, your backend for npm could look like this:
 ```yml
 backend npm
   option forwardfor
-  http-request add-header X-Forwarded-Proto https
+  http-request set-header X-Forwarded-Proto https
   server npm1 npm.YOUR_COMPANY:4873 check
 ```
 
-This is not 100% working, so if you have more info on how to get it working with haproxy, let me know [@christian_fei](https://twitter.com/christian_fei)
+---
+
+<small>logo from https://verdaccio.org/docs/en/logo</small>
