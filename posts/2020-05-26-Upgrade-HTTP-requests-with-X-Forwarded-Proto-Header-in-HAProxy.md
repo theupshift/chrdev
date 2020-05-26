@@ -22,7 +22,7 @@ To solve this, you can instruct the proxy to upgrade requests sent between the c
 
 ```bash
 backend app1
-  http-request set-header X-Forwarded-Proto https if { ssl_fc }
+  http-request set-header X-Forwarded-Proto https if { !ssl_fc }
   server app1 127.0.0.1:1234
 ```
 
