@@ -8,7 +8,7 @@ tags:
   - tutorial
 ---
 
-Recently I stumbled upon an issue with an web application that was proxied by HAProxy.
+Recently I stumbled upon an issue with a web application that was proxied by HAProxy.
 
 The issue was that the requests that started from the HTML document were served and requested over HTTPS, but "inner" resources (AJAX calls, images, etc.) were configured as HTTP.
 
