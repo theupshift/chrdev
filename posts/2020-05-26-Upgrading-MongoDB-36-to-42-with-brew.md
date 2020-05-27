@@ -24,6 +24,12 @@ Not so fast.
 
 ## Upgrading from mongodb to mongodb-community@4.0
 
+Set the **feature compatibility version** by entering the current mongo shell:
+
+```sh
+db.adminCommand( { setFeatureCompatibilityVersion: "3.6" } )
+```
+
 Uninstall the current mongodb installation
 
 ```sh
