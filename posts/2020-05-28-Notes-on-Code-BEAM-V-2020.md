@@ -27,6 +27,7 @@ Table of talks:
 - [Building adaptive systems](building-adaptive-systems)
 - [Adopting Erlang, Adapting Rebar](#adopting-erlang-adapting-rebar)
 - [Elixir meets Erlang in Blockchain development](#elixir-meets-erlang-in-blockchain-development)
+- [Elixir update](#elixir-update)
 
 ## Opening Keynote - The Future of Programming
 
@@ -223,9 +224,6 @@ Less cool: speed is terrible, useability is often quite bad.
 
 This because useability comes to the cost of given trust to a certain authority.
 
-**State Channels**
-
-Created Off-chain. Speed, scalability. Still Trustless.
 
 **Architecture**
 
@@ -237,6 +235,27 @@ State Cache helps restore off-chain state.
 
 ![assets/images/posts/beam-v/elixir-blockchain.png](/assets/images/posts/beam-v/elixir-blockchain.png)
 
+
+
+**State Channels**
+
+Created Off-chain. Speed, scalability. Still Trustless.
+
+Off-chain as in "no-chain".
+
+You pass tokens back and forth until the contract is concluded. It could take 10 minutes or 6 months.
+
+Your smart contract is the "protocol" you're defining. Deploy the contract in the state channel.
+
+**coin-toss casino example**
+
+![assets/images/posts/beam-v/coin-toss.png](/assets/images/posts/beam-v/coin-toss.png)
+
+More info here on [github.com/aeternity](https://github.com/aeternity) and [aeternity.com](https://aeternity.com/)
+
+
+
+# Elixir update
 
 
 
