@@ -199,6 +199,15 @@ Similar concerns as with docker.
 
 You will get throttled if you reach certain CPU limits.
 
+**relx**
+
+Predecessor of rebar3.
+
+Previously standalone escript.
+
+Slimmed down and sped up, simplified configurations.
+
+Dev, prod, and minimal mode.
 
 
 
