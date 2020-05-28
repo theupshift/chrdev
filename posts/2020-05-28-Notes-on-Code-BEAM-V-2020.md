@@ -70,6 +70,15 @@ Many different programming models
 
 OTP will let you scale both vertically and horizontally, with a simple programming model.
 
+**Abstract the infrastructure**
+
+Hopefully in the future, we won't be talking about Kubernetes, Lambdas, Docker-compose and abstract away the infrastructure.
+
+Let's stop talking about tools, let's focus on valid, rock-solid abstractions.
+
+This will help to avoid making software developers also Network Engineers.
+
+
 **WIP**
 
 # Useful resources
