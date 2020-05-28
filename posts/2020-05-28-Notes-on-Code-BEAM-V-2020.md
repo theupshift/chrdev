@@ -40,7 +40,11 @@ Distribution: no worries about threads breaking, corrupting your memory, introdu
 
 The future is distributed.
 
+**BEAM**
 
+The BEAM can be seen as an OS with a hypervisor on top of your OS.
+
+![assets/images/posts/beam-v/beam-os.png](/assets/images/posts/beam-v/beam-os.png)
 
 
 **WIP**
