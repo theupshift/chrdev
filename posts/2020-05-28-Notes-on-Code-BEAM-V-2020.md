@@ -100,6 +100,8 @@ If you don't have a tool that is abstracted away on layer 7, let it be.
 
 ["The future is concurrent, distributed and properly abstracted!"](https://twitter.com/FrancescoC/status/1266004584679563264)
 
+*Images kindly provided by Francesco Cesarini*
+
 ---
 
 # Building adaptive systems
