@@ -258,7 +258,71 @@ More info here on [github.com/aeternity](https://github.com/aeternity) and [aete
 # Elixir update
 
 
+Current version Elixir 1.10, January 2020. 900 contributors. 10k+ packages on hex.pm. 1.3B+ downloads.
 
+**Erlang/OPT21+ requirement**
+
+This because Elixir fully integrates with Erlang's new logger, everything is shared.
+
+New guards: `is_map_key/2` and `is_struct/1`.
+
+**Compilation tracers**
+
+Compilation in Elixir is the same as execution code.
+
+This is because you can conditionally define functions and modules.
+
+```elixir
+defmodule MyMod do
+  if OtherMod.some_condition? do
+    def some_fun do
+      ...
+    end
+  end
+end
+```
+
+This is where compilation tracers come into play. Receive a bunch of events (compile module, define functions, etc.).
+
+Useful for static code analysers.
+
+Important foundation for the language.
+
+**Compilation environment**
+
+Application environment is read at compile time, not at run time.
+
+![assets/images/posts/beam-v/compile-env.png](/assets/images/posts/beam-v/compile-env.png)
+
+You can now use `Application.compile_env` to read variables at run time.
+
+**ExUnit Pattern Diffing**
+
+If you're interested in just a few fields of a struct, now Eixir gives you more readable traces.
+
+![assets/images/posts/beam-v/ex-unit-diffing.png](/assets/images/posts/beam-v/ex-unit-diffing.png)
+
+
+**Future**
+
+1.11 in October 2020!
+
+`Calendar.strftime/3` for datetime formatting
+
+New log levels, notice, critical alert and emergency.
+
+Warnings if using modules from non-dependencies.
+
+Read Erlang docs from the Elixir Shell!
+
+**Phoenix LiveDashboard**
+
+Comes with every new phoenix application (v1.5 and up).
+
+Request logging, metrics etc.
+
+
+# Closing Keynote - The Tyranny of Structurlessness
 
 
 ---
