@@ -82,6 +82,7 @@ Let's stop talking about tools, let's focus on valid, rock-solid abstractions.
 
 This will help to avoid making software developers also Network Engineers.
 
+If you don't have the correct abstractions in place, you are going to have problems evolving with time.
 
 **WIP**
 
