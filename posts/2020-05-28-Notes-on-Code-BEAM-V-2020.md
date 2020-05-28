@@ -52,6 +52,8 @@ The BEAM helps to abstract away from Distribution, abstract away from OS.
 
 Letting you Focus on business logic.
 
+![assets/images/posts/beam-v/beam-osi.png](/assets/images/posts/beam-v/beam-osi.png)
+
 **WIP**
 
 # Useful resources
