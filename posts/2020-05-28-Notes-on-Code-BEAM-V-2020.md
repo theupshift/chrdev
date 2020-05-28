@@ -53,7 +53,7 @@ The future is distributed.
 
 The BEAM can be seen as an OS with a hypervisor on top of your OS.
 
-![assets/images/posts/beam-v/beam-os.png](/assets/images/posts/beam-v/beam-os.png)
+<!-- ![assets/images/posts/beam-v/beam-os.png](/assets/images/posts/beam-v/beam-os.png) -->
 
 The BEAM has always been "cloud-native", not relying on particular OS or distribution.
 
@@ -61,7 +61,7 @@ The BEAM helps to abstract away from Distribution, abstract away from OS.
 
 Letting you Focus on business logic.
 
-![assets/images/posts/beam-v/beam-osi.png](/assets/images/posts/beam-v/beam-osi.png)
+<!-- ![assets/images/posts/beam-v/beam-osi.png](/assets/images/posts/beam-v/beam-osi.png) -->
 
 You should be able to focus mostly just on the business side of programming, the actual business logic.
 
@@ -97,7 +97,7 @@ If you don't have a tool that is abstracted away on layer 7, let it be.
 
 # Building adaptive systems
 
-Talk 2 ~ 15:55 CEST
+Talk 2 ~ 15:55 CEST - Chris Keathley
 
 Request spikes happen. Overloads can be nightmares. Latencies are introduced.
 
@@ -154,6 +154,21 @@ Circuit breakers are your last line of defense.
 Circuit breakers should be dynamic and adapted your domain. You cannot have a static circuit breaker in a dynamic domain of yours.
 
 **Adaptive Concurrency**
+
+Read papers about *Congestion Avoidance and Control*.
+
+Resilient to failures, a self-healing internet and systems.
+
+Dynamically discover **Adaptive limits** by probing your system and seeing the actual limit of services.
+
+*Additive Increase Mutliplicative Decrease*
+
+You backoff much faster than you grow.
+
+Tools and ideas: fuse and regulator (on github).
+
+
+
 
 
 
