@@ -167,6 +167,9 @@ You backoff much faster than you grow.
 
 Tools and ideas: fuse and regulator (on github).
 
+**Backpressure**
+
+Backpressure can work great for internal services, but for e.g. spike in users your system needs to dynamically adapt to the circumstances.
 
 
 
