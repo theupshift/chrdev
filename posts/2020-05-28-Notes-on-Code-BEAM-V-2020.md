@@ -215,6 +215,27 @@ Dev, prod, and minimal mode.
 
 Checkout Aeternity Blockchain!
 
+**Trust and Useability**
+
+Blockchains are trustless, distributed state-network.
+
+Less cool: speed is terrible, useability is often quite bad.
+
+This because useability comes to the cost of given trust to a certain authority.
+
+**State Channels**
+
+Created Off-chain. Speed, scalability. Still Trustless.
+
+**Architecture**
+
+The FSM (finite state machine) handles channel protocol.
+
+Watcher detects on-chain activity.
+
+State Cache helps restore off-chain state.
+
+
 
 
 
