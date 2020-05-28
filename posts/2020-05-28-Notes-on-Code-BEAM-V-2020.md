@@ -46,6 +46,11 @@ The BEAM can be seen as an OS with a hypervisor on top of your OS.
 
 ![assets/images/posts/beam-v/beam-os.png](/assets/images/posts/beam-v/beam-os.png)
 
+The BEAM has always been "cloud-native", not relying on particular OS or distribution.
+
+The BEAM helps to abstract away from Distribution, abstract away from OS.
+
+Letting you Focus on business logic.
 
 **WIP**
 
