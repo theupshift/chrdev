@@ -99,6 +99,39 @@ If you don't have a tool that is abstracted away on layer 7, let it be.
 
 Talk 2 ~ 15:55 CEST
 
+Request spikes happen. Overloads can be nightmares. Latencies are introduced.
+
+This can happen for both internal and external services, DB, APIs, etc.
+
+"All services have objectives". For example requests/second
+
+A resilient service should be able to withstand a 10x traffic spike and continue to meet those objectives.
+
+**Queues and Overloads**
+
+Most systems boil down to queues.
+
+It contains work that needs to be processed.
+
+Overload happens:
+
+Arrival Rate (how quick items show up) > Processing Time (how much it takes to process an item)
+
+*Little's Law*
+
+```
+Elements in the queue = Avg Arrival Rate * Avg Processing Time
+```
+
+CPU pressure happens when too many BEAM processes are created, and not processed in time to empty the queue.
+
+This slow down the queue and scheduler of the BEAM and things can fall apart.
+
+**Overload Mitigation**
+
+
+
+
 
 ---
 
