@@ -58,6 +58,18 @@ You should be able to focus mostly just on the business side of programming, the
 
 Erlang/Elixir helps you with that by e.g. using a gen-server and implementing just call or cast calls, without spending time on the underlying complexity.
 
+**Programming Model**
+
+Many different programming models
+
+- Functional Reactive
+- Lamdbas
+- Event-driven
+- Pub/Sub
+- Actor Model
+
+OTP will let you scale both vertically and horizontally, with a simple programming model.
+
 **WIP**
 
 # Useful resources
