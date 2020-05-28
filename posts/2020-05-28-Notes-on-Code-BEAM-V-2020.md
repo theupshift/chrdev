@@ -24,8 +24,13 @@ Schedule: [code-beam-v#schedule](https://codesync.global/conferences/code-beam-v
 Table of talks:
 
 - [Opening Keynote - The Future of Programming](#opening-keynote---the-future-of-programming)
+- [Building adaptive systems](building-adaptive-systems)
 
 ## Opening Keynote - The Future of Programming
+
+Talk 1 ~ 15:00 CEST
+
+![assets/images/posts/beam-v/222-participants.png](/assets/images/posts/beam-v/222-participants.png)
 
 "It was crazy building soft near-realtime system 20 years ago" ~ Casarini
 
@@ -83,6 +88,17 @@ Let's stop talking about tools, let's focus on valid, rock-solid abstractions.
 This will help to avoid making software developers also Network Engineers.
 
 If you don't have the correct abstractions in place, you are going to have problems evolving with time.
+
+If you don't have a tool that is abstracted away on layer 7, let it be.
+
+---
+
+# Building adaptive systems
+
+Talk 2 ~ 15:55 CEST
+
+
+---
 
 **WIP**
 
