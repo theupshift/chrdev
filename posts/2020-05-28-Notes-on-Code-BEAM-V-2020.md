@@ -91,6 +91,8 @@ If you don't have the correct abstractions in place, you are going to have probl
 
 If you don't have a tool that is abstracted away on layer 7, let it be.
 
+["The future is concurrent, distributed and properly abstracted!"](https://twitter.com/FrancescoC/status/1266004584679563264)
+
 ---
 
 # Building adaptive systems
