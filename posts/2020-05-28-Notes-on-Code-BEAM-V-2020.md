@@ -129,7 +129,31 @@ This slow down the queue and scheduler of the BEAM and things can fall apart.
 
 **Overload Mitigation**
 
+You need to get Arrival Rate and Processing Time under control.
 
+It would be obvious to start dropping items from the queue.
+
+The server that processes the queue items could drop requests, or queue items themself and eventually evict items. (Downstream solution)
+
+You could also stop sending requests all together to the downstream server (Upstream solution). Mitigated the load on the downstream.
+
+*Autoscaling*
+
+Autoscaling is not a silver bullet.
+
+If you DB is under load, and you auto-scale your server, you just made things worse.
+
+You need to keep in mind the *Load shedding* into the equation.
+
+*Circuit Breakers*
+
+If a server is under load, you can shut off the traffic to that server and let it "heal".
+
+Circuit breakers are your last line of defense.
+
+Circuit breakers should be dynamic and adapted your domain. You cannot have a static circuit breaker in a dynamic domain of yours.
+
+**Adaptive Concurrency**
 
 
 
