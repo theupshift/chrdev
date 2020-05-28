@@ -21,6 +21,10 @@ Schedule: [code-beam-v#schedule](https://codesync.global/conferences/code-beam-v
 
 # Notes
 
+Table of talks:
+
+- [Opening Keynote - The Future of Programming](#opening-keynote---the-future-of-programming)
+
 ## Opening Keynote - The Future of Programming
 
 "It was crazy building soft near-realtime system 20 years ago" ~ Casarini
