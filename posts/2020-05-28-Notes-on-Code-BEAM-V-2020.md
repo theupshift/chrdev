@@ -54,6 +54,10 @@ Letting you Focus on business logic.
 
 ![assets/images/posts/beam-v/beam-osi.png](/assets/images/posts/beam-v/beam-osi.png)
 
+You should be able to focus mostly just on the business side of programming, the actual business logic.
+
+Erlang/Elixir helps you with that by e.g. using a gen-server and implementing just call or cast calls, without spending time on the underlying complexity.
+
 **WIP**
 
 # Useful resources
