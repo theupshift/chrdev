@@ -23,6 +23,21 @@ Schedule: [code-beam-v#schedule](https://codesync.global/conferences/code-beam-v
 
 ## Opening Keynote - The Future of Programming
 
+"It was crazy building soft near-realtime system 20 years ago" ~ Casarini
+
+"Erlang is actually a Domain-Specific-Language written in C, tell your managers that and they'll buy that"
+
+
+JVM for speed and parallelism.
+
+BEAM for scalability and concurrency.
+
+**Looking at the future**
+
+Distribution: no worries about threads breaking, corrupting your memory, introduces latency, but is pretty fast at the end of the day.
+
+The future is distributed.
+
 
 
 **WIP**
