@@ -8,11 +8,4 @@ aws s3 cp \
   --region eu-central-1 \
   --exclude "assets/**.jpg" \
   --exclude "assets/**.png" \
-  ./_site/ s3://christianfei.com
-aws s3 cp \
-  --recursive \
-  --acl public-read \
-  --region eu-central-1 \
-  --exclude "assets/**.jpg" \
-  --exclude "assets/**.png" \
   ./_site/ s3://cri.dev

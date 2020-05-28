@@ -6,9 +6,4 @@ aws s3 cp \
   --recursive \
   --acl public-read \
   --region eu-central-1 \
-  ./_site/ s3://christianfei.com
-aws s3 cp \
-  --recursive \
-  --acl public-read \
-  --region eu-central-1 \
   ./_site/ s3://cri.dev
