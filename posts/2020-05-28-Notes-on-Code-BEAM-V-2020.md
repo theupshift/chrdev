@@ -28,6 +28,7 @@ Table of talks:
 - [Adopting Erlang, Adapting Rebar](#adopting-erlang-adapting-rebar)
 - [Elixir meets Erlang in Blockchain development](#elixir-meets-erlang-in-blockchain-development)
 - [Elixir update](#elixir-update)
+- [Closing Keynote - The Tyranny of Structurlessness](#closing-keynote---the-tyranny-of-structurlessness)
 
 ## Opening Keynote - The Future of Programming
 
