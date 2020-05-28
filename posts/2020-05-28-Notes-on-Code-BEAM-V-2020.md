@@ -64,7 +64,7 @@ The BEAM helps to abstract away from Distribution, abstract away from OS.
 
 Letting you Focus on business logic.
 
-![assets/images/posts/beam-v/beam-osi.png](/assets/images/posts/beam-v/beam-osi.png) 
+![assets/images/posts/beam-v/osi-1.png](/assets/images/posts/beam-v/osi-1.png) 
 
 You should be able to focus mostly just on the business side of programming, the actual business logic.
 
@@ -82,6 +82,8 @@ Many different programming models
 
 OTP will let you scale both vertically and horizontally, with a simple programming model.
 
+![assets/images/posts/beam-v/osi-2.png](/assets/images/posts/beam-v/osi-2.png) 
+
 **Abstract the infrastructure**
 
 Hopefully in the future, we won't be talking about Kubernetes, Lambdas, Docker-compose and abstract away the infrastructure.
@@ -93,6 +95,8 @@ This will help to avoid making software developers also Network Engineers.
 If you don't have the correct abstractions in place, you are going to have problems evolving with time.
 
 If you don't have a tool that is abstracted away on layer 7, let it be.
+
+![assets/images/posts/beam-v/osi-3.png](/assets/images/posts/beam-v/osi-3.png) 
 
 ["The future is concurrent, distributed and properly abstracted!"](https://twitter.com/FrancescoC/status/1266004584679563264)
 
@@ -323,6 +327,122 @@ Request logging, metrics etc.
 
 
 # Closing Keynote - The Tyranny of Structurlessness
+
+> How more meaningful code can make your project more resilient & maintainable
+
+People want more and more from applications as times goes on!
+
+-> Complexity grows at an exponentional rate.
+
+-> more flexible and easier to scale
+
+Let's focus on **domain** and **structure**!
+
+**Good elixir**
+
+Functional core, imperative shell
+
+Inner data manipulation in clean isolated environment, actions runs on the outer layer (side-effects).
+
+Another leayer between the outer layer and functional core: Semantic DSL / OO
+
+Decouple imperative outer shell with inner pure-logic function core.
+
+Brings to higher reuse of code.
+
+**Testing**
+
+Prop + model testing for function core.
+
+Huge gains and cleaner code.
+
+**Tradeoffs**
+
+- Exchange granular control for structure
+- humans over machines
+- meaning over mechanics
+- safer!
+
+**Actor Abyss**
+
+Each step is very simple in an actor-based application.
+
+Reasoning about dynamic organisms is difficult.
+
+Complexity grows faster.
+
+**Composition**
+
+Composition is at the heart of modularity
+
+Orthogonality is at the heart of composition
+
+![assets/images/posts/beam-v/composition.png](/assets/images/posts/beam-v/composition.png)
+
+**no reinventing the wheel**
+
+GenServers etc are pretty low level! Add semantics to them!
+
+A common example 
+
+```elixir
+def get(map, key, default \\ nil)
+
+%{a: 1} |> Map.get(:b, 4)
+#=> 4
+
+def fallback(nil, default), do: default
+def fallback(val, _), do: value
+
+%{a: 1} |> Map.get(:b) |> fallback(4)
+#=> 4
+
+[] |> List.first() |> fallback(:empty)
+#=> :empty
+```
+
+So instead of adding a third parameter to every function that implements the Enumerable protocol, you can abstract that semantic away!
+
+
+**good interfaces != good abstractions**
+
+Find a common interface with higher higher semantic density (focused on meaning not mechanics)
+
+Define front-end and back-end interfaces well (could be sync and async!)
+
+Declarative, configurable data flow, super extensible:
+
+```elixir
+defimple Dataflow, for: %Stream{}
+defimple Dataflow, for: %Distributed{}
+defimple Dataflow, for: %Broadway{}
+```
+
+**Summary**
+
+Protocols super useful for DDD
+
+Add a semantic layer to your application code, based on your domain
+
+Test your distributed system by looking at the properties
+
+Prop-testing useful for structured abstractions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
