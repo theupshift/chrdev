@@ -26,6 +26,7 @@ Table of talks:
 - [Opening Keynote - The Future of Programming](#opening-keynote---the-future-of-programming)
 - [Building adaptive systems](building-adaptive-systems)
 - [Adopting Erlang, Adapting Rebar](#adopting-erlang-adapting-rebar)
+- [Elixir meets Erlang in Blockchain development](#elixir-meets-erlang-in-blockchain-development)
 
 ## Opening Keynote - The Future of Programming
 
@@ -208,6 +209,11 @@ Previously standalone escript.
 Slimmed down and sped up, simplified configurations.
 
 Dev, prod, and minimal mode.
+
+
+# Elixir meets Erlang in Blockchain development
+
+Checkout Aeternity Blockchain!
 
 
 
