@@ -235,6 +235,7 @@ Watcher detects on-chain activity.
 
 State Cache helps restore off-chain state.
 
+![assets/images/posts/beam-v/elixir-blockchain.png](/assets/images/posts/beam-v/elixir-blockchain.png)
 
 
 
