@@ -52,3 +52,4 @@ The BEAM can be seen as an OS with a hypervisor on top of your OS.
 # Useful resources
 
 - [codesync.global/media/](https://codesync.global/media/) : a gigantic collection of excellent articles and videos
+- [Comparison between BEAM and JVM](https://www.erlang-solutions.com/blog/optimising-for-concurrency-comparing-and-contrasting-the-beam-and-jvm-virtual-machines.html)
