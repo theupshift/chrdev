@@ -25,6 +25,7 @@ Table of talks:
 
 - [Opening Keynote - The Future of Programming](#opening-keynote---the-future-of-programming)
 - [Building adaptive systems](building-adaptive-systems)
+- [Adopting Erlang, Adapting Rebar](#adopting-erlang-adapting-rebar)
 
 ## Opening Keynote - The Future of Programming
 
@@ -170,6 +171,35 @@ Tools and ideas: fuse and regulator (on github).
 **Backpressure**
 
 Backpressure can work great for internal services, but for e.g. spike in users your system needs to dynamically adapt to the circumstances.
+
+
+
+# Adopting Erlang, Adapting Rebar
+
+It's easy to pick up a book, read the theories, but often get stuck in the more practical stuff.
+
+
+Adopting Production Erlang:
+
+**with docker**
+
+- efficient building
+  - cache deps with rebar.lock
+  - store local hex package cache
+- runtime concerns
+  - busy wait (Erlangs' scheduler goes to sleep with a tight loop, burning your CPU)
+  - schedulers
+  - zombie processes
+
+Most of the issues are fixed in OTP-23 and rebar 3 3.14
+
+**with kubernetes**
+
+Similar concerns as with docker. 
+
+You will get throttled if you reach certain CPU limits.
+
+
 
 
 
