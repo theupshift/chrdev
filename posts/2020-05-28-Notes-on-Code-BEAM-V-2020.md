@@ -12,11 +12,18 @@ image: /assets/images/posts/elixir/elixir.png
 ---
 
 What: [Code BEAM V official website](https://codesync.global/conferences/code-beam-v/)
+
 When: 2020/05/28 - 2020/05/29
+
 Where: On the interwebz
+
 Schedule: [code-beam-v#schedule](https://codesync.global/conferences/code-beam-v/#schedule)
 
 # Notes
+
+## Opening Keynote - The Future of Programming
+
+
 
 **WIP**
 
