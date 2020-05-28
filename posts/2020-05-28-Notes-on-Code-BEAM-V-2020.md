@@ -32,11 +32,14 @@ JVM for speed and parallelism.
 
 BEAM for scalability and concurrency.
 
+The predecessor of the BEAM was the JAM: Joe's Abstract Machine!
+
 **Looking at the future**
 
 Distribution: no worries about threads breaking, corrupting your memory, introduces latency, but is pretty fast at the end of the day.
 
 The future is distributed.
+
 
 
 
