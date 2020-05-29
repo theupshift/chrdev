@@ -440,6 +440,29 @@ Prop-testing useful for structured abstractions
 
 # Opening Keynote - Problem led Software Design
 
+Robert Virding
+
+**The Erlang Problem**
+
+How can we improve the programming of Telephone applications? Very complex to build and maintain.
+
+- Handling very large number of concurrent activities
+- perform certain actions within a certain time
+- system distributed over several computers
+- maintainance without stopping the system
+- fault tolerance for hardware failures and software errors
+
+These are not problems just for telecom!
+
+**Interal development**
+
+- many threads at the same time
+- understanding and evolving the problem domain
+- designing language and arch
+- testing the idea and how it would perform
+
+Erlang tested in Ericsson in project ACS/Dunder. The first users of Erlang in a real product
+
 
 
 
