@@ -20,7 +20,7 @@ Where: On the interwebz
 Schedule: [code-beam-v#schedule](https://codesync.global/conferences/code-beam-v/#schedule)
 
 
-Table of talks:
+## Table of talks:
 
 #### Day 1
 
