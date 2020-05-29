@@ -36,7 +36,7 @@ Table of talks:
 - [Opening Keynote - Problem led Software Design](#opening-keynote---problem-led-software-design)
 - [How the BEAM will change your mind](#how-the-beam-will-change-your-mind)
 - [Gleam: Lean BEAM typing machine](#gleam-lean-beam-typing-machine)
-
+- [Cotonic: browser coroutines with an universal MQTT message bus](#cotonic-browser-coroutines-with-an-universal-mqtt-message-bus)
 
 # Opening Keynote - The Future of Programming
 
@@ -624,6 +624,9 @@ Differentiate on errors:
 - unexpected errors (Oops)
 
 [gleam.run](https://gleam.run)
+
+
+# Cotonic: browser coroutines with an universal MQTT message bus
 
 
 
