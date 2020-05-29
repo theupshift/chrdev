@@ -534,7 +534,13 @@ Eventually all characters work together and a result, a stable situation is reac
 
 **Example: Project degree assignment process**
 
-![assets/images/posts/beam-v/beam-mind.png](/assets/images/posts/beam-v/beam-mind.png)
+- each student is a process
+- each assignment is a process
+- administration process, knows if students fulfil criteria and marks
+- statistical information process
+
+All supervised.
+
 
 Example application: https://gitlab.com/lauramcastro/sorted
 
@@ -552,7 +558,12 @@ Cons:
 - harder to exaplin
 - harder to test
 
+**Take aways**
 
+- paradigms do affect the way you think
+- strength and weaknesses
+- respect the paradigm
+- not everything is a nail
 
 
 
