@@ -35,6 +35,7 @@ Table of talks:
 
 - [Opening Keynote - Problem led Software Design](#opening-keynote---problem-led-software-design)
 - [How the BEAM will change your mind](#how-the-beam-will-change-your-mind)
+- [Gleam: Lean BEAM typing machine](#gleam-lean-beam-typing-machine)
 
 
 # Opening Keynote - The Future of Programming
@@ -566,6 +567,67 @@ Cons:
 - strength and weaknesses
 - respect the paradigm
 - not everything is a nail
+
+
+# Gleam: Lean BEAM typing machine
+
+*By Louis Pilfold*
+
+BEAM and Erlang created to support multiple phone calls at once, failsafe system and perform a great number of tasks at the same time.
+
+Erlang is a unit of concurrency. Erlang is a unit, how many tasks can be handled per second.
+
+Named after Agner Erlang.
+
+Each thread / process handles a single unit, and can be sequential.
+
+"It is difficult to write a web server to handle 2 million session. But it's easy to write 1 server, and replicate it 2 million times" - Joe
+
+No shared state between process, but instead communicates by sending messages between each other.
+
+Distributed computing features built into the BEAM, process can send messages between each other between the same computer or a cluster of computers.
+
+If something goes wrong, the error is contained in the smallest possible sub-system: an erlang process.
+
+In this sense, BEAM is similar to Kubernetes, although no shared state and more granular when it comes to fail-over. 
+
+They operate at a different level of abstraction.
+
+The BEAM, almost by chance, became super useful for webservers, databases, queues, other systems!
+
+Languages on the BEAM: Erlang, Elixir, Gleam and others.
+
+The BEAM gives us a the tools to tolerate mistakes, e.g. Bugs in production!
+
+**Gleam and ML languages**
+
+Compiler as a tool, as a pair programming buddy that gives you hint what might go wrong.
+
+Complementing the fault tolerance of the BEAM, with the compiler and static analysis of Gleam.
+
+Helps reduces and minimize the feedback loop before going to production with an error introduced by a programmer.
+
+Gleam tries to be a type-safe version of OTP and Erlang!
+
+**Offensive programming**
+
+If your business logic expects something to work, don't be defensive on it.
+
+Assert that every step worked as expected and return as soon as possible if there is an error.
+
+Let is crash!
+
+Differentiate on errors:
+
+- user input
+- "expected" errors (network failures, external services down)
+- unexpected errors (Oops)
+
+[gleam.run](https://gleam.run)
+
+
+
+
 
 
 
