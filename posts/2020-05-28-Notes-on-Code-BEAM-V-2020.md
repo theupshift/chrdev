@@ -37,6 +37,7 @@ Table of talks:
 - [How the BEAM will change your mind](#how-the-beam-will-change-your-mind)
 - [Gleam: Lean BEAM typing machine](#gleam-lean-beam-typing-machine)
 - [Cotonic: browser coroutines with an universal MQTT message bus](#cotonic-browser-coroutines-with-an-universal-mqtt-message-bus)
+- [An update from the OTP team](#an-update-from-the-otp-team)
 
 # Opening Keynote - The Future of Programming
 
@@ -667,6 +668,11 @@ It has a table with communication keys for each client.
 The client requests a key-id.
 
 Encryption/decryption through a key-id.
+
+
+# An update from the OTP team
+
+[blog.erlang.org/OTP-23-Highlights/](http://blog.erlang.org/OTP-23-Highlights/)
 
 
 
