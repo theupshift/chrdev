@@ -628,6 +628,48 @@ Differentiate on errors:
 
 # Cotonic: browser coroutines with an universal MQTT message bus
 
+*By Marc Worrell*
+
+MQTT - Message Queueing Telemetry Transport
+
+A communication protocol often used in IoT
+
+Uses topic trees, with wild-cards, can be deep as you want.
+
+Can have anything as a payload, erlang termns, binaries etc.
+
+Client connect to server broker (over Web Sockets), over a bridge.
+
+Example at [cotonic.org/examples/chat](https://cotonic.org/examples/chat)
+
+![assets/images/posts/beam-v/mqtt-cotonic.png](/assets/images/posts/beam-v/mqtt-cotonic.png)
+
+**Security**
+
+We need ACL, and not everything on the same bus.
+
+Privacy!
+
+Through a client-id and routing-id (can be seen as public IP).
+
+Matching routing-id replies only to public and response topic.
+
+Every access and message is authenticated (+ACL) through and Auth Cookie in Zotonic/Cotonic.
+
+Some payloads are very private: password, chats etc.
+
+-> Encryption
+
+Key server, handshake to secure trust.
+
+It has a table with communication keys for each client.
+
+The client requests a key-id.
+
+Encryption/decryption through a key-id.
+
+
+
 
 
 
