@@ -440,7 +440,7 @@ Prop-testing useful for structured abstractions
 
 # Opening Keynote - Problem led Software Design
 
-Robert Virding
+Boyd Multerer and Robert Virding
 
 **The Erlang Problem**
 
@@ -485,10 +485,19 @@ Think about the Actual problems, problems of purpose.
 Problem Discovery! In Erlang they ahd the problems of the platform, because to test the platform in real live you need a real life problem and application. Kinda chicken-and-egg problem.
 
 
+**Scenic**
 
+By XBOX founder
 
+OTP based control hierarchy, fast process based restarts
 
+**Jelly theory of development**
 
+Software is never really finished. If you touch it, it's gonna mold, change and adapt.
+
+It's a continuous development and hacking target, Discover new  problems emerging from usage.
+
+Checkout key10.com and Scenic!
 
 
 
