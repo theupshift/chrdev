@@ -8,7 +8,7 @@ tags:
   - elixir
   - elixirlang
   - myelixirstatus
-image: /assets/images/posts/elixir/elixir.png
+image: /assets/images/posts/beam-v/code-beam-v.png
 ---
 
 What: [Code BEAM V official website](https://codesync.global/conferences/code-beam-v/)
@@ -532,7 +532,25 @@ Each process has their own duties, can go bad but the world needs to go on. The 
 Eventually all characters work together and a result, a stable situation is reached.
 
 
+**Example: Project degree assignment process**
 
+![assets/images/posts/beam-v/beam-mind.png](/assets/images/posts/beam-v/beam-mind.png)
+
+Example application: https://gitlab.com/lauramcastro/sorted
+
+Could have gone with imperative approach.
+
+Pros:
+
+- increased reliability
+- distributed responsibility
+- concurrent execution
+
+Cons:
+
+- harder to control
+- harder to exaplin
+- harder to test
 
 
 
