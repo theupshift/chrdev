@@ -698,6 +698,10 @@ Some working groups
 
 [erlef.org/become-a-sponsor](https://erlef.org/become-a-sponsor)
 
+# Next Conferences
+
+![assets/images/posts/beam-v/next-conf.png](/assets/images/posts/beam-v/next-conf.png)
+
 # Useful resources
 
 - [codesync.global/media/](https://codesync.global/media/) : a gigantic collection of excellent articles and videos
