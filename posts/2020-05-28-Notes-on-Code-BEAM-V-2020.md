@@ -38,6 +38,7 @@ Table of talks:
 - [Gleam: Lean BEAM typing machine](#gleam-lean-beam-typing-machine)
 - [Cotonic: browser coroutines with an universal MQTT message bus](#cotonic-browser-coroutines-with-an-universal-mqtt-message-bus)
 - [An update from the OTP team](#an-update-from-the-otp-team)
+- [Closing Keynote: An update from the Erlang Ecosystem Foundation working groups](#closing-keynote-an-update-from-the-erlang-ecosystem-foundation-working-groups)
 
 # Opening Keynote - The Future of Programming
 
@@ -674,6 +675,24 @@ Encryption/decryption through a key-id.
 
 [blog.erlang.org/OTP-23-Highlights/](http://blog.erlang.org/OTP-23-Highlights/)
 
+
+# Closing Keynote: An update from the Erlang Ecosystem Foundation working groups
+
+[erlef.org](https://erlef.org)
+
+non-profit organisation, with people from the community volunteering to grow the ecosystem.
+
+400+ Members! 11 Working Groups!
+
+Some working groups
+
+- Sponsorship
+- Fellowship
+- Infrastructure
+- Documentation
+- Language Interoperability
+
+[erlef.org/become-a-sponsor](https://erlef.org/become-a-sponsor)
 
 
 
