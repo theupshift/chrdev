@@ -19,9 +19,10 @@ Where: On the interwebz
 
 Schedule: [code-beam-v#schedule](https://codesync.global/conferences/code-beam-v/#schedule)
 
-# Notes
 
 Table of talks:
+
+#### Day 1
 
 - [Opening Keynote - The Future of Programming](#opening-keynote---the-future-of-programming)
 - [Building adaptive systems](building-adaptive-systems)
@@ -30,7 +31,12 @@ Table of talks:
 - [Elixir update](#elixir-update)
 - [Closing Keynote - The Tyranny of Structurlessness](#closing-keynote---the-tyranny-of-structurlessness)
 
-## Opening Keynote - The Future of Programming
+#### Day 2
+
+- [Opening Keynote - Problem led Software Design](#opening-keynote---problem-led-software-design)
+
+
+# Opening Keynote - The Future of Programming
 
 Talk 1 ~ 15:00 CEST
 
@@ -430,6 +436,9 @@ Add a semantic layer to your application code, based on your domain
 Test your distributed system by looking at the properties
 
 Prop-testing useful for structured abstractions
+
+
+# Opening Keynote - Problem led Software Design
 
 
 
