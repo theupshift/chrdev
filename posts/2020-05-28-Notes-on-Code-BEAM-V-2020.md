@@ -454,7 +454,7 @@ How can we improve the programming of Telephone applications? Very complex to bu
 
 These are not problems just for telecom!
 
-**Interal development**
+**Internal development**
 
 - many threads at the same time
 - understanding and evolving the problem domain
