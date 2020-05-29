@@ -503,6 +503,8 @@ Checkout key10.com and Scenic!
 
 # How the BEAM will change your mind
 
+*By Laura M. Castro*
+
 Like when in functional programming world you say, "you need to change your mind".
 
 On an abstract level FP advocates sound fine, but getting more practical and approaching it is a different thing.
