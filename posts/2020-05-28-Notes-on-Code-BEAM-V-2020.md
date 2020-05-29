@@ -465,13 +465,30 @@ Erlang tested in Ericsson in project ACS/Dunder. The first users of Erlang in a 
 
 Doing lots of experiments and testing in the real world.
 
-**first principles**
+**First principles**
 
-- lightweight concurrency
-- async communication
-- process isolation (no effect on other processes)
-- error handling (detect and handle errors)
-- soft real-time, non-blocking
+Lightweight concurrency,  async communication.
+Process isolation (no effect on other processes), error handling (detect and handle errors), with soft real-time, non-blocking features.
+
+Language/system should be simple, with a high level language to get real benefits.
+
+Provide tools for building systems, not solutions. Basic operations needed for building communication protocols and error handling.
+
+---
+
+"Build for the future", so that your solutions don't bring to new problems, but the other way around.
+
+Try to think of the problems you're not solving.
+
+Think about the Actual problems, problems of purpose.
+
+Problem Discovery! In Erlang they ahd the problems of the platform, because to test the platform in real live you need a real life problem and application. Kinda chicken-and-egg problem.
+
+
+
+
+
+
 
 
 
