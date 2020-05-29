@@ -34,6 +34,7 @@ Table of talks:
 #### Day 2
 
 - [Opening Keynote - Problem led Software Design](#opening-keynote---problem-led-software-design)
+- [How the BEAM will change your mind](#how-the-beam-will-change-your-mind)
 
 
 # Opening Keynote - The Future of Programming
@@ -500,6 +501,35 @@ It's a continuous development and hacking target, Discover new  problems emergin
 Checkout key10.com and Scenic!
 
 
+# How the BEAM will change your mind
+
+Like when in functional programming world you say, "you need to change your mind".
+
+On an abstract level FP advocates sound fine, but getting more practical and approaching it is a different thing.
+
+**The imperative approach**
+
+"The God complex"
+
+You see all data, you have control over all of it, you know it all (algorithm).
+
+**The object-oriented approach**
+
+"The Despicable master"
+
+Small buckets of data, the bucket know about themselves.
+
+The buckets don't know about each other. They can be seen as minions that do small tasks on their own data.
+
+A master is still needed to orchestrate all together.
+
+**The functional approach**
+
+"The BEAM approach"
+
+Each process has their own duties, can go bad but the world needs to go on. The processes can be supervised and monitored.
+
+Eventually all characters work together and a result, a stable situation is reached.
 
 
 
@@ -512,7 +542,8 @@ Checkout key10.com and Scenic!
 
 
 
----
+
+---ch
 
 **WIP**
 
