@@ -689,23 +689,14 @@ Some working groups
 - Sponsorship
 - Fellowship
 - Infrastructure
-- Documentation
-- Language Interoperability
+- Documentation (unifying way of documenting code in erlang + elixir and beam in general)
+- Language Interoperability (interop between langs e.g. elixir, gleam, etc.)
+- Education
+- Building and Packaging (rebar, hex etc)
+- Observability (Open Telemetry and Code tracing)
+- Security (secure coding and deployment hardening etc)
 
 [erlef.org/become-a-sponsor](https://erlef.org/become-a-sponsor)
-
-
-
-
-
-
-
-
-
-
-
-
-**WIP**
 
 # Useful resources
 
