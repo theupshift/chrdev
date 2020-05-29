@@ -463,9 +463,15 @@ These are not problems just for telecom!
 
 Erlang tested in Ericsson in project ACS/Dunder. The first users of Erlang in a real product
 
+Doing lots of experiments and testing in the real world.
 
+**first principles**
 
-
+- lightweight concurrency
+- async communication
+- process isolation (no effect on other processes)
+- error handling (detect and handle errors)
+- soft real-time, non-blocking
 
 
 
