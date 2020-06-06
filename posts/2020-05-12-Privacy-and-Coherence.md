@@ -210,9 +210,12 @@ Personal recommendations:
 
 Ditch FB, forever. "Delete" your account once and for all, stay in touch with your loved ones in other ways.
 
+If you have Twitter, use [nitter.snopyta.org](https://nitter.snopyta.org/) to stay up to date what's going on. Self-hosting is also possible, even local with a Docker image.
+
 Mastodon could be an alternative, not necessarily for your relatives but for personal use and to connect with the community on a certain instance.
 
 There are various ones I signed up for like unfiltered news sources and thematic instances of interest.
+
 
 ## Social buttons
 
