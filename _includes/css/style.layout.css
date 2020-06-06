@@ -2,7 +2,7 @@ body > header, body > footer, body > main { max-width: 45em; margin: 0 auto; pad
 .contain { max-width: 45em; margin: 0 auto; }
 
 body > header { background: #fff;
-  /*position: sticky; left: 0; right: 0; top: 0; z-index: 9999; padding-bottom: 0;*/ }
+  position: sticky; left: 0; right: 0; top: 0; z-index: 9999; padding-bottom: 0; }
 body > main { margin-top: 2em; }
 #footer { padding-left: 0.5em; padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em;  }
 
