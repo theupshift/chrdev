@@ -27,14 +27,11 @@ blockquote {
 }
 .nav-link {
   text-decoration: none;
-  display: inline-block;
   border-bottom: 3px solid transparent;
-  transition: border-bottom .3s ease-out;
+  outline: none;
 }
 .nav-link.active,
 .nav-link:hover, .nav-link:active, .nav-link:focus {
-  background: none;
-  outline: none;
   border-bottom: 3px solid #fe1;
 }
 
