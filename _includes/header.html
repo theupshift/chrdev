@@ -1,25 +1,37 @@
-<header id="header">
-  <div class="flex">
-    <a href="/" class="flex-item flex-02 nav-link">
-      {% include 'img/me-base64.html' %}
-    </a>
-    <a class="no-mobile flex-item flex-02 tac nav-link {% if page.url.includes('/archive') %} active {% endif %}" href="/archive/">
-      archive
-    </a>
-    <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about/">
-      about
-    </a>
-    <a class="flex-item flex-02 tac nav-link {% if page.url.includes('/subscribe') %} active {% endif %}" href="/subscribe/">
-      news
-    </a>
-    <a class="no-mobile flex-item flex-02 nav-link tac" href="/contributions/">
-      <i class="icon icon-github"></i>
-    </a>
-    <a class="flex-item flex-02 nav-link tac" target="_blank" href="https://twitter.com/christian_fei">
-      <i class="icon icon-twitter"></i>
-    </a>
-    <a class="flex-item flex-02 nav-link tac" target="_blank" href="/rss.xml">
-      <i class="icon icon-rss"></i>
-    </a>
-  </div>
+<header id="header" class="pure-menu pure-menu-horizontal">
+  <a href="/" class="pure-menu-heading pure-menu-link nav-link">
+    {% include 'img/me-base64.html' %}
+  </a>
+  <ul class="pure-menu-list">
+    <li class="pure-menu-item">
+      <a class="tac pure-menu-link nav-link {% if page.url.includes('/archive') %} active {% endif %}" href="/archive/">
+        archive
+      </a>
+    </li>
+    <li class="pure-menu-item">
+      <a class="tac pure-menu-link nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about/">
+        about
+      </a>
+    </li>
+    <li class="pure-menu-item">
+      <a class="tac pure-menu-link nav-link {% if page.url.includes('/subscribe') %} active {% endif %}" href="/subscribe/">
+        news
+      </a>
+    </li>
+    <li class="pure-menu-item">
+      <a class="no-mobile nav-link tac pure-menu-link" href="/contributions/">
+        <i class="icon icon-github"></i>
+      </a>
+    </li>
+    <li class="pure-menu-item">
+      <a class="nav-link tac pure-menu-link" target="_blank" href="https://twitter.com/christian_fei">
+        <i class="icon icon-twitter"></i>
+      </a>
+    </li>
+    <li class="pure-menu-item">
+      <a class="nav-link tac pure-menu-link" target="_blank" href="/rss.xml">
+        <i class="icon icon-rss"></i>
+      </a>
+    </li>
+  </ul>
 </header>

@@ -26,7 +26,6 @@ blockquote {
   vertical-align: bottom;
 }
 .nav-link {
-  padding: 0.25em 0.5em;
   text-decoration: none;
   display: inline-block;
   border-bottom: 3px solid transparent;
