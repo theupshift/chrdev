@@ -274,13 +274,16 @@ Use [discourse](https://www.discourse.org/).
 
 If you can, avoid YouTube.
 
+Decentralized alternatives like [d.tube](https://d.tube/) and [lbry.tv](https://lbry.tv/) are available as options.
+
+They are getting more and more traction over time, maybe one day you can completely watch all your information needs and cat-videos on a platform different than YouTube.
+
 Use [invidio.us](https://www.invidio.us/) as an alternative front-end to YouTube instead.
 
 Checkout the [source on GitHub](https://github.com/omarroth/invidious#invidious-is-an-alternative-front-end-to-youtube) for more info.
 
-Alternatively decentralized alternatives like [d.tube](https://d.tube/) and [lbry.tv](https://lbry.tv/).
+[NewPipe](https://newpipe.schabi.org/) if you're using Android.
 
-They are getting more and more traction over time, maybe one day you can completely watch all your information needs and cat-videos on a platform different than YouTube.
 
 # Video conferencing
 
