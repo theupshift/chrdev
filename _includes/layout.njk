@@ -103,10 +103,6 @@
   <body>
     {% include "header.html" %}
 
-    {% if page.url === '/posts/' or page.url === '/archive/' or page.url === '/' %}
-      {% include "snippets/featured.html" %}
-    {% endif %}
-
     {% if page.data.tags and page.data.tags.includes('post') %}
     <main class="post">
     {% else %}
