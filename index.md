@@ -4,8 +4,8 @@ title: Home
 ---
 
 {% block content %}
-<div class="flex flex-wrap">
-<div class="flex-item" style="min-width: 23em;">
+<div class="pure-g">
+<div class="pure-u-md-1-2 pure-u-1-1">
   <!-- <div class="no-mobile" style="margin-top: 3em; width: 23em"></div> -->
   <h1 class="no-anchor"><b>Welcome to my blog!</b> 👋</h1>
 
@@ -24,7 +24,7 @@ title: Home
 
 </div>
 
-<div class="flex-item">
+<div class="pure-u-md-1-2 pure-u-1-1">
   <div class="cf">
     <a href="/about" class="no-underline">
       <img class="avatar-image" alt="me with sunglasses" lazy="/assets/images/cf4.png"/>

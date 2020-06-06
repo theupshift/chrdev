@@ -8,11 +8,11 @@ js:
 
 {% block content %}
 {% include 'subscribe-to-newsletter.html' %}
-<div reversed class="flex1 flex-wrap1">
-  <div class="flex-item1">
+<div reversed class="">
+  <div class="">
     <img src="/assets/images/speech-bubble-unsub.png">
   </div>
-  <div class="flex-item1 tar">
+  <div class=" tar">
     <img src="/assets/images/cf4.png">
   </div>
 </div>

@@ -58,3 +58,7 @@ blockquote {
 }
 
 .avatar-image { max-width: 300px; }
+
+.l-box {
+  padding: 1em;
+}

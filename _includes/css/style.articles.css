@@ -22,9 +22,11 @@
 }
 .post-item {
   height: 14em;
+  /*
   min-width: 17em;
   padding: 0.5em;
   margin: 0.5em;
+  */
 }
 .post-item .excerpt {
   overflow: scroll;
