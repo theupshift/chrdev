@@ -1,6 +1,6 @@
 <header class="pure-menu pure-menu-horizontal">
   <div class="contain">
-    <a href="/" class="pure-menu-heading pure-menu-link nav-link">
+    <a href="/about" class="pure-menu-heading pure-menu-link nav-link">
       {% include 'img/me-base64.html' %}
     </a>
     <ul class="pure-menu-list">
@@ -9,7 +9,7 @@
           archive
         </a>
       </li>
-      <li class="pure-menu-item">
+      <li class="no-mobile pure-menu-item">
         <a class="tac pure-menu-link nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about/">
           about
         </a>
@@ -19,12 +19,12 @@
           news
         </a>
       </li>
-      <li class="pure-menu-item">
-        <a class="no-mobile nav-link tac pure-menu-link" href="/contributions/">
+      <li class="no-mobile pure-menu-item">
+        <a class="nav-link tac pure-menu-link" href="/contributions/">
           <i class="icon icon-github"></i>
         </a>
       </li>
-      <li class="pure-menu-item">
+      <li class="no-mobile pure-menu-item">
         <a class="nav-link tac pure-menu-link" target="_blank" href="https://twitter.com/christian_fei">
           <i class="icon icon-twitter"></i>
         </a>
