@@ -58,3 +58,7 @@ blockquote {
 .l-box {
   padding: 1em;
 }
+
+input {
+  box-sizing: border-box;
+}
