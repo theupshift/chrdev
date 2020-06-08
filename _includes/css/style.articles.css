@@ -40,7 +40,6 @@
 
 
 
-main article img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
 main article .title span {
   background-color: #fff;
   color: #333;
@@ -59,7 +58,6 @@ main article header {
   margin-bottom: 1em;
 }
 main aside { font-size: 0.8rem; padding: 0.6em; }
-main article img { text-align: center; max-width: 100%; max-width: -webkit-fill-available; }
 
 @media all and (min-width: 80em) {
   main.post {
