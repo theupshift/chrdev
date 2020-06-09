@@ -1237,21 +1237,21 @@
   },
   {
     "date": "2020-06-08",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 2,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-06-07",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 7,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-06-06",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 16,
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-06-05",
@@ -1267,21 +1267,21 @@
   },
   {
     "date": "2020-06-03",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 1,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-06-02",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 1,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-06-01",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 1,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-05-31",
@@ -1297,27 +1297,27 @@
   },
   {
     "date": "2020-05-29",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 27,
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-05-28",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 40,
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-05-27",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 2,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-05-26",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
+    "count": 6,
+    "color": "#c6e48b",
+    "intensity": 1
   },
   {
     "date": "2020-05-25",
@@ -1333,63 +1333,63 @@
   },
   {
     "date": "2020-05-23",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2020-05-22",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2020-05-21",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2020-05-20",
-    "count": 0,
-    "color": "#ebedf0",
-    "intensity": 0
-  },
-  {
-    "date": "2020-05-19",
     "count": 2,
     "color": "#c6e48b",
     "intensity": 1
   },
   {
-    "date": "2020-05-18",
-    "count": 13,
+    "date": "2020-05-22",
+    "count": 23,
+    "color": "#239a3b",
+    "intensity": 3
+  },
+  {
+    "date": "2020-05-21",
+    "count": 2,
     "color": "#c6e48b",
     "intensity": 1
   },
   {
+    "date": "2020-05-20",
+    "count": 3,
+    "color": "#c6e48b",
+    "intensity": 1
+  },
+  {
+    "date": "2020-05-19",
+    "count": 15,
+    "color": "#7bc96f",
+    "intensity": 2
+  },
+  {
+    "date": "2020-05-18",
+    "count": 13,
+    "color": "#7bc96f",
+    "intensity": 2
+  },
+  {
     "date": "2020-05-17",
     "count": 41,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-05-16",
     "count": 42,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-05-15",
     "count": 23,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-05-14",
     "count": 28,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-05-13",
@@ -1400,8 +1400,8 @@
   {
     "date": "2020-05-12",
     "count": 25,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-05-11",
@@ -1430,8 +1430,8 @@
   {
     "date": "2020-05-07",
     "count": 27,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-05-06",
@@ -1442,8 +1442,8 @@
   {
     "date": "2020-05-05",
     "count": 12,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-05-04",
@@ -1526,8 +1526,8 @@
   {
     "date": "2020-04-21",
     "count": 15,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-04-20",
@@ -1538,8 +1538,8 @@
   {
     "date": "2020-04-19",
     "count": 35,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-04-18",
@@ -1598,14 +1598,14 @@
   {
     "date": "2020-04-09",
     "count": 26,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-04-08",
     "count": 14,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-04-07",
@@ -1616,14 +1616,14 @@
   {
     "date": "2020-04-06",
     "count": 27,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-04-05",
     "count": 27,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-04-04",
@@ -1658,14 +1658,14 @@
   {
     "date": "2020-03-30",
     "count": 16,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-03-29",
     "count": 12,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-03-28",
@@ -1706,8 +1706,8 @@
   {
     "date": "2020-03-22",
     "count": 35,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-03-21",
@@ -1724,14 +1724,14 @@
   {
     "date": "2020-03-19",
     "count": 34,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-03-18",
     "count": 26,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-03-17",
@@ -1754,8 +1754,8 @@
   {
     "date": "2020-03-14",
     "count": 16,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-03-13",
@@ -1772,14 +1772,14 @@
   {
     "date": "2020-03-11",
     "count": 15,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-03-10",
     "count": 42,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-03-09",
@@ -1790,14 +1790,14 @@
   {
     "date": "2020-03-08",
     "count": 32,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-03-07",
     "count": 27,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-03-06",
@@ -1832,14 +1832,14 @@
   {
     "date": "2020-03-01",
     "count": 12,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-02-29",
     "count": 15,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-02-28",
@@ -1862,8 +1862,8 @@
   {
     "date": "2020-02-25",
     "count": 15,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-02-24",
@@ -1916,8 +1916,8 @@
   {
     "date": "2020-02-16",
     "count": 32,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-02-15",
@@ -1928,8 +1928,8 @@
   {
     "date": "2020-02-14",
     "count": 16,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-02-13",
@@ -1970,14 +1970,14 @@
   {
     "date": "2020-02-07",
     "count": 30,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-02-06",
     "count": 44,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-02-05",
@@ -2030,8 +2030,8 @@
   {
     "date": "2020-01-28",
     "count": 14,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-01-27",
@@ -2042,8 +2042,8 @@
   {
     "date": "2020-01-26",
     "count": 24,
-    "color": "#7bc96f",
-    "intensity": 2
+    "color": "#239a3b",
+    "intensity": 3
   },
   {
     "date": "2020-01-25",
@@ -2084,20 +2084,20 @@
   {
     "date": "2020-01-19",
     "count": 44,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-01-18",
     "count": 16,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-01-17",
     "count": 16,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-01-16",
@@ -2114,8 +2114,8 @@
   {
     "date": "2020-01-14",
     "count": 14,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-01-13",
@@ -2180,14 +2180,14 @@
   {
     "date": "2020-01-03",
     "count": 15,
-    "color": "#c6e48b",
-    "intensity": 1
+    "color": "#7bc96f",
+    "intensity": 2
   },
   {
     "date": "2020-01-02",
     "count": 43,
-    "color": "#239a3b",
-    "intensity": 3
+    "color": "#196127",
+    "intensity": 4
   },
   {
     "date": "2020-01-01",
