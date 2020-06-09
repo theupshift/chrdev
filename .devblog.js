@@ -53,13 +53,20 @@ module.exports = {
   }, {
     name: 'excerpt',
     filter: (content) => (content || '')
-      .replace(/<\/?[^>]+(>|$)/g, "")
-      .split('.')
-      .filter(Boolean)
+      .split('\n')
       .filter((line) => !line.includes('{%'))
+      .reduce((acc, line) => {
+        if (!line) return acc
+        if (line.startsWith('<script')) return Object.assign(acc, {deleting: true})
+        if (acc.deleting) return acc
+        if (line.startsWith('</script')) return Object.assign(acc, {deleting: false})
+        acc.lines.push(line.replace(/\*.*/gi, '').replace(/<\/?[^>]+(>|$)/g, ""))
+        return acc
+      }, {lines: [], deleting: false}).lines
+      .join(' ')
+      .split('.')
       .filter((_, i) => i < 5)
       .join(' ')
-      .replace(/\*.*/gi, '')
       .trim()
   }, {
     name: 'twitterTitle',
