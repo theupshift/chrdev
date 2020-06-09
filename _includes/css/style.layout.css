@@ -65,5 +65,5 @@ input {
 
 
 main img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
-main img { text-align: center; max-width: 100%; max-width: -webkit-fill-available; }
+main img { text-align: center; max-width: 100%; }
 .no-shadow { box-shadow: none; }

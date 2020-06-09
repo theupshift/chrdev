@@ -1,25 +1,27 @@
 <footer>
   <div class="contain">
-    <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
-    <p><b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a></p>
+    <div class="l-box">
+      <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
+      <p><b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a></p>
 
-    <p>If I helped you in any way, say it out loud <a href="https://twitter.com/christian_fei">on twitter</a></p>
+      <p>If I helped you in any way, say it out loud <a href="https://twitter.com/christian_fei">on twitter</a></p>
 
-    {% if page.url != '/' and page.url != '/about/' %}
-    <p>
-      <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Edit this page on GitHub</a> - <small>{{ page.url }}</small>
-    </p>
-    {% endif %}
+      {% if page.url != '/' and page.url != '/about/' %}
+      <p>
+        <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Edit this page on GitHub</a> - <small>{{ page.url }}</small>
+      </p>
+      {% endif %}
 
 
-    <p>&copy; <a style="text-decoration: none;" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">{% include 'img/license-base64.html' %}</a> Christian Fei 2012 - {{ '' | year }}</p>
+      <p>&copy; <a style="text-decoration: none;" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">{% include 'img/license-base64.html' %}</a> Christian Fei 2012 - {{ '' | year }}</p>
 
-    <p>
-      commit
-      <small><a target="_blank" href="{{ '' | githubCommitDiffUrl }}">{{'' | commit}}</a></small>
-    </p>
-    <p>
-      icons from <a href="https://iconfinder.com">iconfinder.com</a>
-    </p>
+      <p>
+        commit
+        <small><a target="_blank" href="{{ '' | githubCommitDiffUrl }}">{{'' | commit}}</a></small>
+      </p>
+      <p>
+        icons from <a href="https://iconfinder.com">iconfinder.com</a>
+      </p>
+    </div>
   </div>
 </footer>
