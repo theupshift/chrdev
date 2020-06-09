@@ -22,6 +22,8 @@
 }
 .post-item {
   height: 14em;
+  width: 100%;
+
   /*
   min-width: 17em;
   padding: 0.5em;

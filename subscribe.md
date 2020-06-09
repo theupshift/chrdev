@@ -10,10 +10,10 @@ js:
 {% include 'subscribe-to-newsletter.html' %}
 <div reversed class="">
   <div class="">
-    <img src="/assets/images/speech-bubble-unsub.png">
+    <img class="no-shadow" src="/assets/images/speech-bubble-unsub.png">
   </div>
   <div class=" tar">
-    <img src="/assets/images/cf4.png">
+    <img class="no-shadow" src="/assets/images/cf4.png">
   </div>
 </div>
 

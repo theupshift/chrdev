@@ -19,7 +19,7 @@ title: Posts
 
 <div class="posts searchable pure-g">
 {% for post in collections.post | reverse %}
-  <div class="pure-u-1-2">
+  <div class="pure-u-1 pure-u-md-1-2">
     <div class="l-box">
         <a href="{{ post.url }}" class="post-item" {% if post.data.image %}lazy="{{ post.data.image }}"{% endif %}>
           <time datetime="{{ post.data.date | isoday }}" class="post-date bg-white">{{ post.data.date | isoday }}</time>

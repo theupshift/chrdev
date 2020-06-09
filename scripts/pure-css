@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# https://purecss.io/customize/
+
+cat /dev/null > _includes/css/pure.min.css
+curl https://unpkg.com/purecss@2.0.3/build/base-min.css >> _includes/css/pure.min.css
+# curl https://unpkg.com/purecss@2.0.3/build/buttons-min.css >> _includes/css/pure.min.css
+# curl https://unpkg.com/purecss@2.0.3/build/forms-min.css >> _includes/css/pure.min.css
+# curl https://unpkg.com/purecss@2.0.3/build/forms-nr-min.css >> _includes/css/pure.min.css
+curl https://unpkg.com/purecss@2.0.3/build/grids-min.css >> _includes/css/pure.min.css
+curl https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css >> _includes/css/pure.min.css
+curl https://unpkg.com/purecss@2.0.3/build/menus-min.css >> _includes/css/pure.min.css
+# curl https://unpkg.com/purecss@2.0.3/build/tables-min.css >> _includes/css/pure.min.css
+
+# Base	https://unpkg.com/purecss@2.0.3/build/base-min.css
+# Buttons	https://unpkg.com/purecss@2.0.3/build/buttons-min.css
+# Forms (Responsive)	https://unpkg.com/purecss@2.0.3/build/forms-min.css
+# Forms (Non-Responsive)	https://unpkg.com/purecss@2.0.3/build/forms-nr-min.css
+# Grids (Base)	https://unpkg.com/purecss@2.0.3/build/grids-min.css
+# Grids (Responsive)	https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css
+# Menus (Responsive)	https://unpkg.com/purecss@2.0.3/build/menus-min.css
+# Tables	https://unpkg.com/purecss@2.0.3/build/tables-min.css

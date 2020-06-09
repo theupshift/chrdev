@@ -5,7 +5,7 @@ title: Home
 
 {% block content %}
 <div class="pure-g">
-<div class="pure-u-md-1-2 pure-u-1-1">
+<div class="pure-u-1 pure-u-md-1-2">
   <!-- <div class="no-mobile" style="margin-top: 3em; width: 23em"></div> -->
   <h1 class="no-anchor"><b>Welcome to my blog!</b> 👋</h1>
 
@@ -24,10 +24,10 @@ title: Home
 
 </div>
 
-<div class="pure-u-md-1-2 pure-u-1-1">
+<div class="pure-u-1 pure-u-md-1-2">
   <div class="cf">
     <a href="/about" class="no-underline">
-      <img class="avatar-image" alt="me with sunglasses" lazy="/assets/images/cf4.png"/>
+      <img class="avatar-image no-shadow" alt="me with sunglasses" lazy="/assets/images/cf4.png"/>
     </a>
     <p>
       Read more <a href="/about">about me</a> and <a href="https://twitter.com/christian_fei" target="_blank">follow me <i class="icon icon-twitter"></i></a></br>
