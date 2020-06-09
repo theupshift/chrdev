@@ -3,11 +3,13 @@ title: "Install Homeassistant on Raspberry Pi"
 date: 2020-06-07
 layout: post.njk
 tags:
+  - featured
   - post
   - raspberry
   - iot
   - homeassistant
   - automation
+image: https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 [home-assistant.io](https://www.home-assistant.io/) is the latest great tool I discovered, it's simply a beautiful piece of technology.
