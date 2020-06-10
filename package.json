@@ -5,12 +5,13 @@
   "main": ".devblog.js",
   "dependencies": {},
   "devDependencies": {
-    "css.gg": "^2.0.0",
-    "ucompress": "^0.17.0",
     "clean-css": "^4.2.3",
     "compromise": "^13.2.0",
     "devblog": "^2.20.0",
-    "http-server": "^0.12.3"
+    "got": "^11.3.0",
+    "http-server": "^0.12.3",
+    "p-limit": "^3.0.1",
+    "ucompress": "^0.17.0"
   },
   "scripts": {
     "test": "npx cypress run",
@@ -19,7 +20,8 @@
     "purge": "./scripts/purge",
     "deploy": "./scripts/deploy",
     "deploy-with-assets": "./scripts/deploy.with-assets",
-    "start": "http-server _site 8080"
+    "start": "http-server _site 8080",
+    "buttondown-analytics": "node scripts/buttondown-analytics"
   },
   "repository": {
     "type": "git",

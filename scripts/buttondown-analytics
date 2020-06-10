@@ -1,0 +1,110 @@
+#!/usr/bin/env node
+
+const got = require('got')
+const fs = require('fs')
+const path = require('path')
+const pLimit = require('p-limit')
+const limit = pLimit(5)
+const puppeteer = require('puppeteer')
+
+main()
+  .then(() => {
+    process.exit(0)
+  })
+  .catch(err => {
+    console.error(err)
+    process.exit(1)
+  })
+
+async function main () {
+  const browser = await puppeteer.launch({
+    headless: process.env.HEADLESS !== 'false'
+  })
+  const page = await browser.newPage()
+
+  console.log('navigating to buttondown.email/login')
+  await page.goto('https://buttondown.email/login')
+  console.log('navigated to buttondown.email/login')
+
+  await page.type('#username', process.env.npm_config_buttondown_username)
+  await page.type('#password', process.env.npm_config_buttondown_password)
+
+  console.log('submitting login form')
+  await page.click('[type=submit]')
+
+  console.log('waiting for navigation')
+  await page.waitForNavigation()
+  console.log('waited for navigation')
+
+  const content = await page.content()
+  if (/Subscribers/gi.test(content)) {
+    console.log('successfully logged in')
+  } else {
+    console.error('failed to login')
+    throw new Error('UNABLE_TO_LOGIN')
+  }
+
+  const cookies = await page.cookies()
+  console.log('got cookies', cookies.map(({ name }) => name))
+
+  const sessionId = cookies.find(({ name }) => name === 'sessionid').value
+  const xsrfToken = cookies.find(({ name }) => name === 'XSRF-TOKEN').value
+
+  console.log('using', { sessionId, xsrfToken })
+
+  await page.goto('https://buttondown.email/subscribers', { waitUntil: ['networkidle0'] })
+
+  const subscriberRowHandles = await page.$$('.multiselectable-row')
+  const subscribers = []
+  for (const handle of subscriberRowHandles) {
+    await handle.$eval('.multiselectable-row__input', (el) => el.click())
+    let username = await handle.$eval('.subscriber-row__email', (el) => el.textContent.trim())
+    username = username.split('\n')[0]
+    console.log('username', username)
+    // await handle.click()
+    await page.waitFor('.action-list a')
+    const href = await page.evaluate(() => document.querySelector('.action-list a').href)
+    const id = href.match(/subscribers\/(.*)\//)[1]
+    console.log('id', id)
+    subscribers.push({ username, id })
+    await handle.$eval('.multiselectable-row__input', (el) => el.click())
+    await page.waitFor(10)
+  }
+
+  const tasks = subscribers.map((subscriber) => limit(async () => {
+    const subscriberId = subscriber.id
+    const [analyticsResponse, eventsResponse] = await Promise.all([
+      got.post('https://buttondown.email/api/emails/service/subscriber-analytics', {
+        headers: {
+          Cookie: `XSRF-TOKEN=${xsrfToken}; sessionid=${sessionId}`,
+          Host: 'buttondown.email',
+          Origin: 'https://buttondown.email',
+          Referer: 'https://buttondown.email/subscribers',
+          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+          'X-CSRFToken': xsrfToken
+        },
+        json: { id: subscriberId }
+      }),
+      got.post('https://buttondown.email/api/emails/service/subscriber-events', {
+        headers: {
+          Cookie: `XSRF-TOKEN=${xsrfToken}; sessionid=${sessionId}`,
+          Host: 'buttondown.email',
+          Origin: 'https://buttondown.email',
+          Referer: 'https://buttondown.email/subscribers',
+          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+          'X-CSRFToken': xsrfToken
+        },
+        json: { id: subscriberId }
+      })
+    ])
+    const analytics = JSON.parse(analyticsResponse.body)
+    const events = JSON.parse(eventsResponse.body)
+    console.log('subscriber-analytics', subscriber.username, analytics)
+    console.log('subscriber-events', subscriber.username, events)
+    return { ...subscriber, analytics, events }
+  }))
+
+  const subscriberAnalytics = await Promise.all(tasks)
+
+  fs.writeFileSync(path.resolve(__dirname, '..', 'buttondown-analytics.json'), JSON.stringify(subscriberAnalytics, null, 2), { encoding: 'utf8' })
+}
