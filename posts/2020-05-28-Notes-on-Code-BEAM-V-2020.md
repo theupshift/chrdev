@@ -311,7 +311,7 @@ Application environment is read at compile time, not at run time.
 
 ![assets/images/posts/beam-v/compile-env.png](/assets/images/posts/beam-v/compile-env.png)
 
-You can now use `Application.compile_env` to read variables at run time.
+You can now use `Application.compile_env` to read variables at compile time.
 
 **ExUnit Pattern Diffing**
 
