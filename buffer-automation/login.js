@@ -10,7 +10,7 @@ module.exports = async function (page) {
   await page.type('#login-form #email', process.env.BUFFER_EMAIL)
   await page.type('#login-form #password', process.env.BUFFER_PASSWORD)
 
-  await page.waitForSelector('#login-form-submit')
   await page.click('#login-form-submit')
+  await page.waitForNavigation()
   console.log('logging in')
 }
