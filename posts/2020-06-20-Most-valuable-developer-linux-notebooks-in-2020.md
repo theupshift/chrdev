@@ -15,7 +15,7 @@ Recently I got into Linux *again* after a long hiatus.
 
 I fell in love with [Pop!_OS](https://pop.system76.com/) by [System76](https://system76.com/).
 
-Ubuntu 20.04 also looks gorgeous and made we want to go back to the Linux side.
+Ubuntu 20.04 also looks gorgeous and made me want to go back to the Linux side.
 
 So I started looking for a worthy laptop for the job, with excellent support for Linux, and these are my findings.
 
