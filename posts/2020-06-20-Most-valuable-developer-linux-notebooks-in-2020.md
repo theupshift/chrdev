@@ -29,6 +29,8 @@ Prices are in Euro.
 
 CPU Mark and Values are from [cpubenchmark.net](https://www.cpubenchmark.net/)
 
+Purposely excluded Purism and their Librem line for their niche product (privacy oriented), value for the buck and potential to later re-sell.
+
 **Let me know if you have better alternatives by getting in touch [@christian_fei](https://twitter.com/christian_fei)**
 
 I have put together a publicly available [spreadsheet](https://docs.google.com/spreadsheets/d/12Y0amjbf-YD8pQqdC7QJ04noJcVnQCJj6y3_drhdiPw/edit?usp=sharing) that contains all these information.
