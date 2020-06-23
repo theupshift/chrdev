@@ -22,8 +22,16 @@ So I started looking for a worthy laptop for the job, with excellent support for
 The notebooks are grouped by the following vendors:
 
 - Dell
+  - [Dell XPS 13 Developer Edition](#dell-xps-13-developer-edition)
 - Lenovo
+  - [ThinkPad X1 Carbon Gen 8](#thinkpad-x1-carbon-gen-8)
+  - [ThinkPad X1 Yoga (Gen 4)](#thinkpad-x1-yoga-gen-4)
+  - [ThinkPad T490s](#thinkpad-t490s)
+  - [ThinkPad L13](#thinkpad-l13)
+  - [ThinkPad L490](#thinkpad-l490)
 - System76
+  - [Lemur pro](#lemur-pro)
+  - [Darter pro](#darter-pro)
 
 Prices are in Euro.
 
