@@ -64,10 +64,10 @@ main aside { font-size: 0.8rem; padding: 0.6em; }
 @media all and (min-width: 80em) {
   main.post {
     display: grid;
-    grid-template-columns: 11em auto;
-    grid-column-gap: 0.5em;
+    grid-template-columns: 13em auto;
+    grid-column-gap: .5em;
     grid-template-areas: "sidebar main";
-    max-width: 60em;
+    max-width: 70em;
   }
   main.post article { grid-area: main; }
   main.post aside { grid-area: sidebar; }
