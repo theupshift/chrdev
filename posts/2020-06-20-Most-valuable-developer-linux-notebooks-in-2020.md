@@ -43,7 +43,8 @@ Purposely excluded Purism and their Librem line for their niche product (privacy
 
 I have put together a publicly available [spreadsheet](https://docs.google.com/spreadsheets/d/12Y0amjbf-YD8pQqdC7QJ04noJcVnQCJj6y3_drhdiPw/edit?usp=sharing) that contains all these information.
 
-![/assets/images/posts/developer-linux-laptop/google-sheet.png](/assets/images/posts/developer-linux-laptop/google-sheet.png)
+<img lazy="/assets/images/posts/developer-linux-laptop/google-sheet.png" alt="/assets/images/posts/developer-linux-laptop/google-sheet.png">
+<!-- ![/assets/images/posts/developer-linux-laptop/google-sheet.png](/assets/images/posts/developer-linux-laptop/google-sheet.png) -->
 
 # Dell
 
@@ -51,7 +52,8 @@ I went straight to the **XPS Developer Edition**, without looking much at the ot
 
 ## Dell XPS 13 Developer Edition
 
-![/assets/images/posts/developer-linux-laptop/dell-xps-13.jpeg](/assets/images/posts/developer-linux-laptop/dell-xps-13.jpeg)
+<img lazy="/assets/images/posts/developer-linux-laptop/dell-xps-13.jpeg" alt="/assets/images/posts/developer-linux-laptop/dell-xps-13.jpeg">
+<!-- ![/assets/images/posts/developer-linux-laptop/dell-xps-13.jpeg](/assets/images/posts/developer-linux-laptop/dell-xps-13.jpeg) -->
 
 **Price** 1429 € (with touch-screen 1628 €)
 
@@ -87,7 +89,8 @@ I went straight to the **XPS Developer Edition**, without looking much at the ot
 
 ## ThinkPad X1 Carbon Gen 8
 
-![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-carbon.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-carbon.png)
+<img lazy="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-carbon.png" alt="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-carbon.png">
+<!-- ![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-carbon.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-carbon.png) -->
 
 **Price** 1929 €
 
@@ -123,7 +126,8 @@ I went straight to the **XPS Developer Edition**, without looking much at the ot
 
 ## ThinkPad X1 Yoga (Gen 4)
 
-![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-yoga.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-yoga.png)
+<img lazy="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-yoga.png" alt="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-yoga.png">
+<!-- ![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-yoga.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-yoga.png) -->
 
 **Price** 2496 €
 
@@ -157,7 +161,8 @@ I went straight to the **XPS Developer Edition**, without looking much at the ot
 
 ## ThinkPad X390
 
-![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x390.jpg](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x390.jpg)
+<img lazy="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x390.jpg" alt="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x390.jpg">
+<!-- ![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x390.jpg](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x390.jpg) -->
 
 **Price** 1924 €
 
@@ -191,7 +196,8 @@ I went straight to the **XPS Developer Edition**, without looking much at the ot
 
 ## ThinkPad T490s
 
-![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-t490s.jpg](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-t490s.jpg)
+<img lazy="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-t490s.jpg" alt="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-t490s.jpg">
+<!-- ![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-t490s.jpg](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-t490s.jpg) -->
 
 **Price** 1724 €
 
@@ -225,7 +231,8 @@ I went straight to the **XPS Developer Edition**, without looking much at the ot
 
 ## ThinkPad L13
 
-![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l13.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l13.png)
+<img lazy="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l13.png" alt="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l13.png">
+<!-- ![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l13.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l13.png) -->
 
 **Price** 1244 €
 
@@ -259,7 +266,8 @@ I went straight to the **XPS Developer Edition**, without looking much at the ot
 
 ## ThinkPad X1 Extreme Gen 2
 
-![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-extreme.jpg](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-extreme.jpg)
+<img lazy="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-extreme.jpg" alt="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-extreme.jpg">
+<!-- ![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-extreme.jpg](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-x1-extreme.jpg) -->
 
 **Price** 2073 €
 
@@ -291,7 +299,8 @@ I went straight to the **XPS Developer Edition**, without looking much at the ot
 
 ## ThinkPad P53s
 
-![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-p53s.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-p53s.png)
+<img lazy="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-p53s.png" alt="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-p53s.png">
+<!-- ![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-p53s.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-p53s.png) -->
 
 **Price** 1820 €
 
@@ -326,7 +335,8 @@ NVIDIA Quadro P520 2 GB GDDR5 64 bit
 
 ## ThinkPad L490
 
-![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l490.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l490.png)
+<img lazy="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l490.png" alt="/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l490.png">
+<!-- ![/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l490.png](/assets/images/posts/developer-linux-laptop/lenovo-thinkpad-l490.png) -->
 
 **Price** 1386 €
 
@@ -362,7 +372,8 @@ NVIDIA Quadro P520 2 GB GDDR5 64 bit
 
 ## Lemur pro
 
-![/assets/images/posts/developer-linux-laptop/system76-lemur-pro.jpg](/assets/images/posts/developer-linux-laptop/system76-lemur-pro.jpg)
+<img lazy="/assets/images/posts/developer-linux-laptop/system76-lemur-pro.jpg" alt="/assets/images/posts/developer-linux-laptop/system76-lemur-pro.jpg">
+<!-- ![/assets/images/posts/developer-linux-laptop/system76-lemur-pro.jpg](/assets/images/posts/developer-linux-laptop/system76-lemur-pro.jpg) -->
 
 **Price** 1377 €
 
@@ -394,7 +405,8 @@ NVIDIA Quadro P520 2 GB GDDR5 64 bit
 
 ## Darter pro
 
-![/assets/images/posts/developer-linux-laptop/system76-darter-pro.png](/assets/images/posts/developer-linux-laptop/system76-darter-pro.png)
+<img lazy="/assets/images/posts/developer-linux-laptop/system76-darter-pro.png" alt="/assets/images/posts/developer-linux-laptop/system76-darter-pro.png">
+<!-- ![/assets/images/posts/developer-linux-laptop/system76-darter-pro.png](/assets/images/posts/developer-linux-laptop/system76-darter-pro.png) -->
 
 **Price** 1288 €
 
