@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+const analytics = require('../buttondown-analytics.json')
+
+main()
+  .then(() => {
+    process.exit(0)
+  })
+  .catch(err => {
+    console.error(err)
+    process.exit(1)
+  })
+
+async function main () {
+  const filterDate = process.argv[2] || new Date().toISOString().substring(0, 10)
+  console.log('filtering by > filterDate', filterDate)
+  for (const user of analytics) {
+    const events = user.events.filter(ev => new Date(ev.timestamp) > new Date(filterDate))
+    console.log(user.username, JSON.stringify(events, null, 2))
+  }
+}
