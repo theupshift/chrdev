@@ -5,30 +5,31 @@ title: Home
 
 {% block content %}
 <div class="pure-g">
-  <div class="pure-u-1 pure-u-md-1-2">
+  <div class="pure-u-1 pure-u-md-2-3">
     <h1 class="no-anchor"><b>Welcome to my blog!</b> 👋</h1>
-    <b>My name is Christian, cri for short</b>
-    <br/>
-    A <a href="https://twitter.com/christian_fei" target="_blank">passionate web developer</a> from <b>Italy</b>
-    <p>I am an agile enthusiast, clean code connoisseur & testing aficionado<p>
-    <a class="cta" href="/subscribe/">Subscribe to my newsletter</a>
-    <p>Read some <a href="/posts">featured blog posts</a>, <a href="/books">recommended books</a> and skim through <a href="/archive">the archive</a></p>
+    <p>My name is Christian, <b>cri</b> for short</p>
+    <p>A <b>passionate web developer</b> from <b>Italy</b></p>
+    <p>Into Agile Software development, connoisseur of clean code and testing aficionado<p>
+    <p>Blogging quite frequently 👉 <a class="cta" href="/subscribe/">subscribe to my newsletter</a></p>
+    <p>You can read some <a href="/posts">featured blog posts</a>, <a href="/books">recommended books</a> and skim through <a href="/archive">the archive</a></p>
   </div>
-  <div class="pure-u-1 pure-u-md-1-2">
+  <div class="pure-u-1 pure-u-md-1-3">
     <div class="cf">
       <a href="/about" class="no-underline">
-        <img class="avatar-image no-shadow" alt="me with sunglasses" lazy="/assets/images/cf4.png"/>
+        <img class="avatar-image no-shadow" alt="me with sunglasses" src="/assets/images/cf4.png"/>
       </a>
       <p>
-        Read more <a href="/about">about me</a> and <a href="https://twitter.com/christian_fei" target="_blank">follow me <i class="icon icon-twitter"></i></a></br>
+        <a href="/about">about me</a> | <a href="https://twitter.com/christian_fei" target="_blank"><i class="icon icon-twitter"></i></a> | <a href="https://github.com/christian-fei" target="_blank"><i class="icon icon-github"></i></a>
       </p>
     </div>
   </div>
 </div>
 <div>
   <p>
-  You can <b>support me</b> through my <a href="https://github.com/sponsors/christian-fei">GitHub Sponsor page ✌️</a>
-  See a <b>data visualization</b> of my <a href="/contributions">GitHub contributions 📈</a> over the years
+    <b>Support me</b> through my <a href="https://github.com/sponsors/christian-fei">GitHub Sponsor page ✌️</a>
+  </p>
+  <p>
+    See a <b>data visualization</b> of my <a href="/contributions">GitHub contributions 📈</a> over the years
   </p>
   {% include 'subscribe-to-newsletter.html' %}
 </div>
