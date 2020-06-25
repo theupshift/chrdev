@@ -322,6 +322,8 @@ Probably going to look into it in the future.
 
 Discovered also [spreadprivacy.com](https://spreadprivacy.com/) by DuckDuckGo.
 
+[cookiestatus.com](https://www.cookiestatus.com/) contains different tracking protection mechanisms implemented by browsers.
+
 
 A more exhaustive list of tools can be found at the [/r/degoogle subreddit](https://www.reddit.com/r/degoogle/comments/g1yu01/google_alternatives_huge_list_restore_your_privacy/), [restoreprivacy.com](https://restoreprivacy.com/google-alternatives/) and [privacytools.io](https://www.privacytools.io/).
 
