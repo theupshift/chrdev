@@ -8,7 +8,8 @@ const [commitLong, date, ...commitDescription] = require('child_process')
   .map(l => l.trim())
   .filter(l => !l.startsWith('Author:'))
 const commit = commitLong.replace(/^commit /, '').substring(0, 7)
-
+const year = new Date().getFullYear()
+const today = new Date().toISOString().substring(0, 10)
 const cache = new Map()
 function createHash(str) {
   return crypto
@@ -50,7 +51,7 @@ module.exports = {
     filter: (tags) => tags.filter(t => !['post', 'featured'].includes(t))
   }, {
     name: 'year',
-    filter: () => new Date().getFullYear()
+    filter: () => year
   }, {
 		name: 'commit',
 		filter: ()  => commit
@@ -155,9 +156,7 @@ module.exports = {
     }
   }, {
     name: 'today',
-    filter: () => {
-      return new Date().toISOString().substring(0, 10)
-    }
+    filter: () => today
   }, {
     name: 'isoday',
     filter: (date) => {
