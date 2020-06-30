@@ -1,4 +1,5 @@
 const CleanCSS = require("clean-css")
+const crypto = require("crypto")
 const [commitLong, date, ...commitDescription] = require('child_process')
   .execSync(`git log -1 --no-color`)
   .toString()
@@ -7,6 +8,15 @@ const [commitLong, date, ...commitDescription] = require('child_process')
   .map(l => l.trim())
   .filter(l => !l.startsWith('Author:'))
 const commit = commitLong.replace(/^commit /, '').substring(0, 7)
+
+const cache = new Map()
+function createHash(str) {
+  return crypto
+    .createHash("sha256")
+    .update(str)
+    .digest("hex")
+}
+
 
 module.exports = {
   ignoredFiles: ['.npmrc', 'secrets', 'secrets.example', 'scripts/*', 'cypress/*', 'cypress.json', 'buffer-automation', 'buttondown*'],
@@ -25,7 +35,13 @@ module.exports = {
 
   nunjucksFilters: [{
     name: 'cssmin',
-    filter: (code) => new CleanCSS({}).minify(code).styles
+    filter: (code) => {
+      const hash = createHash(code)
+      if (cache.has(hash)) return cache.get(hash)
+      const styles = new CleanCSS({}).minify(code).styles
+      cache.set(hash, styles)
+      return styles
+    }
   }, {
     name: 'words',
     filter: (content) => (content || '').split(' ').length
