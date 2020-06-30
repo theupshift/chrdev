@@ -93,3 +93,23 @@ a.twitter-share-button {
   font-size: 1.3em;
   text-align: center;
 }
+
+
+
+
+blockquote {
+  padding: 0.2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-left: 2em;
+  border: 0px solid #fe1;
+  border-left-width: 6px;
+  margin: 0;
+}
+
+
+.alert {
+  background-color: #eaeaea;
+  padding: 1em 1em;
+  text-align: center;
+}

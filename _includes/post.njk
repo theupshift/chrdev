@@ -2,33 +2,12 @@
 
 {% block content %}
 
-<aside class="no-mobile tac">
-  <div class="flex">
-    <div class="no-mobile tac" style="min-width: 200px">
-      <p>
-        {% include 'snippets/tweet-this.html' %}
-      </p>
-    </div>
-    <div class="no-mobile tac" style="min-width: 200px">
-      <a href="/about">
-        <img class="avatar-image tac" alt="me with sunglasses" style="max-width: 64px; border-radius: 50%;" lazy="/assets/images/cf4.64x64.png"/>
-      </a>
-      <p>
-        <a class="bg cta" href="https://twitter.com/christian_fei">@christian_fei</a>
-      </p>
-      <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
-        <i class="icon icon-envelop"></i>&nbsp;Subscribe!
-      </a>
-    </div>
-  </div>
-</aside>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article itemscope itemtype="http://schema.org/BlogPosting" class="mt3">
   <h1 itemprop="name headline" class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} style="background-image: url('{{ page.data.image }}')"{% endif %}><span>{{ title }}</span></h1>
 
   <header>
-    <div class="">
-      <div class="">
+    <div class="flex">
+      <div class="pad">
         <p class="no-mobile">
           <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}"><i class="icon icon-pencil"></i>&nbsp;Found a typo? Edit this page on GitHub</a>
         </p>
@@ -49,8 +28,7 @@
         <p class="only-mobile">
           {% include 'snippets/tweet-this.html' %}
         </p>
-      </div>
-      <div class="">
+
         <p>
           Get the latest on Programming, Clean code, TDD, Refactoring and more
           <br/>
@@ -59,21 +37,34 @@
           </a>
         </p>
       </div>
+      <div class="pad tac no-mobile">
+        <a href="/about">
+          <img class="avatar-image tac" alt="me with sunglasses" style="max-width: 64px; border-radius: 50%;" lazy="/assets/images/cf4.64x64.png"/>
+        </a>
+        <p>
+          <a class="bg cta" href="https://twitter.com/christian_fei">@christian_fei</a>
+        </p>
+        <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
+          <i class="icon icon-envelop"></i>&nbsp;Subscribe!
+        </a>
+      </div>
     </div>
     {% if page.data.thanks %}
-    <p>
-      Thanks to&nbsp;
-      {% for person in page.data.thanks %}
-        {% if loop.last %}and{% endif %}</a>
-        {% if person.link %}
-          <a href="{{person.link}}">{{person.name}}</a>
-        {% else %}
-          {{person.name}}
-        {% endif %}
-        {% if not loop.last and loop.index !== page.data.thanks.length - 1 %},{% endif %}
-      {% endfor %}
-      &nbsp;for the feedback on this post
-    </p>
+    <div>
+      <p>
+        Thanks to&nbsp;
+        {% for person in page.data.thanks %}
+          {% if loop.last %}and{% endif %}</a>
+          {% if person.link %}
+            <a href="{{person.link}}">{{person.name}}</a>
+          {% else %}
+            {{person.name}}
+          {% endif %}
+          {% if not loop.last and loop.index !== page.data.thanks.length - 1 %},{% endif %}
+        {% endfor %}
+        &nbsp;for the feedback on this post
+      </p>
+    </div>
     {% endif %}
   </header>
 
