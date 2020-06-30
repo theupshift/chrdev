@@ -1,5 +1,9 @@
 .cf { text-align: center; padding: 1em; }
 
+.nav-item {
+  min-width: 3em;
+}
+
 @media all and (max-width: 45em) {
   .no-mobile { display: none !important; }
 }
@@ -17,3 +21,4 @@ input {
 main img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
 main img { text-align: center; max-width: 100%; }
 .no-shadow { box-shadow: none; }
+
