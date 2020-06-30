@@ -6,12 +6,12 @@ context('Navigation', () => {
   })
 
   it('about', () => {
-    cy.get('body > header').contains('about').click()
+    cy.get('body > nav').contains('about').click()
 
     cy.location('pathname').should('include', 'about')
   })
   it('archive', () => {
-    cy.get('body > header').contains('archive').click()
+    cy.get('body > nav').contains('archive').click()
 
     cy.location('pathname').should('include', 'archive')
   })
