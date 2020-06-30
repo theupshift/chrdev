@@ -60,7 +60,6 @@ Learned or improved knowledge about:
 - HTML and CSS minification with `html-minifier` and `clean-css`
 - nunjucks template engine
 - markdown parsing with `remarkable`
-- fast logging with `pino`
 - testing with `ava`
 - recursively cleaning directories with `rimraf`
 - read and merge a custom user config and use in application (see custom template, functions and filters to use in `nunjucks`)
@@ -116,6 +115,12 @@ Jekyll needed Ruby, gems, bundles and god knows what else. There is also the pos
 11ty was the closest to my favourite tools for building my site, although it slowed down over time as I added new blog posts and files. The installation on the CI took also a bit longer than expected, with **32 dependencies** (*devblog uses 8 dependencies*). But that would be also feasible if you install globally and cache correctly.. (of course 11ty offer much much more.. maybe too much for me)
 
 That said, I still think 11ty it's still one of the most valid alternatives for building a static site  👍.
+
+---
+
+**It's pretty fast too!**
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why you should try devblog?<br><br>📖 <a href="https://t.co/EMGjduskCO">https://t.co/EMGjduskCO</a><br><br>📦 <a href="https://t.co/oYsLh5O7ci">https://t.co/oYsLh5O7ci</a> <a href="https://twitter.com/hashtag/blogging?src=hash&amp;ref_src=twsrc%5Etfw">#blogging</a> <a href="https://twitter.com/hashtag/bloggingtips?src=hash&amp;ref_src=twsrc%5Etfw">#bloggingtips</a> <a href="https://twitter.com/hashtag/bloggers?src=hash&amp;ref_src=twsrc%5Etfw">#bloggers</a> <a href="https://t.co/cDBRrDQ3J8">pic.twitter.com/cDBRrDQ3J8</a></p>&mdash; quarantine driven development (@christian_fei) <a href="https://twitter.com/christian_fei/status/1277899131655258119?ref_src=twsrc%5Etfw">June 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Caching
 
