@@ -31,7 +31,7 @@ a:hover:after, a:active:after, a:focus:after {
 }
 a:not(.featured-post):not(.nav-link):not(.no-underline):after {
   display: inline-block;
-  height: 3px;
+  height: 1px;
   content: "";
   position: absolute;
   width: 100%;
