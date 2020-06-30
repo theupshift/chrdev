@@ -9,7 +9,7 @@ const [commitLong, date, ...commitDescription] = require('child_process')
 const commit = commitLong.replace(/^commit /, '').substring(0, 7)
 
 module.exports = {
-  ignoredFiles: ['.npmrc', 'secrets', 'secrets.example', 'scripts/*', 'cypress/*', 'cypress.json', 'buffer-automation'],
+  ignoredFiles: ['.npmrc', 'secrets', 'secrets.example', 'scripts/*', 'cypress/*', 'cypress.json', 'buffer-automation', 'buttondown*'],
 
   collections: {
     books: require('./_data/books.json'),

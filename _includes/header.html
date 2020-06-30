@@ -1,41 +1,25 @@
-<header class="pure-menu pure-menu-horizontal">
-  <div class="contain">
-    <div class="l-box">
-      <a href="/" class="pure-menu-heading pure-menu-link nav-link">
-        {% include 'img/me-base64.html' %}
-      </a>
-      <ul class="pure-menu-list">
-        <li class="pure-menu-item">
-          <a class="tac pure-menu-link nav-link {% if page.url.includes('/about') %} active {% endif %}" href="/about/">
-            about
-          </a>
-        </li>
-        <li class="no-mobile pure-menu-item">
-          <a class="tac pure-menu-link nav-link {% if page.url.includes('/archive') %} active {% endif %}" href="/archive/">
-            archive
-          </a>
-        </li>
-        <li class="pure-menu-item">
-          <a class="tac pure-menu-link nav-link {% if page.url.includes('/subscribe') %} active {% endif %}" href="/subscribe/">
-            news
-          </a>
-        </li>
-        <li class="no-mobile pure-menu-item">
-          <a class="nav-link tac pure-menu-link" href="/contributions/">
-            <i class="icon icon-github"></i>
-          </a>
-        </li>
-        <li class="pure-menu-item">
-          <a class="nav-link tac pure-menu-link" target="_blank" href="https://twitter.com/christian_fei">
-            <i class="icon icon-twitter"></i>
-          </a>
-        </li>
-        <li class="pure-menu-item">
-          <a class="nav-link tac pure-menu-link" target="_blank" href="/rss.xml">
-            <i class="icon icon-rss"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
+<nav class="contain no-bs">
+  <a href="/" class="brand">
+    <img class="logo" src="/assets/images/cf4.64x64.png" alt="">
+  </a>
+  <div class="menu">
+    <a class="tac   {% if page.url.includes('/about') %} active {% endif %}" href="/about/">
+      about
+    </a>
+    <a class="tac   {% if page.url.includes('/archive') %} active {% endif %}" href="/archive/">
+      archive
+    </a>
+    <a class="tac   {% if page.url.includes('/subscribe') %} active {% endif %}" href="/subscribe/">
+      news
+    </a>
+    <a class=" tac " href="/contributions/">
+      <i class="icon icon-github"></i>
+    </a>
+    <a class=" tac " target="_blank" href="https://twitter.com/christian_fei">
+      <i class="icon icon-twitter"></i>
+    </a>
+    <a class=" tac " target="_blank" href="/rss.xml">
+      <i class="icon icon-rss"></i>
+    </a>
   </div>
-</header>
+</nav>

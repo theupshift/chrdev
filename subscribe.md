@@ -26,4 +26,8 @@ window.subscribers = {{ collections.subscribers | reverse | json | safe }}
 <div class="chart-container" style="height: 200px">
   <canvas id="chart" style="height: 200px"></canvas>
 </div>
+<br>
+<br>
+<br>
+<br>
 {% endblock %}

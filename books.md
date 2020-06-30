@@ -16,9 +16,9 @@ You can <a href="https://twitter.com/christian_fei" target="_blank">
 
 <h1 class="no-mt">Recommended books</h1>
 
-<div reversed class="pure-g">
+<div reversed class="flex">
   {% for book in collections.books %}
-    <a href="{{ book.url }}" class="post-link pure-u-1-4 pad-half book">
+    <a href="{{ book.url }}" class="book">
       {{ book.title }}
     </a>
   {% endfor %}

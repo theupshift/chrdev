@@ -17,10 +17,10 @@ title: Posts
   </p>
 </div>
 
-<div class="posts searchable pure-g">
+<div class="flex posts searchable">
 {% for post in collections.post | reverse %}
-  <div class="pure-u-1 pure-u-md-1-2">
-    <a href="{{ post.url }}" class="post-item" {% if post.data.image %}lazy="{{ post.data.image }}"{% endif %}>
+  <div class="flex-item">
+    <a href="{{ post.url }}" class=" featured-post" {% if post.data.image %}lazy="{{ post.data.image }}"{% endif %}>
       <div class="l-box">
         <time datetime="{{ post.data.date | isoday }}" class="post-date bg-white">{{ post.data.date | isoday }}</time>
         <span class="post-link bg-white">{{ post.data.title | capitalize }}</span>

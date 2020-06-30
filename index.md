@@ -4,8 +4,8 @@ title: Home
 ---
 
 {% block content %}
-<div class="pure-g">
-  <div class="pure-u-1 pure-u-md-2-3">
+<div class="flex">
+  <div class="">
     <h1 class="no-anchor"><b>Welcome to my blog!</b> 👋</h1>
     <p>My name is Christian, <b>cri</b> for short</p>
     <p>A <b>passionate web developer</b> from <b>Italy</b></p>
@@ -13,7 +13,7 @@ title: Home
     <p>Blogging quite frequently 👉 <a class="cta" href="/subscribe/">subscribe to my newsletter</a></p>
     <p>You can read some <a href="/posts">featured blog posts</a>, <a href="/books">recommended books</a> and skim through <a href="/archive">the archive</a></p>
   </div>
-  <div class="pure-u-1 pure-u-md-1-3">
+  <div class="">
     <div class="cf">
       <a href="/about" class="no-underline">
         <img class="avatar-image no-shadow" alt="me with sunglasses" src="/assets/images/cf4.png"/>

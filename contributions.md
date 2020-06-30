@@ -19,12 +19,12 @@ window.contributionsByYear = {{ collections.contributionsByYear | reverse | json
 You can **support me** through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
 
 
-<div class="pure-g">
-  <div class="pure-u-1 pure-u-md-1-2" style="width: 400px; height: 400px">
+<div class="flex">
+  <div class="" style="width: 400px; height: 400px">
     <canvas id="yearsChart"></canvas>
   </div>
 
-  <dl class="pure-u-1 pure-u-md-1-2" style="height: 250px; min-width: 20em; overflow-y: scroll; text-align: left; padding-left: 2em;">
+  <dl class="" style="height: 250px; min-width: 20em; overflow-y: scroll; text-align: left; padding-left: 2em;">
     {% for contribution in collections.contributionsByYear %}
       <dt><b>{{ contribution.year }}</b> - {{ contribution.total }} public commits</dt>
     {% endfor %}

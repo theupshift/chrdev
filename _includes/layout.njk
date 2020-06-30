@@ -62,26 +62,55 @@
     <link rel="apple-touch-icon" href="https://cri.dev/assets/images/cf4.64x64.png">
     <link rel="canonical" href="https://cri.dev/">
     <link rel="alternate" type="application/rss+xml" title="cri.dev" href="https://cri.dev/rss.xml">
+    <link rel="stylesheet" href="https://picnicss.com/style.min.css">
+    <style>
+      html, body, main {
+        height: auto !important;
+      }
 
+      .contain {
+        max-width: 60em;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 1em;
+        padding-left: 1em;
+      }
+      .dib {
+        display: inline-block;
+      }
+      .db {
+        display: block;
+      }
+
+      main > section {
+        margin: 0 auto;
+        padding: 80px 0 0;
+      }
+
+      .no-bs {
+        box-shadow: none !important;
+      }
+
+      main img { box-shadow: 0.1em 0.1em 0.7em 0px rgba(50, 50, 50, 0.3); }
+      main img { text-align: center; max-width: 100%; }
+      .no-shadow { box-shadow: none; }
+    </style>
 
     {% set style %}
-      {% include "css/pure.min.css" %}
       {% include "css/style.utils.css" %}
+      {% include "css/style.typography.css" %}
       {% if page.url != '/posts/2020-05-07-Minimal-dark-mode-with-CSS-and-JavaScript/' %}
         {% include "css/style.darkmode.css" %}
       {% endif %}
-      {% include "css/style.typography.css" %}
       {% include "css/style.icons.css" %}
-      {% include "css/style.layout.css" %}
       {% include "css/style.newsletter.css" %}
-      {% include "css/style.articles.css" %}
-      {% include "css/style.featured.css" %}
       {% include "css/style.books.css" %}
       {% include "css/style.search.css" %}
+      {% include "css/style.featured.css" %}
+      {% include "css/style.articles.css" %}
       {% include "css/prism.min.css" %}
     {% endset %}
     <style>{{ style | cssmin | safe }}</style>
-
 
     {% if page.data.css %}
       {% for pageCSS in page.data.css %}
@@ -95,12 +124,10 @@
   <body>
     {% include "header.html" %}
 
-    {% if page.data.tags and page.data.tags.includes('post') %}
-    <main class="post">
-    {% else %}
     <main>
-    {% endif %}
+      <section class="contain">
       {% block content %}{% endblock %}
+      </section>
     </main>
 
 

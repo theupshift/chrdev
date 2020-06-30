@@ -1,8 +1,8 @@
 /* SEARCH */
 input.searchable-input {
   display: block;
-  font-size: 0.9rem;
-  padding: 0.75em;
+  font-size: 1.1rem;
+  padding: 1.5em;
   width: 14em;
   max-width: 100%;
   margin-top: 0.5rem;
@@ -11,8 +11,6 @@ input.searchable-input {
   border: none;
   border-bottom: 1px solid #210;
   position: relative;
-  transition: all .3s ease;
-  /* background: #f1f0f0aa; */
   width: 100%;
 }
 input.searchable-input:focus { background: #f1f0f0aa; }
