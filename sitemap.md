@@ -8,6 +8,7 @@ minify: false
   <url>
     <loc>{{ post.url | withDomain }}</loc>
     <lastmod>{{ post.data.date | isodate }}</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
   {%- endfor %}
 </urlset>{% endblock %}
