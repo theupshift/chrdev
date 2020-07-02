@@ -7,7 +7,7 @@ minify: false
   {%- for post in collections.post | reverse %}
   <url>
     <loc>{{ post.url | withDomain }}</loc>
-    <lastmod>{{ post.data.date | isodate }}</lastmod>
+    <lastmod>{{ '' | today }}</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   {%- endfor %}
