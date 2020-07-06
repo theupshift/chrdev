@@ -7,7 +7,7 @@ tags:
   - mongodb
 ---
 
-Let's say you have these two documents in your collection `items`:
+Let's say you have these documents in your collection `items`:
 
 ```json
 > db.items.find()
