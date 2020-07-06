@@ -3,9 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ title }} - News from Chris</title>
-    {% set shareDescription %}
-      {{ content | excerpt }}
-    {% endset%}
+    {% set shareDescription %}{{ content | excerpt }}{% endset%}
     {% if page.url == '/' %}
       <meta name="description" content="A blog about agile, programming, clean code, testing, javascript">
     {% else %}
@@ -15,7 +13,9 @@
     <meta name="robots" content="index,follow,max-video-preview:-1,max-snippet:-1,max-image-preview:large,">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <link rel="canonical" href="https://cri.dev{{ page.url }}">
+
+    {% set canonicalUrl %}https://cri.dev{{ page.url }}{% endset %}
+    <link rel="canonical" href="{{ canonicalUrl }}">
     <link rel="preconnect" href="https://images.unsplash.com">
     <meta name="google-site-verification" content="3A7pdf37TD8rs9AsrwWn2gSIvJ8PEI6sJucLDdT1ouQ" />
     <meta name="google-site-verification" content="google-site-verification=5v6Dh4k1ieQc8SGfhKBLO2u-V-Wrk0P0CTNKQEdfBeg" />
@@ -35,36 +35,56 @@
     <meta name="twitter:site" content="@christian_fei">
     <meta name="twitter:domain" content="cri.dev">
     <meta name="twitter:creator" content="@christian_fei">
-    {% if image %}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="{{ image | withDomain }}">
-    {% else %}
-      <meta name="twitter:card" content="summary">
-      <meta name="twitter:image" content="https://cri.dev/assets/images/cf4.png">
-    {% endif %}
+    {% set shareImage %}{% if image %}{{ image | withDomain }}{% else %}https://cri.dev/assets/images/cf4.png{% endif %}{% endset %}
+    {% if image %}<meta name="twitter:card" content="summary_large_image" />{% else %}<meta name="twitter:card" content="summary">{% endif %}
+    <meta name="twitter:image" content="{{ shareImage }}">
 
-    {% set shareTitle %}
-      {{ title or 'A blog about Programming, Agile, Clean Code, TDD, Refactoring' }}
-    {% endset%}
+    {% set shareTitle %}{{ title or 'A blog about Programming, Agile, Clean Code, TDD, Refactoring' }}{% endset%}
     <meta name="twitter:description" content="{{ shareDescription }}">
     <meta name="twitter:title" content="{{ shareTitle }}">
 
     <meta property="og:locale" content="en_US" />
     <meta property="og:title" content="{{ shareTitle}}" />
     {% if page.url == '/' %}
-      <meta property="og:type" content="website" />
+    <meta property="og:type" content="website" />
     {% else %}
-      <meta property="og:type" content="article" />
+    <meta property="og:type" content="article" />
     {% endif %}
-    <meta property="og:url" content="https://cri.dev/" />
+    <meta property="og:url" content="{{ canonicalUrl }}" />
     <meta property="og:description" content="{{ shareDescription }}" />
     <meta property="og:site_name" content="cri.dev" />
-  <meta property="article:modified_time" content="{{ page.data.date }}" />
+    <meta property="article:modified_time" content="{{ page.data.date }}" />
 
 
     <link rel="shortcut icon" type="image/png" href="https://cri.dev/assets/images/cf4.64x64.png"/>
     <link rel="apple-touch-icon" href="https://cri.dev/assets/images/cf4.64x64.png">
     <link rel="alternate" type="application/rss+xml" title="cri.dev" href="https://cri.dev/rss.xml">
+
+    {% if page.url !== '/' and page.url !== '/about/' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": "{{ shareImage }}",
+      "author": {
+        "@type": "Person",
+        "name": "Christian Fei"
+      },
+      "headline": "{{ shareTitle }}",
+      "description": "{{ shareDescription }}",
+      "datePublished": "2020-07-05",
+      "publisher": {
+        "@type": "Organization",
+        "name": "cri.dev",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://cri.dev/assets/images/cf4.png"
+        }
+      }
+    }
+    </script>
+    {% endif %}
+
     <style>
       html, body, main {
         height: auto !important;
