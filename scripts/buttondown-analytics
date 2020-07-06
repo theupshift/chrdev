@@ -26,7 +26,9 @@ async function main () {
   await page.goto('https://buttondown.email/login')
   console.log('navigated to buttondown.email/login')
 
+  console.log('#username', process.env.npm_config_buttondown_username)
   await page.type('#username', process.env.npm_config_buttondown_username)
+  console.log('#password', process.env.npm_config_buttondown_password)
   await page.type('#password', process.env.npm_config_buttondown_password)
 
   console.log('submitting login form')
