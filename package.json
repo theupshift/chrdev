@@ -7,6 +7,7 @@
   "devDependencies": {
     "clean-css": "^4.2.3",
     "compromise": "^13.2.0",
+    "devblog": "^2.20.1",
     "got": "^11.4.0",
     "http-server": "^0.12.3",
     "p-limit": "^3.0.1",
