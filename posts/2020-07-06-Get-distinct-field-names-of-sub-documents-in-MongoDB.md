@@ -66,7 +66,7 @@ Now you can just map each document and extract the `_id` field to have the disti
 
 ## $unwind the subDocument array
 
-We want to have objects to get the fields, so you `unwind` (kind of "unzip") the array in distinct arrays.
+We want to have objects to get the fields, so you `unwind` (kind of "unzip") the array in distinct objects.
 
 ```js
 > db.items.aggregate({$project: { subDocument: { $objectToArray: "$subDocument" } }}, {$unwind: '$subDocument'})
