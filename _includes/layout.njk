@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>{{ title }} - News from Chris</title>
+    {% set shareDescription %}
+      {{ content | excerpt }}
+    {% endset%}
     {% if page.url == '/' %}
       <meta name="description" content="A blog about agile, programming, clean code, testing, javascript">
     {% else %}
@@ -42,9 +45,6 @@
 
     {% set shareTitle %}
       {{ title or 'A blog about Programming, Agile, Clean Code, TDD, Refactoring' }}
-    {% endset%}
-    {% set shareDescription %}
-      {{ content | excerpt }}
     {% endset%}
     <meta name="twitter:description" content="{{ shareDescription }}">
     <meta name="twitter:title" content="{{ shareTitle }}">
