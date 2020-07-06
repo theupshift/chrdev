@@ -8,6 +8,7 @@ nav {
   overflow: hidden;
   padding-top: 1em;
   padding-bottom: 1em;
+  background-color: #f1f1f1;
 }
 nav .logo {
   height: 1.5em;
