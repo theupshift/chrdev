@@ -3,6 +3,21 @@ nav a {
   display: inline-block;
 }
 
+nav {
+  height: auto;
+  overflow: hidden;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+nav .logo {
+  height: 1.5em;
+  vertical-align: middle;
+}
+.nav-menu {
+  float: right;
+  position: relative;
+}
+
 .cf { text-align: center; padding: 1em; }
 
 .nav-item {
