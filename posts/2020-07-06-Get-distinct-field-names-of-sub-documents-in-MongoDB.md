@@ -5,6 +5,8 @@ layout: post.njk
 tags:
   - post
   - mongodb
+  - featured
+image: /assets/images/posts/mongodb.jpg
 ---
 
 Let's say you have these documents in your collection `items`:
@@ -19,7 +21,7 @@ Let's say you have these documents in your collection `items`:
 
 In other words the fields of the sub document `subDocument` are not the same. They could be user-defined, or simply because of the nature of the domain you're working in.
 
---- 
+---
 
 So, how would you get the distinct field name of those sub-documents?
 
@@ -28,7 +30,7 @@ As a results I would like to have an array containing the different field names.
 ```js
 > db.items.aggregate({
   $project: {
-    subDocument: { 
+    subDocument: {
       $objectToArray: "$subDocument"
     }
   }

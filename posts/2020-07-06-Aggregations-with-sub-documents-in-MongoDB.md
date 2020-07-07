@@ -5,6 +5,8 @@ layout: post.njk
 tags:
   - post
   - mongodb
+  - featured
+image: /assets/images/posts/mongodb.jpg
 ---
 
 I would like to extract statistics about sub-documents in a collection.
