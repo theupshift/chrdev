@@ -12,7 +12,7 @@ image: /assets/images/posts/mongodb.jpg
 Let's say you have these documents in your collection `items`:
 
 ```json
-> db.items.find()
+db.items.find()
 
 { "_id" : ObjectId("5f0345275663006139066197"), "subDocument" : { "field1" : 42 } }
 { "_id" : ObjectId("5f03452c5663006139066198"), "subDocument" : { "field3" : 6 } }
@@ -28,7 +28,7 @@ So, how would you get the distinct field name of those sub-documents?
 As a results I would like to have an array containing the different field names.
 
 ```js
-> db.items.aggregate({
+db.items.aggregate({
   $project: {
     subDocument: {
       $objectToArray: "$subDocument"
@@ -60,7 +60,7 @@ Now you can just map each document and extract the `_id` field to have the disti
 [$objectToArray](https://docs.mongodb.com/manual/reference/operator/aggregation/objectToArray/) comes in handy in this case to destructure the object into `[key, value]` pairs in the following format:
 
 ```js
-> db.items.aggregate({$project: { subDocument: { $objectToArray: "$subDocument" } }})
+db.items.aggregate({$project: { subDocument: { $objectToArray: "$subDocument" } }})
 { "_id" : ObjectId("5f0345275663006139066197"), "subDocument" : [ { "k" : "field1", "v" : 42 } ] }
 { "_id" : ObjectId("5f03452c5663006139066198"), "subDocument" : [ { "k" : "field3", "v" : 6 } ] }
 { "_id" : ObjectId("5f0346c85663006139066199"), "subDocument" : [ { "k" : "field1", "v" : 6 } ] }
@@ -71,7 +71,7 @@ Now you can just map each document and extract the `_id` field to have the disti
 We want to have objects to get the fields, so you `unwind` (kind of "unzip") the array in distinct objects.
 
 ```js
-> db.items.aggregate({$project: { subDocument: { $objectToArray: "$subDocument" } }}, {$unwind: '$subDocument'})
+db.items.aggregate({$project: { subDocument: { $objectToArray: "$subDocument" } }}, {$unwind: '$subDocument'})
 { "_id" : ObjectId("5f0345275663006139066197"), "subDocument" : { "k" : "field1", "v" : 42 } }
 { "_id" : ObjectId("5f03452c5663006139066198"), "subDocument" : { "k" : "field3", "v" : 6 } }
 { "_id" : ObjectId("5f0346c85663006139066199"), "subDocument" : { "k" : "field1", "v" : 6 } }
@@ -82,7 +82,7 @@ We want to have objects to get the fields, so you `unwind` (kind of "unzip") the
 We are interested in each `k` (key) field of the subDocuments (that now are objects, instead of arrays after the $unwind stage):
 
 ```js
-> db.items.aggregate({$project: { subDocument: { $objectToArray: "$subDocument" } }}, {$unwind: '$subDocument'}, {$project: {_id: '$subDocument.k'}})
+db.items.aggregate({$project: { subDocument: { $objectToArray: "$subDocument" } }}, {$unwind: '$subDocument'}, {$project: {_id: '$subDocument.k'}})
 { "_id" : "field1" }
 { "_id" : "field3" }
 { "_id" : "field1" }
@@ -95,7 +95,7 @@ We are interested in each `k` (key) field of the subDocuments (that now are obje
 In this case, we want to "group" by the name of the fields, so that we have unique values:
 
 ```js
-> db.items.aggregate({$project: { subDocument: { $objectToArray: "$subDocument" } }}, {$unwind: '$subDocument'}, {$project: {_id: '$subDocument.k'}}, {$group: {_id: '$_id'}})
+db.items.aggregate({$project: { subDocument: { $objectToArray: "$subDocument" } }}, {$unwind: '$subDocument'}, {$project: {_id: '$subDocument.k'}}, {$group: {_id: '$_id'}})
 { "_id" : "field1" }
 { "_id" : "field3" }
 ```

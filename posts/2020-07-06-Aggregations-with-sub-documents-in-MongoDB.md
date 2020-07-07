@@ -16,7 +16,7 @@ E.g. in the form of `count`, `sum` and `average` for each field
 Let's say you have the following documents in the `items` collection:
 
 ```js
-> db.items.find()
+db.items.find()
 { "_id" : ObjectId("5f034ce90b15686f5d78baed"), "subDocument" : { "field1" : 42, "field3" : 10 } }
 { "_id" : ObjectId("5f034ce90b15686f5d78baee"), "subDocument" : { "field2" : 14, "field3" : 6 } }
 { "_id" : ObjectId("5f034ce90b15686f5d78baef"), "subDocument" : { "field1" : 6, "field4" : 11 } }
@@ -32,34 +32,33 @@ Event without actually "knowing" which fields are contained in `subDocument`?
 My approach is the following:
 
 ```js
-> db.items.aggregate({
-    $project: { subDocument: { $objectToArray: "$subDocument" } }
-  }, {
-    $unwind: '$subDocument'
-  }, {
-    $addFields: { 'type': {$type: '$subDocument.v'} }
-  }, {
-    $match: { type: { $in: ['int', 'double', 'long', 'decimal'] } }
-  }, {
-    $group: {
-      _id: "$subDocument.k",
-      count: {
-        $sum: { $cond: [{ $ifNull: ['$subDocument.k', false] }, 1, 0] }
-      },
-      sum: {
-        $sum: "$subDocument.v"
-      },
-      average: {
-        $avg: "$subDocument.v"
-      }
-    }
-  },
-  {
-    $sort: {
-      _id: 1
+db.items.aggregate({
+  $project: { subDocument: { $objectToArray: "$subDocument" } }
+}, {
+  $unwind: '$subDocument'
+}, {
+  $addFields: { 'type': {$type: '$subDocument.v'} }
+}, {
+  $match: { type: { $in: ['int', 'double', 'long', 'decimal'] } }
+}, {
+  $group: {
+    _id: "$subDocument.k",
+    count: {
+      $sum: { $cond: [{ $ifNull: ['$subDocument.k', false] }, 1, 0] }
+    },
+    sum: {
+      $sum: "$subDocument.v"
+    },
+    average: {
+      $avg: "$subDocument.v"
     }
   }
-)
+},
+{
+  $sort: {
+    _id: 1
+  }
+})
 ```
 
 And the results looks like this:
