@@ -1,13 +1,13 @@
 window.makeSearchable = makeSearchable
 window.lazyLoad = lazyLoad
-window.makeExternalLinksTargetBlank = makeExternalLinksTargetBlank
+window.processExternalLinks = processExternalLinks
 
 main()
 
 function main () {
   [...document.querySelectorAll('.searchable')].forEach(makeSearchable)
 
-  try { makeExternalLinksTargetBlank() } catch (err) { console.error(err.message, err) }
+  try { processExternalLinks() } catch (err) { console.error(err.message, err) }
 
   try { lazyLoad('[lazy]') } catch (err) { console.error(err.message, err) }
 
@@ -123,11 +123,12 @@ function makeAnchorTitles () {
     })
 }
 
-function makeExternalLinksTargetBlank () {
+function processExternalLinks () {
   const externalLinks = [...document.querySelectorAll(`body a:not([href~='${window.location.hostname}']):not([href^='/'])`)]
   externalLinks.forEach(el => {
     if (el.getAttribute('href').startsWith('#')) return
     el.setAttribute('target', '_blank')
+    !el.getAttribute('rel') && el.setAttribute('rel', 'nofollow external')
   })
 }
 function addDarkmodeQueryToInternalLinks () {
