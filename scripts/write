@@ -9,7 +9,7 @@ for arg in ${args[@]}; do
   post_file_name_leading_dash="$post_file_name_leading_dash-$arg"
 done
 
-post_file_name_leading_dash="$(echo $post_file_name_leading_dash | sed 's/\://g' | sed 's/\?//g' | sed 's/\!//g' | sed 's/\.//g' | sed 's/\"//g' | sed "s/\'//g")"
+post_file_name_leading_dash="$(echo $post_file_name_leading_dash | sed 's/\://g' | sed 's/\?//g' | sed 's/\!//g' | sed 's/\.//g' | sed 's/\"//g' | sed "s/\'//g" | sed "s/\“//g" | sed "s/\”//g")"
 post_file_name="$(date +%Y-%m-%d)$post_file_name_leading_dash.md"
 post_full_path="posts/$post_file_name"
 
