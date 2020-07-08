@@ -70,5 +70,28 @@ Do customer interviews. Ask people what issues they're facing on a dayly basis.
 
 Additionally, look how the potential customer's are behaving (e.g. social media, blogs) and what bring users to a certain purchase.
 
-# 3. Research
+# 4. Research
 
+What do your potential customers really want?
+
+Only if you bring them valuable and actual problem-solving solutions, you could have *a chance* of getting a new potential customer on board.
+
+Find pain-points, patterns, common problems faced by potential customers.
+
+Hang out on Twitter, Reddit, Facebook with people from a certain niche. Use #hashtags, /r/subreditts and join a few interesting groups to discuss and observe patterns and problems users are facing.
+
+Write down a hypthesis of the patterns you recognized and a theory about what the customer wants. One sentence.
+
+Look at it. Does it make sense? Is it actually the biggest hurdle users are facing?
+
+Now create a landing page, with focus on the pain-point. Do people sign up and click on the call-to-action button?
+
+If you can provide a free guide to something. If people sign up for a free resource, maybe they're interested at your solution ot their problem after all.
+
+Now. Ask people if they would buy (the product you're advertising on a landing page, a working prototype, etc).
+
+> Would you pay for this if it existed?
+
+Now build. Notice that until now you barely touched code?
+
+5. Target the struggle. Paint the dream
