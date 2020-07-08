@@ -56,4 +56,19 @@ Try to answer these questions:
 
 > don't start a recipe book if you hate cooking.
 
-# 3. Understanding Jobs to be Done
+# 3. Understanding Jobs to be done
+
+JTBD (acronym for "Jobs to be done")
+
+Theory for getting a grasp what brings customer to buy your product.
+
+It tries to focus on THE CUSTOMER's needs, pain-points in their process and daily activities.
+
+To be able to understand your customer's needs, you need to understand their daily routine, repetetive and time-consuming tasks, and if they're motivated to change their process.
+
+Do customer interviews. Ask people what issues they're facing on a dayly basis.
+
+Additionally, look how the potential customer's are behaving (e.g. social media, blogs) and what bring users to a certain purchase.
+
+# 3. Research
+
