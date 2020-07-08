@@ -17,6 +17,7 @@ a {
   display: inline-block;
   text-decoration: none;
   position: relative;
+  transition: all .3s ease-in-out;
 }
 a:visited { color: inherit; }
 a:hover, a:active, a:focus {
@@ -31,14 +32,17 @@ a:hover:after, a:active:after, a:focus:after {
 }
 a:not(.featured-post):not(.nav-link):not(.no-underline):after {
   display: inline-block;
-  height: 1px;
+  height: 2px;
   content: "";
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
-  border-radius: 10rem;
-  background-color: #9e9e9e;
+  background-color: #fe1;
+}
+h1 a:after, h2 a:after, h3 a:after, h4 a:after, h5 a:after, h6 a:after {
+  background-color: none !important;
+  display: none !important;
 }
 pre { overflow-x: scroll; font-size: 0.75em; }
 pre, code { background: #ffee11; background: #ffee1199; }
@@ -109,7 +113,7 @@ blockquote {
 
 
 .alert {
-  background-color: #eaeaea;
+  background-color: #f6f6f6;
   padding: 1em 1em;
   text-align: center;
 }
