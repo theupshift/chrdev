@@ -94,4 +94,57 @@ Now. Ask people if they would buy (the product you're advertising on a landing p
 
 Now build. Notice that until now you barely touched code?
 
-5. Target the struggle. Paint the dream
+# 5. Target the struggle. Paint the dream
+
+If you find something people don't like and want it to be easier, you've found a struggle people have. That could be a good start.
+
+Additionally, choose a market in which you something about. If you're a complete noob in that field, you are going to have a hard time
+
+To be a product person, you need to humble and follow the servant's mindset.
+
+> "What do customers need? How can I help them?"
+
+Ask yourself: how painful is this struggle a user is facing?
+
+You can categorize it with:
+
+- extreme pain
+- moderate pain
+- low pain
+
+Based on the answer, you'll understand how likely a user is willing to pay, and how much.
+
+For extreme pain, pull marketing should be alright (SEO + SEM)
+
+Moderate pain: Push & pull marketing
+
+Low pain: lots of pull marketing
+
+Inverse relation between intensity of pain and number of exposures to a user!
+
+Extreme pain, low exposures. Low pain, high exposures.
+
+# The Lean marketing stack
+
+Get data, don't miss out on opportunities to get people signup to a mailing list.
+
+Create a simple landing page, helps to concentrate of what *your users want*.
+
+> Marketing is about testing, analyzing the data and then iterate
+
+Start with 
+
+- Google Webmaster tools
+- Any analytics service (Segment, Google Analytics, Plausible Analytics)
+
+Start with 
+
+- Google Webmaster tools
+- Any analytics service (Segment, Google Analytics, Plausible Analytics)
+- Optionally set up an A/B testing tool
+- Set up a mailing list
+
+> My email list is my most important asset - Nathan Barry
+
+
+# Before you launch
