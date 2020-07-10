@@ -1,10 +1,7 @@
-
-/* @import url('/fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap'); */
-
 html, body { font-size: 20px; font-weight: 300; line-height: 1.45; padding: 0; margin: 0;}
 @media all and (max-width: 45em) { html, body { font-size: 17px; } }
 html, body {
-  font-family: 'Quicksand', 'Helvetica', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #333;
   font-weight: 400;
@@ -51,15 +48,6 @@ code { word-break: break-all; }
 pre ::selection { color: white; background: #000; }
 
 
-
-/* https://type-scale.com/ */
-h1, h2,h3,h4,h5 { font-weight: 700; margin-top: 1em; }
-h1 {font-size: 1.802em;}
-h2 {font-size: 1.602em;}
-h3 {font-size: 1.424em;}
-h4 {font-size: 1.266em;}
-h5 {font-size: 1.125em;}
-small, .text_small {font-size: 0.889em;}
 a { font-weight: bold }
 blockquote { padding: 0.5em 0.125em; font-size: 1.1em; font-style: italic; }
 blockquote p { margin: 0; }
