@@ -9,9 +9,8 @@ title: Home
     <h1 class="no-anchor"><b>Hi!</b> 👋</h1>
     <p>My name is Christian, <b>cri</b> for short</p>
     <p>A <b>passionate web developer</b> from <b>Italy</b></p>
-    <p>Into Agile Software development, clean code connoisseur and testing aficionado<p>
     <p>Blogging quite frequently 👉 <a class="cta" href="/subscribe/">subscribe to my newsletter</a></p>
-    <p>You can read some <a href="/posts">featured blog posts</a>, <a href="/books">recommended books</a> and skim through <a href="/archive">the archive</a></p>
+    <p>Read my <a href="/posts">featured blog posts</a>, <a href="/books">recommended books</a> and skim through <a href="/archive">the archive</a></p>
   </div>
   <div class="">
     <div class="cf">
