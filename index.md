@@ -6,7 +6,7 @@ title: Home
 {% block content %}
 <div class="flex">
   <div class="">
-    <h1 class="no-anchor"><b>Welcome to my blog!</b> 👋</h1>
+    <h1 class="no-anchor"><b>Hi!</b> 👋</h1>
     <p>My name is Christian, <b>cri</b> for short</p>
     <p>A <b>passionate web developer</b> from <b>Italy</b></p>
     <p>Into Agile Software development, clean code connoisseur and testing aficionado<p>
