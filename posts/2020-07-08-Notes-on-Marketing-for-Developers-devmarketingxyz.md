@@ -199,3 +199,16 @@ Effective landing page
 
 focus on the words.
 
+# How to write blog posts that get noticed
+
+Similarly to launching a product, you need to do research, find pain points your audience has and wants to know more about. Then make the content reach people through marketing.
+
+Ideally
+
+- one pain point per blog post
+- follow trends?
+- make people feel confortable, make it relatable, make them laugh
+- teach something new
+- unique content, shows trust
+- engage with people
+
