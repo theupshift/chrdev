@@ -44,7 +44,7 @@
 
 .flex>* {
   box-sizing: border-box;
-  flex: 1 1 auto;
+  flex: 1;
   padding-left: .6em;
   padding-bottom: .6em
 }
