@@ -3,7 +3,11 @@ title: "Notes on 'Marketing for Developers' - devmarketing.xyz"
 date: 2020-07-08
 layout: post.njk
 tags:
-  - draft
+  - post
+  - featured
+  - marketing
+  - landing
+image: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 Purchased a convenient bundle *a few years ago*. Time passes, and nearly forgot about the book and course.
