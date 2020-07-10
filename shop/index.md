@@ -7,10 +7,20 @@ title: Purchase courses & products
 <div class="card">
   <h1 class="title1">The Shop</h1>
   <br>
-  <div>
-    <p>
-      <a href="/shop/elixir-for-nodejs-people/">Elixir for Node.js people</a>
-    </p>
+  <p>
+  Look through products I am building
+  </p>
+  <div class="flex">
+    <div>
+      <div class="alert">
+        <a href="https://productlistings.app">ProductListings.app</a>
+      </div>
+    </div>
+    <div>
+      <div class="alert">
+        <a href="/shop/elixir-for-nodejs-people/">Elixir for Node.js people</a>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}
