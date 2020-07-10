@@ -148,3 +148,50 @@ Start with
 
 
 # Before you launch
+
+Many types of marketing channels:
+
+- word of mouth
+- ads
+- partnerships
+- events
+- sales
+- seo
+- content marketing
+- email marketing
+
+What seems to work really well are content and email marketing:
+
+- blogging, videos, landing page
+- interest-based mailing-list, weekly newsletters
+
+> Across all markets, email consistently outperforms other channels
+
+## Landing page
+
+- primary goal: mailing list
+- then, get people to buy
+
+## Landing page
+
+- primary goal: mailing list
+- then, get people to buy
+
+Effective landing page
+
+- headline, what advantages does this product bring to the customer
+  - what is their main struggle, how do we solve it
+  - focus on the customer struggle, using "you"
+  - use verbs
+- body
+  - visuals near top, engagement with nice image
+  - what are the benefits?
+  - social proof
+  - describe your features
+  - call to action
+- footer
+  - Who made this site
+  - contact
+
+focus on the words.
+
