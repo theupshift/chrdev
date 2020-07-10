@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "npx cypress run",
-    "build": "devblog",
+    "build": "rm -rf _site; devblog",
     "compress": "ucompress --source _site/assets/ --dest _site/assets",
     "purge": "./scripts/purge",
     "deploy": "./scripts/deploy",
