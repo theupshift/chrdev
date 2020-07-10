@@ -11,9 +11,7 @@
 .pad-half { padding: 0.5em; }
 .pad-v { padding-top: 2em; padding-bottom: 2em; }
 
-.flex { display: flex; flex-direction: row; }
-.flex-wrap { flex-wrap: wrap; }
-.flex-item { flex: 1; }
+
 
 .tac { text-align: center; }
 .block-tac { margin: 0 auto; display: block; }
@@ -26,4 +24,84 @@
   background-color: #fe1;
   padding: 0.1em 0.4em;
   display: inline-block;
+}
+
+
+
+
+.flex { display: flex; flex-direction: row; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-item { flex: 1; }
+
+.flex {
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -.6em;
+  width: calc(100% + .6em);
+  flex-wrap: wrap;
+  transition: all .3s ease
+}
+
+.flex>* {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  padding-left: .6em;
+  padding-bottom: .6em
+}
+
+.flex[class*="one"]>*, .flex[class*="two"]>*, .flex[class*="three"]>*, .flex[class*="four"]>*, .flex[class*="five"]>*, .flex[class*="six"]>*, .flex[class*="seven"]>*, .flex[class*="eight"]>*, .flex[class*="nine"]>*, .flex[class*="ten"]>*, .flex[class*="eleven"]>*, .flex[class*="twelve"]>* {
+  flex-grow: 0
+}
+
+.flex.grow>* {
+  flex-grow: 1
+}
+
+.center {
+  justify-content: center
+}
+@media all and (min-width: 1024px) {
+  .full {
+    width: 100%
+  }
+
+  .half {
+    width: 50%
+  }
+
+  .third {
+    width: 33.33333%
+  }
+
+  .two-third {
+    width: 66.66666%
+  }
+
+  .fourth {
+    width: 25%
+  }
+
+  .three-fourth {
+    width: 75%
+  }
+
+  .fifth {
+    width: 20%
+  }
+
+  .two-fifth {
+    width: 40%
+  }
+
+  .three-fifth {
+    width: 60%
+  }
+
+  .four-fifth {
+    width: 80%
+  }
+
+  .sixth {
+    width: 16.66666%
+  }
 }
