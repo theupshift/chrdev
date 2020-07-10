@@ -1,8 +1,21 @@
 window.makeSearchable = makeSearchable
 window.lazyLoad = lazyLoad
 window.processExternalLinks = processExternalLinks
+window.tracked = {}
 
 main()
+
+function trackEvent (name, once = true) {
+  if (window.plausible) {
+    if (once && !window.tracked[name]) {
+      window.tracked[name] = true
+      window.plausible(name)
+    }
+    if (!once) {
+      window.plausible(name)
+    }
+  }
+}
 
 function main () {
   [...document.querySelectorAll('.searchable')].forEach(makeSearchable)
@@ -14,6 +27,7 @@ function main () {
   try { makeAnchorTitles() } catch (err) { console.error(err.message, err) }
 
   if ((window.location.search || '').includes('dark')) {
+    trackEvent('used darkmode')
     document.body.classList.add('dark-mode')
     addDarkmodeQueryToInternalLinks()
   }
@@ -44,6 +58,7 @@ function makeSearchable ($searchable) {
         $postLi.style.display = 'block'
       }
     })
+    trackEvent('used search')
   }
 }
 
