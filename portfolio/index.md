@@ -67,6 +67,13 @@ title: Portfolio
         </p>
       </div>
     </div>
+    <div class="half" style="min-width: 25em;">
+      <div class="alert">
+        <h1 class="title">
+          <a href="https://github.com/christian-fei/">More on GitHub 📦</a>
+        </h1>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}
