@@ -20,6 +20,12 @@ function trackEvent (name, once = true) {
 function main () {
   ;[...document.querySelectorAll('.searchable')].forEach(makeSearchable)
   ;[...document.querySelectorAll('[class*="track-"]')].forEach(trackAction)
+  Object.keys(window.localStorage).forEach(key => {
+    if (/^track-/.test(key)) {
+      window.plausible && window.plausible('clicked ' + key.replace('track-', ''))
+      window.localStorage.removeItem(key)
+    }
+  })
 
   try { processExternalLinks() } catch (err) { console.error(err.message, err) }
 
@@ -38,10 +44,9 @@ function trackAction ($el) {
   if ($el.nodeName === 'A') {
     $el.addEventListener('click', function (e) {
       const trackClass = e.target.getAttribute('class').split(' ').find(c => /^track-.*/.test(c))
-      console.log('trackClass', trackClass)
       if (trackClass) {
         const name = trackClass.replace('track-', '')
-        window.plausible && window.plausible('clicked ' + name)
+        window.localStorage.setItem('track-' + name, 1)
       }
     })
   }
