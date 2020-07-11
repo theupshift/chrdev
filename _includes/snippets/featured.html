@@ -1,12 +1,12 @@
 <div class="mt5">
 <div class="flex ovh-s lazy-container">
   {% for post in collections.featured | reverse | limit20 %}
-  <a href="{{ post.url }}" class="flex-item tdn featured-post" lazy="{{ post.data.image }}">
+  <a href="{{ post.url }}" class="flex-item tdn featured-post track-featured-post-link" lazy="{{ post.data.image }}">
     <b class="post-title">{{ post.data.title }}</b>
     <span class="post-date">{{ post.data.date | isoday }}</span>
   </a>
   {% if loop.index === 5 or loop.index === 15 %}
-  <a href="/archive/" class="flex-item tdn featured-post">
+  <a href="/archive/" class="flex-item tdn featured-post track-featured-post-link">
     <b class="post-title">visit the /archive to see all {{collections.post.length}} posts</b>
   </a>
   {% endif %}
