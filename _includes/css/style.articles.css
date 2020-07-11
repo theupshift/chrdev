@@ -29,6 +29,11 @@
   font-size: 0.8em;
 }
 
+article img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
 
 
 article .title span {
