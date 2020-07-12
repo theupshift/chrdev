@@ -31,6 +31,7 @@ function main() {
   const sideContent = document.querySelector('#side-content')
   if (articleHeader) {
     document.addEventListener('scroll', () => {
+      console.log('scroll, article header top', articleHeader.getBoundingClientRect().top)
       if (articleHeader.getBoundingClientRect().top < 0) {
         sideContent.classList.add('show')
       } else {
