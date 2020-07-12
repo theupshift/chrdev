@@ -79,3 +79,8 @@ article .title {
   background-size: cover;
   background-position: center;
 }
+
+.main-content {
+  max-width: 35em;
+  margin: 0 auto;
+}

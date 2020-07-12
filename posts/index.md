@@ -36,7 +36,7 @@ title: Posts
         {{ post.htmlContent | words }} words - {{ post.htmlContent | readingTime }} 🕜
       </p>
     </header>
-    <div>{{ post.htmlContent | safe }}</div>
+    <div class="main-content">{{ post.htmlContent | safe }}</div>
   </article>
   {% include 'subscribe-to-newsletter.html' %}
 {% endfor %}
