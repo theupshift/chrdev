@@ -23,6 +23,7 @@ title: Home
     </div>
   </div>
 </div>
+<!--
 <div>
   <p>
     <b>Support me</b> through my <a href="https://github.com/sponsors/christian-fei" class="track-home-github-sponsors">GitHub Sponsors page ✌️</a>
@@ -30,6 +31,9 @@ title: Home
   <p>
     See a <b>data visualization</b> of my <a href="/contributions" class="track-home-github-contributions">GitHub contributions 📈</a> over the years
   </p>
+</div>
+-->
+<div>
   {% include 'subscribe-to-newsletter.html' %}
 </div>
 {% endblock %}
