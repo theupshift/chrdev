@@ -26,6 +26,19 @@
   display: inline-block;
 }
 
+.dib {
+  display: inline-block;
+}
+.db {
+  display: block;
+}
+
+.no-bs {
+  box-shadow: none !important;
+}
+
+.no-shadow { box-shadow: none; }
+
 
 
 
@@ -105,3 +118,7 @@
     width: 16.66666%
   }
 }
+
+
+
+
