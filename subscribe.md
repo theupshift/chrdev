@@ -7,7 +7,20 @@ js:
 ---
 
 {% block content %}
+
 {% include 'subscribe-to-newsletter.html' %}
+
+<script type="text/javascript">
+window.subscribers = {{ collections.subscribers | reverse | json | safe }}
+</script>
+
+<h1 class="no-anchor">Join {{collections.subscribers.length}} subscribers!</h1>
+
+<div class="chart-container" style="height: 200px">
+  <canvas id="chart" style="height: 200px"></canvas>
+</div>
+
+
 <div reversed class="">
   <div class="">
     <img class="no-shadow" src="/assets/images/speech-bubble-unsub.png">
@@ -17,15 +30,6 @@ js:
   </div>
 </div>
 
-<script type="text/javascript">
-window.subscribers = {{ collections.subscribers | reverse | json | safe }}
-</script>
-
-<h1>Join {{collections.subscribers.length}} subscribers!</h1>
-
-<div class="chart-container" style="height: 200px">
-  <canvas id="chart" style="height: 200px"></canvas>
-</div>
 <br>
 <br>
 <br>
