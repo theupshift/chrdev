@@ -10,10 +10,10 @@ context('Navigation', () => {
 
     cy.location('pathname').should('include', 'about')
   })
-  it('archive', () => {
-    cy.get('body > nav').contains('archive').click()
+  it('posts', () => {
+    cy.get('body > nav').contains('posts').click()
 
-    cy.location('pathname').should('include', 'archive')
+    cy.location('pathname').should('include', 'posts')
   })
   it('pocket', () => {
     cy.visit('http://127.0.0.1:8080/pocket')
