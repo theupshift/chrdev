@@ -6,7 +6,7 @@ title: Home
 {% block content %}
 <div class="flex">
   <div class="">
-    <h1 class="no-anchor"><b>Hi!</b> 👋</h1>
+    <h1 class="no-anchor no-mt"><b>Hi!</b> 👋</h1>
     <p>My name is Christian, <b>cri</b> for short</p>
     <p>A <b>passionate web developer</b> from <b>Italy</b></p>
     <p>Blogging quite frequently 👉 <a class="cta" href="/subscribe/" class="track-home-subscribe-newsletter">subscribe to my newsletter</a></p>

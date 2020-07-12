@@ -1,3 +1,7 @@
+main section {
+  margin-top: 7em;
+}
+
 .posts {
   flex-wrap: wrap;
   flex-direction: row;

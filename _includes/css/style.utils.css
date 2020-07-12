@@ -33,11 +33,14 @@
   display: block;
 }
 
-.no-bs {
-  box-shadow: none !important;
-}
-
 .no-shadow { box-shadow: none; }
+
+nav.is-fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
 
 
 
@@ -118,6 +121,7 @@
     width: 16.66666%
   }
 }
+
 
 
 

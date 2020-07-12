@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<article itemscope itemtype="http://schema.org/BlogPosting" class="mt3">
+<article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 itemprop="name headline" class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} itemprop="image" style="background-image: url('{{ page.data.image }}')"{% endif %}><span>{{ title }}</span></h1>
 
   <header>
