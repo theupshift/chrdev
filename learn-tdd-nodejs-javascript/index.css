@@ -1,0 +1,20 @@
+.with-chris {
+    display: inline-block;
+    font-size: 2rem;
+    vertical-align: top;
+}
+
+form {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+.block-input {
+    max-width: 33em; 
+    margin: 0 auto; 
+    display: block;   
+}
+.contained {
+    max-width: 33em; 
+    margin: 1em auto;
+}

@@ -14,6 +14,8 @@
 
 
 .tac { text-align: center; }
+.tal { text-align: left; }
+.vam { vertical-align: middle; }
 .block-tac { margin: 0 auto; display: block; }
 .tacb { display: block; margin: 0 auto; }
 .ovs { overflow-x: scroll; }
