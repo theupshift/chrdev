@@ -176,11 +176,6 @@ What seems to work really well are content and email marketing:
 - primary goal: mailing list
 - then, get people to buy
 
-## Landing page
-
-- primary goal: mailing list
-- then, get people to buy
-
 Effective landing page
 
 - headline, what advantages does this product bring to the customer
@@ -207,7 +202,7 @@ Ideally
 
 - one pain point per blog post
 - follow trends?
-- make people feel confortable, make it relatable, make them laugh
+- make people feel comfortable, make it relatable, make them laugh
 - teach something new
 - unique content, shows trust
 - engage with people
