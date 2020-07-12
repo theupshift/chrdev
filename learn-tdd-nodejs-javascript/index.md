@@ -67,6 +67,17 @@ css:
         <li>✨&nbsp;Clean code introduction</li>
       </ul>
     </div>
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/learn-tdd-nodejs-javascript"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/learn-tdd-nodejs-javascript', 'popupwindow')"
+      class="embeddable-buttondown-form secondary"
+    >
+      <input autofocus type="email" name="email" id="bd-email" placeholder="Get notified on the launch 🚀" class="block-input">
+      <input type="hidden" value="1" name="embed"></input>
+      <input type="submit" value="Subscribe" class="block-input"></input>
+    </form>
   </div>
 </div>
 

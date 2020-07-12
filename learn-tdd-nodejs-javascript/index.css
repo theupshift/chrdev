@@ -8,6 +8,10 @@ form {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
 }
+form.secondary {
+    background: none; 
+    padding: 0;
+}
 
 .block-input {
     max-width: 33em; 
