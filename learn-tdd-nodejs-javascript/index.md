@@ -22,7 +22,7 @@ css:
     🤔&nbsp;Struggling to build maintainable applications?
   </h4>
   <h4 class="no-anchor">
-    Changing code is risky and painful?&nbsp; 🤮
+    Wasting time or getting lost in speghetti code?&nbsp; 🤮
   </h4>
   <div class="tac">
     <form
