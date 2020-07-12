@@ -4,7 +4,7 @@ context('Content', () => {
   it('about', () => {
     cy.visit('http://127.0.0.1:8080')
 
-    cy.get('body > nav').contains('about').click()
+    cy.get('body > nav').contains('About').click()
 
     cy.location('pathname').should('include', 'about')
   })
