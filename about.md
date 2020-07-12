@@ -20,6 +20,10 @@ Email me at hey [at] cri.dev
 
 ---
 
+<p><a href="/learn-tdd-nodejs-javascript/" class="track-about-learn-tdd-nodejs-javascript">🚀&nbsp;Learn TDD with Node.js & JavaScript</a></p>
+
+---
+
 You can **support me** through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
 
 See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
