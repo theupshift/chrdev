@@ -84,3 +84,23 @@ article .title {
   max-width: 35em;
   margin: 0 auto;
 }
+
+#side-content {
+  display: none;
+  border: 3px solid #fe1;
+  outline: 2px solid #333;
+}
+@media all and (min-width: 1200px) {
+  #side-content {
+    opacity: 0;
+  }
+  #side-content.show {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    top: 40%;
+    left: calc(50% - 37em);
+    width: 10em;
+    min-height: 4em;
+  }
+}

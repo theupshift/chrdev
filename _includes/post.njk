@@ -60,13 +60,16 @@
     {% endif %}
   </header>
 
-
   <div class="main-content" itemprop="articleBody">{{ content | safe }}</div>
-
 
   {% include 'snippets/tweet-this-big.html' %}
 
   {% include 'subscribe-to-newsletter.html' %}
 </article>
+
+<aside id="side-content">
+<h5 class="m0"><a href="/learn-tdd-nodejs-javascript/" class="track-post-side-learn-tdd-nodejs-javascript">Learn TDD with Node.js&nbsp;👩‍💻</a></h5>
+</aside>
+
 
 {% endblock %}
