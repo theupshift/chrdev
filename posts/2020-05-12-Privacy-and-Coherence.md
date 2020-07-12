@@ -112,7 +112,7 @@ For feedback, additional alternatives, or simply a discussion: please let me kno
   <p>
     <b>Bi-weekly email</b> to stay up to date with #elixir #nodejs #agile #testing #refactoring #cleancode
   </p>
-  <input type="email" name="email" id="bd-email" placeholder="your@email.com">
+  <input type="email" name="email" id="bd-email" placeholder="elon@tesla.com">
   <input type="hidden" value="1" name="embed"></input>
   <button type="submit">Subscribe</Button>
 </form>
@@ -308,7 +308,7 @@ Use [openstreetmap.org](https://openstreetmap.org).
   <p>
     <b>Bi-weekly email</b> to stay up to date with #elixir #nodejs #agile #testing #refactoring #cleancode
   </p>
-  <input type="email" name="email" id="bd-email" placeholder="your@email.com">
+  <input type="email" name="email" id="bd-email" placeholder="elon@tesla.com">
   <input type="hidden" value="1" name="embed"></input>
   <button type="submit">Subscribe</Button>
 </form>

@@ -10,7 +10,9 @@ title: Home
     <p>My name is Christian, <b>cri</b> for short</p>
     <p>A <b>passionate web developer</b> from <b>Italy</b></p>
     <p>Blogging quite frequently 👉 <a class="cta" href="/subscribe/" class="track-home-subscribe-newsletter">subscribe to my newsletter</a></p>
+    <!--
     <p>Read my <a href="/posts" class="track-home-featured-posts">featured blog posts</a>, <a href="/books" class="track-home-books">recommended books</a> and skim through <a href="/archive" class="track-home-archive">the archive</a></p>
+    -->
   </div>
   <div class="">
     <div class="cf">
@@ -34,6 +36,6 @@ title: Home
 </div>
 -->
 <div>
-  {% include 'subscribe-to-newsletter.html' %}
+  {% include 'subscribe-to-newsletter-slim.html' %}
 </div>
 {% endblock %}
