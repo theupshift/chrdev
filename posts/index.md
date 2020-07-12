@@ -7,9 +7,8 @@ title: Posts
 
 <b><a href="/archive/" class="cta">Visit the archive</a> to see all {{ collections.post.length }} posts</b>
 
-{% include 'subscribe-to-newsletter.html' %}
 
-<div class="alert" style="max-width: 45em">
+<div class="alert">
   <p>
     Below you can skim through <b>featured articles</b> I wrote over the years.
   </p>
@@ -39,6 +38,7 @@ title: Posts
     </header>
     <div>{{ post.htmlContent | safe }}</div>
   </article>
+  {% include 'subscribe-to-newsletter.html' %}
 {% endfor %}
 </div>
 {% endblock %}
