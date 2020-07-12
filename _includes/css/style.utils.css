@@ -55,7 +55,6 @@ nav.is-fixed {
   margin-left: -.6em;
   width: calc(100% + .6em);
   flex-wrap: wrap;
-  transition: all .3s ease
 }
 
 .flex>* {
