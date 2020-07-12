@@ -16,10 +16,13 @@ css:
     using Node.js & JavaScript
   </h2>
   <h4 class="no-anchor">
-    Want to learn more about Software Testing and TDD?
+    Don't know how to start writing your first test? &nbsp;😰
   </h4>
   <h4 class="no-anchor">
     🤔&nbsp;Struggling to build maintainable applications?
+  </h4>
+  <h4 class="no-anchor">
+    Changing code is risky and painful?&nbsp; 🤮
   </h4>
   <div class="tac">
     <form
@@ -44,24 +47,26 @@ css:
       </p>
     </form>
   </div>
-  <p>
-    <h2 class="no-anchor">
-      Learn about Test Driven Design with practical examples
-    </h2>
-  </p>
-  <p>
-    You will learn about test driving your full-stack web application from the ground up.
-  </p>
-  <p>
-    Apply changes and develop features with confidence, doing safe and incremental steps.
-  </p>
-  <div class="tal contained">
-    <h3 class="no-anchor">Included Bonus chapters</h3>
-    <ul>
-      <li>📗&nbsp;Continuous Integration & Deployment</li>
-      <li>👌&nbsp;Best practices</li>
-      <li>✨&nbsp;Clean code introduction</li>
-    </ul>
+  <div class="contained tal">
+    <p>
+      <h2 class="no-anchor">
+        Learn about Test Driven Design<br> with practical examples
+      </h2>
+    </p>
+    <p>
+      You will learn about test driving your full-stack web application from the ground up.
+    </p>
+    <p>
+      Apply changes and develop features with confidence, doing safe and incremental steps.
+    </p>
+    <div class="tal contained">
+      <h3 class="no-anchor">Bonus chapters included</h3>
+      <ul>
+        <li>📗&nbsp;Continuous Integration & Deployment</li>
+        <li>👌&nbsp;Best practices</li>
+        <li>✨&nbsp;Clean code introduction</li>
+      </ul>
+    </div>
   </div>
 </div>
 
