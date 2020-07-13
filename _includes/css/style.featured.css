@@ -10,6 +10,7 @@
   border-bottom: 10px solid transparent;
 }
 .featured-post:hover {
+  background-position: center;
   border-bottom: 10px solid #fe1;
   transform: scale(1.03) rotateZ(-1deg);
 }
@@ -28,7 +29,7 @@
   right: 0.5em;
 }
 .featured-post:hover {
-  background-color: white;;
-  background-position: top;
+  background-color: white;
+  /* background-position: top; */
   z-index: 9000;
 }
