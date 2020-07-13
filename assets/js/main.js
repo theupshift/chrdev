@@ -57,10 +57,7 @@ function trackAction($el) {
   if ($el.nodeName === 'A') {
     $el.addEventListener('click', function (e) {
       const trackClass = e.target.getAttribute('class').split(' ').find(c => /^track-.*/.test(c))
-      if (trackClass) {
-        const name = trackClass.replace('track-', '')
-        window.localStorage.setItem('track-' + name, 1)
-      }
+      if (trackClass) window.localStorage.setItem(trackClass, 1)
     })
   }
 }
