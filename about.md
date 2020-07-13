@@ -20,7 +20,7 @@ Email me at hey [at] cri.dev
 
 ---
 
-<p><a href="/learn-tdd-nodejs-javascript/" class="track-about-learn-tdd-nodejs-javascript">🚀&nbsp;Learn TDD with Node.js & JavaScript</a></p>
+<p><a href="/learn-testing-nodejs-javascript/" class="track-about-learn-testing-nodejs-javascript">🚀&nbsp;Learn TDD with Node.js & JavaScript</a></p>
 
 ---
 

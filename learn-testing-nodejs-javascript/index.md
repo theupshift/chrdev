@@ -1,15 +1,15 @@
 ---
 layout: page.njk
-title: Learn TDD with Node.js & JavaScript
+title: Learn Testing with Node.js & JavaScript
 css: 
-  - /learn-tdd-nodejs-javascript/index.css
+  - /learn-testing-nodejs-javascript/index.css
 ---
 
 {% block content %}
 
 <div class="alert">
   <h1 class="no-anchor" style="font-size: 5em">
-    Learn TDD
+    Learn Testing
      <span class="with-chris">with <a href="https://twitter.com/christian_fei">Chris <img class="logo vam no-shadow" src="/assets/images/cf4.64x64.png" alt=""></a></span>
   </h1>
   <h2 class="no-anchor" style="font-size: 4em">
@@ -26,10 +26,10 @@ css:
   </h4>
   <div class="tac">
     <form
-      action="https://buttondown.email/api/emails/embed-subscribe/learn-tdd-nodejs-javascript"
+      action="https://buttondown.email/api/emails/embed-subscribe/learn-testing-nodejs-javascript"
       method="post"
       target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/learn-tdd-nodejs-javascript', 'popupwindow')"
+      onsubmit="window.open('https://buttondown.email/learn-testing-nodejs-javascript', 'popupwindow')"
       class="embeddable-buttondown-form"
     >
       <h2 class="no-anchor no-mt tac">
@@ -68,10 +68,10 @@ css:
       </ul>
     </div>
     <form
-      action="https://buttondown.email/api/emails/embed-subscribe/learn-tdd-nodejs-javascript"
+      action="https://buttondown.email/api/emails/embed-subscribe/learn-testing-nodejs-javascript"
       method="post"
       target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/learn-tdd-nodejs-javascript', 'popupwindow')"
+      onsubmit="window.open('https://buttondown.email/learn-testing-nodejs-javascript', 'popupwindow')"
       class="embeddable-buttondown-form secondary"
     >
       <input autofocus type="email" name="email" id="bd-email" placeholder="Enter your email to get notified on the launch 🚀" class="block-input">
