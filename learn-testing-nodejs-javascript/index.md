@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 title: Learn Testing with Node.js & JavaScript
-css: 
+css:
   - /learn-testing-nodejs-javascript/index.css
 ---
 
@@ -22,7 +22,7 @@ css:
     🤔&nbsp;Struggling to build maintainable applications?
   </h4>
   <h4 class="no-anchor">
-    Wasting time or getting lost in speghetti code?&nbsp; 🤮
+    Wasting time or getting lost in spaghetti code?&nbsp; 🤮
   </h4>
   <div class="tac">
     <form
