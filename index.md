@@ -10,7 +10,7 @@ title: Home
     <p>My name is Christian, <b>cri</b> for short</p>
     <p>A <b>passionate web developer</b> from <b>Italy</b></p>
     <p>Blogging quite frequently 👉 <a class="cta" href="/subscribe/" class="track-home-subscribe-newsletter">subscribe to my newsletter</a></p>
-    <p><a href="/learn-testing-nodejs-javascript/" class="track-home-learn-testing-nodejs-javascript">🚀&nbsp;Learn TDD with Node.js & JavaScript</a></p>
+    <p><a href="/learn-testing-nodejs-javascript/" class="track-home-learn-testing-nodejs-javascript">🚀&nbsp;Learn Testing with Node.js & JavaScript</a></p>
     <!--
     <p>Read my <a href="/posts" class="track-home-featured-posts">featured blog posts</a>, <a href="/books" class="track-home-books">recommended books</a> and skim through <a href="/archive" class="track-home-archive">the archive</a></p>
     -->
