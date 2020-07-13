@@ -50,7 +50,7 @@ css:
   <div class="contained tal">
     <p>
       <h2 class="no-anchor">
-        Learn about Test Driven Design<br> with practical examples
+        Learn about Testing and TDD<br> with practical examples
       </h2>
     </p>
     <p>
