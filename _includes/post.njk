@@ -76,7 +76,7 @@
 {% set tag %}{{ page.data.tags | mainTag }}{% endset %}
 {% if tag in ['marketing','nodejs'] %}
 <div class="related">
-  Browse <a href="/tags/{{ tag }}">{{ tag }}</a>
+  Browse <a class="track-post-side-related" href="/tags/{{ tag }}">{{ tag }}</a>
 </div>
 {% endif %}
 </aside>
