@@ -1,29 +1,30 @@
 <footer>
   <div class="contain">
     <div class="l-box">
-      <p><b>follow me</b> on <a href="https://twitter.com/christian_fei">twitter</a> and <a href="https://github.com/christian-fei">github</a></p>
-      <p><b>connect with me</b> on <a href="https://www.linkedin.com/in/christian-fei-6b72b5123/">linkedin</a></p>
-
-      <p>If I helped you in any way, say it out loud <a href="https://twitter.com/christian_fei">on twitter</a></p>
-
-      {% if page.url != '/' and page.url != '/about/' %}
       <p>
-        <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Edit this page on GitHub</a> - <small>{{ page.url }}</small>
+        &copy; <a style="text-decoration: none;" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">{% include 'img/license-base64.html' %}</a> Christian Fei 2012 - {{ '' | year }} <a href="https://twitter.com/christian_fei"><i class="icon icon-twitter"></i></a> <a href="https://github.com/christian-fei"><i class="icon icon-github"></i></a>
       </p>
-      {% endif %}
-
-
-      <p>&copy; <a style="text-decoration: none;" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">{% include 'img/license-base64.html' %}</a> Christian Fei 2012 - {{ '' | year }}</p>
 
       <p>
-        commit
-        <small><a target="_blank" href="{{ '' | githubCommitDiffUrl }}">{{'' | commit}}</a></small>
-      </p>
-      <p>
-        images from <a href="https://unsplash.com">unsplash.com</a>
-      </p>
-      <p>
-        icons from <a href="https://iconfinder.com">iconfinder.com</a>
+        {% if page.url != '/' and page.url != '/about/' %}
+        <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Edit this page on GitHub</a> - <small>{{ page.url }}</small>      </p>
+        <br>
+        {% endif %}
+        <small>
+          🍪&nbsp;No tracking on this site
+        </small>
+        <br>
+        <small>
+          If I helped you in any way, say it out loud <a href="https://twitter.com/christian_fei">on twitter</a>
+        </small>
+        <br>
+        <small>
+          images from <a href="https://unsplash.com">unsplash.com</a> - icons from <a href="https://iconfinder.com">iconfinder.com</a>
+        </small>
+        <br>
+        <small>
+          commit <a target="_blank" href="{{ '' | githubCommitDiffUrl }}">{{'' | commit}}</a>
+        </small>
       </p>
     </div>
   </div>
