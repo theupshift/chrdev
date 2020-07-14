@@ -18,7 +18,6 @@ context('Navigation', () => {
   context('links', () => {
     it('social', () => {
       cy.get('body > footer').contains('twitter')
-      cy.get('body > footer').contains('linkedin')
     })
     it('edit page', () => {
       cy.visit('http://127.0.0.1:8080/posts')
