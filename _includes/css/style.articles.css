@@ -87,10 +87,13 @@ article .title {
 
 #side-content {
   display: none;
+}
+.promotion {
+  padding: 0.5em 1em;
   border: 3px solid #fe1;
   outline: 2px solid #333;
 }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1180px) {
   #side-content {
     opacity: 0;
   }
@@ -100,7 +103,7 @@ article .title {
     position: fixed;
     top: 40%;
     left: calc(50% - 37em);
-    width: 10em;
+    width: 12em;
     min-height: 4em;
   }
 }

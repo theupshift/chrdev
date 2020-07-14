@@ -47,8 +47,8 @@ module.exports = {
     name: 'words',
     filter: (content) => (content || '').split(' ').length
   }, {
-    name: 'prepareTags',
-    filter: (tags) => tags.filter(t => !['post', 'featured'].includes(t))
+    name: 'mainTag',
+    filter: (tags) => tags.filter(t => !['post', 'featured'].includes(t))[0]
   }, {
     name: 'year',
     filter: () => year
