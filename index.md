@@ -18,7 +18,7 @@ title: Home
   <div class="">
     <div class="cf">
       <a href="/about" class="no-underline track-home-about-image">
-        <img class="avatar-image no-shadow" alt="me with sunglasses" src="/assets/images/cf4.png"/>
+        <img class="avatar-image no-shadow" alt="me with sunglasses" src="/assets/images/cf4.webp"/>
       </a>
       <p>
         <a href="/about" class="track-home-about-link">about me</a> | <a href="https://twitter.com/christian_fei" target="_blank" class="track-home-twitter-link"><i class="icon icon-twitter"></i></a> | <a href="https://github.com/christian-fei" target="_blank" class="track-home-github-link"><i class="icon icon-github"></i></a>

@@ -37,7 +37,7 @@
     <meta name="twitter:site" content="@christian_fei">
     <meta name="twitter:domain" content="cri.dev">
     <meta name="twitter:creator" content="@christian_fei">
-    {% set shareImage %}{% if image %}{{ image | withDomain }}{% else %}https://cri.dev/assets/images/cf4.png{% endif %}{% endset %}
+    {% set shareImage %}{% if image %}{{ image | withDomain }}{% else %}https://cri.dev/assets/images/cf4.webp{% endif %}{% endset %}
     {% if image %}<meta name="twitter:card" content="summary_large_image" />{% else %}<meta name="twitter:card" content="summary">{% endif %}
     <meta name="twitter:image" content="{{ shareImage }}">
 
@@ -58,8 +58,8 @@
     <meta property="article:modified_time" content="{{ page.data.date }}" />
 
 
-    <link rel="shortcut icon" type="image/png" href="https://cri.dev/assets/images/cf4.64x64.png"/>
-    <link rel="apple-touch-icon" href="https://cri.dev/assets/images/cf4.64x64.png">
+    <link rel="shortcut icon" type="image/png" href="https://cri.dev/assets/images/cf4.64x64.webp"/>
+    <link rel="apple-touch-icon" href="https://cri.dev/assets/images/cf4.64x64.webp">
     <link rel="alternate" type="application/rss+xml" title="cri.dev" href="https://cri.dev/rss.xml">
 
     {% if page.url !== '/' and page.url !== '/about/' %}
@@ -80,7 +80,7 @@
         "name": "cri.dev",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://cri.dev/assets/images/cf4.png"
+          "url": "https://cri.dev/assets/images/cf4.webp"
         }
       }
     }

@@ -26,7 +26,7 @@ window.subscribers = {{ collections.subscribers | reverse | json | safe }}
     <img class="no-shadow" src="/assets/images/speech-bubble-unsub.png">
   </div>
   <div class=" tar">
-    <img class="no-shadow" src="/assets/images/cf4.png">
+    <img class="no-shadow" src="/assets/images/cf4.webp">
   </div>
 </div>
 

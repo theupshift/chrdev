@@ -10,7 +10,7 @@ css:
 <div class="alert">
   <h1 class="no-anchor" style="font-size: 5em">
     Learn Testing
-     <span class="with-chris">with <a href="https://twitter.com/christian_fei">Chris <img class="logo vam no-shadow" src="/assets/images/cf4.64x64.png" alt=""></a></span>
+     <span class="with-chris">with <a href="https://twitter.com/christian_fei">Chris <img class="logo vam no-shadow" src="/assets/images/cf4.64x64.webp" alt=""></a></span>
   </h1>
   <h2 class="no-anchor" style="font-size: 4em">
     using Node.js & JavaScript
