@@ -41,7 +41,7 @@ h1 a:after, h2 a:after, h3 a:after, h4 a:after, h5 a:after, h6 a:after {
   display: none !important;
 }
 pre { overflow-x: scroll; font-size: 0.75em; }
-pre, code { background: #ffee11; background: #ffee1199; }
+/* pre, code { background: #ffee11; background: #ffee1199; } */
 pre code { background: none; }
 code { word-break: break-all; }
 pre ::selection { color: white; background: #000; }
