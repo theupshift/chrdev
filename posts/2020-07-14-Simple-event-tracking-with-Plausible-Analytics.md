@@ -17,7 +17,7 @@ From the [official documentation](https://docs.plausible.io/custom-event-goals) 
 ```html
 <script>
 window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }
-</script> 
+</script>
 ```
 
 Whenever you call `plausible('...event...')` you put a tracking event in a *queue* (`window.plausible.q`) and will be tracked.
@@ -67,7 +67,7 @@ Thus we swiftly put it in the localStorage, so that on the next page load (after
 function trackAction ($el) {
   if ($el.nodeName === 'A') {
     $el.addEventListener('click', function (e) {
-      if (trackClass) window.localStorage.setItem(e.getAttribute('data-track'), 1)
+      window.localStorage.setItem(e.getAttribute('data-track'), 1)
     })
   }
 }
