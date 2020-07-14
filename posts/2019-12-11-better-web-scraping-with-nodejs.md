@@ -4,10 +4,9 @@ date: 2019-12-11
 layout: post.njk
 tags:
   - post
-  - javascript
   - featured
-  - javascript
   - nodejs
+  - javascript
   - general
 image: https://images.unsplash.com/photo-1492515114975-b062d1a270ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---

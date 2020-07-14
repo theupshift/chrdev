@@ -1,9 +1,5 @@
 ---
-layout: page.njk
+layout: tag.njk
 title: Marketing
-tag: marketing
+_tag: marketing
 ---
-
-{% block content %}
-  <h1>Posts taddged with "{{page.data.tag}}"</h1>
-{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+  <h1>Posts taddged with "{{page.data._tag}}"</h1>
+  <div class="mt5 pad">
+  {% for post in collections[page.data._tag] | reverse | limit20 %}
+    <div class="flex ovh-s lazy-container">
+      <a href="{{ post.url }}" style="margin: 0.5em" class="flex-item tdn featured-post track-featured-post-link" lazy="{{ post.data.image }}">
+        <b class="post-title">{{ post.data.title }}</b>
+        <span class="post-date">{{ post.data.date | isoday }}</span>
+      </a>
+      {% if loop.index === 5 or loop.index === 15 %}
+      <a href="/archive/" style="margin: 0.5em" class="flex-item tdn featured-post track-featured-post-link">
+        <b class="post-title">visit the /archive to see all {{collections.post.length}} posts</b>
+      </a>
+      {% endif %}
+    </div>
+  {% endfor %}
+  </div>
+{% endblock %}
