@@ -140,11 +140,6 @@ Start with
 
 - Google Webmaster tools
 - Any analytics service (Segment, Google Analytics, Plausible Analytics)
-
-Start with 
-
-- Google Webmaster tools
-- Any analytics service (Segment, Google Analytics, Plausible Analytics)
 - Optionally set up an A/B testing tool
 - Set up a mailing list
 
