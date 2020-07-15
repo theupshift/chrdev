@@ -74,7 +74,7 @@ css:
       onsubmit="window.open('https://buttondown.email/learn-testing-nodejs-javascript', 'popupwindow')"
       class="embeddable-buttondown-form secondary"
     >
-      <input autofocus type="email" name="email" id="bd-email" placeholder="Enter your email to get notified on the launch 🚀" class="block-input">
+      <input type="email" name="email" id="bd-email" placeholder="Enter your email to get notified on the launch 🚀" class="block-input">
       <input type="hidden" value="1" name="embed"></input>
       <input type="submit" value="Subscribe" class="block-input"></input>
     </form>
