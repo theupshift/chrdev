@@ -36,6 +36,7 @@ css:
         Sharpen your developer skills 👩‍💻
       </h2>
       <input type="email" name="email" id="bd-email" placeholder="Enter your email to get notified on the launch 🚀" class="block-input">
+      <input type="hidden" name="tag" value="learn-testing" />
       <input type="hidden" value="1" name="embed"></input>
       <input type="submit" value="Subscribe" class="block-input"></input>
       <p class="contained">
