@@ -26,7 +26,7 @@ css:
   </h4>
   <div class="tac">
     <form
-      action="https://buttondown.email/api/emails/embed-subscribe/learn-testing-nodejs-javascript"
+      action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
       method="post"
       target="popupwindow"
       onsubmit="window.open('https://buttondown.email/learn-testing-nodejs-javascript', 'popupwindow')"
@@ -68,13 +68,14 @@ css:
       </ul>
     </div>
     <form
-      action="https://buttondown.email/api/emails/embed-subscribe/learn-testing-nodejs-javascript"
+      action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
       method="post"
       target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/learn-testing-nodejs-javascript', 'popupwindow')"
+      onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
       class="embeddable-buttondown-form secondary"
     >
-      <input type="email" name="email" id="bd-email" placeholder="Enter your email to get notified on the launch 🚀" class="block-input">
+      <input type="email" name="email" id="bd-email" placeholder="Subscribe to the newsletter to get notified on the launch 🚀" class="block-input">
+      <input type="hidden" name="tag" value="learn-testing" />
       <input type="hidden" value="1" name="embed"></input>
       <input type="submit" value="Subscribe" class="block-input"></input>
     </form>
