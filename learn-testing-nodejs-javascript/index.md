@@ -20,13 +20,13 @@ css:
     onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
     class="embeddable-buttondown-form"
   >
-    <input type="hidden" name="tag" value="learn-testing" />
-    <input type="hidden" value="1" name="embed"></input>
     <div class="form-row">
       <div class="col-12 col-md-9 mb-2 mb-md-0">
         <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Enter your email to be notified 🚀">
       </div>
       <div class="col-12 col-md-3">
+        <input type="hidden" name="tag" value="learn-testing" />
+        <input type="hidden" value="1" name="embed"></input>
         <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
       </div>
     </div>
@@ -53,13 +53,13 @@ css:
       onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
       class="embeddable-buttondown-form"
     >
-      <input type="hidden" name="tag" value="learn-testing" />
-      <input type="hidden" value="1" name="embed"></input>
       <div class="form-row">
         <div class="col-12 col-md-9 mb-2 mb-md-0">
           <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Enter your email to be notified 🚀">
         </div>
         <div class="col-12 col-md-3">
+          <input type="hidden" name="tag" value="learn-testing" />
+          <input type="hidden" value="1" name="embed"></input>
           <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
         </div>
       </div>
@@ -165,78 +165,3 @@ css:
 </div>
 {% endblock %}
 
-{% block content %}
-<div class="alert">
-  <h1 class="no-anchor" style="font-size: 5em">
-    Learn Testing
-     <span class="with-chris">with <a href="https://twitter.com/christian_fei">Chris <img class="logo vam no-shadow" src="/assets/images/cf4.64x64.webp" alt=""></a></span>
-  </h1>
-  <h4 class="no-anchor">
-    Don't know how to start writing your first test? &nbsp;😰
-  </h4>
-  <h4 class="no-anchor">
-    🤔&nbsp;Struggling to build maintainable applications?
-  </h4>
-  <h4 class="no-anchor">
-    Wasting time or getting lost in spaghetti code?&nbsp; 🤮
-  </h4>
-  <div class="tac">
-    <form
-      action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
-      class="embeddable-buttondown-form"
-    >
-      <h2 class="no-anchor no-mt tac">
-        Sharpen your developer skills 👩‍💻
-      </h2>
-      <input type="email" name="email" id="bd-email" placeholder="Enter your email to get notified on the launch 🚀" class="block-input">
-      <input type="hidden" name="tag" value="learn-testing" />
-      <input type="hidden" value="1" name="embed"></input>
-      <input type="submit" value="Subscribe" class="block-input"></input>
-      <p class="contained">
-        Approachable guide for <b>beginners</b> and <b>experienced software developers</b>.
-        <br>
-        <b>Improve</b> your coding skills and build <b>maintainable web applications</b> 📈
-        <br>
-        <b>Step by step examples and explanation</b> 🐶
-      </p>
-    </form>
-  </div>
-  <div class="contained tal">
-    <p>
-      <h2 class="no-anchor">
-        Learn about Testing and TDD<br> with practical examples
-      </h2>
-    </p>
-    <p>
-      You will learn about test driving your full-stack web application from the ground up.
-    </p>
-    <p>
-      Apply changes and develop features with confidence, doing safe and incremental steps.
-    </p>
-    <div class="tal contained">
-      <h3 class="no-anchor">Bonus chapters included</h3>
-      <ul>
-        <li>📗&nbsp;Continuous Integration & Deployment</li>
-        <li>👌&nbsp;Best practices</li>
-        <li>✨&nbsp;Clean code introduction</li>
-      </ul>
-    </div>
-    <form
-      action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
-      class="embeddable-buttondown-form secondary"
-    >
-      <input type="email" name="email" id="bd-email" placeholder="Subscribe to the newsletter to get notified on the launch 🚀" class="block-input">
-      <input type="hidden" name="tag" value="learn-testing" />
-      <input type="hidden" value="1" name="embed"></input>
-      <input type="submit" value="Subscribe" class="block-input"></input>
-    </form>
-  </div>
-</div>
-
-{% endblock %}
