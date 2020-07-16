@@ -14,9 +14,11 @@ css:
     action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
     method="post"
     target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/learn-testing-nodejs-javascript', 'popupwindow')"
+    onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
     class="embeddable-buttondown-form"
   >
+    <input type="hidden" name="tag" value="learn-testing" />
+    <input type="hidden" value="1" name="embed"></input>
     <div class="form-row">
       <div class="col-12 col-md-9 mb-2 mb-md-0">
         <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Enter your email to be notified 🚀">
@@ -25,8 +27,6 @@ css:
         <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
       </div>
     </div>
-    <input type="hidden" name="tag" value="learn-testing" />
-    <input type="hidden" value="1" name="embed"></input>
   </form>
 </div>
 {% endblock %}
@@ -47,9 +47,11 @@ css:
       action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
       method="post"
       target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/learn-testing-nodejs-javascript', 'popupwindow')"
+      onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
       class="embeddable-buttondown-form"
     >
+      <input type="hidden" name="tag" value="learn-testing" />
+      <input type="hidden" value="1" name="embed"></input>
       <div class="form-row">
         <div class="col-12 col-md-9 mb-2 mb-md-0">
           <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Enter your email to be notified 🚀">
@@ -58,8 +60,6 @@ css:
           <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
         </div>
       </div>
-      <input type="hidden" name="tag" value="learn-testing" />
-      <input type="hidden" value="1" name="embed"></input>
     </form>
   </div>
   <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mb-5">
@@ -182,7 +182,7 @@ css:
       action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
       method="post"
       target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/learn-testing-nodejs-javascript', 'popupwindow')"
+      onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
       class="embeddable-buttondown-form"
     >
       <h2 class="no-anchor no-mt tac">
