@@ -1,7 +1,7 @@
 .with-chris {
     display: inline-block;
-    font-size: 2rem;
     vertical-align: top;
+    font-size: 1rem!important;
 }
 
 form {
@@ -9,16 +9,16 @@ form {
     padding-bottom: 2em !important;
 }
 form.secondary {
-    background: none; 
+    background: none;
     padding: 0;
 }
 
 .block-input {
-    max-width: 33em; 
-    margin: 0 auto; 
-    display: block;   
+    max-width: 33em;
+    margin: 0 auto;
+    display: block;
 }
 .contained {
-    max-width: 33em; 
+    max-width: 33em;
     margin: 1em auto;
 }
