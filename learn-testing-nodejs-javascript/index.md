@@ -25,9 +25,9 @@ css:
         <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Enter your email to be notified 🚀">
       </div>
       <div class="col-12 col-md-3">
-        <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
         <input type="hidden" name="tag" value="learn-testing"></input>
         <input type="hidden" value="1" name="embed"></input>
+        <input type="submit" value="Sign up!" class="btn btn-block btn-lg btn-primary"></input>
       </div>
     </div>
   </form>
@@ -58,9 +58,9 @@ css:
           <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Enter your email to be notified 🚀">
         </div>
         <div class="col-12 col-md-3">
-          <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
           <input type="hidden" name="tag" value="learn-testing"></input>
           <input type="hidden" value="1" name="embed"></input>
+          <input type="submit" value="Sign up!" class="btn btn-block btn-lg btn-primary"></input>
         </div>
       </div>
     </form>
