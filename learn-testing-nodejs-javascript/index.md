@@ -1,6 +1,9 @@
 ---
 layout: landing.njk
 title: Learn Testing with Node.js & JavaScript
+description: Learn Testing TDD using Node.js & JavaScript. Video Course Tutorial about unit integration user acceptance tests in Node.js
+canonical: https://cri.dev/learn-testing-nodejs-javascript/
+image: /assets/images/learn-testing-logo.png
 css:
   - /learn-testing-nodejs-javascript/index.css
 ---
@@ -32,7 +35,7 @@ css:
 {% endblock %}
 
 {% block masthead %}
-<div class="row">
+<div class="row masthead-bg">
   <div class="col-xl-9 mx-auto mb-5">
     <h1 class="no-anchor">
       Learn Testing
@@ -74,13 +77,13 @@ css:
     </p>
   </div>
   <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-    <h1 class="display-4">Learn more&nbsp;👇</h1>
+    <h1 class="display-4 no-anchor"><a href="#features">Learn more&nbsp;👇</a></h1>
   </div>
 </div>
 {% endblock %}
 
 {% block features%}
-<div class="row">
+<div class="row" id="features">
   <div class="col-lg-4">
     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
       <div class="features-icons-icon d-flex">

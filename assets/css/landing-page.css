@@ -18,10 +18,16 @@ h6 {
   font-weight: 700;
 }
 
+.masthead-bg {
+  background-image: url(/assets/images/balls.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  /* background-color: #343a40; */
+  /* background: url("/assets/images/bg-landing-masthead.jpg") no-repeat center center; */
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -104,7 +110,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("/assets/images/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
