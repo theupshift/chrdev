@@ -16,8 +16,6 @@ css:
   <form
     action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
     method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
     class="embeddable-buttondown-form"
   >
     <div class="form-row">
@@ -27,7 +25,7 @@ css:
       <div class="col-12 col-md-3">
         <input type="hidden" value="1" name="embed"></input>
         <input type="submit" value="Sign up!" class="btn btn-block btn-lg btn-primary"></input>
-        <input type="hidden" name="tag" value="learn-testing"></input>
+        <input type="hidden" name="tag" value="testing"></input>
       </div>
     </div>
   </form>
@@ -49,8 +47,6 @@ css:
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
       method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
       class="embeddable-buttondown-form"
     >
       <div class="form-row">
@@ -60,7 +56,7 @@ css:
         <div class="col-12 col-md-3">
           <input type="hidden" value="1" name="embed"></input>
           <input type="submit" value="Sign up!" class="btn btn-block btn-lg btn-primary"></input>
-          <input type="hidden" name="tag" value="learn-testing"></input>
+          <input type="hidden" name="tag" value="testing"></input>
         </div>
       </div>
     </form>
