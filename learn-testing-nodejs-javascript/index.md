@@ -1,7 +1,7 @@
 ---
 layout: landing.njk
 title: Learn Testing with Node.js & JavaScript
-description: Learn Testing TDD using Node.js & JavaScript. Video Course Tutorial about unit integration user acceptance tests in Node.js
+description: Learn Testing TDD using Node.js & JavaScript. Book and Video Course about unit/ integration/user acceptance tests in Node.js. Continuous Integration and Deployment with practical examples
 canonical: https://cri.dev/learn-testing-nodejs-javascript/
 image: https://cri.dev/assets/images/learn-testing/learn-testing-cover-share.png
 css:
