@@ -20,7 +20,7 @@ Ubuntu 20.04 also looks gorgeous and made me want to go back to the Linux side.
 So I started looking for a worthy laptop for the job, with excellent support for Linux, and these are my findings.
 
 The notebooks are grouped by the following vendors:
-
+- Clevo (laptopwithlinux.com)
 - Dell
   - [Dell XPS 13 Developer Edition](#dell-xps-13-developer-edition)
 - Lenovo
@@ -45,6 +45,25 @@ I have put together a publicly available [spreadsheet](https://docs.google.com/s
 
 <img lazy="/assets/images/posts/developer-linux-laptop/google-sheet.png" alt="/assets/images/posts/developer-linux-laptop/google-sheet.png">
 <!-- ![/assets/images/posts/developer-linux-laptop/google-sheet.png](/assets/images/posts/developer-linux-laptop/google-sheet.png) -->
+
+# Clevo
+
+aka [laptopwithlinux.com](https://laptopwithlinux.com/)
+
+a dear friend of mine shared with me his findings, and suggested to check out [laptopwithlinux.com](https://laptopwithlinux.com/)
+
+## Clevo NL41CU 14-inch Metal Design
+
+<img lazy="/assets/images/posts/developer-linux-laptop/clevo-nl41cu.jpeg" alt="/assets/images/posts/developer-linux-laptop/clevo-nl41cu.jpeg">
+
+The specs of this notebook are quite a bargain for **469€+**!
+
+- Portability: 14-inch display - battery up to 6 hours - 1.8kg
+- Storage: Max. 1x M.2 PCIe SSD
+- Graphics: Intel UHD Graphics 620
+- CPU: Intel Core i3, i5 or i7 - Max. 32GB memory
+
+I'm really thinking about getting one of these!
 
 # Dell
 
