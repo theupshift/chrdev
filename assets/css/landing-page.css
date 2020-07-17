@@ -18,16 +18,9 @@ h6 {
   font-weight: 700;
 }
 
-.masthead-bg {
-  background-image: url(/assets/images/balls.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-}
 
 header.masthead {
   position: relative;
-  /* background-color: #343a40; */
-  /* background: url("/assets/images/bg-landing-masthead.jpg") no-repeat center center; */
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;

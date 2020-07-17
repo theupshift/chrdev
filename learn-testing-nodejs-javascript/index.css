@@ -13,12 +13,8 @@ form.secondary {
     padding: 0;
 }
 
-.block-input {
-    max-width: 33em;
-    margin: 0 auto;
-    display: block;
-}
-.contained {
-    max-width: 33em;
-    margin: 1em auto;
+.masthead-bg {
+    background-image: url(/assets/images/learn-testing/green-checkmark-round.png);
+    background-size: auto;
+    background-repeat: no-repeat;
 }

@@ -55,6 +55,11 @@
   <!-- Custom styles for this template -->
   <link href="/assets/css/landing-page.css" rel="stylesheet">
 
+  {% if page.data.css %}
+    {% for pageCSS in page.data.css %}
+      <link rel="stylesheet" href="{{ pageCSS }}">
+    {% endfor %}
+  {% endif %}
 </head>
 
 <body>
