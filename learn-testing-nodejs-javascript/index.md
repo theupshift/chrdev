@@ -10,7 +10,8 @@ css:
 
 {% block cta %}
 <div class="col-xl-9 mx-auto" id="cta">
-  <h2 class="no-anchor mb-4">Ready to get started? Sign up now!</h2>
+  <h2 class="no-anchor mb-4">Ready to get started?</h2>
+  <h3 class="no-anchor">Preorder or sign up to stay informed once it's ready!</h3>
 </div>
 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
   <form
@@ -34,38 +35,9 @@ css:
 
 {% block masthead %}
 <div class="row masthead-bg">
-  <div class="col-xl-3 mx-auto mb-5 tal d-none d-xl-block">
-    <img src="/assets/images/learn-testing/green-checkmark-round-opaque.png" />
-  </div>
-  <div class="col-md-12 col-xl-9 mx-auto mb-5 tal">
-    <h1 class="no-anchor" style="font-size:6em;">
-      Learn Testing
-    </h1>
-    <h2 class="no-anchor" style="font-size: 3em;">
-      with Node.js
-    </h2>
-    <h3 class="tar">
-      <span class="with-chris">by <a href="https://twitter.com/christian_fei">Chris <img class="logo vam no-shadow" src="/assets/images/cf4.64x64.webp" alt=""></a></span>
-    </h3>
-  </div>
   <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mb-5">
-    <h2 class="title no-anchor">Launching soon! 🚀</h2>
-    <form
-      action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
-      method="post"
-      class="embeddable-buttondown-form"
-    >
-      <div class="form-row">
-        <div class="col-12 col-md-9 mb-2 mb-md-0">
-          <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Subscribe to the newsletter to stay in the know">
-        </div>
-        <div class="col-12 col-md-3">
-          <input type="hidden" value="1" name="embed"></input>
-          <input type="submit" value="Sign up!" class="btn btn-block btn-lg btn-primary"></input>
-          <input type="hidden" name="tag" value="testing"></input>
-        </div>
-      </div>
-    </form>
+    <script src="https://gumroad.com/js/gumroad-embed.js"></script>
+    <div class="gumroad-product-embed" data-gumroad-product-id="RJkra"><a href="https://gumroad.com/l/RJkra">Loading...</a></div>
   </div>
   <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mb-5">
     <p style="font-size: 1.5em;">
