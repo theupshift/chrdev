@@ -9,7 +9,7 @@ css:
 ---
 
 {% block cta %}
-<div class="col-xl-9 mx-auto">
+<div class="col-xl-9 mx-auto" id="cta">
   <h2 class="no-anchor mb-4">Ready to get started? Sign up now!</h2>
 </div>
 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -128,6 +128,9 @@ css:
     <div class="col-md-3 p-5 learn">npm package deploy pipeline</div>
     <div class="col-md-3 p-5 learn">Bonus on express & fastify API testing</div>
     <div class="col-md-3 p-5 learn">and more!</div>
+  </div>
+  <div class="mx-auto">
+    <h1 class="display-4 no-anchor"><a href="#cta">Sign up&nbsp;👇</a></h1>
   </div>
 </div>
 {% endblock%}
