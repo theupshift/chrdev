@@ -34,14 +34,19 @@ css:
 
 {% block masthead %}
 <div class="row masthead-bg">
-  <div class="col-xl-9 mx-auto mb-5">
-    <h1 class="no-anchor">
+  <div class="col-xl-3 mx-auto mb-5 tal d-none d-xl-block">
+    <img src="/assets/images/learn-testing/green-checkmark-round-opaque.png" />
+  </div>
+  <div class="col-md-12 col-xl-9 mx-auto mb-5 tal">
+    <h1 class="no-anchor" style="font-size:6em;">
       Learn Testing
-      <span class="with-chris">with <a href="https://twitter.com/christian_fei">Chris <img class="logo vam no-shadow" src="/assets/images/cf4.64x64.webp" alt=""></a></span>
     </h1>
-    <h2 class="no-anchor">
-      using Node.js & JavaScript
+    <h2 class="no-anchor" style="font-size: 3em;">
+      with Node.js
     </h2>
+    <h3 class="tar">
+      <span class="with-chris">by <a href="https://twitter.com/christian_fei">Chris <img class="logo vam no-shadow" src="/assets/images/cf4.64x64.webp" alt=""></a></span>
+    </h3>
   </div>
   <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mb-5">
     <form
