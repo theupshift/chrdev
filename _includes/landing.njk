@@ -73,7 +73,7 @@
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead text-white1 text-center">
+  <header class="masthead text-white1 text-center {% if page.data.compact %} compact {% endif %}" >
     {# <div class="overlay"></div> #}
     <div class="container">
       {% block masthead %}

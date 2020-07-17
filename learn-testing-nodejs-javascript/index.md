@@ -6,6 +6,7 @@ canonical: https://cri.dev/learn-testing-nodejs-javascript/
 image: /assets/images/learn-testing/learn-testing-cover.png
 css:
   - /learn-testing-nodejs-javascript/index.css
+compact: true
 ---
 
 {% block cta %}
@@ -37,7 +38,7 @@ css:
 <div class="row masthead-bg">
   <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mb-5">
     <script src="https://gumroad.com/js/gumroad-embed.js"></script>
-    <div class="gumroad-product-embed" data-gumroad-product-id="RJkra"><a href="https://gumroad.com/l/RJkra">Loading...</a></div>
+    <div class="gumroad-product-embed" data-gumroad-product-id="RJkra" data-outbound-embed="true"><a href="https://gumroad.com/l/RJkra">Loading...</a></div>
   </div>
   <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mb-5">
     <p style="font-size: 1.5em;">
