@@ -49,6 +49,7 @@ css:
     </h3>
   </div>
   <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mb-5">
+    <h2 class="title no-anchor">Launching soon! 🚀</h2>
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
       method="post"
@@ -56,7 +57,7 @@ css:
     >
       <div class="form-row">
         <div class="col-12 col-md-9 mb-2 mb-md-0">
-          <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Enter your email to be notified 🚀">
+          <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Subscribe to the newsletter to stay in the know">
         </div>
         <div class="col-12 col-md-3">
           <input type="hidden" value="1" name="embed"></input>
@@ -111,6 +112,22 @@ css:
       <h3 class="no-anchor">Easy to follow</h3>
       <p class="lead mb-0">Step by step examples and explanation&nbsp;🐶</p>
     </div>
+  </div>
+</div>
+<div id="benefits">
+  <h1 class="no-anchor mt-5 mb-5">What you'll learn&nbsp;🤓</h1>
+  <div class="row">
+    <div class="col-md-3 p-5 learn">Writing your first Test</div>
+    <div class="col-md-3 p-5 learn">Test Driven Design</div>
+    <div class="col-md-3 p-5 learn">Simple Design</div>
+    <div class="col-md-3 p-5 learn">Clean Code</div>
+    <div class="col-md-3 p-5 learn">Integration Tests</div>
+    <div class="col-md-3 p-5 learn">Unit Tests</div>
+    <div class="col-md-3 p-5 learn">User Acceptance Tests</div>
+    <div class="col-md-3 p-5 learn">Continuous Integration</div>
+    <div class="col-md-3 p-5 learn">npm package deploy pipeline</div>
+    <div class="col-md-3 p-5 learn">Bonus on express & fastify API testing</div>
+    <div class="col-md-3 p-5 learn">and more!</div>
   </div>
 </div>
 {% endblock%}
