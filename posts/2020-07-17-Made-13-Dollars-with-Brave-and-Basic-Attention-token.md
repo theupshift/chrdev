@@ -5,6 +5,7 @@ layout: post.njk
 tags:
   - post
   - crypto
+image: /assets/images/posts/bat.png
 ---
 
 After using Brave for almost a year, I can extract some stats from its usage over time:
