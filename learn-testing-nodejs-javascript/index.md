@@ -12,7 +12,10 @@ compact: true
 {% block cta %}
 <div class="col-xl-9 mx-auto" id="cta">
   <h2 class="no-anchor mb-4">Ready to get started?</h2>
-  <h3 class="no-anchor">Preorder or sign up to stay informed once it's ready!</h3>
+  <h3 class="no-anchor">
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <a class="gumroad-button" href="https://gum.co/RJkra" target="_blank">Preorder</a>
+   or sign up to stay informed once it's ready!</h3>
 </div>
 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
   <form
