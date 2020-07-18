@@ -4,6 +4,7 @@ date: 2020-07-17
 layout: post.njk
 tags:
   - post
+  - featured
   - crypto
 image: /assets/images/posts/bat.png
 ---
