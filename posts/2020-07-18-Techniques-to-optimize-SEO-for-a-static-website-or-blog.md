@@ -19,7 +19,7 @@ Over the past 10 years, I've made some mistakes and also took home some knowledg
 
 Below I've compiled a list of techniques and code-snippets that I personally use (hint: `view-source`) to optimize for organic website traffic and SEO.
 
-To make your content more **enjoyable by users** (social media sharing, rss, search results) and **descriptive to machines** (SEO).
+To make your content more **enjoyable by users** (social media sharing, RSS, search results) and **descriptive to machines** (SEO).
 
 ---
 
@@ -49,7 +49,31 @@ using [devblog](https://github.com/christian-fei/devblog) (related [article](/po
 
 [schema.org article markup](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/post.njk#L5) to describe parts of the article (title, author, date etc.)
 
-# More in depth
+# Table of contents
+
+- [The head tag](#the-head-tag)
+  - [HTML5 (of course)](#html5-of-course)
+  - [Open Graph protocol](#open-graph-protocol)
+  - [utf-8](#utf-8)
+  - [the title tag](#the-title-tag)
+  - [meta[name="description"]](#metanamedescription)
+  - [feed the robots](#feed-the-robots)
+  - [canonical url](#canonical-url)
+  - [DNS preconnect](#dns-preconnect)
+  - [Google Site Verification](#google-site-verification)
+  - [RSS](#rss)
+  - [Responsive tags and others](#responsive-tags-and-others)
+  - [Web App meta tags](#web-app-meta-tags)
+  - [meta[name="author"]](#metanameauthor)
+  - [meta[name="keywords"]](#metanamekeywords)
+  - [Icons](#icons)
+  - [schema.org data](#schemaorg-data)
+  - [Inline CSS and PageSpeed score](#inline-css-and-pagespeed-score)
+  - [Social Media Fluff](#social-media-fluff)
+  - [Twitter meta tags](#twitter-meta-tags)
+  - [Open Graph and Facebook](#open-graph-and-facebook)
+- [Schema.org meta data for articles](#schemaorg-meta-data-for-articles)
+- [Google WebMasters & Google search console](#google-webmasters-google-search-console)
 
 ## The head tag
 
@@ -179,6 +203,7 @@ It doesn't hurt if you include it:
 ```html
 <meta name="keywords" content="Christian Fei,developer,programming,javascript,full-stack" />
 ```
+
 ### Icons
 
 ```html
@@ -216,6 +241,7 @@ This is the one I use:
 }
 </script>
 ```
+
 ### Inline CSS and PageSpeed score
 
 out of many other techniques to optimize [your PageSpeed score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fcri.dev%2F&tab=desktop)
@@ -228,10 +254,22 @@ also optimize your images with [`ucompress`](/posts/2020-05-03-Using-ucompress-t
 <style>{% raw %}{{ style | cssmin | safe }}{% endraw %}</style>
 ```
 
+### manifest.json aka Web App Manifest
 
-## Social Media Fluff
+Learn about it on [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json)
 
-### Twitter meta tags
+More on [Web App Manifest](https://web.dev/add-manifest/#:~:text=The%20web%20app%20manifest%20is,when%20the%20app%20is%20launched.)
+
+```html
+<link rel="manifest" href="/manifest.json">
+```
+
+Mine can be found [on GitHub](https://github.com/christian-fei/christian-fei.github.io/blob/master/manifest.json)
+
+
+### Social Media Fluff
+
+#### Twitter meta tags
 
 define stuff lilke your handle, who wrote this piece, the preview size on twitter etc
 
@@ -245,7 +283,7 @@ define stuff lilke your handle, who wrote this piece, the preview size on twitte
 <meta name="twitter:title" content="...">
 ```
 
-### Open Graph and Facebook
+#### Open Graph and Facebook
 
 Using the `og:` meta tags you define in the same way the content as above essentially, using different tags..
 
@@ -258,3 +296,44 @@ Using the `og:` meta tags you define in the same way the content as above essent
 <meta property="og:site_name" content="cri.dev" />
 <meta property="article:modified_time" content="2020-07-18T08:33:43.525Z" />
 ```
+
+## Schema.org meta data for articles
+
+You can add more information to a blog post using [Schema.org attributes](https://schema.org/Article).
+
+For example (see [post.njk](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/post.njk)):
+
+```html
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 itemprop="name headline" class="title">...</h1>
+```
+
+Specify a time when you wrote this article
+
+```html
+<time datetime="[2020-07-18]" itemprop="datePublished">2020-07-18</time>
+```
+
+Define the content of the article
+
+```html
+<div itemprop="articleBody">...</div>
+```
+
+## Google WebMasters & Google search console
+
+Sign up to [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en) to improve your performance on Google Search.
+
+Follow the easy to use process and start crawling your site with your `sitemap.xml` or `rss.xml`.
+
+Regularly check the Performance of your domain property under the "Performance" tab.
+
+Use this information to optimize for content that is not correctly readable by the Google Bot.
+
+---
+
+These are all the tricks I have to share!
+
+I hope you found it useful and managed to see some improvements with the SEO of your site.
+
+Let's stay in touch: [@christian_fei](https://twitter.com/christian_fei)
