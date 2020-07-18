@@ -27,14 +27,13 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           npm run deploy-with-assets
-      # - name: purge
-      #   env:
-      #     CF_API_KEY: ${{ secrets.CF_API_KEY }}
-      #     CF_ZONE: ${{ secrets.CF_ZONE }}
-      #     CF_EMAIL: ${{ secrets.CF_EMAIL }}
-      #     CF_DOMAIN: ${{ secrets.CF_DOMAIN }}
-      #   run: |
-      #     npm run purge
+      - name: purge
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          CF_ZONE: ${{ secrets.CF_ZONE }}
+          CF_DOMAIN: ${{ secrets.CF_DOMAIN }}
+        run: |
+          npm run purge
       - uses: christian-fei/github-action-send-telegram-message@master
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
