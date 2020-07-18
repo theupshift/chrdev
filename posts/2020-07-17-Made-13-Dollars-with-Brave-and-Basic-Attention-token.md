@@ -33,7 +33,7 @@ Not too bad. I didn't expect much from BAT and Brave Rewards, but it's still som
 
 Still better than the shady crypto faucets 😄
 
-To learn more about Brave Rewards, visit [brave.com/brave-rewards/](https://brave.com/brave-rewards/)
+To learn more about Brave Rewards, visit [brave.com/brave-rewards/](https://brave.com/brave-rewards/?ref=gyg242)
 
 ---
 
