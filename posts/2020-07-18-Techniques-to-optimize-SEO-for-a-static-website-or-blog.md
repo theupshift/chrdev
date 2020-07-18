@@ -21,6 +21,8 @@ Below I've compiled a list of techniques and code-snippets that I personally use
 
 To make your content more **enjoyable by users** (social media sharing, RSS, search results) and **descriptive to machines** (SEO).
 
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
+
 ---
 
 The techiques are more related to code.
@@ -49,7 +51,12 @@ using [devblog](https://github.com/christian-fei/devblog) (related [article](/po
 
 [schema.org article markup](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/post.njk#L5) to describe parts of the article (title, author, date etc.)
 
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
+
+
 # Table of contents
+
+[Read all about it in the ebook format](https://gumroad.com/products/yUhsLz)
 
 - [The head tag](#the-head-tag)
   - [HTML5 (of course)](#html5-of-course)
@@ -74,6 +81,8 @@ using [devblog](https://github.com/christian-fei/devblog) (related [article](/po
   - [Open Graph and Facebook](#open-graph-and-facebook)
 - [Schema.org meta data for articles](#schemaorg-meta-data-for-articles)
 - [Google WebMasters & Google search console](#google-webmasters-google-search-console)
+
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
 
 ## The head tag
 
@@ -101,6 +110,9 @@ add a descriptive title to your web pages. for consistency, I add `- News from C
 <title>... - News from Chris</title>
 ```
 
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
+
+
 ### meta[name="description"]
 
 define a description for the page.
@@ -125,13 +137,6 @@ helps your website to be crawled by robots
 <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 ```
 
-### canonical url
-
-more about that on [yoast.com](https://yoast.com/what-is-a-canonical-url/)
-
-```html
-<link rel="canonical" href="...">
-```
 
 ### DNS preconnect
 
@@ -152,16 +157,6 @@ For example if you have a script or stylesheet loaded from a CDN or images from 
 <meta name="google-site-verification" content="..." />
 ```
 
-### RSS
-
-Define where the RSS feed is located.
-
-I create [mine](https://github.com/christian-fei/christian-fei.github.io/blob/master/rss.md) using [devblog](https://github.com/christian-fei/devblog)
-
-```html
-<link rel="alternate" type="application/rss+xml" title="cri.dev" href="https://cri.dev/rss.xml">
-```
-
 
 ### Responsive tags and others
 
@@ -173,17 +168,6 @@ Tell the browser how to scale and handle your content:
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
-```
-
-### Web App meta tags
-
-To be able to save your website as an "app" on your mobile device and define the looks of it:
-
-```html
-<meta name="apple-mobile-web-app-title" content="christian fei">
-<meta name="theme-color" content="#FFFFFF">
-<meta name="msapplication-navbutton-color" content="#FFFFFF">
-<meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
 ```
 
 ### meta[name="author"]
@@ -204,83 +188,37 @@ It doesn't hurt if you include it:
 <meta name="keywords" content="Christian Fei,developer,programming,javascript,full-stack" />
 ```
 
-### Icons
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
 
-```html
-<link rel="shortcut icon" type="image/png" href="https://cri.dev/assets/images/cf4.64x64.png"/>
-<link rel="apple-touch-icon" href="https://cri.dev/assets/images/cf4.64x64.png">
-```
+More in the book about:
 
-### schema.org data
+- canonical url
 
-[Use JSON-LD to add schema.org data to your website](https://yoast.com/json-ld/)
+- RSS
 
-This is the one I use:
+- Icons
 
-```html
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "image": "...",
-  "author": {
-    "@type": "Person",
-    "name": "Christian Fei"
-  },
-  "headline": "...",
-  "description": "...",
-  "datePublished": "2020-07-05",
-  "publisher": {
-    "@type": "Organization",
-    "name": "cri.dev",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cri.dev/assets/images/cf4.webp"
-    }
-  }
-}
-</script>
-```
+- schema.org data
 
-### Inline CSS and PageSpeed score
+- Inline CSS and PageSpeed score
 
-out of many other techniques to optimize [your PageSpeed score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fcri.dev%2F&tab=desktop)
+- manifest.json aka Web App Manifest
 
-also optimize your images with [`ucompress`](/posts/2020-05-03-Using-ucompress-to-dramatically-optimize-static-assets/) and [`ImageMagick`](https://imagemagick.org/).
-
-[lazy load images](/posts/2020-02-05-Lazy-loading-images-in-2020/) and other techniques.
-
-```html
-<style>{% raw %}{{ style | cssmin | safe }}{% endraw %}</style>
-```
-
-### manifest.json aka Web App Manifest
-
-Learn about it on [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json)
-
-More on [Web App Manifest](https://web.dev/add-manifest/#:~:text=The%20web%20app%20manifest%20is,when%20the%20app%20is%20launched.)
-
-```html
-<link rel="manifest" href="/manifest.json">
-```
-
-Mine can be found [on GitHub](https://github.com/christian-fei/christian-fei.github.io/blob/master/manifest.json)
+- Web App meta tags
 
 
 ### Social Media Fluff
 
 #### Twitter meta tags
 
-define stuff lilke your handle, who wrote this piece, the preview size on twitter etc
+define stuff like your handle, who wrote this piece, the preview size on twitter etc
 
 ```html
 <meta name="twitter:site" content="@christian_fei">
 <meta name="twitter:domain" content="cri.dev">
 <meta name="twitter:creator" content="@christian_fei">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="...">
-<meta name="twitter:description" content="...">
-<meta name="twitter:title" content="...">
+... read more in the ebook
 ```
 
 #### Open Graph and Facebook
@@ -290,50 +228,29 @@ Using the `og:` meta tags you define in the same way the content as above essent
 ```html
 <meta property="og:locale" content="en_US" />
 <meta property="og:title" content="..." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="..." />
-<meta property="og:description" content="..." />
-<meta property="og:site_name" content="cri.dev" />
-<meta property="article:modified_time" content="2020-07-18T08:33:43.525Z" />
+... read more in the ebook
 ```
 
-## Schema.org meta data for articles
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
 
-You can add more information to a blog post using [Schema.org attributes](https://schema.org/Article).
+More in the book about:
 
-For example (see [post.njk](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/post.njk)):
+- Schema.org meta data for articles
 
-```html
-<article itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 itemprop="name headline" class="title">...</h1>
-```
-
-Specify a time when you wrote this article
-
-```html
-<time datetime="[2020-07-18]" itemprop="datePublished">2020-07-18</time>
-```
-
-Define the content of the article
-
-```html
-<div itemprop="articleBody">...</div>
-```
-
-## Google WebMasters & Google search console
-
-Sign up to [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en) to improve your performance on Google Search.
-
-Follow the easy to use process and start crawling your site with your `sitemap.xml` or `rss.xml`.
-
-Regularly check the Performance of your domain property under the "Performance" tab.
-
-Use this information to optimize for content that is not correctly readable by the Google Bot.
+- Google WebMasters & Google search console
 
 ---
 
 These are all the tricks I have to share!
 
+
+### [I have compiled all of them in a ebook format](https://gumroad.com/products/yUhsLz)
+
 I hope you found it useful and managed to see some improvements with the SEO of your site.
 
 Let's stay in touch: [@christian_fei](https://twitter.com/christian_fei)
+
+<script src="https://gumroad.com/js/gumroad-embed.js"></script>
+<div class="gumroad-product-embed" data-gumroad-product-id="yUhsLz"><a href="https://gumroad.com/l/yUhsLz">Loading...</a></div>
+
+<script src="https://gumroad.com/js/gumroad.js"></script>
