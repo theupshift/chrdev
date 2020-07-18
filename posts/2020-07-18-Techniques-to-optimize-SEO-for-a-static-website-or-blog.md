@@ -51,7 +51,9 @@ using [devblog](https://github.com/christian-fei/devblog) (related [article](/po
 
 [schema.org article markup](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/post.njk#L5) to describe parts of the article (title, author, date etc.)
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
+**Read more techniques in the book**:
+
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
 
 
 # Table of contents
@@ -82,7 +84,9 @@ using [devblog](https://github.com/christian-fei/devblog) (related [article](/po
 - [Schema.org meta data for articles](#schemaorg-meta-data-for-articles)
 - [Google WebMasters & Google search console](#google-webmasters-google-search-console)
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
+**Read more techniques in the book**:
+
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
 
 ## The head tag
 
@@ -110,7 +114,9 @@ add a descriptive title to your web pages. for consistency, I add `- News from C
 <title>... - News from Chris</title>
 ```
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
+**Read more techniques in the book**:
+
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
 
 
 ### meta[name="description"]
@@ -188,9 +194,11 @@ It doesn't hurt if you include it:
 <meta name="keywords" content="Christian Fei,developer,programming,javascript,full-stack" />
 ```
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
+**Read more techniques in the book**:
 
-More in the book about:
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
+
+Learn about topics like
 
 - canonical url
 
@@ -231,7 +239,9 @@ Using the `og:` meta tags you define in the same way the content as above essent
 ... read more in the ebook
 ```
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a> to read all chapters
+**Read more techniques in the book**:
+
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
 
 More in the book about:
 
