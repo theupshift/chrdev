@@ -1,4 +1,4 @@
 {
-  "blacklistHosts": ["*.google-analytics.com", "*.plausible.io"],
+  "blacklistHosts": ["*.google-analytics.com", "*.plausible.io", "plausible.cri.dev"],
   "video": false
 }
