@@ -99,7 +99,7 @@ article .title {
   }
   #side-content.show {
     display: block;
-    opacity: 0.8;
+    opacity: 0.4;
     position: fixed;
     top: 40%;
     left: calc(50% - 37em);
