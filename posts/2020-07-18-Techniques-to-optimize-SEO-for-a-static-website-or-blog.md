@@ -65,7 +65,7 @@ using [devblog](https://github.com/christian-fei/devblog) (related [article](/po
   - [Open Graph protocol](#open-graph-protocol)
   - [utf-8](#utf-8)
   - [the title tag](#the-title-tag)
-  - [meta[name="description"]](#metanamedescription)
+  - [meta tag "description"](#meta-tag-description)
   - [feed the robots](#feed-the-robots)
   - [canonical url](#canonical-url)
   - [DNS preconnect](#dns-preconnect)
@@ -73,8 +73,8 @@ using [devblog](https://github.com/christian-fei/devblog) (related [article](/po
   - [RSS](#rss)
   - [Responsive tags and others](#responsive-tags-and-others)
   - [Web App meta tags](#web-app-meta-tags)
-  - [meta[name="author"]](#metanameauthor)
-  - [meta[name="keywords"]](#metanamekeywords)
+  - [meta tag "author"](#meta-tag-author)
+  - [meta tag "keywords"](#meta-tag-keywords)
   - [Icons](#icons)
   - [schema.org data](#schemaorg-data)
   - [Inline CSS and PageSpeed score](#inline-css-and-pagespeed-score)
@@ -119,7 +119,7 @@ add a descriptive title to your web pages. for consistency, I add `- News from C
 <a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
 
 
-### meta[name="description"]
+### meta tag "description"
 
 define a description for the page.
 
@@ -176,7 +176,7 @@ Tell the browser how to scale and handle your content:
 <meta name="MobileOptimized" content="320">
 ```
 
-### meta[name="author"]
+### meta tag "author"
 
 describe the author of this document
 
@@ -184,7 +184,7 @@ describe the author of this document
 <meta name="author" content="Christian Fei">
 ```
 
-### meta[name="keywords"]
+### meta tag "keywords"
 
 I think I read somewhere that spiders ignore this tag completely or give it very little relevance, due to its abusive past.
 
