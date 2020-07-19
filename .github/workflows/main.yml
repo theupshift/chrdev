@@ -20,7 +20,9 @@ jobs:
         run: |
           npx feed-validator  http://127.0.0.1:8080/rss.xml
       - name: uat
-        uses: cypress-io/github-action@v1
+        uses: cypress-io/github-action@v2
+        with:
+          record: false
         with:
           record: true
           group: Tests on Node v${{ matrix.node }}
