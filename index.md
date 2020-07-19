@@ -4,7 +4,7 @@ title: Home
 ---
 
 {% block content %}
-<div class="flex">
+<div class="flex pad">
   <div class="">
     <h1 class="no-anchor no-mt"><b>Hi!</b> 👋</h1>
     <p>My name is Christian, <b>cri</b> for short</p>
@@ -26,17 +26,7 @@ title: Home
     </div>
   </div>
 </div>
-<!--
-<div>
-  <p>
-    <b>Support me</b> through my <a href="https://github.com/sponsors/christian-fei" class="track-home-github-sponsors">GitHub Sponsors page ✌️</a>
-  </p>
-  <p>
-    See a <b>data visualization</b> of my <a href="/contributions" class="track-home-github-contributions">GitHub contributions 📈</a> over the years
-  </p>
-</div>
--->
-<div>
+<div class="pad">
   {% include 'subscribe-to-newsletter-slim.html' %}
 </div>
 {% endblock %}
