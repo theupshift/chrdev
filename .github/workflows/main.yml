@@ -23,7 +23,6 @@ jobs:
         uses: cypress-io/github-action@v1
         with:
           record: false
-          id: cypress
           group: Tests on Node v${{ matrix.node }}
           cache-key: node-v${{ matrix.node }}-on-${{ runner.os }}-hash-${{ hashFiles('package-lock.json') }}
       - name: deploy
