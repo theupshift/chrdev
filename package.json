@@ -19,7 +19,6 @@
     "compress": "ucompress --source _site/assets/ --dest _site/assets",
     "purge": "./scripts/purge",
     "deploy": "./scripts/deploy",
-    "deploy-sync": "./scripts/deploy.sync",
     "deploy-with-assets": "./scripts/deploy.with-assets",
     "start": "http-server _site 8080",
     "buttondown-analytics": "node scripts/buttondown-analytics",
