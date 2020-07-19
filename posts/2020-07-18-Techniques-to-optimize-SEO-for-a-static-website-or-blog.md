@@ -8,7 +8,7 @@ tags:
   - tutorial
   - blog
   - seo
-image: https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
+image: https://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
 > To be found, you need to describe yourself well to computers
@@ -21,17 +21,11 @@ Below I've compiled a list of techniques and code-snippets that I personally use
 
 To make your content more **enjoyable by users** (social media sharing, RSS, search results) and **descriptive to machines** (SEO).
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
-
----
-
-The techiques are more related to code.
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEOhttps://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 
 Don't expect the latest growth hack or marketing technique.
 
-But do let me know on Twitter [@christian_fei](https://twitter.com/christian_fei)
-
-**Read more techniques in the book**:
+But do let me know on Twitter [@christian_fei](https://twitterhttps://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 
 <a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
@@ -42,8 +36,7 @@ But do let me know on Twitter [@christian_fei](https://twitter.com/christian_fei
 
 - [The head tag](#the-head-tag)
   - [HTML5 (of course)](#html5-of-course)
-  - [Open Graph protocol](#open-graph-protocol)
-  - [utf-8](#utf-8)
+  - [Open Graph protocol](#openhttps://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
   - [the title tag](#the-title-tag)
   - [meta tag "description"](#meta-tag-description)
   - [feed the robots](#feed-the-robots)
@@ -83,10 +76,7 @@ to your `<html>` attach the attribute `prefix="og:http://ogp.me/ns#"` to announc
 specifies the document's character encoding
 
 ```html
-<meta charset="utf-8">
-```
-
-### the title tag
+<meta charset="https://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 
 add a descriptive title to your web pages. for consistency, I add `- News from Chris`
 
@@ -105,8 +95,7 @@ define a description for the page.
 
 It could be an excerpt of the blog post.
 
-Or a default description like this one
-
+Or a https://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ```html
 <meta name="description" content="A blog about agile, programming, clean code, testing, javascript">
 ```
@@ -182,11 +171,7 @@ Learn about topics like
 
 - canonical url
 
-- RSS
-
-- Icons
-
-- schema.org data
+https://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 
 - Inline CSS and PageSpeed score
 
@@ -227,11 +212,7 @@ More in the book about:
 
 - Schema.org meta data for articles
 
-- Google WebMasters & Google search console
-
----
-
-These are all the tricks I have to share!
+- Google WebMasters & https://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 
 
 ### [I have compiled all of them in a ebook format](https://gumroad.com/products/yUhsLz)
