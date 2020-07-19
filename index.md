@@ -23,9 +23,9 @@ title: Home
 </div>
 <div class="flex full">
   <div class="">
-    <p><a href="/subscribe/" class="track-home-subscribe-newsletter"> 👉&nbsp;Subscribe to my newsletter</a></p>
     <p><a href="/learn-testing-nodejs-javascript/" class="track-home-learn-testing-nodejs-javascript">✅&nbsp;Learn Testing with Node.js & JavaScript</a></p>
     <p><a href="https://gumroad.com/l/yUhsLz" class="track-home-gumroad-techniques-seo">🚀&nbsp;Get a copy of "Techniques to improve SEO"</a></p>
+    <p><a href="/subscribe/" class="track-home-subscribe-newsletter"> 👉&nbsp;Subscribe to my newsletter</a></p>
   </div>
 </div>
 <div class="">
