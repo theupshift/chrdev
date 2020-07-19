@@ -21,12 +21,7 @@
           {{ content | words }} words - {{ content | readingTime }} 🕜
         </p>
       </div>
-      <div class="pad tac">
-        <p>
-          <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
-            <i class="icon icon-envelop"></i>&nbsp;Get news like this in your mail!
-          </a>
-        </p>
+      <div class="pad tal">
         <p>
           <a href="/about">
             <img class="avatar-image tac" alt="me with sunglasses" style="max-width: 64px; border-radius: 50%;vertical-align: super;" lazy="/assets/images/cf4.64x64.webp"/>
@@ -60,29 +55,36 @@
 
   <div class="main-content" itemprop="articleBody">{{ content | safe }}</div>
 
-  {% include 'snippets/tweet-this-big.html' %}
+  <div class="tac mt3">
+    {% include 'snippets/tweet-this.html' %}
+  </div>
 
-  {% include 'subscribe-to-newsletter.html' %}
+  <div class="pad mt3">
+    <div class="flex">
+      <a href="/learn-testing-nodejs-javascript/" class="pad tac track-post-side-learn-testing-nodejs-javascript">✅&nbsp;Learn Testing with Node.js</a>
+      <a href="https://gumroad.com/l/yUhsLz" class="pad tac track-post-side-gumroad-techniques-seo">🚀&nbsp;Get a copy of "Techniques to improve SEO"</a>
+    </div>
+  </div>
+
+  <div class="mt3">
+    {% include 'subscribe-to-newsletter.html' %}
+  </div>
 </article>
 
 <aside id="side-content">
-<div class="promotion">
-  <a href="/learn-testing-nodejs-javascript/" class="track-post-side-learn-testing-nodejs-javascript">✅&nbsp;Learn Testing with Node.js</a>
-</div>
-<br>
-<div class="promotion">
-  <a href="https://gumroad.com/l/yUhsLz" class="track-post-side-gumroad-techniques-seo">🚀&nbsp;Get a copy of "Techniques to improve SEO"</a>
-</div>
 
 {% set tag %}{{ page.data.tags | mainTag }}{% endset %}
 {% if tag in ['marketing','nodejs','mongodb'] %}
-<br>
-<div class="related">
+<div class="related mt3">
   Browse <a class="track-post-side-related" href="/tags/{{ tag }}">{{ tag }}</a>
 </div>
 {% endif %}
-<br>
-{% include 'snippets/tweet-this.html' %}
+
+<div class="pad mt3">
+  {% include 'snippets/tweet-this.html' %}
+</div>
+
+
 </aside>
 
 
