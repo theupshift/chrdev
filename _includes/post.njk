@@ -8,10 +8,6 @@
   <header>
     <div class="flex">
       <div class="pad">
-        <p class="no-mobile">
-          <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}"><i class="icon icon-pencil"></i>&nbsp;Found a typo? Edit this page on GitHub</a>
-        </p>
-
         <p>
           Written on &nbsp; <b>
           <time datetime="{{ page.data.date | isoday }}" itemprop="datePublished">{{ page.data.date | isoday }}</time></b> {% if page.data.updated %}<br>(<i>last updated {{ page.data.updated | isoday }}</i>) {% endif %} by <span itemprop="author">cri</span>
@@ -24,23 +20,24 @@
         <p>
           {{ content | words }} words - {{ content | readingTime }} 🕜
         </p>
-
-        <p><a href="/learn-testing-nodejs-javascript/" class="track-post-learn-testing-nodejs-javascript">🚀&nbsp;Learn Testing with Node.js & JavaScript</a></p>
-        <p><a href="https://gumroad.com/l/yUhsLz" class="track-post-gumroad-techniques-seo">🚀&nbsp;Get a copy of "Techniques to improve SEO"</a></p>
       </div>
       <div class="pad tac">
+        <p>
+          <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
+            <i class="icon icon-envelop"></i>&nbsp;Get news like this in your mail!
+          </a>
+        </p>
         <p>
           <a href="/about">
             <img class="avatar-image tac" alt="me with sunglasses" style="max-width: 64px; border-radius: 50%;vertical-align: super;" lazy="/assets/images/cf4.64x64.webp"/>
             <a class="bg cta" href="https://twitter.com/christian_fei">@christian_fei</a>
           </a>
         </p>
-        <p>
-          <a class="dib cta" target="_blank" href="https://buttondown.email/christianfei">
-            <i class="icon icon-envelop"></i>&nbsp;Get news like this in your mail!
-          </a>
-        </p>
       </div>
+    </div>
+    <div class="flex">
+      <div class=""><a href="/learn-testing-nodejs-javascript/" class="track-post-learn-testing-nodejs-javascript">✅&nbsp;Learn Testing with Node.js & JavaScript</a></div>
+      <div class=""><a href="https://gumroad.com/l/yUhsLz" class="track-post-gumroad-techniques-seo">🚀&nbsp;Get a copy of "Techniques to improve SEO"</a></div>
     </div>
     {% if page.data.thanks %}
     <div>
@@ -70,7 +67,7 @@
 
 <aside id="side-content">
 <div class="promotion">
-  <a href="/learn-testing-nodejs-javascript/" class="track-post-side-learn-testing-nodejs-javascript">Learn Testing with Node.js&nbsp;🚀</a>
+  <a href="/learn-testing-nodejs-javascript/" class="track-post-side-learn-testing-nodejs-javascript">✅&nbsp;Learn Testing with Node.js</a>
 </div>
 <br>
 <div class="promotion">
