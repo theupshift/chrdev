@@ -2,8 +2,7 @@
 
 printf "\n🚀  deploy\n"
 printf "\n"
-aws s3 cp \
-  --recursive \
+aws s3 sync \
   --acl public-read \
   --region eu-central-1 \
   --exclude "assets/**.jpg" \
