@@ -52,8 +52,6 @@ blockquote { padding: 0.5em 0.125em; font-size: 1.1em; font-style: italic; }
 blockquote p { margin: 0; }
 
 .bg { background: #fe1 }
-.light { opacity: 0.5; }
-.light:hover { opacity: 1; }
 .tar {text-align: right;}
 .tdn {text-decoration: none;}
 .bg-white {
