@@ -1,5 +1,5 @@
 ---
-title: "Techniques to optimize SEO for a static website or blog"
+title: "Techniques to improve SEO for a static website or blog"
 date: 2020-07-18
 layout: post.njk
 tags:
@@ -17,11 +17,11 @@ SEO is as important as a good [mailing-list](/subscribe/) to reach your (potenti
 
 Over the past 10 years, I've made some mistakes and also took home some knowledge about SEO for [blogs](https://github.com/christian-fei/christian-fei.github.io) and [websites](https://productlistings.app/) and [landing pages](/learn-testing-nodejs-javascript/).
 
-Below I've compiled a list of techniques and code-snippets that I personally use (hint: `view-source`) to optimize for organic website traffic and SEO.
+Below I've compiled a list of techniques and code-snippets that I personally use (hint: `view-source`) to improve for organic website traffic and SEO.
 
 To make your content more **enjoyable by users** (social media sharing, RSS, search results) and **descriptive to machines** (SEO).
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 ---
 
@@ -33,7 +33,7 @@ But do let me know on Twitter [@christian_fei](https://twitter.com/christian_fei
 
 **Read more techniques in the book**:
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 
 # Table of contents
@@ -66,7 +66,7 @@ But do let me know on Twitter [@christian_fei](https://twitter.com/christian_fei
 
 **Read more techniques in the book**:
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 ## The head tag
 
@@ -96,7 +96,7 @@ add a descriptive title to your web pages. for consistency, I add `- News from C
 
 **Read more techniques in the book**:
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 
 ### meta tag "description"
@@ -176,7 +176,7 @@ It doesn't hurt if you include it:
 
 **Read more techniques in the book**:
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 Learn about topics like
 
@@ -221,7 +221,7 @@ Using the `og:` meta tags you define in the same way the content as above essent
 
 **Read more techniques in the book**:
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
+<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 More in the book about:
 
