@@ -72,18 +72,16 @@ function makeSearchable ($searchable) {
 
   function handleSearchKeyUp (e) {
     const searchTerm = e.target.value
-    const searchRegExp = new RegExp(searchTerm.replace(' ', '.*'), 'i')
-    const $searchableItems = [...($searchable.querySelectorAll('a,li,div') || [])]
-    if ($searchableItems.length > 200) $searchableItems.length = 200
-    const postTitles = $searchableItems.map($el => $el.innerText)
-    const noMatch = postTitles.filter(t => searchRegExp.test(t)).length === 0
+    const searchRegExp = new RegExp(searchTerm, 'i')
+    const $searchableItems = [...($searchable.querySelectorAll('.searchable-item') || [])]
+    if ($searchableItems.length > 500) $searchableItems.length = 500
 
-    $searchableItems.forEach(function ($postLi) {
-      const show = noMatch || !searchTerm || searchRegExp.test($postLi.innerText)
+    $searchableItems.forEach(function ($el) {
+      const show = !searchTerm || searchRegExp.test($el.innerText)
       if (!show) {
-        $postLi.style.display = 'none'
+        $el.style.display = 'none'
       } else {
-        $postLi.style.display = 'block'
+        $el.style.display = 'block'
       }
     })
     trackEvent('used search')
@@ -174,6 +172,7 @@ function processExternalLinks () {
     !el.getAttribute('rel') && el.setAttribute('rel', 'nofollow external')
   })
 }
+
 function addDarkmodeQueryToInternalLinks () {
   const internal = [...document.querySelectorAll(`a[href~='${window.location.hostname}'], a[href^='/']`)]
   internal.forEach(el => el.setAttribute('href', el.getAttribute('href') + '?dark'))

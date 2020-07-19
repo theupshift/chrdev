@@ -127,8 +127,9 @@
       </div>
     {% endif %}
 
-    {% include "snippets/featured.html" %}
-
+    {% if page.url !== '/archive/' %}
+      {% include "snippets/featured.html" %}
+    {% endif %}
     {% include "footer.html" %}
 
     <script async defer src="/assets/js/main.js" type="text/javascript"></script>
