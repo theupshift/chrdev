@@ -31,26 +31,6 @@ Don't expect the latest growth hack or marketing technique.
 
 But do let me know on Twitter [@christian_fei](https://twitter.com/christian_fei)
 
-# tldr;
-
-using [devblog](https://github.com/christian-fei/devblog) (related [article](/posts/2020-04-19-devblog-yet-another-static-site-generator-seriously/)) I can achieve the following:
-
-[full list](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/layout.njk#L3-L117) of meta tags and other "SEO tricks"
-
-[sitemap.xml](https://github.com/christian-fei/christian-fei.github.io/blob/master/sitemap.md) to define a structure for your website
-
-[robots.txt](https://github.com/christian-fei/christian-fei.github.io/blob/master/robots.txt) to be crawled properly
-
-[manifest.json](https://github.com/christian-fei/christian-fei.github.io/blob/master/manifest.json) i don't really know what it does
-
-[social media](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/layout.njk#L37-L58) twitter + facebook and generic meta tags
-
-[schema.org definition](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/layout.njk#L66-L87) markup for your website
-
-[inline css when possible](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/layout.njk#L90-L106) and other techniques help to improve [LightHouse score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fcri.dev%2F&tab=desktop)
-
-[schema.org article markup](https://github.com/christian-fei/christian-fei.github.io/blob/master/_includes/post.njk#L5) to describe parts of the article (title, author, date etc.)
-
 **Read more techniques in the book**:
 
 <a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to optimize SEO"</a>
