@@ -10,6 +10,9 @@ jobs:
       - name: install
         run: |
           npm install
+        with:
+          record: false
+          cache-key: node-v${{ matrix.node }}-on-${{ runner.os }}-hash-${{ hashFiles('package-lock.json') }}
       - name: build
         run: |
           npm run build
