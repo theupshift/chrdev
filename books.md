@@ -24,4 +24,18 @@ You can <a href="https://twitter.com/christian_fei" target="_blank">
   {% endfor %}
 </div>
 
+<style>
+.amazon-book-preview { max-width: 120px; }
+.book { min-width: 200px; height: 200px; }
+.book:nth-child(1) { background: azure; }
+.book:nth-child(2) { background: papayawhip; }
+.book:nth-child(3) { background: aliceblue; }
+.book:nth-child(4) { background: blanchedalmond; }
+.book:nth-child(5) { background: cornsilk; }
+.book:nth-child(6) { background: thistle; }
+.book:nth-child(7) { background: lavender; }
+.book:nth-child(8) { background: mintcream; }
+.book:nth-child(9) { background: snow; }
+</style>
+
 {% endblock %}

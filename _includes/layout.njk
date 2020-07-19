@@ -91,13 +91,10 @@
       {% include "css/style.typescale.css" %}
       {% include "css/style.typography.css" %}
       {% include "css/style.utils.css" %}
-      {% if page.url != '/posts/2020-05-07-Minimal-dark-mode-with-CSS-and-JavaScript/' %}
-        {% include "css/style.darkmode.css" %}
-      {% endif %}
+
       {% include "css/style.icons.css" %}
       {% include "css/style.newsletter.css" %}
       {% include "css/style.layout.css" %}
-      {% include "css/style.books.css" %}
       {% include "css/style.search.css" %}
       {% include "css/style.featured.css" %}
       {% include "css/style.articles.css" %}
@@ -119,7 +116,7 @@
     {% include "header.html" %}
 
     <main>
-      <section class="contain">
+      <section class="contain pad">
       {% block content %}{% endblock %}
       </section>
     </main>
