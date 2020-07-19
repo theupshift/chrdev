@@ -9,7 +9,7 @@ tags:
 image: /assets/images/posts/bat.png
 ---
 
-After using Brave for almost a year, I can extract some stats from its usage over time:
+After using [Brave](https://brave.com/?ref=gyg242) for almost a year, I can extract some stats from its usage over time:
 
 - 152,906 trackers blocked
 - 2,26GB of bandwidth saved
@@ -18,7 +18,7 @@ After using Brave for almost a year, I can extract some stats from its usage ove
 
 But more importantly, I made some bucks!
 
-In Brave browser you can opt-in to the Brave Rewards program, which enables a BAT (Basic Attention Token) Wallet where the funds will be stored.
+In Brave browser you can opt-in to the [Brave Rewards](https://brave.com/brave-rewards/?ref=gyg242) program, which enables a BAT (Basic Attention Token) Wallet where the funds will be stored.
 
 Through the third-party service [uphold.com](https://uphold.com/) you can manage those funds and withdraw them.
 
@@ -38,7 +38,7 @@ To learn more about Brave Rewards, visit [brave.com/brave-rewards/](https://brav
 
 ---
 
-Are you using Brave?
+Are you using [Brave](https://brave.com/?ref=gyg242)?
 
 Did you get something out of the Brave Rewards program?
 
