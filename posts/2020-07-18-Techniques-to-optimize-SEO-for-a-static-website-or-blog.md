@@ -21,16 +21,6 @@ Below I've compiled a list of techniques and code-snippets that I personally use
 
 To make your content more **enjoyable by users** (social media sharing, RSS, search results) and **descriptive to machines** (SEO).
 
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
-
----
-
-The techiques are more related to code.
-
-Don't expect the latest growth hack or marketing technique.
-
-But do let me know on Twitter [@christian_fei](https://twitter.com/christian_fei)
-
 **Read more techniques in the book**:
 
 <a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
