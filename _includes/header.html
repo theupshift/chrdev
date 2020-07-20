@@ -4,12 +4,17 @@
       cri.dev &nbsp; <img class="logo" src="/assets/images/cf4.64x64.webp" alt="">
     </a>
     <div class="nav-menu">
-      <a class="tac nav-item track-nav-posts no-mobile {% if page.url.includes('/learn-testing-nodejs-javascript') %} active {% endif %}"
-        href="/learn-testing-nodejs-javascript/">
-        Learn Testing&nbsp;🚀
-      </a>
-      <span class="nav-item">&nbsp;&nbsp;</span>
-
+      {% if page.url != '/' %}
+        <a class="tac nav-item track-nav-posts no-mobile"
+          href="https://gumroad.com/l/yUhsLz/">
+          Improve SEO&nbsp;🚀
+        </a>
+        <a class="tac nav-item track-nav-posts no-mobile {% if page.url.includes('/learn-testing-nodejs-javascript') %} active {% endif %}"
+          href="/learn-testing-nodejs-javascript/">
+          Learn Testing&nbsp;✅
+        </a>
+        <span class="nav-item">&nbsp;&nbsp;</span>
+      {% endif %}
       <a class="tac nav-item track-nav-about {% if page.url.includes('/about') %} active {% endif %}" href="/about/">
         About
       </a>
