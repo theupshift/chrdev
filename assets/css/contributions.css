@@ -30,7 +30,7 @@
   font-size: 0.7em;
 }
 .contributions-grid > div:hover {
-  background-color: #ff7c7c !important;
+  background-color: #6f6f6f !important;
 }
 .contributions-grid > div:hover::before {
   position: absolute;

@@ -11,7 +11,7 @@
 }
 .featured-post:hover {
   background-position: center;
-  border-bottom: 10px solid #ff7c7c;
+  border-bottom: 10px solid #6f6f6f;
   transform: scale(1.03) rotateZ(-1deg);
 }
 .featured-post .post-title {
