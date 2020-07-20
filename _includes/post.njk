@@ -61,8 +61,14 @@
 
   <div class="pad mt3">
     <div class="flex">
-      <a href="/learn-testing-nodejs-javascript/" class="pad tac track-post-end-learn-testing-nodejs-javascript">✅&nbsp;Learn Testing with Node.js</a>
-      <a href="https://gumroad.com/l/yUhsLz" class="pad tac track-post-end-gumroad-techniques-seo">🚀&nbsp;Get a copy of "Techniques to improve SEO"</a>
+      <a href="/learn-testing-nodejs-javascript/" class="pad tac track-post-end-learn-testing-nodejs-javascript">
+        ✅&nbsp;Learn Testing with Node.js
+        <img style="max-width: 300px;" lazy="/assets/images/learn-testing/learn-testing-cover-share.png" alt="Learn Testing with Node.js"/>
+      </a>
+      <a href="https://gumroad.com/l/yUhsLz" class="pad tac track-post-end-gumroad-techniques-seo">
+        🚀&nbsp;Get a copy of "Techniques to improve SEO"
+        <img style="max-width: 300px;" lazy="/assets/images/techniques-seo/techniques-seo-cover-share.png" alt="Get a copy of Techniques to improve SEO"/>
+      </a>
     </div>
   </div>
 
@@ -72,20 +78,16 @@
 </article>
 
 <aside id="side-content">
+  {% set tag %}{{ page.data.tags | mainTag }}{% endset %}
+  {% if tag in ['marketing','nodejs','mongodb'] %}
+  <div class="related mt3">
+    Browse <a class="track-post-side-related" href="/tags/{{ tag }}">{{ tag }}</a>
+  </div>
+  {% endif %}
 
-{% set tag %}{{ page.data.tags | mainTag }}{% endset %}
-{% if tag in ['marketing','nodejs','mongodb'] %}
-<div class="related mt3">
-  Browse <a class="track-post-side-related" href="/tags/{{ tag }}">{{ tag }}</a>
-</div>
-{% endif %}
-
-<div class="pad mt3">
-  {% include 'snippets/tweet-this.html' %}
-</div>
-
-
+  <div class="pad mt3">
+    {% include 'snippets/tweet-this.html' %}
+  </div>
 </aside>
-
 
 {% endblock %}
