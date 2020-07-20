@@ -79,7 +79,7 @@
 
 <aside id="side-content">
   {% set tag %}{{ page.data.tags | mainTag }}{% endset %}
-  {% if tag in ['marketing','nodejs','mongodb'] %}
+  {% if tag in ['nodejs','mongodb'] %}
   <div class="related mt3">
     Browse <a class="track-post-side-related" href="/tags/{{ tag }}">{{ tag }}</a>
   </div>
