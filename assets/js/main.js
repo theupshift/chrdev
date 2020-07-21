@@ -32,7 +32,7 @@ function main () {
   const $sideContent = document.querySelector('#side-content')
   if ($articleHeader && $sideContent) {
     document.addEventListener('scroll', () => {
-      if ($articleHeader.getBoundingClientRect().top < 0 && $article.getBoundingClientRect().bottom > window.innerHeight * 1.5) {
+      if ($articleHeader.getBoundingClientRect().top < 0 && $article.getBoundingClientRect().bottom > window.innerHeight * 0.8) {
         $sideContent.classList.add('show')
       } else {
         $sideContent.classList.remove('show')
