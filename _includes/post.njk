@@ -3,14 +3,17 @@
 {% block content %}
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 itemprop="name headline" class="title {% if page.data.image %} has-image {% endif %}"  {% if page.data.image %} itemprop="image" style="background-image: url('{{ page.data.image }}')"{% endif %}><span>{{ title }}</span></h1>
+  <h1 itemprop="name headline" class="title tac headline"><span>{{ title }}</span></h1>
+
+  {% if page.data.image %}
+  <img itemprop="image" src="{{ page.data.image }}" style="max-width: 35em;max-height: 20em;"/>
+  {% endif %}
 
   <header>
     <div class="flex">
-      <div class="pad">
+      <div class="pad tac">
         <p>
-          Written on &nbsp; <b>
-          <time datetime="{{ page.data.date | isoday }}" itemprop="datePublished">{{ page.data.date | isoday }}</time></b> {% if page.data.updated %}<br>(<i>last updated {{ page.data.updated | isoday }}</i>) {% endif %} by <span itemprop="author">cri</span>
+          Written on &nbsp;<time datetime="{{ page.data.date | isoday }}" itemprop="datePublished">{{ page.data.date | isoday }}</time> {% if page.data.updated %}<br>(<i>last updated {{ page.data.updated | isoday }}</i>) {% endif %} by <a href="/about/" itemprop="author">cri</a>
         </p>
 
         {% if page.data.hackernews %}
@@ -18,24 +21,12 @@
         {% endif %}
 
         <p>
-          {{ content | words }} words - {{ content | readingTime }} 🕜
+          {{ content | words }} words &middot; {{ content | readingTime }}
         </p>
       </div>
-      <div class="pad tal">
-        <p>
-          <a href="/about">
-            <img class="avatar-image tac" alt="me with sunglasses" style="max-width: 64px; border-radius: 50%;vertical-align: super;" lazy="/assets/images/cf4.64x64.webp"/>
-            <a class="cta" style="vertical-align: top;" href="https://twitter.com/christian_fei">@christian_fei</a>
-          </a>
-        </p>
-      </div>
-    </div>
-    <div class="flex">
-      <div class=""><a href="/learn-testing-nodejs-javascript/" class="track-post-learn-testing-nodejs-javascript">✅&nbsp;Learn Testing with Node.js & JavaScript</a></div>
-      <div class=""><a href="https://gumroad.com/l/yUhsLz" class="track-post-gumroad-techniques-seo">🚀&nbsp;Get a copy of "Techniques to improve SEO"</a></div>
     </div>
     {% if page.data.thanks %}
-    <div>
+    <div class="tac">
       <p>
         Thanks to&nbsp;
         {% for person in page.data.thanks %}

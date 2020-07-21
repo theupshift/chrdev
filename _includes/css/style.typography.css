@@ -100,3 +100,8 @@ blockquote {
   padding: 1em 1em;
   text-align: center;
 }
+
+
+.headline {
+  font-size: 4em;
+}
