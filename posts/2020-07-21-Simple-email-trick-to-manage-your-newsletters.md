@@ -52,4 +52,4 @@ This is how I reduce the newsletter-stress I was perceiving.
 
 I am interested to know if you are experiencing a similar fatigue.
 
-Let me know on [@christian_fei](https://twitter.com/christian_fei)
+Let me know [@christian_fei](https://twitter.com/christian_fei)
