@@ -52,6 +52,12 @@ On the technical side, I am going to use the following tools
 - MongoDB as an example, but of course the persistence can be changed at your liking
 - [no real email API service](https://github.com/christian-fei/email-newsletter-testing-by-example/blob/master/lib/email.js), to keep it simple
 
+<a href="/learn-testing-nodejs-javascript/" class="db pad tac track-post-learn-testing-nodejs-javascript">
+  Grab a copy of "✅&nbsp;Learn Testing with Node.js"
+  <br>
+  <br>
+  <img style="max-width: 300px;" lazy="/assets/images/learn-testing/learn-testing-cover-share.png" alt="Learn Testing with Node.js"/>
+</a>
 
 
 # A testable implementation
