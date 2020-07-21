@@ -18,7 +18,7 @@ I use this super simple organizational trick / habit when signing up for newslet
 
 ## Using an email alias
 
-When signing up to newsletter I always use the following email pattern:
+When I sign up to newsletters I always use the following email pattern:
 
 ```
 [username]+newsletter@...
