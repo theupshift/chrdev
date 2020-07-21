@@ -148,6 +148,14 @@ test('sends newsletter to user', async t => {
 })
 ```
 
+<a href="/learn-testing-nodejs-javascript/" class="db pad tac track-post-learn-testing-nodejs-javascript">
+  Grab a copy of "✅&nbsp;Learn Testing with Node.js"
+  <br>
+  <br>
+  <img style="max-width: 300px;" lazy="/assets/images/learn-testing/learn-testing-cover-share.png" alt="Learn Testing with Node.js"/>
+</a>
+
+
 ## Inverting dependencies with the DIP principle
 
 One could be inclined to put all the logic inside a function and call it a day.
