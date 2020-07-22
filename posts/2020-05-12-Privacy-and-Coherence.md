@@ -108,7 +108,7 @@ For feedback, additional alternatives, or simply a discussion: please let me kno
   target="popupwindow"
   onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
   class="embeddable-buttondown-form">
-  <h3 style="margin-top: 0.3em;"><a href="/subscribe/">Subscribe to my newsletter</a></h3>
+  <h3 style="margin-top: 0.3em;"><a href="/subscribe/">Get updates from me in your inbox</a></h3>
   <p>
     <b>Bi-weekly email</b> to stay up to date with #elixir #nodejs #agile #testing #refactoring #cleancode
   </p>
@@ -298,20 +298,6 @@ Use [jitsi](https://jitsi.org/), self-hosted if you feel so inclined.
 
 Use [openstreetmap.org](https://openstreetmap.org).
 
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
-  class="embeddable-buttondown-form">
-  <h3 style="margin-top: 0.3em;"><a href="/subscribe/">Subscribe to my newsletter</a></h3>
-  <p>
-    <b>Bi-weekly email</b> to stay up to date with #elixir #nodejs #agile #testing #refactoring #cleancode
-  </p>
-  <input type="email" name="email" id="bd-email" placeholder="elon@tesla.com">
-  <input type="hidden" value="1" name="embed"></input>
-  <button type="submit">Subscribe</Button>
-</form>
 
 # Useful links
 

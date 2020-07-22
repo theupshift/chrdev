@@ -41,7 +41,7 @@ curl -sSL https://install.pi-hole.net | bash
   Get the latest on Clean Code, Elixir, Node.js, Testing and Programming
   <br/>
   <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
-    Subscribe to my newsletter!
+    Get updates from me in your inbox!
   </a>
 </p>
 
@@ -102,7 +102,7 @@ As you can see, the Raspberry Pi's IP address (*192.168.1.127* on port [53](http
   Get the latest on Clean Code, Elixir, Node.js, Testing and Programming
   <br/>
   <a class="sidebar-cta" target="_blank" href="https://buttondown.email/christianfei">
-    Subscribe to my newsletter!
+    Get updates from me in your inbox!
   </a>
 </p>
 

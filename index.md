@@ -29,7 +29,7 @@ title: Home
 <div>
   <p><a href="/learn-testing-nodejs-javascript/" class="track-home-learn-testing-nodejs-javascript">✅&nbsp;Learn Testing with Node.js & JavaScript</a>&nbsp;&nbsp;<small>Book + Videos</small></span></p>
   <p><a href="https://gumroad.com/l/yUhsLz" class="track-home-gumroad-techniques-seo">🚀&nbsp;Get a copy of "Techniques to improve SEO"</a>&nbsp;&nbsp;<small>Book</small></p>
-  <p><a href="/subscribe/" class="track-home-subscribe-newsletter"> 👉&nbsp;Subscribe to my newsletter</a></p>
+  <p><a href="/subscribe/" class="track-home-subscribe-newsletter"> 👉&nbsp;Get updates from me in your inbox</a></p>
 </div>
 
 <div class="mt5">
