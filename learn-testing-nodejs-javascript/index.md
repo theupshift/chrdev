@@ -36,6 +36,37 @@ compact: true
   </form>
 </div>
 {% endblock %}
+{% block ctainitial %}
+<div class="col-xl-9 mx-auto" id="cta">
+  <h2 class="no-anchor mb-4">Ready to get started?</h2>
+  <h3 class="no-anchor">
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <a class="gumroad-button" href="https://gum.co/RJkra" target="_blank">Preorder</a>
+   or sign up to stay informed once it's ready!</h3>
+</div>
+<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
+    method="post"
+    class="embeddable-buttondown-form"
+  >
+    <div class="form-row">
+      <div class="col-12 col-md-9 mb-2 mb-md-0">
+        <input type="email" name="email" id="bd-email" class="form-control form-control-lg" placeholder="Enter your email to be notified 🚀">
+      </div>
+      <div class="col-12 col-md-3">
+        <input type="hidden" value="1" name="embed"></input>
+        <input type="submit" value="Sign up!" class="btn btn-block btn-lg btn-primary"></input>
+        <input type="hidden" name="tag" value="testing"></input>
+      </div>
+    </div>
+  </form>
+  <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+    <h1 class="display-4 no-anchor"><a href="#features">Learn more&nbsp;👇</a></h1>
+  </div>
+
+</div>
+{% endblock %}
 
 {% block masthead %}
 <div class="row masthead-bg">
@@ -53,9 +84,6 @@ compact: true
     <p style="font-size: 1.5em;">
       Wasting time or getting lost in spaghetti code?
     </p>
-  </div>
-  <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-    <h1 class="display-4 no-anchor"><a href="#features">Learn more&nbsp;👇</a></h1>
   </div>
 </div>
 {% endblock %}
