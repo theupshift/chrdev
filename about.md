@@ -18,12 +18,6 @@ Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
 Email me at hey [at] cri.dev
 
----
-
-<p><a href="/learn-testing-nodejs-javascript/" class="track-about-learn-testing-nodejs-javascript">🚀&nbsp;Learn Testing with Node.js & JavaScript</a></p>
-
----
-
 You can **support me** through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
 
 See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
