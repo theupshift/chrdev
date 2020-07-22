@@ -14,7 +14,10 @@ title: Home
   <div class="half">
     <div class="cf">
       <a href="/about" class="no-underline track-home-about-image" aria-hidden tabindex="-1">
-        <img class="avatar-image no-shadow" alt="me with sunglasses" src="/assets/images/cf4.png"/>
+        <picture>
+          <source srcset="/assets/images/cf4.webp" type="image/webp">
+          <img class="avatar-image no-shadow" src="/assets/images/cf4.png" alt="me with sunglasses">
+        </picture>
       </a>
       <p>
         <a href="/about" class="track-home-about-link">about me</a> | <a href="https://twitter.com/christian_fei" target="_blank" class="track-home-twitter-link" aria-hidden tabindex="-1"><i class="icon icon-twitter"></i></a> | <a href="https://github.com/christian-fei" target="_blank" class="track-home-github-link" aria-hidden tabindex="-1"><i class="icon icon-github"></i></a>

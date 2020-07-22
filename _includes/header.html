@@ -1,7 +1,11 @@
 <nav class="is-fixed">
   <div class="contain">
     <a href="/" class="track-nav-home">
-      cri.dev &nbsp; <img class="logo" src="/assets/images/cf4.64x64.webp" alt="">
+      cri.dev &nbsp;
+      <picture>
+        <source srcset="/assets/images/cf4.webp" type="image/webp">
+        <img class="logo" src="/assets/images/cf4.png" alt="me with sunglasses">
+      </picture>
     </a>
     <div class="nav-menu">
       {% if page.url != '/' %}
