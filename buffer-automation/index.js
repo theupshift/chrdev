@@ -14,13 +14,19 @@ const login = require('./login')
   const siteContent = fs.readFileSync(path.resolve(process.cwd(), 'site.json'))
   const site = JSON.parse(siteContent)
 
-  const files = site.files
+  const files = site.files.filter(file => file.attributes && Array.isArray(file.attributes.tags) && file.attributes.tags.includes('post'))
 
   const toShare = files.reduce((acc, file, i) => {
     const attr = file.attributes
-    if (attr && Array.isArray(attr.tags) && attr.tags.includes('featured')) {
-      const tagsString = attr.tags.filter(t => !['post', 'featured', 'general'].includes(t)).map(t => `#${t}`).join(' ')
-      return acc.concat([`"${attr.title}", by @christian_fei https://cri.dev${file.url} ${tagsString} `])
+    if (process.env.RANDOM === 'true') {
+      if (Math.random() < 0.5 && attr.tags.includes('post')) {
+        return acc.concat([`"${attr.title}", by @christian_fei https://cri.dev${file.url} `])
+      }
+    } else {
+      if (attr.tags.includes('featured')) {
+        const tagsString = attr.tags.filter(t => !['post', 'featured', 'general'].includes(t)).map(t => `#${t}`).join(' ')
+        return acc.concat([`"${attr.title}", by @christian_fei https://cri.dev${file.url} ${tagsString} `])
+      }
     }
     return acc
   }, []).reverse()
