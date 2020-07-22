@@ -6,7 +6,11 @@ title: About
 {% block content %}
 <div class="cf">
   <a href="https://twitter.com/christian_fei" class="no-underline track-about-image-twitter">
-    <img class="avatar-image no-shadow" alt="me with sunglasses" style="border-radius: 50%;" lazy="/assets/images/cf4.webp"><br>@christian_fei
+    <picture>
+      <source srcset="/assets/images/cf4.webp" type="image/webp">
+      <img class="avatar-image no-shadow" src="/assets/images/cf4.png" alt="me with sunglasses">
+    </picture>
+    <br>@christian_fei
   </a>
 </div>
 
