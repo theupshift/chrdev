@@ -22,8 +22,8 @@ a:hover, a:active, a:focus {
   color: white;
   outline: none;
 }
-a:hover:after, a:active:after, a:focus:after {
-  /* background-color: transparent !important; */
+nav a:after {
+  display: none !important;
 }
 a:not(.featured-post):not(.nav-link):not(.no-underline):after {
   display: inline-block;
