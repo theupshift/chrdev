@@ -21,6 +21,7 @@ And I fell for it, as many, many others:
 - [annoying.technology](https://annoying.technology/posts/abea6876cf4f2e13/)
 - [reddit.com](https://www.reddit.com/r/airpods/comments/drbrms/rattling_while_walking_with_pros_in/)
 - [macrumors.com](https://forums.macrumors.com/threads/airpods-pro-rattle-from-left-earpiece.2208957/)
+- [reddit.com](https://www.reddit.com/r/apple/comments/hqxcrm/the_airpods_pro_rattlegate/)
 - [newsbreak.com](https://www.newsbreak.com/news/1559033612180/facing-rattling-noise-problem-with-airpods-pro-you-are-not-alone)
 - [ipadinsight.com](https://ipadinsight.com/airpods/my-airpods-pro-have-started-having-some-issues/)
 - [twitter.com](https://twitter.com/mgsiegler/status/1230589056108523520?lang=en)
