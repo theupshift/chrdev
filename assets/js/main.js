@@ -5,9 +5,9 @@ window.tracked = {}
 
 main()
 
-function main() {
+function main () {
   ;[...document.querySelectorAll('.searchable')].forEach(makeSearchable)
-    ;[...document.querySelectorAll('[class*="track-"]')].forEach(trackClick)
+  ;[...document.querySelectorAll('[class*="track-"]')].forEach(trackClick)
   Object.keys(window.localStorage).forEach(key => {
     if (/^track-/.test(key)) {
       window.plausible && window.plausible('clicked ' + key.replace('track-', ''))
@@ -41,7 +41,7 @@ function main() {
   }
 }
 
-function trackEvent(name, once = true) {
+function trackEvent (name, once = true) {
   if (window.plausible) {
     if (once && !window.tracked[name]) {
       window.tracked[name] = true
@@ -53,7 +53,7 @@ function trackEvent(name, once = true) {
   }
 }
 
-function trackClick($el) {
+function trackClick ($el) {
   if ($el && $el.nodeName === 'A') {
     $el.addEventListener('click', function (e) {
       const trackClass = e.target.getAttribute('class').split(' ').find(c => /^track-.*/.test(c))
@@ -61,7 +61,7 @@ function trackClick($el) {
     })
   }
 }
-function makeSearchable($searchable) {
+function makeSearchable ($searchable) {
   const $search = document.createElement('input')
   $search.setAttribute('class', 'searchable-input')
   $search.setAttribute('type', 'test')
@@ -70,7 +70,7 @@ function makeSearchable($searchable) {
   $searchable.parentNode.insertBefore($search, $searchable)
   $search.focus()
 
-  function handleSearchKeyUp(e) {
+  function handleSearchKeyUp (e) {
     const searchTerm = e.target.value
     const searchRegExp = new RegExp(searchTerm, 'i')
     const $searchableItems = [...($searchable.querySelectorAll('.searchable-item') || [])]
@@ -88,7 +88,7 @@ function makeSearchable($searchable) {
   }
 }
 
-function lazyLoad(selector = '[lazy]') {
+function lazyLoad (selector = '[lazy]') {
   let $lazy = typeof selector === 'string' ? [...document.querySelectorAll(selector)] : [...selector]
 
   $lazy = $lazy.filter(toApplyLazyLoad)
@@ -119,16 +119,16 @@ function lazyLoad(selector = '[lazy]') {
     lazyContainers.addEventListener('touchend', registerScrolling, { capture: false, passive: true })
   }
 
-  function registerScrolling() {
+  function registerScrolling () {
     lastCheck = Date.now()
     scrolling = true
   }
 
-  function toApplyLazyLoad(el) {
+  function toApplyLazyLoad (el) {
     return el && !(isScrolledIntoView(el) && applyLazy(el))
   }
 
-  function applyLazy(el) {
+  function applyLazy (el) {
     if (!el) return
     const imageUrl = el.getAttribute('lazy')
     if (el instanceof window.HTMLImageElement) {
@@ -140,7 +140,7 @@ function lazyLoad(selector = '[lazy]') {
   }
 }
 
-function isScrolledIntoView(el) {
+function isScrolledIntoView (el) {
   if (!el) return
   var rect = el.getBoundingClientRect()
   return (
@@ -151,7 +151,7 @@ function isScrolledIntoView(el) {
   )
 }
 
-function makeAnchorTitles() {
+function makeAnchorTitles () {
   document
     .querySelectorAll('h1:not(.title),h2,h3,h4,h5,h6')
     .forEach(function (heading) {
@@ -164,7 +164,7 @@ function makeAnchorTitles() {
     })
 }
 
-function processExternalLinks() {
+function processExternalLinks () {
   const externalLinks = [...document.querySelectorAll(`body a:not([href~='${window.location.hostname}']):not([href^='/'])`)]
   externalLinks.forEach(el => {
     if (el.getAttribute('href').startsWith('#')) return
@@ -173,7 +173,7 @@ function processExternalLinks() {
   })
 }
 
-function addDarkmodeQueryToInternalLinks() {
+function addDarkmodeQueryToInternalLinks () {
   const internal = [...document.querySelectorAll(`a[href~='${window.location.hostname}'], a[href^='/']`)]
   internal.forEach(el => el.setAttribute('href', el.getAttribute('href') + '?dark'))
 }
