@@ -70,3 +70,14 @@ Nah. It's not "well".
 You put out 250$ to have a "temporarily working" product that you regularly need to replace (one airpod at a time).
 
 That's not ok, sorry Apple.
+
+## Timeline
+
+- Purchased on beginning of April (April 9th 2020)
+- First "rattling" experience in June (June 4th 2020)
+- Contact support and order replacement (June 8th 2020)
+- Receive replacement (June 12th 2020)
+- Confirmation from Apple to have received the faulty part + reimbursement (June 15th 2020)
+- Second "rattling" experience in July (July 20th 2020)
+- ...
+
