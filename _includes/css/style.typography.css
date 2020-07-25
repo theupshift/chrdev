@@ -103,11 +103,9 @@ a.twitter-share-button {
   text-decoration: none;
 }
 .twitter-share-button.big {
-  /* width: 100%; */
   display: inline-block;
   height: inherit;
   line-height: 1.5;
-  /* display: block; */
   font-size: 1.3em;
   text-align: center;
 }
