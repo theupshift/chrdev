@@ -48,6 +48,38 @@ pre ::selection { color: white; background: #000; }
 a { font-weight: bold }
 blockquote { padding: 0.5em 0.125em; font-size: 1.1em; font-style: italic; }
 blockquote p { margin: 0; }
+blockquote {
+  padding: 0.2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-left: 2em;
+  border: 0px solid #6f6f6f;
+  border-left-width: 6px;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CUSTOM */
+h1,h2,h3,h4,h5 { scroll-margin-top: 5rem; }
+h1,h2,h3,h4,h5 { word-wrap: break-word; }
+
+.headline { font-size: 4em; }
+@media all and (max-width: 40em) {
+  .headline { 
+    font-size: 3em;
+  }
+}
 
 .bg { background: #6f6f6f }
 .tar {text-align: right;}
@@ -56,8 +88,6 @@ blockquote p { margin: 0; }
   background: white;
   color: #333;
 }
-
-h1,h2,h3,h4,h5 { scroll-margin-top: 5rem; }
 
 a.twitter-share-button {
   position: relative;
@@ -82,27 +112,8 @@ a.twitter-share-button {
   text-align: center;
 }
 
-
-
-
-blockquote {
-  padding: 0.2em;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  padding-left: 2em;
-  border: 0px solid #6f6f6f;
-  border-left-width: 6px;
-  margin: 0;
-}
-
-
 .alert {
   background-color: #f6f6f6;
   padding: 1em 1em;
   text-align: center;
-}
-
-
-.headline {
-  font-size: 4em;
 }
