@@ -115,3 +115,7 @@ a.twitter-share-button {
   padding: 1em 1em;
   text-align: center;
 }
+
+table {
+  min-width: 100%;
+}
