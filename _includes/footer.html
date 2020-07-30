@@ -1,10 +1,16 @@
 <footer>
   <div class="contain">
     <div class="l-box">
-      <p>
-        &copy; <a style="text-decoration: none;" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">{% include 'img/license-base64.html' %}</a> Christian Fei 2012 - {{ '' | year }} <a aria-hidden="true" href="https://twitter.com/christian_fei"><i class="icon icon-twitter"></i></a> <a aria-hidden="true" href="https://github.com/christian-fei"><i class="icon icon-github"></i></a>
+      <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
+        This work by <a rel="cc:attributionURL" href="https://cri.dev/"><span rel="cc:attributionName">Christian Fei</span></a>
+        is licensed under
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0 
+          <img style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" />
+          <img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" />
+          <img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" />
+          <img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" />
+        </a>
       </p>
-
       <p>
         {% if page.url != '/' and page.url != '/about/' %}
         <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ page.relativeSource }}">Edit this page on GitHub</a> - <small>{{ page.url }}</small>      </p>
