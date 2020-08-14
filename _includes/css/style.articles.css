@@ -76,17 +76,16 @@ aside { font-size: 0.8rem; padding: 0.6em; }
   .post aside > div { grid-area: sidebar; position: sticky; top: 8em; }
 }
 
-article .title.has-image {
-  min-height: 8em;
-  padding: 0.6em;
-}
 article .title {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
 }
 
-.main-content {
+main article {
   max-width: 35em;
   margin: 0 auto;
 }

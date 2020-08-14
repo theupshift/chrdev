@@ -119,3 +119,7 @@ a.twitter-share-button {
 table {
   min-width: 100%;
 }
+
+.light {
+  color: rgba(79,90,102,.5);
+}
