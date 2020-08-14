@@ -23,9 +23,11 @@
     </p>
     -->
 
-    {% if page.data.image %}
+    <div class="dash-figure"></div>
+
+    {# {% if page.data.image %}
     <img itemprop="image" src="{{ page.data.image }}"/>
-    {% endif %}
+    {% endif %} #}
 
     {% if page.data.thanks %}
     <p class="tac">
@@ -43,6 +45,7 @@
     </p>
     {% endif %}
   </header>
+
 
   <div class="main-content" itemprop="articleBody">{{ content | safe }}</div>
 

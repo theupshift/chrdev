@@ -115,3 +115,32 @@ main article {
     opacity: 1;
   }
 }
+
+
+.dash-figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  /* text-align: center; */
+}
+.dash-figure::after, .dash-figure::before {
+  height: 8px;
+  border-radius: 4px;
+  content: "";
+  display: inline-block;
+  background: #000;
+  background-color: rgb(0, 0, 0);
+}
+
+.dash-figure::before {
+  /* background-color: #f58b00; */
+}
+.dash-figure::before {
+  width: 34px;
+}
+.dash-figure::after {
+  /* background-color: rgba(245, 188, 0, 0.5); */
+}
+.dash-figure::after {
+  width: 17px;
+  margin-left: 4px;
+}
