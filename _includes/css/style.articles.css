@@ -39,14 +39,6 @@ article img {
   margin: 0 auto;
 }
 
-
-article .title span {
-  background-color: #fff;
-  color: #333;
-  line-height: 1.6;
-  display: block;
-}
-
 .posts article { max-width: 100%; }
 
 article header {
@@ -82,6 +74,7 @@ article .title {
   background-position: center;
   font-size: 3em;
   font-weight: bold;
+  color: rgb(17, 24, 43);
   margin: 0;
 }
 

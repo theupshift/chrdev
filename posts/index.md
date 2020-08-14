@@ -24,7 +24,7 @@ title: Posts
 <div class="posts">
 {% for post in collections.featured | reverse | limit5 %}
   <article class="mt5">
-    <h1 class="title {% if post.data.image %} has-image {% endif %}"  {% if post.data.image %}lazy="{{ post.data.image }}"{% endif %}><span><a href="{{ post.url }}">{{ post.data.title }}</a></span></h1>
+    <h1 class="title"><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
     <header>
       <p class="no-mobile">
         <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ post.relativeSource }}">Found a typo? Edit this page on GitHub</a>

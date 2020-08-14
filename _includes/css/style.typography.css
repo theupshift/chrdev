@@ -11,15 +11,16 @@ html, body {
 #footer { margin-top: 4em; }
 ::selection { background: #6f6f6f; }
 a {
-  color: inherit;
+  color: rgb(17, 24, 43);
   display: inline-block;
   text-decoration: none;
   position: relative;
 }
-a:visited { color: inherit; }
+/* a:visited { color: inherit; } */
 a:hover, a:active, a:focus {
-  background-color: #6f6f6f;
-  color: white;
+  /* background-color: #6f6f6f;
+  color: white; */
+  font-weight: bold;
   outline: none;
 }
 nav a:after {
