@@ -59,6 +59,30 @@
     <link rel="apple-touch-icon" href="https://cri.dev/assets/images/cf4.64x64.webp">
     <link rel="alternate" type="application/rss+xml" title="cri.dev" href="https://cri.dev/rss.xml">
 
+    {% if page.url === '/' or page.url === '/about/' %}
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "@id": "https:/cri.dev",
+      "name": "Christian Fei",
+      "url": "https://cri.dev/",
+      "description": "Hi! I am an agile enthusiast, clean code connoisseur & testing aficionado",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cri.dev/assets/images/cf4.png",
+        "width": "64",
+        "height": "64"
+      },
+      "sameAs": [
+        "https://cri.dev/",
+        "https://github.com/christian-fei",
+        "https://twitter.com/christian_fei",
+        "https://www.linkedin.com/in/christian-fei-6b72b5123/"
+      ]
+    }
+    </script>
+    {% endif %}
     {% if page.url !== '/' and page.url !== '/about/' %}
     <script type="application/ld+json">
     {
