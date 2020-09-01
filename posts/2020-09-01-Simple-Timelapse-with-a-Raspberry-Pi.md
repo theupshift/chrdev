@@ -156,14 +156,10 @@ SHELL=/bin/bash
 
 You can expose a web server on port 80 to easily list all images (and timelapses) taken in the folder `/home/pi/snapshots`.
 
-For this I'm using `http-server` from npmjs.org (you can do the same using a python script I guess).
-
-Install node.js and npm, then `sudo npm i -g http-server`.
-
 Start the server at boot by adding the following to your crontab
 
 ```
-@reboot sudo http-server /home/pi/snapshots -p 80
+@reboot sudo python3 -m http.serve --directory /home/pi/snapshots 80
 ```
 
 
