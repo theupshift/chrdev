@@ -4,20 +4,20 @@
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
+    <h1 itemprop="name headline" class="title no-anchor">{{ title }}</h1>
+
     <p class="light">
       <time datetime="{{ page.data.date | isoday }}" itemprop="datePublished">
         {{ page.data.date | isoday }}
       </time>
       {% if page.data.updated %}
-        <br>(<i>last updated {{ page.data.updated | isoday }}</i>)
+        &nbsp;&middot;&nbsp;(<i>last updated {{ page.data.updated | isoday }}</i>)
       {% endif %}
-      <br>
+      &nbsp;&middot;&nbsp;
       {{ content | words }} words &middot; {{ content | readingTime }}
-      <br>
+      &nbsp;&middot;&nbsp;
       by <a href="/about/" itemprop="author">cri</a>
     </p>
-
-    <h1 itemprop="name headline" class="title no-anchor">{{ title }}</h1>
 
     <div class="dash-figure"></div>
 
