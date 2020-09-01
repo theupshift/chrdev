@@ -23,7 +23,7 @@ title: Posts
 
 <div class="posts">
 {% for post in collections.featured | reverse | limit5 %}
-  <article class="mt5">
+  <article class="">
     <h1 class="title"><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
     <header>
       <p class="no-mobile">

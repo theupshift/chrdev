@@ -6,7 +6,7 @@ title: Home
 {% block content %}
 <div class="flex">
   <div class="half">
-    <h1 class="no-anchor no-mt"><b>Hi!</b> 👋</h1>
+    <h1 class="no-anchor "><b>Hi!</b> 👋</h1>
     <p>My name is Christian, <b>cri</b> for short</p>
     <p>A <b>passionate web developer</b> from <b>Italy</b></p>
   </div>
@@ -31,7 +31,7 @@ title: Home
   <p><a href="https://gumroad.com/l/yUhsLz" class="track-home-gumroad-techniques-seo">Get a copy of "Techniques to improve SEO"</a>&nbsp;&nbsp;<small>Book</small></p>
 </div>
 
-<div class="mt5">
+<div class="">
   <a href="/subscribe/" class="track-home-subscribe-newsletter">Get updates from me in your inbox</a>
   <form
     action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
