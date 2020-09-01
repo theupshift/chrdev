@@ -32,9 +32,20 @@ title: Home
 </div>
 
 <div class="mt5">
-  <p><a href="/subscribe/" class="track-home-subscribe-newsletter">Get updates from me in your inbox</a></p>
-  {% include 'subscribe-to-newsletter-slim.html' %}
+  <a href="/subscribe/" class="track-home-subscribe-newsletter">Get updates from me in your inbox</a>
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
+    class="embeddable-buttondown-form-slim">
+      <input type="email" name="email" id="bd-email" placeholder="elon@tesla.com">
+      <input type="hidden" value="1" name="embed"></input>
+      <button type="submit">Subscribe</Button>
+  </form>
 </div>
+
+<br>
 
 <div class="alert">
   <p>
