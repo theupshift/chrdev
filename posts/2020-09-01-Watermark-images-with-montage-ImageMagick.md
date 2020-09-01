@@ -25,6 +25,6 @@ montage \
   $PATH_TO_IMAGE
 ```
 
-This will add a simple watermark (with white background) and the bottom of the image, like this:
+This will add a simple watermark (with white background) at the bottom of the image, like this:
 
 ![watermarked-example.jpg](/assets/images/posts/watermarked-example.jpg)
