@@ -10,10 +10,10 @@ title: Posts
   </p>
 </div>
 
-<div class="flex posts searchable">
+<div class="posts searchable">
 {% for post in collections.post | reverse %}
-  <div class="third searchable-item">
-    <a href="{{ post.url }}" class=" featured-post" {% if post.data.image %}lazy="{{ post.data.image }}"{% endif %}>
+  <div class="searchable-item">
+    <a href="{{ post.url }}" class=" featured-post">
       <div class="l-box">
         <time datetime="{{ post.data.date | isoday }}" class="post-date bg-white">{{ post.data.date | isoday }}</time>
         <span class="post-link bg-white">{{ post.data.title | capitalize }}</span>
