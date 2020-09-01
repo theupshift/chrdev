@@ -1,24 +1,14 @@
 <nav class="is-fixed">
   <div class="contain">
-    <a href="/" class="track-nav-home">
-      cri.dev &nbsp;
-      <picture>
-        <source srcset="/assets/images/cf4.webp" type="image/webp">
-        <img class="logo" src="/assets/images/cf4.png" alt="me with sunglasses">
-      </picture>
-    </a>
     <div class="nav-menu">
-      {% if page.url != '/' %}
-        <a class="tac nav-item track-nav-posts no-mobile"
-          href="https://gumroad.com/l/yUhsLz/">
-          Improve SEO&nbsp;🚀
-        </a>
-        <a class="tac nav-item track-nav-posts no-mobile {% if page.url.includes('/learn-testing-nodejs-javascript') %} active {% endif %}"
-          href="/learn-testing-nodejs-javascript/">
-          Learn Testing&nbsp;✅
-        </a>
-        <span class="nav-item">&nbsp;&nbsp;</span>
-      {% endif %}
+      <a href="/" class="nav-item track-nav-home">
+        cri.dev &nbsp;
+        <picture>
+          <source srcset="/assets/images/cf4.webp" type="image/webp">
+          <img class="logo" src="/assets/images/cf4.png" alt="me with sunglasses">
+        </picture>
+      </a>
+      <span class="nav-item">&middot;</span>
       <a class="tac nav-item track-nav-about {% if page.url.includes('/about') %} active {% endif %}" href="/about/">
         About
       </a>
@@ -30,6 +20,12 @@
         href="/subscribe/">
         News
       </a>
+      <span class="nav-item">&middot;</span>
+      <a class="tac nav-item track-nav-posts no-mobile"
+        href="https://gumroad.com/l/yUhsLz/">
+        Improve SEO&nbsp;🚀
+      </a>
+      <span class="nav-item">&middot;</span>
       <!--
       <a aria-hidden="true" class=" tac nav-item no-mobile track-nav-github" href="/contributions/">
         <i class="icon icon-github"></i>

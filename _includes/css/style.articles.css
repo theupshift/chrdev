@@ -83,31 +83,6 @@ main article {
   margin: 0 auto;
 }
 
-#side-content {
-  display: none;
-}
-.promotion {
-  padding: 0.5em 1em;
-  border: 3px solid #6f6f6f;
-  outline: 1px solid #333;
-}
-@media all and (min-width: 1180px) {
-  #side-content {
-    opacity: 0;
-  }
-  #side-content.show {
-    display: block;
-    opacity: 0.4;
-    position: fixed;
-    top: 40%;
-    left: calc(50% - 38em);
-    width: 12em;
-    min-height: 4em;
-  }
-  #side-content.show:hover {
-    opacity: 1;
-  }
-}
 
 
 .dash-figure {
@@ -125,13 +100,7 @@ main article {
 }
 
 .dash-figure::before {
-  /* background-color: #f58b00; */
-}
-.dash-figure::before {
   width: 34px;
-}
-.dash-figure::after {
-  /* background-color: rgba(245, 188, 0, 0.5); */
 }
 .dash-figure::after {
   width: 17px;

@@ -20,19 +20,39 @@ title: Home
         </picture>
       </a>
       <p>
-        <a href="/about" class="track-home-about-link">about me</a> | <a href="https://twitter.com/christian_fei" target="_blank" class="track-home-twitter-link" aria-hidden tabindex="-1"><i class="icon icon-twitter"></i></a> | <a href="https://github.com/christian-fei" target="_blank" class="track-home-github-link" aria-hidden tabindex="-1"><i class="icon icon-github"></i></a>
+        <a href="https://twitter.com/christian_fei" target="_blank" class="track-home-twitter-link" aria-hidden tabindex="-1"><i class="icon icon-twitter"></i></a> | <a href="https://github.com/christian-fei" target="_blank" class="track-home-github-link" aria-hidden tabindex="-1"><i class="icon icon-github"></i></a>
       </p>
     </div>
   </div>
 </div>
 
 <div>
-  <p><a href="/learn-testing-nodejs-javascript/" class="track-home-learn-testing-nodejs-javascript">✅&nbsp;Learn Testing with Node.js & JavaScript</a>&nbsp;&nbsp;<small>Book + Videos</small></span></p>
-  <p><a href="https://gumroad.com/l/yUhsLz" class="track-home-gumroad-techniques-seo">🚀&nbsp;Get a copy of "Techniques to improve SEO"</a>&nbsp;&nbsp;<small>Book</small></p>
-  <p><a href="/subscribe/" class="track-home-subscribe-newsletter"> 👉&nbsp;Get updates from me in your inbox</a></p>
+  <p><a href="/learn-testing-nodejs-javascript/" class="track-home-learn-testing-nodejs-javascript">Learn Testing with Node.js & JavaScript</a>&nbsp;&nbsp;<small>Book + Videos</small></span></p>
+  <p><a href="https://gumroad.com/l/yUhsLz" class="track-home-gumroad-techniques-seo">Get a copy of "Techniques to improve SEO"</a>&nbsp;&nbsp;<small>Book</small></p>
 </div>
 
 <div class="mt5">
+  <p><a href="/subscribe/" class="track-home-subscribe-newsletter">Get updates from me in your inbox</a></p>
   {% include 'subscribe-to-newsletter-slim.html' %}
 </div>
+
+<div class="alert">
+  <p>
+    Below you can skim through the <b>{{ collections.post.length }} articles</b> I wrote over the years.
+  </p>
+</div>
+
+<div class="posts searchable">
+{% for post in collections.post | reverse %}
+  <div class="searchable-item">
+    <a href="{{ post.url }}" class=" featured-post">
+      <div class="l-box">
+        <time datetime="{{ post.data.date | isoday }}" class="post-date bg-white">{{ post.data.date | isoday }}</time>
+        <span class="post-link bg-white">{{ post.data.title | capitalize }}</span>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+</div>
+
 {% endblock %}

@@ -108,7 +108,6 @@ For feedback, additional alternatives, or simply a discussion: please let me kno
   target="popupwindow"
   onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
   class="embeddable-buttondown-form">
-  <h3 style="margin-top: 0.3em;"><a href="/subscribe/">Get updates from me in your inbox</a></h3>
   <p>
     <b>Bi-weekly email</b> to stay up to date with #elixir #nodejs #agile #testing #refactoring #cleancode
   </p>

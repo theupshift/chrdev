@@ -90,14 +90,14 @@
     {% set style %}
       {% include "css/style.typescale.css" %}
       {% include "css/style.typography.css" %}
-      {% include "css/style.utils.css" %}
-      {% include "css/style.flex.css" %}
+      {% include "css/style.minimal.css" %}
       {% include "css/style.icons.css" %}
       {% include "css/style.newsletter.css" %}
-      {% include "css/style.layout.css" %}
+      {% include "css/style.flex.css" %}
       {% include "css/style.search.css" %}
-      {% include "css/style.featured.css" %}
-      {% include "css/style.articles.css" %}
+      {# {% include "css/style.articles.css" %} #}
+      {# {% include "css/style.layout.css" %} #}
+      {# {% include "css/style.featured.css" %} #}
     {% endset %}
     <style>{{ style | cssmin | safe }}</style>
 
@@ -121,18 +121,16 @@
       </section>
     </main>
 
-    {% if page.url !== '/' and page.url !== '/about/' %}
-      <div class="contain tac">
-        <h1><a href="/" class="track-go-to-home-page">👈&nbsp;Go to homepage</a></h1>
+    {# {% if page.url !== '/archive/' %}
+      <div class="contain pad">
+        {% include "snippets/featured.html" %}
       </div>
-    {% endif %}
+    {% endif %} #}
 
-    {% if page.url !== '/archive/' %}
-      {% include "snippets/featured.html" %}
-    {% endif %}
     {% include "footer.html" %}
 
     <script async defer src="/assets/js/main.js" type="text/javascript"></script>
+
     {% if page.data.js %}
       {% for script in page.data.js %}
         <script src="{{ script }}" type="text/javascript"></script>

@@ -15,19 +15,6 @@ function main () {
     }
   })
 
-  const $article = document.querySelector('article')
-  const $articleHeader = document.querySelector('article header')
-  const $sideContent = document.querySelector('#side-content')
-  if ($articleHeader && $sideContent) {
-    document.addEventListener('scroll', () => {
-      if ($articleHeader.getBoundingClientRect().top < 0 && $article.getBoundingClientRect().bottom > window.innerHeight * 0.8) {
-        $sideContent.classList.add('show')
-      } else {
-        $sideContent.classList.remove('show')
-      }
-    })
-  }
-
   try { processExternalLinks() } catch (err) { console.error(err.message, err) }
 
   try { lazyLoad('[lazy]') } catch (err) { console.error(err.message, err) }
@@ -64,11 +51,10 @@ function trackClick ($el) {
 function makeSearchable ($searchable) {
   const $search = document.createElement('input')
   $search.setAttribute('class', 'searchable-input')
-  $search.setAttribute('type', 'test')
+  // $search.setAttribute('type', 'test')
   $search.setAttribute('placeholder', 'Search posts...')
   $search.onkeyup = handleSearchKeyUp
   $searchable.parentNode.insertBefore($search, $searchable)
-  $search.focus()
 
   function handleSearchKeyUp (e) {
     const searchTerm = e.target.value
