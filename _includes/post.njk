@@ -51,6 +51,20 @@
 </article>
 
 <section>
+  <h3>Continue reading..</h3>
+  <div class="">
+    {% for post in collections.featured | reverse | limit5 %}
+    <a href="{{ post.url }}" style="margin: 0.5em" class="tdn  track-featured-post-link">
+      <b class="post-title">{{ post.data.title }}</b>
+    </a>
+    {% endfor %}
+    <a href="/archive/" style="margin: 0.5em" class="tdn track-featured-post-link">
+      <b class="post-title">Read all {{collections.post.length}} posts</b>
+    </a>
+  </div>
+</section>
+
+<section>
   <h2 class="tac">Products I made you could be interested in</h2>
   <div class="pad mt3">
     <div class="flex">
