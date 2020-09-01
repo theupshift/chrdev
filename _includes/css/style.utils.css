@@ -1,10 +1,9 @@
-.dib { display: inline-block; }
+.dib { display: inline-block }
+.db { display: block }
 
 .pad { padding: 1em; }
 .pad-half { padding: 0.5em; }
 .pad-v { padding-top: 2em; padding-bottom: 2em; }
-
-
 
 .tac { text-align: center; }
 .tal { text-align: left; }
@@ -14,25 +13,9 @@
 .ovs { overflow-x: scroll; }
 .ovh-s { overflow-x: scroll; overflow-y: hidden; }
 
-
 .cta {
   border: 2px solid #6f6f6f;
   padding: 0.1em 0.4em;
   display: inline-block;
 }
 
-.dib {
-  display: inline-block;
-}
-.db {
-  display: block;
-}
-
-.no-shadow { box-shadow: none; }
-
-nav.is-fixed {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-}
