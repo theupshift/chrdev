@@ -9,7 +9,8 @@ body { padding: 0.5em }
 .avatar-image { height: 6em }
 
 
-
+a{cursor:pointer;color:#ff2e2e;text-decoration:none;border-bottom:1px solid #ff2e2e}
+a:hover{background-color:#ff2e2e;color:#fff}
 
 
 .cf { text-align: center; padding: 1em; }
