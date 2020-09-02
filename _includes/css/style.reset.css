@@ -1,7 +1,0 @@
-*, *::after, *::before { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; }
-
-ul, ol { padding-left: 0; margin-left: 3em; }
-img { max-width: 100%; }
-video { max-width: 100%; }
-
