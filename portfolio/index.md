@@ -9,7 +9,7 @@ title: Portfolio
   <br>
   <div class="flex">
     <div class="half" style="min-width: 25em;">
-      <div class="alert">
+      <div class="">
         <h1 class="title">
           <a href="https://productlistings.app">ProductListings.app</a>
         </h1>
@@ -22,7 +22,7 @@ title: Portfolio
       </div>
     </div>
     <div class="half" style="min-width: 25em;">
-      <div class="alert">
+      <div class="">
         <h1 class="title">
           <a href="https://github.com/christian-fei/mega-scraper">mega-scraper 📦</a>
         </h1>
@@ -37,7 +37,7 @@ title: Portfolio
       </div>
     </div>
     <div class="half" style="min-width: 25em;">
-      <div class="alert">
+      <div class="">
         <h1 class="title">
           <a href="https://github.com/christian-fei/devblog">devblog 📦</a>
         </h1>
@@ -53,7 +53,7 @@ title: Portfolio
       </div>
     </div>
     <div class="half" style="min-width: 25em;">
-      <div class="alert">
+      <div class="">
         <h1 class="title">
           <a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple Jekyll Search 📦</a>
         </h1>
@@ -68,7 +68,7 @@ title: Portfolio
       </div>
     </div>
     <div class="half" style="min-width: 25em;">
-      <div class="alert">
+      <div class="">
         <h1 class="title">
           <a href="https://github.com/christian-fei/">More on GitHub 📦</a>
         </h1>

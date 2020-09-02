@@ -99,7 +99,7 @@ An example video:
 ---
 
 
-<div class="alert">
+<div class="">
   <a href="/posts/2020-03-09-Crawling-a-web-site-with-browserless,-puppeteer-and-Node.js/">
   Pssst: learn how to crawl any website with puppeteer and browserless
   </a>

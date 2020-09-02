@@ -7,19 +7,15 @@ title: Posts
 
 <b><a href="/archive/" class="cta">Visit the archive</a> to see all {{ collections.post.length }} posts</b>
 
-
-<div class="alert">
-  <p>
-    Below you can skim through <b>featured articles</b> I wrote over the years.
-  </p>
-  <p>
-    To see all {{collections.post.length}} articles, head over to the <a href="/archive">archive</a>
-  </p>
-  <p>
-    Elixir, node.js, crypto, testing, tutorials, thoughts and more.
-  </p>
-</div>
-
+<p>
+  Below you can skim through <b>featured articles</b> I wrote over the years.
+</p>
+<p>
+  To see all {{collections.post.length}} articles, head over to the <a href="/archive">archive</a>
+</p>
+<p>
+  Elixir, node.js, crypto, testing, tutorials, thoughts and more.
+</p>
 
 <div class="posts">
 {% for post in collections.featured | reverse | limit5 %}

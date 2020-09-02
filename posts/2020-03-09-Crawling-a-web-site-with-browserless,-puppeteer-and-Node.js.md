@@ -15,7 +15,7 @@ image: https://images.unsplash.com/photo-1532802245604-c567f1acd48e?ixlib=rb-1.2
 ---
 
 
-<div class="alert">
+<div class="">
 Learn how to <a href="/posts/2020-03-08-Ultimate-web-scraping-with-browserless,-puppeteer-and-Node.js/">get started with browserless in a few easy steps</a>!
 </div>
 
