@@ -1,6 +1,6 @@
 body { padding: 0.5em }
 
-.contain { max-width: 40em; margin: 0 auto }
+.contain { max-width: 50em; margin: 0 auto }
 .logo { height: 1.5em; vertical-align: middle }
 .nav-item { padding: 0.4em 0.8em 0.4em 0 }
 .avatar-image { height: 6em }
