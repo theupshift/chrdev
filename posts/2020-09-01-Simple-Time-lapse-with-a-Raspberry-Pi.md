@@ -175,7 +175,7 @@ Start the server at boot by adding the following to your crontab
 Taking a time-lapse for the day `2020-08-31` with ffmpeg is as easy as running
 
 ```sh
-cat 2020-08-31*.jpg | ffmpeg -r 10 -i - -vf scale=1280:-2 time-lapse-2020-08-31.mp4
+cat 2020-08-31*.jpg | ffmpeg -r 10 -i - -c:v libx264 -vf "format=yuv420p,scale=1280:-2" time-lapse-2020-08-31.mp4
 ```
 
 
