@@ -17,15 +17,6 @@ article video {
 }
 
 aside { font-size: 0.8rem; padding: 0.6em; }
-.title {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  font-size: 2.5em;
-  font-weight: bold;
-  color: rgb(17, 24, 43);
-  margin: 0;
-}
 
 .dash-figure {
   margin-top: 2em;
