@@ -1,5 +1,5 @@
 ---
-title: "Simple Timelapse with a Raspberry Pi"
+title: "Simple Time-lapse with a Raspberry Pi"
 date: 2020-09-01
 layout: post.njk
 tags:
@@ -11,7 +11,7 @@ tags:
 image: https://images.unsplash.com/photo-1552283576-3ea3519bf12e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
-Timelapses always fascinated me. So I wanted to create one on my own.
+Time-lapses always fascinated me. So I wanted to create one on my own.
 
 Had a spare **Raspberry Pi Zero W** catching dust, you can purchase one for ~ 25$ and the related **Raspberry Pi Camera module** for < 20$.
 
@@ -26,7 +26,7 @@ To build your own you'll need
 - 16GB SD Card or bigger
 - (optionally Wi-Fi connectivity for easy access)
 
-There is even an official [High Quality Camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/), that will give even better quality timelapses!
+There is even an official [High Quality Camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/), that will give even better quality time-lapses!
 
 ## Table of contents
 
@@ -35,12 +35,12 @@ There is even an official [High Quality Camera](https://www.raspberrypi.org/prod
   - [Set up Wi-Fi connectivity](#set-up-wi-fi-connectivity)
   - [Enable SSH access](#enable-ssh-access)
   - [Enable Camera module](#enable-camera-module)
-- [Create the timelapse](#create-the-timelapse)
+- [Create the time-lapse](#create-the-time-lapse)
   - [Take image with raspistill](#take-image-with-raspistill)
   - [Schedule capture with crontab](#schedule-capture-with-crontab)
-  - [Create timelapse with ffmpeg / avconv](#create-timelapse-with-ffmpeg--avconv)
+  - [Create time-lapse with ffmpeg / avconv](#create-time-lapse-with-ffmpeg--avconv)
   - [Directory listing of snapshots](#directory-listing-of-snapshots)
-- [raspberry-pi-timelapse repository](#raspberry-pi-timelapse-repository)
+- [raspberry-pi-time-lapse repository](#raspberry-pi-time-lapse-repository)
 
 ## Preparation
 
@@ -92,7 +92,7 @@ gpu_mem=128
 
 Just make sure there are no other occurrencies for `start_x` or `gpu_mem`
 
-# Create the timelapse
+# Create the time-lapse
 
 ## Take image with raspistill
 
@@ -154,7 +154,7 @@ SHELL=/bin/bash
 
 ## Directory listing of snapshots
 
-You can expose a web server on port 80 to easily list all images (and timelapses) taken in the folder `/home/pi/snapshots`.
+You can expose a web server on port 80 to easily list all images (and time-lapses) taken in the folder `/home/pi/snapshots`.
 
 Start the server at boot by adding the following to your crontab
 
@@ -163,23 +163,23 @@ Start the server at boot by adding the following to your crontab
 ```
 
 
-## Create timelapse with ffmpeg
+## Create time-lapse with ffmpeg
 
-Taking a timelapse for the day `2020-08-31` with ffmpeg is as easy as running
+Taking a time-lapse for the day `2020-08-31` with ffmpeg is as easy as running
 
 ```sh
-cat 2020-08-31*.jpg | ffmpeg -r 10 -i - -vf scale=1280:-2 timelapse-2020-08-31.mp4
+cat 2020-08-31*.jpg | ffmpeg -r 10 -i - -vf scale=1280:-2 time-lapse-2020-08-31.mp4
 ```
 
 
-# raspberry-pi-timelapse repository
+# raspberry-pi-time-lapse repository
 
-You can clone / fork the repo [christian-fei/raspberry-pi-timelapse](https://github.com/christian-fei/raspberry-pi-timelapse) and create your first timelapse in no time.
+You can clone / fork the repo [christian-fei/raspberry-pi-time-lapse](https://github.com/christian-fei/raspberry-pi-time-lapse) and create your first time-lapse in no time.
 
 There are various scripts that simplify the steps above:
 
 - `take-snapshot` to take a watermarked and timestamped photo in the folder `snapshots/`
-- `server` to start a HTTP server on port 80 listing all snapshots and timelapses taken so far
+- `server` to start a HTTP server on port 80 listing all snapshots and time-lapses taken so far
 - `rsync-snapshots` to sync the snapshots to from the Raspberry Pi to your PC
-- `create-timelapse` to create a timelapse for a specific date
+- `create-time-lapse` to create a time-lapse for a specific date
 - `crontab` to schedule the snapshots and spin up the server
