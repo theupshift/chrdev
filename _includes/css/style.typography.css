@@ -85,10 +85,6 @@ h1,h2,h3,h4,h5 { word-wrap: break-word; }
 .bg { background: #6f6f6f }
 .tar {text-align: right;}
 .tdn {text-decoration: none;}
-.bg-white {
-  background: white;
-  color: #333;
-}
 
 a.twitter-share-button {
   position: relative;

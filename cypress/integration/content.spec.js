@@ -9,17 +9,11 @@ context('Content', () => {
     cy.location('pathname').should('include', 'about')
   })
 
-  it('visible featured posts', () => {
-    cy.visit('http://127.0.0.1:8080')
-
-    cy.get('.featured-post')
-  })
-
   describe('single post', () => {
     before(() => {
       cy.visit('http://127.0.0.1:8080')
 
-      cy.get('.featured-post').eq(0).click()
+      cy.get('.post').eq(0).click()
     })
 
     it('navigates to /posts/{post-slug}', () => {
