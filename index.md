@@ -47,11 +47,9 @@ title: Home
 
 <br>
 
-<div class="alert">
-  <p>
-    Below you can skim through the <b>{{ collections.post.length }} articles</b> I wrote over the years.
-  </p>
-</div>
+<p>
+  Below you can skim through the <b>{{ collections.post.length }} articles</b> I wrote over the years.
+</p>
 
 <div class="posts searchable">
 {% for post in collections.post | reverse %}
