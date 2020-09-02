@@ -19,7 +19,7 @@ Had a spare **Raspberry Pi Zero W** catching dust, you can purchase one for ~ 25
 
 # Sneak peek
 
-<video name="media">
+<video controls="" autoplay="" name="media">
   <source src="/assets/videos/timelapse-2020-09-01.webm" type="video/webm">
   <source src="/assets/videos/timelapse-2020-09-01.mp4" type="video/mp4">
 </video>
