@@ -166,7 +166,7 @@ You can expose a web server on port 80 to easily list all images (and time-lapse
 Start the server at boot by adding the following to your crontab
 
 ```
-@reboot sudo python3 -m http.serve --directory /home/pi/snapshots 80
+@reboot sudo python3 -m http.server --directory /home/pi/snapshots 80
 ```
 
 
