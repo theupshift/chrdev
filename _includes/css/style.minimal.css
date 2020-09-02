@@ -1,3 +1,6 @@
+html {
+  font-size: 15px;
+}
 body { padding: 0.5em }
 
 .contain { max-width: 50em; margin: 0 auto }
