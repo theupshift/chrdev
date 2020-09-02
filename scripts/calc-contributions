@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+// from https://github.com/sallar/github-contributions-chart/blob/master/src/utils/api/fetch.js
 const cheerio = require("cheerio");
 const fetch = require("node-fetch");
 const _ = require("lodash");
