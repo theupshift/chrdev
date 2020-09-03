@@ -27,7 +27,7 @@ Email me at hey [at] cri.dev
 
 Previously Agile Developer at XPeppers, Trento (2014 - 2017).
 
-Worked with Node.js, JavaScript, Python, MongoDB, Redis, Cloud, Stats, DevOps, Automation, Scraping as a Full Stack Developer at [wonderflow](https://www.wonderflow.co) (2017 - 2020).
+Worked with Node.js, JavaScript, Python, MongoDB, Redis, Cloud, Stats, DevOps, Automation, Scraping as a Full Stack Developer at [wonderflow](https://www.wonderflow.co), Trento (2017 - 2020).
 
 Quit my job in summer 2020 to enjoy my time for 6 months or so.
 
