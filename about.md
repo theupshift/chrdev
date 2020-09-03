@@ -22,9 +22,6 @@ Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
 Email me at hey [at] cri.dev
 
-You can **support me** through my [GitHub Sponsor page ✌️](https://github.com/sponsors/christian-fei)
-
-See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
 
 # Work history
 
@@ -34,11 +31,10 @@ Worked with Node.js, JavaScript, Python, MongoDB, Redis, Cloud, Stats, DevOps, A
 
 Quit my job in summer 2020 to enjoy my time for 6 months or so.
 
-I'm currently on "vacation" 😎
+I'm currently on "vacation"
 
 
 # Writing code as a passion
-
 
 > Simplicity is the ultimate sophistication ~ I want to think Leonardo Da Vinci said that.
 
@@ -48,6 +44,7 @@ Most of my OSS can be found on my [github profile](https://github.com/christian-
 
 I try to stay up to date with what people are coming up with, thus I read a lot, here you can find [my full pocket reading history](/pocket/) and [recommended books](/books/)
 
+See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
 
 {% include 'subscribe-to-newsletter.html' %}
 
