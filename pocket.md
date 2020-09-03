@@ -9,16 +9,16 @@ title: Pocket reading list
   <strong>My Pocket reading list</strong>
 </p>
 
-<ol reversed class="searchable1">
-{% for pocket_item in collections.pocketItems %}
+<ul reversed class="">
+{% for item in collections.pocketItems %}
   <li class="">
-    <time datetime="{{ pocket_item.data.date | isoday }}" class="post-date">{{ pocket_item.date | isoday }}</time>
-    <a href="{{ pocket_item.url }}" class="post-link">
-      {{ pocket_item.title | capitalize }}
+    <time datetime="{{ item.date | isoday }}" class="post-date">{{ item.date | isoday }}</time>
+    <a href="{{ item.url }}" class="post-link">
+      {{ item.title | capitalize }}
     </a>
   </li>
 {% endfor %}
-</ol>
+</ul>
 
 
 {% endblock %}

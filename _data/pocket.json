@@ -1,6 +1,2358 @@
 {
-  "lastSynced": "2020-05-18T05:59:18.527Z",
+  "lastSynced": "2020-09-03T08:22:43.051Z",
   "items": [
+    {
+      "id": "3078654163",
+      "title": "TBM 33/53: But Why Is It Working?",
+      "url": "https://cutlefish.substack.com/p/tbm-3353-but-why-is-it-working",
+      "date": "2020-09-02"
+    },
+    {
+      "id": "3098371862",
+      "title": "Google and Apple Change Tactics on Contact Tracing Tech",
+      "url": "https://www.wired.com/story/google-apple-change-tactics-contact-tracing-tech/",
+      "date": "2020-09-02"
+    },
+    {
+      "id": "3098564922",
+      "title": "r/science - Face shields and masks with exhalation valves are not effective at preventing COVID-19 transmission, finds a new droplet dispersal study. (Physics of Fluids journal, 1 September 2020)",
+      "url": "https://www.reddit.com/r/science/comments/ikuz9f/face_shields_and_masks_with_exhalation_valves_are/",
+      "date": "2020-09-02"
+    },
+    {
+      "id": "3069621429",
+      "title": "Latest Firefox rolls out Enhanced Tracking Protection 2.0; blocking redirect trackers by default",
+      "url": "https://blog.mozilla.org/blog/2020/08/04/latest-firefox-rolls-out-enhanced-tracking-protection-2-0-blocking-redirect-trackers-by-default",
+      "date": "2020-09-01"
+    },
+    {
+      "id": "3070016474",
+      "title": "Redirect tracking protection",
+      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Privacy/Redirect_tracking_protection",
+      "date": "2020-09-01"
+    },
+    {
+      "id": "3097303764",
+      "title": "👨🏼‍💻 Going Indie, Again",
+      "url": "https://schier.co/blog/going-indie-again",
+      "date": "2020-09-01"
+    },
+    {
+      "id": "3090941200",
+      "title": "I Thought I Would Have Accomplished a Lot More Today and Also by the Time I Was Thirty-Five",
+      "url": "https://www.newyorker.com/humor/daily-shouts/i-thought-i-would-have-accomplished-a-lot-more-today-and-also-by-the-time-i-was-thirty-five",
+      "date": "2020-08-31"
+    },
+    {
+      "id": "2486390608",
+      "title": "Why I Quit a $500K Job at Amazon to Work for Myself",
+      "url": "https://danielvassallo.com/only-intrinsic-motivation-lasts/",
+      "date": "2020-08-30"
+    },
+    {
+      "id": "3095612618",
+      "title": "Stupidity can be a plus in corporations — but not in software development.",
+      "url": "https://jessitron.com/2020/08/29/stupidity/",
+      "date": "2020-08-29"
+    },
+    {
+      "id": "3094648407",
+      "title": "Dallo smart working la spinta a ridare nuova vita ai borghi",
+      "url": "https://www.ilsole24ore.com/art/dallo-smart-working-spinta-ridare-nuova-vita-borghi-ADDoeak",
+      "date": "2020-08-28"
+    },
+    {
+      "id": "3089919415",
+      "title": "Parlami di ROI",
+      "url": "https://blog.pietro.camp/2020/08/23/parlami-di-roi/",
+      "date": "2020-08-24"
+    },
+    {
+      "id": "3073769244",
+      "title": "COVID contact tracing apps bring privacy pitfalls around the world",
+      "url": "https://www.cnet.com/news/covid-contact-tracing-apps-bring-privacy-pitfalls-around-the-world/",
+      "date": "2020-08-20"
+    },
+    {
+      "id": "3035770578",
+      "title": "The Definition of Framework",
+      "url": "https://dev.to/francescostrazzullo/the-definition-of-framework-k70",
+      "date": "2020-08-19"
+    },
+    {
+      "id": "3085314902",
+      "title": "101 Complaints on EU-US transfers filed",
+      "url": "https://noyb.eu/en/101-complaints-eu-us-transfers-filed",
+      "date": "2020-08-19"
+    },
+    {
+      "id": "3080326131",
+      "title": "what-hiring-should-look-like.md",
+      "url": "https://gist.github.com/getify/4f4b7886d181d5fe9c6b1bfdf134709f",
+      "date": "2020-08-16"
+    },
+    {
+      "id": "3079078371",
+      "title": "Why Write ADRs",
+      "url": "https://github.blog/2020-08-13-why-write-adrs/",
+      "date": "2020-08-14"
+    },
+    {
+      "id": "3080147883",
+      "title": "Video Calls and Seven Years of Telegram",
+      "url": "https://telegram.org/blog/video-calls",
+      "date": "2020-08-14"
+    },
+    {
+      "id": "3076819601",
+      "title": "How to stop procrastinating by using the Fogg Behavior Model",
+      "url": "https://www.deprocrastination.co/blog/how-to-overcome-procrastination-by-understanding-the-fogg-behavior-model",
+      "date": "2020-08-12"
+    },
+    {
+      "id": "3076899590",
+      "title": "Mozilla is laying off 250 people and planning a ‘new focus’ on making money",
+      "url": "https://www.theverge.com/2020/8/11/21363424/mozilla-layoffs-quarter-staff-250-people-new-revenue-focus",
+      "date": "2020-08-12"
+    },
+    {
+      "id": "3077895981",
+      "title": "Court dismisses Genius lawsuit over lyrics-scraping by Google",
+      "url": "https://techcrunch.com/2020/08/11/court-dismisses-genius-lawsuit-over-lyrics-scraping-by-google/",
+      "date": "2020-08-12"
+    },
+    {
+      "id": "3071436674",
+      "title": "Microsoft President, Brad Smith: Why We Urgently Need a Hippocratic Oath for Software Engineers",
+      "url": "https://capitalandgrowth.org/answers/Article/3323627/Microsoft-President-Brad-Smith-Why-We-Urgently-Need-a-Hippocratic-Oath-for-Software-Engineers",
+      "date": "2020-08-11"
+    },
+    {
+      "id": "3072812442",
+      "title": "We Quit Our Jobs to Build a Cabin—Everything Went Wrong",
+      "url": "https://www.outsideonline.com/2415766/friends-diy-cabin-build-washington",
+      "date": "2020-08-10"
+    },
+    {
+      "id": "3073553384",
+      "title": "Il decreto Agosto è pronto, ecco tutte le novità",
+      "url": "https://www.laleggepertutti.it/421904_il-decreto-agosto-e-pronto-ecco-tutte-le-novita",
+      "date": "2020-08-10"
+    },
+    {
+      "id": "3075986026",
+      "title": "Data, data and more data",
+      "url": "https://thevediwho.me/blog/data-data-and-more-data/",
+      "date": "2020-08-10"
+    },
+    {
+      "id": "3072608651",
+      "title": "I'm Open Sourcing the Have I Been Pwned Code Base",
+      "url": "https://www.troyhunt.com/im-open-sourcing-the-have-i-been-pwned-code-base/",
+      "date": "2020-08-08"
+    },
+    {
+      "id": "3072980024",
+      "title": "Surviving our COVID-19 Punctuated Equilibrium",
+      "url": "https://www.thoughtworks.com/insights/blog/surviving-our-covid-19-punctuated-equilibrium",
+      "date": "2020-08-08"
+    },
+    {
+      "id": "3071865950",
+      "title": "Firefox 79 includes protections against redirect tracking",
+      "url": "https://blog.mozilla.org/security/2020/08/04/firefox-79-includes-protections-against-redirect-tracking",
+      "date": "2020-08-07"
+    },
+    {
+      "id": "3072708291",
+      "title": "4 errori di UX tipici degli sviluppatori",
+      "url": "https://blog.pietro.camp/2020/08/07/4-errori-di-ux-tipici-degli-sviluppatori/",
+      "date": "2020-08-07"
+    },
+    {
+      "id": "3072084218",
+      "title": "$2,000 MRR in one month!",
+      "url": "https://www.indiehackers.com/product/softwareideas-io/2-000-mrr-in-one-month--ME2S-bGlh7BPWJPBVSz",
+      "date": "2020-08-06"
+    },
+    {
+      "id": "3166730",
+      "title": "Zipf's law",
+      "url": "https://en.wikipedia.org/wiki/Zipf%27s_law",
+      "date": "2020-08-05"
+    },
+    {
+      "id": "25709270",
+      "title": "1% rule (Internet culture)",
+      "url": "https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture)",
+      "date": "2020-08-05"
+    },
+    {
+      "id": "41865353",
+      "title": "Confirmation bias",
+      "url": "https://en.wikipedia.org/wiki/Confirmation_bias",
+      "date": "2020-08-05"
+    },
+    {
+      "id": "3063614802",
+      "title": "Why Technology Favors Tyranny",
+      "url": "https://www.theatlantic.com/magazine/archive/2018/10/yuval-noah-harari-technology-tyranny/568330/",
+      "date": "2020-08-05"
+    },
+    {
+      "id": "3070866374",
+      "title": "Isn’t SRE Just DevOps?",
+      "url": "https://blog.container-solutions.com/isnt-sre-just-devops",
+      "date": "2020-08-05"
+    },
+    {
+      "id": "3069506625",
+      "title": "How I Built a Serverless Search for My Blog",
+      "url": "https://www.morling.dev/blog/how-i-built-a-serverless-search-for-my-blog/",
+      "date": "2020-08-04"
+    },
+    {
+      "id": "3068530100",
+      "title": "Using Unsplash for brand awareness and backlinks",
+      "url": "https://marketingexamples.com/seo/unsplash",
+      "date": "2020-08-03"
+    },
+    {
+      "id": "3068530302",
+      "title": "Growth Loops",
+      "url": "https://marketingexamples.com/viral/growth-loops",
+      "date": "2020-08-03"
+    },
+    {
+      "id": "3068856923",
+      "title": "The Panopticon Is Already Here",
+      "url": "https://www.theatlantic.com/magazine/archive/2020/09/china-ai-surveillance/614197/",
+      "date": "2020-08-03"
+    },
+    {
+      "id": "3067895180",
+      "title": "Video Call Apps",
+      "url": "https://foundation.mozilla.org/en/privacynotincluded/categories/video-call-apps/",
+      "date": "2020-08-02"
+    },
+    {
+      "id": "1611482713",
+      "title": "Goodbye Serenity",
+      "url": "https://www.nybooks.com/daily/2011/12/05/goodbye-serenity/",
+      "date": "2020-08-01"
+    },
+    {
+      "id": "2855104311",
+      "title": "The Ultimate Hack for Learning In Public",
+      "url": "https://www.swyx.io/writing/learn-in-public-hack",
+      "date": "2020-08-01"
+    },
+    {
+      "id": "3064599417",
+      "title": "You Want to See My Data? I Thought We Were Friends!",
+      "url": "http://nautil.us/blog/you-want-to-see-my-data-i-thought-we-were-friends",
+      "date": "2020-08-01"
+    },
+    {
+      "id": "3067095886",
+      "title": "#TwitterHack: Power, Privilege and Pandemic",
+      "url": "https://securityintelligence.com/?post_type=ibm_internals&p=421028",
+      "date": "2020-08-01"
+    },
+    {
+      "id": "3065584272",
+      "title": "How we bootstrapped our startup from $400 to $2,750 MRR in 135 days without ads",
+      "url": "https://plausible.io/blog/startup-marketing",
+      "date": "2020-07-31"
+    },
+    {
+      "id": "414286857",
+      "title": "IndieAuth.com: Sign in with your domain name",
+      "url": "https://indieauth.com/setup",
+      "date": "2020-07-30"
+    },
+    {
+      "id": "1193065855",
+      "title": "Write code that is easy to delete, not easy to extend.",
+      "url": "https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to",
+      "date": "2020-07-30"
+    },
+    {
+      "id": "2977481431",
+      "title": "Retries in distributed systems: good and bad parts",
+      "url": "https://shubheksha.com/posts/2020/05/retries-in-distributed-systems-good-and-bad-parts/",
+      "date": "2020-07-30"
+    },
+    {
+      "id": "3064595228",
+      "title": "Insider's Guide to Agile",
+      "url": "https://cult.honeypot.io/reads/insiders-guide-to-agile",
+      "date": "2020-07-30"
+    },
+    {
+      "id": "3064662576",
+      "title": "Backlog zero",
+      "url": "https://blog.pietro.camp/2020/07/30/backlog-zero/",
+      "date": "2020-07-30"
+    },
+    {
+      "id": "3064817632",
+      "title": "Four misleading claims tech CEOs told Congress",
+      "url": "https://protonmail.com/blog/tech-ceos-hearing/",
+      "date": "2020-07-30"
+    },
+    {
+      "id": "3064977867",
+      "title": "Smart Working: is it THE new paradigm?",
+      "url": "https://medium.com/casavo/smart-working-is-it-the-new-paradigm-bea4a41e5afc",
+      "date": "2020-07-30"
+    },
+    {
+      "id": "986977",
+      "title": "Web beacon",
+      "url": "https://en.wikipedia.org/wiki/Web_beacon",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "29353659",
+      "title": "Device fingerprint",
+      "url": "https://en.wikipedia.org/wiki/Device_fingerprint",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "1283696367",
+      "title": "Injecting dependencies doesn't have to hurt",
+      "url": "http://blog.thecodewhisperer.com/permalink/injecting-dependencies-doesnt-have-to-hurt",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "2268617662",
+      "title": "55 Ways To Market Your Online Course & Increase Sales in 2018",
+      "url": "https://www.thinkific.com/blog/55-proven-marketing-strategies-to-increase-online-course-sales/",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "2647171832",
+      "title": "What is a tracking pixel and can strangers really spy on me through email?",
+      "url": "https://www.theverge.com/2019/7/3/20681508/tracking-pixel-email-spying-superhuman-web-beacon-open-tracking-read-receipts-location",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "2682228428",
+      "title": "Modern React testing, part 1: best practices",
+      "url": "https://blog.sapegin.me/all/react-testing-1-best-practices/",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "2714596317",
+      "title": "Browser Fingerprinting: An Introduction and the Challenges Ahead",
+      "url": "https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "3048154075",
+      "title": "How we get around tracking pixel blockers",
+      "url": "https://www.gmass.co/blog/tracking-pixel-blockers/",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "3062385462",
+      "title": "18 Newsletter Examples to Get You Inspired",
+      "url": "https://reallygoodemails.com/blog/newsletter-examples",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "3063726389",
+      "title": "How do the biggest internet companies make money? — The Internet Health Report 2019",
+      "url": "https://internethealthreport.org/2019/how-the-biggest-internet-companies-make-money/",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "3064075471",
+      "title": "No Code VS Low Code. What’s the Difference? It. Doesn't. Matter.",
+      "url": "https://www.freecodecamp.org/news/no-code-vs-low-code-defined/",
+      "date": "2020-07-29"
+    },
+    {
+      "id": "1018334351",
+      "title": "You Really Don’t Need To Work So Much",
+      "url": "https://www.newyorker.com/news/daily-comment/you-really-dont-need-to-work-so-much",
+      "date": "2020-07-28"
+    },
+    {
+      "id": "2556506855",
+      "title": "SEO Case Study: 0 to 150,000 Monthly Visitors in 8 Months",
+      "url": "https://www.yourgrowthmachine.com/blog/seo-case-study",
+      "date": "2020-07-28"
+    },
+    {
+      "id": "3061329406",
+      "title": "How GPT3 Works - Visualizations and Animations",
+      "url": "https://jalammar.github.io/how-gpt3-works-visualizations-animations/",
+      "date": "2020-07-28"
+    },
+    {
+      "id": "3062768027",
+      "title": "Google’s Top Search Result? Surprise! It’s Google – The Markup",
+      "url": "https://themarkup.org/google-the-giant/2020/07/28/google-search-results-prioritize-google-products-over-competitors",
+      "date": "2020-07-28"
+    },
+    {
+      "id": "3061331141",
+      "title": "ACCC alleges Google misled consumers about expanded use of personal data",
+      "url": "https://www.accc.gov.au/media-release/accc-alleges-google-misled-consumers-about-expanded-use-of-personal-data",
+      "date": "2020-07-27"
+    },
+    {
+      "id": "3061478109",
+      "title": "How to avoid unnecessary meetings (a takeaway from Devoxx France 2018)",
+      "url": "https://philippe.bourgau.net/how-to-avoid-unnecessary-meetings-a-takeaway-from-devoxx-france-2018/",
+      "date": "2020-07-27"
+    },
+    {
+      "id": "3057770220",
+      "title": "I Grew From Zero to $1,000 MRR in 94 Days: Here’s How I Did It",
+      "url": "https://baremetrics.com/blog/friendly-growth-study",
+      "date": "2020-07-26"
+    },
+    {
+      "id": "3057795792",
+      "title": "Amazon Met With Startups About Investing, Then Launched Competing Products",
+      "url": "https://www.wsj.com/articles/amazon-tech-startup-echo-bezos-alexa-investment-fund-11595520249",
+      "date": "2020-07-24"
+    },
+    {
+      "id": "3058740196",
+      "title": "Growing a Subscription Newsletter by Teaching Others to Do the Same",
+      "url": "https://www.indiehackers.com/interview/growing-a-subscription-newsletter-by-teaching-others-to-do-the-same-6ebf2f60b1",
+      "date": "2020-07-24"
+    },
+    {
+      "id": "3059118901",
+      "title": "🤯 100 Customers in over 12 months",
+      "url": "https://www.indiehackers.com/product/scrapingninja/100-customers-in-over-12-months--MCzgF219knKjknCt--5",
+      "date": "2020-07-24"
+    },
+    {
+      "id": "1992060572",
+      "title": "Why and How to Start a #ZeroBugs Policy - Part 1",
+      "url": "http://philippe.bourgau.net/why-and-how-to-start-a-number-zerobugs-policy-part-1/",
+      "date": "2020-07-23"
+    },
+    {
+      "id": "1992632801",
+      "title": "Why and How to Start a #ZeroBugs Policy - Part 2",
+      "url": "http://philippe.bourgau.net/why-and-how-to-start-a-number-zerobugs-policy-part-2/",
+      "date": "2020-07-23"
+    },
+    {
+      "id": "2037864231",
+      "title": "Why and How to Start a #ZeroBugs Policy - Part 4",
+      "url": "http://philippe.bourgau.net/why-and-how-to-start-a-number-zerobugs-policy-part-4/",
+      "date": "2020-07-23"
+    },
+    {
+      "id": "2037864290",
+      "title": "Why and How to Start a #ZeroBugs Policy - Part 3",
+      "url": "http://philippe.bourgau.net/why-and-how-to-start-a-number-zerobugs-policy-part-3/",
+      "date": "2020-07-23"
+    },
+    {
+      "id": "3055616157",
+      "title": "Sales advice for indie hackers : when, why, what and how to charge",
+      "url": "https://www.petecodes.io/sales-advice-indie-hackers/",
+      "date": "2020-07-23"
+    },
+    {
+      "id": "3057263203",
+      "title": "Giving GPT-3 a Turing Test",
+      "url": "https://lacker.io/ai/2020/07/06/giving-gpt-3-a-turing-test.html",
+      "date": "2020-07-23"
+    },
+    {
+      "id": "3057524387",
+      "title": "Should Developers Have Incentive Plans?",
+      "url": "https://x-team.com/blog/developers-incentive-plans/",
+      "date": "2020-07-23"
+    },
+    {
+      "id": "2046888884",
+      "title": "Why quitting my job was the best thing ever",
+      "url": "https://www.indiehackers.com/@1hakr/why-quitting-my-job-was-the-best-thing-ever-fd03e82e09",
+      "date": "2020-07-22"
+    },
+    {
+      "id": "3047758548",
+      "title": "Linus Torvalds banishes masters, slaves and blacklists from the Linux kernel, starting now",
+      "url": "https://www.theregister.com/2020/07/13/linux_adopts_inclusive_language/",
+      "date": "2020-07-22"
+    },
+    {
+      "id": "3053360349",
+      "title": "How to Check Your Devices for Stalkerware",
+      "url": "https://www.wired.com/story/how-to-check-for-stalkerware/",
+      "date": "2020-07-22"
+    },
+    {
+      "id": "3055275564",
+      "title": "Invert, always, invert",
+      "url": "https://www.anup.io/2020/07/20/invert-always-invert/",
+      "date": "2020-07-22"
+    },
+    {
+      "id": "3056348668",
+      "title": "Do cold emails work for you when trying to get SaaS sign-ups?",
+      "url": "https://www.indiehackers.com/post/do-cold-emails-work-for-you-when-trying-to-get-saas-sign-ups-aace0adeaf",
+      "date": "2020-07-22"
+    },
+    {
+      "id": "3056352521",
+      "title": "We've increased our traffic by 1,800% and these are our top referral sources",
+      "url": "https://dev.to/markosaric/we-ve-increased-our-traffic-by-1-800-and-these-are-our-top-referral-sources-431o",
+      "date": "2020-07-22"
+    },
+    {
+      "id": "3056816511",
+      "title": "Best Marketing advice you have ever heard?",
+      "url": "https://www.indiehackers.com/post/best-marketing-advice-you-have-ever-heard-7689b79075",
+      "date": "2020-07-22"
+    },
+    {
+      "id": "1069521054",
+      "title": "Side Project Marketing Is the New King",
+      "url": "https://medium.com/swlh/side-product-marketing-is-the-new-king-a75c4ed0c0c5",
+      "date": "2020-07-21"
+    },
+    {
+      "id": "1161559655",
+      "title": "6,595 Words on a Traffic Generation Tactic You’re Not Using (But Should Be)",
+      "url": "http://www.viperchill.com/traffic-side-project/",
+      "date": "2020-07-21"
+    },
+    {
+      "id": "2658163790",
+      "title": "Data policy",
+      "url": "https://plausible.io/data-policy",
+      "date": "2020-07-21"
+    },
+    {
+      "id": "2814300679",
+      "title": "5 rules for marketing content that converts",
+      "url": "https://stackingthebricks.com/5-rules-content-that-sells/",
+      "date": "2020-07-21"
+    },
+    {
+      "id": "3055276573",
+      "title": "How Blogging for Devs Reached 1K Subscribers in Under 2 Weeks",
+      "url": "https://www.indiehackers.com/post/how-blogging-for-devs-reached-1k-subscribers-in-under-2-weeks-504b0ae6be",
+      "date": "2020-07-21"
+    },
+    {
+      "id": "3055358492",
+      "title": "How to promote yourself without sounding obnoxious",
+      "url": "https://www.fastcompany.com/90527629/how-to-promote-yourself-without-sounding-obnoxious",
+      "date": "2020-07-21"
+    },
+    {
+      "id": "3055503915",
+      "title": "Arrange-Act-Assert: A Pattern for Writing Good Tests",
+      "url": "https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/",
+      "date": "2020-07-21"
+    },
+    {
+      "id": "3055570533",
+      "title": "[Case Study] How I used Notion to validate my idea & get to $646 MRR in three weeks (+ free template!)",
+      "url": "https://www.indiehackers.com/post/case-study-how-i-used-notion-to-validate-my-idea-get-to-646-mrr-in-three-weeks-free-template-b37cafe6bf",
+      "date": "2020-07-21"
+    },
+    {
+      "id": "2303175717",
+      "title": "The Epic Guide to Bootstrapping a SaaS Startup from Scratch",
+      "url": "https://blog.gettamboo.com/the-epic-guide-to-bootstrapping-a-saas-startup-from-scratch-by-yourself-part-1-4d834e1df8c1",
+      "date": "2020-07-20"
+    },
+    {
+      "id": "2732117743",
+      "title": "Sales Tips Every Founder Should Know with Steli Efti of Close",
+      "url": "https://www.indiehackers.com/podcast/119-steli-efti-of-close",
+      "date": "2020-07-20"
+    },
+    {
+      "id": "3053597584",
+      "title": "The German Problem with Tor",
+      "url": "https://worldofmatthew.com/post/tor-german-avoid/",
+      "date": "2020-07-20"
+    },
+    {
+      "id": "3054016687",
+      "title": "404 Page Not Found",
+      "url": "https://carolchen.me/blog/founding-bad/&#x2F;blog",
+      "date": "2020-07-20"
+    },
+    {
+      "id": "3054097314",
+      "title": "Launch a Google Sheet",
+      "url": "https://www.indiehackers.com/post/launch-a-google-sheet-821318349f",
+      "date": "2020-07-20"
+    },
+    {
+      "id": "3054242682",
+      "title": "We've increased our traffic by 1,800% and these are our top referral sources",
+      "url": "https://www.indiehackers.com/post/weve-increased-our-traffic-by-1-800-and-these-are-our-top-referral-sources-d1d4e74819?commentId=-MCfIVnwLr8Y-yaGWOqH",
+      "date": "2020-07-20"
+    },
+    {
+      "id": "3054544828",
+      "title": "How to Remove Negative & Fake Glassdoor Reviews",
+      "url": "https://www.minclaw.com/remove-negative-fake-glassdoor-reviews/",
+      "date": "2020-07-20"
+    },
+    {
+      "id": "2666667474",
+      "title": "My Joke Cryptocurrency Hit $2 Billion and Something Is Very Wrong",
+      "url": "https://www.vice.com/en_us/article/9kng57/dogecoin-my-joke-cryptocurrency-hit-2-billion-jackson-palmer-opinion",
+      "date": "2020-07-19"
+    },
+    {
+      "id": "3033195908",
+      "title": "Things I Wish I’d Known About CSS",
+      "url": "https://cssfordesigners.com/articles/things-i-wish-id-known-about-css",
+      "date": "2020-07-19"
+    },
+    {
+      "id": "3044565935",
+      "title": "The saddest \"Just Ship It\" story ever",
+      "url": "https://kitze.io/posts/saddest-just-ship-it-story-ever",
+      "date": "2020-07-19"
+    },
+    {
+      "id": "3053483871",
+      "title": "OpenAI's GPT-3 may be the biggest thing since bitcoin",
+      "url": "https://maraoz.com/2020/07/18/openai-gpt3/",
+      "date": "2020-07-19"
+    },
+    {
+      "id": "3053483992",
+      "title": "Your Most Precious Resource",
+      "url": "https://www.patkua.com/blog/your-most-precious-resource/",
+      "date": "2020-07-19"
+    },
+    {
+      "id": "3052599405",
+      "title": "Pick one...",
+      "url": "https://developerdilemmas.com/cards/realism-vs-printer?utm_source=boostedpost&utm_medium=twitter&utm_campaign=dev-dilemmas",
+      "date": "2020-07-18"
+    },
+    {
+      "id": "1109905",
+      "title": "Sunk cost",
+      "url": "https://en.wikipedia.org/wiki/Sunk_cost",
+      "date": "2020-07-17"
+    },
+    {
+      "id": "2150333242",
+      "title": "What is the Sunk Cost Fallacy? + Learn to Avoid it in 5 Steps",
+      "url": "https://toggl.com/blog/sunk-cost-fallacy/",
+      "date": "2020-07-17"
+    },
+    {
+      "id": "3051456756",
+      "title": "My crazy launch. 32.000 visitors💥, No.1 on several platforms.",
+      "url": "https://www.indiehackers.com/post/my-crazy-launch-32-000-visitors-no-1-on-several-platforms-c702a5e59a",
+      "date": "2020-07-17"
+    },
+    {
+      "id": "3051510744",
+      "title": "Unit Testing is Overrated",
+      "url": "https://tyrrrz.me/blog/unit-testing-is-overrated",
+      "date": "2020-07-17"
+    },
+    {
+      "id": "3051810284",
+      "title": "16 Awesome Elixir Open-Source Projects",
+      "url": "https://serokell.io/blog/elixir-open-source-projects",
+      "date": "2020-07-17"
+    },
+    {
+      "id": "2940958927",
+      "title": "Crypto giveaway scams and how to spot them",
+      "url": "https://blog.coinbase.com/crypto-giveaway-scams-and-how-to-spot-them-59e24d220616",
+      "date": "2020-07-16"
+    },
+    {
+      "id": "3050291804",
+      "title": "Hackers Convinced Twitter Employee to Help Them Hijack Accounts",
+      "url": "https://www.vice.com/en_us/article/jgxd3d/twitter-insider-access-panel-account-hacks-biden-uber-bezos",
+      "date": "2020-07-16"
+    },
+    {
+      "id": "3050309137",
+      "title": "Five things to keep in mind when building your landing page",
+      "url": "https://www.producthunt.com/makers/1-makers/discussion/53461-five-things-to-keep-in-mind-when-building-your-landing-page",
+      "date": "2020-07-16"
+    },
+    {
+      "id": "3050574415",
+      "title": "Full-Remote: Office Not Required (cit.)",
+      "url": "https://www.flowing.it/blog/full-remote-office-not-required-cit",
+      "date": "2020-07-16"
+    },
+    {
+      "id": "3050717469",
+      "title": "Twitter reveals that its own employee tools contributed to unprecedented hack",
+      "url": "https://www.theverge.com/2020/7/15/21326656/twitter-hack-explanation-bitcoin-accounts-employee-tools",
+      "date": "2020-07-16"
+    },
+    {
+      "id": "3050754974",
+      "title": "Homemade analytics with Ecto and Elixir",
+      "url": "https://dashbit.co/blog/homemade-analytics-with-ecto-and-elixir",
+      "date": "2020-07-16"
+    },
+    {
+      "id": "3051043813",
+      "title": "EU Court Again Rules That NSA Spying Makes U.S. Companies Inadequate for Privacy",
+      "url": "https://www.eff.org/deeplinks/2020/07/eu-court-again-rules-nsa-spying-makes-us-companies-inadequate-privacy",
+      "date": "2020-07-16"
+    },
+    {
+      "id": "2971255694",
+      "title": "Surprising Things About Working at Well-Known Tech Unicorns",
+      "url": "https://blog.pragmaticengineer.com/surprising-things-about-working-at-tech-unicorns/",
+      "date": "2020-07-15"
+    },
+    {
+      "id": "2974564276",
+      "title": "17 tips for great copywriting",
+      "url": "https://marketingexamples.com/copywriting/tips",
+      "date": "2020-07-15"
+    },
+    {
+      "id": "3038769130",
+      "title": "7 Tips to Write Landing Page Text Without Sounding like a Salesman.",
+      "url": "https://www.indiehackers.com/post/7-tips-to-write-landing-page-text-without-sounding-like-a-salesman-1cd527c9c6",
+      "date": "2020-07-15"
+    },
+    {
+      "id": "3047133770",
+      "title": "The Most Remarkable Legacy System I Have Seen",
+      "url": "https://thehftguy.com/2020/07/09/the-most-remarkable-legacy-system-i-have-seen/",
+      "date": "2020-07-15"
+    },
+    {
+      "id": "3048547645",
+      "title": "Resignation Letter — Bari Weiss",
+      "url": "https://www.bariweiss.com/resignation-letter",
+      "date": "2020-07-15"
+    },
+    {
+      "id": "3049200809",
+      "title": "Developers can't fix bad management",
+      "url": "https://iism.org/article/developers-can-t-fix-bad-management-57",
+      "date": "2020-07-15"
+    },
+    {
+      "id": "1863105769",
+      "title": "Quantifying YC’s “Make something people want”",
+      "url": "https://hackernoon.com/quantifying-ycs-make-something-people-want-2d07b7762f56",
+      "date": "2020-07-14"
+    },
+    {
+      "id": "2693502892",
+      "title": "Using the aria-hidden attribute",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute",
+      "date": "2020-07-14"
+    },
+    {
+      "id": "2973571328",
+      "title": "Make Something People Want",
+      "url": "https://medium.com/@growyouridea/make-something-people-want-3f46785226d9",
+      "date": "2020-07-14"
+    },
+    {
+      "id": "3048297600",
+      "title": "Weird Stories as a Remote Software Developer",
+      "url": "https://x-team.com/blog/weird-stories-remote-developer/",
+      "date": "2020-07-14"
+    },
+    {
+      "id": "3048612468",
+      "title": "The five dysfunctions of a team",
+      "url": "https://nelis.boucke.be/post/the-five-dysfunctions-of-a-team/",
+      "date": "2020-07-14"
+    },
+    {
+      "id": "3048766970",
+      "title": "Tor: What is it Good For? (Absolutely Everything!)",
+      "url": "https://techlearningcollective.com/events/2020/07/workshop-2020-07-16-tor-what-is-it-good-for-absolutely-everything",
+      "date": "2020-07-14"
+    },
+    {
+      "id": "3048767129",
+      "title": "Building State Machines in Elixir with Ecto",
+      "url": "https://blog.appsignal.com/2020/07/14/building-state-machines-in-elixir-with-ecto.html",
+      "date": "2020-07-14"
+    },
+    {
+      "id": "2812016941",
+      "title": "The ladders of wealth creation: a step-by-step roadmap to building wealth",
+      "url": "https://nathanbarry.com/wealth-creation/",
+      "date": "2020-07-13"
+    },
+    {
+      "id": "3046161995",
+      "title": "Just Too Efficient",
+      "url": "https://www.tbray.org/ongoing/When/202x/2020/07/05/Too-Efficient",
+      "date": "2020-07-13"
+    },
+    {
+      "id": "3047114860",
+      "title": "8 cose che non si possono fare dal balcone di casa",
+      "url": "https://www.laleggepertutti.it/415164_8-cose-che-non-si-possono-fare-dal-balcone-di-casa",
+      "date": "2020-07-13"
+    },
+    {
+      "id": "3047364181",
+      "title": "Sandro Mancuso on Outside-In TDD",
+      "url": "https://hackmd.io/@pierodibello/Sandro-Mancuso-on-Outside-In-TDD",
+      "date": "2020-07-13"
+    },
+    {
+      "id": "1990328506",
+      "title": "Stripe vs PayPal vs Gumroad: How To Sell eBooks on Your WordPress Website",
+      "url": "https://activegrowth.com/stripe-vs-paypal-vs-gumroad-how-to-sell-ebooks/",
+      "date": "2020-07-12"
+    },
+    {
+      "id": "2977704304",
+      "title": "How I Turned an Idea into $7K by Teaching Online",
+      "url": "https://leerob.io/blog/teach-online",
+      "date": "2020-07-12"
+    },
+    {
+      "id": "3017324296",
+      "title": "Akshay's Blog",
+      "url": "https://akshayd.in/2020/06/12/JTBD-A-primer/",
+      "date": "2020-07-12"
+    },
+    {
+      "id": "3036715316",
+      "title": "Keeping the product promise",
+      "url": "https://akshayd.in/2020/06/27/keeping-the-product-promise/",
+      "date": "2020-07-12"
+    },
+    {
+      "id": "3046155548",
+      "title": "The Ultimate Guide to Creating and Selling Your Online Course in 2020",
+      "url": "https://coursemaker.org/blog/create-sell-online-courses-ultimate-guide/",
+      "date": "2020-07-12"
+    },
+    {
+      "id": "3046155594",
+      "title": "How to Sell Online Courses From Your Own Website",
+      "url": "https://coursemaker.org/blog/sell-online-course-your-own-website/",
+      "date": "2020-07-12"
+    },
+    {
+      "id": "3046155629",
+      "title": "Online Marketplace vs. Self Hosting - Where to Sell Your Course",
+      "url": "https://coursemaker.org/blog/online-marketplace-vs-self-hosting-courses/",
+      "date": "2020-07-12"
+    },
+    {
+      "id": "3046422008",
+      "title": "Visitors Will Excuse Your Un-styled Landing Page",
+      "url": "https://sharpen.page/jtbd/visitors-will-excuse-your-unstyled-landing-page/",
+      "date": "2020-07-12"
+    },
+    {
+      "id": "3044755847",
+      "title": "Stato d’emergenza fino al 31 dicembre: cosa comporterà",
+      "url": "https://www.laleggepertutti.it/415055_stato-demergenza-fino-al-31-dicembre-cosa-comportera",
+      "date": "2020-07-11"
+    },
+    {
+      "id": "3045723423",
+      "title": "How Developers Stop Learning: Rise of the Expert Beginner",
+      "url": "https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/",
+      "date": "2020-07-11"
+    },
+    {
+      "id": "2851700124",
+      "title": "How I Stopped a Credit Card Thief From Ripping Off 3,537 People – and Saved Our Nonprofit in the Process",
+      "url": "https://www.freecodecamp.org/news/stopping-credit-card-fraud-and-saving-our-nonprofit/",
+      "date": "2020-07-10"
+    },
+    {
+      "id": "3028953503",
+      "title": "How My Side Project Hit $110,424 in Sales (9 tactics, 3 scripts, 5 hacks)",
+      "url": "https://www.indiehackers.com/post/how-my-side-project-hit-110-424-in-sales-9-tactics-3-scripts-5-hacks-d4ea9498fa",
+      "date": "2020-07-10"
+    },
+    {
+      "id": "3043669207",
+      "title": "Creandum backs Amie, a new productivity app from ex-N26 product manager Dennis Müller",
+      "url": "https://techcrunch.com/2020/07/09/amie/",
+      "date": "2020-07-10"
+    },
+    {
+      "id": "3044442949",
+      "title": "6 reflections on turning 27",
+      "url": "https://jackellis.me/blog/6-reflections-turning-27?ref=indiehackers",
+      "date": "2020-07-10"
+    },
+    {
+      "id": "3044450027",
+      "title": "A roadmap to launch 🚀...",
+      "url": "https://www.indiehackers.com/post/a-roadmap-to-launch-4d37be69eb",
+      "date": "2020-07-10"
+    },
+    {
+      "id": "3044776404",
+      "title": "What is Conversion rate optimisation - Quora",
+      "url": "https://www.quora.com/What-is-Conversion-rate-optimisation",
+      "date": "2020-07-10"
+    },
+    {
+      "id": "3042712105",
+      "title": "How we achieve “simple design” for Basecamp and HEY",
+      "url": "https://m.signalvnoise.com/how-we-achieve-simple-design-for-basecamp-and-hey/",
+      "date": "2020-07-09"
+    },
+    {
+      "id": "3043408677",
+      "title": "The technical debt ponzi scheme",
+      "url": "https://philippe.bourgau.net/the-technical-debt-ponzi-scheme/",
+      "date": "2020-07-09"
+    },
+    {
+      "id": "3043628467",
+      "title": "How Developers Stop Learning: Rise of the Expert Beginner",
+      "url": "https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/",
+      "date": "2020-07-09"
+    },
+    {
+      "id": "3043628575",
+      "title": "Reddit's website uses DRM for fingerprinting",
+      "url": "https://smitop.com/post/reddit-whiteops/",
+      "date": "2020-07-09"
+    },
+    {
+      "id": "369597403",
+      "title": "Canonicalization",
+      "url": "https://moz.com/learn/seo/canonicalization",
+      "date": "2020-07-08"
+    },
+    {
+      "id": "2629362628",
+      "title": "7 Habits of Highly “Effective” Programmers",
+      "url": "https://medium.com/better-programming/7-habits-of-highly-effective-programmers-563ee3b63f33",
+      "date": "2020-07-08"
+    },
+    {
+      "id": "2837966450",
+      "title": "Why we can’t stop fighting about cancel culture",
+      "url": "https://www.vox.com/culture/2019/12/30/20879720/what-is-cancel-culture-explained-history-debate",
+      "date": "2020-07-08"
+    },
+    {
+      "id": "2992832443",
+      "title": "Why I Love TDD",
+      "url": "https://dev.to/shanif/why-i-love-tdd-4d6",
+      "date": "2020-07-08"
+    },
+    {
+      "id": "3042281541",
+      "title": "No Cookies, No Problem — Using ETags For User Tracking",
+      "url": "https://levelup.gitconnected.com/no-cookies-no-problem-using-etags-for-user-tracking-3e745544176b",
+      "date": "2020-07-08"
+    },
+    {
+      "id": "3042330574",
+      "title": "Ten Misconceptions About Software Testing - That Non-Testers Share",
+      "url": "https://www.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share?s_id=696367",
+      "date": "2020-07-08"
+    },
+    {
+      "id": "3042543869",
+      "title": "Police Are Buying Access to Hacked Website Data",
+      "url": "https://www.vice.com/en_us/article/3azvey/police-buying-hacked-data-spycloud",
+      "date": "2020-07-08"
+    },
+    {
+      "id": "3042613623",
+      "title": "A Letter on Justice and Open Debate",
+      "url": "https://harpers.org/a-letter-on-justice-and-open-debate/",
+      "date": "2020-07-08"
+    },
+    {
+      "id": "3042901212",
+      "title": "How To: Crack SSH Private Key Passwords with John the Ripper",
+      "url": "https://null-byte.wonderhowto.com/how-to/crack-ssh-private-key-passwords-with-john-ripper-0302810/",
+      "date": "2020-07-08"
+    },
+    {
+      "id": "3041180413",
+      "title": "Your obsession with \"winning\" at Hacker News and Product Hunt is hurting your business",
+      "url": "https://www.indiehackers.com/post/your-obsession-with-winning-at-hacker-news-and-product-hunt-is-hurting-your-business-c05505b902",
+      "date": "2020-07-07"
+    },
+    {
+      "id": "3041267130",
+      "title": "How to Ask Better Questions",
+      "url": "https://x-team.com/blog/asking-better-questions/",
+      "date": "2020-07-07"
+    },
+    {
+      "id": "3041582130",
+      "title": "Cops Seize Server that Hosted BlueLeaks, DDoSecrets Says",
+      "url": "https://www.vice.com/en_us/article/qj43xq/cops-seize-blueleaks-ddosecrets-server",
+      "date": "2020-07-07"
+    },
+    {
+      "id": "3041701822",
+      "title": "What I learned spending $40k and one year launching Artyst.",
+      "url": "https://www.indiehackers.com/post/what-i-learned-spending-40k-and-one-year-launching-artyst-c5341c7f90",
+      "date": "2020-07-07"
+    },
+    {
+      "id": "3032408066",
+      "title": "Concurrency In The Erlang VM",
+      "url": "https://dev.to/imswaathik/concurrency-in-the-erlang-vm-272k",
+      "date": "2020-07-06"
+    },
+    {
+      "id": "3040468311",
+      "title": "Zero to Sold: 1000+ Books Sold in 7 Days. Here are the numbers.",
+      "url": "https://www.indiehackers.com/post/zero-to-sold-1000-books-sold-in-7-days-here-are-the-numbers-0954b31c39",
+      "date": "2020-07-06"
+    },
+    {
+      "id": "3040492016",
+      "title": "Path dependence or why existing code always looks bad",
+      "url": "https://swizec.com/blog/path-dependence/swizec/9448",
+      "date": "2020-07-06"
+    },
+    {
+      "id": "3040670791",
+      "title": "Google's AMP, the Canonical Web, and the Importance of Web Standards",
+      "url": "https://www.eff.org/deeplinks/2020/07/googles-amp-canonical-web-and-importance-web-standards-0",
+      "date": "2020-07-06"
+    },
+    {
+      "id": "3040722520",
+      "title": "Chinese government builds new Great Firewall around Hong Kong",
+      "url": "https://protonmail.com/blog/china-censorship-hong-kong/",
+      "date": "2020-07-06"
+    },
+    {
+      "id": "3039283989",
+      "title": "Keeping secrets on Linux with Password Safe",
+      "url": "https://nts.strzibny.name/keeping-secrets-password-safe/",
+      "date": "2020-07-05"
+    },
+    {
+      "id": "3039608638",
+      "title": "Coronavirus Is a Golden Age for People Sucking Their Own Dicks",
+      "url": "https://www.vice.com/en_us/article/m7q85n/how-to-suck-your-own-dick-during-coronavirus",
+      "date": "2020-07-05"
+    },
+    {
+      "id": "2820632122",
+      "title": "Knowing the “Value” of Our Data Won’t Fix Our Privacy Problems",
+      "url": "https://www.eff.org/deeplinks/2019/07/knowing-value-our-data-wont-fix-our-privacy-problems",
+      "date": "2020-07-04"
+    },
+    {
+      "id": "3035050513",
+      "title": "The evolution of HEY: from humble beginnings to a multi-platform email service",
+      "url": "https://m.signalvnoise.com/the-evolution-of-hey/",
+      "date": "2020-07-04"
+    },
+    {
+      "id": "3038541212",
+      "title": "Reddit says it’s fixing code in its iOS app that copied clipboard contents",
+      "url": "https://www.theverge.com/2020/7/4/21313214/reddit-code-clipboard-privacy-copy-ios",
+      "date": "2020-07-04"
+    },
+    {
+      "id": "3038839848",
+      "title": "The silence is deafening",
+      "url": "https://devonzuegel.com/post/the-silence-is-deafening",
+      "date": "2020-07-04"
+    },
+    {
+      "id": "1900093438",
+      "title": "Your Whole Goal Is to Not Quit – Courtland Allen of Indie Hackers",
+      "url": "http://blog.ycombinator.com/your-whole-goal-is-to-not-quit-courtland-allen-of-indie-hackers/",
+      "date": "2020-07-03"
+    },
+    {
+      "id": "2135087921",
+      "title": "Addresses and Aliases",
+      "url": "https://protonmail.com/support/knowledge-base/addresses-and-aliases/",
+      "date": "2020-07-03"
+    },
+    {
+      "id": "3037240950",
+      "title": "Law enforcement arrests hundreds after compromising encrypted chat system",
+      "url": "https://www.theverge.com/2020/7/2/21311306/encrochat-arrests-criminals-police-hacking-uk-europe-encrypted-chat",
+      "date": "2020-07-03"
+    },
+    {
+      "id": "3037921408",
+      "title": "The World After This",
+      "url": "https://www.vice.com/en_us/article/wxekvw/the-world-after-coronavirus-healthcare-labor-climate-internet",
+      "date": "2020-07-03"
+    },
+    {
+      "id": "3038007767",
+      "title": "Please leave our clipboards alone.",
+      "url": "https://state.substack.com/p/please-leave-our-clipboards-alone",
+      "date": "2020-07-03"
+    },
+    {
+      "id": "3038008966",
+      "title": "Scratching My Own Itch Let Me Quit My Day Job and Bootstrap Full Time",
+      "url": "https://www.indiehackers.com/interview/scratching-my-own-itch-let-me-quit-my-day-job-and-bootstrap-full-time-de5bfdeaa9",
+      "date": "2020-07-03"
+    },
+    {
+      "id": "3036301616",
+      "title": "How I earned $16K in 48 hours with my SaaS launch (Detailed breakdown)",
+      "url": "https://www.indiehackers.com/post/how-i-earned-16k-in-48-hours-with-my-saas-launch-detailed-breakdown-578ad8f767",
+      "date": "2020-07-02"
+    },
+    {
+      "id": "3036302230",
+      "title": "What's wrong with WhatsApp",
+      "url": "https://www.theguardian.com/technology/2020/jul/02/whatsapp-groups-conspiracy-theories-disinformation-democracy",
+      "date": "2020-07-02"
+    },
+    {
+      "id": "3036357206",
+      "title": "Apple, Google, Amazon, and Facebook CEOs will testify before Congress",
+      "url": "https://www.theverge.com/2020/7/2/21311049/house-judiciary-committee-antitrust-investigation-amazon-facebook-alphabet-google-apple-ceo-testify",
+      "date": "2020-07-02"
+    },
+    {
+      "id": "3036674494",
+      "title": "1000 YouTube subscribers!",
+      "url": "https://www.indiehackers.com/product/marketing-examples/1000-youtube-subscribers--MBDiJzcY-QONjf4l5qm",
+      "date": "2020-07-02"
+    },
+    {
+      "id": "3036740564",
+      "title": "Twitter engineers reportedly pushing to replace ‘master’ and ‘slave’ programming terms",
+      "url": "https://www.theverge.com/2020/7/2/21311330/twitter-engineers-master-slave-github-programming-racism",
+      "date": "2020-07-02"
+    },
+    {
+      "id": "1468123473",
+      "title": "How to Kill Scrum Zombies ?",
+      "url": "http://philippe.bourgau.net/how-to-kill-scrum-zombies/",
+      "date": "2020-07-01"
+    },
+    {
+      "id": "3032657635",
+      "title": "How to finish your side project.",
+      "url": "https://hugozap.com/posts/how-to-finish-your-side-project/",
+      "date": "2020-07-01"
+    },
+    {
+      "id": "3035846231",
+      "title": "Google is still paying Apple billions to be the default search engine in Safari",
+      "url": "https://www.theverge.com/2020/7/1/21310591/apple-google-search-engine-safari-iphone-deal-billions-regulation-antitrust",
+      "date": "2020-07-01"
+    },
+    {
+      "id": "3035879643",
+      "title": "How To: Conduct a Pentest Like a Pro in 6 Phases",
+      "url": "https://null-byte.wonderhowto.com/how-to/conduct-pentest-like-pro-6-phases-0285035/",
+      "date": "2020-07-01"
+    },
+    {
+      "id": "3033366048",
+      "title": "Worrying about the NPM ecosystem",
+      "url": "https://sambleckley.com/writing/npm.html",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "3033527506",
+      "title": "Introducing the Billing customer portal",
+      "url": "https://stripe.com/blog/billing-customer-portal",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "3033619825",
+      "title": "Why AnyList Won’t Be Supporting Sign In with Apple",
+      "url": "https://blog.anylist.com/2020/06/sign-in-with-apple",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "3033633841",
+      "title": "Forget Google, Time to End the Payment Processing Duopoly",
+      "url": "https://medium.com/@CM30/the-unknown-duopoly-that-needs-breaking-up-more-than-google-f7b2c8876ea7",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "3033648893",
+      "title": "India bans TikTok, dozens of other Chinese apps",
+      "url": "https://techcrunch.com/2020/06/29/india-bans-tiktok-dozens-of-other-chinese-apps/",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "3034060918",
+      "title": "You can't tell people anything",
+      "url": "http://habitatchronicles.com/2004/04/you-cant-tell-people-anything/",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "3034338332",
+      "title": "The end of the Redis adventure",
+      "url": "http://antirez.com/news/133",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "3034504679",
+      "title": "India Banned TikTok and Other Chinese Apps After Border Tensions. Here’s What That Means for the Indian Community.",
+      "url": "https://www.vice.com/en_us/article/qj4j5m/tik-tok-ban-china-india-border-tensions",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "3034504767",
+      "title": "A serious game for learning ‘built-in quality at the source’",
+      "url": "https://philippe.bourgau.net/a-serious-game-for-learning-built-in-quality-at-the-source/",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "3034530513",
+      "title": "What Is The Morning Writing Effect? · Gwern.net",
+      "url": "https://www.gwern.net/Morning-writing",
+      "date": "2020-06-30"
+    },
+    {
+      "id": "2588317815",
+      "title": "Error handling with promises",
+      "url": "https://javascript.info/promise-error-handling",
+      "date": "2020-06-29"
+    },
+    {
+      "id": "3032982543",
+      "title": "Mass-Tracking COVI-PASS Immunity Passports To Be Rolled Out In 15 Countries",
+      "url": "https://www.zerohedge.com/political/mass-tracking-covi-pass-immunity-passports-be-rolled-out-15-countries",
+      "date": "2020-06-29"
+    },
+    {
+      "id": "3033148340",
+      "title": "How to Get Your First 25 SaaS Customers",
+      "url": "https://www.bannerbear.com/resources/how-to-get-your-first-25-saas-customers/",
+      "date": "2020-06-29"
+    },
+    {
+      "id": "3033418000",
+      "title": "A moment of appreciation in your retrospectives",
+      "url": "https://joebew42.github.io/2020/06/24/moment-of-appreciation-retrospective/",
+      "date": "2020-06-29"
+    },
+    {
+      "id": "3029591230",
+      "title": "Switzerland launches SwissCovid tracing app for residents",
+      "url": "https://www.swissinfo.ch/eng/switzerland-launches-swisscovid-contact-tracing-app-for-residents/45859778",
+      "date": "2020-06-28"
+    },
+    {
+      "id": "3031768793",
+      "title": "Don't Kill Time — David Perell",
+      "url": "https://www.perell.com/blog/dont-kill-time",
+      "date": "2020-06-28"
+    },
+    {
+      "id": "3032536354",
+      "title": "How a Lazy Bitch like me learned to be Productive",
+      "url": "https://www.madisontaskett.com/lazy-bastard-productivity/",
+      "date": "2020-06-28"
+    },
+    {
+      "id": "3030961831",
+      "title": "Why is There Something Instead of Nothing?",
+      "url": "https://waitbutwhy.com/table/why-is-there-something-instead-of-nothing",
+      "date": "2020-06-27"
+    },
+    {
+      "id": "3031135772",
+      "title": "‘Repetitive, Spammy Behavior’ Indeed",
+      "url": "https://daringfireball.net/linked/2020/06/26/tiktok-clipboard-scamming",
+      "date": "2020-06-27"
+    },
+    {
+      "id": "3031136389",
+      "title": "Embracing Uncertainty",
+      "url": "https://salman.io/posts/embracing-uncertainty/",
+      "date": "2020-06-27"
+    },
+    {
+      "id": "1986895998",
+      "title": "Our use of cookies and similar technologies",
+      "url": "https://help.twitter.com/en/rules-and-policies/twitter-cookies",
+      "date": "2020-06-26"
+    },
+    {
+      "id": "2984641685",
+      "title": "What you need to know about contact tracing apps and privacy",
+      "url": "https://protonmail.com/blog/privacy-contact-tracing-apps/",
+      "date": "2020-06-26"
+    },
+    {
+      "id": "3020745340",
+      "title": "What happens when you update your DNS?",
+      "url": "https://jvns.ca/blog/how-updating-dns-works/",
+      "date": "2020-06-26"
+    },
+    {
+      "id": "3023124461",
+      "title": "A little bit of plain Javascript can do a lot",
+      "url": "https://jvns.ca/blog/2020/06/19/a-little-bit-of-plain-javascript-can-do-a-lot/",
+      "date": "2020-06-26"
+    },
+    {
+      "id": "3025714995",
+      "title": "Blackballed by PayPal, Scientific-Paper Pirate Takes Bitcoin Donations",
+      "url": "https://www.coindesk.com/blackballed-by-paypal-scientific-paper-pirate-takes-bitcoin-donations",
+      "date": "2020-06-26"
+    },
+    {
+      "id": "3028567045",
+      "title": "Amazon Honeycode – build web and mobile apps without writing code",
+      "url": "https://news.ycombinator.com/item?id=23633110",
+      "date": "2020-06-26"
+    },
+    {
+      "id": "3028817410",
+      "title": "There’s Now an Even Worse Anti-Encryption Bill Than EARN IT. That Doesn’t Make the EARN IT Bill OK.",
+      "url": "https://cyberlaw.stanford.edu/blog/2020/06/there’s-now-even-worse-anti-encryption-bill-earn-it-doesn’t-make-earn-it-bill-ok",
+      "date": "2020-06-26"
+    },
+    {
+      "id": "3028937784",
+      "title": "Do We Live in a Sick Society?",
+      "url": "https://academyofideas.com/2020/06/do-we-live-in-a-sick-society/",
+      "date": "2020-06-26"
+    },
+    {
+      "id": "3030470660",
+      "title": "Snowden: Tech Workers Are Complicit in How Their Companies Hurt Society",
+      "url": "https://www.vice.com/en_ca/article/wxqx8q/snowden-tech-workers-are-complicit-in-how-their-companies-hurt-society",
+      "date": "2020-06-26"
+    },
+    {
+      "id": "2503873041",
+      "title": "Write tests. Not too many. Mostly integration.",
+      "url": "https://kentcdodds.com/blog/write-tests",
+      "date": "2020-06-25"
+    },
+    {
+      "id": "3028518290",
+      "title": "No - Safari 14 Does Not Block Google Analytics",
+      "url": "https://www.simoahava.com/analytics/no-safari-does-not-block-google-analytics/",
+      "date": "2020-06-25"
+    },
+    {
+      "id": "3029156306",
+      "title": "Review: Daniel Vassallo's Anyone Can Build a Twitter Audience course",
+      "url": "https://www.petecodes.io/review-daniel-vassallo-twitter-audience-course/",
+      "date": "2020-06-25"
+    },
+    {
+      "id": "3029382975",
+      "title": "Snowden: Tech Workers Are Complicit in How Their Companies Hurt Society",
+      "url": "https://www.vice.com/en_us/article/wxqx8q/snowden-tech-workers-are-complicit-in-how-their-companies-hurt-society",
+      "date": "2020-06-25"
+    },
+    {
+      "id": "3029386861",
+      "title": "Smart Contracts - How To Deliver Automated Interoperability",
+      "url": "https://www2.erlang-solutions.com/smartcontractsblockchainnobrainers",
+      "date": "2020-06-25"
+    },
+    {
+      "id": "3029551309",
+      "title": "Privacy not a blocker for “meaningful” research access to platform data, says report",
+      "url": "https://techcrunch.com/2020/06/25/privacy-not-a-blocker-for-meaningful-research-access-to-platform-data-says-report/",
+      "date": "2020-06-25"
+    },
+    {
+      "id": "2216779856",
+      "title": "When is testing using mocks still a good idea ?",
+      "url": "http://philippe.bourgau.net/when-is-testing-using-mocks-still-a-good-idea/",
+      "date": "2020-06-24"
+    },
+    {
+      "id": "3026170911",
+      "title": "Hack Brief: Anonymous Stole and Leaked a Megatrove of Police Documents",
+      "url": "https://www.wired.com/story/blueleaks-anonymous-law-enforcement-hack/",
+      "date": "2020-06-24"
+    },
+    {
+      "id": "3026733096",
+      "title": "NYT Is Threatening My Safety By Revealing My Real Name, So I Am Deleting The Blog",
+      "url": "https://slatestarcodex.com/2020/06/22/nyt-is-threatening-my-safety-by-revealing-my-real-name-so-i-am-deleting-the-blog/",
+      "date": "2020-06-24"
+    },
+    {
+      "id": "3028383830",
+      "title": "Client-Side Architecture Basics [Guide]",
+      "url": "https://khalilstemmler.com/articles/client-side-architecture/introduction/",
+      "date": "2020-06-24"
+    },
+    {
+      "id": "3028495475",
+      "title": "What is the folder structure of project/library working on?",
+      "url": "https://dev.to/iamandrewluca/mind-sharing-folder-structure-of-project-library-working-on-22fg",
+      "date": "2020-06-24"
+    },
+    {
+      "id": "3028506283",
+      "title": "Pass Notes on the proposed Google / Fitbit merger",
+      "url": "https://privacyinternational.org/news-analysis/3962/pass-notes-proposed-google-fitbit-merger",
+      "date": "2020-06-24"
+    },
+    {
+      "id": "3028507340",
+      "title": "Twitter Bans WikiLeaks-Style Website For Publishing ‘BlueLeaks’ Documents",
+      "url": "https://www.vice.com/en_us/article/y3zwyw/twitter-bans-ddosecrets-for-publishing-blueleaks-documents",
+      "date": "2020-06-24"
+    },
+    {
+      "id": "3028589487",
+      "title": "This Image of a White Barack Obama Is AI's Racial Bias Problem In a Nutshell",
+      "url": "https://www.vice.com/en_us/article/7kpxyy/this-image-of-a-white-barack-obama-is-ais-racial-bias-problem-in-a-nutshell",
+      "date": "2020-06-24"
+    },
+    {
+      "id": "3028620791",
+      "title": "Privacy-Focused OS Wants to Know How Facebook and the FBI Hacked it",
+      "url": "https://www.vice.com/en_us/article/dyz3jy/privacy-focused-os-tails-wants-to-know-how-facebook-and-the-fbi-hacked-it",
+      "date": "2020-06-24"
+    },
+    {
+      "id": "5739525",
+      "title": "FlaccidScrum",
+      "url": "https://martinfowler.com/bliki/FlaccidScrum.html",
+      "date": "2020-06-23"
+    },
+    {
+      "id": "2988165047",
+      "title": "Covid Contact tracing apps are a complicated mess: what you need to know",
+      "url": "http://www.privacyinternational.org/long-read/3792/covid-contact-tracing-apps-are-complicated-mess-what-you-need-know",
+      "date": "2020-06-23"
+    },
+    {
+      "id": "3026510614",
+      "title": "Apple’s Response to HEY Showcases What’s Most Broken About the Apple App Store",
+      "url": "https://www.eff.org/deeplinks/2020/06/apples-response-hey-showcases-whats-most-broken-about-apple-app-store",
+      "date": "2020-06-23"
+    },
+    {
+      "id": "3026737114",
+      "title": "...it allows us to take part to our communities' culture",
+      "url": "https://privacyinternational.org/case-study/3946/it-allows-us-take-part-our-communities-culture",
+      "date": "2020-06-23"
+    },
+    {
+      "id": "3027064921",
+      "title": "Happn, Universal and Other Brands Accused of Misusing Data to Advertise On Facebook",
+      "url": "https://www.vice.com/en_us/article/y3zpjx/brands-misuse-data-advertise-facebook",
+      "date": "2020-06-23"
+    },
+    {
+      "id": "3027114986",
+      "title": "I Just Hit $100k/yr On GitHub Sponsors! 🎉❤️ (How I Did It)",
+      "url": "https://calebporzio.com/i-just-hit-dollar-100000yr-on-github-sponsors-heres-how-i-did-it",
+      "date": "2020-06-23"
+    },
+    {
+      "id": "3027343992",
+      "title": "Google Analytics trick allows crooks to hide card skimming",
+      "url": "https://arstechnica.com/information-technology/2020/06/google-analytics-trick-allows-crooks-to-hide-card-skimming/",
+      "date": "2020-06-23"
+    },
+    {
+      "id": "3027349360",
+      "title": "Applause for Apple’s IDFA Decision",
+      "url": "https://foundation.mozilla.org/en/blog/applause-for-apples-idfa-decision/",
+      "date": "2020-06-23"
+    },
+    {
+      "id": "1024711657",
+      "title": "Don't Know What I Want, But I Know How to Get It",
+      "url": "http://jpattonassociates.com/dont_know_what_i_want/",
+      "date": "2020-06-22"
+    },
+    {
+      "id": "1137001521",
+      "title": "About Panopticlick",
+      "url": "https://panopticlick.eff.org/about",
+      "date": "2020-06-22"
+    },
+    {
+      "id": "1969726003",
+      "title": "Are Software Developers Overworked or Undecided ?",
+      "url": "http://philippe.bourgau.net/are-software-developers-overworked-or-undecided/",
+      "date": "2020-06-22"
+    },
+    {
+      "id": "3026061013",
+      "title": "Wireless is a trap",
+      "url": "https://www.lesswrong.com/posts/8hxvfZiqH24oqyr6y/wireless-is-a-trap",
+      "date": "2020-06-22"
+    },
+    {
+      "id": "3026157733",
+      "title": "How Apple uses anti-competitive practices to extort developers and support authoritarian regimes",
+      "url": "https://protonmail.com/blog/apple-app-store-antitrust/",
+      "date": "2020-06-22"
+    },
+    {
+      "id": "3026236356",
+      "title": "A thread written by @petecodes",
+      "url": "https://threader.app/thread/1275024241151401986",
+      "date": "2020-06-22"
+    },
+    {
+      "id": "3026403013",
+      "title": "The Perell Production Function",
+      "url": "https://philmohun.substack.com/p/the-perell-production-function",
+      "date": "2020-06-22"
+    },
+    {
+      "id": "3025041620",
+      "title": "Bitcoin Only Matters Because the Game Is Rigged",
+      "url": "https://www.coindesk.com/money-bitcoin-only-matters-because-the-game-is-rigged",
+      "date": "2020-06-21"
+    },
+    {
+      "id": "3022205707",
+      "title": "Bracelets, Beacons, Barcodes: Wearables in the Global Response to COVID-19",
+      "url": "https://www.eff.org/deeplinks/2020/06/bracelets-beacons-barcodes-wearables-global-response-covid-19",
+      "date": "2020-06-20"
+    },
+    {
+      "id": "5742655",
+      "title": "Homoiconicity",
+      "url": "https://en.wikipedia.org/wiki/Homoiconicity",
+      "date": "2020-06-19"
+    },
+    {
+      "id": "2818451621",
+      "title": "These browsers actually protect your privacy",
+      "url": "https://protonmail.com/blog/best-browser-for-privacy/",
+      "date": "2020-06-19"
+    },
+    {
+      "id": "3022073497",
+      "title": "The Return of the 90s Web",
+      "url": "https://mxb.dev/blog/the-return-of-the-90s-web/",
+      "date": "2020-06-19"
+    },
+    {
+      "id": "3023143800",
+      "title": "Weekly Mozilla News Beat, June 19, 2020",
+      "url": "https://foundation.mozilla.org/en/blog/weekly-mozilla-news-beat-june-19-2020/",
+      "date": "2020-06-19"
+    },
+    {
+      "id": "3021910437",
+      "title": "How to pay your rent with your open source project",
+      "url": "https://plausible.io/blog/open-source-funding",
+      "date": "2020-06-18"
+    },
+    {
+      "id": "3022142324",
+      "title": "Stop Worrying About What to Learn Next as a Developer",
+      "url": "https://x-team.com/blog/stop-worrying-about-learning/",
+      "date": "2020-06-18"
+    },
+    {
+      "id": "3019760354",
+      "title": "Zoom is Making Privacy and Security a Luxury",
+      "url": "https://foundation.mozilla.org/en/blog/zoom-making-privacy-and-security-luxury/",
+      "date": "2020-06-17"
+    },
+    {
+      "id": "2835916626",
+      "title": "Homebuilding made easy",
+      "url": "https://www.buildatmos.com/",
+      "date": "2020-06-16"
+    },
+    {
+      "id": "3015526887",
+      "title": "Functional Code is Honest Code",
+      "url": "https://michaelfeathers.silvrback.com/functional-code-is-honest-code",
+      "date": "2020-06-16"
+    },
+    {
+      "id": "3018763452",
+      "title": "Has Twitter just had its saddest fortnight ever?",
+      "url": "https://www.nature.com/articles/d41586-020-01818-3",
+      "date": "2020-06-16"
+    },
+    {
+      "id": "3019309182",
+      "title": "How to know if you're ready to switch from Mac to Linux",
+      "url": "https://opensource.com/article/20/6/mac-to-linux",
+      "date": "2020-06-16"
+    },
+    {
+      "id": "3019838559",
+      "title": "3 KPIs for Software Development Team Efficiency",
+      "url": "https://buttercms.com/blog/3-kpis-for-software-development-team-efficiency",
+      "date": "2020-06-16"
+    },
+    {
+      "id": "3019858564",
+      "title": "Easiest Way To Answer “What Are You Passionate About?”",
+      "url": "https://myresumeseed.com/blogs/career-insights/what-are-you-passionate-about",
+      "date": "2020-06-16"
+    },
+    {
+      "id": "3019960042",
+      "title": "GitHub isn't fun anymore",
+      "url": "https://jaredpalmer.com/github-isnt-fun-anymore",
+      "date": "2020-06-16"
+    },
+    {
+      "id": "1324830818",
+      "title": "joepie91's Ramblings",
+      "url": "http://cryto.net/~joepie91/blog/2016/06/19/stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work/",
+      "date": "2020-06-14"
+    },
+    {
+      "id": "2767838788",
+      "title": "Finally, I Closed My LinkedIn",
+      "url": "https://www.pcmaffey.com/finally-i-closed-my-linkedin",
+      "date": "2020-06-14"
+    },
+    {
+      "id": "3017212390",
+      "title": "How To Build A Website Like Airbnb?",
+      "url": "https://selleo.com/blog/how-to-build-a-website-like-airbnb",
+      "date": "2020-06-14"
+    },
+    {
+      "id": "3017814149",
+      "title": "Animated Overview: How Strong Encryption Can Help Avoid Online Surveillance",
+      "url": "https://ssd.eff.org/en/module/animated-overview-how-strong-encryption-can-help-avoid-online-surveillance",
+      "date": "2020-06-14"
+    },
+    {
+      "id": "3015239466",
+      "title": "Ask HN : Are my expectations on code quality and professionalism too high? : Hacker News",
+      "url": "https://news.ycombinator.com/item?id=23426574&utm_source=hackernewsletter&utm_medium=email&utm_term=ask_hn",
+      "date": "2020-06-13"
+    },
+    {
+      "id": "2821261309",
+      "title": "How to find ideas for beer money?",
+      "url": "https://coding.napolux.com/how-to-find-ideas-for-beer-money/",
+      "date": "2020-06-12"
+    },
+    {
+      "id": "866423232",
+      "title": "Leader of Hacker Gang Sentenced to 9 Years For Hospital Malware",
+      "url": "https://www.wired.com/2011/03/ghostexodus-2/",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "2396034420",
+      "title": "Misadventures with Big Design Up Front",
+      "url": "http://philippe.bourgau.net/misadventures-with-big-design-up-front/",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "2896033857",
+      "title": "Home Lab Beginners guide – Hardware",
+      "url": "https://haydenjames.io/home-lab-beginners-guide-hardware/",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "2968817449",
+      "title": "Is it Safe? The Immuni App : Digital Surveillance during the Coronavirus Pandemic – Byline Times",
+      "url": "https://bylinetimes.com/2020/05/01/is-it-safe-the-immuni-app-digital-surveillance-during-the-coronavirus-pandemic/",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "3007564726",
+      "title": "Going indie, step 9: Launch an app",
+      "url": "https://danielgauthier.me/launch-an-app/",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "3007571778",
+      "title": "How to write good Git commit messages",
+      "url": "https://www.altcampus.io/blog/how-to-write-good-git-commit-message",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "3012130580",
+      "title": "After 10 Years in Tech Isolation, I’m Now Outsider to Things I Once Had Mastered",
+      "url": "https://forklog.media/after-10-years-in-tech-isolation-im-now-outsider-to-things-i-once-had-mastered/",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "3012580364",
+      "title": "Scraping Roger Ebert’s reviews and finding his favorite movies on Amazon Prime",
+      "url": "https://www.linisnil.com/articles/scraping-roger-ebert-reviews-and-amazon/",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "3012706293",
+      "title": "Nextcloud Vs ownCloud: What’s the Difference? Which one Should You Use?",
+      "url": "https://itsfoss.com/nextcloud-vs-owncloud/",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "3013112892",
+      "title": "The Silence of the Never Facebookers",
+      "url": "https://www.theatlantic.com/technology/archive/2020/06/facebook-silicon-valley-trump-silence/612877/",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "3013352950",
+      "title": "How Much Do We Need The Police?",
+      "url": "https://www.npr.org/sections/codeswitch/2020/06/03/457251670/how-much-do-we-need-the-police",
+      "date": "2020-06-10"
+    },
+    {
+      "id": "413456204",
+      "title": "Please Don't Say Just Hello In Chat",
+      "url": "http://www.nohello.com/2013/01/please-dont-say-just-hello-in-chat.html",
+      "date": "2020-06-09"
+    },
+    {
+      "id": "3012341612",
+      "title": "Does scarcity of time cause burnout?",
+      "url": "https://kula.blog/posts/scarcity/",
+      "date": "2020-06-09"
+    },
+    {
+      "id": "2994927686",
+      "title": "Ebay is port scanning visitors to their website - and they aren't the only ones",
+      "url": "https://blog.nem.ec/2020/05/24/ebay-port-scanning/",
+      "date": "2020-06-08"
+    },
+    {
+      "id": "3009033518",
+      "title": "Privacy browser Brave under fire for violating users’ trust",
+      "url": "https://decrypt.co/31522/crypto-brave-browser-redirect",
+      "date": "2020-06-08"
+    },
+    {
+      "id": "3009850870",
+      "title": "Most tech content is bullshit",
+      "url": "https://www.aleksandra.codes/tech-content-consumer",
+      "date": "2020-06-08"
+    },
+    {
+      "id": "3009963830",
+      "title": "America Is Giving Up on the Pandemic",
+      "url": "https://www.theatlantic.com/science/archive/2020/06/america-giving-up-on-pandemic/612796/",
+      "date": "2020-06-08"
+    },
+    {
+      "id": "3010071874",
+      "title": "Ladies and Gentlemen… Cloudflare TV!",
+      "url": "https://blog.cloudflare.com/ladies-and-gentlemen-cloudflare-tv/",
+      "date": "2020-06-08"
+    },
+    {
+      "id": "3011005877",
+      "title": "Why Elixir is the Programming Language You Should Learn in 2020",
+      "url": "https://www.erlang-solutions.com/blog/why-elixir-is-the-programming-language-you-should-learn-in-2020.html?utm_source=twitter&utm_medium=social&utm_campaign=20Q2.Mark.LearnElixir.TW",
+      "date": "2020-06-08"
+    },
+    {
+      "id": "1436205303",
+      "title": "surveillance, whistleblowing, and security engineering",
+      "url": "https://diracdeltas.github.io/blog/surveillance/",
+      "date": "2020-06-07"
+    },
+    {
+      "id": "2082281579",
+      "title": "the information apocalypse",
+      "url": "https://diracdeltas.github.io/blog/information-apocalypse/",
+      "date": "2020-06-07"
+    },
+    {
+      "id": "3003261956",
+      "title": "There Are No Bugs, Just TODOs",
+      "url": "https://almad.blog/essays/no-bugs-just-todos/",
+      "date": "2020-06-07"
+    },
+    {
+      "id": "3009077704",
+      "title": "The Brave web browser is hijacking links, and inserting affiliate codes",
+      "url": "https://davidgerard.co.uk/blockchain/2020/06/06/the-brave-web-browser-is-hijacking-links-and-inserting-affiliate-codes/",
+      "date": "2020-06-07"
+    },
+    {
+      "id": "3009493511",
+      "title": "It’s 2020 and USB-C is still a mess",
+      "url": "https://www.androidauthority.com/state-of-usb-c-870996/",
+      "date": "2020-06-07"
+    },
+    {
+      "id": "1167513309",
+      "title": "Perfect Home Automation",
+      "url": "https://www.home-assistant.io/blog/2016/01/19/perfect-home-automation/",
+      "date": "2020-06-06"
+    },
+    {
+      "id": "1198468425",
+      "title": "Trust but Verify",
+      "url": "https://brendaneich.com/2014/01/trust-but-verify/",
+      "date": "2020-06-06"
+    },
+    {
+      "id": "2955416542",
+      "title": "Blogging is one of the best ways of learning",
+      "url": "https://matuzo.at/blog/blogging/",
+      "date": "2020-06-06"
+    },
+    {
+      "id": "3008213794",
+      "title": "Coinbase wants to sell blockchain analysis software to the IRS and DEA a year after its Neutrino acquisition",
+      "url": "https://www.theblockcrypto.com/post/67551/coinbase-irs-dea-analytics-neutrino",
+      "date": "2020-06-06"
+    },
+    {
+      "id": "3009170817",
+      "title": "Attending a Protest",
+      "url": "https://ssd.eff.org/en/module/attending-protest",
+      "date": "2020-06-06"
+    },
+    {
+      "id": "3003408778",
+      "title": "Software Engineering Within SpaceX",
+      "url": "https://yasoob.me/posts/software_engineering_within_spacex_launch/",
+      "date": "2020-06-05"
+    },
+    {
+      "id": "3006807119",
+      "title": "Signal app downloads spike as US protesters seek message encryption",
+      "url": "https://qz.com/1864846/signal-app-downloads-spike-as-us-protesters-seek-message-encryption/",
+      "date": "2020-06-05"
+    },
+    {
+      "id": "3007701878",
+      "title": "Clear, Direct Communications: An Experiment",
+      "url": "https://medium.com/@kentbeck_7670/clear-direct-communications-an-experiment-21b8a151aa7c",
+      "date": "2020-06-05"
+    },
+    {
+      "id": "544882684",
+      "title": "What is STEM Education?",
+      "url": "https://www.livescience.com/43296-what-is-stem-education.html",
+      "date": "2020-06-04"
+    },
+    {
+      "id": "3003077571",
+      "title": "Seven years later, I bought a new Macbook. For the first time, I don't love it",
+      "url": "https://cfenollosa.com/blog/seven-years-later-i-bought-a-new-macbook-for-the-first-time-i-dont-love-it.html",
+      "date": "2020-06-04"
+    },
+    {
+      "id": "3005901770",
+      "title": "L'app Immuni cambia l'immagine contestata: ora il figlio è in braccio al papà mentre la mamma lavora",
+      "url": "https://www.corriere.it/tecnologia/20_giugno_03/app-immuni-cambia-immagine-contestata-ora-figlio-braccio-papa-mentre-mamma-lavora-a589b00c-a5a0-11ea-9dea-fe0c662b4b9d.shtml",
+      "date": "2020-06-04"
+    },
+    {
+      "id": "3006864765",
+      "title": "No-Config React With Parcel",
+      "url": "https://medium.com/better-programming/no-config-react-with-parcel-503babdd3992",
+      "date": "2020-06-04"
+    },
+    {
+      "id": "2995568567",
+      "title": "10 motivi per cui le Risorse Umane rischiano l’estinzione",
+      "url": "https://www.osvaldodanzi.it/10-motivi-per-cui-le-risorse-umane-rischiano-lestinzione/",
+      "date": "2020-06-03"
+    },
+    {
+      "id": "3002765790",
+      "title": "App Immuni, i giudizi degli sviluppatori sul codice del server: \"Difficile fare di meglio\"",
+      "url": "https://www.dday.it/redazione/35635/app-immuni-server",
+      "date": "2020-06-03"
+    },
+    {
+      "id": "3004711732",
+      "title": "Why You Should Avoid Using Primitive Types",
+      "url": "https://medium.com/better-programming/why-you-should-avoid-using-primitive-types-cb55857baa39",
+      "date": "2020-06-03"
+    },
+    {
+      "id": "3004711830",
+      "title": "How to Automate Dependency Updates in Your Software Projects",
+      "url": "https://medium.com/better-programming/how-to-automate-dependency-updates-in-your-software-projects-8cf609e092b",
+      "date": "2020-06-03"
+    },
+    {
+      "id": "3005333567",
+      "title": "How we used the improvement kata to gain 25% of productivity - Part 1",
+      "url": "http://philippe.bourgau.net/how-we-used-the-improvement-kata-to-gain-25-percent-of-productivity-part-1/",
+      "date": "2020-06-03"
+    },
+    {
+      "id": "2990809315",
+      "title": "Patent case against GNOME resolved – GNOME",
+      "url": "https://www.gnome.org/news/2020/05/patent-case-against-gnome-resolved/",
+      "date": "2020-06-02"
+    },
+    {
+      "id": "2997781192",
+      "title": "Rediscovering the Small Web",
+      "url": "https://neustadt.fr/essays/the-small-web/",
+      "date": "2020-05-31"
+    },
+    {
+      "id": "3000817964",
+      "title": "Risiko e sangue",
+      "url": "https://mailchi.mp/ilpost/dcac-s04e22-risiko",
+      "date": "2020-05-31"
+    },
+    {
+      "id": "2999928205",
+      "title": "Remote Work Has Its Perks, Until You Want a Promotion",
+      "url": "https://www.wired.com/story/remote-work-perks-until-want-promotion/",
+      "date": "2020-05-29"
+    },
+    {
+      "id": "2455211377",
+      "title": "What Is the Business Model for DuckDuckGo?",
+      "url": "https://spreadprivacy.com/duckduckgo-revenue-model/",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "2683690796",
+      "title": "Can We Use Machine Learning To Generate Text Adventure Stories?",
+      "url": "https://towardsdatascience.com/can-we-use-machine-learning-to-generate-text-adventure-stories-f44dcc8171b8",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "2977344008",
+      "title": "Simple TDD in Erlang",
+      "url": "https://medium.com/erlang-battleground/simple-tdd-in-erlang-5c0cca886acb",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "2980011788",
+      "title": "Optimising for Concurrency: Comparing and contrasting the BEAM and JVM virtual machines.",
+      "url": "https://www.erlang-solutions.com/blog/optimising-for-concurrency-comparing-and-contrasting-the-beam-and-jvm-virtual-machines.html",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "2992299320",
+      "title": "How I promote my content",
+      "url": "https://marketingexamples.com/content/sharing",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "2998449187",
+      "title": "La disillusione dello Smart Working",
+      "url": "https://www.linkedin.com/pulse/la-disillusione-dello-smart-working-matteo-sorba",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "2998559669",
+      "title": "Twitter CEO Jack Dorsey responds to criticism after dustup over adding fact-check labels to Trump's tweets",
+      "url": "https://www.businessinsider.com/jack-dorsey-responds-criticism-for-fact-check-labels-trump-tweets-2020-5",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "2998669764",
+      "title": "Rediscovering the Small Web",
+      "url": "https://neustadt.fr/essays/the-small-web/",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "2999075550",
+      "title": "Idea Generation",
+      "url": "https://blog.samaltman.com/idea-generation",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "2999190385",
+      "title": "My writing process",
+      "url": "https://sivers.org/7",
+      "date": "2020-05-28"
+    },
+    {
+      "id": "554647013",
+      "title": "How To Write Well: 10 Essential Self-Editing Tips",
+      "url": "http://writetodone.com/how-to-write-well-self-editing-tips/",
+      "date": "2020-05-27"
+    },
+    {
+      "id": "2997591026",
+      "title": "Diversamente pusher: intervista a Pablito El Drito",
+      "url": "https://softsecrets.com/it/2020/05/07/diversamente-pusher-intervista-a-pablito-el-drito/",
+      "date": "2020-05-27"
+    },
+    {
+      "id": "2997769108",
+      "title": "How NOT to Use Mocks, My Talk at Paris.rb",
+      "url": "http://philippe.bourgau.net/how-not-to-use-mocks-my-talk-at-paris-rb/",
+      "date": "2020-05-27"
+    },
+    {
+      "id": "2997769236",
+      "title": "REPL Driven Design",
+      "url": "http://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html",
+      "date": "2020-05-27"
+    },
+    {
+      "id": "2998021066",
+      "title": "Why did I stop redesigning my site?",
+      "url": "https://axentepaul.com/why-did-i-stop-redesigning-my-site/",
+      "date": "2020-05-27"
+    },
+    {
+      "id": "816691033",
+      "title": "Awk in 20 Minutes",
+      "url": "https://ferd.ca/awk-in-20-minutes.html",
+      "date": "2020-05-26"
+    },
+    {
+      "id": "2885508581",
+      "title": "STOP!! You don’t need Microservices.",
+      "url": "https://medium.com/swlh/stop-you-dont-need-microservices-dc732d70b3e0",
+      "date": "2020-05-26"
+    },
+    {
+      "id": "2968730594",
+      "title": "Complexity Has to Live Somewhere",
+      "url": "https://ferd.ca/complexity-has-to-live-somewhere.html",
+      "date": "2020-05-26"
+    },
+    {
+      "id": "2996018125",
+      "title": "Today’s Javascript, from an outsider’s perspective",
+      "url": "https://lea.verou.me/2020/05/todays-javascript-from-an-outsiders-perspective/",
+      "date": "2020-05-26"
+    },
+    {
+      "id": "2996252612",
+      "title": "What Is the CAP Theorem and Where Is It Used?",
+      "url": "https://medium.com/better-programming/what-is-the-cap-theorem-and-where-is-it-used-363475aa8db6",
+      "date": "2020-05-26"
+    },
+    {
+      "id": "2996330685",
+      "title": "How to de-Google-ify your website",
+      "url": "https://dev.to/markosaric/how-to-de-google-ify-your-website-4bfc",
+      "date": "2020-05-26"
+    },
+    {
+      "id": "2995624974",
+      "title": "Leadergrow",
+      "url": "https://www.leadergrow.com/articles/145-12-dos-and-donts-of-e-mail-communication-e-mail-communication-tip-sheet",
+      "date": "2020-05-25"
+    },
+    {
+      "id": "2820311817",
+      "title": "Coolest Things I Learned in 2019 — David Perell",
+      "url": "https://www.perell.com/blog/2019/12/11/coolest-things-i-learned-in-2019",
+      "date": "2020-05-24"
+    },
+    {
+      "id": "2992156374",
+      "title": "Jepsen Disputes MongoDB’s Data Consistency Claims",
+      "url": "https://www.infoq.com/news/2020/05/Jepsen-MongoDB-4-2-6/",
+      "date": "2020-05-24"
+    },
+    {
+      "id": "2992642154",
+      "title": "Why am I shutting down Kozmos?",
+      "url": "https://kodfabrik.com/journal/why-am-i-shutting-down-kozmos",
+      "date": "2020-05-24"
+    },
+    {
+      "id": "2993034556",
+      "title": "Catalina is checking notarization of unsigned executables",
+      "url": "https://lapcatsoftware.com/articles/catalina-executables.html",
+      "date": "2020-05-24"
+    },
+    {
+      "id": "2994037941",
+      "title": "My Ordinary Life: Improvements Since the 1990s",
+      "url": "https://www.gwern.net/Improvements",
+      "date": "2020-05-24"
+    },
+    {
+      "id": "2994175822",
+      "title": "Welcome to the First Global Economic Depression of Our Lifetimes",
+      "url": "https://time.com/5837442/first-global-depression-our-lifetimes/",
+      "date": "2020-05-24"
+    },
+    {
+      "id": "2994543612",
+      "title": "An Editor's Guide To Writing Ridiculously Good Emails",
+      "url": "http://www.forbes.com/sites/dailymuse/2013/11/19/an-editors-guide-to-writing-ridiculously-good-emails/",
+      "date": "2020-05-24"
+    },
+    {
+      "id": "2994661371",
+      "title": "How you can help keep blogging alive and thriving",
+      "url": "https://markosaric.com/keep-blogging-alive/",
+      "date": "2020-05-24"
+    },
+    {
+      "id": "2991565731",
+      "title": "Future Composition in Vert.x",
+      "url": "https://dev.to/cherrychain/future-composition-in-vert-x-3gp8",
+      "date": "2020-05-23"
+    },
+    {
+      "id": "2992377291",
+      "title": "macOS 10.15: Slow by Design",
+      "url": "https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/",
+      "date": "2020-05-23"
+    },
+    {
+      "id": "2992677479",
+      "title": "How I promote my content",
+      "url": "https://marketingexamples.com/content/sharing",
+      "date": "2020-05-23"
+    },
+    {
+      "id": "2993151016",
+      "title": "A pizzeria owner made money buying his own $24 pizzas from DoorDash for $16",
+      "url": "https://www.theverge.com/2020/5/18/21262316/doordash-pizza-profits-venture-capital-the-margins-ranjan-roy",
+      "date": "2020-05-23"
+    },
+    {
+      "id": "2993473641",
+      "title": "Write Emails that Convince, Influence and Persuade",
+      "url": "https://www.skillsyouneed.com/rhubarb/effective-emails.html",
+      "date": "2020-05-23"
+    },
+    {
+      "id": "2993474378",
+      "title": "How did my last blog post perform?",
+      "url": "https://guitton.co/posts/how-good-was-my-last-blog-post/",
+      "date": "2020-05-23"
+    },
+    {
+      "id": "2896844263",
+      "title": "The key points of Working Effectively with Legacy Code",
+      "url": "https://understandlegacycode.com/blog/key-points-of-working-effectively-with-legacy-code/",
+      "date": "2020-05-22"
+    },
+    {
+      "id": "2973468310",
+      "title": "Announcing the IOTA Experience Teams",
+      "url": "https://blog.iota.org/iota-experience-teams-1a2cc3ed74fa",
+      "date": "2020-05-22"
+    },
+    {
+      "id": "2981946764",
+      "title": "Metodologia Agile: cosa è e perché è importante",
+      "url": "https://www.raffaelegaito.com/metodologia-sviluppo-agile/",
+      "date": "2020-05-22"
+    },
+    {
+      "id": "2992354567",
+      "title": "Sell Yourself Sell Your Work",
+      "url": "https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html",
+      "date": "2020-05-22"
+    },
+    {
+      "id": "2992354840",
+      "title": "Stealing Secrets from Developers using Websockets",
+      "url": "https://medium.com/@stestagg/stealing-secrets-from-developers-using-websockets-254f98d577a0",
+      "date": "2020-05-22"
+    },
+    {
+      "id": "2992359266",
+      "title": "Locked-Down Teens Stay Up All Night, Sleep All Day",
+      "url": "https://www.wsj.com/articles/locked-down-teens-stay-up-all-night-sleep-all-day-11590156291",
+      "date": "2020-05-22"
+    },
+    {
+      "id": "2992528105",
+      "title": "What is RabbitMQ?",
+      "url": "https://www2.erlang-solutions.com/introductiontorabbitmq3",
+      "date": "2020-05-22"
+    },
+    {
+      "id": "2992692380",
+      "title": "ProtonVPN supports Hong Kong’s right to digital freedom",
+      "url": "https://protonvpn.com/blog/hong-kong-security-law/",
+      "date": "2020-05-22"
+    },
+    {
+      "id": "2945560560",
+      "title": "Write Like Naval",
+      "url": "https://letter.substack.com/p/write-like-naval",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "2980083141",
+      "title": "The case of the missing DNS packets: a Google Cloud support story",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/google-cloud-support-engineer-solves-a-tough-dns-case/",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "2988044528",
+      "title": "Mount Everest is Visible From Kathmandu, Nepal for First Time in Living Memory",
+      "url": "https://snowbrains.com/everest-visible-kathmandu-nepal-first-time/",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "2989525537",
+      "title": "Ubuntu Budgie 20.04 Review: Smooth and Polished",
+      "url": "https://itsfoss.com/ubuntu-budgie-20-04-review/",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "2990257079",
+      "title": "Sell Yourself Sell Your Work",
+      "url": "https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html?te20hn",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "2990290045",
+      "title": "Post COVID-19, Coinbase will be a remote-first company",
+      "url": "https://blog.coinbase.com/post-covid-19-coinbase-will-be-a-remote-first-company-cdac6e621df7",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "2990696880",
+      "title": "The Best of David Perell: Big Ideas From His Last 3,000 Tweets",
+      "url": "https://letter.substack.com/p/the-best-of-david-perell-big-ideas",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "2991282203",
+      "title": "Turning Signal App into a Coarse Tracking Device",
+      "url": "https://medium.com/tenable-techblog/turning-signal-app-into-a-coarse-tracking-device-643eb4298447",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "2990273593",
+      "title": "Surviving Depression",
+      "url": "https://vishnu.tech/posts/surviving-depression/",
+      "date": "2020-05-20"
+    },
+    {
+      "id": "1556963977",
+      "title": "Want to Build a Side Business? Just Buy a Great Domain Name",
+      "url": "https://www.deepsouthventures.com/build-a-side-business/",
+      "date": "2020-05-19"
+    },
+    {
+      "id": "1791219281",
+      "title": "What Does 'Jumping the Shark' Mean?",
+      "url": "https://www.lifewire.com/what-is-jumping-the-shark-2483371",
+      "date": "2020-05-19"
+    },
+    {
+      "id": "2977174808",
+      "title": "One Secret to Quality Software",
+      "url": "https://jessitron.com/2020/05/08/one-secret-to-quality-software/",
+      "date": "2020-05-19"
+    },
+    {
+      "id": "2988100372",
+      "title": "The Four Symptoms of Zombie Scrum",
+      "url": "https://medium.com/the-liberators/the-four-symptoms-of-zombie-scrum-f107f2e86b3f",
+      "date": "2020-05-19"
+    },
+    {
+      "id": "2988107776",
+      "title": "Tiny websites are great",
+      "url": "https://tinyprojects.dev/posts/tiny_websites_are_great",
+      "date": "2020-05-19"
+    },
+    {
+      "id": "2988706649",
+      "title": "EasyJet admits nine million customers hacked",
+      "url": "https://www.bbc.com/news/technology-52722626",
+      "date": "2020-05-19"
+    },
+    {
+      "id": "2988986033",
+      "title": "Snowden-Level Paranoia Trusted Hardware: what are the options right now and in the near future?",
+      "url": "https://www.reddit.com/r/privacytoolsIO/comments/gmljj4/snowdenlevel_paranoia_trusted_hardware_what_are/",
+      "date": "2020-05-19"
+    },
+    {
+      "id": "2989010563",
+      "title": "The Essential Leader’s Guide to Writing Better Emails",
+      "url": "https://www.thoughtfulleader.com/the-ultimate-leaders-guide-to-writing-better-emails/",
+      "date": "2020-05-19"
+    },
+    {
+      "id": "4680960",
+      "title": "Privacy",
+      "url": "https://en.wikipedia.org/wiki/Privacy",
+      "date": "2020-05-18"
+    },
+    {
+      "id": "1046109981",
+      "title": "I hate almost all software.",
+      "url": "https://tinyclouds.org/rant.html",
+      "date": "2020-05-18"
+    },
+    {
+      "id": "1855946366",
+      "title": "Optimistic Nihilism",
+      "url": "https://tinyclouds.org/optimistic_nihilism/",
+      "date": "2020-05-18"
+    },
+    {
+      "id": "2976789279",
+      "title": "Zangrillo: su coronavirus non si dice la verità, situazione negli ospedali è un’altra",
+      "url": "https://heralditalia.it/zangrillo-su-coronavirus-non-si-dice-la-verita-situazione-negli-ospedali-e-unaltra-uid-4/",
+      "date": "2020-05-18"
+    },
+    {
+      "id": "2982679895",
+      "title": "Why Software Engineers Often Neglect Self Care",
+      "url": "https://cult.honeypot.io/reads/software-engineers-neglect-self-care",
+      "date": "2020-05-18"
+    },
+    {
+      "id": "2986319546",
+      "title": "It’s Time to Get Back Into RSS",
+      "url": "https://danielmiessler.com/blog/its-time-to-get-back-into-rss/",
+      "date": "2020-05-18"
+    },
+    {
+      "id": "2987577114",
+      "title": "A Thorough Introduction to Distributed Systems",
+      "url": "https://medium.com/better-programming/a-thorough-introduction-to-distributed-systems-3b91562c9b3c",
+      "date": "2020-05-18"
+    },
+    {
+      "id": "2987616607",
+      "title": "Forensic Investigation: The Shocking State Of Privacy In Safety Apps",
+      "url": "https://parachute.live/blog/forensic-investigation-the-shocking-state-of-privacy-in-safety-apps",
+      "date": "2020-05-18"
+    },
+    {
+      "id": "2987947633",
+      "title": "20 questions to ask instead of “How are you doing right now?”",
+      "url": "https://qz.com/work/1836105/20-great-questions-to-ask-instead-of-how-are-you-doing-right-now/",
+      "date": "2020-05-18"
+    },
+    {
+      "id": "2987987222",
+      "title": "How I trick my well developed procrastination skills",
+      "url": "https://wolfgang.gassler.org/trick-my-procrastination-skills/",
+      "date": "2020-05-18"
+    },
     {
       "id": "5584521",
       "title": "SSD.EFF.ORG",
@@ -94,7 +2446,7 @@
     {
       "id": "2985983931",
       "title": "An AI can simulate an economy millions of times to create fairer tax policy",
-      "url": "https://www.technologyreview.com/2020/05/05/1001142/ai-reinforcement-learning-simulate-economy-fairer-tax-policy-income-inequality-recession-pandemic/",
+      "url": "https://www.technologyreview.com/2020/05/05/1001142/ai-reinforcement-learning-simulate-economy-fairer-tax-policy-income-inequality-recession-pandemic/#Echobox=1594408319",
       "date": "2020-05-16"
     },
     {
@@ -136,7 +2488,7 @@
     {
       "id": "46350164",
       "title": "Work 2.0 - the interruptible programmer",
-      "url": "http://www.stevestreeting.com/2010/09/04/work-2-0/",
+      "url": "https://www.stevestreeting.com/2010/09/04/work-2-0/",
       "date": "2020-05-14"
     },
     {
@@ -179,6 +2531,12 @@
       "id": "1760117290",
       "title": "Everything You Need to Know About Buying Bitcoin",
       "url": "https://protonmail.com/blog/how-to-buy-bitcoin/",
+      "date": "2020-05-12"
+    },
+    {
+      "id": "2902632491",
+      "title": "4 tips to begin to work remotely",
+      "url": "https://medium.com/flowingis/4-tips-to-begin-to-work-remotely-61a5e4126e9e",
       "date": "2020-05-12"
     },
     {
@@ -233,12 +2591,6 @@
       "id": "2976648096",
       "title": "Andrà tutto iene",
       "url": "https://www.ciwati.it/2020/05/08/andra-tutto-iene/",
-      "date": "2020-05-09"
-    },
-    {
-      "id": "2976789279",
-      "title": "Zangrillo: su coronavirus non si dice la verità, situazione negli ospedali è un’altra",
-      "url": "https://heralditalia.it/zangrillo-su-coronavirus-non-si-dice-la-verita-situazione-negli-ospedali-e-unaltra-uid-4/",
       "date": "2020-05-09"
     },
     {
@@ -334,7 +2686,7 @@
     {
       "id": "2973517614",
       "title": "Pricing Your Product",
-      "url": "https://www.sequoiacap.com/article/pricing-your-product/#",
+      "url": "https://www.sequoiacap.com/article/pricing-your-product/",
       "date": "2020-05-05"
     },
     {
@@ -824,6 +3176,12 @@
       "date": "2020-04-23"
     },
     {
+      "id": "2699414256",
+      "title": "Unit tests are tests of modularity",
+      "url": "https://blogs.itemis.com/en/unit-tests-are-tests-of-modularity",
+      "date": "2020-04-23"
+    },
+    {
       "id": "2959749623",
       "title": "La sindrome del \"Pompiere\"",
       "url": "https://www.linkedin.com/pulse/la-sindrome-del-pompiere-luisa-ruggiero",
@@ -992,15 +3350,15 @@
       "date": "2020-04-19"
     },
     {
-      "id": "2954719135",
-      "title": "IT’S TIME TO BUILD",
-      "url": "https://a16z.com/2020/04/18/its-time-to-build/",
-      "date": "2020-04-19"
-    },
-    {
       "id": "2947309271",
       "title": "About “Zero Dependencies”",
       "url": "https://medium.com/@WebReflection/about-zero-dependencies-ae7e8fb82abd",
+      "date": "2020-04-19"
+    },
+    {
+      "id": "2954719135",
+      "title": "IT’S TIME TO BUILD",
+      "url": "https://a16z.com/2020/04/18/its-time-to-build/",
       "date": "2020-04-19"
     },
     {
@@ -1037,6 +3395,12 @@
       "id": "1782044939",
       "title": "Refactoring: Is There More To It than Just Changing Stuff?",
       "url": "http://qualitycoding.org/refactoring-demo/",
+      "date": "2020-04-17"
+    },
+    {
+      "id": "2785464478",
+      "title": "Start Contributing to Node.js in the New Year",
+      "url": "https://dev.to/azure/start-contributing-to-nodejs-in-the-new-year-3dlh",
       "date": "2020-04-17"
     },
     {
@@ -1211,7 +3575,7 @@
       "id": "2930997171",
       "title": "Signaling as a Service",
       "url": "https://julian.digital/2020/03/28/signaling-as-a-service/",
-      "date": "2020-04-01"
+      "date": "2020-04-02"
     },
     {
       "id": "2934528381",
@@ -1364,18 +3728,6 @@
       "date": "2020-03-21"
     },
     {
-      "id": "253523109",
-      "title": "How to Get Startup Ideas",
-      "url": "http://www.paulgraham.com/startupideas.html",
-      "date": "2020-03-18"
-    },
-    {
-      "id": "2918470086",
-      "title": "4.2″ and 7.5″ NFC-powered e-Paper Displays Work without Battery",
-      "url": "https://www.cnx-software.com/2020/03/17/nfc-powered-e-paper-displays-work-without-battery/",
-      "date": "2020-03-18"
-    },
-    {
       "id": "2918862255",
       "title": "Next Phase Montage",
       "url": "https://blog.npmjs.org/post/612764866888007680/next-phase-montage",
@@ -1461,7 +3813,7 @@
     },
     {
       "id": "2910683058",
-      "title": "Express",
+      "title": "What Happened When I Peeked Into My Node_Modules Directory",
       "url": "https://medium.com/s/silicon-satire/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558",
       "date": "2020-03-10"
     },
@@ -1544,12 +3896,6 @@
       "date": "2020-03-06"
     },
     {
-      "id": "15192939",
-      "title": "Ramen Profitable",
-      "url": "http://www.paulgraham.com/ramenprofitable.html",
-      "date": "2020-03-05"
-    },
-    {
       "id": "2802874795",
       "title": "ASU CSE 466",
       "url": "https://www.pwn.college/",
@@ -1564,7 +3910,7 @@
     {
       "id": "2899368349",
       "title": "How to Write Usefully",
-      "url": "http://www.paulgraham.com/useful.html",
+      "url": "http://paulgraham.com/useful.html",
       "date": "2020-03-05"
     },
     {
@@ -1577,12 +3923,6 @@
       "id": "2905516209",
       "title": "Being ‘Indistractable’ Will Be the Skill of the Future",
       "url": "https://onezero.medium.com/being-indistractable-will-be-the-skill-of-the-future-a07780cf36f4",
-      "date": "2020-03-05"
-    },
-    {
-      "id": "2906017003",
-      "title": "JavaScript Start-up Performance",
-      "url": "https://medium.com/reloading/javascript-start-up-performance-69200f43b201",
       "date": "2020-03-05"
     },
     {
@@ -1637,12 +3977,6 @@
       "id": "2902187855",
       "title": "Fast and maintainable patterns for fetching from a database",
       "url": "https://sophiebits.com/2020/01/01/fast-maintainable-db-patterns.html",
-      "date": "2020-03-02"
-    },
-    {
-      "id": "2902632491",
-      "title": "4 tips to begin to work remotely",
-      "url": "https://medium.com/flowingis/4-tips-to-begin-to-work-remotely-61a5e4126e9e",
       "date": "2020-03-02"
     },
     {
@@ -1755,7 +4089,7 @@
     },
     {
       "id": "2895041524",
-      "title": "$1,000 MRR: Harder Than I Expected",
+      "title": "$1,000 MRR: Harder Than I Anticipated",
       "url": "https://daily.patwalls.co/1-000",
       "date": "2020-02-24"
     },
@@ -1864,7 +4198,7 @@
     {
       "id": "2892231954",
       "title": "The Wall of Technical Debt",
-      "url": "http://verraes.net/2020/01/wall-of-technical-debt/",
+      "url": "https://verraes.net/2020/01/wall-of-technical-debt/",
       "date": "2020-02-21"
     },
     {
@@ -1934,12 +4268,6 @@
       "date": "2020-02-17"
     },
     {
-      "id": "2885333072",
-      "title": "Moving Towards Domain Driven Design in Go",
-      "url": "https://www.calhoun.io/moving-towards-domain-driven-design-in-go/",
-      "date": "2020-02-16"
-    },
-    {
       "id": "2853966077",
       "title": "Compiling Dark to SQL",
       "url": "https://medium.com/darklang/compiling-dark-to-sql-bb8918d1acdd",
@@ -1949,6 +4277,12 @@
       "id": "2880830523",
       "title": "What happened to Slack today",
       "url": "https://techcrunch.com/2020/02/10/what-happened-to-slack-today/",
+      "date": "2020-02-16"
+    },
+    {
+      "id": "2885333072",
+      "title": "Moving Towards Domain Driven Design in Go",
+      "url": "https://www.calhoun.io/moving-towards-domain-driven-design-in-go/",
       "date": "2020-02-16"
     },
     {
@@ -2022,6 +4356,12 @@
       "title": "Software Testing Guide",
       "url": "https://martinfowler.com/testing/",
       "date": "2020-02-13"
+    },
+    {
+      "id": "2639334193",
+      "title": "Real problems with functional languages",
+      "url": "https://medium.com/darklang/real-problems-with-functional-languages-efe668c5264a",
+      "date": "2020-02-12"
     },
     {
       "id": "2880918106",
@@ -2110,7 +4450,7 @@
     {
       "id": "2871857196",
       "title": "The Clean Architecture",
-      "url": "http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
+      "url": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
       "date": "2020-02-02"
     },
     {
@@ -2283,7 +4623,7 @@
     },
     {
       "id": "2858355147",
-      "title": "Text Classification Demystified: Word Embeddings",
+      "title": "Text Classification Demystified: An Introduction to Word Embeddings",
       "url": "https://www.freecodecamp.org/news/demystify-state-of-the-art-text-classification-word-embeddings/",
       "date": "2020-01-20"
     },
@@ -2703,8 +5043,8 @@
     },
     {
       "id": "1822800120",
-      "title": "unDraw | Colorful illustrations",
-      "url": "https://undraw.co/",
+      "title": "unDraw",
+      "url": "https://undraw.co",
       "date": "2019-12-23"
     },
     {
@@ -2804,12 +5144,6 @@
       "date": "2019-12-21"
     },
     {
-      "id": "2639334193",
-      "title": "Real problems with functional languages",
-      "url": "https://medium.com/darklang/real-problems-with-functional-languages-efe668c5264a",
-      "date": "2019-12-21"
-    },
-    {
       "id": "2809729712",
       "title": "State of JavaScript 2019",
       "url": "https://2019.stateofjs.com/",
@@ -2895,7 +5229,7 @@
     },
     {
       "id": "2828924409",
-      "title": "Node.js & JavaScript Testing Best Practices (2019)",
+      "title": "Node.js & JavaScript Testing Best Practices (2020)",
       "url": "https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347",
       "date": "2019-12-20"
     },
@@ -3088,7 +5422,7 @@
     {
       "id": "2820125290",
       "title": "Challenging projects every programmer should try",
-      "url": "http://web.eecs.utk.edu/~azh/blog/challengingprojects.html",
+      "url": "https://web.eecs.utk.edu/~azh/blog/challengingprojects.html",
       "date": "2019-12-15"
     },
     {
@@ -3130,7 +5464,7 @@
     {
       "id": "2821996185",
       "title": "Why NUKEMAP isn’t on Google Maps anymore",
-      "url": "http://blog.nuclearsecrecy.com/2019/12/13/why-nukemap-isnt-on-google-maps-anymore/",
+      "url": "https://blog.nuclearsecrecy.com/2019/12/13/why-nukemap-isnt-on-google-maps-anymore/",
       "date": "2019-12-14"
     },
     {
@@ -3141,7 +5475,7 @@
     },
     {
       "id": "2822904800",
-      "title": "Node.js & JavaScript Testing Best Practices (2019)",
+      "title": "Node.js & JavaScript Testing Best Practices (2020)",
       "url": "https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347",
       "date": "2019-12-14"
     },
@@ -3279,7 +5613,7 @@
     },
     {
       "id": "2819931328",
-      "title": "jack ??? on Twitter",
+      "title": "jack",
       "url": "https://twitter.com/jack/status/1204766078468911106",
       "date": "2019-12-11"
     },
@@ -3298,7 +5632,7 @@
     {
       "id": "443680419",
       "title": "Record and share your terminal sessions, the right way.",
-      "url": "https://asciinema.org",
+      "url": "https://asciinema.org/",
       "date": "2019-12-10"
     },
     {
@@ -3334,7 +5668,7 @@
     {
       "id": "2817780856",
       "title": "Operations and Internal Communication Strategies For Effective CEOs",
-      "url": "https://www.sametab.com/blog/operations-and-internal-communication-strategies-for-effective-ceos/",
+      "url": "https://www.sametab.com/blog/operations-and-internal-communication-strategies-for-effective-ceos",
       "date": "2019-12-10"
     },
     {
@@ -3500,12 +5834,6 @@
       "date": "2019-12-04"
     },
     {
-      "id": "2810437325",
-      "title": "My experience as a remote worker",
-      "url": "https://www.joshwcomeau.com/posts/remote-work/",
-      "date": "2019-12-04"
-    },
-    {
       "id": "2811975526",
       "title": "Viaggio nel futuro. Senza conducente",
       "url": "https://noi.bz.it/navya-bus-autonomo-senza-conducente-merano",
@@ -3558,12 +5886,6 @@
       "title": "The Node.js Philosophy",
       "url": "https://jsreport.io/node-js-philosopy/",
       "date": "2019-11-24"
-    },
-    {
-      "id": "2653422585",
-      "title": "Modern Script Loading",
-      "url": "https://jasonformat.com/modern-script-loading/",
-      "date": "2019-11-23"
     },
     {
       "id": "2801068654",
@@ -3651,7 +5973,7 @@
     },
     {
       "id": "2336011146",
-      "title": "Thoughts on Foreign Keys? · Issue #331 · github/gh-ost",
+      "title": "Thoughts on Foreign Keys? #331",
       "url": "https://github.com/github/gh-ost/issues/331",
       "date": "2019-11-15"
     },
@@ -3749,12 +6071,6 @@
       "id": "2784295292",
       "title": "Easier Node.js streams via async iteration",
       "url": "https://2ality.com/2019/11/nodejs-streams-async-iteration.html",
-      "date": "2019-11-08"
-    },
-    {
-      "id": "2785464478",
-      "title": "Start Contributing to Node.js in the New Year",
-      "url": "https://dev.to/azure/start-contributing-to-nodejs-in-the-new-year-3dlh",
       "date": "2019-11-08"
     },
     {
@@ -3957,7 +6273,7 @@
     },
     {
       "id": "2769458798",
-      "title": "Please Don’t Write “Clever” Code",
+      "title": "oop.wtf",
       "url": "https://www.oop.wtf/dont-write-clever-code",
       "date": "2019-10-24"
     },
@@ -4353,8 +6669,8 @@
     },
     {
       "id": "2731811981",
-      "title": "Cloud AI",
-      "url": "https://cloud.google.com/products/ai/ml-comic-1/",
+      "title": "Get started with Google Cloud",
+      "url": "https://cloud.google.com/products/ai/ml-comic-1",
       "date": "2019-09-23"
     },
     {
@@ -4422,12 +6738,6 @@
       "title": "Essays and Articles",
       "url": "https://www.gnu.org/philosophy/essays-and-articles.en.html",
       "date": "2019-09-18"
-    },
-    {
-      "id": "1193065855",
-      "title": "Write code that is easy to delete, not easy to extend.",
-      "url": "https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to",
-      "date": "2019-09-17"
     },
     {
       "id": "1888908560",
@@ -4708,7 +7018,7 @@
     {
       "id": "2702007493",
       "title": "Tired of Stack Overflow",
-      "url": "https://arp242.net/stackoverflow.html",
+      "url": "https://www.arp242.net/stackoverflow.html",
       "date": "2019-09-06"
     },
     {
@@ -4922,12 +7232,6 @@
       "date": "2019-09-01"
     },
     {
-      "id": "2082281579",
-      "title": "the information apocalypse",
-      "url": "https://diracdeltas.github.io/blog/information-apocalypse/",
-      "date": "2019-09-01"
-    },
-    {
       "id": "2711013697",
       "title": "The Principal Developer - August 2019",
       "url": "https://digest.sizovs.net/issues/the-principal-developer-august-2019-192739",
@@ -5038,7 +7342,7 @@
     {
       "id": "2705202498",
       "title": "React",
-      "url": "https://www.sonniesedge.net/posts/react/",
+      "url": "https://www.sonniesedge.net/posts/react",
       "date": "2019-08-27"
     },
     {
@@ -5104,7 +7408,7 @@
     {
       "id": "2703688429",
       "title": "Lies We Tell Kids",
-      "url": "http://www.paulgraham.com/lies.html",
+      "url": "http://paulgraham.com/lies.html",
       "date": "2019-08-25"
     },
     {
@@ -5318,12 +7622,6 @@
       "date": "2019-08-21"
     },
     {
-      "id": "2699414256",
-      "title": "Unit tests are tests of modularity",
-      "url": "https://blogs.itemis.com/en/unit-tests-are-tests-of-modularity",
-      "date": "2019-08-21"
-    },
-    {
       "id": "688999644",
       "title": "CSS Guidelines",
       "url": "https://cssguidelin.es/",
@@ -5331,7 +7629,7 @@
     },
     {
       "id": "2544130098",
-      "title": "AHA Programming ?",
+      "title": "AHA Programming 💡",
       "url": "https://kentcdodds.com/blog/aha-programming",
       "date": "2019-08-20"
     },
@@ -5792,12 +8090,6 @@
       "date": "2019-08-07"
     },
     {
-      "id": "2684013263",
-      "title": "Science Says Drinking Coffee Helps People Slow Aging, Lose Weight, and Cheat Death. These Fascinating Studies Explain Why It's a Miracle Drink",
-      "url": "https://www.inc.com/bill-murphy-jr/science-says-coffee-is-a-miracle-drink-that-helps-slow-aging-lose-weight-literally-cheat-death-here-are-7-most-exciting-studies-that-prove-it.html",
-      "date": "2019-08-07"
-    },
-    {
       "id": "2684016526",
       "title": "Learn Startup - Build a successful business and change the world",
       "url": "https://learnstartup.net/p/fewauFKLu/testing-javascript/?utm_source=1",
@@ -5914,7 +8206,7 @@
     {
       "id": "1108033342",
       "title": "Pattern: Backends For Frontends",
-      "url": "https://samnewman.io/patterns/architectural/bff/",
+      "url": "http://samnewman.io/patterns/architectural/bff/",
       "date": "2019-08-05"
     },
     {
@@ -6154,7 +8446,7 @@
     {
       "id": "12359142",
       "title": "Programmers: Before you turn 40, get a plan B",
-      "url": "http://improvingsoftware.com/2009/05/19/programmers-before-you-turn-40-get-a-plan-b/",
+      "url": "https://improvingsoftware.com/2009/05/19/programmers-before-you-turn-40-get-a-plan-b/",
       "date": "2019-08-02"
     },
     {
@@ -6280,7 +8572,7 @@
     {
       "id": "2675878523",
       "title": "Electron 6.0.0",
-      "url": "https://electronjs.org/blog/electron-6-0",
+      "url": "https://www.electronjs.org/blog/electron-6-0",
       "date": "2019-07-31"
     },
     {
@@ -6316,7 +8608,7 @@
     {
       "id": "2676106299",
       "title": "Electron 6.0.0",
-      "url": "https://electronjs.org/blog/electron-6-0",
+      "url": "https://www.electronjs.org/blog/electron-6-0",
       "date": "2019-07-30"
     },
     {
@@ -6381,13 +8673,13 @@
     },
     {
       "id": "2672392785",
-      "title": "Lionel Page on Twitter",
+      "title": "Twitter",
       "url": "https://twitter.com/page_eco/status/1155077311399489536",
       "date": "2019-07-28"
     },
     {
       "id": "2672607889",
-      "title": "Lionel Page on Twitter",
+      "title": "Twitter",
       "url": "https://twitter.com/page_eco/status/1155077311399489536",
       "date": "2019-07-28"
     },
@@ -6526,7 +8818,7 @@
     {
       "id": "1071864930",
       "title": "Visual Information Theory",
-      "url": "http://colah.github.io/posts/2015-09-Visual-Information/",
+      "url": "https://colah.github.io/posts/2015-09-Visual-Information/",
       "date": "2019-07-24"
     },
     {
@@ -6609,7 +8901,7 @@
     },
     {
       "id": "2663692024",
-      "title": "Carbon calculator: how taking one flight emits as much as many people do in a year",
+      "title": "How your flight emits as much CO2 as many people do in a year",
       "url": "https://www.theguardian.com/environment/ng-interactive/2019/jul/19/carbon-calculator-how-taking-one-flight-emits-as-much-as-many-people-do-in-a-year",
       "date": "2019-07-23"
     },
@@ -6830,12 +9122,6 @@
       "date": "2019-07-19"
     },
     {
-      "id": "1018184823",
-      "title": "Good naming is a process, not a single step",
-      "url": "http://arlobelshee.com/good-naming-is-a-process-not-a-single-step/",
-      "date": "2019-07-18"
-    },
-    {
       "id": "2661913953",
       "title": "Introducing WebAssembly Interfaces",
       "url": "https://medium.com/wasmer/introducing-webassembly-interfaces-bb3c05bc671",
@@ -6885,7 +9171,7 @@
     },
     {
       "id": "2653483151",
-      "title": "How to Begin to Shape Up",
+      "title": "Shape Up: Stop Running in Circles and Ship Work that Matters",
       "url": "https://basecamp.com/shapeup",
       "date": "2019-07-13"
     },
@@ -7330,7 +9616,7 @@
     {
       "id": "1168820736",
       "title": "The Wrong Abstraction — Sandi Metz",
-      "url": "https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+      "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
       "date": "2019-03-29"
     },
     {
@@ -7485,7 +9771,7 @@
     },
     {
       "id": "2481611305",
-      "title": "Fighting the surveillance economy",
+      "title": "Fighting the surveillance economy — A practical guide for individuals and companies",
       "url": "https://medium.com/@vvecsei/fighting-the-surveillance-economy-a-practical-guide-for-individuals-and-companies-cb9719fe1098",
       "date": "2019-02-08"
     },
@@ -7587,7 +9873,7 @@
     },
     {
       "id": "2460871688",
-      "title": "Travel app case-study (Design sprint, UX, Visual Design)",
+      "title": "Travel app case-study (Blue Ocean, Design sprint, Visual Design)",
       "url": "https://medium.muz.li/travel-app-case-study-blue-ocean-design-sprint-visual-design-bebd85cd40b5",
       "date": "2019-01-27"
     },
@@ -7635,7 +9921,7 @@
     },
     {
       "id": "2446325145",
-      "title": "Coolest Things I Learned In 2018 — David Perell",
+      "title": "Coolest Things I Learned In 2018",
       "url": "https://www.perell.com/blog/coolest-things-2018",
       "date": "2019-01-18"
     },
@@ -7671,13 +9957,13 @@
     },
     {
       "id": "2418302656",
-      "title": "SEARCHING FOR THE KILLER APP: DISCOVERING THE PROBLEMS DECENTRALIZED CAN SOLVE",
+      "title": "SEARCHING FOR THE KILLER APP: DISCOVERING THE PROBLEMS DECENTRALIZED TECHNOLOGIES CAN SOLVE",
       "url": "https://medium.com/orchid-labs/searching-for-the-killer-app-discovering-the-problems-decentralized-can-solve-79c75cd5adaf",
       "date": "2019-01-09"
     },
     {
       "id": "2439206990",
-      "title": "Top JavaScript Frameworks and Topics to Learn in 2019",
+      "title": "Top JavaScript Frameworks and Topics to Learn in 2019",
       "url": "https://medium.com/javascript-scene/top-javascript-frameworks-and-topics-to-learn-in-2019-b4142f38df20",
       "date": "2019-01-09"
     },
@@ -7701,7 +9987,7 @@
     },
     {
       "id": "2442022012",
-      "title": "Monorepo: please do!",
+      "title": "Monorepo: please do!",
       "url": "https://medium.com/@adamhjk/monorepo-please-do-3657e08a4b70",
       "date": "2019-01-04"
     },
@@ -7732,7 +10018,7 @@
     {
       "id": "2055921817",
       "title": "People with depression use language differently – here’s how to spot it",
-      "url": "http://theconversation.com/people-with-depression-use-language-differently-heres-how-to-spot-it-90877",
+      "url": "https://theconversation.com/people-with-depression-use-language-differently-heres-how-to-spot-it-90877",
       "date": "2018-12-31"
     },
     {
@@ -7768,7 +10054,7 @@
     {
       "id": "1164560120",
       "title": "A Harvard psychologist says people judge you based on 2 criteria when they first meet you",
-      "url": "https://www.businessinsider.com/harvard-psychologist-amy-cuddy-how-people-judge-you-2016-1",
+      "url": "http://www.businessinsider.com/harvard-psychologist-amy-cuddy-how-people-judge-you-2016-1",
       "date": "2018-12-29"
     },
     {
@@ -7899,7 +10185,7 @@
     },
     {
       "id": "2026124844",
-      "title": "Redirecting",
+      "title": "The Death of Microservice Madness in 2018",
       "url": "https://dwmkerr.com/the-death-of-microservice-madness-in-2018/",
       "date": "2018-12-21"
     },
@@ -7947,7 +10233,7 @@
     },
     {
       "id": "176027451",
-      "title": "Liberating Structures",
+      "title": "Liberating Structures : Introduction",
       "url": "http://www.liberatingstructures.com/",
       "date": "2018-12-13"
     },
@@ -8063,12 +10349,6 @@
       "id": "35827758",
       "title": "Collective Ownership",
       "url": "http://www.extremeprogramming.org/rules/collective.html",
-      "date": "2018-12-05"
-    },
-    {
-      "id": "35827867",
-      "title": "Extreme Programming Values",
-      "url": "http://www.extremeprogramming.org/values.html",
       "date": "2018-12-05"
     },
     {
@@ -8343,7 +10623,7 @@
     },
     {
       "id": "2362184201",
-      "title": "This Strategy Makes It Impossible To Procrastinate",
+      "title": "This Strategy Makes Procrastination Impossible",
       "url": "https://medium.com/darius-foroux/this-strategy-makes-procrastination-impossible-783f667c32b3",
       "date": "2018-11-09"
     },
@@ -8600,12 +10880,6 @@
       "date": "2016-10-29"
     },
     {
-      "id": "1453057122",
-      "title": "Why We Chose Vue.js",
-      "url": "https://about.gitlab.com/2016/10/20/why-we-chose-vue/",
-      "date": "2016-10-23"
-    },
-    {
       "id": "737802304",
       "title": "Why Haters Hate: Kierkegaard Explains the Psychology of Bullying and Online Trolling in 1847",
       "url": "https://www.brainpickings.org/2014/10/13/kierkegaard-diary-bullying-trolling-haters/",
@@ -8643,7 +10917,7 @@
     },
     {
       "id": "930749998",
-      "title": "Redirecting",
+      "title": "MonolithFirst",
       "url": "https://martinfowler.com/bliki/MonolithFirst.html",
       "date": "2016-10-21"
     },
@@ -8818,7 +11092,7 @@
     {
       "id": "1358566631",
       "title": "Destroy All Ifs — A Perspective from Functional Programming",
-      "url": "http://degoes.net/articles/destroy-all-ifs",
+      "url": "https://degoes.net/articles/destroy-all-ifs",
       "date": "2016-07-23"
     },
     {
@@ -8937,8 +11211,8 @@
     },
     {
       "id": "1247991435",
-      "title": "EDONISMO in “Enciclopedia Italiana” – Treccani",
-      "url": "http://www.treccani.it/enciclopedia/edonismo_(Enciclopedia-Italiana)/",
+      "title": "EDONISMO",
+      "url": "http://www.treccani.it/enciclopedia/edonismo_(Enciclopedia-Italiana)",
       "date": "2016-04-05"
     },
     {
@@ -9104,6 +11378,12 @@
       "date": "2016-03-08"
     },
     {
+      "id": "1214138692",
+      "title": "Red Hat Developer - Stories and tutorials on the latest technologies in cloud application development.",
+      "url": "http://developerblog.redhat.com/2016/02/24/10-things-to-avoid-in-docker-containers/",
+      "date": "2016-03-06"
+    },
+    {
       "id": "1211118199",
       "title": "How to Deploy Software",
       "url": "https://zachholman.com/posts/deploying-software",
@@ -9258,12 +11538,6 @@
       "title": "Extreme programming",
       "url": "https://en.wikipedia.org/wiki/Extreme_programming",
       "date": "2016-02-07"
-    },
-    {
-      "id": "1154922602",
-      "title": "The Number One Secret To Sleep That No One Tells You",
-      "url": "https://medium.com/life-learning/the-number-one-secret-to-sleep-that-no-one-tells-you-1a1a15ba80ec",
-      "date": "2016-02-03"
     },
     {
       "id": "1155699790",
@@ -9568,7 +11842,7 @@
     {
       "id": "1156702447",
       "title": "When Are You Really an Adult?",
-      "url": "https://www.theatlantic.com/health/archive/2016/01/when-are-you-really-an-adult/422487/",
+      "url": "http://www.theatlantic.com/health/archive/2016/01/when-are-you-really-an-adult/422487/",
       "date": "2016-01-18"
     },
     {
@@ -9592,7 +11866,7 @@
     {
       "id": "1164868081",
       "title": "Life is Short",
-      "url": "http://paulgraham.com/vb.html",
+      "url": "http://www.paulgraham.com/vb.html",
       "date": "2016-01-18"
     },
     {
@@ -9604,7 +11878,7 @@
     {
       "id": "483612989",
       "title": "Don't Learn to Code",
-      "url": "http://ryanhoover.me/post/67471168540/dont-learn-to-code",
+      "url": "https://ryanhoover.me/post/67471168540/dont-learn-to-code",
       "date": "2015-11-15"
     },
     {
@@ -9825,7 +12099,7 @@
     },
     {
       "id": "619699519",
-      "title": "Design Principles: Space And The Figure Ground Relationship",
+      "title": "Design Principles: Space And The Figure-Ground Relationship",
       "url": "http://www.smashingmagazine.com/2014/05/16/design-principles-space-figure-ground-relationship/",
       "date": "2015-07-21"
     },
@@ -9879,7 +12153,7 @@
     },
     {
       "id": "980306438",
-      "title": "Want a Better Pitch?Watch This.",
+      "title": "Want a Better Pitch? Watch This.",
       "url": "https://medium.com/firm-narrative/want-a-better-pitch-watch-this-328b95c2fd0b",
       "date": "2015-07-18"
     },
@@ -9920,12 +12194,6 @@
       "date": "2015-07-12"
     },
     {
-      "id": "125391771",
-      "title": "Nobody Understands REST or HTTP",
-      "url": "http://blog.steveklabnik.com/posts/2011-07-03-nobody-understands-rest-or-http",
-      "date": "2015-07-12"
-    },
-    {
       "id": "312566450",
       "title": "Pocket",
       "url": "https://getpocket.com/add?sb=1",
@@ -9939,7 +12207,7 @@
     },
     {
       "id": "467901139",
-      "title": "User Stories",
+      "title": "Redirecting",
       "url": "https://www.mountaingoatsoftware.com/agile/user-stories",
       "date": "2015-07-12"
     },
@@ -10324,7 +12592,7 @@
     {
       "id": "45240483",
       "title": "Readme Driven Development",
-      "url": "http://tom.preston-werner.com/2010/08/23/readme-driven-development.html",
+      "url": "https://tom.preston-werner.com/2010/08/23/readme-driven-development.html",
       "date": "2015-05-22"
     },
     {
@@ -10413,7 +12681,7 @@
     },
     {
       "id": "891471259",
-      "title": "Hacking Company Culture",
+      "title": "Hacking Company Culture",
       "url": "https://medium.com/@pedramkeyani/hacking-company-culture-1daa3be1d769",
       "date": "2015-05-19"
     },
@@ -10476,12 +12744,6 @@
       "title": "On Becoming Agile",
       "url": "https://10mi2.wordpress.com/2015/05/04/on-becoming-agile/#344750",
       "date": "2015-05-10"
-    },
-    {
-      "id": "335276349",
-      "title": "What I Wish I Knew When Learning Haskell 2.3 ( Stephen Diehl )",
-      "url": "http://dev.stephendiehl.com/hask/",
-      "date": "2015-05-09"
     },
     {
       "id": "368325025",
@@ -10707,7 +12969,7 @@
     },
     {
       "id": "897313470",
-      "title": "How Our Product Team Works",
+      "title": "How Our Product Team Works",
       "url": "https://medium.com/in-the-hudl/how-our-product-team-works-14dc182da9d",
       "date": "2015-04-18"
     },
@@ -10808,12 +13070,6 @@
       "date": "2015-04-05"
     },
     {
-      "id": "31590954",
-      "title": "7 truths about Agile and Scrum that people don't want to hear. Part 0 of 7 Introduction",
-      "url": "http://gilb.com/blogpost111-7-truths-about-Agile-and-Scrum-that-people-don-t-want-to-hear-Part-0-of-7",
-      "date": "2015-04-05"
-    },
-    {
       "id": "35553169",
       "title": "Developer Creativity",
       "url": "http://gilb.com/blogpost120-7-truths-about-Agile-and-Scrum-that-people-don-t-want-to-hear-Part-2-of-7-Agile-Baby-Talk-Kills-Developer-Creativity",
@@ -10906,7 +13162,7 @@
     {
       "id": "43083",
       "title": "Manifesto for Agile Software Development",
-      "url": "http://agilemanifesto.org/",
+      "url": "https://agilemanifesto.org/",
       "date": "2015-03-15"
     },
     {
@@ -10941,7 +13197,7 @@
     },
     {
       "id": "854592768",
-      "title": "bliki : BeckDesignRules",
+      "title": "BeckDesignRules",
       "url": "https://martinfowler.com/bliki/BeckDesignRules.html",
       "date": "2015-03-04"
     },
@@ -11146,7 +13402,7 @@
     {
       "id": "249355",
       "title": "Principles behind the Agile Manifesto",
-      "url": "http://www.agilemanifesto.org/principles.html",
+      "url": "https://agilemanifesto.org/principles.html",
       "date": "2015-02-07"
     },
     {
@@ -11396,12 +13652,6 @@
       "date": "2015-01-17"
     },
     {
-      "id": "817886381",
-      "title": "What Doesn't Seem Like Work?",
-      "url": "http://www.paulgraham.com/work.html",
-      "date": "2015-01-17"
-    },
-    {
       "id": "818417147",
       "title": "The Unix Philosophy / mrzool / designer & developer / berlin",
       "url": "http://mrzool.cc/unix/",
@@ -11483,12 +13733,6 @@
       "id": "809791490",
       "title": "How to Get Read on Medium",
       "url": "https://medium.com/@Medium/how-to-get-read-on-medium-aa88e30495a",
-      "date": "2015-01-10"
-    },
-    {
-      "id": "811716001",
-      "title": "To Fall in Love With Anyone, Do This",
-      "url": "https://www.nytimes.com/2015/01/11/fashion/modern-love-to-fall-in-love-with-anyone-do-this.html",
       "date": "2015-01-10"
     },
     {
@@ -11920,7 +14164,7 @@
     {
       "id": "53934592",
       "title": "GTD in 15 minutes – A Pragmatic Guide to Getting Things Done",
-      "url": "https://hamberg.no/gtd/",
+      "url": "https://hamberg.no/gtd",
       "date": "2014-11-19"
     },
     {
@@ -11931,7 +14175,7 @@
     },
     {
       "id": "764932167",
-      "title": "7 Rules for Creating Gorgeous UI (Updated for 2020)",
+      "title": "7 Rules for Creating Gorgeous UI (Part 1)",
       "url": "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda",
       "date": "2014-11-19"
     },
@@ -12290,12 +14534,6 @@
       "date": "2014-10-21"
     },
     {
-      "id": "744012637",
-      "title": "Published for the First Time : a 1959 Essay by Isaac Asimov on Creativity",
-      "url": "http://www.technologyreview.com/view/531911/isaac-asimov-mulls-how-do-people-get-new-ideas/",
-      "date": "2014-10-21"
-    },
-    {
       "id": "744578311",
       "title": "Understanding Delegated JavaScript Events",
       "url": "http://codepen.io/32bitkid/blog/understanding-delegated-javascript-events",
@@ -12405,13 +14643,13 @@
     },
     {
       "id": "36336682",
-      "title": "Technology Radar Vol.21",
+      "title": "Technology Radar",
       "url": "https://www.thoughtworks.com/radar",
       "date": "2014-10-05"
     },
     {
       "id": "340901818",
-      "title": "Code Organization in Large AngularJS and JavaScript Applications",
+      "title": "Code Organization in Large AngularJS and JavaScript Applications — Cliff Meyers",
       "url": "http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript",
       "date": "2014-10-05"
     },
@@ -12662,6 +14900,12 @@
       "date": "2014-09-09"
     },
     {
+      "id": "423590392",
+      "title": "En2kindle",
+      "url": "http://en2kindle.com/pocket/",
+      "date": "2014-09-09"
+    },
+    {
       "id": "502792805",
       "title": "I want",
       "url": "https://dcurt.is/the-future",
@@ -12699,7 +14943,7 @@
     },
     {
       "id": "65597714",
-      "title": "Does the Pomodoro Technique Work for You?",
+      "title": "Does the Pomodoro Technique Work for Your Productivity?",
       "url": "https://www.lifehack.org/articles/productivity/the-pomodoro-technique-is-it-right-for-you.html",
       "date": "2014-09-06"
     },
@@ -13228,7 +15472,7 @@
     {
       "id": "55507692",
       "title": "Learning JavaScript Design Patterns",
-      "url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+      "url": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
       "date": "2014-07-27"
     },
     {
@@ -13371,7 +15615,7 @@
     },
     {
       "id": "212796115",
-      "title": "substack/stream-handbook",
+      "title": "stream-handbook",
       "url": "https://github.com/substack/stream-handbook",
       "date": "2014-07-09"
     },
@@ -13419,7 +15663,7 @@
     },
     {
       "id": "632837346",
-      "title": "GIT Conventions — Code adventures — Medium",
+      "title": "GIT Conventions",
       "url": "https://medium.com/code-adventures/git-conventions-a940ee20862d",
       "date": "2014-07-04"
     },
@@ -13626,12 +15870,6 @@
       "title": "Digest Cycles in Single Page Apps",
       "url": "http://blog.bguiz.com/post/60397801810/digest-cycles-in-single-page-apps",
       "date": "2014-05-25"
-    },
-    {
-      "id": "600947499",
-      "title": "TDD is dead. Long live testing.",
-      "url": "http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html",
-      "date": "2014-05-24"
     },
     {
       "id": "605729433",
@@ -13980,6 +16218,12 @@
       "title": "Understanding the “this” keyword in JavaScript",
       "url": "https://toddmotto.com/understanding-the-this-keyword-in-javascript/",
       "date": "2014-04-13"
+    },
+    {
+      "id": "591148730",
+      "title": "The Heartbleed Logo: How to Get People Talking About Internet Security",
+      "url": "http://www.newsweek.com/heartbleed-logo-how-get-people-talking-about-dangerous-security-flaw-245849",
+      "date": "2014-04-12"
     },
     {
       "id": "592253342",
@@ -14481,7 +16725,7 @@
     },
     {
       "id": "12929184",
-      "title": "tcpdump Examples — 50 Ways to Isolate Specific Traffic",
+      "title": "A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic",
       "url": "https://danielmiessler.com/study/tcpdump/",
       "date": "2014-02-28"
     },
@@ -14494,7 +16738,7 @@
     {
       "id": "557860620",
       "title": "10 Years of Coding Horror",
-      "url": "http://blog.codinghorror.com/10-years-of-coding-horror/",
+      "url": "https://blog.codinghorror.com/10-years-of-coding-horror/",
       "date": "2014-02-28"
     }
   ]

@@ -126,6 +126,11 @@ module.exports = {
       return (Array.isArray(arr) ? arr : []).filter((_, i) => i < 20)
     }
   }, {
+    name: 'limit500',
+    filter: (arr) =>  {
+      return (Array.isArray(arr) ? arr : []).filter((_, i) => i < 500)
+    }
+  }, {
     name: 'json',
     filter: (obj) => {
       try {
