@@ -22,6 +22,8 @@ Reach out on [twitter @christian_fei](https://twitter.com/christian_fei)
 
 Email me at hey [at] cri.dev
 
+> Simplicity is the ultimate sophistication ~ I want to think Leonardo Da Vinci said that.
+
 
 # Work history
 
@@ -35,8 +37,6 @@ I'm currently on "vacation"
 
 
 # Writing code as a passion
-
-> Simplicity is the ultimate sophistication ~ I want to think Leonardo Da Vinci said that.
 
 Clean Code, TDD, Refactoring and SOLID Principles are my special weapons to tame codebases.
 
