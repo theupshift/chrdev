@@ -12,6 +12,13 @@ body { padding: 0.5em }
 a{display: inline-block;cursor:pointer;color:#ff2e2e;text-decoration:none;border-bottom:1px solid #ff2e2e}
 a:hover{background-color:#ff2e2e!important;color:#fff!important}
 
+.ellipsis {
+  max-width: 45em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 .cf { text-align: center; padding: 1em; }
 @media all and (max-width: 45em) {

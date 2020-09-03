@@ -54,7 +54,7 @@ title: Home
 <div class="posts searchable">
 {% for post in collections.post | reverse %}
   <div class="searchable-item">
-    <a href="{{ post.url }}" class="post">
+    <a href="{{ post.url }}" class="post ellipsis">
       <div class="">
         <time datetime="{{ post.data.date | isoday }}" class="post-date">{{ post.data.date | isoday }}</time>
         <span class="post-link">{{ post.data.title | capitalize }}</span>
