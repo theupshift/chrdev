@@ -26,11 +26,19 @@ You can **support me** through my [GitHub Sponsor page ✌️](https://github.co
 
 See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
 
-# Writing code as a passion
-
-Mainly working with Node.js, JavaScript, Python, MongoDB, Redis, Cloud, Stats, DevOps, Automation, Scraping as a Full Stack Developer at [wonderflow](https://www.wonderflow.co) (2017 - present).
+# Work history
 
 Previously Agile Developer at XPeppers, Trento (2014 - 2017).
+
+Worked with Node.js, JavaScript, Python, MongoDB, Redis, Cloud, Stats, DevOps, Automation, Scraping as a Full Stack Developer at [wonderflow](https://www.wonderflow.co) (2017 - 2020).
+
+Quit my job in summer 2020 to enjoy my time for 6 months or so.
+
+I'm currently on "vacation" 😎
+
+
+# Writing code as a passion
+
 
 > Simplicity is the ultimate sophistication ~ I want to think Leonardo Da Vinci said that.
 
