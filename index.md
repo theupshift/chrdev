@@ -57,7 +57,7 @@ title: Home
     <a href="{{ post.url }}" class="post ellipsis">
       <div class="">
         <time datetime="{{ post.data.date | isoday }}" class="post-date">{{ post.data.date | isoday }}</time>
-        <span class="post-link">{{ post.data.title | capitalize }}</span>
+        <span class="post-link">{{ post.data.title }}</span>
       </div>
     </a>
   </div>
