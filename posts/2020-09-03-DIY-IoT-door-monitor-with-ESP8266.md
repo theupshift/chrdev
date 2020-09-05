@@ -26,6 +26,10 @@ Additionally, it creates an AP for Wi-Fi configuration using a Web interface, an
 
 Source code can be found on [GitHub christian-fei/door-monitor-esp8266](https://github.com/christian-fei/door-monitor-esp8266)
 
+```sh
+git clone https://github.com/christian-fei/door-monitor-esp8266.git
+```
+
 ![project photo](/assets/images/posts/door-monitor/project.jpg)
 
 
