@@ -13,7 +13,7 @@ title: Home
 
   <div class="half">
     <div class="cf">
-      <a href="/about" class="no-underline track-home-about-image" aria-hidden tabindex="-1">
+      <a href="/about" class="no-underline track-home-about-image">
         <picture>
           <source srcset="/assets/images/cf4.webp" type="image/webp">
           <img class="avatar-image no-shadow" src="/assets/images/cf4.png" alt="me with sunglasses">
