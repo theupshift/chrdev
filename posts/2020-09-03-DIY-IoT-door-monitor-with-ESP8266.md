@@ -11,7 +11,6 @@ tags:
 image: https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=695&q=80
 ---
 
-## tldr; <!-- omit in toc -->
 
 Using an ESP8266 for IoT projects makes me go fast while prototyping.
 
@@ -20,6 +19,25 @@ The compact format is perfect for small DIY devices.
 Wi-Fi connectivity is built-in, and it's super affordable.
 
 > The ESP8266 is a low-cost Wi-Fi microchip, with a full TCP/IP stack and microcontroller capability ([wikipedia](https://en.wikipedia.org/wiki/ESP8266))
+
+## Table of Contents <!-- omit in toc -->
+
+- [tldr;](#tldr)
+- [Requirements](#requirements)
+- [Circuit explanation](#circuit-explanation)
+- [Grab the code](#grab-the-code)
+  - [Install libraries for ESP8266](#install-libraries-for-esp8266)
+    - [Adding the ESP8266 Board](#adding-the-esp8266-board)
+    - [Additional libraries](#additional-libraries)
+  - [Flash it](#flash-it)
+  - [Try it out!](#try-it-out)
+  - [Next steps](#next-steps)
+  - [REST API](#rest-api)
+  - [Web UI](#web-ui)
+- [Demo](#demo)
+
+
+## tldr;
 
 The door monitor running in my home activates a buzzer when the proximity sensor detects that the door is opened.
 
@@ -41,21 +59,6 @@ The Web UI that this thing has (see home-assistant integration [at the end](#nex
 ![gate-keeper-ui](/assets/images/posts/door-monitor/gate-keeper-ui.png)
 
 
-
-## Table of Contents <!-- omit in toc -->
-
-- [Requirements](#requirements)
-- [Circuit explanation](#circuit-explanation)
-- [Grab the code](#grab-the-code)
-  - [Install libraries for ESP8266](#install-libraries-for-esp8266)
-    - [Adding the ESP8266 Board](#adding-the-esp8266-board)
-    - [Additional libraries](#additional-libraries)
-  - [Flash it](#flash-it)
-  - [Try it out!](#try-it-out)
-  - [Next steps](#next-steps)
-  - [REST API](#rest-api)
-  - [Web UI](#web-ui)
-- [Demo](#demo)
 
 
 ## Requirements
