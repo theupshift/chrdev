@@ -14,7 +14,7 @@ title: Pocket reading list
   <li class="">
     <time datetime="{{ item.date | isoday }}" class="post-date">{{ item.date | isoday }}</time>
     <a href="{{ item.url }}" class="post-link">
-      {{ item.title | capitalize }}
+      {{ item.title }}
     </a>
   </li>
 {% endfor %}
