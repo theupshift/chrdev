@@ -38,6 +38,11 @@ main img { text-align: center; max-width: 100%; }
 .no-shadow { box-shadow: none; }
 
 
+.space {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 /* 
 ul ul {
   margin-top: 0 !important;
