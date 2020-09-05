@@ -133,7 +133,7 @@ I looks like this:
 
 The next challenge is to register the door monitor as a "sensor" (or "entity" I think it's called in homeassistant lingo).
 
-The Gatekeeper can already be called via HTTP on its REST API where the following routes are made available:
+The Gatekeeper can already be called via HTTP on its REST API:
 
 ```
   HTTP GET /
