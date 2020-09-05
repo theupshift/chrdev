@@ -25,15 +25,15 @@ Wi-Fi connectivity is built-in, and it's super affordable.
 - [tldr;](#tldr)
 - [Requirements](#requirements)
 - [Circuit explanation](#circuit-explanation)
-- [Grab the code](#grab-the-code)
+- [Coding](#coding)
   - [Install libraries for ESP8266](#install-libraries-for-esp8266)
     - [Adding the ESP8266 Board](#adding-the-esp8266-board)
     - [Additional libraries](#additional-libraries)
   - [Flash it](#flash-it)
-  - [Try it out!](#try-it-out)
-  - [Next steps](#next-steps)
-  - [REST API](#rest-api)
-  - [Web UI](#web-ui)
+- [Try it out!](#try-it-out)
+- [Next steps](#next-steps)
+- [REST API](#rest-api)
+- [Web UI](#web-ui)
 - [Demo](#demo)
 
 
@@ -88,7 +88,7 @@ When the proximity sensor detects that the door is open, the GPIO D5 pin will re
 This is when the piezo buzzer is activated, and a simple alarm sound is played.
 
 
-## Grab the code
+## Coding
 
 Clone the repository
 
@@ -124,7 +124,7 @@ Select the `usbserial` port and `NodeMCU 1.0 (ESP - 12 E Module)` board in the A
 Click `Upload` and flash the ESP8266.
 
 
-### Try it out!
+## Try it out!
 
 Now you're ready to apply the board near a door you want to monitor.
 
@@ -133,7 +133,7 @@ The proximity sensor can both be placed on the door itself or on a wall near the
 You'll need to calibrate the sensitivity of the sensor by rotating the potentiometer on the FC-51 chip.
 
 
-### Next steps
+## Next steps
 
 From here I went the following route:
 
@@ -147,7 +147,7 @@ It looks like this:
 
 The next challenge is to register the door monitor as a "sensor" (or "entity" I think it's called in homeassistant lingo).
 
-### REST API
+## REST API
 
 The Gatekeeper can already be called via HTTP on its REST API:
 
@@ -164,7 +164,7 @@ The Gatekeeper can already be called via HTTP on its REST API:
     -> to save the Wi-Fi credentials and connect to the desired access point
 ```
 
-### Web UI
+## Web UI
 
 The Web UI give you the current status of the door.
 
