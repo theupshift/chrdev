@@ -31,7 +31,15 @@ Source code can be found on [GitHub christian-fei/door-monitor-esp8266](https://
 git clone https://github.com/christian-fei/door-monitor-esp8266.git
 ```
 
+The worst photo I could take of the "Gate keeper" in action:
+
 ![project photo](/assets/images/posts/door-monitor/project.jpg)
+
+
+The Web UI that this thing has (see home-assistant integration [at the end](#next-steps))
+
+![gate-keeper-ui](/assets/images/posts/door-monitor/gate-keeper-ui.png)
+
 
 
 ## Table of Contents <!-- omit in toc -->
@@ -45,6 +53,8 @@ git clone https://github.com/christian-fei/door-monitor-esp8266.git
   - [Flash it](#flash-it)
   - [Try it out!](#try-it-out)
   - [Next steps](#next-steps)
+  - [REST API](#rest-api)
+  - [Web UI](#web-ui)
 - [Demo](#demo)
 
 
@@ -124,7 +134,7 @@ You'll need to calibrate the sensitivity of the sensor by rotating the potentiom
 
 From here I went the following route:
 
-Made the Gatekeeper available as an iframe element in my [homeassistant](https://www.home-assistant.io/) installation.
+Made the Gatekeeper available as an iframe element in my [homeassistant](https://www.home-assistant.io/) installation. The URL I used was `http://gatekeeper.fritz.box` (after I connected it to my Wi-Fi network using [the Web UI](#web-ui))
 
 On the Web UI of the Gatekeeper I can "disarm" the alarm sound and check whether the door is open or closed.
 
@@ -133,6 +143,8 @@ It looks like this:
 ![gate-keeper-homeassistant](/assets/images/posts/door-monitor/gate-keeper-homeassistant.png)
 
 The next challenge is to register the door monitor as a "sensor" (or "entity" I think it's called in homeassistant lingo).
+
+### REST API
 
 The Gatekeeper can already be called via HTTP on its REST API:
 
@@ -149,9 +161,13 @@ The Gatekeeper can already be called via HTTP on its REST API:
     -> to save the Wi-Fi credentials and connect to the desired access point
 ```
 
+### Web UI
+
 The Web UI give you the current status of the door.
 
 It also features a form where you can input the Wi-Fi credentials to connect to your home network.
+
+![gate-keeper-ui](/assets/images/posts/door-monitor/gate-keeper-ui.png)
 
 This means that once the door monitor is connected to Wi-Fi, it's accessible via the hostname `gatekeeper`.
 
