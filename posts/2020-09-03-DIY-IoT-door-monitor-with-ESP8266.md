@@ -41,7 +41,7 @@ Wi-Fi connectivity is built-in, and it's super affordable.
 
 The door monitor running in my home activates a buzzer when the proximity sensor detects that the door is opened.
 
-Additionally, it creates an AP for Wi-Fi configuration using a Web interface, and can connect to a desired Wi-Fi network afterwards. [Read more about this below](#table-of-contents)
+Additionally, it creates an AP for Wi-Fi configuration using a Web interface, and can connect to a desired Wi-Fi network afterwards. [Read more about this below](#web-ui)
 
 Source code can be found on [GitHub christian-fei/door-monitor-esp8266](https://github.com/christian-fei/door-monitor-esp8266)
 
