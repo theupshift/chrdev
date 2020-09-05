@@ -128,7 +128,7 @@ Made the Gatekeeper available as an iframe element in my [homeassistant](https:/
 
 On the Web UI of the Gatekeeper I can "disarm" the alarm sound and check whether the door is open or closed.
 
-I looks like this:
+It looks like this:
 
 ![gate-keeper-homeassistant](/assets/images/posts/door-monitor/gate-keeper-homeassistant.png)
 
