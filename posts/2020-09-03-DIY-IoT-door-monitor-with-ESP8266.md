@@ -8,6 +8,7 @@ tags:
   - iot
   - electronics
   - diy
+image: https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=695&q=80
 ---
 
 ## tldr; <!-- omit in toc -->
