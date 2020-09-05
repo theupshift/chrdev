@@ -43,6 +43,7 @@ git clone https://github.com/christian-fei/door-monitor-esp8266.git
     - [Additional libraries](#additional-libraries)
   - [Flash it](#flash-it)
   - [Try it out!](#try-it-out)
+  - [Next steps](#next-steps)
 - [Demo](#demo)
 
 
@@ -116,6 +117,44 @@ Now you're ready to apply the board near a door you want to monitor.
 The proximity sensor can both be placed on the door itself or on a wall near the door.
 
 You'll need to calibrate the sensitivity of the sensor by rotating the potentiometer on the FC-51 chip.
+
+
+### Next steps
+
+From here I went the following route:
+
+Made the Gatekeeper available as an iframe element in my [homeassistant](https://www.home-assistant.io/) installation.
+
+On the Web UI of the Gatekeeper I can "disarm" the alarm sound and check whether the door is open or closed.
+
+I looks like this:
+
+![gate-keeper-homeassistant](/assets/images/posts/door-monitor/gate-keeper-homeassistant.png)
+
+The next challenge is to register the door monitor as a "sensor" (or "entity" I think it's called in homeassistant lingo).
+
+The Gatekeeper can already be called via HTTP on its REST API where the following routes are made available:
+
+```
+  HTTP GET /
+    -> replies with the client html
+  HTTP GET /door
+    -> returns the status of the door, whether it's "open" or "closed"
+  HTTP GET /alarm
+    -> returns the status of the alarm, whether it's "on" or "off"
+  HTTP POST /toggle-alarm
+    -> toggles the alarm and returns the current status of it
+  HTTP POST /setup
+    -> to save the Wi-Fi credentials and connect to the desired access point
+```
+
+The Web UI give you the current status of the door.
+
+It also features a form where you can input the Wi-Fi credentials to connect to your home network.
+
+This means that once the door monitor is connected to Wi-Fi, it's accessible via the hostname `gatekeeper`.
+
+E.g. with my FritzBox setup, it's available under `gatekeeper.fritz.box:80`
 
 
 ## Demo
