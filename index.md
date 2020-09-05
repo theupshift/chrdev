@@ -31,19 +31,7 @@ title: Home
   <p><a href="https://gumroad.com/l/yUhsLz" class="track-home-gumroad-techniques-seo">Get a copy of "Techniques to improve SEO"</a>&nbsp;&nbsp;<small>Book</small></p>
 </div>
 
-<div class="">
-  <a href="/subscribe/" class="track-home-subscribe-newsletter">Get updates from me in your inbox</a>
-  <form
-    action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
-    class="embeddable-buttondown-form-slim">
-      <input type="email" name="email" id="bd-email" placeholder="elon@tesla.com">
-      <input type="hidden" value="1" name="embed"></input>
-      <button type="submit">Subscribe</Button>
-  </form>
-</div>
+{% include 'stay-in-touch.html' %}
 
 <br>
 
