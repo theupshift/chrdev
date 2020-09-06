@@ -55,7 +55,7 @@ function trackClick ($el) {
   }
 }
 function makeSearchable ($searchable) {
-  const $search = document.createElement('input')
+  const $search = $searchable.querySelector('input') || document.createElement('input')
   $search.setAttribute('class', 'searchable-input')
   // $search.setAttribute('type', 'test')
   $search.setAttribute('placeholder', 'Search posts...')

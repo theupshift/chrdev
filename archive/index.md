@@ -9,6 +9,7 @@ title: Posts
 </p>
 
 <div class="posts searchable">
+  <input class="searchable-input" type="text"/>
 {% for post in collections.post | reverse %}
   <div class="searchable-item">
     <a href="{{ post.url }}" class="ellipsis">
