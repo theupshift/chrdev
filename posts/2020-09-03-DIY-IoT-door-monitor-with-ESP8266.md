@@ -96,7 +96,7 @@ Clone the repository
 git clone https://github.com/christian-fei/door-monitor-esp8266.git
 ```
 
-Open the project with Arduino IDE by clicking on the `Gatekeeper.ino` file.
+Open the project with Arduino IDE by clicking on the [`Gatekeeper.ino`](https://github.com/christian-fei/door-monitor-esp8266/blob/master/Gatekeeper.ino) file.
 
 There is no need to change the code. 
 
