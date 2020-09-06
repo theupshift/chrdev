@@ -4,6 +4,7 @@ printf "\n🚀  deploy\n"
 printf "\n"
 aws s3 sync \
   --acl public-read \
+  --size-only \
   --region eu-central-1 \
   --exclude "assets/**.jpg" \
   --exclude "assets/**.png" \

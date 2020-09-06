@@ -4,5 +4,6 @@ printf "\n🚀  deploy with assets\n"
 printf "\n"
 aws s3 sync \
   --acl public-read \
+  --size-only \
   --region eu-central-1 \
   ./_site/ s3://cri.dev
