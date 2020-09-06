@@ -57,8 +57,7 @@ function trackClick ($el) {
 function makeSearchable ($searchable) {
   const $search = $searchable.querySelector('input') || document.createElement('input')
   $search.setAttribute('class', 'searchable-input')
-  // $search.setAttribute('type', 'test')
-  $search.setAttribute('placeholder', 'Search posts...')
+  $search.setAttribute('placeholder', 'Search posts... (E.g. "2019", "node", "elixir", "puppeteer", "how to", "mongo")')
   $search.onkeyup = handleSearchKeyUp
   $searchable.parentNode.insertBefore($search, $searchable)
 
