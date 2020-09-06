@@ -51,7 +51,7 @@ git clone https://github.com/christian-fei/door-monitor-esp8266.git
 
 The worst photo I could take of the "Gate keeper" in action:
 
-![project photo](/assets/images/posts/door-monitor/project.jpg)
+[![project photo](/assets/images/posts/door-monitor/project.jpg)](https://github.com/christian-fei/door-monitor-esp8266/blob/master/Gatekeeper.svg)
 
 
 The Web UI that this thing has (see home-assistant integration [at the end](#next-steps))
