@@ -12,5 +12,17 @@ input.searchable-input {
   border-bottom: 1px solid #210;
   position: relative;
   width: 100%;
+  animation: grow .5s;
 }
 input.searchable-input:focus { background: #f1f0f0aa; }
+
+@keyframes grow {
+  from {
+    height: 0;
+    padding: 0;
+  }
+  to {
+    height: auto;
+    padding: 1.5em;
+  }
+}
