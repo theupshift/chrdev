@@ -9,22 +9,18 @@ input.searchable-input {
   margin-bottom: 0.5rem;
   outline: none;
   border: none;
-  border-bottom: 1px solid #210;
+  /* border-bottom: 1px solid #210; */
   position: relative;
   width: 100%;
-  /* animation: grow .5s; */
+  animation: fadeIn .5s;
 }
 input.searchable-input:focus { background: #f1f0f0aa; }
 
-@keyframes grow {
+@keyframes fadeIn {
   from {
-    height: 0;
-    padding: 0;
     opacity: 0;
   }
   to {
-    height: auto;
-    padding: 1.5em;
     opacity: 1;
   }
 }
