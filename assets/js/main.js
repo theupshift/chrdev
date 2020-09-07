@@ -26,12 +26,6 @@ function main () {
     document.body.classList.add('dark-mode')
     addDarkmodeQueryToInternalLinks()
   }
-
-  try {
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      document.body.classList.add('dark')
-    }
-  } catch (err) { console.error(err.message, err) }
 }
 
 function trackEvent (name, once = true) {
