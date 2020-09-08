@@ -26,7 +26,7 @@ title: Home
   </div>
 </div>
 
-<h2 class="">Featured</h2>
+<h2 class="no-anchor">Featured</h2>
 
 <div>
   <p><a href="/learn-testing-nodejs-javascript/" class="track-home-learn-testing-nodejs-javascript">Learn Testing with Node.js & JavaScript</a>&nbsp;&nbsp;<small>Book + Videos</small></span></p>
@@ -37,7 +37,7 @@ title: Home
 
 <br>
 
-<h2 class="">My latest blog post</h2>
+<h2 class="no-anchor">My latest blog post</h2>
 
 <div class="">
   <a href="{{ collections.post[collections.post.length - 1].url }}" class="no-anchor title">{{ collections.post[collections.post.length - 1].attributes.title }}</a>
@@ -45,7 +45,7 @@ title: Home
 
 <br>
 
-<h2 class="">Blog posts</h2>
+<h2 class="no-anchor">Blog posts</h2>
 
 <p>
   Below you can skim through the <b>{{ collections.post.length }} articles</b> I wrote over the years.
