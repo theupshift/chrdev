@@ -19,26 +19,43 @@ Where: On the interwebz
 
 Schedule: [code-beam-v#schedule](https://codesync.global/conferences/code-beam-v/#schedule)
 
+---
 
 ## Table of talks:
 
 #### Day 1
 
 - [Opening Keynote - The Future of Programming](#opening-keynote---the-future-of-programming)
-- [Building adaptive systems](building-adaptive-systems)
+- [Building adaptive systems](#building-adaptive-systems)
 - [Adopting Erlang, Adapting Rebar](#adopting-erlang-adapting-rebar)
 - [Elixir meets Erlang in Blockchain development](#elixir-meets-erlang-in-blockchain-development)
 - [Elixir update](#elixir-update)
 - [Closing Keynote - The Tyranny of Structurlessness](#closing-keynote---the-tyranny-of-structurlessness)
-
-#### Day 2
-
 - [Opening Keynote - Problem led Software Design](#opening-keynote---problem-led-software-design)
 - [How the BEAM will change your mind](#how-the-beam-will-change-your-mind)
 - [Gleam: Lean BEAM typing machine](#gleam-lean-beam-typing-machine)
 - [Cotonic: browser coroutines with an universal MQTT message bus](#cotonic-browser-coroutines-with-an-universal-mqtt-message-bus)
 - [An update from the OTP team](#an-update-from-the-otp-team)
 - [Closing Keynote: An update from the Erlang Ecosystem Foundation working groups](#closing-keynote-an-update-from-the-erlang-ecosystem-foundation-working-groups)
+- [Next Conferences](#next-conferences)
+- [Useful resources](#useful-resources)
+
+#### Day 2
+
+- [Opening Keynote - The Future of Programming](#opening-keynote---the-future-of-programming)
+- [Building adaptive systems](#building-adaptive-systems)
+- [Adopting Erlang, Adapting Rebar](#adopting-erlang-adapting-rebar)
+- [Elixir meets Erlang in Blockchain development](#elixir-meets-erlang-in-blockchain-development)
+- [Elixir update](#elixir-update)
+- [Closing Keynote - The Tyranny of Structurlessness](#closing-keynote---the-tyranny-of-structurlessness)
+- [Opening Keynote - Problem led Software Design](#opening-keynote---problem-led-software-design)
+- [How the BEAM will change your mind](#how-the-beam-will-change-your-mind)
+- [Gleam: Lean BEAM typing machine](#gleam-lean-beam-typing-machine)
+- [Cotonic: browser coroutines with an universal MQTT message bus](#cotonic-browser-coroutines-with-an-universal-mqtt-message-bus)
+- [An update from the OTP team](#an-update-from-the-otp-team)
+- [Closing Keynote: An update from the Erlang Ecosystem Foundation working groups](#closing-keynote-an-update-from-the-erlang-ecosystem-foundation-working-groups)
+- [Next Conferences](#next-conferences)
+- [Useful resources](#useful-resources)
 
 # Opening Keynote - The Future of Programming
 

@@ -15,8 +15,9 @@ After using [Brave](https://brave.com/?ref=gyg242) for almost a year, I can extr
 - 2,26GB of bandwidth saved
 - "2,1 hours saved" (no clue how this is calculated)
 
-
 But more importantly, I made some bucks!
+
+---
 
 In Brave browser you can opt-in to the [Brave Rewards](https://brave.com/brave-rewards/?ref=gyg242) program, which enables a BAT (Basic Attention Token) Wallet where the funds will be stored.
 

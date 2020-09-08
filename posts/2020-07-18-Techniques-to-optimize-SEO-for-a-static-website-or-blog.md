@@ -25,34 +25,29 @@ To make your content more **enjoyable by users** (social media sharing, RSS, sea
 
 <a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
+---
 
 # Table of contents
 
 [Read all about it in the ebook format](https://gumroad.com/products/yUhsLz)
 
-- [The head tag](#the-head-tag)
-  - [HTML5 (of course)](#html5-of-course)
-  - [Open Graph protocol](#open-graph-protocol)
-  - [utf-8](#utf-8)
-  - [the title tag](#the-title-tag)
-  - [meta tag "description"](#meta-tag-description)
-  - [feed the robots](#feed-the-robots)
-  - [canonical url](#canonical-url)
-  - [DNS preconnect](#dns-preconnect)
-  - [Google Site Verification](#google-site-verification)
-  - [RSS](#rss)
-  - [Responsive tags and others](#responsive-tags-and-others)
-  - [Web App meta tags](#web-app-meta-tags)
-  - [meta tag "author"](#meta-tag-author)
-  - [meta tag "keywords"](#meta-tag-keywords)
-  - [Icons](#icons)
-  - [schema.org data](#schemaorg-data)
-  - [Inline CSS and PageSpeed score](#inline-css-and-pagespeed-score)
-  - [Social Media Fluff](#social-media-fluff)
-  - [Twitter meta tags](#twitter-meta-tags)
-  - [Open Graph and Facebook](#open-graph-and-facebook)
-- [Schema.org meta data for articles](#schemaorg-meta-data-for-articles)
-- [Google WebMasters & Google search console](#google-webmasters-google-search-console)
+- [Table of contents](#table-of-contents)
+  - [The head tag](#the-head-tag)
+    - [HTML5 (of course)](#html5-of-course)
+    - [Open Graph protocol](#open-graph-protocol)
+    - [utf-8](#utf-8)
+    - [the title tag](#the-title-tag)
+    - [meta tag "description"](#meta-tag-description)
+    - [feed the robots](#feed-the-robots)
+    - [DNS preconnect](#dns-preconnect)
+    - [Google Site Verification](#google-site-verification)
+    - [Responsive tags and others](#responsive-tags-and-others)
+    - [meta tag "author"](#meta-tag-author)
+    - [meta tag "keywords"](#meta-tag-keywords)
+    - [Social Media Fluff](#social-media-fluff)
+      - [Twitter meta tags](#twitter-meta-tags)
+      - [Open Graph and Facebook](#open-graph-and-facebook)
+    - [I have compiled all of them in a ebook format](#i-have-compiled-all-of-them-in-a-ebook-format)
 
 **Read more techniques in the book**:
 

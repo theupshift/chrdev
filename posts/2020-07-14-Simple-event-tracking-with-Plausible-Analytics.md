@@ -22,6 +22,8 @@ window.plausible = window.plausible || function() { (window.plausible.q = window
 
 Whenever you call `plausible('...event...')` you put a tracking event in a *queue* (`window.plausible.q`) and will be tracked.
 
+---
+
 ## Track all the things
 
 Some ideas of what you could track:

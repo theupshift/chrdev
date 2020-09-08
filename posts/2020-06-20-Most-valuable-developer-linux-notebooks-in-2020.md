@@ -19,6 +19,8 @@ Ubuntu 20.04 also looks gorgeous and made me want to go back to the Linux side.
 
 So I started looking for a worthy laptop for the job, with excellent support for Linux, and these are my findings.
 
+---
+
 The notebooks are grouped by the following vendors:
 - Clevo (laptopwithlinux.com)
 - Dell

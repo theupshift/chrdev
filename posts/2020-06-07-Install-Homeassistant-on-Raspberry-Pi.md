@@ -18,6 +18,8 @@ image: https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2
 
 I recommend installing the Hass OS on a [Raspberry Pi 4](https://amzn.to/2zZl9Xj) with an [SD Card](https://amzn.to/2UjPxCt) of at least 32GB.
 
+---
+
 # Preparation
 
 [Download the system image from here](https://www.home-assistant.io/hassio/installation/) based on your Raspberry Pi model.

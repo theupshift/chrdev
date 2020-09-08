@@ -26,7 +26,7 @@ And I fell for it, as many, many others:
 - [ipadinsight.com](https://ipadinsight.com/airpods/my-airpods-pro-have-started-having-some-issues/)
 - [twitter.com](https://twitter.com/mgsiegler/status/1230589056108523520?lang=en)
 
-The plot goes like this.
+---
 
 ## A little AirPods story
 

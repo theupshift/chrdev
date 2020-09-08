@@ -20,6 +20,8 @@ Wi-Fi connectivity is built-in, and it's super affordable.
 
 > The ESP8266 is a low-cost Wi-Fi microchip, with a full TCP/IP stack and microcontroller capability ([wikipedia](https://en.wikipedia.org/wiki/ESP8266))
 
+---
+
 ## Table of Contents <!-- omit in toc -->
 
 - [tldr;](#tldr)
