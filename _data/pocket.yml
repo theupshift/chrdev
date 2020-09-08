@@ -503,8 +503,8 @@ pocket_items:
     url: https://hackernoon.com/quantifying-ycs-make-something-people-want-2d07b7762f56
     date: 2020-07-14
     id: 1863105769
-  - title: "Using the aria-hidden attribute"
-    url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute
+  - title: "Using the aria-hidden="true" attribute"
+    url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden="true"_attribute
     date: 2020-07-14
     id: 2693502892
   - title: "Make Something People Want"
