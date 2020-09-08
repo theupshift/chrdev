@@ -6,8 +6,7 @@ title: Portfolio
 {% block content %}
 <div class="card">
   <h1 class="title">Portfolio</h1>
-  <br>
-  <div class="flex">
+  <div class="flex mt">
     <div class="half" style="min-width: 25em;">
       <div class="">
         <h1 class="title">

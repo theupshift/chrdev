@@ -30,8 +30,4 @@ window.subscribers = {{ collections.subscribers | reverse | json | safe }}
   </div>
 </div>
 
-<br>
-<br>
-<br>
-<br>
 {% endblock %}

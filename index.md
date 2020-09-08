@@ -35,17 +35,13 @@ title: Home
 
 {% include 'stay-in-touch.html' %}
 
-<br>
-
-<h2 class="no-anchor">My latest blog post</h2>
+<h2 class="no-anchor mt">My latest blog post</h2>
 
 <div class="">
   <a href="{{ collections.post[collections.post.length - 1].url }}" class="no-anchor title">{{ collections.post[collections.post.length - 1].attributes.title }}</a>
 </div>
 
-<br>
-
-<h2 class="no-anchor">Blog posts</h2>
+<h2 class="no-anchor mt">Blog posts</h2>
 
 <p>
   Below you can skim through the <b>{{ collections.post.length }} articles</b> I wrote over the years.

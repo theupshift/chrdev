@@ -17,24 +17,18 @@ title: Posts
   Elixir, node.js, crypto, testing, tutorials, thoughts and more.
 </p>
 
+{% include 'subscribe-to-newsletter.html' %}
+
 <div class="posts">
 {% for post in collections.featured | reverse | limit5 %}
-  <article class="">
+  <article class="mb">
     <h1 class="title"><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
-    <header>
-      <p class="no-mobile">
-        <a target="_blank" rel="noreferrer" href="https://github.com/christian-fei/christian-fei.github.io/edit/master/{{ post.relativeSource }}">Found a typo? Edit this page on GitHub</a>
-      </p>
-      <p>
-        Written on &nbsp; <b>{{ post.data.date | isoday }}</b>
-      </p>
-      <p>
-        {{ post.htmlContent | words }} words - {{ post.htmlContent | readingTime }} 🕜
-      </p>
-    </header>
-    <div class="main-content">{{ post.htmlContent | safe }}</div>
+    <div class="main-content">{{ post.excerpt | safe }}</div>
   </article>
-  {% include 'subscribe-to-newsletter.html' %}
 {% endfor %}
 </div>
+
+<p class="alert-warning mt">
+  Skim through all posts on <a href="/archive">/archive</a>
+</p>
 {% endblock %}
