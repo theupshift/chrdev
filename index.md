@@ -61,4 +61,7 @@ title: Home
 {% endfor %}
 </div>
 
+{% include 'stay-in-touch.html' %}
+
+
 {% endblock %}
