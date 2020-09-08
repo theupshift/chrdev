@@ -47,10 +47,19 @@ main img { text-align: center; max-width: 100%; }
   opacity: 0.8;
   color: black;
 }
+.post {
+  max-width: 100%;
+}
+.post-link {
+  max-width: 40em;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
 
-/* 
-ul ul {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-} 
-*/
+@media all and (max-width: 50em) {
+  .post-date { display: block }
+  .post-link { max-width: 100% }
+}
