@@ -21,7 +21,7 @@ I use this super simple organizational trick / habit when signing up for newslet
 When I sign up to newsletters I always use the following email pattern:
 
 ```
-[username]+newsletter@...
+[username]+newsletter@my.tld
 ```
 
 Can't remember if this was GMail-only or not, nevertheless it works with [protonmail](https://proton.go2cloud.org/aff_c?offer_id=15&aff_id=1721&source=blog) too for example.
@@ -36,7 +36,7 @@ So, I set up a filter on [protonmail](https://proton.go2cloud.org/aff_c?offer_id
 
 ![protonmail filters](/assets/images/posts/newsletter-trick/protonmail-filters.png)
 
-This filter takes every email with the before mentioned pattern (`[username]+newsletter@...`) and puts it in the folder "News".
+This filter takes every email with the before mentioned pattern (`[username]+newsletter@my.tld`) and puts it in the folder "News".
 
 This is how the filter looks like:
 
