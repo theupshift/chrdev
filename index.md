@@ -20,7 +20,7 @@ title: Home
         </picture>
       </a>
       <p>
-        <a href="https://twitter.com/christian_fei" target="_blank" class="track-home-twitter-link" aria-hidden="true" tabindex="-1"><i class="icon icon-twitter"></i></a> | <a href="https://github.com/christian-fei" target="_blank" class="track-home-github-link" aria-hidden="true" tabindex="-1"><i class="icon icon-github"></i></a>
+        <a href="https://twitter.com/christian_fei" target="_blank" rel="noopener" class="track-home-twitter-link" aria-hidden="true" tabindex="-1"><i class="icon icon-twitter"></i></a> | <a href="https://github.com/christian-fei" target="_blank" class="track-home-github-link" aria-hidden="true" tabindex="-1"><i class="icon icon-github"></i></a>
       </p>
     </div>
   </div>

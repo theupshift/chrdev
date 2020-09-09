@@ -154,6 +154,7 @@ function processExternalLinks () {
   externalLinks.forEach(el => {
     if (el.getAttribute('href').startsWith('#')) return
     el.setAttribute('target', '_blank')
+    el.setAttribute('rel', 'noopener')
     !el.getAttribute('rel') && el.setAttribute('rel', 'nofollow external')
   })
 }
