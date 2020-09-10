@@ -111,6 +111,11 @@ module.exports = {
       return (Array.isArray(arr) ? arr : []).filter((_, i) => i < 10)
     }
   }, {
+    name: 'limit3',
+    filter: (arr) =>  {
+      return (Array.isArray(arr) ? arr : []).filter((_, i) => i < 3)
+    }
+  }, {
     name: 'limit5',
     filter: (arr) =>  {
       return (Array.isArray(arr) ? arr : []).filter((_, i) => i < 5)
