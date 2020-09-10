@@ -26,6 +26,25 @@ function main () {
     document.body.classList.add('dark-mode')
     addDarkmodeQueryToInternalLinks()
   }
+
+  const slideIn = document.querySelector('.subscribe-slidein')
+  if (slideIn) {
+    console.log('registered slideIn')
+    const close = slideIn.querySelector('.close-subscribe-slidein')
+    let closed = false
+    close.addEventListener('click', function () {
+      closed = true
+      slideIn.style.display = 'none'
+    })
+    document.addEventListener('scroll', function () {
+      if (closed) return
+      if (document.body.scrollHeight / 3 < window.scrollY) {
+        slideIn.style.display = 'block'
+      } else {
+        slideIn.style.display = 'none'
+      }
+    }, { capture: false, passive: true })
+  }
 }
 
 function trackEvent (name, once = true) {

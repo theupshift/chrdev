@@ -8,6 +8,7 @@ body { padding: 0.5em }
 .nav-item:first-of-type { padding: 0.4em 0.8em 0.4em 0 }
 .nav-item { padding: 0.4em 0.8em 0.4em }
 .avatar-image { height: 6em }
+.tar {text-align: right;}
 
 body .mt { margin-top: 4em; }
 body .mb { margin-bottom: 4em; }
@@ -80,4 +81,18 @@ main img { text-align: center; max-width: 100%; }
 .featured div {
   color: #333; 
   background-color: white;
+}
+
+.subscribe-slidein {
+  position: fixed;
+  bottom: 0em;
+  right: 0em;
+  background-color: #f7f7fd;
+  padding: 1em;
+  max-width: 35em;
+}
+@media all and (max-width: 40em) {
+  .subscribe-slidein {
+    max-width: 100%;
+  }
 }
