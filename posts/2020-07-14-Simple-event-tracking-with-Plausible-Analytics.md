@@ -28,7 +28,7 @@ Whenever you call `plausible('...event...')` you put a tracking event in a *queu
 
 Some ideas of what you could track:
 
-- is the CTA effective? Do people click on ["Learn Testing"](/learn-testing-nodejs-javascript/)
+- is the CTA effective?
 - do people use the navigation links in the header?
 - do users click on the featured posts after reading the article?
 - do people subscribe to the mailinglist after reaching the [/subscribe/](/subscribe/) page?

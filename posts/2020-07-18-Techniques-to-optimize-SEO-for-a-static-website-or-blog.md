@@ -15,7 +15,7 @@ image: https://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&
 
 SEO is as important as a good [mailing-list](/subscribe/) to reach your (potential) audience.
 
-Over the past 10 years, I've made some mistakes and also took home some knowledge about SEO for [blogs](https://github.com/christian-fei/christian-fei.github.io) and [websites](https://productlistings.app/) and [landing pages](/learn-testing-nodejs-javascript/).
+Over the past 10 years, I've made some mistakes and also took home some knowledge about SEO for [blogs](https://github.com/christian-fei/christian-fei.github.io) and [websites](https://productlistings.app/).
 
 Below I've compiled a list of techniques and code-snippets that I personally use (hint: `view-source`) to improve for organic website traffic and SEO.
 
