@@ -40,8 +40,8 @@ function main () {
       if (closed) return
       if (document.body.scrollHeight / 3 < window.scrollY) {
         slideIn.style.display = 'block'
-      } else {
-        slideIn.style.display = 'none'
+      // } else {
+      //   slideIn.style.display = 'none'
       }
     }, { capture: false, passive: true })
   }
