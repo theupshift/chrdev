@@ -71,3 +71,12 @@ main img { text-align: center; max-width: 100%; }
   .post-date { display: block }
   .post-link { max-width: 100% }
 }
+
+
+.featured {
+  min-height: 10em;
+}
+.featured div {
+  color: #333; 
+  background-color: white;
+}

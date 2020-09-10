@@ -37,7 +37,17 @@ title: Home
 <h2 class="no-anchor mt">My latest blog post</h2>
 
 <div class="">
-  <a href="{{ collections.post[collections.post.length - 1].url }}" class="no-anchor title">{{ collections.post[collections.post.length - 1].attributes.title }}</a>
+  <a 
+    href="{{ collections.post[collections.post.length - 1].url }}" 
+    {% if collections.post[collections.post.length - 1].attributes.image %} lazy="{{ collections.post[collections.post.length - 1].attributes.image }}" {% endif %}
+    class="post no-anchor title featured db pad"
+  >
+  <div class="">
+    <time datetime="{{ collections.post[collections.post.length - 1].data.date | isoday }}" class="post-date">{{ collections.post[collections.post.length - 1].data.date | isoday }}</time>
+    <span class="post-link">{{ collections.post[collections.post.length - 1].data.title }}</span>
+  </div>
+</a>
+  
 </div>
 
 <h2 class="no-anchor mt">Blog posts</h2>
