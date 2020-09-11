@@ -5,6 +5,5 @@ printf "\n"
 aws s3 sync \
   --acl public-read \
   --region eu-central-1 \
-  --exclude "assets/**.jpg" \
-  --exclude "assets/**.png" \
+  --exclude "assets/**" \
   ./_site/ s3://cri.dev
