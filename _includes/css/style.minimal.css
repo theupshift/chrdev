@@ -96,3 +96,11 @@ main img { text-align: center; max-width: 100%; }
     max-width: 100%;
   }
 }
+
+button {
+  display: inline-block;
+  padding: 0.3em;
+  outline: none;
+  border: 1px solid #333;
+  background: none;
+}

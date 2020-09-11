@@ -21,10 +21,6 @@ Below I've compiled a list of techniques and code-snippets that I personally use
 
 To make your content more **enjoyable by users** (social media sharing, RSS, search results) and **descriptive to machines** (SEO).
 
-**Read more techniques in the book**:
-
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
-
 ---
 
 # Table of contents
@@ -47,11 +43,7 @@ To make your content more **enjoyable by users** (social media sharing, RSS, sea
     - [Social Media Fluff](#social-media-fluff)
       - [Twitter meta tags](#twitter-meta-tags)
       - [Open Graph and Facebook](#open-graph-and-facebook)
-    - [I have compiled all of them in a ebook format](#i-have-compiled-all-of-them-in-a-ebook-format)
 
-**Read more techniques in the book**:
-
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 ## The head tag
 
@@ -78,10 +70,6 @@ add a descriptive title to your web pages. for consistency, I add `- News from C
 ```html
 <title>... - News from Chris</title>
 ```
-
-**Read more techniques in the book**:
-
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 
 ### meta tag "description"
@@ -159,9 +147,6 @@ It doesn't hurt if you include it:
 <meta name="keywords" content="Christian Fei,developer,programming,javascript,full-stack" />
 ```
 
-**Read more techniques in the book**:
-
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 Learn about topics like
 
@@ -204,9 +189,6 @@ Using the `og:` meta tags you define in the same way the content as above essent
 ... read more in the ebook
 ```
 
-**Read more techniques in the book**:
-
-<a class="gumroad-button" href="https://gum.co/yUhsLz" target="_blank">Get "20 Techniques to improve SEO"</a>
 
 More in the book about:
 
@@ -218,14 +200,6 @@ More in the book about:
 
 These are all the tricks I have to share!
 
-
-### [I have compiled all of them in a ebook format](https://gumroad.com/products/yUhsLz)
-
 I hope you found it useful and managed to see some improvements with the SEO of your site.
 
 Let's stay in touch: [@christian_fei](https://twitter.com/christian_fei)
-
-<script src="https://gumroad.com/js/gumroad-embed.js"></script>
-<div class="gumroad-product-embed" data-gumroad-product-id="yUhsLz"><a href="https://gumroad.com/l/yUhsLz">Loading...</a></div>
-
-<script src="https://gumroad.com/js/gumroad.js"></script>

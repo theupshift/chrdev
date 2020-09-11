@@ -26,12 +26,6 @@ title: Home
   </div>
 </div>
 
-<!-- <h2 class="no-anchor">Featured</h2> -->
-
-<div>
-  <p><a href="https://gumroad.com/l/yUhsLz" class="track-home-gumroad-techniques-seo">Get a copy of "Techniques to improve SEO"</a>&nbsp;&nbsp;<small>Book</small></p>
-</div>
-
 {% include 'stay-in-touch.html' %}
 
 <h2 class="no-anchor mt">Featured blog posts</h2>

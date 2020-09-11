@@ -31,17 +31,20 @@ function main () {
   if (slideIn) {
     console.log('registered slideIn')
     const close = slideIn.querySelector('.close-subscribe-slidein')
-    let closed = false
-    close.addEventListener('click', function () {
-      closed = true
-      slideIn.style.display = 'none'
-    })
-    document.addEventListener('scroll', function () {
-      if (closed) return
-      if (document.body.scrollHeight / 3 < window.scrollY) {
-        slideIn.style.display = 'block'
-      }
-    }, { capture: false, passive: true })
+    let closed = window.localStorage.getItem('closedSubscribe') || false
+    if (!closed) {
+      close.addEventListener('click', function () {
+        closed = true
+        window.localStorage.setItem('closedSubscribe', true)
+        slideIn.style.display = 'none'
+      })
+      document.addEventListener('scroll', function () {
+        if (closed) return
+        if (document.body.scrollHeight / 3 < window.scrollY) {
+          slideIn.style.display = 'block'
+        }
+      }, { capture: false, passive: true })
+    }
   }
 }
 
