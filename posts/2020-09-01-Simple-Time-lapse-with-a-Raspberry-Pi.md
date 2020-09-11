@@ -19,11 +19,11 @@ Had a spare **Raspberry Pi Zero W** catching dust, you can purchase one for ~ 25
 
 # Sneak peek
 
-Partial time-lapse of 2020-09-01 with final full moon
+Partial time-lapse of 2020-09-08 in 20 FPS (1 snapshot taken every minute)
 
 <video controls="" autoplay="" name="media">
-  <source src="/assets/videos/timelapse-2020-09-01.webm" type="video/webm">
-  <source src="/assets/videos/timelapse-2020-09-01.mp4" type="video/mp4">
+  <source src="/assets/videos/time-lapse-2020-09-08-20-fps.webm" type="video/webm">
+  <source src="/assets/videos/time-lapse-2020-09-08-20-fps.mp4" type="video/mp4">
 </video>
 
 ### Requirements
@@ -39,16 +39,19 @@ There is even an official [High Quality Camera](https://www.raspberrypi.org/prod
 
 ## Table of contents
 
-- [Preparation](#preparation)
-  - [Flash the Pi](#flash-the-pi)
-  - [Set up Wi-Fi connectivity](#set-up-wi-fi-connectivity)
-  - [Enable SSH access](#enable-ssh-access)
-  - [Enable Camera module](#enable-camera-module)
+- [Sneak peek](#sneak-peek)
+    - [Requirements](#requirements)
+  - [Table of contents](#table-of-contents)
+  - [Preparation](#preparation)
+    - [Flash the Pi](#flash-the-pi)
+    - [Set up Wi-Fi connectivity](#set-up-wi-fi-connectivity)
+    - [Enable SSH access](#enable-ssh-access)
+    - [Enable Camera module](#enable-camera-module)
 - [Create the time-lapse](#create-the-time-lapse)
   - [Take image with raspistill](#take-image-with-raspistill)
   - [Schedule capture with crontab](#schedule-capture-with-crontab)
-  - [Create time-lapse with ffmpeg / avconv](#create-time-lapse-with-ffmpeg--avconv)
   - [Directory listing of snapshots](#directory-listing-of-snapshots)
+  - [Create time-lapse with ffmpeg](#create-time-lapse-with-ffmpeg)
 - [raspberry-pi-time-lapse repository](#raspberry-pi-time-lapse-repository)
 
 ## Preparation
