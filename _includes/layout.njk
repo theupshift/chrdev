@@ -141,25 +141,7 @@
     </main>
 
     {% include "footer.html" %}
-
-    <div class="subscribe-slidein" style="display: none;">
-      <p style="margin-top: 0" class="tar close-subscribe-slidein">[x]</p>
-      <p>
-        I write on this blog quite frequently, covering topics like Programming, DIY, Node.js & JavaScript and more
-      </p>
-
-      <form
-        action="https://buttondown.email/api/emails/embed-subscribe/christianfei"
-        method="post"
-        target="popupwindow"
-        onsubmit="window.open('https://buttondown.email/christianfei', 'popupwindow')"
-        class="embeddable-buttondown-form-slim">
-          <input type="email" name="email" id="bd-email" placeholder="elon@tesla.com"/>
-          <input type="hidden" value="1" name="embed"/>
-          <button type="submit">Subscribe</button>
-      </form>
-
-    </div>
+    {% include "subscribe-slidein.html" %}
 
     <script async defer src="/assets/js/main.js" type="text/javascript"></script>
 
