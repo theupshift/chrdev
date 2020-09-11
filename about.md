@@ -46,7 +46,7 @@ I try to stay up to date with what people are coming up with, thus I read a lot,
 
 See a **data visualization** of my [GitHub contributions 📈](/contributions) over the years
 
-{% include 'subscribe-to-newsletter.html' %}
+{% include 'stay-in-touch.html' %}
 
 ## OSS Projects
 
@@ -100,7 +100,7 @@ When I was doing **Ruby** I felt on top of the world
 
 As a classic, **Java**, but I prefer to stay away from it
 
-{% include 'subscribe-to-newsletter.html' %}
+{% include 'stay-in-touch.html' %}
 
 {% endblock %}
 

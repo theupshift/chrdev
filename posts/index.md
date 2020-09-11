@@ -17,13 +17,14 @@ title: Posts
   Elixir, node.js, crypto, testing, tutorials, thoughts and more.
 </p>
 
-{% include 'subscribe-to-newsletter.html' %}
+{% include 'stay-in-touch.html' %}
 
 <div class="posts">
 {% for post in collections.featured | reverse | limit5 %}
   <article class="mb">
     <h1 class="title"><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
     <div class="main-content">{{ post.excerpt | safe }}</div>
+    <a href="{{ post.url }}">Read more</a>
   </article>
 {% endfor %}
 </div>
