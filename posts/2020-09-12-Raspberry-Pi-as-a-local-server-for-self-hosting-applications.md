@@ -1,5 +1,5 @@
 ---
-title: "Raspberry Pi as a local server"
+title: "Raspberry Pi as a local server for self hosting applications"
 date: 2020-09-12
 layout: post.njk
 tags:
