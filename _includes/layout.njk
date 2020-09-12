@@ -138,7 +138,15 @@
       <section class="pad">
       {% block content %}{% endblock %}
       </section>
+
+      {% if page.url !== '/' %}
+      <div>
+        <h2 class="no-anchor mt">Featured blog posts</h2>
+        {% include "featured.html" %}
+      </div>
+      {% endif %}
     </main>
+
 
     {% include "footer.html" %}
     {% include "subscribe-slidein.html" %}

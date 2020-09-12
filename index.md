@@ -28,21 +28,9 @@ title: Home
 
 {% include 'stay-in-touch.html' %}
 
-<h2 class="no-anchor mt">Featured blog posts</h2>
-
-<div class="">
-{% for post in collections.featured | reverse | limit3 %}
-  <a 
-    href="{{ post.url }}" 
-    {% if post.attributes.image %} lazy="{{ post.attributes.image }}" {% endif %}
-    class="post no-anchor title featured db pad"
-  >
-  <div class="">
-    <time datetime="{{ post.data.date | isoday }}" class="post-date">{{ post.data.date | isoday }}</time>
-    <span class="post-link">{{ post.data.title }}</span>
-  </div>
-</a>
-{% endfor %}
+<div>
+  <h2 class="no-anchor mt">Featured blog posts</h2>
+  {% include "featured.html" %}
 </div>
 
 <h2 class="no-anchor mt">Blog posts</h2>
