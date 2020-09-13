@@ -233,10 +233,11 @@ So far the experience was pretty pleasant.
 
 What I want to try out next is:
 
-- [NextCloud](https://nextcloud.com/)
-- [TriggerHappy](https://trigger-happy.readthedocs.io/en/latest/)
-- [Zenbot](https://github.com/carlos8f/zenbot): trading bot
+- [Tor Proxy](https://peppe8o.com/setup-a-tor-proxy-server-with-raspberry-pi-raspberry-pi-os-lite/)
 - [Inboxen](https://inboxen.org/): infinite number of unique inboxes
+- [TriggerHappy](https://trigger-happy.readthedocs.io/en/latest/)
+- [NextCloud](https://nextcloud.com/)
+- [Zenbot](https://github.com/carlos8f/zenbot): trading bot
 - [Firefly](https://www.firefly-iii.org/): personal finance
 - A password manager, haven't decided yet
 
