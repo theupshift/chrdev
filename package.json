@@ -7,9 +7,9 @@
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
     "clean-css": "^4.2.3",
-    "compromise": "^13.2.0",
-    "devblog": "^2.26.1",
-    "got": "^11.6.0",
+    "compromise": "^13.5.0",
+    "devblog": "^2.26.2",
+    "got": "^11.6.2",
     "http-server": "^0.12.3",
     "lodash": "^4.17.20",
     "node-fetch": "^2.6.1",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "npx cypress run",
-    "build": "devblog",
+    "build": "devblog ",
     "compress": "ucompress --source _site/assets/ --dest _site/assets",
     "purge": "./scripts/purge",
     "deploy": "./scripts/deploy",
