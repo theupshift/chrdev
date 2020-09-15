@@ -17,6 +17,11 @@
       {{ content | words }} words &middot; {{ content | readingTime }}
       &nbsp;&middot;&nbsp;
       by <a href="/about/" itemprop="author">cri</a>
+      {% if page.data.hackernews %}
+        <br>
+        <br>
+        Discussion <a href="{{ page.data.hackernews }}">on HackerNews</a>
+      {% endif %}
     </p>
 
     <div class="dash-figure"></div>
