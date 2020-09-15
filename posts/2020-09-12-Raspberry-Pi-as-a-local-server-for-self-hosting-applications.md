@@ -258,11 +258,10 @@ Verify connectivity through [check.torproject.org](https://check.torproject.org/
 
 So far the experience was pretty pleasant.
 
-3 out of 4 use cases (ffmpeg, n8n, emby, hakatime) worked out of the box.
+4 out of 5 use cases (ffmpeg, n8n, emby, hakatime, tor) worked out of the box.
 
 What I want to try out next is:
 
-- [Tor Proxy](https://peppe8o.com/setup-a-tor-proxy-server-with-raspberry-pi-raspberry-pi-os-lite/) ✅
 - [Inboxen](https://inboxen.org/): infinite number of unique inboxes
 - [TriggerHappy](https://trigger-happy.readthedocs.io/en/latest/)
 - [NextCloud](https://nextcloud.com/)
