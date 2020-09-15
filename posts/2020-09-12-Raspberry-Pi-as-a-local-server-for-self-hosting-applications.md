@@ -35,6 +35,7 @@ Below you can read my findings about performance, applications and general issue
   - [n8n for automation](#n8n-for-automation)
   - [emby for media server](#emby-for-media-server)
   - [hakatime](#hakatime)
+  - [Tor proxy](#tor-proxy)
 - [Final words](#final-words)
 
 
@@ -224,6 +225,33 @@ Will have to figure out how to build the project manually..
 
 That's a pity though, I was super stoked to get Hakatime up and running :(
 
+## Tor proxy
+
+Managed to easily set up a tor proxy on the Raspberry Pi.
+
+As easy as 
+
+```sh
+sudo apt install tor
+
+echo "SocksPort 0.0.0.0:9050\nSocksPolicy accept *\nRunAsDaemon 1" >> /etc/tor/torrc
+
+sudo systemctl restart tor@default.service
+```
+
+Now I can connect from my Mac to the RPi and browse via Tor.
+
+```sh
+# turn on
+networksetup -setsocksfirewallproxy "Wi-Fi" "serverry.fritz.box" "9050" off
+
+# turn off
+networksetup -setsocksfirewallproxystate "Wi-Fi" off
+```
+
+Verify connectivity through [check.torproject.org](https://check.torproject.org/?lang=en)
+
+![tor connectivity](assets/images/posts/rpi-mac/tor.png)
 
 # Final words
 
