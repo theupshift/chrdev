@@ -252,7 +252,7 @@ networksetup -setsocksfirewallproxystate "Wi-Fi" off
 
 Verify connectivity through [check.torproject.org](https://check.torproject.org/?lang=en)
 
-![tor connectivity](assets/images/posts/rpi-mac/tor.png)
+![tor connectivity](/assets/images/posts/rpi-mac/tor.png)
 
 # Final words
 
