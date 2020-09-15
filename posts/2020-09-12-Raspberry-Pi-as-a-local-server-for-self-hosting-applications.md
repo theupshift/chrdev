@@ -9,6 +9,7 @@ tags:
   - opensource
   - self-hosting
 image: /assets/images/posts/rpi-mac/rpi-mac-lan.jpg
+hackernews: https://news.ycombinator.com/item?id=24474309
 ---
 
 Doing an experiment with my RPi 4, using it as a small but powerful local server.
