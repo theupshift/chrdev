@@ -29,22 +29,7 @@ function main () {
 
   const slideIn = document.querySelector('.subscribe-slidein')
   if (slideIn) {
-    console.log('registered slideIn')
-    const close = slideIn.querySelector('.close-subscribe-slidein')
-    let closed = window.localStorage.getItem('closedSubscribe') || false
-    if (!closed) {
-      close.addEventListener('click', function () {
-        closed = true
-        window.localStorage.setItem('closedSubscribe', true)
-        slideIn.style.display = 'none'
-      })
-      document.addEventListener('scroll', function () {
-        if (closed) return
-        if (document.body.scrollHeight / 3 < window.scrollY) {
-          slideIn.style.display = 'block'
-        }
-      }, { capture: false, passive: true })
-    }
+    handleSubscribeSlidein(slideIn)
   }
 }
 
@@ -182,4 +167,23 @@ function processExternalLinks () {
 function addDarkmodeQueryToInternalLinks () {
   const internal = [...document.querySelectorAll(`a[href~='${window.location.hostname}'], a[href^='/']`)]
   internal.forEach(el => el.setAttribute('href', el.getAttribute('href') + '?dark'))
+}
+
+function handleSubscribeSlidein (slideIn) {
+  console.log('registered slideIn')
+  const close = slideIn.querySelector('.close-subscribe-slidein')
+  let closed = window.localStorage.getItem('closedSubscribe') || false
+  if (!closed) {
+    close && close.addEventListener('click', function () {
+      closed = true
+      window.localStorage.setItem('closedSubscribe', true)
+      slideIn.style.display = 'none'
+    })
+    document.addEventListener('scroll', function () {
+      if (closed) return
+      if (document.body.scrollHeight / 3 < window.scrollY) {
+        slideIn.style.display = 'block'
+      }
+    }, { capture: false, passive: true })
+  }
 }
