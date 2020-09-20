@@ -8,7 +8,7 @@ js:
 
 {% block content %}
 
-{% include 'subscribe-to-newsletter.html' %}
+{% include 'stay-in-touch.html' %}
 
 <script type="text/javascript">
 window.subscribers = {{ collections.subscribers | reverse | json | safe }}
