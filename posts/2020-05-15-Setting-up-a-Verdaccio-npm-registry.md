@@ -21,7 +21,7 @@ In case the `npm` registry goes down, it's wise to have a backup registry.
 
 `ssh` into your server.
 
-run `npm i -g verdaccio`.
+run `npm i -g verdaccio`. a free private npm registry
 
 # configuration
 
