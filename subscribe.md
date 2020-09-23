@@ -16,6 +16,8 @@ window.subscribers = {{ collections.subscribers | reverse | json | safe }}
 
 <h1 class="no-anchor">Join {{collections.subscribers.length}} subscribers!</h1>
 
+[View the past editions of my newsletter](https://buttondown.email/christianfei/archive/)
+
 <div class="chart-container" style="height: 200px">
   <canvas id="chart" style="height: 200px"></canvas>
 </div>
