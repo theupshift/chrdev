@@ -39,10 +39,9 @@ title: Home
   Below you can skim through the <b>{{ collections.post.length }} articles</b> I wrote over the years.
 </p>
 
-<div class="posts searchable">
-  <input class="searchable-input" type="text"/>
-{% for post in collections.post | reverse %}
-  <div class="searchable-item">
+<div class="posts">
+{% for post in collections.post | limit20 | reverse %}
+  <div>
     <a href="{{ post.url }}" class="post ellipsis">
       <div class="">
         <time datetime="{{ post.data.date | isoday }}" class="post-date">{{ post.data.date | isoday }}</time>
@@ -51,7 +50,11 @@ title: Home
     </a>
   </div>
 {% endfor %}
+  <br>
+  <a href="/archive/">Browse through all posts</a>
 </div>
+
+<br>
 
 {% include 'stay-in-touch.html' %}
 
