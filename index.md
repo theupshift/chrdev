@@ -40,7 +40,7 @@ title: Home
 </p>
 
 <div class="posts">
-{% for post in collections.post | limit20 | reverse %}
+{% for post in collections.post | reverse| limit20 %}
   <div>
     <a href="{{ post.url }}" class="post ellipsis">
       <div class="">
