@@ -123,7 +123,7 @@ another problem is "secondary use": the use of data for a unrelated use, ignorin
 
 this is of course a very "modern" problem, never before in history of humanity we had so much information available (digitally or physically).
 
-> **the problem with the nothing to hide argument is that it focuses on just one or two particular kinds of privacy problems (the disclosure of personal information or surveillance) and not others.** [^39]
+**the problem with the nothing to hide argument is that it focuses on just one or two particular kinds of privacy problems (the disclosure of personal information or surveillance) and not others.** [^39]
 
 Privacy problems are often difficult to recognize, since it's a very complicated and delicate matter.
 
