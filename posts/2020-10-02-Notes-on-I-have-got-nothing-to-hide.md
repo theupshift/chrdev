@@ -9,6 +9,12 @@ tags:
 image: https://images.unsplash.com/photo-1580847097346-72d80f164702?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
 ---
 
+**Originally posted on [decent.social](https://decent.social/blog/2020-10-02-Notes-on-I-have-got-nothing-to-hide/)**
+
+---
+
+*Read this on [decent.social](https://decent.social/blog/2020-10-02-Notes-on-I-have-got-nothing-to-hide/)*
+
 Recently I stumbled upon this paper about [“I've Got Nothing to Hide” and Other Misunderstandings of Privacy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565) by Daniel J. Solove
 
 Read it yourself, below you can find my notes about it.
