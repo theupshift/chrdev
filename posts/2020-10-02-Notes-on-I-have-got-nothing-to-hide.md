@@ -15,7 +15,8 @@ image: https://images.unsplash.com/photo-1580847097346-72d80f164702?ixlib=rb-1.2
 
 *Read this on [decent.social](https://decent.social/blog/2020-10-02-Notes-on-I-have-got-nothing-to-hide/)*
 
-Recently I stumbled upon this paper about [“I've Got Nothing to Hide” and Other Misunderstandings of Privacy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565) by Daniel J. Solove
+
+Recently I stumbled upon this paper about <a target="_blank" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565">“I've Got Nothing to Hide” and Other Misunderstandings of Privacy</a> by Daniel J. Solove
 
 Read it yourself, below you can find my notes about it.
 
@@ -23,61 +24,61 @@ Read it yourself, below you can find my notes about it.
 
 ## wiretapping, terrorism, analysis
 
-- the american government, after sep 11, engaged in mass surveillance and data-mining [^1]
+the american government, after sep 11, engaged in mass surveillance and data-mining [^1]
 
-- authorizing NSA to do warrantless wiretapping and analysis suspicious behaviour of its citizen [^2]
+authorizing NSA to do warrantless wiretapping and analysis suspicious behaviour of its citizen [^2]
 
-- 2002: various programs, e.g. Total Information Awareness (TIA) [^3] started collecting financial, health-related, educational and other data
+2002: various programs, e.g. Total Information Awareness (TIA) [^3] started collecting financial, health-related, educational and other data
 
-- looking for patterns of potential terrorism behaviour of its citizen [^4]
+looking for patterns of potential terrorism behaviour of its citizen [^4]
 
-- ultimately the program has been defunded, after it got the public eyes (most likely continuing in clandestine fashion) [^5]
+ultimately the program has been defunded, after it got the public eyes (most likely continuing in clandestine fashion) [^5]
 
-- 2006: analysis of customer records from major phone companies [^6]
+2006: analysis of customer records from major phone companies [^6]
 
-- 2006: access to bank records from SWIFT (Society for Worldwide Interbank Financial Transactions) [^7]
+2006: access to bank records from SWIFT (Society for Worldwide Interbank Financial Transactions) [^7]
 
--> outrage by many, ignorance by many other making the point “I’ve got nothing to hide” [^8]
+this brought to outrage by many, ignorance by many other making the point “I’ve got nothing to hide” [^8]
 
-- "if an individual acts in lawful ways, there's nothing to worry about" another point made [^9]
+"if an individual acts in lawful ways, there's nothing to worry about" another point made [^9]
 
-- "a privacy harm exists only if skeletons in the closet are revealed" another point made [^10]
+"a privacy harm exists only if skeletons in the closet are revealed" another point made [^10]
 
-- “If you have nothing to hide, then what do you have to fear?” [^11]
+“If you have nothing to hide, then what do you have to fear?” [^11]
 
-- Others ask: “If you aren’t doing anything wrong, then what do you have to hide?” [^12]
+Others ask: “If you aren’t doing anything wrong, then what do you have to hide?” [^12]
 
-- **The problem about privacy lies in this very question itself** [^13] 
+**The problem about privacy lies in this very question itself** [^13] 
 
 ## the "nothing to hide" argument
 
 most common points made:
 
-- nothing to hide, nothing to fear
+nothing to hide, nothing to fear
 
-- read my e-emails, i've got nothing to hide
+read my e-emails, i've got nothing to hide
 
-- profile me, analyze me, i've done nothing bad or illegal, do you?
+profile me, analyze me, i've done nothing bad or illegal, do you?
 
-- monitor my phone calls, read what I say about my noisy neighbour, i've got nothing to hide
+monitor my phone calls, read what I say about my noisy neighbour, i've got nothing to hide
 
-- if you have something to hide, you should be found, captured and sentenced [^14]
+if you have something to hide, you should be found, captured and sentenced [^14]
 
 responses:
 
-- do you have curtains? [^15]
+do you have curtains? [^15]
 
-- no need to justify my position, you need to justify yours (govt.): where is your warrant? [^16]
+no need to justify my position, you need to justify yours (govt.): where is your warrant? [^16]
 
-- nothing to hide on my side, but nothing to show you either [^17]
+nothing to hide on my side, but nothing to show you either [^17]
 
-- show me you credit card bills of the last year [^18]
+show me you credit card bills of the last year [^18]
 
-- it's about things not being anyone's business [^19]
+it's about things not being anyone's business [^19]
 
-- Stalin would have loved this [^20]
+Stalin would have loved this [^20]
 
-- everybody has something to hide from somebody. you just need to look hard enough. [^22]
+everybody has something to hide from somebody. you just need to look hard enough. [^22]
 
 By stating "I've got nothing to hide" you're totally OK with the government infringing rights of millions of people [^21]
 
@@ -90,9 +91,9 @@ This is why the arguments against "nothing to hide" is very difficult to get acr
 
 ## conceptualizing privacy
 
-- "nobody really seems to have any clear idea what privacy really is." [^26]
+"nobody really seems to have any clear idea what privacy really is." [^26]
 
-- "it's too vague and complex." [^27]
+"it's too vague and complex." [^27]
 
 understanding what privacy is, is essential to addressing privacy issues.
 
@@ -100,9 +101,9 @@ understanding what privacy is, is essential to addressing privacy issues.
 
 The problem with conceptualizing privacy with intimacy is that not all private information or decision we make are considered intimate (political views, social security number, religion etc). [^29]
 
-- Orwell's 1984 metaphor: focuses on the harms of surveillance (such as inhibition and social control) [^30]
+Orwell's 1984 metaphor: focuses on the harms of surveillance (such as inhibition and social control) [^30]
 
-- Another metaphor:  Franz Kafka’s The Trial, a bureaucracy with inscrutable purposes that uses people’s information to make important decisions about them, yet denies the people the ability to participate in how their information is used [^31]
+Another metaphor:  Franz Kafka’s The Trial, a bureaucracy with inscrutable purposes that uses people’s information to make important decisions about them, yet denies the people the ability to participate in how their information is used [^31]
 
 Read about [Taxonomy of Privacy](https://teachprivacy.com/taxonomy-of-privacy/) in more detail. 
 
@@ -145,7 +146,11 @@ This is definitely the most interesting paper I've ever read about Privacy.
 
 Read it here and do yourself a favor: [“I've Got Nothing to Hide” and Other Misunderstandings of Privacy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565)
 
----
+<h5>Check out <a href="/">Decent.Social</a>, an ad-free & privacy-friendly Twitter reader!</h5>
+
+<a target="_blank" rel="noopener" href="https://twitter.com/share?url=https://decent.social/blog/2020-10-02-Notes-on-I-have-got-nothing-to-hide/&text=Notes on I have got nothing to hide&ref_src=twsrc%5Etfw" class="twitter-share-button no-underline btn-primary btn-sm" data-show-count="false">Share this on Twitter <i class="icon icon-twitter"></i>&nbsp;</a>
+
+## Foot notes
 
 [^1]: James Risen & Eric Lichtblau, Bush Lets U.S. Spy on Callers Without Courts: Secret Order to Widen Domestic Monitoring, N.Y. TIMES, Dec. 16, 2005, at A1
 [^2]: James Risen & Eric Lichtblau, Bush Lets U.S. Spy on Callers Without Courts: Secret Order to Widen Domestic Monitoring, N.Y. TIMES, Dec. 16, 2005, at A1
