@@ -23,7 +23,7 @@
       Discussion <a href="{{ page.data.hackernews }}">on HackerNews</a>
       </p>
     {% endif %}
-    <p class="block">
+    <p class="space block">
       <b>Affordable VPS hosting</b> with <a href="https://m.do.co/c/880e8f681b50">DigitalOcean (100$ credit)</a>
       <br>
       (supports this site)
@@ -41,7 +41,7 @@
     {% endif %} #}
 
     {% if page.data.thanks %}
-    <p class="tac">
+    <p class="space block">
       Thanks to&nbsp;
       {% for person in page.data.thanks %}
         {% if loop.last %}and{% endif %}</a>
@@ -60,11 +60,11 @@
 
   <div class="main-content" itemprop="articleBody">{{ content | safe }}</div>
 
-  <p class="tac ">
+  <p class=" space block">
     {% include 'snippets/tweet-this.html' %}
   </p>
 
-  <div class="tac space block">
+  <div class="space tal block">
     Let me know what you think <a href="https://twitter.com/christian_fei">on Twitter @christian_fei</a>
     <br>
     or email me: hey [at] cri.dev
