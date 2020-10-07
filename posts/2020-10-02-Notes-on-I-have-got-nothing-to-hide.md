@@ -148,3 +148,47 @@ Do yourself a favor and read it here: [“I've Got Nothing to Hide” and Other 
 
 <h5>Check out <a href="/">Decent.Social</a>, an ad-free & privacy-friendly Twitter reader!</h5>
 
+
+## Foot notes
+
+[^1]: James Risen & Eric Lichtblau, Bush Lets U.S. Spy on Callers Without Courts: Secret Order to Widen Domestic Monitoring, N.Y. TIMES, Dec. 16, 2005, at A1
+[^2]: James Risen & Eric Lichtblau, Bush Lets U.S. Spy on Callers Without Courts: Secret Order to Widen Domestic Monitoring, N.Y. TIMES, Dec. 16, 2005, at A1
+[^3]: John Markoff, Pentagon Plans a Computer System That Would Peek at Personal Data of Americans, N.Y. TIMES, Nov. 9, 2002, at A12.
+[^4]: Leslie Cauley, NSA Has Massive Database of Americans’ Phone Calls, USA TODAY, May 11, 2006, at A1; Susan Page, Lawmakers: NSA Database Incomplete, USA TODAY, June 30, 2006, at A1.
+[^5]: DANIEL J. SOLOVE, THE DIGITAL PERSON: TECHNOLOGY AND PRIVACY IN THE INFORMATION AGE 169 (2004).
+[^6]: Leslie Cauley, NSA Has Massive Database of Americans’ Phone Calls, USA TODAY, May 11, 2006, at A1; Susan Page, Lawmakers: NSA Database Incomplete, USA TODAY, June 30, 2006, at A1.
+[^7]: Eric Lichtblau & James Risen, Bank Data Sifted in Secret by U.S. to Block Terror, N.Y. TIMES, June 23, 2006, at A1.
+[^8]: See infra text accompanying notes 12–33.
+[^9]: See infra text accompanying notes 12–33.
+[^10]: See infra text accompanying notes 12–33.
+[^11]: Bruce Schneier, Commentary, The Eternal Value of Privacy, WIRED, May 18, 2006, http://www.wired.com/news/columns/1,70886-0.html.
+[^12]: Bruce Schneier, Commentary, The Eternal Value of Privacy, WIRED, May 18, 2006, http://www.wired.com/news/columns/1,70886-0.html.
+[^13]: See infra text accompanying notes 12–33.
+[^14]: JEFFREY ROSEN, THE NAKED CROWD: RECLAIMING SECURITY AND FREEDOM IN AN ANXIOUS AGE (2004).
+[^15]: Comment of Adam to Concurring Opinions, supra note 17 (May 23, 2006, 16:27 EST).
+[^16]: Comment of Dissent to Concurring Opinions, supra note 17 (May 24, 2006, 07:48 EST).
+[^17]: Comment of Ian to Concurring Opinions, supra note 17 (May 24, 2006, 19:51 EST).
+[^18]: Comment of annegb to Concurring Opinions, http://www.concurringopinions.com/archives/2006/05/is_there_a_good.html#comments (May 23, 2006, 11:37 EST).
+[^19]: Comment of Catter to Concurring Opinions, supra note 17 (Oct. 16, 2006, 11:36 PM EST).
+[^20]: Comment of Kevin to Concurring Opinions, supra note 17 (July 24, 2006, 12:36 EST).
+[^21]: Comment of BJ Horn to Concurring Opinions, supra note 17 (June 2, 2006, 18:58 EST).
+[^22]: ALEKSANDR SOLZHENITSYN, CANCER WARD 192 (Nicholas Bethell & David Burg trans., Noonday Press 1991) (1968).
+[^23]: Comment of BJ Horn to Concurring Opinions, supra note 17 (June 2, 2006, 18:58 EST).
+[^24]: Comment of MJ to Concurring Opinions, supra note 17 (May 23, 2006, 17:30 EST).
+[^25]: See infra text accompanying notes 12–33.
+[^26]: Judith Jarvis Thomson, The Right to Privacy, in PHILOSOPHICAL DIMENSIONS OF PRIVACY: AN ANTHOLOGY 272, 272 (Ferdinand David Schoeman ed., 1984).
+[^27]: Robert C. Post, Three Concepts of Privacy, 89 GEO. L.J. 2087, 2087 (2001).
+[^28]: JULIE C. INNESS, PRIVACY, INTIMACY, AND ISOLATION 56 (1992).
+[^29]: Samuel D. Warren & Louis D. Brandeis, The Right to Privacy, 4 HARV. L. REV. 193, 193 (1890).
+[^30]: GEORGE ORWELL, 1984 (Signet Classic 1984) (1949); SOLOVE, supra note 4, at 7.
+[^31]: FRANZ KAFKA, THE TRIAL 50–58 (Willa & Edwin Muir trans., Random House 1956) (1937); SOLOVE, supra note 4, at 8–9.
+[^32]: Schneier, supra note 10.
+[^33]: See infra text accompanying notes 12–33.
+[^34]: See infra text accompanying notes 12–33.
+[^35]: SOLOVE, supra note 4, at 165–209; see also Daniel J. Solove, Digital Dossiers and the Dissipation of Fourth Amendment Privacy, 75 S. CAL. L. REV. 1083, 1117–37 (2002).
+[^36]: SOLOVE, supra note 4, at 165–209; see also Daniel J. Solove, Digital Dossiers and the Dissipation of Fourth Amendment Privacy, 75 S. CAL. L. REV. 1083, 1117–37 (2002). Privacy, and Definitions of Terms, AUSTRALIAN NATIONAL UNIVERSITY, Aug. 7, 2006, http://www.anu.edu.au/people/Roger.Clarke/DV/Intro.html.
+[^37]: See infra text accompanying notes 12–33.
+[^38]: See infra text accompanying notes 12–33.
+[^39]: See infra text accompanying notes 12–33.
+[^40]: See infra text accompanying notes 12–33.
+[^41]: See infra text accompanying notes 12–33.
