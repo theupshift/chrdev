@@ -85,4 +85,4 @@ In this way, `allTags` will be an array of all parsed tags in the markdown files
 
 For more in-depth explanation, I strongly suggest to skim through [this blog post on v8.dev](https://v8.dev/features/optional-chaining) where Optional chaining is discussed way more in depth.
 
-<blockquote><p>Portions of this page are modifications based on work created and <a href="/terms#site-policies">shared by the V8 project</a> and used according to terms described in <a href="https://creativecommons.org/licenses/by/3.0/">the Creative Commons 3.0 Attribution License</a>.</p></blockquote>
+<blockquote><p>Portions of this page are modifications based on work created and <a href="https://v8.dev/terms#site-policies">shared by the V8 project</a> and used according to terms described in <a href="https://creativecommons.org/licenses/by/3.0/">the Creative Commons 3.0 Attribution License</a>.</p></blockquote>

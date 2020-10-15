@@ -9,12 +9,7 @@ date: 2013-10-12 18:08:55
 
 Let's say you made a jQuery plugin and want to have an output (like a list of search results), whose aspect and format can be defined by the user.
 
-_______________
-
-
-The code provided in this article follows the same thought when I created the [Simple Jekyll Search jQuery plugin](/simple-jekyll-search-jquery-plugin/): create simple templates with regular expression.
-
-###Theory
+### Theory
 
 The theory is very simple:
 
@@ -60,9 +55,9 @@ A valid template could look like this :
 
 and you'll probably want to save that into a variable (see code below).
 
-###And now what?
+### And now what?
 
-I take this example again from [my jQuery plugin](/simple-jekyll-search-jquery-plugin/):
+I take this example again from my jQuery plugin:
 
 You could loop through the JSON object and replace each occurency of a property inside curly braces with the property that corresponds to the current item of the JSON object.
 
@@ -83,14 +78,14 @@ for (var i = 0; i < data.length; i++) {
 <small style='float:right'>kudos to [Todd Motto](http://toddmotto.com)</small>
 <br/>
 
-######update 20/10/2013
+###### update 20/10/2013
 
 [Todd Motto](http://toddmotto.com) [improved](http://jsfiddle.net/toddmotto/xxghB/) this idea with a very clever trick using a `for in` loop and `hasOwnProperty` to parse the data without errors. At the same time he got rid of the obsolete and redundant `properties` variable.
 
 See the [discussion](https://twitter.com/toddmotto/status/391850946999115776) on Twitter!
 
 
-######update 21/10/2013
+###### update 21/10/2013
 
 [Dillon de Voor](http://www.crocodillon.com/) suggested another solution in the [comments](#comment-1090158632). Pretty genius idea, I have to say:
 
@@ -103,5 +98,3 @@ for (var i = 0; i < data.length; i++) {
 	});
 }
 ```
-
-**Now this is also the official solution used in [Simple Jekyll Search](/simple-jekyll-search-jquery-plugin/)**

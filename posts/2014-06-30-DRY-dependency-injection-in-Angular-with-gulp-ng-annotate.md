@@ -9,7 +9,7 @@ tags:
 desc: "DRY dependency injection in Angular with gulp-ng-annotate"
 ---
 
-In a previous post I dug into [Angular DI and how it's done](/a-closer-look-at-angular-s-dependency-injection/).
+In a previous post I dug into [Angular DI and how it's done](/posts/2014-05-26-A-closer-look-at-Angular's-dependency-injection/).
 The most common way how you'll see dependencies annotated is with the inline array notation, like this:
 
 ```

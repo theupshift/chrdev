@@ -94,17 +94,3 @@ An example video:
 <video controls="" autoplay="" name="media">
   <source src="/assets/videos/crawl-with-api.mp4" type="video/mp4">
 </video>
-
-
----
-
-
-<div class="">
-  <a href="/posts/2020-03-09-Crawling-a-web-site-with-browserless,-puppeteer-and-Node.js/">
-  Pssst: learn how to crawl any website with puppeteer and browserless
-  </a>
-  <br>
-  <br>
-  Read more about <a href="/tags/puppeteer">puppeteer</a> and <a href="/tags/browserless">browserless</a>
-</div>
-

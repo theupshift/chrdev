@@ -7,7 +7,7 @@ tags:
   - tutorial
 ---
 
-you can find all my uebersicht widgets on github in my [dotfiles](/posts/My-dotfiles/):
+you can find all my uebersicht widgets on github in my [dotfiles](/posts/2017-03-30-My-dotfiles/):
 
 [christian-fei/dotfiles/tree/master/assets/uebersicht-widgets](https://github.com/christian-fei/dotfiles/tree/master/assets/uebersicht-widgets)
 

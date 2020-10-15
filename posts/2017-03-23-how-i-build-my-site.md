@@ -7,7 +7,7 @@ tags:
   - general
 ---
 
-Related: Read [how I deploy my site](/posts/how-i-deploy-my-site/).
+Related: Read [how I deploy my site](/posts/2017-03-24-how-i-deploy-my-site/).
 
 ---
 
@@ -134,7 +134,7 @@ Once i have them installed, I run `bundle exec jekyll serve` during development,
 
 ---
 
-It's not over yet. I still need [to deploy my site](/posts/how-i-deploy-my-site/).
+It's not over yet. I still need [to deploy my site](/posts/2017-03-24-how-i-deploy-my-site/).
 
 
 

@@ -12,7 +12,7 @@ Lately I felt overwhelmed by my *Obsessive Compulsive Reminder Disorder ™*. In
 ![inbox-full](/assets/images/posts/inbox-full.png)
 
 
-I wanted to keep track of these *discoveries* I made, so [/discover](/discover) was born.
+I wanted to keep track of these *discoveries* I made, so /discover was born.
 
 This way I have a timeline, some kind of personal bookmarks, shared publicly on my website! Win-Win!
 

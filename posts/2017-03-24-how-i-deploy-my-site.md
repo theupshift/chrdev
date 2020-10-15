@@ -7,7 +7,7 @@ tags:
   - general
 ---
 
-Related: Read [how I build my site](/posts/how-i-build-my-site/).
+Related: Read [how I build my site](/posts/2017-03-23-how-i-build-my-site/).
 
 ---
 
