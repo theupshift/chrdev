@@ -7,6 +7,7 @@ tags:
   - featured
   - privacy
 image: https://images.unsplash.com/photo-1580847097346-72d80f164702?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
+canonicalUrl: https://decent.social/blog/2020-10-02-Notes-on-I-have-got-nothing-to-hide/
 ---
 
 **Originally posted on [decent.social](https://decent.social/blog/2020-10-02-Notes-on-I-have-got-nothing-to-hide/)**
