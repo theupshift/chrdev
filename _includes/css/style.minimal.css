@@ -113,3 +113,16 @@ button {
 .footnotes-list {
   overflow: hidden;
 }
+
+#current-visitors-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0.75em 1em;
+  opacity: 0.3;
+  font-size: 0.9em;
+}
+
+#current-visitors-container:hover {
+  opacity: 1;
+}
