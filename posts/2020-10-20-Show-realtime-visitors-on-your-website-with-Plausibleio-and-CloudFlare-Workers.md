@@ -1,5 +1,5 @@
 ---
-title: "Show realtime visitors on your website with Plausible.io and CloudFlare Workers"
+title: "Show realtime visitors on your website with Plausible Analytics and CloudFlare Workers"
 date: 2020-10-20
 layout: post.njk
 tags:
