@@ -31,7 +31,7 @@ function main () {
   if (slideIn) { handleSubscribeSlidein(slideIn) }
 
   getCurrentVisitors().then(showCurrentVisitors)
-  setInterval(() => getCurrentVisitors().then(showCurrentVisitors), 10000)
+  setInterval(() => getCurrentVisitors().then(showCurrentVisitors), 30000)
 }
 
 function showCurrentVisitors (currentVisitors = 0) {
