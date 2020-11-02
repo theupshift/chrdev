@@ -9,6 +9,7 @@ tags:
   - iot
   - nodejs
 image: https://cri.dev/assets/images/posts/bangle/bangle.png
+twitterthread: https://twitter.com/christian_fei/status/1323375121600516101
 ---
 
 Recently I got myself a threat: a Bangle.js Watch! ⌚️
