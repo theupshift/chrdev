@@ -3,7 +3,6 @@ title: "How to fix xcode-select no developer tools found"
 date: 2020-11-02
 layout: post.njk
 tags:
-  - draft
   - post
   - xcode
   - mac
