@@ -13,6 +13,8 @@ tags:
 
 https://www.npmjs.com/package/noble
 
+https://www.npmjs.com/package/@abandonware/noble
+
 # Machine Learning and Tensorflow Lite
 
 https://www.nearform.com/blog/running-tensorflow-lite-on-nodewatch-bangle-js/
