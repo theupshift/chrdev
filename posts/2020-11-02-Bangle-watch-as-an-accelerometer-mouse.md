@@ -12,7 +12,7 @@ image: https://cri.dev/assets/images/posts/bangle/bangle.png
 twitterthread: https://twitter.com/christian_fei/status/1323377802809401345
 ---
 
-Recently I got myself a threat: a Bangle.js Watch! ⌚️
+Recently I got myself a treat: a Bangle.js Watch! ⌚️
 
 It's a pretty awesome, open-source watch based on Espruino and Node.js, and much more! 🤓
 
