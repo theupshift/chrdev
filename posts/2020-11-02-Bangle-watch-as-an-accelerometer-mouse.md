@@ -8,6 +8,7 @@ tags:
   - bangle
   - iot
   - nodejs
+image: https://cri.dev/assets/images/posts/bangle/bangle.png
 ---
 
 Recently I got myself a threat: a Bangle.js Watch! ⌚️
