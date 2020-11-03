@@ -4,7 +4,6 @@ date: 2020-10-20
 layout: post.njk
 tags:
   - post
-  - featured
   - javascript
   - analytics
   - plausible
