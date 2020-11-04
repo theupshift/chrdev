@@ -7,14 +7,14 @@
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
     "clean-css": "^4.2.3",
-    "compromise": "^13.5.0",
+    "compromise": "^13.7.0",
     "devblog": "^2.26.2",
-    "got": "^11.6.2",
+    "got": "^11.8.0",
     "http-server": "^0.12.3",
     "lodash": "^4.17.20",
     "node-fetch": "^2.6.1",
     "p-limit": "^3.0.1",
-    "ucompress": "^0.21.0"
+    "ucompress": "^0.21.2"
   },
   "scripts": {
     "test": "npx cypress run",
