@@ -3,7 +3,6 @@ title: "Communicating with Bangle.js Watch over BLE with Node.js"
 date: 2020-11-03
 layout: post.njk
 tags:
-  - draft
   - post
   - featured
   - bangle
