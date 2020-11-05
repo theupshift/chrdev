@@ -8,7 +8,7 @@ tags:
   - plausible
   - analytics
   - privacy
-image: https://cri.dev/assets/images/posts/plausible-dashboard-poll.png
+image: https://cri.dev/assets/images/posts/plausible-polls-example1.png
 ---
 
 Plausible Analytics [recently introduced](https://twitter.com/PlausibleHQ/status/1324269120028893184) Custom props for events (here [the docs](https://docs.plausible.io/custom-event-goals/#using-custom-props)).
@@ -18,6 +18,9 @@ This was the perfect opportunity for me to implement an idea I had long time ago
 The idea is to use Plausible's Custom props and hook them up to a simple poll component in JavaScript!
 
 Let's get started 🚀
+
+![plausible-polls-example1.png](/assets/images/posts/plausible-polls-example1.png)
+![plausible-polls-example2.png](/assets/images/posts/plausible-polls-example2.png)
 
 ---
 
