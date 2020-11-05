@@ -34,8 +34,8 @@ function main () {
 }
 
 function handlePoll (poll = [...document.querySelectorAll('[data-poll]')]) {
-  if (typeof window.plausible !== 'function') return poll && poll.parentNode && poll.parentNode.removeChild(poll)
   if (Array.isArray(poll)) return poll.forEach(handlePoll)
+  if (typeof window.plausible !== 'function') return poll && poll.parentNode && poll.parentNode.removeChild(poll)
 
   const pollName = poll.getAttribute('data-poll')
   if (!pollName) return poll && poll.parentNode && poll.parentNode.removeChild(poll)
