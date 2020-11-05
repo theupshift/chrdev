@@ -30,12 +30,13 @@ function main () {
   const slideIn = document.querySelector('.subscribe-slidein')
   if (slideIn) handleSubscribeSlidein(slideIn)
 
-  const polls = [...document.querySelectorAll('[data-poll]')]
-  if (Array.isArray(polls)) polls.map(handlePoll)
+  const polls = document.querySelectorAll('[data-poll]')
+  if (Array.isArray(polls)) polls.forEach(handlePoll)
 }
 
 function handlePoll (poll) {
   const pollName = poll.getAttribute('data-poll')
+  if (!pollName) return poll.parentNode.removeChild(poll)
   const storageKey = 'poll' + pollName + window.location.pathname
   if (localStorage.getItem(storageKey)) return poll.parentNode.removeChild(poll)
 
