@@ -4,9 +4,12 @@ date: 2020-11-05
 layout: post.njk
 tags:
   - post
+  - featured
   - plausible
   - analytics
   - privacy
+
+image: https://cri.dev/assets/images/posts/plausible-dashboard-poll.png
 ---
 
 Plausible Analytics [recently introduced](https://twitter.com/PlausibleHQ/status/1324269120028893184) Custom props for events (here [the docs](https://docs.plausible.io/custom-event-goals/#using-custom-props)).
