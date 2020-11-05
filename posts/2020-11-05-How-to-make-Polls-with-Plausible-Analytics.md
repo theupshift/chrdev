@@ -8,7 +8,6 @@ tags:
   - plausible
   - analytics
   - privacy
-
 image: https://cri.dev/assets/images/posts/plausible-dashboard-poll.png
 ---
 
