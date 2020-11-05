@@ -28,12 +28,10 @@ function main () {
   }
 
   const slideIn = document.querySelector('.subscribe-slidein')
-  if (slideIn) { handleSubscribeSlidein(slideIn) }
+  if (slideIn) handleSubscribeSlidein(slideIn)
 
-  const poll = document.querySelector('[data-poll]')
-  if (poll) {
-    handlePoll(poll)
-  }
+  const polls = [...document.querySelectorAll('[data-poll]')]
+  if (Array.isArray(polls)) polls.map(handlePoll)
 }
 
 function handlePoll (poll) {
