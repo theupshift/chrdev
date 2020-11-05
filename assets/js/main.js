@@ -29,6 +29,32 @@ function main () {
 
   const slideIn = document.querySelector('.subscribe-slidein')
   if (slideIn) { handleSubscribeSlidein(slideIn) }
+
+  const poll = document.querySelector('[data-poll]')
+  if (poll) {
+    handlePoll(poll)
+  }
+}
+
+function handlePoll (poll) {
+  const pollName = poll.getAttribute('data-poll')
+  const storageKey = 'poll' + pollName + window.location.pathname
+  if (localStorage.getItem(storageKey)) return poll.parentNode.removeChild(poll)
+
+  const $submit = poll.querySelectorAll('[data-answer]')
+  $submit.forEach($s => {
+    $s.addEventListener('click', function (event) {
+      const pollAnswer = event.target.getAttribute('data-answer')
+      console.log('clicked submit-poll', pollName, pollAnswer)
+      poll.innerHTML = `
+        <h2>Thanks for your feedback</h2>
+      `
+      window.localStorage.setItem(storageKey, true)
+      if (typeof window.plausible === 'function') {
+        window.plausible(pollName, { props: { answer: pollAnswer }})
+      }
+    })
+  })
 }
 
 function trackEvent (name, once = true) {
