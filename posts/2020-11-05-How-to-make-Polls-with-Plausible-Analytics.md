@@ -19,10 +19,14 @@ The idea is to use Plausible's Custom props and hook them up to a simple poll co
 
 Let's get started 🚀
 
+---
+
+# Examples
+
+Some examples
+
 ![plausible-polls-example1.png](/assets/images/posts/plausible-polls-example1.png)
 ![plausible-polls-example2.png](/assets/images/posts/plausible-polls-example2.png)
-
----
 
 # Define name of the poll
 
