@@ -4,11 +4,9 @@ date: 2020-11-03
 layout: post.njk
 tags:
   - post
-  - featured
   - bangle
   - nodejs
   - iot
-image: https://cri.dev/assets/images/posts/bangle/bangle.png
 ---
 
 This is a short summary of what I learned while playing around with my Bangle.js Watch.
