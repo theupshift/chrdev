@@ -51,7 +51,7 @@ function handlePoll (poll) {
       `
       window.localStorage.setItem(storageKey, true)
       if (typeof window.plausible === 'function') {
-        window.plausible(pollName, { props: { Answer: pollAnswer }})
+        window.plausible(pollName, { props: { answer: pollAnswer }})
       }
     })
   })
