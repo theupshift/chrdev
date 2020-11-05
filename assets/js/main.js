@@ -30,17 +30,20 @@ function main () {
   const slideIn = document.querySelector('.subscribe-slidein')
   if (slideIn) handleSubscribeSlidein(slideIn)
 
-  const polls = document.querySelectorAll('[data-poll]')
+  const polls = [...document.querySelectorAll('[data-poll]')]
   if (Array.isArray(polls)) polls.forEach(handlePoll)
 }
 
 function handlePoll (poll) {
+  if (typeof window.plausible !== 'function') return poll.parentNode.removeChild(poll)
+
   const pollName = poll.getAttribute('data-poll')
   if (!pollName) return poll.parentNode.removeChild(poll)
+
   const storageKey = 'poll' + pollName + window.location.pathname
   if (localStorage.getItem(storageKey)) return poll.parentNode.removeChild(poll)
 
-  const $submit = poll.querySelectorAll('[data-answer]')
+  const $submit = [...poll.querySelectorAll('[data-answer]')]
   $submit.forEach($s => {
     $s.addEventListener('click', function (event) {
       const pollAnswer = event.target.getAttribute('data-answer')
@@ -49,9 +52,7 @@ function handlePoll (poll) {
         <h2>Thanks for your feedback</h2>
       `
       window.localStorage.setItem(storageKey, true)
-      if (typeof window.plausible === 'function') {
-        window.plausible(pollName, { props: { Answer: pollAnswer }})
-      }
+      window.plausible(pollName, { props: { Answer: pollAnswer }})
     })
   })
 }
