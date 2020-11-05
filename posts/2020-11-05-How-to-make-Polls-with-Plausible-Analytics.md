@@ -9,7 +9,7 @@ tags:
   - privacy
 ---
 
-Plausible Analytics [recently introduced](https://twitter.com/PlausibleHQ/status/1324269120028893184) (here [the docs](https://docs.plausible.io/custom-event-goals/#using-custom-props)).
+Plausible Analytics [recently introduced](https://twitter.com/PlausibleHQ/status/1324269120028893184) Custom props for events (here [the docs](https://docs.plausible.io/custom-event-goals/#using-custom-props)).
 
 This was the perfect opportunity for me to implement an idea I had long time ago: (Privacy-friendly) Polls with Plausible Analytics!
 
