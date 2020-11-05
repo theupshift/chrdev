@@ -30,10 +30,10 @@ function main () {
   const slideIn = document.querySelector('.subscribe-slidein')
   if (slideIn) handleSubscribeSlidein(slideIn)
 
-  handlePoll(document.querySelectorAll('[data-poll]'))
+  handlePoll([...document.querySelectorAll('[data-poll]')])
 }
 
-function handlePoll (poll = document.querySelectorAll('[data-poll]')) {
+function handlePoll (poll = [...document.querySelectorAll('[data-poll]')]) {
   if (typeof window.plausible !== 'function') return poll && poll.parentNode && poll.parentNode.removeChild(poll)
   if (Array.isArray(poll)) return poll.forEach(handlePoll)
 
