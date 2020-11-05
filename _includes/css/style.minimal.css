@@ -126,3 +126,6 @@ button {
 #current-visitors-container:hover {
   opacity: 1;
 }
+iframe {
+  max-width: 100%;
+}
