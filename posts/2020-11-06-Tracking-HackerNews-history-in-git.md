@@ -4,9 +4,11 @@ date: 2020-11-06
 layout: post.njk
 tags:
   - post
+  - featured
   - hackernews
   - scraping
   - automation
+image: https://cri.dev/assets/images/posts/hn-diff.png
 ---
 
 First of all: this is based on the idea of https://simonwillison.net/2020/Oct/9/git-scraping/ and https://github.com/simonw/ca-fires-history
