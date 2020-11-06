@@ -35,6 +35,7 @@ Table of contents
   - [Second test: Parsing HTML to HackerNews item](#second-test-parsing-html-to-hackernews-item)
   - [Parsing the HTML](#parsing-the-html)
   - [Extracing more data](#extracing-more-data)
+- [Refactoring `parseNews`](#refactoring-parsenews)
 - [Combining Parsing and Fetching](#combining-parsing-and-fetching)
 
 # npm setup
@@ -166,6 +167,7 @@ test('parses items from html', t => {
   t.true(Array.isArray(news))
   t.is(news.length, 30)
   t.is(news[0].title, 'Deprecating scp')
+  t.is(news[0].url, 'https://lwn.net/SubscriberLink/835962/ae41b27bc20699ad/')
   ...
 })
 ```
@@ -198,7 +200,8 @@ function parseNews (html = '') {
     if (titles.length === 2) {
       const title = tr.querySelectorAll('.title')[1].text.replace(/\(.*\)$/, '').trim()
       return acc.concat([{
-        title
+        title,
+        url: tr.querySelector('.title a').getAttribute('href')
       }])
     }
     return acc
@@ -229,7 +232,7 @@ This satisfies our second test!
 
 Now we just extracted the title from each HackerNews post.
 
-We can further extract `upvotes`, `author` and `comments`.
+We can further extract `upvotes`, `author`, `link` and `comments`.
 
 Adapting the second test:
 
@@ -240,6 +243,8 @@ test('parses items from html', t => {
   t.true(Array.isArray(news))
   t.is(news.length, 30)
   t.is(news[0].title, 'Deprecating scp')
+  t.is(news[0].url, 'https://lwn.net/SubscriberLink/835962/ae41b27bc20699ad/')
+  t.is(news[0].link, 'https://news.ycombinator.com/item?id=25005567')
   t.is(news[0].author, 'Tomte')
   t.is(news[0].upvotes, 435)
   t.is(news[0].comments, 231)
@@ -257,7 +262,8 @@ function parseNews (html = '') {
     if (titles.length === 2) {
       const title = tr.querySelectorAll('.title')[1].text.replace(/\(.*\)$/, '').trim()
       return acc.concat([{
-        title
+        title,
+        url: tr.querySelector('.title a').getAttribute('href')
       }])
     }
     const subtext = tr.querySelector('.subtext')
@@ -268,6 +274,7 @@ function parseNews (html = '') {
       acc[acc.length - 1].upvotes = +el.text.replace(' points', '').trim()
       acc[acc.length - 1].author = links[0].text
       acc[acc.length - 1].comments = +links[links.length - 1].text.replace('comments', '').trim()
+      acc[acc.length - 1].link = 'https://news.ycombinator.com/' + links[links.length - 1].getAttribute('href')
       return acc
     }
     return acc
@@ -276,6 +283,71 @@ function parseNews (html = '') {
 ```
 
 Super, we now get a whole HackerNews item!
+
+# Refactoring `parseNews`
+
+`parseNews` is a messy garbage of HTML parsing with foreign selectors and special cases.
+
+To make it a bit easier to read, I would focus on the `if` statements.
+
+I'll try to make them clearer by adding two new functions to determine if the `<tr>` contains the title, or contains the upvotes, comments etc.
+
+```js
+function containsTitle (tr) {
+  const titles = tr.querySelectorAll('.title')
+  return titles.length === 2
+}
+function containsUpvotes (tr) {
+  const subtext = tr.querySelector('.subtext')
+  if (!subtext) return false
+  const el = subtext.querySelector('.score')
+  const links = subtext.querySelectorAll('a')
+  if (!el || links.length !== 4) return false
+  return true
+}
+```
+
+These two functions integrated in the current `parseNews` function:
+
+```js
+function parseNews (html = '') {
+  const doc = parse(html)
+  const trs = doc.querySelectorAll('table.itemlist tr')
+  return trs.reduce((acc, tr, index) => {
+    if (containsTitle(tr)) {
+      const title = tr.querySelectorAll('.title')[1].text.replace(/\(.*\)$/, '').trim()
+      return acc.concat([{
+        title,
+        url: tr.querySelector('.title a').getAttribute('href')
+      }])
+    }
+    if (containsUpvotes(tr)) {
+      const subtext = tr.querySelector('.subtext')
+      const el = subtext.querySelector('.score')
+      const links = subtext.querySelectorAll('a')
+      if (!el || links.length !== 4) return acc
+      acc[acc.length - 1].upvotes = +el.text.replace(' points', '').trim()
+      acc[acc.length - 1].author = links[0].text
+      acc[acc.length - 1].comments = +links[links.length - 1].text.replace('comments', '').trim()
+      acc[acc.length - 1].link = 'https://news.ycombinator.com/' + links[links.length - 1].getAttribute('href')
+      return acc
+    }
+    return acc
+  }, [])
+}
+function containsTitle (tr) {
+  const titles = tr.querySelectorAll('.title')
+  return titles.length === 2
+}
+function containsUpvotes (tr) {
+  const subtext = tr.querySelector('.subtext')
+  if (!subtext) return false
+  const el = subtext.querySelector('.score')
+  const links = subtext.querySelectorAll('a')
+  if (!el || links.length !== 4) return false
+  return true
+}
+```
 
 
 # Combining Parsing and Fetching
