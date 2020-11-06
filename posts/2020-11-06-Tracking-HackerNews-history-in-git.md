@@ -20,6 +20,8 @@ The gist:
   - save them in `hn.json`
   - commit and push
 
+Find the git repository here at [christian-fei/hn-history](https://github.com/christian-fei/hn-history)
+
 The schedule is done with the following GitHub Workflow file:
 
 ```yml
