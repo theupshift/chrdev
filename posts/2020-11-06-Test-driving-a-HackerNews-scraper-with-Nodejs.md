@@ -228,7 +228,7 @@ This satisfies our second test!
   2 tests passed
 ```
 
-## Extracing more data
+## Extracting more data
 
 Now we just extracted the title from each HackerNews post.
 
