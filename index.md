@@ -34,9 +34,7 @@ title: Home
   <br>
   A simple alternative for Twitter Threads with scheduling and much more
   <br>
-  <div class="space tal">
-    <iframe style="border: none; margin: 0 auto; display: block; max-width: 100%;" src="https://cards.producthunt.com/cards/posts/273628?v=1" width="500" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe>
-  </div>
+  {% include 'snippets/threadbuilder-producthunt.html' %}  
 </div>
 
 <div>
