@@ -129,3 +129,19 @@ button {
 iframe {
   max-width: 100%;
 }
+
+.title-with-image {
+  height: 10em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 1.2em !important;
+  line-height: 3;
+}
+.title-with-image::after {
+  display: none !important;
+}
+.title-with-image span {
+  background-color: white;
+  padding: 1em;
+}

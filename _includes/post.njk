@@ -4,7 +4,16 @@
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <h1 itemprop="name headline" class="title no-anchor">{{ title }}</h1>
+    {% if page.data.image %}
+      <h1 itemprop="name headline" class="title no-anchor title-with-image" 
+          style="background-image: url({{ page.data.image }})">
+        <span>{{ title }}</span>
+      </h1>
+    {% else %}
+      <h1 itemprop="name headline" class="title no-anchor">{{ title }}</h1>
+    {% endif %}
+
+    <br>
 
     <p class="light">
       <time datetime="{{ page.data.date | isoday }}" itemprop="datePublished">
@@ -29,9 +38,6 @@
       </p>
     {% endif %}
     <p class="space block">
-      Check out these products I made!
-      <br>
-      <br>
       <b class="dib">👉&nbsp;Privacy-friendly Twitter Reader <a href="https://decent.social/">decent.social</a></b>
       <br>
       <br>
