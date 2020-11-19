@@ -29,15 +29,6 @@ title: Home
 {% include 'stay-in-touch.html' %}
 
 <div>
-  <h2 class="no-anchor mt">Now</h2>
-  Right now I'm building <a href="https://threadbuilder.app/">ThreadBuilder.app</a>
-  <br>
-  A simple alternative for Twitter Threads with scheduling and much more
-  <br>
-  {% include 'snippets/threadbuilder-producthunt.html' %}  
-</div>
-
-<div>
   <h2 class="no-anchor mt">Featured blog posts</h2>
   {% include "featured.html" %}
 </div>

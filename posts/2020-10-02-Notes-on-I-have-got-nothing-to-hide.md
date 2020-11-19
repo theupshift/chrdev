@@ -7,14 +7,7 @@ tags:
   - featured
   - privacy
 image: https://images.unsplash.com/photo-1580847097346-72d80f164702?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80
-canonicalUrl: https://decent.social/blog/2020-10-02-Notes-on-I-have-got-nothing-to-hide/
 ---
-
-**Originally posted on [decent.social](https://decent.social/blog/2020-10-02-Notes-on-I-have-got-nothing-to-hide/)**
-
----
-
-*Read this on [decent.social](https://decent.social/blog/2020-10-02-Notes-on-I-have-got-nothing-to-hide/)*
 
 
 Recently I stumbled upon this paper about <a target="_blank" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565">“I've Got Nothing to Hide” and Other Misunderstandings of Privacy</a> by Daniel J. Solove
@@ -146,8 +139,6 @@ It represents a singular and narrow way of conceiving of privacy, and it wins by
 This is definitely the most interesting paper I've ever read about Privacy.
 
 Do yourself a favor and read it here: [“I've Got Nothing to Hide” and Other Misunderstandings of Privacy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565).
-
-<h5>Check out <a href="/">Decent.Social</a>, an ad-free & privacy-friendly Twitter reader!</h5>
 
 
 ## Foot notes
