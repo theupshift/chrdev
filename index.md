@@ -37,6 +37,8 @@ title: Home
 
 <p>
   Below you can skim through the <b>{{ collections.post.length }} articles</b> I wrote over the years.
+  <br>
+  <a href="/archive/">Browse through all posts</a>
 </p>
 
 <div class="posts">
@@ -50,8 +52,6 @@ title: Home
     </a>
   </div>
 {% endfor %}
-  <br>
-  <a href="/archive/">Browse through all posts</a>
 </div>
 
 <br>
