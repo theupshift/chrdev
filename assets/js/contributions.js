@@ -3,11 +3,11 @@
     return console.info('invalid data to draw contributions', data)
   }
 
-  var ctx = document.getElementById('yearsChart')
+  const ctx = document.getElementById('yearsChart')
   if (!ctx) {
     return console.info('missing chart element', ctx)
   }
-  var yearsChart = new window.Chart(ctx, {
+  const yearsChart = new window.Chart(ctx, {
     type: 'bar',
     data: {
       labels: data.map(d => d.year),

@@ -3,7 +3,7 @@
     return console.info('invalid data to draw subscribers', data)
   }
 
-  var ctx = document.getElementById('chart')
+  const ctx = document.getElementById('chart')
   if (!ctx) {
     return console.info('missing chart element', ctx)
   }
@@ -12,7 +12,7 @@
   const datesWithCount = data.reduce((acc, curr, i) => acc.concat([i + 1]), [])
   console.log('data', data, datesWithCount)
 
-  var chart = new window.Chart(ctx, {
+  const chart = new window.Chart(ctx, {
     type: 'line',
     data: {
       labels: data,

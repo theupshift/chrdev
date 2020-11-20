@@ -52,7 +52,7 @@ function handlePoll (poll = [...document.querySelectorAll('[data-poll]')]) {
         <h2>Thanks for your feedback</h2>
       `
       window.localStorage.setItem(storageKey, true)
-      window.plausible(pollName, { props: { Answer: pollAnswer }})
+      window.plausible(pollName, { props: { Answer: pollAnswer } })
     })
   })
 }
@@ -157,7 +157,7 @@ function lazyLoad (selector = '[lazy]') {
 
 function isScrolledIntoView (el) {
   if (!el) return
-  var rect = el.getBoundingClientRect()
+  const rect = el.getBoundingClientRect()
   return (
     rect.top >= 0 &&
     rect.left >= 0 &&
