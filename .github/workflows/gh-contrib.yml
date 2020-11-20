@@ -12,9 +12,11 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v2
-    - name: fetch contrib
+    - name: npm i 
       run: |-
         npm i
+    - name: fetch contrib
+      run: |-
         ./scripts/calc-contributions
     - name: Commit and push if it changed
       run: |-
