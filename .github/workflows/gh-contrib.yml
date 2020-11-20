@@ -1,6 +1,8 @@
 name: scrape github data
 
 on:
+  push:
+  workflow_dispatch:
   schedule:
     - cron:  '0 * * * *'
 
